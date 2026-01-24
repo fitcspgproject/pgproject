@@ -1,0 +1,9 @@
+# Prevent direct access to JSON files
+<Files "data1.json">
+    Header set X-Content-Type-Options "nosniff"
+    Header set Content-Type "text/plain"
+    
+    # Alternative: Return 403 Forbidden
+    # Order allow,deny
+    # Deny from all
+</Files>
