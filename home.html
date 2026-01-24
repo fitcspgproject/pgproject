@@ -701,21 +701,17 @@
                 loadingEl.style.display = 'block';
                 errorEl.style.display = 'none';
                 
-               // const response = await fetch('data1.json');
-                const response = await fetch('data1.json.txt');
+               const response = await fetch('data1.json');
+               
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }
                 
-              //  guideData = await response.json();
-                ///processGuideData(guideData);
-                //setupSearchSuggestions();
-                //updateHeaderStats();
-                const textData = await response.text();
-    guideData = JSON.parse(textData);
-    processGuideData(guideData);
-    setupSearchSuggestions();
-    updateHeaderStats();
+              guideData = await response.json();
+                processGuideData(guideData);
+                setupSearchSuggestions();
+                updateHeaderStats();
+              
                 loadingEl.style.display = 'none';
             } catch (error) {
                 console.error('Error loading data:', error);
@@ -955,3 +951,4 @@
 </body>
 
 </html>
+
