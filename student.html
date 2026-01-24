@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Project Details - Parul University</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 800px;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            margin: 20px auto;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .header .university-info {
+            font-size: 1.5rem;
+            margin-bottom: 5px;
+            font-weight: 700;
+        }
+
+        .header .department-info {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            margin-bottom: 15px;
+        }
+
+        .header h1 {
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        .search-section {
+            padding: 40px;
+            background: #f8fafc;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        .search-box {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .search-label {
+            display: block;
+            font-size: 1.2rem;
+            color: #334155;
+            margin-bottom: 15px;
+            font-weight: 600;
+            text-align: center;
+        }
+
+        .input-group {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        #enrollmentNumber {
+            flex: 1;
+            padding: 15px 20px;
+            border: 2px solid #e2e8f0;
+            border-radius: 12px;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            text-align: center;
+        }
+
+        #enrollmentNumber:focus {
+            outline: none;
+            border-color: #4f46e5;
+            box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1);
+        }
+
+        #searchBtn {
+            padding: 15px 30px;
+            background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+            color: white;
+            border: none;
+            border-radius: 12px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        #searchBtn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(79, 70, 229, 0.3);
+        }
+
+        #searchBtn:active {
+            transform: translateY(0);
+        }
+
+        .suggestions {
+            text-align: center;
+            color: #64748b;
+            font-size: 0.9rem;
+            margin-top: 10px;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #4f46e5;
+            font-size: 1.2rem;
+            display: none;
+        }
+
+        .loading-spinner {
+            border: 3px solid #f3f3f3;
+            border-top: 3px solid #4f46e5;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .error-message {
+            text-align: center;
+            color: #ef4444;
+            padding: 20px;
+            background: #fef2f2;
+            border-radius: 10px;
+            margin: 20px 0;
+            display: none;
+        }
+
+        .results-section {
+            padding: 40px;
+            min-height: 400px;
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 60px 40px;
+            color: #64748b;
+        }
+
+        .empty-icon {
+            font-size: 4rem;
+            margin-bottom: 20px;
+            opacity: 0.3;
+        }
+
+        .no-results {
+            text-align: center;
+            color: #64748b;
+            font-size: 1.2rem;
+            padding: 40px;
+            display: none;
+        }
+
+        .results-container {
+            display: none;
+        }
+
+        /* Student Details Card */
+        .student-card {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+            border: 1px solid #e2e8f0;
+            margin-bottom: 30px;
+        }
+
+        .student-header {
+            display: flex;
+            align-items: center;
+            gap: 25px;
+            margin-bottom: 25px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #f1f5f9;
+        }
+
+        .student-avatar {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            color: white;
+            font-weight: 700;
+            flex-shrink: 0;
+        }
+
+        .student-info h3 {
+            font-size: 1.8rem;
+            color: #1e293b;
+            margin-bottom: 5px;
+            font-weight: 700;
+        }
+
+        .student-info p {
+            color: #64748b;
+            font-size: 1.1rem;
+        }
+
+        /* Details Grid */
+        .details-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-bottom: 30px;
+        }
+
+        .detail-card {
+            background: #f8fafc;
+            border-radius: 10px;
+            padding: 20px;
+            border-left: 4px solid #4f46e5;
+        }
+
+        .detail-card h4 {
+            color: #4f46e5;
+            font-size: 1rem;
+            margin-bottom: 15px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .detail-item {
+            margin-bottom: 12px;
+        }
+
+        .detail-label {
+            font-weight: 600;
+            color: #334155;
+            display: block;
+            margin-bottom: 5px;
+            font-size: 0.9rem;
+        }
+
+        .detail-value {
+            color: #64748b;
+            font-size: 1rem;
+        }
+
+        .guide-name {
+            color: #4f46e5;
+            font-weight: 700;
+            font-size: 1.1rem;
+        }
+
+        /* Group Members Section */
+        .group-members-card {
+            background: #f8fafc;
+            border-radius: 15px;
+            padding: 25px;
+            border: 2px solid #e2e8f0;
+        }
+
+        .group-members-card h4 {
+            color: #4f46e5;
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+            font-weight: 600;
+            text-align: center;
+        }
+
+        .members-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+        }
+
+        .member-card {
+            background: white;
+            border-radius: 10px;
+            padding: 15px;
+            border: 1px solid #e2e8f0;
+            transition: all 0.3s ease;
+        }
+
+        .member-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            border-color: #4f46e5;
+        }
+
+        .member-name {
+            font-weight: 600;
+            color: #1e293b;
+            margin-bottom: 5px;
+            font-size: 1.1rem;
+        }
+
+        .member-enrollment {
+            color: #64748b;
+            font-size: 0.9rem;
+            margin-bottom: 3px;
+        }
+
+        .member-program {
+            color: #4f46e5;
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+
+        .current-student {
+            background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+            color: white;
+            border-color: #4f46e5;
+        }
+
+        .current-student .member-name,
+        .current-student .member-enrollment,
+        .current-student .member-program {
+            color: white;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                margin: 10px;
+                border-radius: 15px;
+            }
+
+            .header {
+                padding: 30px 20px;
+            }
+
+            .header h1 {
+                font-size: 1.8rem;
+            }
+
+            .search-section {
+                padding: 30px 20px;
+            }
+
+            .input-group {
+                flex-direction: column;
+            }
+
+            #searchBtn {
+                width: 100%;
+            }
+
+            .results-section {
+                padding: 30px 20px;
+            }
+
+            .student-header {
+                flex-direction: column;
+                text-align: center;
+                gap: 15px;
+            }
+
+            .details-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .members-list {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .header {
+                padding: 25px 15px;
+            }
+
+            .header h1 {
+                font-size: 1.6rem;
+            }
+
+            .student-avatar {
+                width: 70px;
+                height: 70px;
+                font-size: 1.5rem;
+            }
+
+            .student-info h3 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="university-info">Parul University</div>
+            <div class="department-info">Department of MCA</div>
+            <h1>🎓 Student Project Details</h1>
+            <p>Find your internal guide and group members using your enrollment number</p>
+        </div>
+
+        <div class="search-section">
+            <div class="search-box">
+                <label class="search-label">Enter Your Enrollment Number:</label>
+                <div class="input-group">
+                    <input type="text" id="enrollmentNumber" placeholder="e.g., 2405112110005" autocomplete="off">
+                    <button id="searchBtn">Find My Details</button>
+                </div>
+                <div class="suggestions">
+                    Example: "2405112110005" (Aditya Raj), "2405112120165" (Siddharth Deepak Saxena)
+                </div>
+            </div>
+        </div>
+
+        <div class="loading" id="loading">
+            <div class="loading-spinner"></div>
+            <p>Searching for your details...</p>
+        </div>
+
+        <div class="error-message" id="errorMessage">
+            Failed to load data. Please check if data.json is available and try again.
+        </div>
+
+        <div class="results-section">
+            <div class="empty-state" id="emptyState">
+                <div class="empty-icon">🎓</div>
+                <h3>Find Your Project Details</h3>
+                <p>Enter your enrollment number in the search box above to view your:</p>
+                <ul style="text-align: left; display: inline-block; margin-top: 15px;">
+                    <li>Internal Guide Name</li>
+                    <li>Project Details</li>
+                    <li>Group Members (if any)</li>
+                </ul>
+            </div>
+
+            <div class="no-results" id="noResults">
+                <div class="empty-icon">😕</div>
+                <h3>Student Not Found</h3>
+                <p>No student found with this enrollment number. Please check the number and try again.</p>
+            </div>
+
+            <div class="results-container" id="resultsContainer">
+                <!-- Student details will be inserted here -->
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let studentData = null;
+        let studentIndex = {};
+
+        // Load JSON data on page load
+        async function loadData() {
+            const loadingEl = document.getElementById('loading');
+            const errorEl = document.getElementById('errorMessage');
+            
+            try {
+                loadingEl.style.display = 'block';
+                errorEl.style.display = 'none';
+                
+                const response = await fetch('data1.json');
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                
+                studentData = await response.json();
+                buildStudentIndex();
+                
+                loadingEl.style.display = 'none';
+            } catch (error) {
+                console.error('Error loading data:', error);
+                loadingEl.style.display = 'none';
+                errorEl.style.display = 'block';
+                errorEl.innerHTML = `Failed to load data: ${error.message}.<br>Please ensure data.json is in the same directory.`;
+            }
+        }
+
+        // Build student index and group information
+        function buildStudentIndex() {
+            studentIndex = {};
+            
+            studentData.forEach(group => {
+                const internalGuide = group.internal_guide || 'Not Available';
+                const company = group.company_name || 'Not Available';
+                const address = group.address || 'Not Available';
+                
+                // Process all projects in this group
+                group.projects.forEach(project => {
+                    const projectTitle = project.project_title || 'Not Available';
+                    const projectDescription = project.project_description || '';
+                    const frontEnd = project.front_end || '';
+                    const backEnd = project.back_end || '';
+                    const sNo = project.s_no || 'N/A';
+                    
+                    // Collect all members in this project
+                    const groupMembers = project.members.map(member => ({
+                        name: member.name || 'Not Available',
+                        enrollment: member.enrollment || 'Not Available',
+                        mobile: member.mobile || 'Not Available',
+                        program: member.program || 'Not Available'
+                    }));
+                    
+                    // Index each student in this project
+                    project.members.forEach(member => {
+                        if (member.enrollment) {
+                            const enrollment = member.enrollment.trim();
+                            studentIndex[enrollment] = {
+                                // Student personal info
+                                name: member.name || 'Not Available',
+                                enrollment: enrollment,
+                                mobile: member.mobile || 'Not Available',
+                                program: member.program || 'Not Available',
+                                
+                                // Project info
+                                s_no: sNo,
+                                project_title: projectTitle,
+                                project_description: projectDescription,
+                                front_end: frontEnd,
+                                back_end: backEnd,
+                                
+                                // Guide and company info
+                                internal_guide: internalGuide,
+                                company: company,
+                                address: address,
+                                
+                                // Group members (excluding current student)
+                                group_members: groupMembers.filter(m => m.enrollment !== enrollment)
+                            };
+                        }
+                    });
+                });
+            });
+        }
+
+        // Search for student
+        function searchStudent() {
+            const enrollment = document.getElementById('enrollmentNumber').value.trim();
+            const emptyState = document.getElementById('emptyState');
+            const noResults = document.getElementById('noResults');
+            const resultsContainer = document.getElementById('resultsContainer');
+            
+            if (!enrollment) {
+                emptyState.style.display = 'block';
+                noResults.style.display = 'none';
+                resultsContainer.style.display = 'none';
+                return;
+            }
+            
+            if (!studentIndex[enrollment]) {
+                emptyState.style.display = 'none';
+                noResults.style.display = 'block';
+                resultsContainer.style.display = 'none';
+                return;
+            }
+            
+            displayStudentDetails(studentIndex[enrollment]);
+            emptyState.style.display = 'none';
+            noResults.style.display = 'none';
+            resultsContainer.style.display = 'block';
+        }
+
+        // Display student details
+        function displayStudentDetails(student) {
+            const resultsContainer = document.getElementById('resultsContainer');
+            
+            // Get initials for avatar
+            const name = student.name || 'Student';
+            const initials = name.split(' ').map(n => n[0]).join('').toUpperCase().substring(0, 2);
+            
+            // Split tech stack if available
+            const frontEndTech = student.front_end ? student.front_end.split(',').map(tech => tech.trim()) : [];
+            const backEndTech = student.back_end ? student.back_end.split(',').map(tech => tech.trim()) : [];
+            
+            // Check if student has group members
+            const hasGroupMembers = student.group_members && student.group_members.length > 0;
+            
+            const html = `
+                <div class="student-card">
+                    <div class="student-header">
+                        <div class="student-avatar">${initials}</div>
+                        <div class="student-info">
+                            <h3>${student.name}</h3>
+                            <p>${student.enrollment} • ${student.program}</p>
+                        </div>
+                    </div>
+                    
+                    <div class="details-grid">
+                        <!-- Guide Information -->
+                        <div class="detail-card">
+                            <h4>Internal Guide</h4>
+                            <div class="detail-item">
+                                <div class="detail-label">Guide Name</div>
+                                <div class="detail-value guide-name">${student.internal_guide}</div>
+                            </div>
+                        </div>
+                        
+                        <!-- Project Information -->
+                        <div class="detail-card">
+                            <h4>Project Details</h4>
+                            <div class="detail-item">
+                                <div class="detail-label">Project Title</div>
+                                <div class="detail-value">${student.project_title}</div>
+                            </div>
+                            <div class="detail-item">
+                                <div class="detail-label">Serial Number</div>
+                                <div class="detail-value">${student.s_no}</div>
+                            </div>
+                            ${student.project_description ? `
+                            <div class="detail-item">
+                                <div class="detail-label">Description</div>
+                                <div class="detail-value">${student.project_description}</div>
+                            </div>` : ''}
+                        </div>
+                        
+                        <!-- Contact Information -->
+                        <div class="detail-card">
+                            <h4>Contact Information</h4>
+                            <div class="detail-item">
+                                <div class="detail-label">Mobile</div>
+                                <div class="detail-value">${student.mobile}</div>
+                            </div>
+                            <div class="detail-item">
+                                <div class="detail-label">Enrollment</div>
+                                <div class="detail-value">${student.enrollment}</div>
+                            </div>
+                        </div>
+                        
+                        <!-- Company Information -->
+                        <div class="detail-card">
+                            <h4>Company Details</h4>
+                            <div class="detail-item">
+                                <div class="detail-label">Company Name</div>
+                                <div class="detail-value">${student.company}</div>
+                            </div>
+                            ${student.address ? `
+                            <div class="detail-item">
+                                <div class="detail-label">Company Address</div>
+                                <div class="detail-value">${student.address}</div>
+                            </div>` : ''}
+                        </div>
+                    </div>
+                    
+                    <!-- Technology Stack (if available) -->
+                    ${(frontEndTech.length > 0 || backEndTech.length > 0) ? `
+                    <div class="detail-card">
+                        <h4>Technology Stack</h4>
+                        ${frontEndTech.length > 0 ? `
+                        <div class="detail-item">
+                            <div class="detail-label">Front End</div>
+                            <div class="detail-value">${frontEndTech.join(', ')}</div>
+                        </div>` : ''}
+                        ${backEndTech.length > 0 ? `
+                        <div class="detail-item">
+                            <div class="detail-label">Back End</div>
+                            <div class="detail-value">${backEndTech.join(', ')}</div>
+                        </div>` : ''}
+                    </div>` : ''}
+                </div>
+                
+                <!-- Group Members Section -->
+                ${hasGroupMembers ? `
+                <div class="group-members-card">
+                    <h4>👥 Group Members (${student.group_members.length} member${student.group_members.length !== 1 ? 's' : ''})</h4>
+                    <div class="members-list">
+                        <!-- Current Student (Highlighted) -->
+                        <div class="member-card current-student">
+                            <div class="member-name">${student.name} (You)</div>
+                            <div class="member-enrollment">${student.enrollment}</div>
+                            <div class="member-program">${student.program}</div>
+                        </div>
+                        
+                        <!-- Other Group Members -->
+                        ${student.group_members.map(member => `
+                        <div class="member-card">
+                            <div class="member-name">${member.name}</div>
+                            <div class="member-enrollment">${member.enrollment}</div>
+                            <div class="member-program">${member.program}</div>
+                        </div>
+                        `).join('')}
+                    </div>
+                </div>` : `
+                <div class="group-members-card">
+                    <h4>👤 Working Individually</h4>
+                    <p style="text-align: center; color: #64748b; padding: 20px;">
+                        This student is working on an individual project.
+                    </p>
+                </div>`}
+            `;
+            
+            resultsContainer.innerHTML = html;
+        }
+
+        // Event Listeners
+        document.getElementById('searchBtn').addEventListener('click', searchStudent);
+        
+        document.getElementById('enrollmentNumber').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                searchStudent();
+            }
+        });
+
+        // Focus on input field when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            document.getElementById('enrollmentNumber').focus();
+        });
+
+        // Initialize on page load
+        window.addEventListener('DOMContentLoaded', loadData);
+    </script>
+</body>
+</html>

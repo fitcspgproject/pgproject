@@ -1,0 +1,4834 @@
+[
+  {
+    "company_name": "Jaravish Future Pvt. Ltd.",
+    "address": "VDS Corp. Park, Block H - 159, Sector 63, Delhi-NCR - 201301",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Vivek Dave",
+    "projects": [
+      {
+        "s_no": 1,
+        "members": [
+          {
+            "name": "Aditya Raj",
+            "enrollment": "2405112110005",
+            "mobile": "9262686369",
+            "program": "MCA, H"
+          }
+        ],
+        "project_title": "Banking Management System",
+        "project_description": "",
+        "front_end": "Java Swing, AWT",
+        "back_end": "Java"
+      }
+    ]
+  },
+  {
+    "company_name": "Linde Engineering Pvt Ltd",
+    "address": "Nilambar Circle Vadodara",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Vivek Dave",
+    "projects": [
+      {
+        "s_no": 2,
+        "members": [
+          {
+            "name": "Siddharth Deepak Saxena",
+            "enrollment": "2405112120165",
+            "mobile": "9023552664",
+            "program": "MCA, C"
+          }
+        ],
+        "project_title": "Data Analytics & Visualization using python",
+        "project_description": "",
+        "front_end": "DashBoard in Power BI",
+        "back_end": "NA"
+      }
+    ]
+  },
+  {
+    "company_name": "Nsemble Technologies Pvt Ltd",
+    "address": "55 D, 303, Muktanand complex, Behind SBI, Trimurti Nagar, Maharashtra - 440022",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Dr. Hina Chokshi",
+    "projects": [
+      {
+        "s_no": 3,
+        "members": [
+          {
+            "name": "Uday Kamdi",
+            "enrollment": "2205103120016",
+            "mobile": "7447200454",
+            "program": "IMCA, A"
+          }
+        ],
+        "project_title": "AI-Based Visual Quality Inspection for Defense & Ammunition Manufacturing",
+        "project_description": "",
+        "front_end": "Electron Forge (JS)",
+        "back_end": "FastAPI (Python)"
+      }
+    ]
+  },
+  {
+    "company_name": "Sentiment Ai",
+    "address": "9th Floor 910, Signet Hub Akshar Chowk, Vadodara, Gujarat, 390020",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Dr. Hina Chokshi",
+    "projects": [
+      {
+        "s_no": 4,
+        "members": [
+          {
+            "name": "Hitesh Vaishnav",
+            "enrollment": "2405112070020",
+            "mobile": "8690918335",
+            "program": "MCA, E"
+          }
+        ],
+        "project_title": "E-Hospital SmartCare system",
+        "project_description": "",
+        "front_end": "Html, Css, Bootstrap, JS",
+        "back_end": "PHP, Apache Server, MySql"
+      }
+    ]
+  },
+  {
+    "company_name": "TelesoftLabs Pvt Ltd",
+    "address": "Rajajinagar, Bengaluru",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Dr. Abhishek Mehta",
+    "projects": [
+      {
+        "s_no": 5,
+        "members": [
+          {
+            "name": "Dheeraj M Rajpurohit",
+            "enrollment": "2405102140006",
+            "mobile": "6363264947",
+            "program": "MSC-IT, G"
+          }
+        ],
+        "project_title": "SecureMe",
+        "project_description": "",
+        "front_end": "-",
+        "back_end": "-"
+      }
+    ]
+  },
+  {
+    "company_name": "MD INFOTECH",
+    "address": "312, Sunday Hub, Ambatalavdi, Katargam, Surat, Gujarat - 395004.",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Dr. Abhishek Mehta",
+    "projects": [
+      {
+        "s_no": 6,
+        "members": [
+          {
+            "name": "Sakshi Laxmandas Harjani",
+            "enrollment": "2405112120160",
+            "mobile": "7863009570",
+            "program": "MCA, C"
+          }
+        ],
+        "project_title": "Zooming-cls: A Web-Based Virtual Classroom Management System",
+        "project_description": "",
+        "front_end": "-",
+        "back_end": "-"
+      }
+    ]
+  },
+  {
+    "company_name": "Arth Consultancy Services",
+    "address": "4th Floor-401, Plot No 19, Above Baby Hug, Santi Nagar, Near Prabhat Cross Road, Opp Cosmos Bank, Wagodiya Road, Vadodara - 390019",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Manishkumar Joshi",
+    "projects": [
+      {
+        "s_no": 7,
+        "members": [
+          {
+            "name": "Soni Shreya Bakulbhai",
+            "enrollment": "2205103110011",
+            "mobile": "6358268290",
+            "program": "IMCA, A"
+          }
+        ],
+        "project_title": "Job Portal website",
+        "project_description": "",
+        "front_end": "HTML, CSS, JAVASCRIPT",
+        "back_end": "PHP, MYSQL"
+      }
+    ]
+  },
+  {
+    "company_name": "MICRO NANO Research & Development Center",
+    "address": "Parul University, Waghodia, Vadodara",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Manishkumar Joshi",
+    "projects": [
+      {
+        "s_no": 8,
+        "members": [
+          {
+            "name": "Anchal Maheshwari",
+            "enrollment": "2405112120016",
+            "mobile": "9521136860",
+            "program": "MCA, A"
+          },
+          {
+            "name": "Dhruv Gupta",
+            "enrollment": "2405112120058",
+            "mobile": "9427488059",
+            "program": "MCA, A"
+          }
+        ],
+        "project_title": "Research Management System for Parul University, Goa",
+        "project_description": "",
+        "front_end": "React & Next",
+        "back_end": "Node"
+      }
+    ]
+  },
+  {
+    "company_name": "JCN TECHNOLOGY PRIVATE LIMITED",
+    "address": "SE-18, Mega Mall, Old Ambica Mill Compound, Akota Road, Vadodara -390020",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof.Vijya Tulsani",
+    "projects": [
+      {
+        "s_no": 9,
+        "members": [
+          {
+            "name": "Patel Hetalben Pankajkumar",
+            "enrollment": "2405112110086",
+            "mobile": "8799236866",
+            "program": "MCA, I"
+          }
+        ],
+        "project_title": "Travel Management System",
+        "project_description": "",
+        "front_end": "HTML, CSS, JavaScript",
+        "back_end": "PHP, MySQL (phpMyAdmin), XAMPP"
+      }
+    ]
+  },
+  {
+    "company_name": "",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof.Vijya Tulsani",
+    "projects": [
+      {
+        "s_no": 10,
+        "members": [
+          {
+            "name": "Dhruvi Pareshbhai Patel",
+            "enrollment": "2405112110032",
+            "mobile": "73839 04106",
+            "program": "MCA, H"
+          },
+          {
+            "name": "Shruti Umakantbhai Patel",
+            "enrollment": "2405112110122",
+            "mobile": "74054 94662",
+            "program": "MCA, I"
+          }
+        ],
+        "project_title": "Movie Ticket Booking System",
+        "project_description": "",
+        "front_end": "React.js, HTML, CSS, JavaScript",
+        "back_end": "Node.js, Express.js, MongoDB"
+      }
+    ]
+  },
+  {
+    "company_name": "Bugrifix technology",
+    "address": "Meridian Business Center, 139, Lajamni Chowk, Shanti Niketan Society, Mota Varachha, Surat, Gujarat",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof.Sohil Parmar",
+    "projects": [
+      {
+        "s_no": 11,
+        "members": [
+          {
+            "name": "Rajesh Chaudhari",
+            "enrollment": "2205103050002",
+            "mobile": "7069433889",
+            "program": "IMCA, A"
+          },
+          {
+            "name": "Darshana vyas",
+            "enrollment": "2205103130001",
+            "mobile": "9636280748",
+            "program": "IMCA, -"
+          }
+        ],
+        "project_title": "Buildify - AI powered data dashboard",
+        "project_description": "",
+        "front_end": "React.js, next.js, tailwind css, shadcn, magic ui",
+        "back_end": "Postgres, OpenAI API, MongoDB, etc."
+      }
+    ]
+  },
+  {
+    "company_name": "Brainybeam info-Tech PVT LTD",
+    "address": "7th Floor, Premchand House, Near Old High Court Way / Behind ICICI Bank, Ashram Road, Ahmedabad 380009",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof.Sohil Parmar",
+    "projects": [
+      {
+        "s_no": 12,
+        "members": [
+          {
+            "name": "Parmar Priyanshusinh",
+            "enrollment": "2405102140024",
+            "mobile": "9265842755",
+            "program": "MSC-IT, G"
+          },
+          {
+            "name": "Sanjana Goswami",
+            "enrollment": "2405102140008",
+            "mobile": "6353733856",
+            "program": "MSC-IT, G"
+          },
+          {
+            "name": "Garima Damor",
+            "enrollment": "2405102140019",
+            "mobile": "9521471468",
+            "program": "MSC-IT, G"
+          }
+        ],
+        "project_title": "Roadify Assist",
+        "project_description": "",
+        "front_end": "XML – UI layouts",
+        "back_end": "Java/Kotlin"
+      }
+    ]
+  },
+  {
+    "company_name": "",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Hardik Parmar",
+    "projects": [
+      {
+        "s_no": 13,
+        "members": [
+          {
+            "name": "Rohan Patil",
+            "enrollment": "2405102140028",
+            "mobile": "8511345641",
+            "program": "MSC-IT, G"
+          },
+          {
+            "name": "Vidhi Patel",
+            "enrollment": "2405102120007",
+            "mobile": "6355523859",
+            "program": "MSC-IT, C"
+          }
+        ],
+        "project_title": "GlamTrends",
+        "project_description": "",
+        "front_end": "HTML, CSS, JAVASCRIPT, REACT JS",
+        "back_end": "PYTHON"
+      }
+    ]
+  },
+  {
+    "company_name": "",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Hardik Parmar",
+    "projects": [
+      {
+        "s_no": 14,
+        "members": [
+          {
+            "name": "Patel Sahil Mehmud",
+            "enrollment": "2405112110092",
+            "mobile": "7202912597",
+            "program": "MCA, I"
+          },
+          {
+            "name": "Mayuri Prabhulal Parmar",
+            "enrollment": "2405112110081",
+            "mobile": "63594 20397",
+            "program": "MCA, I"
+          }
+        ],
+        "project_title": "FreshMart",
+        "project_description": "",
+        "front_end": "React.js, HTML5, CSS3, JavaScript (ES6+), Redux/Context API, Bootstrap/Tailwind/Material UI",
+        "back_end": "Node.js, Express.js, RESTful APIs, JWT"
+      }
+    ]
+  },
+  {
+    "company_name": "",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof.Jigar Bhavsar",
+    "projects": [
+      {
+        "s_no": 15,
+        "members": [
+          {
+            "name": "Patel Dishaben Jigneshkumar",
+            "enrollment": "2405112140066",
+            "mobile": "8511545100",
+            "program": "MCA, F"
+          },
+          {
+            "name": "Patel Divyaben Jigneshkumar",
+            "enrollment": "2405112140067",
+            "mobile": "7284009668",
+            "program": "MCA, F"
+          },
+          {
+            "name": "Anjali Dargi",
+            "enrollment": "2405112140006",
+            "mobile": "73001 31317",
+            "program": "MCA, F"
+          }
+        ],
+        "project_title": "Studentology",
+        "project_description": "",
+        "front_end": "Android",
+        "back_end": "MySQL"
+      }
+    ]
+  },
+  {
+    "company_name": "",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof.Jigar Bhavsar",
+    "projects": [
+      {
+        "s_no": 16,
+        "members": [
+          {
+            "name": "Parekh Kuldeep Vineshbhai",
+            "enrollment": "2405112140063",
+            "mobile": "9313195088",
+            "program": "MCA, F"
+          },
+          {
+            "name": "Patel Manav Kamlesh",
+            "enrollment": "2405112140069",
+            "mobile": "9904799305",
+            "program": "MCA, F"
+          },
+          {
+            "name": "Patel Foram Jigneshkumar",
+            "enrollment": "2405112140068",
+            "mobile": "8511027804",
+            "program": "MCA, F"
+          }
+        ],
+        "project_title": "Home Plantation",
+        "project_description": "",
+        "front_end": "HTML, CSS, JavaScript",
+        "back_end": "PHP, MYSQL"
+      }
+    ]
+  },
+  {
+    "company_name": "",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Sweta Jethva",
+    "projects": [
+      {
+        "s_no": 17,
+        "members": [
+          {
+            "name": "Aaditya singh bisht",
+            "enrollment": "2405112140019",
+            "mobile": "8238704091",
+            "program": "MCA, F"
+          },
+          {
+            "name": "Aniket maheshwari",
+            "enrollment": "2405112140005",
+            "mobile": "9574443617",
+            "program": "MCA, F"
+          },
+          {
+            "name": "Nirmal bhatt",
+            "enrollment": "2405112140015",
+            "mobile": "9714288580",
+            "program": "MCA, F"
+          }
+        ],
+        "project_title": "Treck the North",
+        "project_description": "",
+        "front_end": "PHP",
+        "back_end": "HTML, CSS, JAVASCRIPT"
+      }
+    ]
+  },
+  {
+    "company_name": "",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Sweta Jethva",
+    "projects": [
+      {
+        "s_no": 18,
+        "members": [
+          {
+            "name": "Jignashaben Rameshbhai Bhil",
+            "enrollment": "2405112140101",
+            "mobile": "9316692796",
+            "program": "MCA, H"
+          }
+        ],
+        "project_title": "Web-based Restaurant Booking system with Table Reservation",
+        "project_description": "",
+        "front_end": "PHP",
+        "back_end": "MySQL"
+      }
+    ]
+  },
+  {
+    "company_name": "",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Vipul Gamit",
+    "projects": [
+      {
+        "s_no": 19,
+        "members": [
+          {
+            "name": "VASAVA PRATIK KUMAR DINESHBHAI",
+            "enrollment": "2405112140077",
+            "mobile": "9913341017",
+            "program": "MCA, F"
+          },
+          {
+            "name": "MAKWANA PRADIP KUMAR ARVIND BHAI",
+            "enrollment": "2405112140049",
+            "mobile": "6351586180",
+            "program": "MCA, F"
+          },
+          {
+            "name": "MAKWANA DARPAN KUMAR MANSANG BHAI",
+            "enrollment": "2405112140048",
+            "mobile": "9601609269",
+            "program": "MCA, F"
+          }
+        ],
+        "project_title": "Nest Home",
+        "project_description": "",
+        "front_end": "PHP",
+        "back_end": "MySQL"
+      }
+    ]
+  },
+  {
+    "company_name": "Enlighten Infosystem",
+    "address": "B2, Neptune tower, near BPC house, BPC road alkapuri, Vadodara",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Vipul Gamit",
+    "projects": [
+      {
+        "s_no": 20,
+        "members": [
+          {
+            "name": "Shruti Makwana",
+            "enrollment": "2405112130033",
+            "mobile": "6353497790",
+            "program": "MCA, D"
+          }
+        ],
+        "project_title": "Fresh.io",
+        "project_description": "",
+        "front_end": "HTML, CSS, JavaScript, React JS",
+        "back_end": "Node JS"
+      }
+    ]
+  },
+  {
+    "company_name": "bitinfotech",
+    "address": "B-205, Manubhai Tower, Opp. M. S. University, Sayajigunj, Vadodara",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Nirmit Shah",
+    "projects": [
+      {
+        "s_no": 21,
+        "members": [
+          {
+            "name": "Ashwar Mamta Rajendrabhai",
+            "enrollment": "2405112070009",
+            "mobile": "7096262823",
+            "program": "MCA, E"
+          },
+          {
+            "name": "Solanki Rachana",
+            "enrollment": "2405112140088",
+            "mobile": "9016791939",
+            "program": "MCA, F"
+          }
+        ],
+        "project_title": "Job Portal with Resume Parser (AI-Powered)",
+        "project_description": "",
+        "front_end": "HTML, CSS, JavaScript",
+        "back_end": "Python (Django Framework)"
+      }
+    ]
+  },
+  {
+    "company_name": "Hexablocks Tech",
+    "address": "215, Vishala Supreme, Sp Ring Road Nikol, Ahmedabad, Gujarat, India",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Nirmit Shah",
+    "projects": [
+      {
+        "s_no": 22,
+        "members": [
+          {
+            "name": "Paghadar Param",
+            "enrollment": "2405102140022",
+            "mobile": "7046307611",
+            "program": "MSC-IT, G"
+          }
+        ],
+        "project_title": "Lumina: Decentralized Real Estate Investment Platform",
+        "project_description": "",
+        "front_end": "React.js",
+        "back_end": "Nest.js"
+      }
+    ]
+  },
+  {
+    "company_name": "Matrix Comsec",
+    "address": "Makarpura, GIDC, Vadodara",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof.Shikha Bansal",
+    "projects": [
+      {
+        "s_no": 23,
+        "members": [
+          {
+            "name": "Mohit Agarwalla",
+            "enrollment": "2205103140010",
+            "mobile": "8260608181",
+            "program": "IMCA, A"
+          }
+        ],
+        "project_title": "IPVS System",
+        "project_description": "",
+        "front_end": "Web-based UI (HTML, CSS, JS)",
+        "back_end": "Server-side VMS with RTSP"
+      }
+    ]
+  },
+  {
+    "company_name": "Devkrushna Infotech Pvt Ltd",
+    "address": "415, Business Fair, Narayan Nagar Rd, opposite Swaminarayan Temple, Katargam, Surat, Gujarat 395004",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof.Shikha Bansal",
+    "projects": [
+      {
+        "s_no": 24,
+        "members": [
+          {
+            "name": "JANAK MUKESHBHAI AJUDIYA",
+            "enrollment": "2405102070001",
+            "mobile": "9711246095",
+            "program": "MSC-IT, E"
+          }
+        ],
+        "project_title": "Bus Ticket Booking System",
+        "project_description": "",
+        "front_end": "Html, css, javascript, jQuery",
+        "back_end": "Php + MySQL"
+      }
+    ]
+  },
+  {
+    "company_name": "Cosmius technologies",
+    "address": "Kamrej, surat, gujarat",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof.Rinku Patil",
+    "projects": [
+      {
+        "s_no": 25,
+        "members": [
+          {
+            "name": "Roshma Raj",
+            "enrollment": "2405112120158",
+            "mobile": "9023810076",
+            "program": "MCA, C"
+          }
+        ],
+        "project_title": "BAZZLINK",
+        "project_description": "",
+        "front_end": "Multi stack",
+        "back_end": "Multi stack"
+      }
+    ]
+  },
+  {
+    "company_name": "Mamo Technolabs",
+    "address": "No 27, RAAMA EMPERRO, 4th Floor, near Shell Petrol Pump, Vadodara, Gujarat 390009",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof.Rinku Patil",
+    "projects": [
+      {
+        "s_no": 26,
+        "members": [
+          {
+            "name": "Makwana Dhruv",
+            "enrollment": "2405112120095",
+            "mobile": "-",
+            "program": "MCA, B"
+          },
+          {
+            "name": "Patel Kartik",
+            "enrollment": "2405112120126",
+            "mobile": "-",
+            "program": "MCA, I"
+          },
+          {
+            "name": "Kayasth Ansh",
+            "enrollment": "2405112140040",
+            "mobile": "-",
+            "program": "MCA, F"
+          }
+        ],
+        "project_title": "GearVault – Gaming & Professional Gear Rental Platform",
+        "project_description": "",
+        "front_end": "HTML CSS3 Javascript",
+        "back_end": "PHP MySQL"
+      }
+    ]
+  },
+  {
+    "company_name": "",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Arun.U",
+    "projects": [
+      {
+        "s_no": 27,
+        "members": [
+          {
+            "name": "Buhecha Priyanshu Jiteshbhai",
+            "enrollment": "2405112140021",
+            "mobile": "9727213995",
+            "program": "MCA, F"
+          },
+          {
+            "name": "Patel Vanshkumar Dilipbhai",
+            "enrollment": "2405112140060",
+            "mobile": "8140053926",
+            "program": "MCA, F"
+          }
+        ],
+        "project_title": "DocDrop - Secure",
+        "project_description": "",
+        "front_end": "HTML, CSS, Bootstrap, JavaScript",
+        "back_end": "Python, Django"
+      }
+    ]
+  },
+  {
+    "company_name": "",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Arun.U",
+    "projects": [
+      {
+        "s_no": 28,
+        "members": [
+          {
+            "name": "Abhishekh Jaiswal",
+            "enrollment": "2405112130011",
+            "mobile": "8668823837",
+            "program": "MCA, D"
+          }
+        ],
+        "project_title": "Content review",
+        "project_description": "",
+        "front_end": "Html, css, javascript, bootstrap",
+        "back_end": "Php"
+      }
+    ]
+  },
+  {
+    "company_name": "APPIVA SOFTWARE PRIVATE LIMITED",
+    "address": "NAGGAPPA REDDY LAYOUT, KAGGADASAPURA, KARNATAKA appiva.in Shanti Nagar, Bengaluru",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof.Saswati Chatterjee",
+    "projects": [
+      {
+        "s_no": 29,
+        "members": [
+          {
+            "name": "SWAMY SINGAMPALLI",
+            "enrollment": "2405112120178",
+            "mobile": "9392308617",
+            "program": "MCA, C"
+          },
+          {
+            "name": "SUNDARA JYOTHI KRISHNA NAGARJUNA",
+            "enrollment": "2405112120184",
+            "mobile": "9117744777",
+            "program": "MCA, C"
+          }
+        ],
+        "project_title": "HOSPITAL MANAGEMENT SYSTEM",
+        "project_description": "",
+        "front_end": "Python (Tkinter)",
+        "back_end": "MySQL"
+      }
+    ]
+  },
+  {
+    "company_name": "",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof.Saswati Chatterjee",
+    "projects": [
+      {
+        "s_no": 30,
+        "members": [
+          {
+            "name": "Jarugula Bhanu Prasad",
+            "enrollment": "2405112110044",
+            "mobile": "8341343941",
+            "program": "MCA, H"
+          },
+          {
+            "name": "Talagadavevi Vinay sai",
+            "enrollment": "2405112120189",
+            "mobile": "6303028681",
+            "program": "MCA, C"
+          }
+        ],
+        "project_title": "A Tour and Travel Management System with an Admin Panel",
+        "project_description": "",
+        "front_end": "Html, css, javascript",
+        "back_end": "Php laravel"
+      }
+    ]
+  },
+  {
+    "company_name": "VasyERP",
+    "address": "Block A, 201-205 (Second Floor) & 301-305 (Third Floor), Neptune Corporate House, Behind Rajpath Club, Bodakdev, Ahmedabad, Gujarat 380054, India",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Faruk Abdulla",
+    "projects": [
+      {
+        "s_no": 31,
+        "members": [
+          {
+            "name": "Tushar parmar",
+            "enrollment": "2405112140092",
+            "mobile": "7984569840",
+            "program": "MCA, G"
+          }
+        ],
+        "project_title": "GearNest",
+        "project_description": "",
+        "front_end": "Thymeleaf",
+        "back_end": "Springboot"
+      }
+    ]
+  },
+  {
+    "company_name": "Skywave Info Solutions PVT LTD",
+    "address": "GANESH GLORY, C - 602, Jagatpur Rd, off Sarkhej - Gandhinagar Highway, near BSNL Office, Gota, Ahmedabad, Gujarat 382470",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Faruk Abdulla",
+    "projects": [
+      {
+        "s_no": 32,
+        "members": [
+          {
+            "name": "Hitkumar Sanjaybhai sutariya",
+            "enrollment": "2405102140041",
+            "mobile": "9426645658",
+            "program": "MSC-IT, G"
+          }
+        ],
+        "project_title": "Advanced Multi-Vendor E-Commerce Platform",
+        "project_description": "",
+        "front_end": "Html, Css, JavaScript, Ajax, Bootstrap",
+        "back_end": "PHP, MySQL"
+      }
+    ]
+  },
+  {
+    "company_name": "aebify tech",
+    "address": "Sunshine Complex, 307, Mota Varachha Main Rd, Hans Society, Mota Varachha, Surat, Gujarat 394101",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Vaishali Shah",
+    "projects": [
+      {
+        "s_no": 33,
+        "members": [
+          {
+            "name": "Dhruv Mali",
+            "enrollment": "2405112070025",
+            "mobile": "8980237478",
+            "program": "MCA, E"
+          }
+        ],
+        "project_title": "ElectroMart – Online Electronics Shopping System",
+        "project_description": "",
+        "front_end": "-",
+        "back_end": "-"
+      }
+    ]
+  },
+  {
+    "company_name": "Coding creators it solutions",
+    "address": "Plot No: 154 & 155, H.No. 1-72NE, Lane Number N-4, Nagarjuna Enclave, Miyapur, Hyderabad, Telangana - 500049",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Vaishali Shah",
+    "projects": [
+      {
+        "s_no": 34,
+        "members": [
+          {
+            "name": "Madhav Kumar",
+            "enrollment": "2405112140047",
+            "mobile": "9263093780",
+            "program": "MCA, F"
+          },
+          {
+            "name": "Rohan Dnyaneshwar Bhalkar",
+            "enrollment": "2405112070011",
+            "mobile": "8080184596",
+            "program": "MCA, E"
+          }
+        ],
+        "project_title": "Aksheyaganga Milk Collection – Dairy Management System",
+        "project_description": "",
+        "front_end": "React",
+        "back_end": "Node.js, Express.js, MongoDB"
+      }
+    ]
+  },
+  {
+    "company_name": "Blue Dwarf Technologies pvt ltd",
+    "address": "Gota, Ahemdabad",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Smarika Rai",
+    "projects": [
+      {
+        "s_no": 35,
+        "members": [
+          {
+            "name": "Rutu Sanghani",
+            "enrollment": "2205103120011",
+            "mobile": "-",
+            "program": "IMCA, A"
+          }
+        ],
+        "project_title": "ATT",
+        "project_description": "",
+        "front_end": "Angular",
+        "back_end": "C#"
+      }
+    ]
+  },
+  {
+    "company_name": "Elevance Skills",
+    "address": "Elevance Skills Technology Private Limited NO.2/180, PUNGAMPATTI VILLAGE, BARUR POST, KRISHNAGIRI, Krishnagiri, Tamil Nadu, India, 635201",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Smarika Rai",
+    "projects": [
+      {
+        "s_no": 36,
+        "members": [
+          {
+            "name": "Bhanu Prakash chiravuri",
+            "enrollment": "2205103140003",
+            "mobile": "9347510391",
+            "program": "IMCA, A"
+          }
+        ],
+        "project_title": "Agrocast Ai",
+        "project_description": "",
+        "front_end": "React.js, tailwind css",
+        "back_end": "Python (AI/ML), Node.js, Express.js, SQLite"
+      }
+    ]
+  },
+  {
+    "company_name": "Brainy Beam",
+    "address": "Ahemdabad, Gujarat",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Saumil Trivedi",
+    "projects": [
+      {
+        "s_no": 37,
+        "members": [
+          {
+            "name": "Devangi Pethani",
+            "enrollment": "2405102110002",
+            "mobile": "9723382052",
+            "program": "MSC-IT, I"
+          },
+          {
+            "name": "Milan Kalathiya",
+            "enrollment": "2405102140013",
+            "mobile": "9898912069",
+            "program": "MSC-IT, G"
+          },
+          {
+            "name": "Mansi Pethani",
+            "enrollment": "2405102110003",
+            "mobile": "8799392386",
+            "program": "MSC-IT, I"
+          }
+        ],
+        "project_title": "SphereLearn",
+        "project_description": "",
+        "front_end": "html, css",
+        "back_end": "Python, Django"
+      }
+    ]
+  },
+  {
+    "company_name": "Coding House",
+    "address": "Exiito, Commercial Hub, 305, near Vivekanand College, Jahangir Pura, Surat, Gujarat 395005",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Saumil Trivedi",
+    "projects": [
+      {
+        "s_no": 38,
+        "members": [
+          {
+            "name": "Shah Mahek Bhavik",
+            "enrollment": "2405112140084",
+            "mobile": "8160884339",
+            "program": "MCA, F"
+          },
+          {
+            "name": "Anjani kumar",
+            "enrollment": "2405112140007",
+            "mobile": "7632895266",
+            "program": "MCA, F"
+          }
+        ],
+        "project_title": "Learning management system",
+        "project_description": "",
+        "front_end": "React JS, HTML5, CSS3, JavaScript",
+        "back_end": "Node.js, Rest API, MongoDB, JWT"
+      }
+    ]
+  },
+  {
+    "company_name": "GAIL India Limited",
+    "address": "Gail complex, Plot no. 549/1, Ajit nagar, GAIL (India) Limited, Akota, Vadodara - 390020",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof.Rinkal Sarvaiya",
+    "projects": [
+      {
+        "s_no": 39,
+        "members": [
+          {
+            "name": "Jinal s Jadav",
+            "enrollment": "2405112140035",
+            "mobile": "9313097941",
+            "program": "MCA, F"
+          }
+        ],
+        "project_title": "Employee Leave Management",
+        "project_description": "",
+        "front_end": "HTML5, CSS3, JavaScript",
+        "back_end": "PHP & MySQL"
+      }
+    ]
+  },
+  {
+    "company_name": "Semicolon Solution",
+    "address": "Surat, Gujarat 394101",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof.Rinkal Sarvaiya",
+    "projects": [
+      {
+        "s_no": 40,
+        "members": [
+          {
+            "name": "Meet Patel",
+            "enrollment": "2405112110090",
+            "mobile": "76006 50640",
+            "program": "MCA, I"
+          },
+          {
+            "name": "Nishchay Gandhi",
+            "enrollment": "2405112110077",
+            "mobile": "70147 28365",
+            "program": "MCA, I"
+          },
+          {
+            "name": "Abhishek Kumar Pal",
+            "enrollment": "2405112110001",
+            "mobile": "8788454065",
+            "program": "MCA, H"
+          }
+        ],
+        "project_title": "E solar booking system",
+        "project_description": "",
+        "front_end": "HTML5, CSS3, Bootstrap, JavaScript",
+        "back_end": "PHP (Laravel), MySQL"
+      }
+    ]
+  },
+  {
+    "company_name": "CG Solutions",
+    "address": "Jamnagar",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Sonali Kharade",
+    "projects": [
+      {
+        "s_no": 41,
+        "members": [
+          {
+            "name": "Vraj Umeshkumar Patel",
+            "enrollment": "2405112070065",
+            "mobile": "9081273691",
+            "program": "MCA, E"
+          },
+          {
+            "name": "Gokani Raj Manishkumar",
+            "enrollment": "2405112070018",
+            "mobile": "9427044344",
+            "program": "MCA, E"
+          }
+        ],
+        "project_title": "HouseEstate",
+        "project_description": "",
+        "front_end": "-",
+        "back_end": "-"
+      }
+    ]
+  },
+  {
+    "company_name": "TechFlitter Solutions Pvt. Ltd.",
+    "address": "1115-1116, Iconic Shyamal, Shyamal Cross Road, Satellite, Ahmedabad.",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Sonali Kharade",
+    "projects": [
+      {
+        "s_no": 42,
+        "members": [
+          {
+            "name": "Shivam Sheth",
+            "enrollment": "2405112110121",
+            "mobile": "9737887178",
+            "program": "MCA, I"
+          }
+        ],
+        "project_title": "Trendify",
+        "project_description": "",
+        "front_end": "ReactJs + NestJs",
+        "back_end": "PHP + Laravel12 Framework"
+      }
+    ]
+  },
+  {
+    "company_name": "Megh Technologies",
+    "address": "911, Sanket Heights, Nr. Akshar Chowk.Old Padra Road, Vadodora- 390020, Gujarat, India.",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Preeti Sharma",
+    "projects": [
+      {
+        "s_no": 43,
+        "members": [
+          {
+            "name": "Megh Patil",
+            "enrollment": "2405112140051",
+            "mobile": "8200280197",
+            "program": "MCA, I"
+          },
+          {
+            "name": "Krisha Rami",
+            "enrollment": "2405112110106",
+            "mobile": "9408414638",
+            "program": "MCA, I"
+          },
+          {
+            "name": "Yash Parmar",
+            "enrollment": "2405112140064",
+            "mobile": "90239 58769",
+            "program": "MCA, I"
+          }
+        ],
+        "project_title": "Php project",
+        "project_description": "",
+        "front_end": "-",
+        "back_end": "-"
+      }
+    ]
+  },
+  {
+    "company_name": "Paarsh Infotech Pvt Ltd",
+    "address": "Office No. 1, Bhakti Apartment, near Hotel Rasoi, Suchita Nagar, Mumbai Naka, Nashik, Maharashtra, India",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Vishakha Bathwar",
+    "projects": [
+      {
+        "s_no": 44,
+        "members": [
+          {
+            "name": "Utkarsha Desale",
+            "enrollment": "2205103120017",
+            "mobile": "7588010266",
+            "program": "IMCA, A"
+          }
+        ],
+        "project_title": "Education Performance Analysis Dashboard",
+        "project_description": "",
+        "front_end": "Power BI",
+        "back_end": "Excel, Power Query, DAX"
+      }
+    ]
+  },
+  {
+    "company_name": "Hacker4Help",
+    "address": "Tulip Vatika, Anand Lambhvel",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Vishakha Bathwar",
+    "projects": [
+      {
+        "s_no": 45,
+        "members": [
+          {
+            "name": "Laykumar Patel",
+            "enrollment": "2405102140027",
+            "mobile": "9327112912",
+            "program": "MSC-IT, G"
+          }
+        ],
+        "project_title": "Cyber Forensics",
+        "project_description": "",
+        "front_end": "Html, css, js, bootstrap, tailwind",
+        "back_end": "Php, python, n8n"
+      }
+    ]
+  },
+  {
+    "company_name": "Flying hathi",
+    "address": "Laxmi niwas, Devipada, Borivali East, Mumbai 400066",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof.Chandankumar Singh",
+    "projects": [
+      {
+        "s_no": 46,
+        "members": [
+          {
+            "name": "Somil Shekhar",
+            "enrollment": "2205103120028",
+            "mobile": "7462898080",
+            "program": "IMCA, A"
+          }
+        ],
+        "project_title": "Company website",
+        "project_description": "",
+        "front_end": "Next js, javascript",
+        "back_end": "SQL, snowflakes"
+      }
+    ]
+  },
+  {
+    "company_name": "CS Enterprises",
+    "address": "Shop 12, Krishna Gold Complex, Opp. Ganesh Honda, Maneja Crossing, Vadodara Gujarat",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof.Chandankumar Singh",
+    "projects": [
+      {
+        "s_no": 47,
+        "members": [
+          {
+            "name": "Rashika Vidyarthi",
+            "enrollment": "2205103120019",
+            "mobile": "7434077450",
+            "program": "IMCA, A"
+          },
+          {
+            "name": "Seetansh Bhatnagar",
+            "enrollment": "2205102140025",
+            "mobile": "9265036662",
+            "program": "IMCA, A"
+          }
+        ],
+        "project_title": "E-commerce Website",
+        "project_description": "",
+        "front_end": "NextJs, material UI",
+        "back_end": "Nodejs"
+      }
+    ]
+  },
+  {
+    "company_name": "XHiRE Tech",
+    "address": "10 floor, shree balaji skyrise, atladara, vadodara",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Priyanka Mod",
+    "projects": [
+      {
+        "s_no": 48,
+        "members": [
+          {
+            "name": "Patel Palak Dipakbhai",
+            "enrollment": "2405112070038",
+            "mobile": "8799590903",
+            "program": "MCA, E"
+          },
+          {
+            "name": "Shlok Patel",
+            "enrollment": "2405112070069",
+            "mobile": "832 096 2117",
+            "program": "MCA, E"
+          }
+        ],
+        "project_title": "MySetu Max – Plant Maintenance System",
+        "project_description": "",
+        "front_end": "HTML, CSS, JavaScript, React",
+        "back_end": ".NET / Node.js"
+      }
+    ]
+  },
+  {
+    "company_name": "Slash Mark IT solutions (OPC).PVT.LTD",
+    "address": "2nd floor, Ramanagar road, Karim Nagar, Telangana, india, 505001",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Priyanka Mod",
+    "projects": [
+      {
+        "s_no": 49,
+        "members": [
+          {
+            "name": "Gollapalli Karthikeya",
+            "enrollment": "2205103140015",
+            "mobile": "9441939410",
+            "program": "IMCA, A"
+          },
+          {
+            "name": "Thavva Amarnath Reddy",
+            "enrollment": "2205103110012",
+            "mobile": "9100579166",
+            "program": "IMCA, A"
+          }
+        ],
+        "project_title": "EasePark Management System",
+        "project_description": "",
+        "front_end": "HTML, CSS, JavaScript",
+        "back_end": "Java / JSP / Servlets"
+      }
+    ]
+  },
+  {
+    "company_name": "",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Khyati Kariya",
+    "projects": [
+      {
+        "s_no": 50,
+        "members": [
+          {
+            "name": "Kollimarla Rishwanth",
+            "enrollment": "2205103110007",
+            "mobile": "9182249086",
+            "program": "IMCA, A"
+          },
+          {
+            "name": "Mule Vinay Kumar Reddy",
+            "enrollment": "2205103110008",
+            "mobile": "63032 09937",
+            "program": "IMCA, A"
+          },
+          {
+            "name": "Joythi Raghu Vamsi",
+            "enrollment": "2205103130002",
+            "mobile": "95154 62706",
+            "program": "IMCA, A"
+          }
+        ],
+        "project_title": "Breast cancer Detection using deep learning",
+        "project_description": "",
+        "front_end": "HTML, CSS",
+        "back_end": "Python, Machine Learning"
+      }
+    ]
+  },
+  {
+    "company_name": "Shadowfox",
+    "address": "Chennai",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Khyati Kariya",
+    "projects": [
+      {
+        "s_no": 51,
+        "members": [
+          {
+            "name": "Shivam Kumar",
+            "enrollment": "2405112120174",
+            "mobile": "6299448470",
+            "program": "MCA, C"
+          }
+        ],
+        "project_title": "AI Resume Analyzer & Job Match ATS System",
+        "project_description": "",
+        "front_end": "Clean Modern UI, Simple dashboard, Visual match score",
+        "back_end": "-"
+      }
+    ]
+  },
+  {
+    "company_name": "First Contact",
+    "address": "Ahmedabad",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Mehulkumar Dalwadi",
+    "projects": [
+      {
+        "s_no": 52,
+        "members": [
+          {
+            "name": "Shah Bansari Rajiv",
+            "enrollment": "2405102120009",
+            "mobile": "9687547824",
+            "program": "MSC-IT, C"
+          }
+        ],
+        "project_title": "Online Job Application Portal",
+        "project_description": "",
+        "front_end": "React js",
+        "back_end": "Node js"
+      }
+    ]
+  },
+  {
+    "company_name": "TechnoML",
+    "address": "Morena, MP",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Mehulkumar Dalwadi",
+    "projects": [
+      {
+        "s_no": 53,
+        "members": [
+          {
+            "name": "Harsh Singh",
+            "enrollment": "2405112070019",
+            "mobile": "7428155853",
+            "program": "MCA, E"
+          },
+          {
+            "name": "Ritika Asnani",
+            "enrollment": "2405112130030",
+            "mobile": "9664086983",
+            "program": "MCA, D"
+          },
+          {
+            "name": "Adesh Pandey",
+            "enrollment": "2405112070002",
+            "mobile": "9525156659",
+            "program": "MCA, E"
+          }
+        ],
+        "project_title": "GrabIT",
+        "project_description": "",
+        "front_end": "React.js, HTML5, CSS3, Tailwind CSS",
+        "back_end": "Node.js, Express.js, MongoDB, JWT"
+      }
+    ]
+  },
+  {
+    "company_name": "",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Dr. Sumit Soni",
+    "projects": [
+      {
+        "s_no": 54,
+        "members": [
+          {
+            "name": "Manan Chawhan",
+            "enrollment": "2405112070026",
+            "mobile": "+91 89590 55990",
+            "program": "MCA, E"
+          },
+          {
+            "name": "Nakshatra Bapat",
+            "enrollment": "2405112070029",
+            "mobile": "+91 79995 79446",
+            "program": "MCA, E"
+          }
+        ],
+        "project_title": "Complaint / Issue Tracking System",
+        "project_description": "",
+        "front_end": "React.js",
+        "back_end": "Node.js, Express.js"
+      }
+    ]
+  },
+  {
+    "company_name": "Infinity group of companies",
+    "address": "VISWAKARMA SOCIETY, 150 Feet Ring Rd, near Punit Water Tank, Rajkot, Gujarat 360004",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Dr. Sumit Soni",
+    "projects": [
+      {
+        "s_no": 55,
+        "members": [
+          {
+            "name": "Ajudiya Ayushi Mukeshbhai",
+            "enrollment": "2405112140004",
+            "mobile": "9106811293",
+            "program": "MCA, F"
+          }
+        ],
+        "project_title": "Bus Reservation System",
+        "project_description": "",
+        "front_end": "React Native, JavaScript",
+        "back_end": "MySQL"
+      }
+    ]
+  },
+  {
+    "company_name": "Nivida Web Solutions Pvt. Ltd.",
+    "address": "305 A/B Privilege Avenue, Atlantis Lane, Above HDFC Bank, Sarabhai Campus, Vadodara-390007",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Uma Bhati",
+    "projects": [
+      {
+        "s_no": 56,
+        "members": [
+          {
+            "name": "Om Bhatt",
+            "enrollment": "2205103120023",
+            "mobile": "8780872113",
+            "program": "IMCA, A"
+          }
+        ],
+        "project_title": "VitalMine",
+        "project_description": "",
+        "front_end": "HTML5, CSS3, Bootstrap, Jinja2",
+        "back_end": "Python, Flask"
+      }
+    ]
+  },
+  {
+    "company_name": "Help me buddy",
+    "address": "204 - Radhaswami Sayujya, opp. V C Patel School, Anand 388120",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Uma Bhati",
+    "projects": [
+      {
+        "s_no": 57,
+        "members": [
+          {
+            "name": "Patel Pratham Jayeshbhai",
+            "enrollment": "2405102140031",
+            "mobile": "6354143284",
+            "program": "MSC-IT, G"
+          },
+          {
+            "name": "Patel Jeel Jitendrabhai",
+            "enrollment": "2405102140026",
+            "mobile": "8320301850",
+            "program": "MSC-IT, G"
+          }
+        ],
+        "project_title": "Interactive Education Portal with AI Chatbot",
+        "project_description": "",
+        "front_end": "React.js",
+        "back_end": "Python"
+      }
+    ]
+  },
+  {
+    "company_name": "D-Hit",
+    "address": "A-6 Ashwamegh townships opp. Gulmahor west, new alkapuri, gotri, vadodara",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Dr. Prof. P. Ramachandran",
+    "projects": [
+      {
+        "s_no": 58,
+        "members": [
+          {
+            "name": "Thakkar Riya Kanakkumar",
+            "enrollment": "2405112140081",
+            "mobile": "9979896478",
+            "program": "MCA, F"
+          }
+        ],
+        "project_title": "Ocean Inc",
+        "project_description": "",
+        "front_end": "HTML, CSS, JavaScript, Bootstrap",
+        "back_end": "PHP / Node.js"
+      }
+    ]
+  },
+  {
+    "company_name": "Web Vision Solutions",
+    "address": "301, Onyx Business Centre, Sun-Pharma Atladra Rd, Pramukh Swami nagar, Atladara, Vadodara, Gujarat 390012",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Dr. Prof. P. Ramachandran",
+    "projects": [
+      {
+        "s_no": 59,
+        "members": [
+          {
+            "name": "Pratham Gandhi",
+            "enrollment": "2405112110037",
+            "mobile": "9898382150",
+            "program": "MCA, H"
+          }
+        ],
+        "project_title": "thebrownhide",
+        "project_description": "",
+        "front_end": "Used WordPress",
+        "back_end": "MySQL Databases, PHP"
+      }
+    ]
+  },
+  {
+    "company_name": "Cosmos Solutions Pvt Ltd",
+    "address": "Gurgaon",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Tanmay Shah",
+    "projects": [
+      {
+        "s_no": 60,
+        "members": [
+          {
+            "name": "JanamJay Sinha",
+            "enrollment": "2405112140036",
+            "mobile": "8294977422",
+            "program": "MCA, F"
+          }
+        ],
+        "project_title": "AI Automated Content Creator and Posting",
+        "project_description": "",
+        "front_end": "Telegram chat bot",
+        "back_end": "Python"
+      }
+    ]
+  },
+  {
+    "company_name": "Shree Balaji Shipping and Freight Forwarders",
+    "address": "TIMES AVENUE, OFFICE NO. 02, 2ND FLOOR, PLOT NO. 91 & 92 (SHOPPING UNIT), WARD NO. 5-B",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Tanmay Shah",
+    "projects": [
+      {
+        "s_no": 61,
+        "members": [
+          {
+            "name": "Rajnish Patel",
+            "enrollment": "2205103050004",
+            "mobile": "8160855842",
+            "program": "IMCA, A"
+          }
+        ],
+        "project_title": "SupplyChainX Platform",
+        "project_description": "",
+        "front_end": "React.js, Redux, Mapbox, WebSockets, Material UI, etc",
+        "back_end": "Node.js, REST, MongoDB, NestJS, etc"
+      }
+    ]
+  },
+  {
+    "company_name": "Capgemini",
+    "address": "Regd Office: Pune Hinjewadi Regd. Office No. 14, Rajiv Gandhi Infotech Park, Hinjewadi Phase III, MIDC SEZ, Village Man, Taluka Mulshi, Pune - 411057, Maharashtra, India.",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. RamDeepak Yadagiri",
+    "projects": [
+      {
+        "s_no": 62,
+        "members": [
+          {
+            "name": "B BHARATH KUMAR REDDY",
+            "enrollment": "2205103110002",
+            "mobile": "9542407292",
+            "program": "IMCA, A"
+          }
+        ],
+        "project_title": "Skill Track Learning Portal",
+        "project_description": "",
+        "front_end": "React.js",
+        "back_end": "Spring Boot and MySQL"
+      }
+    ]
+  },
+  {
+    "company_name": "",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. RamDeepak Yadagiri",
+    "projects": [
+      {
+        "s_no": 63,
+        "members": [
+          {
+            "name": "Ankita Dhakad",
+            "enrollment": "2405112070006",
+            "mobile": "9399339186",
+            "program": "MCA, E"
+          }
+        ],
+        "project_title": "AI trip planner",
+        "project_description": "",
+        "front_end": "-",
+        "back_end": "-"
+      }
+    ]
+  },
+  {
+    "company_name": "ULANS",
+    "address": "Manjalpur, Vadodara, Gujarat",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Komal Madam",
+    "projects": [
+      {
+        "s_no": 64,
+        "members": [
+          {
+            "name": "Jemisha Vadodariya",
+            "enrollment": "2405102130009",
+            "mobile": "9510538916",
+            "program": "MSC-IT, D"
+          }
+        ],
+        "project_title": "Food cafe billing management",
+        "project_description": "",
+        "front_end": "Python",
+        "back_end": "MySQL"
+      }
+    ]
+  },
+  {
+    "company_name": "WeDoGood",
+    "address": "26th B main Road, Jayanagar, Bengaluru",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Komal Madam",
+    "projects": [
+      {
+        "s_no": 65,
+        "members": [
+          {
+            "name": "Akash Chandra Sarraf",
+            "enrollment": "2405112120012@paruluniversity.ac.in",
+            "mobile": "-",
+            "program": "MCA, A"
+          }
+        ],
+        "project_title": "smart-service-marketplace",
+        "project_description": "",
+        "front_end": "REACT JS",
+        "back_end": "NODE JS, EXPRESS JS, MOGODB"
+      }
+    ]
+  },
+  {
+    "company_name": "LogiMinds Technolab LLP",
+    "address": "Ahmedabad",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Prachi Mehta",
+    "projects": [
+      {
+        "s_no": 66,
+        "members": [
+          {
+            "name": "Prathamesh Pawar",
+            "enrollment": "2205103070001",
+            "mobile": "9881331103",
+            "program": "IMCA, A"
+          }
+        ],
+        "project_title": "Student performance prediction",
+        "project_description": "",
+        "front_end": "Streamlit",
+        "back_end": "Python"
+      }
+    ]
+  },
+  {
+    "company_name": "Comtel Infosystems Pvt Ltd",
+    "address": "201, Jet Prime, Kumar Printers Industrial Estate, Gundavli, Suren Road, Andheri East, Mumbai, Maharashtra - 400093",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Prachi Mehta",
+    "projects": [
+      {
+        "s_no": 67,
+        "members": [
+          {
+            "name": "Vaishnavi Umesh Godse",
+            "enrollment": "2405112140031",
+            "mobile": "8433638399",
+            "program": "MCA, F"
+          }
+        ],
+        "project_title": "Real-Time Security Event Monitoring and Incident Response Using SIEM.",
+        "project_description": "",
+        "front_end": "-",
+        "back_end": "-"
+      }
+    ]
+  },
+  {
+    "company_name": "Converge Digitals",
+    "address": "Vadodara, Gujarat",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Aniket Paul",
+    "projects": [
+      {
+        "s_no": 68,
+        "members": [
+          {
+            "name": "Gunjana Choudhary",
+            "enrollment": "2205103070004",
+            "mobile": "7340292417",
+            "program": "IMCA, A"
+          }
+        ],
+        "project_title": "Gunjana Choudhary",
+        "project_description": "",
+        "front_end": "Next js",
+        "back_end": "Auth, sql"
+      }
+    ]
+  },
+  {
+    "company_name": "DynaTech systems",
+    "address": "DynaTech Systems 18, Times Corporate Park, Thaltej, Ahmedabad – 380059",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Aniket Paul",
+    "projects": [
+      {
+        "s_no": 69,
+        "members": [
+          {
+            "name": "Mansi Purbiya Gadri",
+            "enrollment": "2405112130020",
+            "mobile": "6367203499",
+            "program": "MCA, D"
+          }
+        ],
+        "project_title": "E-Learning Platform",
+        "project_description": "",
+        "front_end": "-",
+        "back_end": "-"
+      }
+    ]
+  },
+  {
+    "company_name": "NetWeb Software PVT. LTD.",
+    "address": "NetWeb Aspire, Nr. Bright School, Vasana-Bhayli Road, Vadodara - 391410",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Ms. Niharika Agarwal",
+    "projects": [
+      {
+        "s_no": 70,
+        "members": [
+          {
+            "name": "Siddhi Pandya",
+            "enrollment": "2405112130026",
+            "mobile": "9875174806",
+            "program": "MCA, D"
+          }
+        ],
+        "project_title": "Interns training module application",
+        "project_description": "",
+        "front_end": "-",
+        "back_end": "-"
+      }
+    ]
+  },
+  {
+    "company_name": "ABC Studio",
+    "address": "108, Exceluss business space Near Shiv Someshwar enclave, bhimrad canal road, Althan Surat – 395007",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Ms. Niharika Agarwal",
+    "projects": [
+      {
+        "s_no": 71,
+        "members": [
+          {
+            "name": "Prashant Mehta",
+            "enrollment": "2405112120103",
+            "mobile": "9824266552",
+            "program": "MCA, B"
+          }
+        ],
+        "project_title": "TaskManager",
+        "project_description": "",
+        "front_end": "React JS",
+        "back_end": "Express, Node JS, MongoDB"
+      }
+    ]
+  },
+  {
+    "company_name": "AY technologies",
+    "address": "Lingampally, Hyderabad",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Aesh Gada",
+    "projects": [
+      {
+        "s_no": 72,
+        "members": [
+          {
+            "name": "Vardhinedi Chetan Phanindra",
+            "enrollment": "2205103120018",
+            "mobile": "9346443466",
+            "program": "IMCA, A"
+          }
+        ],
+        "project_title": "ISL",
+        "project_description": "",
+        "front_end": "Angular",
+        "back_end": "Sprinboot"
+      }
+    ]
+  },
+  {
+    "company_name": "Entrext",
+    "address": "Rajasthan",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Aesh Gada",
+    "projects": [
+      {
+        "s_no": 73,
+        "members": [
+          {
+            "name": "Hitanshi tandel",
+            "enrollment": "2205103120015",
+            "mobile": "6356448748",
+            "program": "IMCA, A"
+          }
+        ],
+        "project_title": "Micro saas",
+        "project_description": "",
+        "front_end": "React",
+        "back_end": "Python (fastapi)"
+      }
+    ]
+  },
+  {
+    "company_name": "Parul University",
+    "address": "Vadodara",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Madhav J Kapadiya",
+    "projects": [
+      {
+        "s_no": 74,
+        "members": [
+          {
+            "name": "Abhishek airan",
+            "enrollment": "2205103120022",
+            "mobile": "7610763006",
+            "program": "IMCA, A"
+          }
+        ],
+        "project_title": "Event saas",
+        "project_description": "",
+        "front_end": "React",
+        "back_end": "Express"
+      }
+    ]
+  },
+  {
+    "company_name": "Croossa Technology",
+    "address": "Office no. 102, Bhagirath Complex, Bhanvad, Gujarat. 360510",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Madhav J Kapadiya",
+    "projects": [
+      {
+        "s_no": 75,
+        "members": [
+          {
+            "name": "Rajesh Chaudhary",
+            "enrollment": "2405112140079",
+            "mobile": "-",
+            "program": "MCA, G"
+          },
+          {
+            "name": "Sanjot Jayesh Kantilal",
+            "enrollment": "2405112140103",
+            "mobile": "-",
+            "program": "MCA, G"
+          }
+        ],
+        "project_title": "E commerce website",
+        "project_description": "",
+        "front_end": "-",
+        "back_end": "-"
+      }
+    ]
+  },
+  {
+    "company_name": "Maxgen private limited",
+    "address": "Abhijeet 3, 603, Netaji Rd, near Pantaloons, Mithakhali, Ellisbridge, Ahmedabad, Gujarat 380006",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Adarsh Ashok",
+    "projects": [
+      {
+        "s_no": 76,
+        "members": [
+          {
+            "name": "Khush Patel",
+            "enrollment": "2405112120128",
+            "mobile": "7621812011",
+            "program": "MCA, B"
+          }
+        ],
+        "project_title": "FRAUDGUARD AI",
+        "project_description": "",
+        "front_end": "Html",
+        "back_end": "Python"
+      }
+    ]
+  },
+  {
+    "company_name": "Eryushion TechSol Pvt Ltd.",
+    "address": "7QFH+9Q TwinStar, 705, South Block, 150 Feet Ring Rd, Rajkot, Gujarat 360004",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Adarsh Ashok",
+    "projects": [
+      {
+        "s_no": 77,
+        "members": [
+          {
+            "name": "Mesaniya Paras",
+            "enrollment": "2405112120104",
+            "mobile": "7990510902",
+            "program": "MCA, B"
+          }
+        ],
+        "project_title": "CA Office Setu",
+        "project_description": "",
+        "front_end": "Blade template engine, html, Jquery, css",
+        "back_end": "Laravel, MySQL"
+      }
+    ]
+  },
+  {
+    "company_name": "Alienhouse Networks",
+    "address": "704, 7th Floor, Palm Court, MG Rd, Sector 16, Gurugram, Haryana 122007",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Pratik Parmar",
+    "projects": [
+      {
+        "s_no": 78,
+        "members": [
+          {
+            "name": "Sachin Kumar",
+            "enrollment": "2205103140022",
+            "mobile": "8569938239",
+            "program": "IMCA, A"
+          },
+          {
+            "name": "Adinath M Nair",
+            "enrollment": "2205103140001",
+            "mobile": "9567446147",
+            "program": "IMCA, A"
+          },
+          {
+            "name": "Nishanth Bhaskar",
+            "enrollment": "2205103050001",
+            "mobile": "8320442151",
+            "program": "IMCA, A"
+          }
+        ],
+        "project_title": "Secure e-Government File Transfer Protocol",
+        "project_description": "",
+        "front_end": "React.js",
+        "back_end": "Node.js"
+      }
+    ]
+  },
+  {
+    "company_name": "Blackbuck",
+    "address": "Jubilee Hills, Hyderabad, Telangana",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Pratik Parmar",
+    "projects": [
+      {
+        "s_no": 79,
+        "members": [
+          {
+            "name": "Yaragarla Lokesh",
+            "enrollment": "2205103110013",
+            "mobile": "9959822498",
+            "program": "IMCA, A"
+          }
+        ],
+        "project_title": "Heart Disease prediction using Machine Learning",
+        "project_description": "",
+        "front_end": "HTML, CSS, JavaScript",
+        "back_end": "Python"
+      }
+    ]
+  },
+  {
+    "company_name": "Ariya InfoTech",
+    "address": "342, Phoenix Complex, Near Suraj Plaza, Sayajiganj, Vadodara, Gujarat – 390020",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Samant Kumar",
+    "projects": [
+      {
+        "s_no": 80,
+        "members": [
+          {
+            "name": "HARSH CHHASATIYA",
+            "enrollment": "2405112140023",
+            "mobile": "+91 9173374991",
+            "program": "MCA, F"
+          }
+        ],
+        "project_title": "Next Generation B2B eCommerce Platform",
+        "project_description": "",
+        "front_end": "HTML, CSS, JavaScript",
+        "back_end": "Php (Magento-Based)"
+      }
+    ]
+  },
+  {
+    "company_name": "Horizon Tech Serv",
+    "address": "301 A, Colonnade Isckon Ambali road, Nr Isckon Mandir BRTS, Ahmedabad 380015",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Samant Kumar",
+    "projects": [
+      {
+        "s_no": 81,
+        "members": [
+          {
+            "name": "Dhrushal Dangariya",
+            "enrollment": "2405112140026",
+            "mobile": "9023255455",
+            "program": "MCA, F"
+          },
+          {
+            "name": "Utsav Bhanderi",
+            "enrollment": "2405112140014",
+            "mobile": "9484572400",
+            "program": "MCA, F"
+          }
+        ],
+        "project_title": "SocietyMate",
+        "project_description": "",
+        "front_end": "React and Flutter",
+        "back_end": "Java"
+      }
+    ]
+  },
+  {
+    "company_name": "Ecliptix Solutions",
+    "address": "311, Samanvay Sequence, Manjalpur, Vadodara",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Dr. Pravin Tomar",
+    "projects": [
+      {
+        "s_no": 82,
+        "members": [
+          {
+            "name": "Manish Raj",
+            "enrollment": "2405112070027",
+            "mobile": "7079745977",
+            "program": "MCA, E"
+          },
+          {
+            "name": "Tasmeen Quraishi",
+            "enrollment": "2405112070044",
+            "mobile": "9529294716",
+            "program": "MCA, E"
+          }
+        ],
+        "project_title": "AgroFarm Application",
+        "project_description": "",
+        "front_end": "HTML, CSS, Javascript",
+        "back_end": "React, Node, Firebase"
+      }
+    ]
+  },
+  {
+    "company_name": "CODEVIRUS SECURITY PVT LTD",
+    "address": "A76 CHANDGANJ GARDEN KAPOORTHALA LUCKNOW 226024",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Dr. Pravin Tomar",
+    "projects": [
+      {
+        "s_no": 83,
+        "members": [
+          {
+            "name": "Parikshit Singh",
+            "enrollment": "2205103140008",
+            "mobile": "9512977575",
+            "program": "IMCA, A"
+          }
+        ],
+        "project_title": "cyberyard",
+        "project_description": "",
+        "front_end": "React.js",
+        "back_end": "VMware ESXi / Proxmox"
+      }
+    ]
+  },
+  {
+    "company_name": "Cybergrid solution",
+    "address": "B-208 Ananya Complex, Akshar Chowk, Vadodara",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Shivaniba Dilipsinh Bhadoriya",
+    "projects": [
+      {
+        "s_no": 84,
+        "members": [
+          {
+            "name": "Sweta Tushar Parikh",
+            "enrollment": "2405112140106",
+            "mobile": "9909928299",
+            "program": "MCA, G"
+          }
+        ],
+        "project_title": "Secure IT Infrastructure setup for a small organization with firewall,access control and cost analysis",
+        "project_description": "",
+        "front_end": "Infrastructure design, networking, firewall, access control, server and network security",
+        "back_end": "Security testing, cost analysis"
+      }
+    ]
+  },
+  {
+    "company_name": "Intellect design arena",
+    "address": "Channai, tamil nadu.",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Shivaniba Dilipsinh Bhadoriya",
+    "projects": [
+      {
+        "s_no": 85,
+        "members": [
+          {
+            "name": "Yash vaghasiya",
+            "enrollment": "2405112120192",
+            "mobile": "9875002797",
+            "program": "MCA, C"
+          },
+          {
+            "name": "Avantika bibhu",
+            "enrollment": "2405112140011",
+            "mobile": "7277509306",
+            "program": "MCA, F"
+          },
+          {
+            "name": "Abhinandan shah",
+            "enrollment": "2405112120001",
+            "mobile": "9302478039",
+            "program": "MCA, A"
+          }
+        ],
+        "project_title": "Fin Pro",
+        "project_description": "",
+        "front_end": "Streamlit",
+        "back_end": "Python"
+      }
+    ]
+  },
+  {
+    "company_name": "Patel Web Solution",
+    "address": "210 to 212-Town plaza, Nr. Omkar Plaza, Opp. Sardar TV, Nikol, Ahmedabad - 382350",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Honey Parmar",
+    "projects": [
+      {
+        "s_no": 86,
+        "members": [
+          {
+            "name": "Kathrotiya Mausami Nareshbhai",
+            "enrollment": "2405112110051",
+            "mobile": "7567019426",
+            "program": "MCA, H"
+          },
+          {
+            "name": "Kanjiya Diya Vimal",
+            "enrollment": "2405112110049",
+            "mobile": "93286 60929",
+            "program": "MCA, H"
+          }
+        ],
+        "project_title": "Customer Relationship Management (CRM)",
+        "project_description": "",
+        "front_end": "html, css, reactjs",
+        "back_end": "Node.js & Express, MongoDB"
+      }
+    ]
+  },
+  {
+    "company_name": "Tacttree",
+    "address": "4th Floor, Aarna 673 Building, Kalali Rd, behind DPS school, Vadodara, Gujarat 390012",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Honey Parmar",
+    "projects": [
+      {
+        "s_no": 87,
+        "members": [
+          {
+            "name": "Hetvi Bhavsar",
+            "enrollment": "2405112120029",
+            "mobile": "9104478282",
+            "program": "MCA, A"
+          },
+          {
+            "name": "Dev Patel",
+            "enrollment": "2405112120121",
+            "mobile": "9664531235",
+            "program": "MCA, -"
+          }
+        ],
+        "project_title": "Not decided",
+        "project_description": "",
+        "front_end": "Not decided",
+        "back_end": "Not decided"
+      }
+    ]
+  },
+  {
+    "company_name": "Anwimac technologies pvt. Ltd.",
+    "address": "24, Jain colony, University Road Udaipur (Raj.)",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Chaitali nayka",
+    "projects": [
+      {
+        "s_no": 88,
+        "members": [
+          {
+            "name": "Bhavesh Prajapati",
+            "enrollment": "2405112140016",
+            "mobile": "7357663611",
+            "program": "MCA, F"
+          }
+        ],
+        "project_title": "Handicraft",
+        "project_description": "",
+        "front_end": "Html, css, js",
+        "back_end": "React js or node js Sal database"
+      }
+    ]
+  },
+  {
+    "company_name": "Ekika Corporation Pvt Ltd",
+    "address": "203 Capital Icon, Gandhinagar Bypass Road, Sargasan, Gandhinagar 382421",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Chaitali nayka",
+    "projects": [
+      {
+        "s_no": 89,
+        "members": [
+          {
+            "name": "Bhatt chandani jayprakash",
+            "enrollment": "2405112120025",
+            "mobile": "7383422885",
+            "program": "MCA, A"
+          }
+        ],
+        "project_title": "FusionCars",
+        "project_description": "",
+        "front_end": "Html, CSS, Javascript",
+        "back_end": "Php, SQL"
+      }
+    ]
+  },
+  {
+    "company_name": "Vermin Industries",
+    "address": "303, Senate Square Tower B, Opp. Gangotri Complex, Gotri, Vadodara – 390021, Gujarat.",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Dipti Khare",
+    "projects": [
+      {
+        "s_no": 90,
+        "members": [
+          {
+            "name": "Dhruv Patel",
+            "enrollment": "2405112120124",
+            "mobile": "6353456625",
+            "program": "MCA, B"
+          },
+          {
+            "name": "Vivek Deepkishore Chauhan",
+            "enrollment": "2405112120034",
+            "mobile": "7874032309",
+            "program": "MCA, A"
+          }
+        ],
+        "project_title": "Door Interlock System Installation & Service Analytics Dashboard",
+        "project_description": "",
+        "front_end": "-",
+        "back_end": "-"
+      }
+    ]
+  },
+  {
+    "company_name": "Jainam Finance",
+    "address": "Genda Circle, Vadodara",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Dipti Khare",
+    "projects": [
+      {
+        "s_no": 91,
+        "members": [
+          {
+            "name": "Maidini Gupta",
+            "enrollment": "2405112119001",
+            "mobile": "9828266637",
+            "program": "MCA, I"
+          },
+          {
+            "name": "Yogini Varachhiya",
+            "enrollment": "2405112110131",
+            "mobile": "8799174049",
+            "program": "MCA, I"
+          }
+        ],
+        "project_title": "AgroCart",
+        "project_description": "",
+        "front_end": "Asp.net c# MVC",
+        "back_end": "SQL server"
+      }
+    ]
+  },
+  {
+    "company_name": "Coding creators",
+    "address": "Plot No: 154 & 155, H.No. 1-72NE, Lane Number N-4, Nagarjuna Enclave, Miyapur, Hyderabad, Telangana - 500049",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Mini",
+    "projects": [
+      {
+        "s_no": 92,
+        "members": [
+          {
+            "name": "Arvind Singh",
+            "enrollment": "2405112140009",
+            "mobile": "",
+            "program": "MCA, F"
+          },
+          {
+            "name": "Sonakshi priya",
+            "enrollment": "2405112140089",
+            "mobile": "",
+            "program": "MCA, G"
+          }
+        ],
+        "project_title": "WLAN-VAPT",
+        "project_description": "",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
+  },
+  {
+    "company_name": "Shree Cement",
+    "address": "Shree Cement Limited, DLF Epitome, Building No 5, Tower B, 9th Floor, DLF Cyber City, Gurugram, Haryana - 122002",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Mini",
+    "projects": [
+      {
+        "s_no": 93,
+        "members": [
+          {
+            "name": "Harsh Kumar Shah",
+            "enrollment": "2405112120062",
+            "mobile": "7023188822",
+            "program": "MCA, A"
+          },
+          {
+            "name": "Mahima Parihar",
+            "enrollment": "2405112120094",
+            "mobile": "7499930241",
+            "program": "MCA, B"
+          }
+        ],
+        "project_title": "Root Cause Analysis",
+        "project_description": "",
+        "front_end": "Python",
+        "back_end": "Python"
+      }
+    ]
+  },
+  {
+    "company_name": "Capgemini",
+    "address": "Gujarat International Finance Tec-City, Gujarat 382050",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Dr. Raj Sinha",
+    "projects": [
+      {
+        "s_no": 94,
+        "members": [
+          {
+            "name": "Harsh Parashar",
+            "enrollment": "2405112120063",
+            "mobile": "9369937586",
+            "program": "MCA, A"
+          }
+        ],
+        "project_title": "CRS - Crime Reporting System",
+        "project_description": "",
+        "front_end": "Next.js, react.js",
+        "back_end": "Next.js, Node.js"
+      }
+    ]
+  },
+  {
+    "company_name": "Slashstar Studio (Formally Xr studio)",
+    "address": "3002, Silver Business Point, Near VIP circle, Uttran, Surat",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Dr. Raj Sinha",
+    "projects": [
+      {
+        "s_no": 95,
+        "members": [
+          {
+            "name": "Pruthvirajsingh Sisodiya",
+            "enrollment": "2205103120014",
+            "mobile": "6354221974",
+            "program": "IMCA, H"
+          }
+        ],
+        "project_title": "AI- Traveler(Your Smartest Travel Companion)",
+        "project_description": "",
+        "front_end": "React.js",
+        "back_end": "Java"
+      }
+    ]
+  },
+  {
+    "company_name": "NatRIX Software Private Limited",
+    "address": "421, Marvela Business Hub, Opp. New RTO, Hazira - Adajan Road, Surat - 395009, Gujarat, India",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Himanshu Yadav",
+    "projects": [
+      {
+        "s_no": 96,
+        "members": [
+          {
+            "name": "Sunny Kumar",
+            "enrollment": "2.40511E+12",
+            "mobile": "8235412992",
+            "program": "MCA, A"
+          }
+        ],
+        "project_title": "ServiceHub",
+        "project_description": "",
+        "front_end": "No",
+        "back_end": "Yes"
+      }
+    ]
+  },
+  {
+    "company_name": "ibiz technologies",
+    "address": "Rajkot",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Himanshu Yadav",
+    "projects": [
+      {
+        "s_no": 97,
+        "members": [
+          {
+            "name": "Karan Kacha",
+            "enrollment": "2405112120073",
+            "mobile": "9157587671",
+            "program": "MCA, A"
+          },
+          {
+            "name": "Isha Anand",
+            "enrollment": "2405112120065",
+            "mobile": "8200940210",
+            "program": "MCA, A"
+          }
+        ],
+        "project_title": "Hospital Management System",
+        "project_description": "",
+        "front_end": "React JS or Next Js",
+        "back_end": "Node Js, MongoDB, Supabase"
+      }
+    ]
+  },
+  {
+    "company_name": "Pardy Panda Studio",
+    "address": "Urban One, 209, Vasna - Bhayli Main Rd, near Panchmukhi Hanuman Temple, Vasant Vihar, Bhayli, Vadodara, Gujarat 391410",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Payal Parekh",
+    "projects": [
+      {
+        "s_no": 98,
+        "members": [
+          {
+            "name": "Achint Bhavsar",
+            "enrollment": "2405112070012",
+            "mobile": "8000028738",
+            "program": "MCA, E"
+          }
+        ],
+        "project_title": "Training period going on( haven't assigned any project yet)",
+        "project_description": "",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
+  },
+  {
+    "company_name": "",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Payal Parekh",
+    "projects": [
+      {
+        "s_no": 99,
+        "members": [
+          {
+            "name": "Dhruv Solanki",
+            "enrollment": "2405112070017",
+            "mobile": "6353990559",
+            "program": "MCA, E"
+          }
+        ],
+        "project_title": "Training period going on",
+        "project_description": "",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
+  },
+  {
+    "company_name": "TejasKP AI Software",
+    "address": "Makarpura GIDC",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. sathwik Chebrolu",
+    "projects": [
+      {
+        "s_no": 100,
+        "members": [
+          {
+            "name": "Vicky Khambhatwala",
+            "enrollment": "2405112140041",
+            "mobile": "8866421921",
+            "program": "MCA, F"
+          },
+          {
+            "name": "Aayush joshi",
+            "enrollment": "2405112130005",
+            "mobile": "+91 93133 52365",
+            "program": "MCA"
+          }
+        ],
+        "project_title": "Online Voting System",
+        "project_description": "",
+        "front_end": "Html, css, bootstrap",
+        "back_end": "Java, Spring boot, jpa, supabase"
+      }
+    ]
+  },
+  {
+    "company_name": "Baarez Technology Solutions",
+    "address": "No. 202, Saha Offices (C), Souk Al Bahar, Downtown Dubai, UAE",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. sathwik Chebrolu",
+    "projects": [
+      {
+        "s_no": 101,
+        "members": [
+          {
+            "name": "Harsh Kharje",
+            "enrollment": "2405112120080",
+            "mobile": "9373661168",
+            "program": "MCA, B"
+          },
+          {
+            "name": "Chitra Ameta",
+            "enrollment": "2405112120036",
+            "mobile": "8949299387",
+            "program": "MCA, A"
+          }
+        ],
+        "project_title": "Glimmora – AI-Powered Hotel Management System",
+        "project_description": "",
+        "front_end": "React, TypeScript, Vite, Tailwind CSS",
+        "back_end": "FastAPI (Python), REST APIs, SQLite / PostgreSQL"
+      }
+    ]
+  },
+  {
+    "company_name": "",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Pratik Raj",
+    "projects": [
+      {
+        "s_no": 102,
+        "members": [
+          {
+            "name": "Swati Kumari",
+            "enrollment": "2405112120187",
+            "mobile": "7479541447",
+            "program": "MCA, C"
+          },
+          {
+            "name": "Nilesh Singh",
+            "enrollment": "2405112120180",
+            "mobile": "7666656590",
+            "program": "MCA, C"
+          }
+        ],
+        "project_title": "AI Twin: Virtual Health Replica for Intelligent Disease Prediction and Preventive Care",
+        "project_description": "",
+        "front_end": "React.js (or HTML, CSS, JavaScript) Bootstrap / Tailwind CSS Chart.js (for health analytics & graphs)",
+        "back_end": "Python – Django / Flask RESTful APIs JWT Authentication"
+      }
+    ]
+  },
+  {
+    "company_name": "Zidio Development",
+    "address": "Cinnabar Hills, Embassy Golf Links Business Park, Challaghatta, Bengaluru, Karnataka 560071",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Saikat Paramanik",
+    "projects": [
+      {
+        "s_no": 103,
+        "members": [
+          {
+            "name": "Sabarna Jana",
+            "enrollment": "2405112120159",
+            "mobile": "+916291978744",
+            "program": "MCA, C"
+          },
+          {
+            "name": "Shaswat Kumar Nanda",
+            "enrollment": "2405112120172",
+            "mobile": "6370248945",
+            "program": "MCA, C"
+          },
+          {
+            "name": "Pranav Saraswat",
+            "enrollment": "2405112070068",
+            "mobile": "63985 74465",
+            "program": "MCA, E"
+          }
+        ],
+        "project_title": "AI-Based Realistic Virtual Health & Fitness Consultant (Desktop Application)",
+        "project_description": "",
+        "front_end": "Python Tkinter / PyQt5 (Desktop GUI) Human-like AI avatar interface Text and voice interaction system User input forms (age, weight, height, fitness goals) Real-time response display",
+        "back_end": "Python AI/NLP models (Transformers, LangChain) Health & fitness knowledge base (CSV / JSON) Speech-to-Text and Text-to-Speech modules Logic for workout planning, diet suggestions, and progress tracking SQLite database for user data storage"
+      }
+    ]
+  },
+  {
+    "company_name": "Semicolon",
+    "address": "404, Atlanta Shopping Mall Sudama Chowk, Mota Varachha, Surat, Gujarat 394101",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Saikat Paramanik",
+    "projects": [
+      {
+        "s_no": 104,
+        "members": [
+          {
+            "name": "Krupesh Patel",
+            "enrollment": "2405112120129",
+            "mobile": "7990517318",
+            "program": "MCA, B"
+          },
+          {
+            "name": "Bhavy Patel",
+            "enrollment": "2405112120119",
+            "mobile": "7016198331",
+            "program": "MCA, H"
+          },
+          {
+            "name": "Dhruv Patel",
+            "enrollment": "2405112120121",
+            "mobile": "8849523352",
+            "program": "MCA, B"
+          }
+        ],
+        "project_title": "Social chat",
+        "project_description": "",
+        "front_end": "React",
+        "back_end": "Node"
+      }
+    ]
+  },
+  {
+    "company_name": "",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Anmol Singh",
+    "projects": [
+      {
+        "s_no": 105,
+        "members": [
+          {
+            "name": "Vraj Patel",
+            "enrollment": "2405112120196",
+            "mobile": "",
+            "program": "MCA, D"
+          },
+          {
+            "name": "Parth Soni",
+            "enrollment": "2405112120183",
+            "mobile": "",
+            "program": "MCA, D"
+          }
+        ],
+        "project_title": "TrackMyAllJobs",
+        "project_description": "",
+        "front_end": "HTML, CSS, JavaScript, Tailwind css",
+        "back_end": "Node js, MongoDB, Express js"
+      }
+    ]
+  },
+  {
+    "company_name": "Spectrum softtech solutions",
+    "address": "SPECTRUM BUILDING, MAHAKAVI G ROAD, KARAKKAMURI, Ernakulam, Kerala, 682011",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "PRof. Akanksha Singh",
+    "projects": [
+      {
+        "s_no": 106,
+        "members": [
+          {
+            "name": "Nandana Unni",
+            "enrollment": "2405102140021",
+            "mobile": "9744903212",
+            "program": "MSC-IT, G"
+          }
+        ],
+        "project_title": "Vulnscan",
+        "project_description": "",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
+  },
+  {
+    "company_name": "BrainyBeam Technologies",
+    "address": "Ahemdabad",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "PRof. Akanksha Singh",
+    "projects": [
+      {
+        "s_no": 107,
+        "members": [
+          {
+            "name": "Aman Padariya",
+            "enrollment": "2405112130023",
+            "mobile": "8735011415",
+            "program": "MCA, D"
+          },
+          {
+            "name": "Shradha Shinde",
+            "enrollment": "240510207005",
+            "mobile": "7046867865",
+            "program": "MSC-IT, E"
+          }
+        ],
+        "project_title": "QR Billing Assistant",
+        "project_description": "",
+        "front_end": "Html, CSS, JS",
+        "back_end": "Python(Django), MYSql"
+      }
+    ]
+  },
+  {
+    "company_name": "Inexture private limited",
+    "address": "One word west ambli Bopal, Ahmedabad, Gujarat, 380058",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Jatin Morwal",
+    "projects": [
+      {
+        "s_no": 108,
+        "members": [
+          {
+            "name": "Jadeja Mouryrajsinh",
+            "enrollment": "2405102120002",
+            "mobile": "8849317978",
+            "program": "MSC-IT, C"
+          },
+          {
+            "name": "Chaitanyadev Zala",
+            "enrollment": "2405102120010",
+            "mobile": "8799679997",
+            "program": "MSC-IT, C"
+          }
+        ],
+        "project_title": "Pending (company provides us later)",
+        "project_description": "",
+        "front_end": "Pending",
+        "back_end": "Pending"
+      }
+    ]
+  },
+  {
+    "company_name": "Virtual Key Solutions",
+    "address": "401 - Hirnandini Complex, Katrap Station Road, Badlapur, Thane - 421201",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Akshar Muley",
+    "projects": [
+      {
+        "s_no": 109,
+        "members": [
+          {
+            "name": "Vrutik Dharmendra Jagad",
+            "enrollment": "2405112120067",
+            "mobile": "9106642926",
+            "program": "MCA, A"
+          },
+          {
+            "name": "Samarth Shertate",
+            "enrollment": "2405112120173",
+            "mobile": "77096 81956",
+            "program": "MCA, C"
+          }
+        ],
+        "project_title": "Systems & Automation Specialist, RBSAMG/RBS Aftermarket and Motorsports Group",
+        "project_description": "",
+        "front_end": "HTML5, CSS3, JAVASCRIPT",
+        "back_end": "N8N, nodeRed, GHL"
+      }
+    ]
+  },
+  {
+    "company_name": "",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Akshar Muley",
+    "projects": [
+      {
+        "s_no": 110,
+        "members": [
+          {
+            "name": "Omkar Rajendra Ahire",
+            "enrollment": "2405112120008",
+            "mobile": "8237914058",
+            "program": "MCA, A"
+          },
+          {
+            "name": "Parth Mahesh Kale",
+            "enrollment": "2405112120076",
+            "mobile": "8928008567",
+            "program": "MCA, B"
+          }
+        ],
+        "project_title": "Systems & Automation Specialist, RBSAMG/RBS Aftermarket and Motorsports Group",
+        "project_description": "",
+        "front_end": "HTML5, CSS3, JAVASCRIPT",
+        "back_end": "N8N, nodeRed, GHL"
+      }
+    ]
+  },
+  {
+    "company_name": "NEXTGEN IT SOLUTIONS",
+    "address": "No:2, third floor, Main Street Anantha Ranga Pillai Nagar, Pondicherry - 08, India.",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Pritam",
+    "projects": [
+      {
+        "s_no": 111,
+        "members": [
+          {
+            "name": "Shivananthajothi K",
+            "enrollment": "2405112130049",
+            "mobile": "9080508703",
+            "program": "MCA, D"
+          }
+        ],
+        "project_title": "Smart Hospital Appointment Booking System",
+        "project_description": "",
+        "front_end": "Next.js (React Based), TypeScript, Tailwind CSS.",
+        "back_end": "Python (Django or Flask), RESTful APIs, SQLite."
+      }
+    ]
+  },
+  {
+    "company_name": "MacyMind",
+    "address": "901,902, Valentina Business Hub, Subhash Chandra Bose Marg, beside Shell Petrol Pump, Adajan Gam, Adajan, Surat, Gujarat 395009",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Pritam",
+    "projects": [
+      {
+        "s_no": 112,
+        "members": [
+          {
+            "name": "Anushka Kushwaha",
+            "enrollment": "2405112110060",
+            "mobile": "7984138963",
+            "program": "MCA, H"
+          }
+        ],
+        "project_title": "Kissan connect",
+        "project_description": "",
+        "front_end": "Flutter-dart",
+        "back_end": "Dart and firebase"
+      }
+    ]
+  },
+  {
+    "company_name": "TechnoML",
+    "address": "Morena, MP",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Laxshman",
+    "projects": [
+      {
+        "s_no": 113,
+        "members": [
+          {
+            "name": "Amit Yadav",
+            "enrollment": "2405112070004",
+            "mobile": "+977 986-6620608",
+            "program": "MCA, E"
+          },
+          {
+            "name": "Nikesh Raj Gopal",
+            "enrollment": "2405112140058",
+            "mobile": "7479705478",
+            "program": "MCA, F"
+          }
+        ],
+        "project_title": "VENDORVISTA",
+        "project_description": "",
+        "front_end": "Nilesh Raj Gopal",
+        "back_end": "Amit yadav"
+      }
+    ]
+  },
+  {
+    "company_name": "IFour technolab pvt Ltd",
+    "address": "601 & 612, The Times Square Arcade, Thaltej-Shilaj Road, Thaltej, Ahmedabad, Gujarat 380059",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Laxshman",
+    "projects": [
+      {
+        "s_no": 114,
+        "members": [
+          {
+            "name": "Shivani Shinde",
+            "enrollment": "2405112120175",
+            "mobile": "8160246306",
+            "program": "MCA, C"
+          }
+        ],
+        "project_title": "AI-Based Early Burnout Detection and Wellbeing Monitoring System",
+        "project_description": "",
+        "front_end": "React / HTML, CSS, JavaScript",
+        "back_end": "Python (Flask / FastAPI) REST APIs, AI"
+      }
+    ]
+  },
+  {
+    "company_name": "Hacker4help",
+    "address": "Anand",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "prof. satyamani Gayatri",
+    "projects": [
+      {
+        "s_no": 115,
+        "members": [
+          {
+            "name": "Lalit Mangeshkar",
+            "enrollment": "2405102140016",
+            "mobile": "9987454622",
+            "program": "MSC-IT, G"
+          },
+          {
+            "name": "Sakshi Sankhe",
+            "enrollment": "2405102140034",
+            "mobile": "99609 05821",
+            "program": "MSC-IT, G"
+          }
+        ],
+        "project_title": "Email Header Analysis and Spam Investigation",
+        "project_description": "",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
+  },
+  {
+    "company_name": "SGL resource limited",
+    "address": "5th Floor, 506, Venus Atlantis, beside Shell Petrol Pump, Prahlad Nagar, Ahmedabad, Gujarat 380015",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "prof. satyamani Gayatri",
+    "projects": [
+      {
+        "s_no": 116,
+        "members": [
+          {
+            "name": "Saptarshi Dhameliya",
+            "enrollment": "2405112140083",
+            "mobile": "+91 93138 64602",
+            "program": "MCA, F"
+          },
+          {
+            "name": "Mrityunjay saini",
+            "enrollment": "2405112140053",
+            "mobile": "+91 99506 77356",
+            "program": "MCA, F"
+          },
+          {
+            "name": "Navnit kumar maurya",
+            "enrollment": "2406112130057",
+            "mobile": "8917734530",
+            "program": "MCA, F"
+          }
+        ],
+        "project_title": "AI-Driven Crop Disease Prediction Using Satellite Imagery and Multi-Scale Deep Learning Architecture",
+        "project_description": "",
+        "front_end": "HTML, CSS, JavaScript, Bootstrap",
+        "back_end": "Python, flask, tensorflow, rest API, sqllite"
+      }
+    ]
+  },
+  {
+    "company_name": "Colordesk Branding Agency",
+    "address": "815, RK Supreme, 150 Feet Ring Road, near Nana Mava, Rajkot, Gujarat",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "prof. Sahil Kumar",
+    "projects": [
+      {
+        "s_no": 117,
+        "members": [
+          {
+            "name": "Bhuva prince",
+            "enrollment": "2405112120030",
+            "mobile": "7359967573",
+            "program": "MCA, A"
+          }
+        ],
+        "project_title": "Expense tracking & financial analysis",
+        "project_description": "",
+        "front_end": "Html, css",
+        "back_end": "Python"
+      }
+    ]
+  },
+  {
+    "company_name": "Hacker4Help",
+    "address": "Tulip Vatika, Lambhvel, Anand",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "prof. Sahil Kumar",
+    "projects": [
+      {
+        "s_no": 118,
+        "members": [
+          {
+            "name": "Laykumar Patel",
+            "enrollment": "2405102140027",
+            "mobile": "9327112912",
+            "program": "MSC-IT, G"
+          },
+          {
+            "name": "Dennis Chacko",
+            "enrollment": "2405102140005",
+            "mobile": "8733955168",
+            "program": "MSC-IT, G"
+          },
+          {
+            "name": "Vedant Dinkar Bhonsle",
+            "enrollment": "2405112140094",
+            "mobile": "9112634623",
+            "program": "MCA, G"
+          }
+        ],
+        "project_title": "Automated Digital Evidence Collection",
+        "project_description": "",
+        "front_end": "Python, Tkinter, Flask, HTML, CSS, JavaScript, Matplotlib.",
+        "back_end": "Python, psutil, Scapy, pywin32, SQLite, hashlib, cryptography, ReportLab."
+      }
+    ]
+  },
+  {
+    "company_name": "Shadowfox",
+    "address": "3A 13th Main Road, Anna Nagar West, Chennai",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Dipti Sharma",
+    "projects": [
+      {
+        "s_no": 119,
+        "members": [
+          {
+            "name": "Shivam kumar",
+            "enrollment": "2405112120174",
+            "mobile": "6299448470",
+            "program": "MCA, C"
+          }
+        ],
+        "project_title": "AI Resume Analyzer & Job Match ATS System",
+        "project_description": "",
+        "front_end": "Streamlit / Flask (you choose) HTML, CSS (if Flask)",
+        "back_end": "SQLite / MongoDB"
+      }
+    ]
+  },
+  {
+    "company_name": "Saral works technologys",
+    "address": "Noida",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Dipti Sharma",
+    "projects": [
+      {
+        "s_no": 120,
+        "members": [
+          {
+            "name": "Nilam Bharti",
+            "enrollment": "2405112120111",
+            "mobile": "9031142539",
+            "program": "MCA, B"
+          }
+        ],
+        "project_title": "Medical store stock manegement",
+        "project_description": "",
+        "front_end": "Python -Flask",
+        "back_end": "Na"
+      }
+    ]
+  },
+  {
+    "company_name": "COJAG Smart Technology Pvt Ltd",
+    "address": "Nagpur Maharashtra",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Dr. Ghanshyam Rathod",
+    "projects": [
+      {
+        "s_no": 121,
+        "members": [
+          {
+            "name": "Ujjwal Meshram",
+            "enrollment": "2405112070061",
+            "mobile": "7709782511",
+            "program": "MCA, E"
+          }
+        ],
+        "project_title": "Airline Reservation and Booking Management System",
+        "project_description": "",
+        "front_end": "Python Tkinter",
+        "back_end": "Python, SQLite"
+      }
+    ]
+  },
+  {
+    "company_name": "Elvee Infotech",
+    "address": "3029, Central Bazar, Mini Bazar Surat, Gujarat India - 395006",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Dr. Ghanshyam Rathod",
+    "projects": [
+      {
+        "s_no": 123,
+        "members": [
+          {
+            "name": "KAKADIYA DEEPKUMAR PRAVINBHAI",
+            "enrollment": "2405112120075",
+            "mobile": "9228232989",
+            "program": "MCA, B"
+          }
+        ],
+        "project_title": "Rental Management System",
+        "project_description": "",
+        "front_end": "Html, Css, Bootstrap, Js, Php",
+        "back_end": "Php - Mysql xampp"
+      }
+    ]
+  },
+  {
+    "company_name": "Capgemini",
+    "address": "PAN India",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Ashutosh Solanki ",
+    "projects": [
+      {
+        "s_no": 124,
+        "members": [
+          {
+            "name": "Istuti Consul",
+            "enrollment": "2405102140009",
+            "mobile": "7976065354",
+            "program": "MSC-IT, G"
+          }
+        ],
+        "project_title": "Analyst",
+        "project_description": "",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
+  },
+  {
+    "company_name": "Intellect Design Arena",
+    "address": "Chennai Tamil Nadu",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Ashutosh Solanki ",
+    "projects": [
+      {
+        "s_no": 125,
+        "members": [
+          {
+            "name": "Sachin Ramjanam Yadav",
+            "enrollment": "2405112110137",
+            "mobile": "9594500124",
+            "program": "MCA, I"
+          },
+          {
+            "name": "Rahul Ranjan",
+            "enrollment": "240511211012",
+            "mobile": "8328984391",
+            "program": "MCA, I"
+          }
+        ],
+        "project_title": "Smart Trip Planner",
+        "project_description": "",
+        "front_end": "ANGULAR, HTML, CSS, TYPESCRIPT",
+        "back_end": "SPRING BOOT, SQL"
+      }
+    ]
+  },
+  {
+    "company_name": "Here Quality Excellence Private Limited",
+    "address": "401, Sahyog Elina, VIP Rd, above Reliance Digital, beside Tanishq, Amit Nagar, Saibaba Nagar, Karelibagh, Vadodara, Gujarat 390022",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Jatin Morwal",
+    "projects": [
+      {
+        "s_no": 126,
+        "members": [
+          {
+            "name": "Bheam",
+            "enrollment": "2405112070049",
+            "mobile": "9948441166",
+            "program": "MCA, E"
+          }
+        ],
+        "project_title": "Project management system",
+        "project_description": "",
+        "front_end": "HTML, CSS, JavaScript, React",
+        "back_end": "Python, Django, Django REST Framework, Database (SQLite / PostgreSQL)"
+      }
+    ]
+  },
+  {
+    "company_name": "Intellize technologies",
+    "address": "Wework India Co-working space, Embassy Manyata Business Park, Near Outer Ring Rd, Nagavara, Bengaluru, Karnataka 560045",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Vivek Dave",
+    "projects": [
+      {
+        "s_no": 127,
+        "members": [
+          {
+            "name": "Pooja Joshi",
+            "enrollment": "2405112120072",
+            "mobile": "6351472210",
+            "program": "MCA, B"
+          }
+        ],
+        "project_title": "Topic and sentiment analysis using gen AI",
+        "project_description": "",
+        "front_end": "Html, javascript",
+        "back_end": "Python, flask"
+      }
+    ]
+  },
+  {
+    "company_name": "PSG Enterprises",
+    "address": "110, 'B' Block 1st floor, sri Datta Commercial complex, Hyderabad",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Dr. Raj Sinha",
+    "projects": [
+      {
+        "s_no": 128,
+        "members": [
+          {
+            "name": "Shaik Mohammad Gouse",
+            "enrollment": "2205103110010",
+            "mobile": "7416615190",
+            "program": "IMCA, A"
+          }
+        ],
+        "project_title": "Job Portal Website",
+        "project_description": "",
+        "front_end": "HTML, css, js, react",
+        "back_end": "Node js, Express js, Mongo DB"
+      }
+    ]
+  },
+  {
+    "company_name": "Zeex AI",
+    "address": "Nirmaan Workspace IIT Madras",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Dr. Pravin Tomar",
+    "projects": [
+      {
+        "s_no": 129,
+        "members": [
+          {
+            "name": "Gorav yadav",
+            "enrollment": "2405112070043",
+            "mobile": "",
+            "program": "MCA, E"
+          }
+        ],
+        "project_title": "Z-TRACS",
+        "project_description": "",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
+  },
+  {
+    "company_name": "Operisoft",
+    "address": "12th Floor, A wing, Krish Cubical, Near Thaltej Gam Metro Station, Thaltej, Ahmedabad, Gujarat 380059",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Dr. Abhishek Mehta",
+    "projects": [
+      {
+        "s_no": 130,
+        "members": [
+          {
+            "name": "Manan Joshi",
+            "enrollment": "2405112110045",
+            "mobile": "9408365464",
+            "program": "MCA, H"
+          }
+        ],
+        "project_title": "EduConnect",
+        "project_description": "",
+        "front_end": "React.js HTML5, CSS3",
+        "back_end": "Node.js, MongoDB"
+      }
+    ]
+  },
+  {
+    "company_name": "Uro computer websoft solutions",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Dr. Hina Chokshi",
+    "projects": [
+      {
+        "s_no": 131,
+        "members": [
+          {
+            "name": "Dhruv patel",
+            "enrollment": "2305112110133",
+            "mobile": "6353543372",
+            "program": "MCA I"
+          }
+        ],
+        "project_title": "BMI Calculator and Weight Management Application",
+        "project_description": "The inspiration for this idea comes from our personal journey. Having struggled with obesity for most of our life, we found ourselves constantly scouring various sources online to track our daily food intake - from calorie counts to protein content and beyond. We envisioned creating an application that streamlines this process by allowing users to input their basic information such as height, weight, etc. The Web app would then calculate their BMI and provide insights into their weight status, whether they're considered obese, underweight, or within a healthy range.",
+        "front_end": "On progress",
+        "back_end": "On progress"
+      }
+    ]
+  },
+  {
+    "company_name": "",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Dr. Pravin Tomar",
+    "projects": [
+      {
+        "s_no": 132,
+        "members": [
+          {
+            "name": "Kota Saikiran Anand",
+            "enrollment": "2405112120083",
+            "mobile": "9157431157",
+            "program": "MCA, B"
+          }
+        ],
+        "project_title": "VeriMedia",
+        "project_description": "",
+        "front_end": "Flutter (Dart)",
+        "back_end": "Python (FastAPI)"
+      }
+    ]
+  },
+  {
+    "company_name": "",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Dr. Ghanshyam Rathod",
+    "projects": [
+      {
+        "s_no": 133,
+        "members": [
+          {
+            "name": "RATHWA KRISHNAKUMAR YOGESHBHAI",
+            "enrollment": "2405112120153",
+            "mobile": "9106170271",
+            "program": "MCA, C"
+          }
+        ],
+        "project_title": "NOCC ROOT",
+        "project_description": "",
+        "front_end": "Next.js",
+        "back_end": "Python"
+      }
+    ]
+  },
+  {
+    "company_name": "",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Manishkumar Joshi",
+    "projects": [
+      {
+        "s_no": 134,
+        "members": [
+          {
+            "name": "Ronak Amitbhai Patel",
+            "enrollment": "2405112120132",
+            "mobile": "8758266581",
+            "program": "MCA, B"
+          }
+        ],
+        "project_title": "Vendor management system",
+        "project_description": "",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
+  },
+  {
+    "company_name": "",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof.Jigar Bhavsar",
+    "projects": [
+      {
+        "s_no": 135,
+        "members": [
+          {
+            "name": "Aditya Nair",
+            "enrollment": "2405112130047",
+            "mobile": "8085050204",
+            "program": "MCA, D"
+          },
+          {
+            "name": "Rabiya Ali",
+            "enrollment": "2405112130006",
+            "mobile": "6352387481",
+            "program": "MCA, D"
+          }
+        ],
+        "project_title": "PixelMint",
+        "project_description": "",
+        "front_end": "HTML, CSS, Javascript, bootstrap",
+        "back_end": "Reactjs, Nodejs, SQL"
+      }
+    ]
+  },
+  {
+    "company_name": "",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof.Vijya Tulsani",
+    "projects": [
+      {
+        "s_no": 136,
+        "members": [
+          {
+            "name": "Tushar Yadav",
+            "enrollment": "2405112120198",
+            "mobile": "9016292276",
+            "program": "MCA, C"
+          },
+          {
+            "name": "Harshit Uppal",
+            "enrollment": "2405112130039",
+            "mobile": "6354408816",
+            "program": "MCA, D"
+          }
+        ],
+        "project_title": "Industrial Component Inventory Analytics",
+        "project_description": "",
+        "front_end": "Power-BI",
+        "back_end": "SQL and Python"
+      }
+    ]
+  },
+  
+  
+  
+  {
+    "company_name": "",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Anmol Singh",
+    "projects": [
+      {
+        "s_no": 137,
+        "members": [
+          {
+            "name": "Mahammad Mahaboobi",
+            "enrollment": "2405112070024",
+            "mobile": "9347001882",
+            "program": "MCA, E"
+          }
+        ],
+        "project_title": "",
+        "project_description": "",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
+  },
+  {
+    "company_name": "",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof.Sohil Parmar",
+    "projects": [
+      {
+        "s_no": 138,
+        "members": [
+          {
+            "name": "Hitesh",
+            "enrollment": "2405112070020",
+            "mobile": "8690918835",
+            "program": "MCA, E"
+          }
+        ],
+        "project_title": "",
+        "project_description": "",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
+  },
+  {
+    "company_name": "",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Hardik Parmar",
+    "projects": [
+      {
+        "s_no": 139,
+        "members": [
+          {
+            "name": "Rishabdev Panchal",
+            "enrollment": "2205103140012",
+            "mobile": "+91 93277 88769",
+            "program": "IMCA, A"
+          }
+        ],
+        "project_title": "",
+        "project_description": "",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
+  },
+  {
+    "company_name": "",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Sweta Jethva",
+    "projects": [
+      {
+        "s_no": 140,
+        "members": [
+          {
+            "name": "Khushi SanketKumar Patel",
+            "enrollment": "2405112120082",
+            "mobile": "",
+            "program": "MCA, B"
+          }
+        ],
+        "project_title": "",
+        "project_description": "",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
+  },
+  {
+    "company_name": "",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof.Shikha Bansal",
+    "projects": [
+      {
+        "s_no": 141,
+        "members": [
+          {
+            "name": "Prajapati Mitesh",
+            "enrollment": "2405112140108",
+            "mobile": "7096647025",
+            "program": "MCA, I"
+          },
+          {
+            "name": "Chanpaneri Shivamkumar",
+            "enrollment": "2405112140022",
+            "mobile": "7778071910",
+            "program": "MCA, F"
+          },
+          {
+            "name": "Patel Bhuminkumar",
+            "enrollment": "2405112140065",
+            "mobile": "7984697899",
+            "program": "MCA, F"
+          }
+        ],
+        "project_title": "",
+        "project_description": "",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
+  },
+  {
+    "company_name": "",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof.Rinku Patil",
+    "projects": [
+      {
+        "s_no": 142,
+        "members": [
+          {
+            "name": "Palak Kojani",
+            "enrollment": "2205103140008",
+            "mobile": "9512977575",
+            "program": "IMCA, A"
+          }
+        ],
+        "project_title": "",
+        "project_description": "",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
+  },
+  {
+    "company_name": "",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Arun.U",
+    "projects": [
+      {
+        "s_no": 143,
+        "members": [
+          {
+            "name": "Mohib Ali",
+            "enrollment": "2405112070057",
+            "mobile": "9313461855",
+            "program": "MCA, E"
+          },
+          {
+            "name": "Dhruvit Vegad",
+            "enrollment": "2405112070062",
+            "mobile": "+91 91731 60555",
+            "program": "MCA, E"
+          }
+        ],
+        "project_title": "",
+        "project_description": "",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
+  },
+  {
+    "company_name": "",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof.Saswati Chatterjee",
+    "projects": [
+      {
+        "s_no": 144,
+        "members": [
+          {
+            "name": "Manav Gajera",
+            "enrollment": "2405102070002",
+            "mobile": "7862934789",
+            "program": "MSC-IT, F"
+          }
+        ],
+        "project_title": "",
+        "project_description": "",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
+  },
+  {
+    "company_name": "",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Faruk Abdulla",
+    "projects": [
+      {
+        "s_no": 145,
+        "members": [
+          {
+            "name": "Mohd Adnan Khan",
+            "enrollment": "2405112110070",
+            "mobile": "9157969570",
+            "program": "MCA, H"
+          }
+        ],
+        "project_title": "",
+        "project_description": "",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
+  },
+  {
+    "company_name": "",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Vaishali Shah",
+    "projects": [
+      {
+        "s_no": 146,
+        "members": [
+          {
+            "name": "Sakshi Patil",
+            "enrollment": "2405102140029",
+            "mobile": "",
+            "program": "MSC-IT, G"
+          }
+        ],
+        "project_title": "",
+        "project_description": "",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
+  },
+  {
+    "company_name": "",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Smarika Rai",
+    "projects": [
+      {
+        "s_no": 147,
+        "members": [
+          {
+            "name": "Rishabdev Panchal",
+            "enrollment": "2205103140012",
+            "mobile": "+91 93277 88769",
+            "program": "IMCA, A"
+          }
+        ],
+        "project_title": "",
+        "project_description": "",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
+  },
+  {
+    "company_name": "",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Saumil Trivedi",
+    "projects": [
+      {
+        "s_no": 148,
+        "members": [
+          {
+            "name": "Mahammad Mahaboobi",
+            "enrollment": "2405112070024",
+            "mobile": "9347001882",
+            "program": "MCA, E"
+          }
+        ],
+        "project_title": "",
+        "project_description": "",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
+  },
+  {
+    "company_name": "",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof.Rinkal Sarvaiya",
+    "projects": [
+      {
+        "s_no": 149,
+        "members": [
+          {
+            "name": "Rajput Dhruv Devendrabhai",
+            "enrollment": "2205103120026",
+            "mobile": "9978749354",
+            "program": "IMCA, A"
+          }
+        ],
+        "project_title": "",
+        "project_description": "",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
+  },
+  {
+    "company_name": "",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Sonali Kharade",
+    "projects": [
+      {
+        "s_no": 150,
+        "members": [
+          {
+            "name": "Diya Patel",
+            "enrollment": "2405112110084",
+            "mobile": "9104881550",
+            "program": "MCA, I"
+          }
+        ],
+        "project_title": "",
+        "project_description": "",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
+  },
+  {
+    "company_name": "",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Preeti Sharma",
+    "projects": [
+      {
+        "s_no": 151,
+        "members": [
+          {
+            "name": "Manashri Gavali",
+            "enrollment": "2405112120050",
+            "mobile": "7265935419",
+            "program": "MCA, A"
+          }
+        ],
+        "project_title": "",
+        "project_description": "",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
+  },
+  {
+    "company_name": "",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Vishakha Bathwar",
+    "projects": [
+      {
+        "s_no": 152,
+        "members": [
+          {
+            "name": "Priyanshu Chirag Vayada",
+            "enrollment": "2405102140032",
+            "mobile": "9712942826",
+            "program": "MSC-IT, G"
+          }
+        ],
+        "project_title": "",
+        "project_description": "",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
+  },
+  {
+    "company_name": "",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof.Chandankumar Singh",
+    "projects": [
+      {
+        "s_no": 153,
+        "members": [
+          {
+            "name": "Harsh Lad",
+            "enrollment": "2405112140045",
+            "mobile": "9313391406",
+            "program": "MCA, G"
+          }
+        ],
+        "project_title": "",
+        "project_description": "",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
+  },
+  {
+    "company_name": "",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Priyanka Mod",
+    "projects": [
+      {
+        "s_no": 154,
+        "members": [
+          {
+            "name": "Kashyap Shah",
+            "enrollment": "2405112070052",
+            "mobile": "9979483378",
+            "program": "MCA, E"
+          },
+          {
+            "name": "Rushabh Shah",
+            "enrollment": "2405112070053",
+            "mobile": "8347258725",
+            "program": "MCA, E"
+          }
+        ],
+        "project_title": "",
+        "project_description": "",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
+  },
+  {
+    "company_name": "",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Khyati Kariya",
+    "projects": [
+      {
+        "s_no": 155,
+        "members": [
+          {
+            "name": "Tirth Ladani",
+            "enrollment": "2405112120091",
+            "mobile": "8849343176",
+            "program": "MCA, B"
+          }
+        ],
+        "project_title": "",
+        "project_description": "",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
+  },
+  {
+    "company_name": "",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Uma Bhati",
+    "projects": [
+      {
+        "s_no": 156,
+        "members": [
+          {
+            "name": "Dubakula Ramya",
+            "enrollment": "2205103120006",
+            "mobile": "9652610563",
+            "program": "IMCA, A"
+          }
+        ],
+        "project_title": "",
+        "project_description": "",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
+  },
+  {
+    "company_name": "",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Tanmay Shah",
+    "projects": [
+      {
+        "s_no": 157,
+        "members": [
+          {
+            "name": "Puppala komal",
+            "enrollment": "2405112120145",
+            "mobile": "9533693495",
+            "program": "MCA, B"
+          },
+          {
+            "name": "Daniel",
+            "enrollment": "2405112120108",
+            "mobile": "+91 79959 30529",
+            "program": "MCA, B"
+          }
+        ],
+        "project_title": "",
+        "project_description": "",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
+  },
+  {
+    "company_name": "",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. RamDeepak Yadagiri",
+    "projects": [
+      {
+        "s_no": 158,
+        "members": [
+          {
+            "name": "Kashyap Shah",
+            "enrollment": "2405112070052",
+            "mobile": "9979483378",
+            "program": "MCA, E"
+          },
+          {
+            "name": "Rushabh Shah",
+            "enrollment": "2405112070053",
+            "mobile": "8347258725",
+            "program": "MCA, E"
+          }
+        ],
+        "project_title": "",
+        "project_description": "",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
+  },
+  {
+    "company_name": "",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Komal Madam",
+    "projects": [
+      {
+        "s_no": 159,
+        "members": [
+          {
+            "name": "Pillai Vinish VijayKumar",
+            "enrollment": "2405112140073",
+            "mobile": "9727430886",
+            "program": "MCA, F"
+          }
+        ],
+        "project_title": "",
+        "project_description": "",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
+  },
+  {
+    "company_name": "",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Prachi Mehta",
+    "projects": [
+      {
+        "s_no": 160,
+        "members": [
+          {
+            "name": "Khushbutara Shekh",
+            "enrollment": "2405112110120",
+            "mobile": "6354288397",
+            "program": "MCA, I"
+          }
+        ],
+        "project_title": "",
+        "project_description": "",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
+  },
+  {
+    "company_name": "",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Aniket Paul",
+    "projects": [
+      {
+        "s_no": 161,
+        "members": [
+          {
+            "name": "Jyotiranjan Moahanty",
+            "enrollment": "2405112130014",
+            "mobile": "8144850416",
+            "program": "MCA, D"
+          },
+          {
+            "name": "Dipanshi Verma",
+            "enrollment": "2405112110133",
+            "mobile": "9193521876",
+            "program": "MCA, I"
+          },
+          {
+            "name": "Sumit Kumar Kushwaha",
+            "enrollment": "2405112070060",
+            "mobile": "6394808204",
+            "program": "MCA, E"
+          }
+        ],
+        "project_title": "",
+        "project_description": "",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
+  },
+  {
+    "company_name": "",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Ms. Niharika Agarwal",
+    "projects": [
+      {
+        "s_no": 162,
+        "members": [
+          {
+            "name": "Vedant Trivedi",
+            "enrollment": "2405112110132",
+            "mobile": "9981094545",
+            "program": "MCA, I"
+          }
+        ],
+        "project_title": "",
+        "project_description": "",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
+  },
+  {
+    "company_name": "",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Aesh Gada",
+    "projects": [
+      {
+        "s_no": 163,
+        "members": [
+          {
+            "name": "Vishwakarma Ankit",
+            "enrollment": "2405112070064",
+            "mobile": "8400232441",
+            "program": "MCA, E"
+          }
+        ],
+        "project_title": "",
+        "project_description": "",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
+  },
+  {
+    "company_name": "",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Madhav J Kapadiya",
+    "projects": [
+      {
+        "s_no": 164,
+        "members": [
+          {
+            "name": "BERLIN OOMMEN BIJU",
+            "enrollment": "2405112140061",
+            "mobile": "9326928159",
+            "program": "MCA, F"
+          }
+        ],
+        "project_title": "",
+        "project_description": "",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
+  },
+  {
+    "company_name": "",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Adarsh Ashok",
+    "projects": [
+      {
+        "s_no": 165,
+        "members": [
+          {
+            "name": "Koushiki",
+            "enrollment": "2405112120085",
+            "mobile": "9111173151",
+            "program": "MCA, B"
+          }
+        ],
+        "project_title": "",
+        "project_description": "",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
+  },
+  {
+    "company_name": "",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Pratik Parmar",
+    "projects": [
+      {
+        "s_no": 166,
+        "members": [
+          {
+            "name": "Rahin Pathan",
+            "enrollment": "2405112070067",
+            "mobile": "8200437244",
+            "program": "MCA, E"
+          }
+        ],
+        "project_title": "",
+        "project_description": "",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
+  },
+  {
+    "company_name": "",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Samant Kumar",
+    "projects": [
+      {
+        "s_no": 167,
+        "members": [
+          {
+            "name": "Anand Patil",
+            "enrollment": "2405112120014",
+            "mobile": "9327523018",
+            "program": "MCA, A"
+          }
+        ],
+        "project_title": "",
+        "project_description": "",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
+  },
+  {
+    "company_name": "",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Shivaniba Dilipsinh Bhadoriya",
+    "projects": [
+      {
+        "s_no": 168,
+        "members": [
+          {
+            "name": "Rohit Dinesh Pawar",
+            "enrollment": "Rohit Dinesh Pawar",
+            "mobile": "9403362327",
+            "program": "MCA, F"
+          }
+        ],
+        "project_title": "",
+        "project_description": "",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
+  },
+  {
+    "company_name": "",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Honey Parmar",
+    "projects": [
+      {
+        "s_no": 169,
+        "members": [
+          {
+            "name": "Dhundha Sahistabanu Samirbhai",
+            "enrollment": "2405112110034",
+            "mobile": "7016406411",
+            "program": "MCA, H"
+          }
+        ],
+        "project_title": "",
+        "project_description": "",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
+  },
+  {
+    "company_name": "",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Chaitali nayka",
+    "projects": [
+      {
+        "s_no": 170,
+        "members": [
+          {
+            "name": "Tanay Bateriwala",
+            "enrollment": "2405112110016",
+            "mobile": "9316104778",
+            "program": "MCA, H"
+          }
+        ],
+        "project_title": "",
+        "project_description": "",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
+  },
+  {
+    "company_name": "",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Mini",
+    "projects": [
+      {
+        "s_no": 171,
+        "members": [
+          {
+            "name": "Saili kadam",
+            "enrollment": "2405112120074",
+            "mobile": "6354880013",
+            "program": "MCA, A"
+          },
+          {
+            "name": "Prapti Pathak",
+            "enrollment": "2405112120136",
+            "mobile": "75728 14849",
+            "program": "MCA, B"
+          },
+          {
+            "name": "Esha Bhatt",
+            "enrollment": "2405112120027",
+            "mobile": "94271 20097",
+            "program": "MCA, A"
+          }
+        ],
+        "project_title": "",
+        "project_description": "",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
+  },
+  {
+    "company_name": "",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Payal Parekh",
+    "projects": [
+      {
+        "s_no": 172,
+        "members": [
+          {
+            "name": "Saniya Ahmad",
+            "enrollment": "2205103120012",
+            "mobile": "9661105102",
+            "program": "IMCA, A"
+          }
+        ],
+        "project_title": "",
+        "project_description": "",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
+  },
+  {
+    "company_name": "",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. Himanshu Yadav",
+    "projects": [
+      {
+        "s_no": 173,
+        "members": [
+          {
+            "name": "Aayush Pathak",
+            "enrollment": "2405112120135",
+            "mobile": "9054245433",
+            "program": "MCA, B"
+          }
+        ],
+        "project_title": "",
+        "project_description": "",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
+  },
+  {
+    "company_name": "",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "NA",
+    "internal_guide": "Prof. sathwik Chebrolu",
+    "projects": [
+      {
+        "s_no": 174,
+        "members": [
+          {
+            "name": "Yashashwi Das Manikpuri",
+            "enrollment": "2405112120199",
+            "mobile": "7647009829",
+            "program": "MCA, C"
+          }
+        ],
+        "project_title": "",
+        "project_description": "",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
+  }
+]

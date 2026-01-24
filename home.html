@@ -1,0 +1,952 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internal Guide Group Finder</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            margin: 20px auto;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+            color: white;
+            padding: 30px 40px;
+            text-align: center;
+            position: relative;
+        }
+
+        .header-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .university-info {
+            text-align: left;
+        }
+
+        .university-name {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 5px;
+        }
+
+        .department-name {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        .stats-container {
+            display: flex;
+            gap: 20px;
+        }
+
+        .stat-item {
+            text-align: center;
+            padding: 10px 20px;
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 10px;
+            backdrop-filter: blur(5px);
+            animation: blink 2s infinite;
+        }
+
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.7; }
+        }
+
+        .stat-value {
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-bottom: 5px;
+        }
+
+        .stat-label {
+            font-size: 0.9rem;
+            opacity: 0.9;
+        }
+
+        .header h1 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+            margin-bottom: 15px;
+        }
+
+        .modal-btn {
+            background: white;
+            color: #4f46e5;
+            border: none;
+            padding: 10px 25px;
+            border-radius: 50px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            font-size: 1rem;
+        }
+
+        .modal-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+            background: #f8fafc;
+        }
+
+        /* Modal Styles */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 1000;
+            animation: fadeIn 0.3s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .modal-content {
+            position: relative;
+            background: white;
+            margin: 50px auto;
+            width: 90%;
+            max-width: 800px;
+            max-height: 80vh;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            animation: slideIn 0.3s ease;
+        }
+
+        @keyframes slideIn {
+            from { transform: translateY(-50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+
+        .modal-header {
+            background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+            color: white;
+            padding: 25px;
+            text-align: center;
+        }
+
+        .modal-header h2 {
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+        }
+
+        .close-modal {
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            color: white;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+            background: none;
+            border: none;
+            width: 30px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            transition: background 0.3s;
+        }
+
+        .close-modal:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        .modal-body {
+            padding: 20px;
+            overflow-y: auto;
+            max-height: calc(80vh - 100px);
+        }
+
+        .guide-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 12px;
+            margin-top: 10px;
+        }
+
+        .guide-item {
+            background: #f8fafc;
+            border-radius: 10px;
+            padding: 12px 15px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
+
+        .guide-item:hover {
+            transform: translateY(-3px);
+            border-color: #4f46e5;
+            box-shadow: 0 5px 15px rgba(79, 70, 229, 0.1);
+            background: white;
+        }
+
+        .guide-header-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+
+        .guide-name-modal {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #1e293b;
+            flex: 1;
+            margin-right: 10px;
+        }
+
+        .guide-group-count {
+            background: #4f46e5;
+            color: white;
+            padding: 3px 10px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            white-space: nowrap;
+        }
+
+        .guide-students-info {
+            color: #64748b;
+            font-size: 0.85rem;
+            margin-top: 5px;
+        }
+
+        /* Search Section */
+        .search-section {
+            padding: 30px 40px;
+            background: #f8fafc;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        .search-box {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .search-label {
+            display: block;
+            font-size: 1.2rem;
+            color: #334155;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+
+        .input-group {
+            display: flex;
+            gap: 10px;
+        }
+
+        #guideName {
+            flex: 1;
+            padding: 15px 20px;
+            border: 2px solid #e2e8f0;
+            border-radius: 12px;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+        }
+
+        #guideName:focus {
+            outline: none;
+            border-color: #4f46e5;
+            box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1);
+        }
+
+        #searchBtn {
+            padding: 15px 30px;
+            background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+            color: white;
+            border: none;
+            border-radius: 12px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        #searchBtn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(79, 70, 229, 0.3);
+        }
+
+        #searchBtn:active {
+            transform: translateY(0);
+        }
+
+        .suggestions {
+            margin-top: 15px;
+            color: #64748b;
+            font-size: 0.9rem;
+        }
+
+        /* Results Section */
+        .results-section {
+            padding: 30px 40px;
+            min-height: 400px;
+        }
+
+        .no-results {
+            text-align: center;
+            color: #64748b;
+            font-size: 1.2rem;
+            padding: 40px;
+            display: none;
+        }
+
+        .results-container {
+            display: none;
+        }
+
+        .guide-header {
+            text-align: center;
+            margin-bottom: 25px;
+            padding: 20px;
+            background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+            border-radius: 15px;
+        }
+
+        .guide-name {
+            font-size: 1.8rem;
+            color: #1e293b;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .guide-meta {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            color: #64748b;
+            font-size: 1.1rem;
+        }
+
+        .student-count {
+            background: #4f46e5;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: 600;
+        }
+
+        /* Compact Student Cards */
+        .students-container {
+            max-height: 500px;
+            overflow-y: auto;
+            border: 1px solid #e2e8f0;
+            border-radius: 10px;
+            padding: 15px;
+        }
+
+        .student-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .student-table thead {
+            background: #f8fafc;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        .student-table th {
+            padding: 12px 15px;
+            text-align: left;
+            font-weight: 600;
+            color: #334155;
+            border-bottom: 2px solid #e2e8f0;
+            font-size: 0.95rem;
+        }
+
+        .student-table tbody tr {
+            border-bottom: 1px solid #e2e8f0;
+            transition: background 0.3s ease;
+        }
+
+        .student-table tbody tr:hover {
+            background: #f1f5f9;
+        }
+
+        .student-table td {
+            padding: 10px 15px;
+            color: #64748b;
+            font-size: 0.9rem;
+        }
+
+        .student-table td:first-child {
+            font-weight: 600;
+            color: #4f46e5;
+        }
+
+        .student-table .student-name {
+            color: #1e293b;
+            font-weight: 600;
+        }
+
+        /* Loading and Error States */
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #4f46e5;
+            font-size: 1.2rem;
+            display: none;
+        }
+
+        .loading-spinner {
+            border: 3px solid #f3f3f3;
+            border-top: 3px solid #4f46e5;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .error-message {
+            text-align: center;
+            color: #ef4444;
+            padding: 20px;
+            background: #fef2f2;
+            border-radius: 10px;
+            margin: 20px 0;
+            display: none;
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 60px 40px;
+            color: #64748b;
+        }
+
+        .empty-icon {
+            font-size: 4rem;
+            margin-bottom: 20px;
+            opacity: 0.3;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                margin: 10px;
+                border-radius: 15px;
+            }
+
+            .header {
+                padding: 25px 20px;
+            }
+
+            .header-top {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 15px;
+            }
+
+            .stats-container {
+                width: 100%;
+                justify-content: space-between;
+            }
+
+            .stat-item {
+                flex: 1;
+                padding: 8px 15px;
+            }
+
+            .stat-value {
+                font-size: 1.5rem;
+            }
+
+            .header h1 {
+                font-size: 1.8rem;
+            }
+
+            .modal-btn {
+                width: 100%;
+                margin-top: 10px;
+            }
+
+            .guide-stats {
+                grid-template-columns: 1fr;
+            }
+
+            .search-section {
+                padding: 25px 20px;
+            }
+
+            .input-group {
+                flex-direction: column;
+            }
+
+            #searchBtn {
+                width: 100%;
+            }
+
+            .results-section {
+                padding: 25px 20px;
+            }
+
+            .guide-header {
+                padding: 15px;
+            }
+
+            .guide-name {
+                font-size: 1.5rem;
+            }
+
+            .guide-meta {
+                flex-direction: column;
+                gap: 10px;
+                align-items: center;
+            }
+
+            .student-table {
+                display: block;
+                overflow-x: auto;
+            }
+
+            .student-table th,
+            .student-table td {
+                padding: 8px 10px;
+                font-size: 0.85rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .header {
+                padding: 20px 15px;
+            }
+
+            .header h1 {
+                font-size: 1.6rem;
+            }
+
+            .stat-value {
+                font-size: 1.3rem;
+            }
+
+            .modal-btn {
+                font-size: 0.9rem;
+                padding: 8px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header-top">
+                <div class="university-info">
+                    <div class="university-name">Parul University</div>
+                    <div class="department-name">Department of MCA</div>
+                </div>
+                <div class="stats-container">
+                    <div class="stat-item" id="totalGuidesStat">
+                        <div class="stat-value">0</div>
+                        <div class="stat-label">Total Guides</div>
+                    </div>
+                    <div class="stat-item" id="totalStudentsStat">
+                        <div class="stat-value">0</div>
+                        <div class="stat-label">Total Students</div>
+                    </div>
+                </div>
+            </div>
+            
+            <h1>👨‍🏫 Internal Guide Group Finder</h1>
+            <p>Search for internal guides and view their student groups</p>
+            <button class="modal-btn" id="viewGuidesBtn">View All Guides & Groups</button>
+        </div>
+
+        <!-- Modal for all guides -->
+        <div class="modal" id="guidesModal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Internal Guides & Groups</h2>
+                    <p>Total Guides: <span id="totalGuidesCount">0</span> | Click any guide to search</p>
+                    <button class="close-modal" id="closeModal">&times;</button>
+                </div>
+                <div class="modal-body" id="modalBody">
+                    <div class="loading" id="modalLoading">
+                        <div class="loading-spinner"></div>
+                        <p>Loading guide information...</p>
+                    </div>
+                    <div class="guide-stats" id="guideStats">
+                        <!-- Guide items will be inserted here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="search-section">
+            <div class="search-box">
+                <label class="search-label">Enter Internal Guide's Name:</label>
+                <div class="input-group">
+                    <input type="text" id="guideName" placeholder="e.g., Prof. Vivek Dave, Dr. Abhishek Mehta" autocomplete="off">
+                    <button id="searchBtn">Search</button>
+                </div>
+                <div class="suggestions">
+                    Try: "Prof. Vivek Dave", "Dr. Hina Chokshi", "Prof.Jigar Bhavsar"
+                </div>
+            </div>
+        </div>
+
+        <div class="loading">
+            <div class="loading-spinner"></div>
+            <p>Loading group details...</p>
+        </div>
+
+        <div class="error-message" id="errorMessage">
+            Failed to load data. Please check  data is available and try again.
+        </div>
+
+        <div class="results-section">
+            <div class="empty-state" id="emptyState">
+                <div class="empty-icon">🔍</div>
+                <h3>Search for an Internal Guide</h3>
+                <p>Enter the name of an internal guide in the search box above to view their student groups.</p>
+            </div>
+
+            <div class="no-results" id="noResults">
+                <div class="empty-icon">😕</div>
+                <h3>No Groups Found</h3>
+                <p>No student groups found for this guide. Please check the spelling or try a different name.</p>
+            </div>
+
+            <div class="results-container" id="resultsContainer">
+                <div class="guide-header" id="guideHeader">
+                    <h2 class="guide-name" id="guideNameDisplay"></h2>
+                    <div class="guide-meta">
+                        <span>Total Students: <span class="student-count" id="studentCount">0</span></span>
+                    </div>
+                </div>
+
+                <div class="students-container" id="studentsContainer">
+                    <table class="student-table" id="studentTable">
+                        <thead>
+                            <tr>
+                                <th>S.No</th>
+                                <th>Name</th>
+                                <th>Enrollment</th>
+                                <th>Mobile</th>
+                                <th>Program</th>
+                                <th>Project</th>
+                                <th>Company</th>
+                            </tr>
+                        </thead>
+                        <tbody id="studentTableBody">
+                            <!-- Student rows will be inserted here -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let guideData = null;
+        let allGuides = [];
+        let guideStats = {};
+        let totalStudents = 0;
+
+        // Load JSON data on page load
+        async function loadData() {
+            const loadingEl = document.querySelector('.loading');
+            const errorEl = document.getElementById('errorMessage');
+            
+            try {
+                loadingEl.style.display = 'block';
+                errorEl.style.display = 'none';
+                
+                const response = await fetch('data1.json');
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                
+                guideData = await response.json();
+                processGuideData(guideData);
+                setupSearchSuggestions();
+                updateHeaderStats();
+                
+                loadingEl.style.display = 'none';
+            } catch (error) {
+                console.error('Error loading data:', error);
+                loadingEl.style.display = 'none';
+                errorEl.style.display = 'block';
+                errorEl.innerHTML = `Failed to load data: ${error.message}.<br>Please ensure.`;
+            }
+        }
+
+        // Process guide data to create statistics
+        function processGuideData(data) {
+            guideStats = {};
+            totalStudents = 0;
+            
+            data.forEach(group => {
+                if (group.internal_guide) {
+                    const guideName = group.internal_guide.trim();
+                    
+                    if (!guideStats[guideName]) {
+                        guideStats[guideName] = {
+                            groups: 0,
+                            totalStudents: 0,
+                            students: []
+                        };
+                    }
+                    
+                    guideStats[guideName].groups++;
+                    
+                    // Calculate total students for this guide
+                    const groupStudents = group.projects.reduce((total, project) => {
+                        return total + project.members.length;
+                    }, 0);
+                    
+                    guideStats[guideName].totalStudents += groupStudents;
+                    totalStudents += groupStudents;
+                    
+                    // Collect all students for this guide
+                    group.projects.forEach(project => {
+                        project.members.forEach(student => {
+                            guideStats[guideName].students.push({
+                                ...student,
+                                s_no: project.s_no,
+                                project_title: project.project_title,
+                                company: group.company_name
+                            });
+                        });
+                    });
+                }
+            });
+            
+            allGuides = Object.keys(guideStats).sort();
+        }
+
+        // Update header statistics with blinking effect
+        function updateHeaderStats() {
+            const totalGuidesEl = document.getElementById('totalGuidesStat').querySelector('.stat-value');
+            const totalStudentsEl = document.getElementById('totalStudentsStat').querySelector('.stat-value');
+            
+            totalGuidesEl.textContent = allGuides.length;
+            totalStudentsEl.textContent = totalStudents;
+            
+            // Add blinking animation
+            const statItems = document.querySelectorAll('.stat-item');
+            statItems.forEach(item => {
+                item.style.animation = 'blink 2s infinite';
+            });
+        }
+
+        // Setup search input with suggestions
+        function setupSearchSuggestions() {
+            const input = document.getElementById('guideName');
+            const datalist = document.createElement('datalist');
+            datalist.id = 'guideSuggestions';
+            
+            allGuides.forEach(guide => {
+                const option = document.createElement('option');
+                option.value = guide;
+                datalist.appendChild(option);
+            });
+            
+            document.body.appendChild(datalist);
+            input.setAttribute('list', 'guideSuggestions');
+        }
+
+        // Show modal with all guides
+        function showGuidesModal() {
+            const modal = document.getElementById('guidesModal');
+            const modalLoading = document.getElementById('modalLoading');
+            const guideStatsContainer = document.getElementById('guideStats');
+            const totalGuidesCount = document.getElementById('totalGuidesCount');
+            
+            modal.style.display = 'block';
+            modalLoading.style.display = 'block';
+            guideStatsContainer.innerHTML = '';
+            
+            // Update total guides count
+            totalGuidesCount.textContent = allGuides.length;
+            
+            // Populate guide stats
+            setTimeout(() => {
+                allGuides.forEach(guideName => {
+                    const stats = guideStats[guideName];
+                    const guideItem = document.createElement('div');
+                    guideItem.className = 'guide-item';
+                    guideItem.innerHTML = `
+                        <div class="guide-header-info">
+                            <div class="guide-name-modal">${guideName}</div>
+                            <div class="guide-group-count">${stats.groups} Groups</div>
+                        </div>
+                        <div class="guide-students-info">
+                            Total Students: ${stats.totalStudents}
+                        </div>
+                    `;
+                    
+                    // Add click event to search for this guide
+                    guideItem.addEventListener('click', () => {
+                        document.getElementById('guideName').value = guideName;
+                        modal.style.display = 'none';
+                        searchGuide();
+                    });
+                    
+                    guideStatsContainer.appendChild(guideItem);
+                });
+                
+                modalLoading.style.display = 'none';
+            }, 300);
+        }
+
+        // Close modal
+        function closeModal() {
+            document.getElementById('guidesModal').style.display = 'none';
+        }
+
+        // Search function
+        function searchGuide() {
+            const searchTerm = document.getElementById('guideName').value.trim();
+            const emptyState = document.getElementById('emptyState');
+            const noResults = document.getElementById('noResults');
+            const resultsContainer = document.getElementById('resultsContainer');
+            
+            if (!searchTerm) {
+                showEmptyState();
+                return;
+            }
+            
+            if (!guideStats[searchTerm]) {
+                showNoResults();
+                return;
+            }
+            
+            displayGuideDetails(searchTerm, guideStats[searchTerm]);
+            emptyState.style.display = 'none';
+            noResults.style.display = 'none';
+            resultsContainer.style.display = 'block';
+        }
+
+        // Display guide details
+        function displayGuideDetails(guideName, stats) {
+            // Update guide header
+            document.getElementById('guideNameDisplay').textContent = guideName;
+            document.getElementById('studentCount').textContent = stats.totalStudents;
+            
+            // Clear previous student rows
+            const studentTableBody = document.getElementById('studentTableBody');
+            studentTableBody.innerHTML = '';
+            
+            // Create student rows
+            stats.students.forEach(student => {
+                const studentRow = createStudentRow(student);
+                studentTableBody.appendChild(studentRow);
+            });
+        }
+
+        // Create student table row
+        function createStudentRow(student) {
+            const row = document.createElement('tr');
+            
+            const sno = student.s_no ? student.s_no : 'N/A';
+            const name = student.name || 'Not Available';
+            const enrollment = student.enrollment || 'Not Available';
+            const mobile = student.mobile || 'Not Available';
+            const program = student.program || 'Not Available';
+            const project = student.project_title || 'Not Available';
+            const company = student.company || 'Not Available';
+            
+            row.innerHTML = `
+                <td>${sno}</td>
+                <td class="student-name">${name}</td>
+                <td>${enrollment}</td>
+                <td>${mobile}</td>
+                <td>${program}</td>
+                <td>${project}</td>
+                <td>${company}</td>
+            `;
+            
+            return row;
+        }
+
+        // Show empty state
+        function showEmptyState() {
+            document.getElementById('emptyState').style.display = 'block';
+            document.getElementById('noResults').style.display = 'none';
+            document.getElementById('resultsContainer').style.display = 'none';
+        }
+
+        // Show no results
+        function showNoResults() {
+            document.getElementById('emptyState').style.display = 'none';
+            document.getElementById('noResults').style.display = 'block';
+            document.getElementById('resultsContainer').style.display = 'none';
+        }
+
+        // Event Listeners
+        document.getElementById('searchBtn').addEventListener('click', searchGuide);
+        
+        document.getElementById('guideName').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                searchGuide();
+            }
+        });
+
+        // Modal buttons
+        document.getElementById('viewGuidesBtn').addEventListener('click', showGuidesModal);
+        document.getElementById('closeModal').addEventListener('click', closeModal);
+
+        // Close modal when clicking outside
+        window.addEventListener('click', function(event) {
+            const modal = document.getElementById('guidesModal');
+            if (event.target === modal) {
+                closeModal();
+            }
+        });
+
+        // Initialize on page load
+        window.addEventListener('DOMContentLoaded', loadData);
+    </script>
+</body>
+</html>
