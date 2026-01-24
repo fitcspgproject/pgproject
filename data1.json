@@ -3958,12 +3958,13 @@
       }
     ]
   },
+  [
   {
-    "company_name": "",
-    "address": "",
-    "website": "",
-    "contact": "",
-    "mentor": "NA",
+    "company_name": "CodeVirus Security Pvt ltd",
+    "address": "Lucknow",
+    "website": "www.codevirus.com",
+    "contact": "9026764985",
+    "mentor": "Pratik Singh (Project manager)",
     "internal_guide": "Prof.Rinku Patil",
     "projects": [
       {
@@ -3976,19 +3977,19 @@
             "program": "IMCA, A"
           }
         ],
-        "project_title": "",
-        "project_description": "",
-        "front_end": "",
-        "back_end": ""
+        "project_title": "Hackyard",
+        "project_description": "CTF learning platform",
+        "front_end": "React.Js",
+        "back_end": "Node.Js and Mongo Db"
       }
     ]
   },
   {
-    "company_name": "",
-    "address": "",
-    "website": "",
-    "contact": "",
-    "mentor": "NA",
+    "company_name": "Maahi IT",
+    "address": "35 - 4th Floor, Siddheshwar Plaza, New VIP road, Vadodara-390019",
+    "website": "https://maahi.it/",
+    "contact": "+91 98249 99005",
+    "mentor": "Keyur Patel (Sr. DevOps Engineer)",
     "internal_guide": "Prof. Arun.U",
     "projects": [
       {
@@ -4007,19 +4008,19 @@
             "program": "MCA, E"
           }
         ],
-        "project_title": "",
-        "project_description": "",
-        "front_end": "",
-        "back_end": ""
+        "project_title": "EyeStudio - Optical Shop",
+        "project_description": "EyeStudio for the optical shop where owner can add data of customer, manager their stocks, also easy to maintain customers eye prescription.",
+        "front_end": "React Js",
+        "back_end": "NodeJs"
       }
     ]
   },
   {
-    "company_name": "",
-    "address": "",
-    "website": "",
-    "contact": "",
-    "mentor": "NA",
+    "company_name": "NextInnovation pvt ltd",
+    "address": "The Spire 2, 321, Chowk, 150 Feet Ring Rd, Sheetal Park, Rajkot, Gujarat 360007",
+    "website": "nextinnovation.co.in",
+    "contact": "98794 56572",
+    "mentor": "Arjun Zundala (CEO)",
     "internal_guide": "Prof.Saswati Chatterjee",
     "projects": [
       {
@@ -4032,19 +4033,19 @@
             "program": "MSC-IT, F"
           }
         ],
-        "project_title": "",
-        "project_description": "",
-        "front_end": "",
-        "back_end": ""
+        "project_title": "Next-ToDo (task manager)",
+        "project_description": "It is a task manager that helps the employees to be up to date with the current task in the comp",
+        "front_end": "Laravel - html & css",
+        "back_end": "Php, javascript and mysql"
       }
     ]
   },
   {
-    "company_name": "",
-    "address": "",
-    "website": "",
-    "contact": "",
-    "mentor": "NA",
+    "company_name": "Bitbyte Info",
+    "address": "Office 301/302, Times Square, Near Earth Alpha, Vasna Tandalja Road, Vadodara",
+    "website": "www.bitbyteinfo.com",
+    "contact": "9099696937",
+    "mentor": "Pathan Salman Khan (Director)",
     "internal_guide": "Prof. Faruk Abdulla",
     "projects": [
       {
@@ -4057,19 +4058,19 @@
             "program": "MCA, H"
           }
         ],
-        "project_title": "",
-        "project_description": "",
-        "front_end": "",
-        "back_end": ""
+        "project_title": "Invoice Billing System",
+        "project_description": "Invoice Pro is a full-stack invoice management web application that helps businesses create, manage, and track invoices efficiently. It features secure user authentication, client management, invoice generation, real-time status tracking (paid/pending), and a dashboard with business insights. Built using React.js, Node.js, Express, and MongoDB, the platform focuses on a clean UI, responsive design, and real-world business workflows.",
+        "front_end": "HTML, CSS, Javascript and React'.js",
+        "back_end": "Node.js and PHP"
       }
     ]
   },
   {
-    "company_name": "",
-    "address": "",
-    "website": "",
-    "contact": "",
-    "mentor": "NA",
+    "company_name": "Shree Audumbar Enterprises",
+    "address": "Shree Audumbar Enterprises   Kolhapur, Maharashtra, India",
+    "website": "N/A",
+    "contact": "9028320555",
+    "mentor": "Yogesh Shelar (Ceo)",
     "internal_guide": "Prof. Vaishali Shah",
     "projects": [
       {
@@ -4082,19 +4083,19 @@
             "program": "MSC-IT, G"
           }
         ],
-        "project_title": "",
-        "project_description": "",
-        "front_end": "",
-        "back_end": ""
+        "project_title": "Design and Development of a B2B Corporate Website.",
+        "project_description": "This project involves the development of a professional B2B corporate website for Shree Audumbar Enterprises using ReactJS, Python REST APIs, and MySQL. The website provides business information, service details, and a structured enquiry system to improve business credibility and online presence without including e-commerce functionality.",
+        "front_end": "ReactJS, HTML5, CSS3, JavaScript",
+        "back_end": "Python (FastAPI), RESTful APIs, MySQL"
       }
     ]
   },
   {
-    "company_name": "",
-    "address": "",
-    "website": "",
-    "contact": "",
-    "mentor": "NA",
+    "company_name": "Ximple Solutions",
+    "address": "Ahmedabad, Gujarat",
+    "website": "ximplesolutions.com",
+    "contact": "+919429208373",
+    "mentor": "Jitendra Patel (Senior Manager)",
     "internal_guide": "Prof. Smarika Rai",
     "projects": [
       {
@@ -4107,44 +4108,19 @@
             "program": "IMCA, A"
           }
         ],
-        "project_title": "",
-        "project_description": "",
-        "front_end": "",
-        "back_end": ""
+        "project_title": "Online Code Editor",
+        "project_description": "Code Editor but Online",
+        "front_end": "Javascript",
+        "back_end": "Java"
       }
     ]
   },
   {
-    "company_name": "",
-    "address": "",
-    "website": "",
-    "contact": "",
-    "mentor": "NA",
-    "internal_guide": "Prof. Saumil Trivedi",
-    "projects": [
-      {
-        "s_no": 148,
-        "members": [
-          {
-            "name": "Mahammad Mahaboobi",
-            "enrollment": "2405112070024",
-            "mobile": "9347001882",
-            "program": "MCA, E"
-          }
-        ],
-        "project_title": "",
-        "project_description": "",
-        "front_end": "",
-        "back_end": ""
-      }
-    ]
-  },
-  {
-    "company_name": "",
-    "address": "",
-    "website": "",
-    "contact": "",
-    "mentor": "NA",
+    "company_name": "ATS Software Solution",
+    "address": "City light road, surat",
+    "website": "www.atssoftwaresolution.com",
+    "contact": "hr@atssoftwaresolution.com",
+    "mentor": "Sarthak Dhami (Senior software developer)",
     "internal_guide": "Prof.Rinkal Sarvaiya",
     "projects": [
       {
@@ -4157,19 +4133,19 @@
             "program": "IMCA, A"
           }
         ],
-        "project_title": "",
-        "project_description": "",
-        "front_end": "",
-        "back_end": ""
+        "project_title": "ExpenseSense",
+        "project_description": "Expensense is a simple and flexible expense tracking application designed for individuals and groups to record, manage, and split expenses easily. It helps users stay organized, track spending, and maintain clear financial records in one place.",
+        "front_end": "HTML, CSS, JavaScript",
+        "back_end": "Flask (Python), SQLite, Pandas"
       }
     ]
   },
   {
-    "company_name": "",
-    "address": "",
-    "website": "",
-    "contact": "",
-    "mentor": "NA",
+    "company_name": "Infodesk India Pvt LTd",
+    "address": "Vadodara, Gujarat",
+    "website": "Www.infodesk.com",
+    "contact": "90819 98511",
+    "mentor": "Tejas sawai (Cloud Engineer)",
     "internal_guide": "Prof. Sonali Kharade",
     "projects": [
       {
@@ -4182,19 +4158,19 @@
             "program": "MCA, I"
           }
         ],
-        "project_title": "",
-        "project_description": "",
-        "front_end": "",
-        "back_end": ""
+        "project_title": "Notification Center",
+        "project_description": "The Notification Center project aims to design and implement a centralized, reliable mechanism to detect critical application incidents (such as outages or major degradations) and communicate them effectively to both internal teams and customer users.",
+        "front_end": "React js",
+        "back_end": "Python"
       }
     ]
   },
   {
-    "company_name": "",
-    "address": "",
-    "website": "",
-    "contact": "",
-    "mentor": "NA",
+    "company_name": "URO computers websoft solution",
+    "address": "UMA chowkdi",
+    "website": "www.urocomputerswebsoftsolution",
+    "contact": "+91 90339 14914",
+    "mentor": "Umesh Shah (Admin)",
     "internal_guide": "Prof. Preeti Sharma",
     "projects": [
       {
@@ -4207,19 +4183,19 @@
             "program": "MCA, A"
           }
         ],
-        "project_title": "",
-        "project_description": "",
-        "front_end": "",
-        "back_end": ""
+        "project_title": "Patient Transcription Analysis",
+        "project_description": "Central Database for Patient Transcription, also known   as   allied   health   profession,   which   deals   in   the   process of transcription, or converting patient reports into soft text format and images.The general state of healthcare information data collection is poor and this  can be attributed to a number of reasons. One of these is the suboptimal management of patient data and information for decision-making. This system focuses on the comparison of the performance of the paper-based patient record management systems and the Patient e-Files. The performance evaluation of the two systems is with respect to the time spent on two basic registry operations. These basic operations are the registration of a new patient and the retrieval of existing patient records.",
+        "front_end": "Html, css",
+        "back_end": "Python, MySQL"
       }
     ]
   },
   {
-    "company_name": "",
-    "address": "",
-    "website": "",
-    "contact": "",
-    "mentor": "NA",
+    "company_name": "atQor",
+    "address": "A - 311, Navratna Corporate Park, Iscon, Ambli Rd, Ashok Vatika, Ahmedabad, Gujarat 380058",
+    "website": "https://www.atqor.com/",
+    "contact": "1-844-294-5383",
+    "mentor": "Ankur Vadhel (Security and Compliance Lead)",
     "internal_guide": "Prof. Vishakha Bathwar",
     "projects": [
       {
@@ -4232,19 +4208,19 @@
             "program": "MSC-IT, G"
           }
         ],
-        "project_title": "",
-        "project_description": "",
-        "front_end": "",
-        "back_end": ""
+        "project_title": "Enterprise Security Monitoring and Threat Detection using Wazuh SIEM",
+        "project_description": "• In modern enterprise environments, security events are continuously generated by servers, endpoints, and applications. Monitoring these logs manually is time-consuming, inefficient, and increases the risk of missing critical security incidents. As organizations grow, the volume of security data becomes difficult to manage without a centralized monitoring solution.\n• This project implements Wazuh as a SIEM solution to centrally collect and analyze logs from multiple hosts within the enterprise infrastructure. The collected logs are processed using predefined security rules and correlation mechanisms to identify suspicious activities such as brute-force login attempts, unauthorized access, malware behavior, and file integrity violations.\n• The system generates real-time alerts when potential threats are detected, enabling security teams to respond quickly. A centralized dashboard provides clear visibility into security events, helping organizations proactively monitor their environment, reduce response time, and strengthen their overall cybersecurity posture.",
+        "front_end": "N/A as it is security monitoring tool",
+        "back_end": "N/A as it is security monitoring tool"
       }
     ]
   },
   {
-    "company_name": "",
-    "address": "",
-    "website": "",
-    "contact": "",
-    "mentor": "NA",
+    "company_name": "HSP Software Solutions",
+    "address": "303, Baroda Commerce House, Near Nilamber Circle, Gotri-Bhayli Road, Vadodara",
+    "website": "www.hspsoftwaresolution.com",
+    "contact": "9427844896",
+    "mentor": "Jaydev Jadeja (Jr. Software Engineer)",
     "internal_guide": "Prof.Chandankumar Singh",
     "projects": [
       {
@@ -4257,19 +4233,19 @@
             "program": "MCA, G"
           }
         ],
-        "project_title": "",
-        "project_description": "",
-        "front_end": "",
-        "back_end": ""
+        "project_title": "Income expense",
+        "project_description": "To Maintain the Account",
+        "front_end": "React.js",
+        "back_end": "Asp.Net Wed API"
       }
     ]
   },
   {
-    "company_name": "",
-    "address": "",
-    "website": "",
-    "contact": "",
-    "mentor": "NA",
+    "company_name": "Kahana labs",
+    "address": "1 – C, Govind Nagar West, Amer Road, 302002, Jaipur",
+    "website": "https://kanhalabs.in",
+    "contact": "7976813718",
+    "mentor": "Mayank Jangidh (HR)",
     "internal_guide": "Prof. Priyanka Mod",
     "projects": [
       {
@@ -4288,19 +4264,19 @@
             "program": "MCA, E"
           }
         ],
-        "project_title": "",
-        "project_description": "",
-        "front_end": "",
-        "back_end": ""
+        "project_title": "File and Content Management System",
+        "project_description": "The File and Content Management System (FCMS) is a simple web-based application developed using PHP and MySQL.",
+        "front_end": "HTML, CSS, JavaScript, Bootstrap",
+        "back_end": "PHP"
       }
     ]
   },
   {
-    "company_name": "",
-    "address": "",
-    "website": "",
-    "contact": "",
-    "mentor": "NA",
+    "company_name": "Tech Tuition System LLP",
+    "address": "Shop 11 Star Plaza, Kolki Bypass, Upleta",
+    "website": "techtuitionsystem.com",
+    "contact": "+91 9099003103",
+    "mentor": "Vivek Bhalodiya (Manager)",
     "internal_guide": "Prof. Khyati Kariya",
     "projects": [
       {
@@ -4313,19 +4289,19 @@
             "program": "MCA, B"
           }
         ],
-        "project_title": "",
-        "project_description": "",
-        "front_end": "",
-        "back_end": ""
+        "project_title": "Zelda: A Cloud IDE",
+        "project_description": "Zelda is a Cloud IDE with AI agents and workflow capabilities for accessing your project anywhere from the world. All your projects at your fingertips anywhere, anytime and on any devices.",
+        "front_end": "Next.js, React.js, Tailwind, Shadcn UI, React hook forms, Zod",
+        "back_end": "Inngest, Clerk, Sentry, Firecrawl, Convex, WebContainers, Code Rabbit, Code Mirror 6"
       }
     ]
   },
   {
-    "company_name": "",
-    "address": "",
-    "website": "",
-    "contact": "",
-    "mentor": "NA",
+    "company_name": "Spargenx Innovations pvt.ltd",
+    "address": "Nadigudem, Telangana.",
+    "website": "www.sparkgenx.com",
+    "contact": "9866547298",
+    "mentor": "Divvela Sudheer (Master's)",
     "internal_guide": "Prof. Uma Bhati",
     "projects": [
       {
@@ -4338,19 +4314,19 @@
             "program": "IMCA, A"
           }
         ],
-        "project_title": "",
-        "project_description": "",
-        "front_end": "",
-        "back_end": ""
+        "project_title": "Buychey",
+        "project_description": "\"BUYCHEY provides a unified platform where vendors can register, list their products, manage inventory, and fulfil customer orders. Customers can browse products from different vendors and complete purchases using a single checkout process.\nThe backend system automatically splits orders based on vendors, routes them for fulfilment, tracks delivery status, and manages payment settlements. WhatsApp integration allows users to place orders using chat messages, eliminating the need to install or learn complex applications.\"",
+        "front_end": "Html, css, javascript, React",
+        "back_end": "Python, Fast API"
       }
     ]
   },
   {
-    "company_name": "",
-    "address": "",
-    "website": "",
+    "company_name": "Toil-Labs",
+    "address": "Ashiyana, LDA LUCKNOW, UTTAR PRADESH -226012",
+    "website": "https://www.toil-labs.com/",
     "contact": "",
-    "mentor": "NA",
+    "mentor": "Saurav bera (CEO,CFO)",
     "internal_guide": "Prof. Tanmay Shah",
     "projects": [
       {
@@ -4369,19 +4345,19 @@
             "program": "MCA, B"
           }
         ],
-        "project_title": "",
-        "project_description": "",
-        "front_end": "",
-        "back_end": ""
+        "project_title": "Pharmacy management system",
+        "project_description": "The Pharmacy Management System is a web-based application developed to automate and streamline day-to-day pharmacy operations. The system efficiently manages medicines, inventory, billing, suppliers, customers, and sales records, reducing manual effort and minimizing errors.",
+        "front_end": "Html, css, js",
+        "back_end": "Flask, MySQL, python"
       }
     ]
   },
   {
-    "company_name": "",
-    "address": "",
-    "website": "",
-    "contact": "",
-    "mentor": "NA",
+    "company_name": "KanhaLabs",
+    "address": "1 – C, Govind Nagar West, Amer Road, 302002, Jaipur",
+    "website": "https://kanhalabs.in",
+    "contact": "7976813718",
+    "mentor": "Mayank Jangidh (HR)",
     "internal_guide": "Prof. RamDeepak Yadagiri",
     "projects": [
       {
@@ -4400,19 +4376,19 @@
             "program": "MCA, E"
           }
         ],
-        "project_title": "",
-        "project_description": "",
-        "front_end": "",
-        "back_end": ""
+        "project_title": "campus Food Ordering System",
+        "project_description": "The Food Ordering System is a web-based application built with PHP and MySQL. It allows customers to view food items, add them to a cart, and place orders online. The system also includes an admin panel to manage food items, categories, users, and orders.",
+        "front_end": "HTML, CSS, JavaScript, Bootstrap",
+        "back_end": "PHP"
       }
     ]
   },
   {
-    "company_name": "",
-    "address": "",
-    "website": "",
-    "contact": "",
-    "mentor": "NA",
+    "company_name": "National informatics centre",
+    "address": "Third floor, Vidyut Bhavan, Kachigam, Nani Daman, Daman",
+    "website": "Https://swp.dddgov.in/",
+    "contact": "+91-260-2230985",
+    "mentor": "Nitin N Bamania (Joint Director(IT) & scientist - D)",
     "internal_guide": "Prof. Komal Madam",
     "projects": [
       {
@@ -4425,19 +4401,19 @@
             "program": "MCA, F"
           }
         ],
-        "project_title": "",
-        "project_description": "",
-        "front_end": "",
-        "back_end": ""
+        "project_title": "Single window portal for ease of doing business",
+        "project_description": "This project involves the study of the current government service processes and the challenges faced by citizens while accessing services. Many services require physical visits to government offices despite the presence of an online portal...",
+        "front_end": "HTML, CSS, javascript",
+        "back_end": "PHP, MySQL, codelgniter framework"
       }
     ]
   },
   {
-    "company_name": "",
-    "address": "",
-    "website": "",
-    "contact": "",
-    "mentor": "NA",
+    "company_name": "Dynamic Dreamz Solutions LLP",
+    "address": "Balaji House, Sagrampura Main Road Opp Sub Jail, Sagrampura, Surat, Gujarat, 395002",
+    "website": "https://dynamicdreamz.com",
+    "contact": "9327642007",
+    "mentor": "Bhavik Patel (Technical Lead Full Stack Developer)",
     "internal_guide": "Prof. Prachi Mehta",
     "projects": [
       {
@@ -4450,19 +4426,19 @@
             "program": "MCA, I"
           }
         ],
-        "project_title": "",
-        "project_description": "",
-        "front_end": "",
-        "back_end": ""
+        "project_title": "Bombay Shirt Company - Custom Shirt E commerce platform",
+        "project_description": "A modern, responsive e- commerce website for Bombay Shirt Company. The project uses a headless architecture to deliver a fast, scalable and user friendly shopping experience with dynamic product browsing, cart management and seamless storefront integration.",
+        "front_end": "Shopify Hydrogen, React, Typescript, Tailwind Css",
+        "back_end": "Shopify Storefront Api, GraphQL"
       }
     ]
   },
   {
-    "company_name": "",
-    "address": "",
-    "website": "",
-    "contact": "",
-    "mentor": "NA",
+    "company_name": "Dynamic Dreamz LLP",
+    "address": "Balaji house, Ring Rd, opp. Subjail, Sagrampura, Surat, Gujarat 395002",
+    "website": "https://www.dynamicdreamz.com/",
+    "contact": "6352011266",
+    "mentor": "Mr Umesh Kanani (Team Leader)",
     "internal_guide": "Prof. Aniket Paul",
     "projects": [
       {
@@ -4487,19 +4463,19 @@
             "program": "MCA, E"
           }
         ],
-        "project_title": "",
-        "project_description": "",
-        "front_end": "",
-        "back_end": ""
+        "project_title": "TinyPaws",
+        "project_description": "TinyPaws is a pet store and pet care website project designed to provide an online platform for browsing and managing pet products and care essentials. The project focuses on a simple, user-friendly interface for displaying pet food, accessories, grooming products, and basic care items.",
+        "front_end": "Liquid, Html, Css",
+        "back_end": "Node js, Js"
       }
     ]
   },
   {
-    "company_name": "",
-    "address": "",
-    "website": "",
-    "contact": "",
-    "mentor": "NA",
+    "company_name": "Info Origin Technologies Private Limited,",
+    "address": "Kudwa Ring Road, Gondia- 441614, Maharashtra, India.",
+    "website": "www.infoorigin.com",
+    "contact": "+91-8530860101",
+    "mentor": "Piyush sahu (Internship group mentor)",
     "internal_guide": "Ms. Niharika Agarwal",
     "projects": [
       {
@@ -4512,18 +4488,18 @@
             "program": "MCA, I"
           }
         ],
-        "project_title": "",
-        "project_description": "",
-        "front_end": "",
-        "back_end": ""
+        "project_title": "SQL databases management system",
+        "project_description": "SQL Database Management is the process of storing, organizing, retrieving, and maintaining data using Structured Query Language.",
+        "front_end": "React Js, Javascript",
+        "back_end": "SQL"
       }
     ]
   },
   {
-    "company_name": "",
-    "address": "",
-    "website": "",
-    "contact": "",
+    "company_name": "MyOnsite Healthcare",
+    "address": "Vadodara",
+    "website": "https://myonsitehealthcare.in/",
+    "contact": "+91  9898953901",
     "mentor": "NA",
     "internal_guide": "Prof. Aesh Gada",
     "projects": [
@@ -4537,19 +4513,19 @@
             "program": "MCA, E"
           }
         ],
-        "project_title": "",
-        "project_description": "",
+        "project_title": "Acquisitions API",
+        "project_description": "A Cloud-Native Platform for Buying and Selling SaaS Businesses",
         "front_end": "",
         "back_end": ""
       }
     ]
   },
   {
-    "company_name": "",
-    "address": "",
-    "website": "",
-    "contact": "",
-    "mentor": "NA",
+    "company_name": "Semicolon Solution",
+    "address": "404, Atlanta shopping mall Sudama chowk, Mota varachha, Surat Gujarat",
+    "website": "www.semicolonsolution.com",
+    "contact": "75758292203",
+    "mentor": "Mr. Dhanak Mulani (CEO)",
     "internal_guide": "Prof. Madhav J Kapadiya",
     "projects": [
       {
@@ -4562,19 +4538,19 @@
             "program": "MCA, F"
           }
         ],
-        "project_title": "",
-        "project_description": "",
+        "project_title": "Not yet decided",
+        "project_description": "Not yet decided",
         "front_end": "",
         "back_end": ""
       }
     ]
   },
   {
-    "company_name": "",
-    "address": "",
-    "website": "",
-    "contact": "",
-    "mentor": "NA",
+    "company_name": "Wowdevai Solutions Pvt. Ltd.",
+    "address": "Mangal City, 4th Floor, Indore, Madhya Pradesh, India",
+    "website": "https://wowdev.ai",
+    "contact": "info@wowdev.ai",
+    "mentor": "Kuldeep Singh Tomar (Project Manager)",
     "internal_guide": "Prof. Adarsh Ashok",
     "projects": [
       {
@@ -4587,19 +4563,19 @@
             "program": "MCA, B"
           }
         ],
-        "project_title": "",
-        "project_description": "",
-        "front_end": "",
-        "back_end": ""
+        "project_title": "WowDev.AI- Vibe Coding Platform",
+        "project_description": "This internship project was based on Python Backend Development for Wowdev.ai, a Vibe Coding Platform that helps users build digital solutions efficiently. The intern worked on designing and implementing backend logic using Python, developing REST APIs, handling database operations, managing authentication, and integrating backend services with the frontend for smooth data flow and system performance.",
+        "front_end": "NA",
+        "back_end": "Python, Django / Flask, REST API Development"
       }
     ]
   },
   {
-    "company_name": "",
-    "address": "",
-    "website": "",
-    "contact": "",
-    "mentor": "NA",
+    "company_name": "Mediaradar",
+    "address": "FOF 33, S 9 Square, Sama Savli Road, EME, Vadodara - 390008, Gujarat, India",
+    "website": "https://www.mediaradar.com/",
+    "contact": "-",
+    "mentor": "Ankit Soni (Sr. Team Leader)",
     "internal_guide": "Prof. Pratik Parmar",
     "projects": [
       {
@@ -4612,19 +4588,19 @@
             "program": "MCA, E"
           }
         ],
-        "project_title": "",
-        "project_description": "",
+        "project_title": "Working as a DATA ASSOCIATE",
+        "project_description": "-",
         "front_end": "",
         "back_end": ""
       }
     ]
   },
   {
-    "company_name": "",
-    "address": "",
-    "website": "",
-    "contact": "",
-    "mentor": "NA",
+    "company_name": "Na",
+    "address": "Na",
+    "website": "Na",
+    "contact": "Na",
+    "mentor": "Na",
     "internal_guide": "Prof. Samant Kumar",
     "projects": [
       {
@@ -4637,19 +4613,19 @@
             "program": "MCA, A"
           }
         ],
-        "project_title": "",
-        "project_description": "",
-        "front_end": "",
-        "back_end": ""
+        "project_title": "Food Ordering App",
+        "project_description": "The Food Ordering App is an Android application that allows users to browse restaurants, view menus, and place food orders online. It provides a simple and convenient way to order food with order tracking and secure payments.",
+        "front_end": "XML, Java, Kotlin",
+        "back_end": "SQLite, Firebase"
       }
     ]
   },
   {
-    "company_name": "",
-    "address": "",
-    "website": "",
-    "contact": "",
-    "mentor": "NA",
+    "company_name": "Cyber Cell",
+    "address": "Mumbai",
+    "website": "CyberCrime.gov.in",
+    "contact": "+918805524100",
+    "mentor": "Shashikant Avghade (Police Inspector)",
     "internal_guide": "Prof. Shivaniba Dilipsinh Bhadoriya",
     "projects": [
       {
@@ -4662,19 +4638,19 @@
             "program": "MCA, F"
           }
         ],
-        "project_title": "",
-        "project_description": "",
-        "front_end": "",
-        "back_end": ""
+        "project_title": "Cyber Crime Flow System",
+        "project_description": "Flow chart system data update show charts",
+        "front_end": "Asp.net .net framework etc",
+        "back_end": "C# etc"
       }
     ]
   },
   {
-    "company_name": "",
-    "address": "",
-    "website": "",
-    "contact": "",
-    "mentor": "NA",
+    "company_name": "iSourcingSolutions",
+    "address": "110, Shyamal Complex, Opp. New Income Tax Building, Behind Kamdhenu Complex, Near Panjrapole, Ahemdabad 380015 Gujarat, India",
+    "website": "www.iSourcingSolutions.com",
+    "contact": "6356837530",
+    "mentor": "Harshit Shah (Proprietor)",
     "internal_guide": "Prof. Honey Parmar",
     "projects": [
       {
@@ -4687,19 +4663,19 @@
             "program": "MCA, H"
           }
         ],
-        "project_title": "",
-        "project_description": "",
-        "front_end": "",
-        "back_end": ""
+        "project_title": "Mini Arcade",
+        "project_description": "The Online Kids Gaming Website is a web - based platform developed using HTML, CSS, JavaScript, PHP and MYSQL to provide safe and interactive browser - based games for children. It features a child - friendly interface with backend support for game management, database storage, and dynamic content delivery.",
+        "front_end": "HTML, CSS, JAVASCRIPT",
+        "back_end": "PHP, MYSQL"
       }
     ]
   },
   {
-    "company_name": "",
-    "address": "",
-    "website": "",
-    "contact": "",
-    "mentor": "NA",
+    "company_name": "RIPL Technologies Pvt Ltd",
+    "address": "Raneshwar Smruti Bhavan Opp. H.P. Petrol Pump Vasna-Gotri Road Vadodara",
+    "website": "https://rangaminfotech.com/",
+    "contact": "+91 769 895 0001",
+    "mentor": "Kedar Binivale (Project Manager)",
     "internal_guide": "Prof. Chaitali nayka",
     "projects": [
       {
@@ -4712,19 +4688,19 @@
             "program": "MCA, H"
           }
         ],
-        "project_title": "",
-        "project_description": "",
-        "front_end": "",
-        "back_end": ""
+        "project_title": "E-Book Writing System Using AI",
+        "project_description": "An AI-based application that generates complete e-books based on user-provided topics or keywords. The system automates content creation, making e-book writing faster, easier, and more efficient.",
+        "front_end": "Html, css, javascript, react, bootstrap/tailwind css",
+        "back_end": "Node.js, express, open ai for api, mongodb"
       }
     ]
   },
   {
-    "company_name": "",
-    "address": "",
-    "website": "",
-    "contact": "",
-    "mentor": "NA",
+    "company_name": "WebBrains technologies Pvt Ltd",
+    "address": "Vasna road, Vadodara Gujarat",
+    "website": "www.webbrainstechnologies.com",
+    "contact": "7405525218",
+    "mentor": "Chirayu Bhatt (Hr executive)",
     "internal_guide": "Prof. Mini",
     "projects": [
       {
@@ -4749,19 +4725,19 @@
             "program": "MCA, A"
           }
         ],
-        "project_title": "",
-        "project_description": "",
-        "front_end": "",
-        "back_end": ""
+        "project_title": "Not decided yet",
+        "project_description": "Not decided",
+        "front_end": "Not decided",
+        "back_end": "Not decided"
       }
     ]
   },
   {
-    "company_name": "",
-    "address": "",
-    "website": "",
-    "contact": "",
-    "mentor": "NA",
+    "company_name": "Sakred Creative Haus",
+    "address": "Chhatrapati Sambhaji, Maharashtra",
+    "website": "https://www.sakredcreativehaus.com/",
+    "contact": "9545235511",
+    "mentor": "Sakshi Golhar (Creative Director/ Founder)",
     "internal_guide": "Prof. Payal Parekh",
     "projects": [
       {
@@ -4774,19 +4750,19 @@
             "program": "IMCA, A"
           }
         ],
-        "project_title": "",
-        "project_description": "",
-        "front_end": "",
-        "back_end": ""
+        "project_title": "Bridgehouse Production Website",
+        "project_description": "The Bridgehouse Production Website is a web-based project developed to design and implement a professional portfolio platform for a production studio. The system focuses on responsive UI design, structured content management, and optimized user navigation. It applies core web technologies to present multimedia content efficiently. The project emphasizes usability, performance, and maintainable front-end architecture. It demonstrates practical application of web development and project management concepts.",
+        "front_end": "HTML, CSS, JavaScript",
+        "back_end": "Hosted on Squarespace"
       }
     ]
   },
   {
-    "company_name": "",
-    "address": "",
-    "website": "",
-    "contact": "",
-    "mentor": "NA",
+    "company_name": "Vermin Industries Pvt. Ltd.",
+    "address": "303, Senate Square Tower B, Opp. Gangotri Complex, Gotri, Vadodara – 390021. Gujarat",
+    "website": "www.vermin.co.in",
+    "contact": "+91-8401011960",
+    "mentor": "Gaurang Patel (Director)",
     "internal_guide": "Prof. Himanshu Yadav",
     "projects": [
       {
@@ -4799,19 +4775,19 @@
             "program": "MCA, B"
           }
         ],
-        "project_title": "",
-        "project_description": "",
+        "project_title": "Recruit Management System",
+        "project_description": "Recruit management system for company where there will be jobs, users can apply and interview will be done in that portal.",
         "front_end": "",
         "back_end": ""
       }
     ]
   },
   {
-    "company_name": "",
-    "address": "",
-    "website": "",
-    "contact": "",
-    "mentor": "NA",
+    "company_name": "Four Turrets",
+    "address": "403, Silver Staddle, Opp. Yash Complex, Gotri Road, Vadodara, Gujarat, India 390021",
+    "website": "https://fourturrets.com/",
+    "contact": "+91-99980-93025",
+    "mentor": "Bhargav Patel (HR)",
     "internal_guide": "Prof. sathwik Chebrolu",
     "projects": [
       {
@@ -4824,11 +4800,199 @@
             "program": "MCA, C"
           }
         ],
-        "project_title": "",
-        "project_description": "",
+        "project_title": "Vendor Performance Data Analytics",
+        "project_description": "Solving a real-world Vendor Performance Analysis project using SQL, Python, and Power BI just like in a real job. Perfect for Data Analyst Portfolio, this project covers everything from understanding the business problem to building a dashboard and writing a report.",
+        "front_end": "Power Bi",
+        "back_end": "Matplotlib, Pandas, and Seaborn"
+      }
+    ]
+  },
+  {
+    "company_name": "Innovationcode",
+    "address": "309 amazing star, mahavir circle, surat",
+    "website": "https://www.innovationcode.in/",
+    "contact": "+91 814 0781 993",
+    "mentor": "Munesh H. Patel (CEO)",
+    "internal_guide": "Prof. Saumil Trivedi",
+    "projects": [
+      {
+        "s_no": 175,
+        "members": [
+          {
+            "name": "Priyesh Bhalala",
+            "enrollment": "2405102120008",
+            "mobile": "9067247116",
+            "program": "MSC-IT, D"
+          }
+        ],
+        "project_title": "Human emotions detection",
+        "project_description": "Human Emotion Detection is an AI-based project that analyzes facial expressions to identify emotions such as happiness, sadness, anger, and surprise. It uses computer vision and deep learning models to process images or real-time video. The system helps enable emotion-aware applications in healthcare, education, and human–computer interaction.",
+        "front_end": "Html, css",
+        "back_end": "Python"
+      }
+    ]
+  },
+  {
+    "company_name": "RASHTRIYA ISPAT NIGAM LIMITED – VISAKHAPATNAM STEEL PLANT",
+    "address": "Administrative Building, Visakhapatnam Steel Plant, Visakhapatnam - 530031, Andhra Pradesh, India",
+    "website": "https://www.vizagsteel.com/PTMS/",
+    "contact": ".0891-2740405",
+    "mentor": "Mr. Ganesh Babu M (AGM(L&DC))",
+    "internal_guide": "Prof. Pratik Raj",
+    "projects": [
+      {
+        "s_no": 176,
+        "members": [
+          {
+            "name": "RODDA PAVAN KUMAR",
+            "enrollment": "2205103070002",
+            "mobile": "",
+            "program": "IMCA, A"
+          }
+        ],
+        "project_title": "Database Management System",
+        "project_description": "IT and ERP",
         "front_end": "",
         "back_end": ""
       }
     ]
+  },
+  {
+    "company_name": "Five Point Solutions Private Limited",
+    "address": "Block 2, 73, East Avenue Corporate, Sarabhai Campus, Excel House, Bhailal Amin Marg, near Genda Circle, Vadodara, Gujarat 390023",
+    "website": "https://5pointsol.com",
+    "contact": "9909928003",
+    "mentor": "Pritesh Patel (Director (Technical))",
+    "internal_guide": "Prof. Saikat Paramanik",
+    "projects": [
+      {
+        "s_no": 177,
+        "members": [
+          {
+            "name": "Ronak Patel",
+            "enrollment": "2405112120132",
+            "mobile": "8758266581",
+            "program": "MCA, B"
+          }
+        ],
+        "project_title": "Vendor Management System",
+        "project_description": "This project is a web-based Vendor Management System that automates the Request for Quotation (RFQ) process. The system allows buyers to create RFQs and automatically send them to selected vendors, Vendors can securely log in to submit and revise their quotations within the system before the deadline. The application enables side-by-side quotation comparison, helping organizations evaluate prices, delivery terms, and other factors efficiently. This improves transparency, reduces manual effort, and supports better procurement decisions.",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
+  },
+  {
+    "company_name": "BITS infotech",
+    "address": "Manubhai Tower, B-208, Opp. M.S. University, Sarod, Sayajiganj, Vadodara, Gujarat 390007",
+    "website": "www.bitinfotech.in",
+    "contact": "9327219987",
+    "mentor": "Jeetu Singh (Senior Cloud Support Engineer)",
+    "internal_guide": "Prof. Anmol Singh",
+    "projects": [
+      {
+        "s_no": 178,
+        "members": [
+          {
+            "name": "Patel Jay",
+            "enrollment": "2405112070036",
+            "mobile": "7861046311",
+            "program": "MCA, E"
+          }
+        ],
+        "project_title": "Online News Portal igniter",
+        "project_description": "A simple web-based project that allows users to access, read, and manage the latest news articles efficiently through a clean and user-friendly interface.",
+        "front_end": "HTML, CSS, JavaScript, Bootstrap",
+        "back_end": "Php"
+      }
+    ]
+  },
+  {
+    "company_name": "Unified Mentor",
+    "address": "Cyber City, WeWork DLF Forum, DLF Phase 3, Gurugram, Haryana 122010.",
+    "website": "unifiedmentor.com",
+    "contact": "info@unifiedmentor.com, hello@unifiedmentor.com, +916283800330",
+    "mentor": "Drishti Madaan (Human Resources Manager)",
+    "internal_guide": "PRof. Akanksha Singh",
+    "projects": [
+      {
+        "s_no": 179,
+        "members": [
+          {
+            "name": "Sukhadia Pujan Sanjaykumar",
+            "enrollment": "2405112140100",
+            "mobile": "+919499809522",
+            "program": "MCA, G"
+          }
+        ],
+        "project_title": "PhishGuardAI",
+        "project_description": "This project develops an AI-driven Phishing Detection System designed to identify and classify malicious emails and URLs in real time. By utilizing Natural Language Processing (NLP) and Machine Learning algorithms, the system analyzes linguistic patterns (such as urgent keywords) and structural URL features (such as domain age and abnormal length).",
+        "front_end": "HTML5 / CSS3, JavaScript (React.js)",
+        "back_end": "Python, Flask / FastAPI"
+      }
+    ]
+  },
+  {
+    "company_name": "YBI foundation",
+    "address": "Dehli",
+    "website": "www.ybifoundation.com",
+    "contact": "9667987711",
+    "mentor": "Dr. Alok Yadav (Program Director)",
+    "internal_guide": "Prof. Jatin Morwal",
+    "projects": [
+      {
+        "s_no": 180,
+        "members": [
+          {
+            "name": "Nilas khandel",
+            "enrollment": "2405102140015",
+            "mobile": "9428815484",
+            "program": "MSC-IT, G"
+          },
+          {
+            "name": "Sarth Patel",
+            "enrollment": "2405102140035",
+            "mobile": "7284890904",
+            "program": "MSC-IT, G"
+          },
+          {
+            "name": "Sejal Jaiswal",
+            "enrollment": "2405102140036",
+            "mobile": "9422142202",
+            "program": "MSC-IT, G"
+          }
+        ],
+        "project_title": "Malware Detection using ML",
+        "project_description": "This project builds a machine learning system that automatically detects malware files (mainly Windows executables) by analyzing their characteristics instead of running them.",
+        "front_end": "CLI based",
+        "back_end": "Python"
+      }
+    ]
+  },
+  {
+    "company_name": "WESTERN RAILWAY",
+    "address": "Office of Sr. DSTE (Coordination) 2nd Floor, Annex-II Building, Divisional Rail Manager Office, Pratapnagar, Vadodara – 390004.",
+    "website": "wr.indianrailways.gov.in",
+    "contact": "adste@brc.railnet.gov.in",
+    "mentor": "KESHAV KUMAR (ADSTE)",
+    "internal_guide": "Prof. Pritam",
+    "projects": [
+      {
+        "s_no": 181,
+        "members": [
+          {
+            "name": "Rathwa KrishnaKumar Yogeshbhai",
+            "enrollment": "2405112120153",
+            "mobile": "9106170271",
+            "program": "MCA, C"
+          }
+        ],
+        "project_title": "NOCC ROOT",
+        "project_description": "NOCC ROOT is a smart centralized data management System for Indian Railways NOCC department (Network Operations Control Center). I designed to handle complex data without needing a developer to hard-code every new feature.",
+        "front_end": "React",
+        "back_end": "Python"
+      }
+    ]
   }
+]
 ]
