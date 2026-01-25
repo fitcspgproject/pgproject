@@ -4992,6 +4992,162 @@
         "back_end": "Python"
       }
     ]
+  },
+    {
+    "company_name": "Tacttree LLP",
+    "address": "TactTree LLP, 4th Floor, Aarna 673 Building, Kalali Rd, behind DPS school, Vadodara, Gujarat 390012",
+    "website": "http://www.tacttree.com/",
+    "contact": "91 265 2988308",
+    "mentor": "Yesha Desai (Talent Acquisition Manager Human Resource Department)",
+    "internal_guide": "Prof. Laxshman",
+    "projects": [
+      {
+        "s_no": 182,
+        "members": [
+          {
+            "name": "Het shah",
+            "enrollment": "2405102140037",
+            "mobile": "9725253901",
+            "program": "MSC-IT, G"
+          },
+          {
+            "name": "Anjani shah",
+            "enrollment": "2405112130031",
+            "mobile": "9898499452",
+            "program": "MCA, G"
+          }
+        ],
+        "project_title": "Device embedded network neutralized intelligent surveillance (KEYLOGGERS)",
+        "project_description": "Dennis is a sophisticated, multi-threaded software application developed in Python. It is designed as an intelligent surveillance system for Windows operating systems. The project's core objective is to provide comprehensive, real-time monitoring of user and system activities in a networked environment. It operates as a background service, silently logging keystrokes, mouse interactions, active application usage, clipboard data, system performance metrics, and network connections. The system intelligently identifies sensitive activities and autonomously compiles and transmits detailed diagnostic reports, ensuring network administrators or authorized users have complete visibility over device usage.",
+        "front_end": "",
+        "back_end": "Python"
+      }
+    ]
+  },
+  {
+    "company_name": "Mamo Technolabs",
+    "address": "Manjalpur, Vadodara",
+    "website": "www.mamotechnolabs.com",
+    "contact": "+91 9923707097",
+    "mentor": "Mrs N. Nandini Naganathan (HR)",
+    "internal_guide": "prof. satyamani Gayatri",
+    "projects": [
+      {
+        "s_no": 183,
+        "members": [
+          {
+            "name": "Raj Mali",
+            "enrollment": "2405112140078",
+            "mobile": "9662425671",
+            "program": "MCA, G"
+          }
+        ],
+        "project_title": "Gamers League",
+        "project_description": "Online pvp, comparative games tournament organisation platform.",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
+  },
+  {
+    "company_name": "SKILLORBIT",
+    "address": "Office no 201310, Q-Tower, Gaur Yamuna City, Uttar pradesh",
+    "website": "https://www.skillorbit.online",
+    "contact": "9153589523",
+    "mentor": "shivam thakur (HR)",
+    "internal_guide": "prof. Sahil Kumar",
+    "projects": [
+      {
+        "s_no": 184,
+        "members": [
+          {
+            "name": "Md Nafeesh",
+            "enrollment": "2405112110069",
+            "mobile": "6201509780",
+            "program": "MCA, H"
+          },
+          {
+            "name": "Lalit Kumar goyal",
+            "enrollment": "2405112110061",
+            "mobile": "9079050196",
+            "program": "MCA, H"
+          }
+        ],
+        "project_title": "Educational Platform",
+        "project_description": "A full-stack Educational Platform built with the MERN stack (MongoDB, Express.js, React.js, Node.js) that allows students to enroll in courses, access learning content, and track progress, while instructors can create and manage courses through an interactive dashboard.",
+        "front_end": "React",
+        "back_end": "Node"
+      }
+    ]
+  },
+  {
+    "company_name": "Byte Craze",
+    "address": "A-14 Sayma, Rizwan Shopping, Laxmi Nagar, Bharuch, Gujarat 392001",
+    "website": "www.bytecraze.in",
+    "contact": "Info.bytecraze@gmail.com",
+    "mentor": "Minhaz Lariya (Minhaz Lariya)",
+    "internal_guide": "Prof. Dipti Sharma",
+    "projects": [
+      {
+        "s_no": 185,
+        "members": [
+          {
+            "name": "ANSARI SAMSADAHMED SAMSHERALI",
+            "enrollment": "2405112110012",
+            "mobile": "82006 21133",
+            "program": "MCA, H"
+          },
+          {
+            "name": "KRUNAL PATEL",
+            "enrollment": "2405112110089",
+            "mobile": "7874195693",
+            "program": "MCA, I"
+          }
+        ],
+        "project_title": "Expense Tracker Web Application",
+        "project_description": "This is a full stack web application that allows users to track and manage their daily expenses. Users can add, view, edit and delete expense records. The front-end is built with ReactJS and the back-end uses Node.js, Express, and MongoDB for data storage and API handling. The application provides a user-friendly interface for expense tracking and helps users to analyze their spending.",
+        "front_end": "ReactJS, HTML, CSS, Bootstrap",
+        "back_end": "Node.js + Express + MongoDB"
+      }
+    ]
+  },
+  {
+    "company_name": "TechnoML",
+    "address": "Morena Madhya Pradesh",
+    "website": "www.technoml.in",
+    "contact": "7869021171",
+    "mentor": "Raj mewara (Senior data analyst)",
+    "internal_guide": "Prof. Ashutosh Solanki ",
+    "projects": [
+      {
+        "s_no": 186,
+        "members": [
+          {
+            "name": "Deepika kumawat",
+            "enrollment": "2405112140027",
+            "mobile": "9352634710",
+            "program": "MCA, F"
+          },
+          {
+            "name": "Ajay",
+            "enrollment": "2405112140003",
+            "mobile": "8059260148",
+            "program": "MCA, F"
+          },
+          {
+            "name": "Adarsh gokhe",
+            "enrollment": "2405112140002",
+            "mobile": "6232666763",
+            "program": "MCA, F"
+          }
+        ],
+        "project_title": "Data analysis",
+        "project_description": ".",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
   }
 ]
+
 
