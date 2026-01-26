@@ -5627,8 +5627,102 @@
         "back_end": "Mysql"
       }
     ]
+  },
+    {
+    "company_name": "Vermin Industries Pvt. Ltd.",
+    "address": "303, Senate Square Tower B, Opp. Gangotri Complex, Gotri, Vadodara – 390021. Gujarat. GST No.: 24AAKCV7787Q1Z4",
+    "website": "www.vermin.co.in",
+    "contact": "+91-8401011960",
+    "mentor": "Gaurang Patel (Director and team leader)",
+    "internal_guide": "Prof. Saikat Paramanik",
+    "projects": [
+      {
+        "s_no": 208,
+        "members": [
+          {
+            "name": "PATEL AryanKumar Narendrabhai",
+            "enrollment": "2405112120118",
+            "mobile": "7990517201",
+            "program": "MCA, B"
+          },
+          {
+            "name": "Siyodiya yash mahendrakumar",
+            "enrollment": "2405112120182",
+            "mobile": "",
+            "program": "MCA, B"
+          }
+        ],
+        "project_title": "E commerce",
+        "project_description": "Sell online products",
+        "front_end": "HTML CSS JavaScript react",
+        "back_end": "Node js"
+      }
+    ]
+  },
+  {
+    "company_name": "Ved infosys",
+    "address": "Vadodara",
+    "website": "www.vedinfos.co.in",
+    "contact": "vedinfoss@gmail.com",
+    "mentor": "Mitesh Prajapati (Manager)",
+    "internal_guide": "Prof. Pritam",
+    "projects": [
+      {
+        "s_no": 209,
+        "members": [
+          {
+            "name": "Patel jaykumar j",
+            "enrollment": "2405112070037",
+            "mobile": "7046353242",
+            "program": "MCA, E"
+          },
+          {
+            "name": "Prajapati yatinkumar kantibhai",
+            "enrollment": "2405112070041",
+            "mobile": "7434842659",
+            "program": "MCA, E"
+          },
+          {
+            "name": "Aryan panchal",
+            "enrollment": "2.40511E+12",
+            "mobile": "7357544893",
+            "program": "MCA, E"
+          }
+        ],
+        "project_title": "real time stock sentiment analyser",
+        "project_description": "Realtime-Stock-Sentiment: An Website which shows Realtime Stock Price",
+        "front_end": "React tailwind",
+        "back_end": "Nodejs express js"
+      }
+    ]
+  },
+  {
+    "company_name": "ABC Studio",
+    "address": "108, Exceluss business space Near Shiv Someshwar enclave, bhimrad canal road, Althan Surat – 395007",
+    "website": "https://www.abcstudiogroup.com/",
+    "contact": "abhijit@abcstudio.com. 7904589938",
+    "mentor": "Aray Surti (Web Developer)",
+    "internal_guide": "Prof. Laxshman",
+    "projects": [
+      {
+        "s_no": 210,
+        "members": [
+          {
+            "name": "Amit Nayak",
+            "enrollment": "2405112110074",
+            "mobile": "",
+            "program": "MCA, I"
+          }
+        ],
+        "project_title": "E-COMMERCE",
+        "project_description": "A full-stack, high-performance E-commerce platform designed for seamless shopping. Featuring a responsive interface, secure payment gateway integration, and a robust backend for real-time inventory management and order tracking",
+        "front_end": "HTML CSS JS",
+        "back_end": "Laravel Php MySql"
+      }
+    ]
   }
 ]
+
   
 
 
