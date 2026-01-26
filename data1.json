@@ -2952,7 +2952,7 @@
             "program": "MCA, B"
           }
         ],
-        "project_title": "Social chat",
+        "project_title": "Human Resources Management System",
         "project_description": "",
         "front_end": "React",
         "back_end": "Node"
@@ -5147,7 +5147,576 @@
         "back_end": ""
       }
     ]
+  },
+  {
+    "company_name": "AMDOX Technologies",
+    "address": "Tech-37, Plot No. 2A, Sy. No. 37, Konappana Agrahara Village, Bengaluru - Chennai Hwy, Phase II, Begur Hobli, Bengaluru, Karnataka 560100",
+    "website": "https://amdox.in/",
+    "contact": "6362853627",
+    "mentor": "Mr.Saurabh",
+    "internal_guide": "Prof. Uma Bhati",
+    "projects": [
+      {
+        "s_no": 187,
+        "members": [
+          {
+            "name": "Rathod Hardik",
+            "enrollment": "2405112120061",
+            "mobile": "9327715917",
+            "program": "MCA, A"
+          }
+        ],
+        "project_title": "Job Listing Portal",
+        "project_description": "Our Job Listing Portal is a dynamic web application designed to connect job seekers with potential employers efficiently. It features a clean and intuitive interface where users can easily search for job openings across various industries. Employers can create detailed job listings, specifying qualifications, responsibilities, and company information. Job seekers can create profiles, upload resumes, and apply for jobs directly through the portal. The portal offers advanced search filters, including job type, location, and salary range, to help users find the perfect match. With real-time notifications, both employers and applicants stay updated on application statuses. Secure user authentication ensures data privacy and protection. The portal also includes a dashboard for users to manage their job postings and applications seamlessly.",
+        "front_end": "React.JS",
+        "back_end": "Node.JS, Express.JS"
+      }
+    ]
+  },
+  {
+    "company_name": "Slash mark IT solutions",
+    "address": "2nd Floor, Ramnagar Road, Karim Nagar, Telangana, India, 505001",
+    "website": "https://slashmark.in/",
+    "contact": "+91 90632 25294",
+    "mentor": "P abhishek (HR)",
+    "internal_guide": "Dr. Prof. P. Ramachandran",
+    "projects": [
+      {
+        "s_no": 188,
+        "members": [
+          {
+            "name": "Kartik Sharma",
+            "enrollment": "2405112110119",
+            "mobile": "7778009112",
+            "program": "MCA, I"
+          },
+          {
+            "name": "Dhruv Shah",
+            "enrollment": "2405112110117",
+            "mobile": "+91 90238 70530",
+            "program": "MCA, I"
+          },
+          {
+            "name": "Sachin Singh",
+            "enrollment": "2405112110115",
+            "mobile": "+91 86016 49267",
+            "program": "MCA, I"
+          }
+        ],
+        "project_title": "Hotel management system",
+        "project_description": "Hotel Management System | PHP, MySQL • Architected a role-based system with separate user and admin dashboards. • Integrated secure login, session handling, and full CRUD operations. • Designed relational databases for bookings, users, rooms, and payments.",
+        "front_end": "HTML, CSS, JS",
+        "back_end": "PHP, SQL"
+      }
+    ]
+  },
+  {
+    "company_name": "Webstrail LLP",
+    "address": "Silver Business Point, 2062, VIP Cir, Uttran, Surat, Gujarat 394105",
+    "website": "https://webstrail.com/",
+    "contact": "9986192666",
+    "mentor": "Kishan Lakkad (CTO & Co-Founder)",
+    "internal_guide": "Dr. Sumit Soni",
+    "projects": [
+      {
+        "s_no": 189,
+        "members": [
+          {
+            "name": "Parmar Yash Bharatbhai",
+            "enrollment": "2405112110082",
+            "mobile": "9016803079",
+            "program": "MCA, I"
+          }
+        ],
+        "project_title": "LinkUp - Real time chat app",
+        "project_description": "LinkUp is a real-time, user-friendly web application that enables seamless 1-on-1 chatting and video calling. It offers a modern UI experience with features like secure authentication, friends system, onboarding flow, protected routes, and more.",
+        "front_end": "Reactjs, TailwindCSS",
+        "back_end": "MongoDB, Express, Nodejs"
+      }
+    ]
+  },
+  {
+    "company_name": "Uplift Infotech",
+    "address": "Silver business point jivan jyot circle Surat - 395010",
+    "website": "https://uplifttech.in/",
+    "contact": "+91 8128742585",
+    "mentor": "Malkesh Nakrani (CEO & Co-Founder)",
+    "internal_guide": "Prof. Pratik Raj",
+    "projects": [
+      {
+        "s_no": 190,
+        "members": [
+          {
+            "name": "Rathod Rohit Mukeshbhai",
+            "enrollment": "2405112110109",
+            "mobile": "9427765032",
+            "program": "MCA, I"
+          }
+        ],
+        "project_title": "E Learning Portal",
+        "project_description": "E Learning Portal where educator can publish their courses and student can enrolled paid courses",
+        "front_end": "HTML, CSS, JavaScript, React JS",
+        "back_end": "Node js, MongoDB, express JS"
+      }
+    ]
+  },
+  {
+    "company_name": "Akaame Export pvt ltd",
+    "address": "Ahemdabad",
+    "website": "www.akaame.com",
+    "contact": "+91 9819165927",
+    "mentor": "Sarabjeet Singh (HR)",
+    "internal_guide": "Prof. Preeti Sharma",
+    "projects": [
+      {
+        "s_no": 191,
+        "members": [
+          {
+            "name": "Amarjeet Sharma",
+            "enrollment": "2405112110008",
+            "mobile": "9334849363",
+            "program": "MCA, H"
+          }
+        ],
+        "project_title": "E-commerce website",
+        "project_description": "This project focuses on designing and developing a fully functional E-Commerce website that allows users to browse products, add items to the cart, and place orders securely online. The website includes user authentication, product management, order tracking, and payment integration, providing a smooth shopping experience for customers and an efficient management system for administrators.",
+        "front_end": "Javascript, Reactjs, TailwindCss",
+        "back_end": "NextJs, Express, MongoDb"
+      }
+    ]
+  },
+  {
+    "company_name": "Pacmac Solutions",
+    "address": "DG - 50, Dungra Industrial Estate, 396196 (Gujarat, India).",
+    "website": "https://www.pacmac.co.in/",
+    "contact": "+91 9930 722 622",
+    "mentor": "GaneshKumar Sah (Lead Automation Engineer)",
+    "internal_guide": "Prof.Jigar Bhavsar",
+    "projects": [
+      {
+        "s_no": 192,
+        "members": [
+          {
+            "name": "Naitik Doshi",
+            "enrollment": "2405112130021",
+            "mobile": "9601193351",
+            "program": "MCA, D"
+          }
+        ],
+        "project_title": "Not Decided",
+        "project_description": "Not Decided",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
+  },
+  {
+    "company_name": "Four Turrets",
+    "address": "403, Silver Staddle, Opp.Yash Complex, Gotri Main Road, Vadodara, Gujarat 390021.",
+    "website": "https://fourturrets.com/",
+    "contact": "9998093025",
+    "mentor": "Bhargav Patel (Co-Founder)",
+    "internal_guide": "Prof. Arun.U",
+    "projects": [
+      {
+        "s_no": 193,
+        "members": [
+          {
+            "name": "Pandey Amiteshkumar Sanjeev",
+            "enrollment": "2405112130025",
+            "mobile": "7600409785",
+            "program": "MCA, D"
+          }
+        ],
+        "project_title": "Sales Performance Analysis Dashboard",
+        "project_description": "Work on analyzing company sales data to track monthly and quarterly performance.",
+        "front_end": "Power BI",
+        "back_end": "SQL"
+      }
+    ]
+  },
+  {
+    "company_name": "Numerator",
+    "address": "NU House, L&T Circle, VIP Road, Karelibaug, Vadodara, Gujarat, India, 390018.",
+    "website": "Www.numerator.com",
+    "contact": "Na",
+    "mentor": "Chintan fadadu (Team lead operations)",
+    "internal_guide": "Prof.Saswati Chatterjee",
+    "projects": [
+      {
+        "s_no": 194,
+        "members": [
+          {
+            "name": "Ayaan khan",
+            "enrollment": "2405112130018",
+            "mobile": "8780876429",
+            "program": "MCA, D"
+          }
+        ],
+        "project_title": "Data Associate",
+        "project_description": "Data Entry & Processing: Inputting data from digital images (ads, product pages, etc.) into systems according to detailed instructions. Quality Control: Reviewing data entered by self and others to catch errors and omissions, ensuring high accuracy. Guideline Adherence: Learning and applying general and category-specific rules for data recording. Image Identification: Identifying relevant pages or products within computer-based images for data extraction. System Utilization: Effectively using proprietary data entry and processing software. Reporting Issues: Communicating data-related problems to supervisors promptly.",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
+  },
+  {
+    "company_name": "Semicolon solution",
+    "address": "404, Atlanta Shopping Mall, Sudama Chowk, Mota Varachha, Surat, Gujarat 394101 Company Website",
+    "website": "https://semicolonsolution.com/",
+    "contact": "9974928586",
+    "mentor": "Dhaval Mulani (CEO)",
+    "internal_guide": "Prof. Faruk Abdulla",
+    "projects": [
+      {
+        "s_no": 195,
+        "members": [
+          {
+            "name": "Krupesh Patel",
+            "enrollment": "2405112120129",
+            "mobile": "7990517318",
+            "program": "MCA, B"
+          },
+          {
+            "name": "Bhavy Patel",
+            "enrollment": "2405112120119",
+            "mobile": "7016198331",
+            "program": "MCA, B"
+          },
+          {
+            "name": "Dhruv Patel",
+            "enrollment": "2405112120123",
+            "mobile": "8849523352",
+            "program": "MCA, B"
+          }
+        ],
+        "project_title": "Human resources management system",
+        "project_description": "An HRMS built with React (frontend) and Django (backend) combines a dynamic, responsive user interface with a secure, robust server-side architecture. This stack is ideal for handling the complex data relationships and real-time interactions required in modern HR software.",
+        "front_end": "React",
+        "back_end": "Django"
+      }
+    ]
+  },
+  {
+    "company_name": "Inspiring solutions & service private limited",
+    "address": "Regd off : 248, ARISTO, OPP SHANGHAN SKZ, BHAYLI CANAL ROAD BHAILY VADODARA, GUJARAT. 391410",
+    "website": "Fyndeg.com",
+    "contact": "7046720188",
+    "mentor": "Hardik Dhameliya (HR)",
+    "internal_guide": "Prof. Vaishali Shah",
+    "projects": [
+      {
+        "s_no": 196,
+        "members": [
+          {
+            "name": "Dhameliya Khushi",
+            "enrollment": "2405112120040",
+            "mobile": "7572839608",
+            "program": "MCA, A"
+          }
+        ],
+        "project_title": "Cheers Holiday",
+        "project_description": "Trip management system - booking hotels and resorts, Booking Trip packages etc...",
+        "front_end": "React js",
+        "back_end": "Node js"
+      }
+    ]
+  },
+  {
+    "company_name": "Myonsitehealthcare",
+    "address": "Akota, vadodara",
+    "website": "https://myonsitehealthcare.com/",
+    "contact": "0265 - 3503765",
+    "mentor": "Soni Sinha (Senior Manager- Human Resources)",
+    "internal_guide": "Prof. Smarika Rai",
+    "projects": [
+      {
+        "s_no": 197,
+        "members": [
+          {
+            "name": "Hardik Kasliwal",
+            "enrollment": "2405112140033",
+            "mobile": "7000198762",
+            "program": "MCA, F"
+          }
+        ],
+        "project_title": "Drug trafficking detection system",
+        "project_description": "This system use to find drug trafficking in social media sites and user information",
+        "front_end": "React",
+        "back_end": "Django"
+      }
+    ]
+  },
+  {
+    "company_name": "Shrim Technolab LLP",
+    "address": "704, Time square, Nr. Ayodhya Chowk, 150 ft. Ring Road, Rajkot - 360007, Gujarat- IN",
+    "website": "https://shrimtechnolab.com/",
+    "contact": "hello@shrimtechnolab.com",
+    "mentor": "Mr. Arang Solanki (CEO)",
+    "internal_guide": "Prof. Saumil Trivedi",
+    "projects": [
+      {
+        "s_no": 198,
+        "members": [
+          {
+            "name": "Fenil Rokad",
+            "enrollment": "2405112110114",
+            "mobile": "8155036025",
+            "program": "MCA, I"
+          }
+        ],
+        "project_title": "Ecommerce : cartapp",
+        "project_description": "CartApp is a role-based e-commerce platform with: (1) Normal users (buyers) (2) Sellers (3) Admin / Super Admin It supports product listings, cart flow, orders, reviews, authentication, dashboards, and media uploads.",
+        "front_end": "React, Vite, React Router, Axios, Context/ State Management, Modern ESLint setup",
+        "back_end": "Node js, Express js, MongoDB + Mongoose, JWT Authentcation, Cloudinary (image uploades), Multer (File handling)"
+      }
+    ]
+  },
+  {
+    "company_name": "Exxat System Pvt Ltd",
+    "address": "Subhanpura, Vadodara",
+    "website": "Exxat.com",
+    "contact": "07069044006",
+    "mentor": "Shabbir Hussain (Assistant Manager)",
+    "internal_guide": "Prof.Rinkal Sarvaiya",
+    "projects": [
+      {
+        "s_no": 199,
+        "members": [
+          {
+            "name": "faikaf Ahmad",
+            "enrollment": "2405112120047",
+            "mobile": "8257808538",
+            "program": "MCA, A"
+          },
+          {
+            "name": "Shaik Suhail",
+            "enrollment": "2405112120166",
+            "mobile": "9014390136",
+            "program": "MCA, C"
+          }
+        ],
+        "project_title": "Medibrif",
+        "project_description": "An AI-based mobile platform designed to securely store medical records, with intelligent assistance for adding, retrieving, and managing patient information efficiently",
+        "front_end": "html/css, javascript, bootstrap",
+        "back_end": "Django, sql lite"
+      }
+    ]
+  },
+  {
+    "company_name": "NielsenIQ",
+    "address": "3rd floor, Tower B, Temenos Business Park, Atladara, Vadodara 390038",
+    "website": "www.nielseniq.com",
+    "contact": "6354069682",
+    "mentor": "Shraddha Yadhav (HR)",
+    "internal_guide": "Prof. Sonali Kharade",
+    "projects": [
+      {
+        "s_no": 200,
+        "members": [
+          {
+            "name": "Devesh Dubale",
+            "enrollment": "2405112130008",
+            "mobile": "8888291120",
+            "program": "MCA, D"
+          },
+          {
+            "name": "Faezah patel",
+            "enrollment": "2405112070035",
+            "mobile": "7698674899",
+            "program": "MCA, E"
+          }
+        ],
+        "project_title": "-",
+        "project_description": "-",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
+  },
+  {
+    "company_name": "Vermin Industries Pvt. Ltd",
+    "address": "303, Senate Square Tower B, Opp. Gangotri Complex, Gotri, Vadodara – 390021",
+    "website": "www.vermin.co.in",
+    "contact": "8320759234",
+    "mentor": "Gaurang Patel (BE electrical)",
+    "internal_guide": "Prof. Vishakha Bathwar",
+    "projects": [
+      {
+        "s_no": 201,
+        "members": [
+          {
+            "name": "Patel Darshan Manubhai",
+            "enrollment": "2405112120120",
+            "mobile": "8511063982",
+            "program": "MCA, B"
+          },
+          {
+            "name": "Patel Kishan Mahendra bhai",
+            "enrollment": "2405112130045",
+            "mobile": "93134 40726",
+            "program": "MCA, D"
+          }
+        ],
+        "project_title": "E-Learning Website",
+        "project_description": "The E-Learning Website is a modern online education platform designed to make learning accessible, interactive, and effective for students across the world",
+        "front_end": "React.js, Tailwind CSS",
+        "back_end": "Node.js, Express.js"
+      }
+    ]
+  },
+  {
+    "company_name": "concentrix",
+    "address": "Genda circle",
+    "website": "Concentrix.com",
+    "contact": "7289316509",
+    "mentor": "Himanshu Singh (Chandigarh)",
+    "internal_guide": "Prof.Chandankumar Singh",
+    "projects": [
+      {
+        "s_no": 202,
+        "members": [
+          {
+            "name": "Hritik kumar",
+            "enrollment": "2405112110042",
+            "mobile": "Hritik kumar",
+            "program": "MCA, H"
+          }
+        ],
+        "project_title": "Billing and Post System",
+        "project_description": "Mini shop related project",
+        "front_end": "Html Css, React js",
+        "back_end": "Java, php, python, Nodejs."
+      }
+    ]
+  },
+  {
+    "company_name": "Shambhavi Technovation",
+    "address": "A-708 Ganesh Glory, Jagatpur, Ahmedabad",
+    "website": "https://shambhavitechnovation.com/",
+    "contact": "+917861811572",
+    "mentor": "Jaydeep Panchal (Director)",
+    "internal_guide": "Prof. Prachi Mehta",
+    "projects": [
+      {
+        "s_no": 203,
+        "members": [
+          {
+            "name": "Ratnesh Singh",
+            "enrollment": "2405112110110",
+            "mobile": "6375323771",
+            "program": "MCA, I"
+          }
+        ],
+        "project_title": "Learning Management System",
+        "project_description": "A web-based platform where students can browse available courses, purchase them, and watch video lectures. Admin can manage courses, upload videos, and control course listings through an admin panel.",
+        "front_end": "Reactjs, Tailwind Css",
+        "back_end": "NodeJs, ExpressJS, Mongodb"
+      }
+    ]
+  },
+  {
+    "company_name": "SPIDY TECHNOLOGY",
+    "address": "Rajkot Office, Gujarat, India",
+    "website": "https://spidy.cloud/",
+    "contact": "9825579600",
+    "mentor": "Vasu Bera (System Team Lead / Project Mentor)",
+    "internal_guide": "Dr. Raj Sinha",
+    "projects": [
+      {
+        "s_no": 204,
+        "members": [
+          {
+            "name": "Ram Rambhai Vikrambhai",
+            "enrollment": "2405112120151",
+            "mobile": "8735967634",
+            "program": "MCA, C"
+          }
+        ],
+        "project_title": "QuickFix",
+        "project_description": "QuickFix is an on-demand home service platform inspired by the Rapido model, designed to connect users with nearby electricians and plumbers quickly and efficiently. The system allows users to request services based on location, view available service providers, and receive fast assistance for household maintenance and emergency needs. Service providers can accept requests, navigate to user locations, and complete jobs with transparent pricing and ratings. This project focuses on solving real-world problems using location-based services and provides a scalable solution for urban and semi-urban areas.",
+        "front_end": "HTML, CSS, JavaScript",
+        "back_end": "PHP, MySQL"
+      }
+    ]
+  },
+  {
+    "company_name": "Anwimac technologies pvt. Ltd.",
+    "address": "Gali no2, near mangalm fun square, Durga nursery road, Udaipur",
+    "website": "Anwimac.com",
+    "contact": "Nm",
+    "mentor": "Neelam meghwal (Head developer)",
+    "internal_guide": "Prof. Chaitali nayka",
+    "projects": [
+      {
+        "s_no": 205,
+        "members": [
+          {
+            "name": "Bhavesh Prajapati",
+            "enrollment": "2405112140016",
+            "mobile": "7357663611",
+            "program": "MCA, F"
+          }
+        ],
+        "project_title": "Handicraft",
+        "project_description": "This project is designed to showcase and sell a variety of beautiful handicrafts, crafted with skill and creativity. It features unique handmade items made from materials like fabric, wood, paper, beads, and more, each with its own charm and story. The site aims to connect artisans with buyers, offering a platform where creativity meets convenience. Whether for home décor, gifting, or personal use, the website makes it easy to explore, appreciate, and purchase authentic handmade crafts.",
+        "front_end": "Html, css, js",
+        "back_end": "js or node js Sal database"
+      }
+    ]
+  },
+  {
+    "company_name": "sarang infotech",
+    "address": "413, Tulsi Arcade, Near Sudama Chowk, Digital Valley (Mota Varachha), Surat.",
+    "website": "https://saranginfotech.in/",
+    "contact": "info@saranginfotech.in",
+    "mentor": "patel chirag (Frontend Dev)",
+    "internal_guide": "Prof. Shivaniba Dilipsinh Bhadoriya",
+    "projects": [
+      {
+        "s_no": 206,
+        "members": [
+          {
+            "name": "patel chirag",
+            "enrollment": "2405112070034",
+            "mobile": "7096564596",
+            "program": "MCA, E"
+          }
+        ],
+        "project_title": "vidasana wellness",
+        "project_description": "events and services booking",
+        "front_end": "EXPO",
+        "back_end": "supabase"
+      }
+    ]
+  },
+  {
+    "company_name": "Famezel-For Freedom",
+    "address": "FAMEZEL FOR FREEDOM, Rudram icon, 403, opp. LAMBDA HOUSE, Gota, Ahmedabad, Gujarat 382481",
+    "website": "http://www.famezel.com/",
+    "contact": "88498 20131",
+    "mentor": "Khyati dave (Founder)",
+    "internal_guide": "Prof. Payal Parekh",
+    "projects": [
+      {
+        "s_no": 207,
+        "members": [
+          {
+            "name": "Dhrupal Rathod",
+            "enrollment": "2405112110107",
+            "mobile": "8401420418",
+            "program": "MCA, I"
+          }
+        ],
+        "project_title": "Playora",
+        "project_description": "The Playora Turf Booking System is a comprehensive, web-based application designed to digitize and streamline the process of booking sports turfs across different cities.",
+        "front_end": "Html, css, php",
+        "back_end": "Mysql"
+      }
+    ]
   }
 ]
+  
+
 
 
