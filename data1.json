@@ -2922,44 +2922,7 @@
       }
     ]
   },
-  {
-    "company_name": "Semicolon",
-    "address": "404, Atlanta Shopping Mall Sudama Chowk, Mota Varachha, Surat, Gujarat 394101",
-    "website": "",
-    "contact": "",
-    "mentor": "NA",
-    "internal_guide": "Prof. Saikat Paramanik",
-    "projects": [
-      {
-        "s_no": 104,
-        "members": [
-          {
-            "name": "Krupesh Patel",
-            "enrollment": "2405112120129",
-            "mobile": "7990517318",
-            "program": "MCA, B"
-          },
-          {
-            "name": "Bhavy Patel",
-            "enrollment": "2405112120119",
-            "mobile": "7016198331",
-            "program": "MCA, H"
-          },
-          {
-            "name": "Dhruv Patel",
-            "enrollment": "2405112120121",
-            "mobile": "8849523352",
-            "program": "MCA, B"
-          }
-        ],
-        "project_title": "Human Resources Management System",
-        "project_description": "",
-        "front_end": "React",
-        "back_end": "Node"
-      }
-    ]
-  },
-  {
+   {
     "company_name": "",
     "address": "",
     "website": "",
@@ -4089,32 +4052,7 @@
       }
     ]
   },
-  {
-    "company_name": "Ximple Solutions",
-    "address": "Ahmedabad, Gujarat",
-    "website": "ximplesolutions.com",
-    "contact": "+919429208373",
-    "mentor": "Jitendra Patel (Senior Manager)",
-    "internal_guide": "Prof. Smarika Rai",
-    "projects": [
-      {
-        "s_no": 147,
-        "members": [
-          {
-            "name": "Rishabdev Panchal",
-            "enrollment": "2205103140012",
-            "mobile": "+91 93277 88769",
-            "program": "IMCA, A"
-          }
-        ],
-        "project_title": "Online Code Editor",
-        "project_description": "Code Editor but Online",
-        "front_end": "Javascript",
-        "back_end": "Java"
-      }
-    ]
-  },
-  {
+    {
     "company_name": "ATS Software Solution",
     "address": "City light road, surat",
     "website": "www.atssoftwaresolution.com",
@@ -5640,32 +5578,7 @@
       }
     ]
   },
-  {
-    "company_name": "Anwimac technologies pvt. Ltd.",
-    "address": "Gali no2, near mangalm fun square, Durga nursery road, Udaipur",
-    "website": "Anwimac.com",
-    "contact": "Nm",
-    "mentor": "Neelam meghwal (Head developer)",
-    "internal_guide": "Prof. Chaitali nayka",
-    "projects": [
-      {
-        "s_no": 205,
-        "members": [
-          {
-            "name": "Bhavesh Prajapati",
-            "enrollment": "2405112140016",
-            "mobile": "7357663611",
-            "program": "MCA, F"
-          }
-        ],
-        "project_title": "Handicraft",
-        "project_description": "This project is designed to showcase and sell a variety of beautiful handicrafts, crafted with skill and creativity. It features unique handmade items made from materials like fabric, wood, paper, beads, and more, each with its own charm and story. The site aims to connect artisans with buyers, offering a platform where creativity meets convenience. Whether for home décor, gifting, or personal use, the website makes it easy to explore, appreciate, and purchase authentic handmade crafts.",
-        "front_end": "Html, css, js",
-        "back_end": "js or node js Sal database"
-      }
-    ]
-  },
-  {
+    {
     "company_name": "sarang infotech",
     "address": "413, Tulsi Arcade, Near Sudama Chowk, Digital Valley (Mota Varachha), Surat.",
     "website": "https://saranginfotech.in/",
