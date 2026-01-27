@@ -671,7 +671,7 @@
                                 <th>Group.No</th>
                                 <th>Name</th>
                                 <th>Enrollment</th>
-                                <th>Mobile</th>
+                                <th>Mobile/Email</th>
                                 <th>Program</th>
                                 <th>Project</th>
                                 <th>Company</th>
@@ -905,6 +905,10 @@ document.addEventListener('contextmenu', function(e) {
             const name = student.name || 'Not Available';
             const enrollment = student.enrollment || 'Not Available';
             const mobile = student.mobile || 'Not Available';
+            const email = student.mobile 
+  ? student.mobile + '@paruluniversity.ac.in' 
+  : 'Not Available';
+
             const program = student.program || 'Not Available';
             const project = student.project_title || 'Not Available';
             const company = student.company || 'Not Available';
@@ -913,7 +917,7 @@ document.addEventListener('contextmenu', function(e) {
                 <td>${sno}</td>
                 <td class="student-name">${name}</td>
                 <td>${enrollment}</td>
-                <td>${mobile}</td>
+                <td>${mobile} <br>${email}</td>
                 <td>${program}</td>
                 <td>${project}</td>
                 <td>${company}</td>
@@ -963,6 +967,7 @@ document.addEventListener('contextmenu', function(e) {
 </body>
 
 </html>
+
 
 
 
