@@ -5720,8 +5720,190 @@
         "back_end": "Laravel Php MySql"
       }
     ]
+  },
+    {
+    "company_name": "Cerebra IT",
+    "address": "NSL ARENA, Habsiguda, Hyderabad, Telangana 500039",
+    "website": "cerebra-consulting.com",
+    "contact": "Srinivasa Chukka (BI Specialist)",
+    "mentor": "Srinivasa Chukka (BI Specialist)",
+    "internal_guide": "Prof. Hardik Parmar",
+    "projects": [
+      {
+        "s_no": 211,
+        "members": [
+          {
+            "name": "Balkrishna santosh jadhav",
+            "enrollment": "2405112120022",
+            "mobile": "8010653434",
+            "program": "MCA, A"
+          }
+        ],
+        "project_title": "SmartProp360 – AI-Based Land Investment & Construction Risk Intelligence System",
+        "project_description": "SmartProp360 – AI-Based Land Investment & Construction Risk Intelligence System is an applied data science and software engineering project designed to assist individuals and small developers in making informed real estate decisions. The system focuses on three critical phases of property development: (1) land investment analysis, (2) budget feasibility planning, and (3) construction delay risk prediction. Using historical real estate data, the system applies machine learning techniques to predict land price appreciation trends and classify investment risk levels based on location and market behavior. A budget feasibility module evaluates user financial inputs such as budget and loan eligibility to determine affordable and realistic investment options. Additionally, a construction risk module analyzes project timelines and related factors to predict the probability of construction delays and generate early risk alerts. The platform is implemented using Python-based backend services, structured databases, and interactive dashboards to deliver data-driven insights in a practical and user-friendly manner. The project aims to demonstrate real-world application of data science, machine learning, and backend system design while addressing a genuine industry problem.",
+        "front_end": "Streamlit (Python-based interactive dashboard)",
+        "back_end": "Python (FastAPI), Machine Learning using scikit-learn, SQL Database (SQLite / PostgreSQL)"
+      }
+    ]
+  },
+  {
+    "company_name": "Codeveda Technologies",
+    "address": "Remote",
+    "website": "https://codveda.com/",
+    "contact": "Parthiv Makwana (Software Engineer)",
+    "mentor": "Parthiv Makwana (Software Engineer)",
+    "internal_guide": "Prof. Sweta Jethva",
+    "projects": [
+      {
+        "s_no": 212,
+        "members": [
+          {
+            "name": "Jijo Johnson",
+            "enrollment": "2405112140037",
+            "mobile": "7359104816",
+            "program": "MCA, F"
+          }
+        ],
+        "project_title": "E Commerce Website",
+        "project_description": "The E-Commerce Website is a full-stack web application designed to facilitate online buying and selling of products in a secure, efficient, and user-friendly manner. The system provides a digital platform where users can browse products, search and filter items, add products to the cart, place orders, and make online payments. It also includes an admin panel to manage products, users, orders, and categories.",
+        "front_end": "HTML5 CSS3 / Tailwind CSS JavaScript React.js",
+        "back_end": "Python – Django / Django REST Framework PostgreSQL / MySQL JWT Authentication"
+      }
+    ]
+  },
+  {
+    "company_name": "Amor Technologies pvt ltd",
+    "address": "I-104 agarwal, Satellite, Ahemdabad 380015",
+    "website": "Amor.asia",
+    "contact": "ishmit Chadha (Owner)",
+    "mentor": "ishmit Chadha (Owner)",
+    "internal_guide": "Prof.Rinku Patil",
+    "projects": [
+      {
+        "s_no": 213,
+        "members": [
+          {
+            "name": "Nikunj Lohe",
+            "enrollment": "2405112070023",
+            "mobile": "9714391543",
+            "program": "MCA, E"
+          },
+          {
+            "name": "Dolly Bhati",
+            "enrollment": "2405112120045",
+            "mobile": "7742117822",
+            "program": "MCA, A"
+          }
+        ],
+        "project_title": "Pack Together",
+        "project_description": "PackTogether is a travel companion platform designed for solo travelers who want to explore new places without traveling alone. We help backpackers connect with unknown but like-minded travelers who share similar destinations, travel dates, and budgets",
+        "front_end": "React Vite",
+        "back_end": "Java Springboot"
+      }
+    ]
+  },
+  {
+    "company_name": "AaryOM",
+    "address": "73, Ananta Savera, Bil-Kalali Road, Atladra, Vadodara, Gujarat",
+    "website": "www.aaryom.com",
+    "contact": "Vilesh Shah (CEO)",
+    "mentor": "Vilesh Shah (CEO)",
+    "internal_guide": "Prof. Khyati Kariya",
+    "projects": [
+      {
+        "s_no": 214,
+        "members": [
+          {
+            "name": "Patel Tusharkumar Dineshbhai",
+            "enrollment": "2405112120133",
+            "mobile": "9328177538",
+            "program": "MCA, B"
+          }
+        ],
+        "project_title": "Design and Development of an Intelligent Automation Suite for Enterprise Operations (Aaryom-IAS)",
+        "project_description": "The project focuses on the Design and Development of an Intelligent Automation Suite for Enterprise Operations, internally referred to as Aaryom-IAS. This system integrates multiple workflows to streamline data processing.",
+        "front_end": "React",
+        "back_end": "Node.js/Python"
+      }
+    ]
+  },
+  {
+    "company_name": "Qodors Technology",
+    "address": "303, Shubh Square, Laldarwaja Main Rd, Lal Darwaja, Patel Nagar, Surat, Gujarat 395008",
+    "website": "https://www.qodors.com/",
+    "contact": "Sahil pinjari (Senior developer)",
+    "mentor": "Sahil pinjari (Senior developer)",
+    "internal_guide": "Prof.Vijya Tulsani",
+    "projects": [
+      {
+        "s_no": 215,
+        "members": [
+          {
+            "name": "Kinariwala Mohit Jiteshbhai",
+            "enrollment": "2405112140042",
+            "mobile": "9016841181",
+            "program": "MCA, F"
+          }
+        ],
+        "project_title": "AutoBizz",
+        "project_description": "AutoBizz is an AI-powered business automation platform designed to help small and medium-sized businesses (SMBs) streamline operations, improve efficiency, and enhance customer engagement—all with minimal manual effort. The platform integrates smart automation across key business functions, including: - Business Setup & Management – Easy registration, profile creation, and document handling. - Employee Training – AI-generated Standard Operating Procedure (SOP) videos. Compliance & Documentation – Automated organization and summarization of legal and regulatory files. - Customer Service – AI-driven phone support that answers queries, directs calls, and escalates issues. - Sales & Lead Management – Auto-generated product listings, AI-powered lead qualification, and automated meeting scheduling. By replacing repetitive tasks with intelligent automation, AutoBizz enables businesses to operate smarter, reduce costs, and focus on growth.",
+        "front_end": "React",
+        "back_end": "Node"
+      }
+    ]
+  },
+  {
+    "company_name": "Kepto Fintech Pvt. Lmt.",
+    "address": "306, Coral Group, Sahakar Marg, C Scheme Lal Kothi, Jaipur - 302007",
+    "website": "https://kbillpay.com/",
+    "contact": "Yogesh Koli (CTO)",
+    "mentor": "Yogesh Koli (CTO)",
+    "internal_guide": "Prof.Shikha Bansal",
+    "projects": [
+      {
+        "s_no": 216,
+        "members": [
+          {
+            "name": "Dhruv Dilipkumar Shah",
+            "enrollment": "2405112070051",
+            "mobile": "9106805260",
+            "program": "MCA, E"
+          }
+        ],
+        "project_title": "KBillPay",
+        "project_description": "Online Electricity Bill Payment System",
+        "front_end": "ReactJS, NodeJS",
+        "back_end": "PHP-Laravel"
+      }
+    ]
+  },
+  {
+    "company_name": "EXPERTS ADVICE AGENCY",
+    "address": "Second Floor, Om Sai Business Centre, Chatrapati Shivaji Marg, beside Gujarat Gas Company Road, Adajan Gam, Adajan, Surat, Gujarat 395009, India",
+    "website": "www.expertsadviceagency.com",
+    "contact": "Jemin D Chauhan (Developer)",
+    "mentor": "Jemin D Chauhan (Developer)",
+    "internal_guide": "Prof. Vaishali Shah",
+    "projects": [
+      {
+        "s_no": 217,
+        "members": [
+          {
+            "name": "Sonavane Nilesh Ratilal",
+            "enrollment": "2405112140090",
+            "mobile": "9510457219",
+            "program": "MCA, G"
+          }
+        ],
+        "project_title": "TaskVortex",
+        "project_description": "TaskVortex is a web-based task management system designed to streamline workflow and enhance team collaboration. Built using Angular and Spring Boot, the application allows managers to assign tasks with specific deadlines and priorities, while enabling employees to view their workload and update status in real-time. By centralizing task tracking into a single, organized dashboard, TaskVortex eliminates communication gaps and significantly improves organizational productivity.",
+        "front_end": "Angular",
+        "back_end": "Spring Boot"
+      }
+    ]
   }
 ]
+
 
   
 
