@@ -1,0 +1,1010 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Project Search Portal</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    :root {
+      --primary-color: #2c3e50;
+      --secondary-color: #3498db;
+      --accent-color: #e74c3c;
+      --edit-color: #27ae60;
+      --light-color: #ecf0f1;
+      --dark-color: #2c3e50;
+      --success-color: #27ae60;
+      --shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      --border-radius: 10px;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 30px 20px;
+      color: #333;
+    }
+
+    .container {
+      max-width: 1100px;
+      width: 100%;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+      padding: 20px;
+      background-color: white;
+      border-radius: var(--border-radius);
+      box-shadow: var(--shadow);
+      position: relative;
+      overflow: hidden;
+    }
+
+    header::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 5px;
+      background: linear-gradient(to right, var(--secondary-color), var(--accent-color));
+    }
+
+    h1 {
+      color: var(--primary-color);
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      color: #7f8c8d;
+      font-size: 1.1rem;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .search-section {
+      background-color: white;
+      padding: 30px;
+      border-radius: var(--border-radius);
+      box-shadow: var(--shadow);
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    .input-group {
+      display: flex;
+      max-width: 600px;
+      margin: 0 auto;
+      box-shadow: 0 4px 15px rgba(52, 152, 219, 0.2);
+      border-radius: 50px;
+      overflow: hidden;
+      transition: all 0.3s ease;
+    }
+
+    .input-group:focus-within {
+      box-shadow: 0 4px 20px rgba(52, 152, 219, 0.3);
+      transform: translateY(-2px);
+    }
+
+    .input-icon {
+      background-color: var(--secondary-color);
+      color: white;
+      padding: 15px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    input {
+      flex: 1;
+      padding: 15px 20px;
+      border: none;
+      font-size: 1.1rem;
+      outline: none;
+    }
+
+    .search-input {
+      border: none;
+      background: transparent;
+    }
+
+    button {
+      cursor: pointer;
+      transition: all 0.3s ease;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+    }
+
+    .search-btn {
+      background-color: var(--primary-color);
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      font-size: 1.1rem;
+    }
+
+    .search-btn:hover {
+      background-color: var(--secondary-color);
+    }
+
+    .search-btn i {
+      margin-right: 8px;
+    }
+
+    .edit-btn {
+      background-color: var(--edit-color);
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-size: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .edit-btn:hover {
+      background-color: #219653;
+      transform: translateY(-2px);
+    }
+
+    .edit-btn.cancel {
+      background-color: #e74c3c;
+    }
+
+    .edit-btn.cancel:hover {
+      background-color: #c0392b;
+    }
+
+    .edit-btn.save {
+      background-color: var(--secondary-color);
+    }
+
+    .edit-btn.save:hover {
+      background-color: #2980b9;
+    }
+
+    .edit-controls {
+      display: flex;
+      gap: 10px;
+      margin-top: 20px;
+      justify-content: flex-end;
+    }
+
+    .result-section {
+      display: none;
+      background-color: white;
+      border-radius: var(--border-radius);
+      box-shadow: var(--shadow);
+      padding: 35px;
+      margin-top: 20px;
+      animation: fadeIn 0.5s ease;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .result-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 30px;
+      padding-bottom: 20px;
+      border-bottom: 2px solid var(--light-color);
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .student-info {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      flex: 1;
+    }
+
+    .avatar {
+      width: 80px;
+      height: 80px;
+      background: linear-gradient(135deg, var(--secondary-color), var(--primary-color));
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 2rem;
+      font-weight: bold;
+      flex-shrink: 0;
+    }
+
+    .student-details h3 {
+      font-size: 1.8rem;
+      color: var(--primary-color);
+      margin-bottom: 5px;
+    }
+
+    .enrollment-badge {
+      background-color: var(--light-color);
+      color: var(--primary-color);
+      padding: 5px 15px;
+      border-radius: 20px;
+      font-weight: 600;
+      font-size: 0.9rem;
+      display: inline-block;
+      margin-top: 5px;
+    }
+
+    .project-title {
+      color: var(--secondary-color);
+      font-size: 1.8rem;
+      margin-bottom: 20px;
+      padding-bottom: 15px;
+      border-bottom: 1px dashed #ddd;
+    }
+
+    .project-title.edit-mode {
+      border-bottom: 2px solid var(--edit-color);
+    }
+
+    .details-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 25px;
+      margin-bottom: 30px;
+    }
+
+    .detail-card {
+      background-color: #f8f9fa;
+      padding: 20px;
+      border-radius: 8px;
+      border-left: 4px solid var(--secondary-color);
+      transition: all 0.3s ease;
+    }
+
+    .detail-card.edit-mode {
+      border-left: 4px solid var(--edit-color);
+      background-color: #f0f9ff;
+    }
+
+    .detail-card h4 {
+      color: var(--primary-color);
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .detail-card h4 i {
+      color: var(--secondary-color);
+    }
+
+    .edit-field {
+      width: 100%;
+      padding: 10px;
+      margin-top: 8px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      font-size: 1rem;
+      transition: border 0.3s ease;
+    }
+
+    .edit-field:focus {
+      border-color: var(--edit-color);
+      outline: none;
+      box-shadow: 0 0 0 2px rgba(39, 174, 96, 0.2);
+    }
+
+    .edit-textarea {
+      min-height: 120px;
+      resize: vertical;
+      font-family: inherit;
+    }
+
+    .tech-stack {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    .tech-badge {
+      background-color: #e1f0fa;
+      color: var(--secondary-color);
+      padding: 5px 12px;
+      border-radius: 20px;
+      font-size: 0.9rem;
+      font-weight: 600;
+    }
+
+    .tech-edit-container {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    .tech-input-row {
+      display: flex;
+      gap: 10px;
+    }
+
+    .tech-input {
+      flex: 1;
+      padding: 8px 12px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+
+    .members-section {
+      background-color: #f8f9fa;
+      padding: 25px;
+      border-radius: 8px;
+      margin-top: 20px;
+    }
+
+    .members-section.edit-mode {
+      background-color: #f0f9ff;
+    }
+
+    .members-section h4 {
+      color: var(--primary-color);
+      margin-bottom: 20px;
+      font-size: 1.4rem;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .members-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 15px;
+    }
+
+    .member-card {
+      background-color: white;
+      padding: 15px;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+      transition: transform 0.3s ease;
+    }
+
+    .member-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .member-avatar {
+      width: 50px;
+      height: 50px;
+      background: linear-gradient(135deg, #9b59b6, #3498db);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-weight: bold;
+      flex-shrink: 0;
+    }
+
+    .member-info h5 {
+      color: var(--primary-color);
+      margin-bottom: 5px;
+    }
+
+    .member-info p {
+      color: #7f8c8d;
+      font-size: 0.9rem;
+    }
+
+    .no-result {
+      text-align: center;
+      padding: 50px 20px;
+      color: var(--accent-color);
+    }
+
+    .no-result i {
+      font-size: 4rem;
+      margin-bottom: 20px;
+      opacity: 0.7;
+    }
+
+    .no-result h3 {
+      font-size: 1.8rem;
+      margin-bottom: 10px;
+    }
+
+    .loading {
+      text-align: center;
+      padding: 30px;
+      display: none;
+    }
+
+    .spinner {
+      width: 60px;
+      height: 60px;
+      border: 6px solid #f3f3f3;
+      border-top: 6px solid var(--secondary-color);
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+      margin: 0 auto 20px;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    footer {
+      margin-top: 40px;
+      text-align: center;
+      color: #7f8c8d;
+      font-size: 0.9rem;
+      padding: 20px;
+    }
+
+    @media (max-width: 768px) {
+      .input-group {
+        flex-direction: column;
+        border-radius: var(--border-radius);
+      }
+      
+      .input-icon, input, .search-btn {
+        width: 100%;
+        border-radius: 0;
+      }
+      
+      .input-icon {
+        border-radius: var(--border-radius) var(--border-radius) 0 0;
+      }
+      
+      .search-btn {
+        border-radius: 0 0 var(--border-radius) var(--border-radius);
+      }
+      
+      .details-grid {
+        grid-template-columns: 1fr;
+      }
+      
+      .result-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+      }
+      
+      .edit-controls {
+        justify-content: flex-start;
+        flex-wrap: wrap;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1><i class="fas fa-search"></i> Internship Project Search Portal</h1>
+      <p class="subtitle">Find detailed information about student internship projects by entering enrollment number</p>
+    </header>
+
+    <section class="search-section">
+      <div class="input-group">
+        <div class="input-icon">
+          <i class="fas fa-id-card"></i>
+        </div>
+        <input type="text" id="enroll" class="search-input" placeholder="Enter Student Enrollment Number (e.g., 2021BCS123)">
+        <button class="search-btn" onclick="search()">
+          <i class="fas fa-search"></i> Search Project
+        </button>
+      </div>
+      <p style="margin-top: 15px; color: #7f8c8d; font-size: 0.9rem;">
+        <i class="fas fa-info-circle"></i> Enter the enrollment number to retrieve project details
+      </p>
+    </section>
+
+    <div class="loading" id="loading">
+      <div class="spinner"></div>
+      <p>Searching for project details...</p>
+    </div>
+
+    <div class="result-section" id="result">
+      <!-- Results will be dynamically inserted here -->
+    </div>
+  </div>
+
+  <footer>
+    <p>Internship Project Search System &copy; 2026 | Parul University-FITCS-PIET-MCA</p>
+  </footer>
+
+  <script>
+//     document.addEventListener('contextmenu', function(e) {
+//   e.preventDefault();
+// });
+
+// // Disable with alert message
+// document.addEventListener('contextmenu', function(e) {
+//   e.preventDefault();
+//   alert('Right-click is disabled on this page!');
+//   return false;
+// });
+    const API_URL = "https://script.google.com/macros/s/AKfycbxhQ9-qxNkeVw4wBXGJF5ZZHR2XfoZGz0aZhAd8Be7qS1wVZ3hoF-3-FLbwm79oTOc4Aw/exec";
+    
+    // Store the original data to revert changes if needed
+    let originalData = null;
+    let isEditMode = false;
+
+    function search() {
+      let enroll = document.getElementById("enroll").value.trim();
+      const resultDiv = document.getElementById("result");
+      const loadingDiv = document.getElementById("loading");
+
+      if (!enroll) {
+        alert("Please enter an enrollment number");
+        return;
+      }
+
+      // Reset edit mode when searching
+      isEditMode = false;
+      
+      // Show loading spinner
+      loadingDiv.style.display = "block";
+      resultDiv.style.display = "none";
+
+      fetch(API_URL + "?enroll=" + encodeURIComponent(enroll))
+        .then(res => res.json())
+        .then(data => {
+          loadingDiv.style.display = "none";
+          
+          if (data.error) {
+            resultDiv.innerHTML = `
+              <div class="no-result">
+                <i class="fas fa-exclamation-circle"></i>
+                <h3>Project Record Not Found</h3>
+                <p>No project found for enrollment number: <strong>${enroll}</strong></p>
+                <p style="margin-top: 15px;">Please check the enrollment number and try again.</p>
+              </div>
+            `;
+            resultDiv.style.display = "block";
+            return;
+          }
+
+          // Let's debug the API response
+          console.log("API Response:", data);
+          
+          // Store original data
+          originalData = JSON.parse(JSON.stringify(data));
+          
+          // Render the result in view mode
+          renderResultView(data);
+          resultDiv.style.display = "block";
+        })
+        .catch(error => {
+          loadingDiv.style.display = "none";
+          resultDiv.innerHTML = `
+            <div class="no-result">
+              <i class="fas fa-exclamation-triangle"></i>
+              <h3>Network Error</h3>
+              <p>Unable to connect to the server. Please check your internet connection and try again.</p>
+            </div>
+          `;
+          resultDiv.style.display = "block";
+          console.error("Fetch error:", error);
+        });
+    }
+
+    function renderResultView(data) {
+      console.log("Rendering data:", data);
+      
+      // Get initials for avatar
+      const initials = data.name ? data.name.split(' ').map(n => n[0]).join('').toUpperCase() : '??';
+      
+      // Check if groupMembers exist and handle them properly
+      let membersHTML = "";
+      if (data.groupMembers && Array.isArray(data.groupMembers)) {
+        console.log("Group members found:", data.groupMembers.length);
+        
+        // Check if groupMembers is an array of objects or just data
+        if (data.groupMembers.length > 0 && typeof data.groupMembers[0] === 'object') {
+          // It's an array of objects (proper structure)
+          data.groupMembers.forEach(member => {
+            if (member && member.name && member.enrollment) {
+              const memberInitials = member.name.split(' ').map(n => n[0]).join('').toUpperCase();
+              membersHTML += `
+                <div class="member-card">
+                  <div class="member-avatar">${memberInitials.substring(0, 2)}</div>
+                  <div class="member-info">
+                    <h5>${member.name}</h5>
+                    <p>${member.enrollment} | ${member.program || ''}</p>
+                  <p>
+  <i class="fas fa-phone"></i>
+  <a href="tel:${member.mobile}" style="text-decoration:none;color:inherit;">
+    ${member.mobile || 'N/A'}
+  </a>
+  <br>
+
+  <i class="fas fa-envelope"></i>
+  <a href="mailto:${member.enrollment}@paruluniversity.ac.in"
+     style="text-decoration:none;color:inherit;">
+    ${
+      member.enrollment 
+        ? member.enrollment + "@paruluniversity.ac.in" 
+        : "N/A"
+    }
+  </a>
+</p>
+
+                  </div>
+                </div>
+              `;
+            }
+          });
+        } else {
+          // It might be a different structure - check what it contains
+          console.log("Unexpected groupMembers structure:", data.groupMembers);
+          membersHTML = `<p style="text-align: center; color: #7f8c8d;">Group members data format unexpected</p>`;
+        }
+      } else {
+        console.log("No groupMembers found in data");
+        membersHTML = `<p style="text-align: center; color: #7f8c8d;">No group members listed</p>`;
+      }
+
+      // Generate result HTML in view mode
+      document.getElementById("result").innerHTML = `
+        <div class="result-header">
+          <div class="student-info">
+            <div class="avatar">${initials.substring(0, 2)}</div>
+            <div class="student-details">
+              <h3>${data.name || 'Not Available'}</h3>
+              <div class="enrollment-badge">${data.enrollment || 'N/A'}</div>
+              <p><i class="fas fa-phone-alt"></i> ${data.mobile || 'Not Available'} | <i class="fas fa-graduation-cap"></i> ${data.program || 'Not Available'}</p>
+            </div>
+          </div>
+          <button class="edit-btn" onclick="toggleEditMode()">
+            <i class="fas fa-edit"></i> Edit Project Details
+          </button>
+        </div>
+
+        <h2 class="project-title">${data.project || 'Project title not available'}</h2>
+        <p style="margin-bottom: 25px; line-height: 1.6; color: #555;">${data.description || 'No description available'}</p>
+
+        <div class="details-grid">
+          <div class="detail-card">
+            <h4><i class="fas fa-building"></i> Company Details</h4>
+            <p><strong>Company:</strong> ${data.company || 'Not specified'}</p>
+            <p><strong>Industry Mentor:</strong> ${data.mentor || 'Not specified'}</p>
+            <p><strong>Internal Guide:</strong> ${data.internalGuide || "Not specified"}</p>
+          </div>
+
+          <div class="detail-card">
+            <h4><i class="fas fa-code"></i> Technology Stack</h4>
+            <div class="tech-stack">
+              <span class="tech-badge">${data.frontend || "Frontend not specified"}</span>
+              <span class="tech-badge">${data.backend || "Backend not specified"}</span>
+            </div>
+            <p style="margin-top: 15px;"><strong>Project Type:</strong> Internship Capstone Project</p>
+          </div>
+        </div>
+
+        <div class="members-section">
+          <h4><i class="fas fa-users"></i> Project Team Members</h4>
+          <div class="members-grid">
+            ${membersHTML}
+          </div>
+        </div>
+      `;
+    }
+
+    function toggleEditMode() {
+      if (!originalData) return;
+      
+      isEditMode = !isEditMode;
+      
+      if (isEditMode) {
+        renderEditView();
+      } else {
+        renderResultView(originalData);
+      }
+    }
+
+    function renderEditView() {
+      const data = originalData;
+      const initials = data.name ? data.name.split(' ').map(n => n[0]).join('').toUpperCase() : '??';
+
+      // Generate edit view HTML - Removed internal guide from editable fields
+      document.getElementById("result").innerHTML = `
+        <div class="result-header">
+          <div class="student-info">
+            <div class="avatar">${initials.substring(0, 2)}</div>
+            <div class="student-details">
+              <h3>${data.name || 'Not Available'}</h3>
+              <div class="enrollment-badge">${data.enrollment || 'N/A'}</div>
+              <p><i class="fas fa-phone-alt"></i> ${data.mobile || 'Not Available'} | <i class="fas fa-graduation-cap"></i> ${data.program || 'Not Available'}</p>
+            </div>
+          </div>
+          <button class="edit-btn cancel" onclick="toggleEditMode()">
+            <i class="fas fa-times"></i> Cancel Edit
+          </button>
+        </div>
+
+        <h2 class="project-title edit-mode">Project Title</h2>
+        <input type="text" class="edit-field" id="edit-project-title" value="${data.project || ''}" placeholder="Enter project title" >
+
+        <h4 style="margin: 25px 0 10px 0; color: var(--primary-color);"><i class="fas fa-align-left"></i> Project Description</h4>
+        <textarea class="edit-field edit-textarea" id="edit-description" placeholder="Enter project description" >${data.description || ''}</textarea>
+
+        <div class="details-grid">
+          <div class="detail-card edit-mode">
+            <h4><i class="fas fa-building"></i> Company Details</h4>
+            <p><strong>Company:</strong></p>
+            <input type="text" class="edit-field" id="edit-company" value="${data.company || ''}" placeholder="Enter company name" >
+            
+            <p style="margin-top: 15px;"><strong>Industry Mentor:</strong></p>
+            <input type="text" class="edit-field" id="edit-mentor" value="${data.mentor || ''}" placeholder="Enter mentor name" readonly>
+            
+            <p style="margin-top: 15px;"><strong>Internal Guide:</strong> ${data.internalGuide || "Not specified"}</p>
+          </div>
+
+          <div class="detail-card edit-mode">
+            <h4><i class="fas fa-code"></i> Technology Stack</h4>
+            <div class="tech-edit-container">
+              <div class="tech-input-row">
+                <input type="text" class="edit-field tech-input" id="edit-frontend" value="${data.frontend || ''}" placeholder="Frontend technologies">
+              </div>
+              <div class="tech-input-row">
+                <input type="text" class="edit-field tech-input" id="edit-backend" value="${data.backend || ''}" placeholder="Backend technologies">
+              </div>
+            </div>
+            <p style="margin-top: 15px;"><strong>Project Type:</strong> Internship Capstone Project</p>
+          </div>
+        </div>
+
+        <div class="members-section edit-mode">
+          <h4><i class="fas fa-users"></i> Project Team Members</h4>
+          <div class="members-grid" id="members-list">
+            ${(() => {
+              if (data.groupMembers && Array.isArray(data.groupMembers) && data.groupMembers.length > 0) {
+                return data.groupMembers.map((member, index) => {
+                  if (member && member.name) {
+                    const memberInitials = member.name.split(' ').map(n => n[0]).join('').toUpperCase();
+                    return `
+                      <div class="member-card">
+                        <div class="member-avatar">${memberInitials.substring(0, 2)}</div>
+                        <div class="member-info">
+                          <h5>${member.name}</h5>
+                          <p>${member.enrollment || ''} | ${member.program || ''}</p>
+                        </div>
+                      </div>
+                    `;
+                  }
+                  return '';
+                }).join('');
+              } else {
+                return `<p style="text-align: center; color: #7f8c8d;">No group members listed</p>`;
+              }
+            })()}
+          </div>
+        </div>
+
+        <div class="edit-controls">
+          <button class="edit-btn cancel" onclick="cancelEdit()">
+            <i class="fas fa-times"></i> Discard Changes
+          </button>
+          <button class="edit-btn save" onclick="saveChanges()">
+            <i class="fas fa-save"></i> Save Changes
+          </button>
+        </div>
+      `;
+    }
+
+    function cancelEdit() {
+      // Revert to original data and view mode
+      isEditMode = false;
+      renderResultView(originalData);
+    }
+
+    function saveChanges() {
+      // Get updated values from form fields (internal guide is not editable)
+      const updatedData = {
+        ...originalData,
+        project: document.getElementById('edit-project-title').value,
+        description: document.getElementById('edit-description').value,
+        company: document.getElementById('edit-company').value,
+        mentor: document.getElementById('edit-mentor').value,
+        // internalGuide remains unchanged - not editable
+        frontend: document.getElementById('edit-frontend').value,
+        backend: document.getElementById('edit-backend').value
+      };
+
+      // Update the original data with changes
+      originalData = updatedData;
+      
+      // Show success message
+      alert("Changes saved successfully! Note: These changes are only saved locally and will reset when you search again.");
+      
+      // Exit edit mode and show updated view
+      isEditMode = false;
+      renderResultView(originalData);
+    }
+
+    // Allow pressing Enter to search
+    document.getElementById("enroll").addEventListener("keypress", function(event) {
+      if (event.key === "Enter") {
+        search();
+      }
+    });
+
+
+
+    function saveChanges() {
+  const project = document.getElementById('edit-project-title').value.trim();
+  const description = document.getElementById('edit-description').value.trim();
+  const company = document.getElementById('edit-company').value.trim();
+  const frontend = document.getElementById('edit-frontend').value.trim();
+  const backend = document.getElementById('edit-backend').value.trim();
+
+  // ✅ Validation
+  if (!project) {
+    alert("Project Title is required");
+    document.getElementById('edit-project-title').focus();
+    return;
+  }
+
+  if (!description) {
+    alert("Project Description is required");
+    document.getElementById('edit-description').focus();
+    return;
+  }
+
+  if (!company) {
+    alert("Company Name is required");
+    document.getElementById('edit-company').focus();
+    return;
+  }
+
+  if (!frontend) {
+    alert("Frontend Technology is required");
+    document.getElementById('edit-frontend').focus();
+    return;
+  }
+
+  if (!backend) {
+    alert("Backend Technology is required");
+    document.getElementById('edit-backend').focus();
+    return;
+  }
+
+  // Collect main + group enrollments
+  let enrollments = [originalData.enrollment];
+
+  if (originalData.groupMembers && Array.isArray(originalData.groupMembers)) {
+    originalData.groupMembers.forEach(m => {
+      if (m.enrollment) {
+        enrollments.push(m.enrollment);
+      }
+    });
+  }
+
+  const updatedData = {
+    enrollments: enrollments,
+    project,
+    description,
+    company,
+    frontend,
+    backend
+  };
+
+  // Show loader
+  showLoader();
+
+  // Send to Google Sheet
+  fetch("https://script.google.com/macros/s/AKfycbzHz0inQOqtGchU9uMC6uEdb6yuplfnj4KReJ7A-o-cxAG4VzUZpdGB88V6K5nYGdb8bQ/exec", {
+    method: "POST",
+    mode: "no-cors", // This prevents reading response but bypasses CORS
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify(updatedData)
+  })
+  .then(() => {
+    // Hide loader
+    hideLoader();
+    
+    // Update local copy (optimistic update)
+    originalData.project = updatedData.project;
+    originalData.description = updatedData.description;
+    originalData.company = updatedData.company;
+    originalData.frontend = updatedData.frontend;
+    originalData.backend = updatedData.backend;
+    
+    // Show success
+    alert("Data saved successfully ✅");
+    isEditMode = false;
+    renderResultView(originalData);
+  });
+  // No .catch() - errors are silent with "no-cors"
+}
+
+// Simple Loader Functions
+function showLoader() {
+  // Create or update a simple loader element
+  let loader = document.getElementById('simple-loader');
+  
+  if (!loader) {
+    loader = document.createElement('div');
+    loader.id = 'simple-loader';
+    loader.innerHTML = `
+      <div style="
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: rgba(0, 0, 0, 0.8);
+        color: white;
+        padding: 20px 30px;
+        border-radius: 10px;
+        z-index: 9999;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+      ">
+        <div style="
+          width: 30px;
+          height: 30px;
+          border: 3px solid #f3f3f3;
+          border-top: 3px solid #3498db;
+          border-radius: 50%;
+          animation: spin 1s linear infinite;
+        "></div>
+        <span>Saving data...</span>
+      </div>
+    `;
+    document.body.appendChild(loader);
+    
+    // Add spinner animation style
+    if (!document.querySelector('#loader-style')) {
+      const style = document.createElement('style');
+      style.id = 'loader-style';
+      style.textContent = `
+        @keyframes spin {
+          0% { transform: rotate(0deg); }
+          100% { transform: rotate(360deg); }
+        }
+      `;
+      document.head.appendChild(style);
+    }
+  } else {
+    loader.style.display = 'block';
+  }
+}
+
+function hideLoader() {
+  const loader = document.getElementById('simple-loader');
+  if (loader) {
+    loader.remove();
+  }
+  
+  // Remove animation style
+  const style = document.getElementById('loader-style');
+  if (style) {
+    style.remove();
+  }
+}
+
+  </script>
+</body>
+</html>
