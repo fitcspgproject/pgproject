@@ -5440,38 +5440,7 @@
         "back_end": "Django, sql lite"
       }
     ]
-  },
-  {
-    "company_name": "NielsenIQ",
-    "address": "3rd floor, Tower B, Temenos Business Park, Atladara, Vadodara 390038",
-    "website": "www.nielseniq.com",
-    "contact": "6354069682",
-    "mentor": "Shraddha Yadhav (HR)",
-    "internal_guide": "Prof. Sonali Kharade",
-    "projects": [
-      {
-        "s_no": 200,
-        "members": [
-          {
-            "name": "Devesh Dubale",
-            "enrollment": "2405112130008",
-            "mobile": "8888291120",
-            "program": "MCA, D"
-          },
-          {
-            "name": "Faezah patel",
-            "enrollment": "2405112070035",
-            "mobile": "7698674899",
-            "program": "MCA, E"
-          }
-        ],
-        "project_title": "-",
-        "project_description": "-",
-        "front_end": "",
-        "back_end": ""
-      }
-    ]
-  },
+  },  
   {
     "company_name": "Vermin Industries Pvt. Ltd",
     "address": "303, Senate Square Tower B, Opp. Gangotri Complex, Gotri, Vadodara – 390021",
