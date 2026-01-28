@@ -6206,8 +6206,149 @@
         "back_end": ""
       }
     ]
+  },
+    {
+    "company_name": "DHT Solutions",
+    "address": "312, DHT Solutions, Sakar Complex, Makarpura Rd, Opp.Bhavans School, Krupal Society, Manjalpur, Vadodara, Gujarat 390009",
+    "website": "https://dht.net.in/",
+    "contact": "+919054035776",
+    "mentor": "Manish Mali Sir",
+    "internal_guide": "Prof. Sonali Kharade",
+    "projects": [
+      {
+        "s_no": 230,
+        "members": [
+          {
+            "name": "Kush",
+            "enrollment": "2405112120152",
+            "mobile": "9408351350",
+            "program": "MCA, C"
+          }
+        ],
+        "project_title": "Chat bot",
+        "project_description": "This project focuses on developing an AI-based chatbot using Python to simulate human-like conversations. The chatbot is designed to understand user queries and provide relevant responses using natural language processing techniques. It can handle frequently asked questions, provide basic assistance, and maintain a simple conversation flow. The system improves user interaction by automating responses and reducing manual effort.",
+        "front_end": "Python",
+        "back_end": "python"
+      }
+    ]
+  },
+  {
+    "company_name": "Slash Mark",
+    "address": "2nd floor ramnagar road, Karimnagar telangana india 505001",
+    "website": "https:/www.slashmark.in",
+    "contact": "8500825294",
+    "mentor": "P Abhishek (HR)",
+    "internal_guide": "Prof. Jatin Morwal",
+    "projects": [
+      {
+        "s_no": 231,
+        "members": [
+          {
+            "name": "Patel Chiragkumar",
+            "enrollment": "2405112110083",
+            "mobile": "8320830182",
+            "program": "MCA, I"
+          }
+        ],
+        "project_title": "Hotel management system",
+        "project_description": "Hotel Management System | PHP, MySQL • Architected a role-based system with separate user and admin dashboards. • Integrated secure login, session handling, and full CRUD operations. • Designed relational databases for bookings, users, rooms, and payments.",
+        "front_end": "Html CSS js",
+        "back_end": "PHP My SQL"
+      }
+    ]
+  },
+  {
+    "company_name": "VasyERP",
+    "address": "Ahmedabad",
+    "website": "www.vasyerp.com",
+    "contact": "+91 87992 84673",
+    "mentor": "Nitesh Singh (Site Reliable Engineer)",
+    "internal_guide": "Prof. Madhav J Kapadiya",
+    "projects": [
+      {
+        "s_no": 232,
+        "members": [
+          {
+            "name": "Jenish",
+            "enrollment": "2405112070066",
+            "mobile": "9313288653",
+            "program": "MCA, E"
+          }
+        ],
+        "project_title": "Ecommerce website",
+        "project_description": "Maintaining server where site is hosted",
+        "front_end": "Html, css, javascript",
+        "back_end": "Flask python"
+      }
+    ]
+  },
+  {
+    "company_name": "Blue Dwarf",
+    "address": "Studio complex, gota, Ahemdabad",
+    "website": "https://www.bluedwarftech.com/",
+    "contact": "8758733673",
+    "mentor": "Akash Trivedi (HR)",
+    "internal_guide": "Prof. Komal Madam",
+    "projects": [
+      {
+        "s_no": 233,
+        "members": [
+          {
+            "name": "Vikash Ray",
+            "enrollment": "2405112120154",
+            "mobile": "7383782227",
+            "program": "MCA, C"
+          }
+        ],
+        "project_title": "Test Trackr",
+        "project_description": "Quiz website to sharp users mind in many fields",
+        "front_end": "Html css",
+        "back_end": "JavaScript"
+      },
+      {
+        "s_no": 233,
+        "members": [
+          {
+            "name": "Sangharsha Marathe",
+            "enrollment": "2405102140017",
+            "mobile": "9356687613",
+            "program": "MSC-IT, G"
+          }
+        ],
+        "project_title": "",
+        "project_description": "",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
+  },
+  {
+    "company_name": "SyncEdge Solutions",
+    "address": "32, NBCC Plaza, Nr. L&T Circle, Karelibaug, Vadodara-Gujarat.",
+    "website": "http://www.syncedgesolutions.com",
+    "contact": "+91-2653529639",
+    "mentor": "Kapil Bhatia (Software Developer)",
+    "internal_guide": "Prof. Mehulkumar Dalwadi",
+    "projects": [
+      {
+        "s_no": 234,
+        "members": [
+          {
+            "name": "Dhruvi Chetankumar",
+            "enrollment": "2405112120042",
+            "mobile": "7990730867",
+            "program": "MCA, A"
+          }
+        ],
+        "project_title": "PG Rental Website",
+        "project_description": "A dynamic website to search PG houses for Students & working people.",
+        "front_end": "HTML, CSS, JS, JQuery",
+        "back_end": "C#.NET"
+      }
+    ]
   }
 ]
+
 
 
 
