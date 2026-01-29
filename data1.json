@@ -6346,7 +6346,304 @@
         "back_end": "C#.NET"
       }
     ]
-  }
+  },
+  {
+  "internships": [
+    {
+      "company_name": "Edu Genius Academy",
+      "address": "Kolhapur, Maharashtra",
+      "website": "www.edugeniusacademykop.com",
+      "contact": "9689711142",
+      "mentor": "Sarika Bhosale (Manager)",
+      "internal_guide": "Prof. Smarika Rai",
+      "projects": [
+        {
+          "s_no": 235,
+          "members": [
+            {
+              "name": "Sankalp Bhosale",
+              "enrollment": "2405112140018",
+              "mobile": "9552023321",
+              "program": "MCA, F"
+            }
+          ],
+          "project_title": "ReconMaster",
+          "project_description": "Reconicence fremwork that support multiple tools",
+          "front_end": "HTML, CSS, JAVA SCRIPT",
+          "back_end": "Python, Sqlight"
+        }
+      ]
+    },
+    {
+      "company_name": "Blue Dwarf Technology Private Limited",
+      "address": "1st floor, Blue Dwarf Technology Private Limited, Studio Complex, near Shanku Party Plot, Gota, Ahmedabad, Gujarat 382481",
+      "website": "https://www.bluedwarftech.com/",
+      "contact": "+91 87587 33673",
+      "mentor": "Sanket Jain (Assistant Vice-President)",
+      "internal_guide": "Prof. Dipti Sharma",
+      "projects": [
+        {
+          "s_no": 236,
+          "members": [
+            {
+              "name": "Sahil Dayer",
+              "enrollment": "2405112070048",
+              "mobile": "9887763312",
+              "program": "MCA, E"
+            },
+            {
+              "name": "CHAUDHARY HITESHKUMAR RAVTABHAI",
+              "enrollment": "2405112110020",
+              "mobile": "7984967824",
+              "program": "MCA, H"
+            },
+            {
+              "name": "MUKESH SAHANI",
+              "enrollment": "2405112070047",
+              "mobile": "8780286992",
+              "program": "MCA, E"
+            }
+          ],
+          "project_title": "Project management system",
+          "project_description": "This Project Management System is a comprehensive platform designed to streamline workflow automation and enhance team collaboration. It centralizes task tracking, resource allocation, and real-time progress monitoring to ensure project milestones are met efficiently. By integrating robust reporting tools and communication channels, the system minimizes bottlenecks and improves overall operational transparency. Ultimately, the PMS empowers organizations to deliver high-quality results while optimizing time and budget management.",
+          "front_end": "Angular",
+          "back_end": ".NET"
+        }
+      ]
+    },
+    {
+      "company_name": "HorizonX Playr Private Limited",
+      "address": "D-206, Keshar Apartment, Race Course Road, Lashkar, Gird, Gwalior - 474001, Madhya Pradesh, India",
+      "website": "https://www.horizonxplayr.com/",
+      "contact": "admin@horizonxplayr.com",
+      "mentor": "Jini R Sundar (Human Resource)",
+      "internal_guide": "Prof. Manishkumar Joshi",
+      "projects": [
+        {
+          "s_no": 237,
+          "members": [
+            {
+              "name": "Patel Harshkumar Nareshbhai",
+              "enrollment": "2405112130044",
+              "mobile": "6352674940",
+              "program": "MCA, D"
+            }
+          ],
+          "project_title": "Movie Ticket Booking",
+          "project_description": "This project is a Movie Ticket Booking Website developed using React JS for the frontend and MongoDB for database management. The application allows users to browse available movies, view show details, and book movie tickets through a user-friendly interface.The system is designed to simulate a real-world movie booking platform, focusing on smooth navigation, responsive design, and efficient data handling. Movie information, show timings, and booking details are stored and managed using MongoDB, ensuring reliable and scalable data management.",
+          "front_end": "React JS",
+          "back_end": "Node JS, MongoDB"
+        }
+      ]
+    },
+    {
+      "company_name": "A R Infosoft",
+      "address": "AR Infosoft, New Sama Road, Vemli EME, Vadodara, Gujarat – 390008, India",
+      "website": "https://arinfosoft.com/",
+      "contact": "+91 88664 93811",
+      "mentor": "Rony sir (Founder of company)",
+      "internal_guide": "Prof. Nirmit Shah",
+      "projects": [
+        {
+          "s_no": 238,
+          "members": [
+            {
+              "name": "Saptesh savant",
+              "enrollment": "2405112110116",
+              "mobile": "",
+              "program": "MCA, I"
+            }
+          ],
+          "project_title": "Web application development",
+          "project_description": "Web application development is the process of building applications that run on the internet and are accessed through a web browser.",
+          "front_end": "HTML, CSS, JavaScript, etc",
+          "back_end": "PHP, sql"
+        }
+      ]
+    },
+    {
+      "company_name": "Croossa Technology",
+      "address": "Office no. 102, Bhagirath Complex, Bhanvad, Gujarat. 360510",
+      "website": "www.croossatechnology.com",
+      "contact": "9979371830",
+      "mentor": "Kuldip Kadavala (CEO)",
+      "internal_guide": "Prof. Pratik Parmar",
+      "projects": [
+        {
+          "s_no": 239,
+          "members": [
+            {
+              "name": "Goswami Manavgiri",
+              "enrollment": "2405112120056",
+              "mobile": "8866547737",
+              "program": "MCA, A"
+            },
+            {
+              "name": "Ishan Dubey",
+              "enrollment": "2405112120066",
+              "mobile": "7668007364",
+              "program": "MCA, A"
+            }
+          ],
+          "project_title": "Doctor Appointment System using Django and MySQL",
+          "project_description": "The Doctor Appointment System is a web-based application developed using Django and MySQL that helps patients book medical appointments online. The system allows patients to register, search doctors, and schedule appointments, while doctors can manage their availability and view patient appointments. The admin manages users, doctors, appointments, and system data. This project improves efficiency, reduces manual work, and provides a secure and user-friendly healthcare appointment solution.",
+          "front_end": "HTML, CSS, Bootstrap, JavaScript",
+          "back_end": "Python (Django Framework), MySQL Database"
+        }
+      ]
+    },
+    {
+      "company_name": "CODING CREATORS IT SOLUTIONS",
+      "address": "Plot No: 154 & 155, H.No. 1-72NE, Lane Number N-4, Nagarjuna Enclave, Miyapur, Hyderabad, Telangana - 500049",
+      "website": "www.codingcreators.in/",
+      "contact": "hr@codingcreators.in",
+      "mentor": "Pavan Kalyan Kopparapu (Full Stack)",
+      "internal_guide": "Prof. Pratik Raj",
+      "projects": [
+        {
+          "s_no": 240,
+          "members": [
+            {
+              "name": "Mukesh kumar",
+              "enrollment": "2405112070028",
+              "mobile": "7016729925",
+              "program": "MCA, E"
+            }
+          ],
+          "project_title": "Learning management system",
+          "project_description": "Learning Management System is a platform where students can learn different concepts. Whereas, educators can add their courses. Admin can manage Users of the system and courses.",
+          "front_end": "React Js",
+          "back_end": "Node js, Express js, Mongodb"
+        }
+      ]
+    },
+    {
+      "company_name": "Dizilus",
+      "address": "Remote",
+      "website": "dizilus.com",
+      "contact": "9925905639",
+      "mentor": "Henil Mehta (Co-founder)",
+      "internal_guide": "Prof. Preeti Sharma",
+      "projects": [
+        {
+          "s_no": 241,
+          "members": [
+            {
+              "name": "Rutva Sorathiya",
+              "enrollment": "2405102140039",
+              "mobile": "8200886737",
+              "program": "MSC-IT, G"
+            }
+          ],
+          "project_title": "Ai Resume Generator",
+          "project_description": "The Resume Analyzer is a web-based application that uses artificial intelligence and natural language processing techniques to analyze resumes and match them with job requirements. The system provides a resume score, identifies missing skills, and offers to improve employability. This project helps students and job seekers optimize their resumes according to industry standards.",
+          "front_end": "React.js",
+          "back_end": "Node.js"
+        }
+      ]
+    },
+    {
+      "company_name": "Manahcare",
+      "address": "65/124, CAR CARE, NR. NATA GARAGE, BHASKARGANJ, VERIFIED MC, BALESHWAR, Baleshwar, Orissa, India, 756001",
+      "website": "www.manahcare.com",
+      "contact": "8452903384",
+      "mentor": "Deep Prusty (Director & Co-Founder)",
+      "internal_guide": "Prof. Priyanka Mod",
+      "projects": [
+        {
+          "s_no": 242,
+          "members": [
+            {
+              "name": "Shubham Prusty",
+              "enrollment": "2405112140086",
+              "mobile": "",
+              "program": "MCA, F"
+            }
+          ],
+          "project_title": "DailyQuest",
+          "project_description": "DailyQuest is a pixel-art, RPG-inspired daily planner that transforms real-life tasks into a year-long heroic journey. Complete daily goals, earn experience, upgrade your avatar, and face powerful Demon Generals each month—culminating in an epic New Year battle against the Demon King or Queen.",
+          "front_end": "Kotlin",
+          "back_end": "Sql"
+        }
+      ]
+    },
+    {
+      "company_name": "Tech flitter pvt. ltd.",
+      "address": "Shyamal cross road, ahemdabad",
+      "website": "https://thetfpl.com/",
+      "contact": "7574044455",
+      "mentor": "Prakash jha (Sr. AI/ML Developer)",
+      "internal_guide": "Prof. RamDeepak Yadagiri",
+      "projects": [
+        {
+          "s_no": 243,
+          "members": [
+            {
+              "name": "Ghul Vasu",
+              "enrollment": "2405102120001",
+              "mobile": "8758244355",
+              "program": "MSC-IT, C"
+            }
+          ],
+          "project_title": "Vehicle demand prediction",
+          "project_description": "Vehicle Sales Demand Prediction Using Historical Data from the Past Four Years",
+          "front_end": "Streamlit",
+          "back_end": "Python"
+        }
+      ]
+    },
+    {
+      "company_name": "Sparks to ideas",
+      "address": "Ahemdabad",
+      "website": "www.sparkstoideas.com",
+      "contact": "9510203204",
+      "mentor": "Mansi mishra (Hr)",
+      "internal_guide": "Prof. Saikat Paramanik",
+      "projects": [
+        {
+          "s_no": 244,
+          "members": [
+            {
+              "name": "Keyur gosai",
+              "enrollment": "2305112110130",
+              "mobile": "9898935345",
+              "program": "MCA, I"
+            }
+          ],
+          "project_title": "E learning",
+          "project_description": "The E-Learning System is an online education platform developed to deliver interactive and accessible learning experiences through digital technologies. Unlike traditional classroom setups, the system provides flexibility by allowing learners to study at their own pace, from any location, and at any time.",
+          "front_end": "Html css java script",
+          "back_end": "Python"
+        }
+      ]
+    },
+    {
+      "company_name": "Intellect Design Arena Ltd",
+      "address": "Chennai",
+      "website": "https://www.intellectdesign.com",
+      "contact": "8240617725",
+      "mentor": "Soumyajeet Dey (HR)",
+      "internal_guide": "Prof. Tanmay Shah",
+      "projects": [
+        {
+          "s_no": 245,
+          "members": [
+            {
+              "name": "Manisha Bhardwaj",
+              "enrollment": "2405112110068",
+              "mobile": "9327812411",
+              "program": "MCA, H"
+            }
+          ],
+          "project_title": "Bank Management System",
+          "project_description": "A Bank Management System is a Java-based software application designed to manage and automate the day-to-day operations of a bank. It provides a secure, reliable, and user-friendly platform to handle customer data, accounts, transactions, and banking services efficiently. The system is typically developed using Core Java, OOP concepts, JDBC, and a relational database (like MySQL) to store and retrieve data.",
+          "front_end": "Java, Swing, Awt",
+          "back_end": "MySQL"
+        }
+      ]
+    }
+  ]
+}
 ]
 
 
