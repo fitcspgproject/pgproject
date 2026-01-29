@@ -6813,7 +6813,69 @@
           "back_end": ""
         }
       ]
-    }
+    },
+  {  
+      "company_name": "Neptune Infotech",
+      "address": "Polaris mall, 134, Vesu Canal Rd, opp. Bhaiya Nagar, Radhika Park Society, Punagam, Surat",
+      "website": "https://neptuneinfotech.in/",
+      "contact": "83060 52876",
+      "mentor": "Kiran Patel (Director)",
+      "internal_guide": "Prof. sathwik Chebrolu",
+      "projects": [
+        {
+          "s_no": 256,
+          "members": [
+            {
+              "name": "Lakshmi R Kannaujiya",
+              "enrollment": "2405112130019",
+              "mobile": "8320166739",
+              "program": "MCA, D"
+            },
+            {
+              "name": "Dishika Kumari",
+              "enrollment": "2405112140029",
+              "mobile": "62060 62884",
+              "program": "MCA, F"
+            }
+          ],
+          "project_title": "Not Decided Yet",
+          "project_description": "Not Decided Yet",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
+    },
+    {
+      "company_name": "Semicolon solution",
+      "address": "404, Atlanta Shopping Mall Sudama Chowk, Mota Varachha, Surat, Gujarat",
+      "website": "www.semicolonsolution.com",
+      "contact": "9426731489",
+      "mentor": "Dhaval Mulani (CEO)",
+      "internal_guide": "Prof. Vivek Dave",
+      "projects": [
+        {
+          "s_no": 257,
+          "members": [
+            {
+              "name": "Raghav Gupta",
+              "enrollment": "2405112110100",
+              "mobile": "7073881058",
+              "program": "MCA, H"
+            },
+            {
+              "name": "Raja Kumar",
+              "enrollment": "2405112110103",
+              "mobile": "99314 44970",
+              "program": "MCA, H"
+            }
+          ],
+          "project_title": "Listeners",
+          "project_description": "A Music Streaming website, user can play, pause, loop the music.",
+          "front_end": "React + Tailwind",
+          "back_end": "Node.js + Express + Mongodb"
+        }
+      ]
+    } 
 ]
 
 
