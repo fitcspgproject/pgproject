@@ -772,6 +772,17 @@
 </div>
     
  <script>
+             // Disable right-click completely
+document.addEventListener('contextmenu', function(e) {
+  e.preventDefault();
+});
+
+// Disable with alert message
+document.addEventListener('contextmenu', function(e) {
+  e.preventDefault();
+  alert('Right-click is disabled on this page!');
+  return false;
+})
     let studentData = null;
     let studentIndex = {};
     let contactData = null;
@@ -1202,3 +1213,4 @@
 </script>
 </body>
 </html>
+
