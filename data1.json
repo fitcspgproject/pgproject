@@ -1821,7 +1821,7 @@
         "members": [
           {
             "name": "Akash Chandra Sarraf",
-            "enrollment": "2405112120012@paruluniversity.ac.in",
+            "enrollment": "2405112120012",
             "mobile": "-",
             "program": "MCA, A"
           }
@@ -4806,32 +4806,7 @@
       }
     ]
   },
-  {
-    "company_name": "WESTERN RAILWAY",
-    "address": "Office of Sr. DSTE (Coordination) 2nd Floor, Annex-II Building, Divisional Rail Manager Office, Pratapnagar, Vadodara – 390004.",
-    "website": "wr.indianrailways.gov.in",
-    "contact": "adste@brc.railnet.gov.in",
-    "mentor": "KESHAV KUMAR (ADSTE)",
-    "internal_guide": "Prof. Pritam",
-    "projects": [
       {
-        "s_no": 181,
-        "members": [
-          {
-            "name": "Rathwa KrishnaKumar Yogeshbhai",
-            "enrollment": "2405112120153",
-            "mobile": "9106170271",
-            "program": "MCA, C"
-          }
-        ],
-        "project_title": "NOCC ROOT",
-        "project_description": "NOCC ROOT is a smart centralized data management System for Indian Railways NOCC department (Network Operations Control Center). I designed to handle complex data without needing a developer to hard-code every new feature.",
-        "front_end": "React",
-        "back_end": "Python"
-      }
-    ]
-  },
-    {
     "company_name": "Tacttree LLP",
     "address": "TactTree LLP, 4th Floor, Aarna 673 Building, Kalali Rd, behind DPS school, Vadodara, Gujarat 390012",
     "website": "http://www.tacttree.com/",
