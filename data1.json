@@ -6639,8 +6639,287 @@
           "back_end": "MySQL"
         }
       ]
+    },
+   {
+      "company_name": "Tejaskp AI Software",
+      "address": "Makarpura, Vadodara",
+      "website": "https://share.google/QMtmzhBaoo1LO8Hzv",
+      "contact": "9104630598",
+      "mentor": "TEJAS PATEL (CEO)",
+      "internal_guide": "Prof. RamDeepak Yadagiri",
+      "projects": [
+        {
+          "s_no": 246,
+          "members": [
+            {
+              "name": "Keyur Mathukiya",
+              "enrollment": "2405112120102",
+              "mobile": "7861887700",
+              "program": "MCA, B"
+            },
+            {
+              "name": "Vijay Ghodadra",
+              "enrollment": "2405112120053",
+              "mobile": "9510461351",
+              "program": "MCA, A"
+            }
+          ],
+          "project_title": "Smart Campus Platform",
+          "project_description": "This project is a centralized digital platform designed to manage campus operations for students, faculty, administration, and security staff. It integrates complaint management, notices, task assignment, and analytics with AI-driven intelligence for prioritization and insights.",
+          "front_end": "HTML, Css, Express.Js, Js",
+          "back_end": "MongoDb, Node"
+        }
+      ]
+    },
+    {
+      "company_name": "Tankar Solutions Pvt.Ltd",
+      "address": "C3053, TRP Mall, Bopal - Ahemdabad",
+      "website": "tankarsolutions.com",
+      "contact": "9909388561",
+      "mentor": "Aditya Gadhvi (Manager)",
+      "internal_guide": "Dr. Raj Sinha",
+      "projects": [
+        {
+          "s_no": 247,
+          "members": [
+            {
+              "name": "Jeel Khant",
+              "enrollment": "2405112120079",
+              "mobile": "9725068008",
+              "program": "MCA, B"
+            },
+            {
+              "name": "Drashti Gevariya",
+              "enrollment": "2405112120052",
+              "mobile": "7990399127",
+              "program": "MCA, A"
+            }
+          ],
+          "project_title": "Projex: An AI-Assisted Project Collaboration and Management Platform for Students",
+          "project_description": "Projex is an AI-assisted academic project management platform that improves planning, collaboration, documentation, and deadline risk monitoring for students and faculty.",
+          "front_end": "React.js, Html, Css, JavaScript",
+          "back_end": "Node.js, Express.js, Python"
+        }
+      ]
+    },
+    {
+      "company_name": "The Social Buddies",
+      "address": "G 122, Marvella Corridor, opp. Avadh Arena, Vesu, Surat, Gujarat 395007",
+      "website": "https://thesocialbuddies.in/",
+      "contact": "+91 79905 73362",
+      "mentor": "Seeta Kushwaha (HR)",
+      "internal_guide": "Prof. Sweta Jethva",
+      "projects": [
+        {
+          "s_no": 248,
+          "members": [
+            {
+              "name": "rao amritanshu",
+              "enrollment": "2405102130006",
+              "mobile": "9664568362",
+              "program": "MSC-IT, D"
+            }
+          ],
+          "project_title": "no project allocated yet",
+          "project_description": "no project allocated yet",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
+    },
+    {
+      "company_name": "Infolanze",
+      "address": "A-807 Empire Business Hub, Sola, Ahmedabad -380060",
+      "website": "https://infolanzetech.in/",
+      "contact": "7016160435",
+      "mentor": "Darshil Patel (Owner)",
+      "internal_guide": "prof. satyamani Gayatri",
+      "projects": [
+        {
+          "s_no": 249,
+          "members": [
+            {
+              "name": "Anjali P Mathukiya",
+              "enrollment": "2405102130002",
+              "mobile": "9328191037",
+              "program": "MSC-IT, D"
+            }
+          ],
+          "project_title": "No project allocated yet",
+          "project_description": "No project allocated yet",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
+    },
+    {
+      "company_name": "Jinarth infotech",
+      "address": "vashisth vanijyam, 403, Railway Station Rd, near Vallabh Vidyanagar, Vallabh Vidyanagar, Anand, Gujarat 388120",
+      "website": "https://jinarthinfotech.com",
+      "contact": "078020 37434",
+      "mentor": "Na",
+      "internal_guide": "Prof. Vivek Dave",
+      "projects": [
+        {
+          "s_no": 250,
+          "members": [
+            {
+              "name": "Makwana Riya",
+              "enrollment": "2405112120096",
+              "mobile": "9574479296",
+              "program": "MCA, B"
+            },
+            {
+              "name": "Raj Vidhi",
+              "enrollment": "2405112140096",
+              "mobile": "9327073139",
+              "program": "MCA, G"
+            }
+          ],
+          "project_title": "Internship Performance & Feedback System",
+          "project_description": "• Built a React-based web application to track intern performance and mentor feedback  \n• Developed reusable components using functional components and React hooks  \n• Implemented forms with validation using JavaScript  \n• Designed responsive user interface using HTML and CSS  \n• Managed application state using useState and useEffect",
+          "front_end": "React.js, JavaScript, HTML, CSS",
+          "back_end": "REST API"
+        }
+      ]
+    },
+    {
+      "company_name": "Webnova infotech",
+      "address": "110 escon plaza near sbi bank amroli, surat",
+      "website": "https://webnovainfotech.in",
+      "contact": "8238238650",
+      "mentor": "Axay sonani (Hr)",
+      "internal_guide": "Prof.Sohil Parmar",
+      "projects": [
+        {
+          "s_no": 251,
+          "members": [
+            {
+              "name": "Rohit kumar Gorakh kharkar",
+              "enrollment": "2405112120081",
+              "mobile": "9327309119",
+              "program": "MCA, B"
+            }
+          ],
+          "project_title": "Not decided yet",
+          "project_description": "Not decided yet",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
+    },
+    {
+      "company_name": "Crelon",
+      "address": "Pl :79, mythri nagar, hafeezpet, Hyderabad",
+      "website": "www.crelon.co",
+      "contact": "7416593828",
+      "mentor": "Kartik (Project Manager)",
+      "internal_guide": "prof. Sahil Kumars",
+      "projects": [
+        {
+          "s_no": 252,
+          "members": [
+            {
+              "name": "Ganta Dimple sree",
+              "enrollment": "2205103140023",
+              "mobile": "8897323243",
+              "program": "IMCA, A"
+            }
+          ],
+          "project_title": "Toxic comment classification on social media",
+          "project_description": "It enhance content moderation to promote safer online environments, featuring automated classification, user specific toxicity reporting",
+          "front_end": "HTML, CSS, JS",
+          "back_end": "Python"
+        }
+      ]
+    },
+    {
+      "company_name": "Barodawe",
+      "address": "301-A, Corrum Complex, Jetalpur Rd, Chikuwadi, Haripura, Vadodara-390007, Gujarat, India",
+      "website": "https://www.barodaweb.com/",
+      "contact": "+91 9824091021",
+      "mentor": "Rushil Patel (Manager)",
+      "internal_guide": "Mr. Daniel Kwesi",
+      "projects": [
+        {
+          "s_no": 253,
+          "members": [
+            {
+              "name": "MISHRA PANKAJKUMAR SHREE RAVINDRANATH",
+              "enrollment": "2405112120105",
+              "mobile": "9327043930",
+              "program": "MCA, B"
+            }
+          ],
+          "project_title": "Server Monitoring System",
+          "project_description": "A Server Monitoring System monitors servers and domains in real time. It tracks CPU, memory, disk, network, uptime, and services, while also checking domain availability, SSL certificate validity, DNS status, and expiry dates. It sends alerts for failures or expiries to prevent downtime and security issues.",
+          "front_end": "React.js",
+          "back_end": "Node.js"
+        }
+      ]
+    },
+    {
+      "company_name": "Mark digital",
+      "address": "SF-6, Shivalaya Complex, 2nd, Vasna - Tandalja Rd, Ashwamegh Nagar, Vasna, Vadodara, Gujarat 390007·1.3 km",
+      "website": "https://www.mark-digital.co.in/",
+      "contact": "+919967956503",
+      "mentor": "Sudarshan sir (Manager)",
+      "internal_guide": "Prof. Ashutosh Solanki",
+      "projects": [
+        {
+          "s_no": 254,
+          "members": [
+            {
+              "name": "Karan devshibhai Rabari",
+              "enrollment": "2405112110099",
+              "mobile": "9510682249",
+              "program": "MCA, I"
+            },
+            {
+              "name": "Patel Jayesh Niranjanbhai",
+              "enrollment": "2405112110087",
+              "mobile": "9898474437",
+              "program": "MCA, I"
+            },
+            {
+              "name": "Dabgar Jay MaheshKumar",
+              "enrollment": "2405112110027",
+              "mobile": "9978054443",
+              "program": "MCA, H"
+            }
+          ],
+          "project_title": "BIZZMARK INDIA",
+          "project_description": "Bizzmark India is a leading local search engine that connects users with businesses across the gujrat. It acts as a digital marketplace where you can find, rate, and contact services ranging from doctors and lawyers to plumbers and restaurants.",
+          "front_end": "React",
+          "back_end": "Node.js, express, mySQL"
+        }
+      ]
+    },
+    {
+      "company_name": "Kalakrut",
+      "address": "637, RK World Tower, Sheetal Park, 150 FT Ring Road, Rajkot.",
+      "website": "www.kalakrut.com",
+      "contact": "9979764301",
+      "mentor": "Pratik Akabari (CTO & MARKETING HEAD)",
+      "internal_guide": "Prof. Ahilpa Djidhj",
+      "projects": [
+        {
+          "s_no": 255,
+          "members": [
+            {
+              "name": "Isha Jan",
+              "enrollment": "2405102120003",
+              "mobile": "7862959911",
+              "program": "MSC-IT, C"
+            }
+          ],
+          "project_title": "No project allocated yet",
+          "project_description": "No project allocated yet",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
     }
-
 ]
 
 
