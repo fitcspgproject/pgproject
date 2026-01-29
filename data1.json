@@ -966,12 +966,6 @@
             "enrollment": "2405112140047",
             "mobile": "9263093780",
             "program": "MCA, F"
-          },
-          {
-            "name": "Rohan Dnyaneshwar Bhalkar",
-            "enrollment": "2405112070011",
-            "mobile": "8080184596",
-            "program": "MCA, E"
           }
         ],
         "project_title": "Aksheyaganga Milk Collection – Dairy Management System",
@@ -1783,32 +1777,7 @@
       }
     ]
   },
-  {
-    "company_name": "",
-    "address": "",
-    "website": "",
-    "contact": "",
-    "mentor": "NA",
-    "internal_guide": "Prof. RamDeepak Yadagiri",
-    "projects": [
-      {
-        "s_no": 63,
-        "members": [
-          {
-            "name": "Ankita Dhakad",
-            "enrollment": "2405112070006",
-            "mobile": "9399339186",
-            "program": "MCA, E"
-          }
-        ],
-        "project_title": "AI trip planner",
-        "project_description": "",
-        "front_end": "-",
-        "back_end": "-"
-      }
-    ]
-  },
-  {
+    {
     "company_name": "ULANS",
     "address": "Manjalpur, Vadodara, Gujarat",
     "website": "",
@@ -2636,32 +2605,7 @@
       }
     ]
   },
-  {
-    "company_name": "Capgemini",
-    "address": "Gujarat International Finance Tec-City, Gujarat 382050",
-    "website": "",
-    "contact": "",
-    "mentor": "NA",
-    "internal_guide": "Prof. Vipul Gamit",
-    "projects": [
-      {
-        "s_no": 94,
-        "members": [
-          {
-            "name": "Harsh Parashar",
-            "enrollment": "2405112120063",
-            "mobile": "9369937586",
-            "program": "MCA, A"
-          }
-        ],
-        "project_title": "CRS - Crime Reporting System",
-        "project_description": "",
-        "front_end": "Next.js, react.js",
-        "back_end": "Next.js, Node.js"
-      }
-    ]
-  },
-  {
+   {
     "company_name": "Slashstar Studio (Formally Xr studio)",
     "address": "3002, Silver Business Point, Near VIP circle, Uttran, Surat",
     "website": "",
@@ -3438,32 +3382,7 @@
       }
     ]
   },
-  {
-    "company_name": "Capgemini",
-    "address": "PAN India",
-    "website": "",
-    "contact": "",
-    "mentor": "NA",
-    "internal_guide": "Prof. Mehulkumar Dalwadi ",
-    "projects": [
-      {
-        "s_no": 124,
-        "members": [
-          {
-            "name": "Istuti Consul",
-            "enrollment": "2405102140009",
-            "mobile": "7976065354",
-            "program": "MSC-IT, G"
-          }
-        ],
-        "project_title": "Analyst",
-        "project_description": "",
-        "front_end": "",
-        "back_end": ""
-      }
-    ]
-  },
-  {
+    {
     "company_name": "Intellect Design Arena",
     "address": "Chennai Tamil Nadu",
     "website": "",
@@ -3859,32 +3778,7 @@
       }
     ]
   },
-  {
-    "company_name": "",
-    "address": "",
-    "website": "",
-    "contact": "",
-    "mentor": "NA",
-    "internal_guide": "Prof. Mehulkumar Dalwadi",
-    "projects": [
-      {
-        "s_no": 140,
-        "members": [
-          {
-            "name": "Khushi SanketKumar Patel",
-            "enrollment": "2405112120082",
-            "mobile": "",
-            "program": "MCA, B"
-          }
-        ],
-        "project_title": "",
-        "project_description": "",
-        "front_end": "",
-        "back_end": ""
-      }
-    ]
-  },
-  {
+    {
     "company_name": "",
     "address": "",
     "website": "",
