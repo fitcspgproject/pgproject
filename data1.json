@@ -74,32 +74,7 @@
       }
     ]
   },
-  {
-    "company_name": "Sentiment Ai",
-    "address": "9th Floor 910, Signet Hub Akshar Chowk, Vadodara, Gujarat, 390020",
-    "website": "",
-    "contact": "",
-    "mentor": "NA",
-    "internal_guide": "Dr. Hina Chokshi",
-    "projects": [
-      {
-        "s_no": 4,
-        "members": [
-          {
-            "name": "Hitesh Vaishnav",
-            "enrollment": "2405112070020",
-            "mobile": "8690918335",
-            "program": "MCA, E"
-          }
-        ],
-        "project_title": "E-Hospital SmartCare system",
-        "project_description": "",
-        "front_end": "Html, Css, Bootstrap, JS",
-        "back_end": "PHP, Apache Server, MySql"
-      }
-    ]
-  },
-  {
+    {
     "company_name": "TelesoftLabs Pvt Ltd",
     "address": "Rajajinagar, Bengaluru",
     "website": "",
@@ -3288,32 +3263,7 @@
       }
     ]
   },
-  {
-    "company_name": "Shadowfox",
-    "address": "3A 13th Main Road, Anna Nagar West, Chennai",
-    "website": "",
-    "contact": "",
-    "mentor": "NA",
-    "internal_guide": "Prof. Dipti Sharma",
-    "projects": [
-      {
-        "s_no": 119,
-        "members": [
-          {
-            "name": "Shivam kumar",
-            "enrollment": "2405112120174",
-            "mobile": "6299448470",
-            "program": "MCA, C"
-          }
-        ],
-        "project_title": "AI Resume Analyzer & Job Match ATS System",
-        "project_description": "",
-        "front_end": "Streamlit / Flask (you choose) HTML, CSS (if Flask)",
-        "back_end": "SQLite / MongoDB"
-      }
-    ]
-  },
-  {
+   {
     "company_name": "Saral works technologys",
     "address": "Noida",
     "website": "",
@@ -4189,38 +4139,7 @@
       }
     ]
   },
-  {
-    "company_name": "KanhaLabs",
-    "address": "1 – C, Govind Nagar West, Amer Road, 302002, Jaipur",
-    "website": "https://kanhalabs.in",
-    "contact": "7976813718",
-    "mentor": "Mayank Jangidh (HR)",
-    "internal_guide": "Prof. RamDeepak Yadagiri",
-    "projects": [
-      {
-        "s_no": 158,
-        "members": [
-          {
-            "name": "Kashyap Shah",
-            "enrollment": "2405112070052",
-            "mobile": "9979483378",
-            "program": "MCA, E"
-          },
-          {
-            "name": "Rushabh Shah",
-            "enrollment": "2405112070053",
-            "mobile": "8347258725",
-            "program": "MCA, E"
-          }
-        ],
-        "project_title": "campus Food Ordering System",
-        "project_description": "The Food Ordering System is a web-based application built with PHP and MySQL. It allows customers to view food items, add them to a cart, and place orders online. The system also includes an admin panel to manage food items, categories, users, and orders.",
-        "front_end": "HTML, CSS, JavaScript, Bootstrap",
-        "back_end": "PHP"
-      }
-    ]
-  },
-  {
+   {
     "company_name": "National informatics centre",
     "address": "Third floor, Vidyut Bhavan, Kachigam, Nani Daman, Daman",
     "website": "Https://swp.dddgov.in/",
@@ -4694,32 +4613,7 @@
       }
     ]
   },
-  {
-    "company_name": "Five Point Solutions Private Limited",
-    "address": "Block 2, 73, East Avenue Corporate, Sarabhai Campus, Excel House, Bhailal Amin Marg, near Genda Circle, Vadodara, Gujarat 390023",
-    "website": "https://5pointsol.com",
-    "contact": "9909928003",
-    "mentor": "Pritesh Patel (Director (Technical))",
-    "internal_guide": "Prof. Saikat Paramanik",
-    "projects": [
-      {
-        "s_no": 177,
-        "members": [
-          {
-            "name": "Ronak Patel",
-            "enrollment": "2405112120132",
-            "mobile": "8758266581",
-            "program": "MCA, B"
-          }
-        ],
-        "project_title": "Vendor Management System",
-        "project_description": "This project is a web-based Vendor Management System that automates the Request for Quotation (RFQ) process. The system allows buyers to create RFQs and automatically send them to selected vendors, Vendors can securely log in to submit and revise their quotations within the system before the deadline. The application enables side-by-side quotation comparison, helping organizations evaluate prices, delivery terms, and other factors efficiently. This improves transparency, reduces manual effort, and supports better procurement decisions.",
-        "front_end": "",
-        "back_end": ""
-      }
-    ]
-  },
-  {
+    {
     "company_name": "BITS infotech",
     "address": "Manubhai Tower, B-208, Opp. M.S. University, Sarod, Sayajiganj, Vadodara, Gujarat 390007",
     "website": "www.bitinfotech.in",
@@ -7018,7 +6912,699 @@
           "back_end": "Yes"
         }
       ]
+    },
+      {
+      "company_name": "Build Script Technologies PVT. LTD.",
+      "address": "407, ABC-2, Mota Varachha, Surat.",
+      "website": "buildscripttechnologies.com",
+      "contact": "9316893932",
+      "mentor": "Nisharg (Senior Developer)",
+      "internal_guide": "Prof. Akshar Muley",
+      "projects": [
+        {
+          "s_no": 264,
+          "members": [
+            {
+              "name": "Dholariya Meet",
+              "enrollment": "2405112120041",
+              "mobile": "6354130401",
+              "program": "MCA, A"
+            },
+            {
+              "name": "Sahil Kankotiya",
+              "enrollment": "2405102110001",
+              "mobile": "9824992037",
+              "program": "MSC-IT, F"
+            },
+            {
+              "name": "Gelani Mohit",
+              "enrollment": "2405112120051",
+              "mobile": "96646 00262",
+              "program": "MCA, A"
+            }
+          ],
+          "project_title": "Blood Bank Management System",
+          "project_description": "Blood bank management",
+          "front_end": "HTML, CSS, ReactJS",
+          "back_end": "Mongodb"
+        }
+      ]
+    },
+    {
+      "company_name": "Amdox technology",
+      "address": "Electronic city, bengaluru",
+      "website": "www.amdox.in",
+      "contact": "6362853627",
+      "mentor": "Sunil kumar (Developer team lead)",
+      "internal_guide": "Prof. Vipul Gamit",
+      "projects": [
+        {
+          "s_no": 265,
+          "members": [
+            {
+              "name": "Pratibha agrawal",
+              "enrollment": "2205103120009",
+              "mobile": "9399051443",
+              "program": "IMCA, A"
+            }
+          ],
+          "project_title": "Tours and Travels website",
+          "project_description": "This project is a full stack,web based booking application designed to travel management.",
+          "front_end": "Reactjs",
+          "back_end": "Expressjs"
+        }
+      ]
+    },
+    {
+      "company_name": "Kalkinetra Research & Threat Intelligence Lab",
+      "address": "110A Vijay Nagar, Amritsar, Punjab",
+      "website": "http://www.kalkinetra.com/",
+      "contact": "9115411151",
+      "mentor": "Krish Kapoor (HR)",
+      "internal_guide": "Prof. sathwik Chebrolu",
+      "projects": [
+        {
+          "s_no": 266,
+          "members": [
+            {
+              "name": "P. Nikhila Sree",
+              "enrollment": "2405102140030",
+              "mobile": "9491697544",
+              "program": "MSC-IT, G"
+            }
+          ],
+          "project_title": "Smart Shopping with Negotiation and speed",
+          "project_description": "A hybrid Mern based e-commerce platform enabling product comparison and live price negotiation between local and global sellers.",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
+    },
+    {
+      "company_name": "Indian business pages",
+      "address": "202, Setu Eventi, Above Federal Bank, Sardar Patel Nagar, Ellisbridge, Ahmedabad, Gujarat",
+      "website": "Www.ibphub.com",
+      "contact": "6358237694",
+      "mentor": "Akshita Pareta (Project Manager)",
+      "internal_guide": "Prof. RamDeepak Yadagiri",
+      "projects": [
+        {
+          "s_no": 267,
+          "members": [
+            {
+              "name": "Mayur Rohit",
+              "enrollment": "2405112110113",
+              "mobile": "7990405510",
+              "program": "MCA, I"
+            },
+            {
+              "name": "Jay Patel",
+              "enrollment": "2405112110088",
+              "mobile": "7874651026",
+              "program": "MCA, I"
+            }
+          ],
+          "project_title": "Grocery Delivery Web App",
+          "project_description": "A Smart Grocery Delivery Web Application that enables users to browse products, add items to cart, and complete a secure checkout process with authentication powered by NextAuth. The platform includes real-time order tracking on maps, live order status updates using Socket.io, and an AI-based chat system between users and delivery partners. Built with Next.js, React, Tailwind CSS, Framer Motion, Node.js, Express, and MongoDB, the system features structured product and order schemas, smooth animations, and a fully responsive design for both mobile and desktop, delivering a modern, real-world e-commerce experience.",
+          "front_end": "Nextjs, React, TailwindCss",
+          "back_end": "Node, Express, Mongodb"
+        }
+      ]
+    },
+    {
+      "company_name": "Hyperlink infosys",
+      "address": "Ahmedabad",
+      "website": "https://www.hyperlinkinfosystem.com/",
+      "contact": "9099629692",
+      "mentor": "Sitaram Behera (Salesforce developer)",
+      "internal_guide": "Prof. Saikat Paramanik",
+      "projects": [
+        {
+          "s_no": 268,
+          "members": [
+            {
+              "name": "Krutik Rakholiya",
+              "enrollment": "2405112120150",
+              "mobile": "7433956337",
+              "program": "MCA, B"
+            }
+          ],
+          "project_title": "Hospital DMS",
+          "project_description": "It's hospital distribution management system.",
+          "front_end": "LWC",
+          "back_end": "APEX, Flow Builder"
+        }
+      ]
+    },
+    {
+      "company_name": "",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Prof.Sohil Parmar",
+      "projects": [
+        {
+          "s_no": 269,
+          "members": [
+            {
+              "name": "Swayam Rajora",
+              "enrollment": "2205103130003",
+              "mobile": "9907504766",
+              "program": "IMCA, A"
+            }
+          ],
+          "project_title": "RatnaBazar- Online Jwellery Store",
+          "project_description": "Na",
+          "front_end": "Na",
+          "back_end": "Na"
+        }
+      ]
+    },
+    {
+      "company_name": "",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Prof.Sohil Parmar",
+      "projects": [
+        {
+          "s_no": 270,
+          "members": [
+            {
+              "name": "ISHIKA SOLANKI",
+              "enrollment": "2205103120007",
+              "mobile": "8253034822",
+              "program": "IMCA, A"
+            }
+          ],
+          "project_title": "Online Sales Portal",
+          "project_description": "Consultancy project",
+          "front_end": "Na",
+          "back_end": "Na"
+        }
+      ]
+    },
+    {
+      "company_name": "",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Prof. Nirmit Shah",
+      "projects": [
+        {
+          "s_no": 271,
+          "members": [
+            {
+              "name": "Diya Anil Mehta",
+              "enrollment": "2205103110004",
+              "mobile": "7041323213",
+              "program": "IMCA, A"
+            }
+          ],
+          "project_title": "Consultancy Project",
+          "project_description": "Jewellery Website - A mordern jewellery shopping website .",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
+    },
+    {
+      "company_name": "",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Prof. Nirmit Shah",
+      "projects": [
+        {
+          "s_no": 272,
+          "members": [
+            {
+              "name": "Kunalsingh Rajput",
+              "enrollment": "2205103120027",
+              "mobile": "9316470230",
+              "program": "IMCA, A"
+            }
+          ],
+          "project_title": "Consultancy project",
+          "project_description": "NA",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
+    },
+    {
+      "company_name": "Baarez Technology Solutions",
+      "address": "Office No.202, Saha Offices © Souk Al Bahar, Downtown Dubai.",
+      "website": "www.bareez.com",
+      "contact": "63690 92379",
+      "mentor": "Deepika Kuppan (HR)",
+      "internal_guide": "Dr. Hina Chokshi",
+      "projects": [
+        {
+          "s_no": 273,
+          "members": [
+            {
+              "name": "Vivek Prajapati",
+              "enrollment": "2405112130040",
+              "mobile": "88661 06544",
+              "program": "MCA, D"
+            }
+          ],
+          "project_title": "Mini ai agent",
+          "project_description": "A project involving a 'mini AI agent' would focus on developing a system",
+          "front_end": "Tailwind css, react js, type script",
+          "back_end": "Python"
+        }
+      ]
+    },
+    {
+      "company_name": "Advect skills pvt.ltd",
+      "address": "Knowledge park 1, Greater Noida",
+      "website": "Advect Skills | Trainings & Placements | India https://share.google/LLiINrRq8sndInBDq",
+      "contact": "8294471640",
+      "mentor": "Harish kumar gangwar (Training & Development Mentor)",
+      "internal_guide": "Dr. Abhishek Mehta",
+      "projects": [
+        {
+          "s_no": 274,
+          "members": [
+            {
+              "name": "Kunal Kumar",
+              "enrollment": "2405112110058",
+              "mobile": "",
+              "program": "MCA, H"
+            }
+          ],
+          "project_title": "IT TRAINER",
+          "project_description": "Data analysis",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
+    },
+    {
+      "company_name": "Oasis Infobyte",
+      "address": "Jaipur, Rajasthan, India",
+      "website": "https://oasisinfobyte.com/",
+      "contact": "admin@oasisinfobyte.com",
+      "mentor": "Team Oasis Infobyte (Project Mentor)",
+      "internal_guide": "Prof. Mehulkumar Dalwadi",
+      "projects": [
+        {
+          "s_no": 275,
+          "members": [
+            {
+              "name": "Niraj Vishwakarma",
+              "enrollment": "2405112120193",
+              "mobile": "9104983369",
+              "program": "MCA, C"
+            }
+          ],
+          "project_title": "Design and Development of an AI-Based Smart Resume Screening Web Application",
+          "project_description": "This project involves the design and development of an AI-based smart resume screening web application. The system analyzes resumes using basic AI and NLP techniques to match candidate skills with job requirements and automatically rank applicants. It helps reduce manual effort in recruitment and improves efficiency. The application is developed using web technologies with a Python-based back end.",
+          "front_end": "HTML, CSS, JS",
+          "back_end": "PYTHON"
+        }
+      ]
+    },
+    {
+      "company_name": "Webmyne Systems pvt. ltd.",
+      "address": "Ivory Terrace, 702, RC Dutt rd. Vadodara 390007",
+      "website": "https://www.webmyne.com",
+      "contact": "9427602525",
+      "mentor": "Mr. Alok Ray (COO)",
+      "internal_guide": "Prof. Mehulkumar Dalwadi",
+      "projects": [
+        {
+          "s_no": 276,
+          "members": [
+            {
+              "name": "Pranjal Pandey",
+              "enrollment": "2405112120143",
+              "mobile": "9461835705",
+              "program": "MCA, B"
+            },
+            {
+              "name": "Prince Kumar",
+              "enrollment": "2405112120143",
+              "mobile": "8521519924",
+              "program": "MCA, B"
+            },
+            {
+              "name": "Raghav Lakhotiya",
+              "enrollment": "2405112120147",
+              "mobile": "9079369567",
+              "program": "MCA, B"
+            }
+          ],
+          "project_title": "Hospital Management Data Analysis and Business Intelligence Using MySQL and Power BI",
+          "project_description": "This project analyzes hospital data using MySQL and Power BI to provide insights on patient admissions, department performance, resource utilization, and revenue, supporting data-driven decisions and operational efficiency",
+          "front_end": "Power Bi",
+          "back_end": "MySql"
+        }
+      ]
+    },
+    {
+      "company_name": "Innovative Iteration Software Solutions",
+      "address": "431, Universal Trade Center, Near Hari 0m Petrol Pump, Opposite Nirmal Hospital L.P Savani Road, Adaian, Surat - 395009",
+      "website": "www.innovativeiteration.com",
+      "contact": "98790 15971",
+      "mentor": "Yash Bhuva (Senior Developer)",
+      "internal_guide": "Prof. Manishkumar Joshi",
+      "projects": [
+        {
+          "s_no": 277,
+          "members": [
+            {
+              "name": "Vikas Jamariya",
+              "enrollment": "2405112110134",
+              "mobile": "9574520405",
+              "program": "MCA, I"
+            }
+          ],
+          "project_title": "Gigoscity",
+          "project_description": "It is a Service Booking Marketplace built with the Laravel (v12) framework. It connects service providers (Vendors) with users (Customers) and facilitates the entire booking and payment lifecycle. Key Features 1. Service Marketplace 2. Booking & Workflow 3. Integrated Payments 4. Reputation & Feedback 5. Management & Administration",
+          "front_end": "TailwindCSS, Blade Templating, Vite, Laravel Echo, Javascript",
+          "back_end": "PHP, Laravel, Livewire, Reverb, Breeze, MySql, Strip PHP"
+        }
+      ]
+    },
+    {
+      "company_name": "Ultron Technologies",
+      "address": "202, Ultron Technologies, Radhaswami Swamipia, Above Poptos, Mota Bazaar, VV Nagar, anand, gj",
+      "website": "https://www.ultrontechnologies.in/",
+      "contact": "79904 56948",
+      "mentor": "Mr.Sumit Chawla (Ahmedabad)",
+      "internal_guide": "Prof.Vijya Tulsani",
+      "projects": [
+        {
+          "s_no": 278,
+          "members": [
+            {
+              "name": "Vishal Kumar",
+              "enrollment": "2405112070063",
+              "mobile": "8104833251",
+              "program": "MCA, E"
+            }
+          ],
+          "project_title": "Medicil Hospital - Online Doctor Appointment",
+          "project_description": "Medicil Hospital – Online Doctor Appointment System is a web-based healthcare management platform designed to simplify and digitalize the process of booking medical appointments. The system allows patients to easily search for doctors, view their availability, and book appointments online without visiting the hospital physically. It also enables hospital staff and doctors to efficiently manage schedules, patient records, and appointment status through a secure dashboard.",
+          "front_end": "Reactjs, Bootstrap",
+          "back_end": "Firebase"
+        }
+      ]
+    },
+    {
+      "company_name": "",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Prof. Hardik Parmar",
+      "projects": [
+        {
+          "s_no": 279,
+          "members": [
+            {
+              "name": "Patel vanshika hitendrakumar",
+              "enrollment": "2405112120134",
+              "mobile": "8849299881",
+              "program": "MCA, B"
+            },
+            {
+              "name": "Parmar kinjal",
+              "enrollment": "2405112120116",
+              "mobile": "+919173393024",
+              "program": "MCA, B"
+            },
+            {
+              "name": "Parmar jyosna",
+              "enrollment": "2405112120115",
+              "mobile": "+917284813378",
+              "program": "MCA, B"
+            }
+          ],
+          "project_title": "Doctor appointment system",
+          "project_description": "The Doctor Appointment System is a web-based application designed to simplify and automate the process of booking medical appointments.",
+          "front_end": "Front end ma Html javascript css react js",
+          "back_end": "Back end ma Firebase"
+        }
+      ]
+    },
+    {
+      "company_name": "Kuchnahi.",
+      "address": "Kuchnahi office, Surat",
+      "website": "https://www.kuchnahii.com",
+      "contact": "+918000040485",
+      "mentor": "Farhan siddiqui (HR)",
+      "internal_guide": "Prof.Jigar Bhavsar",
+      "projects": [
+        {
+          "s_no": 280,
+          "members": [
+            {
+              "name": "Tanishq Gavande",
+              "enrollment": "2405102130001",
+              "mobile": "6352811124",
+              "program": "MSC-IT, D"
+            }
+          ],
+          "project_title": "No project allocated yet",
+          "project_description": "No project allocated yet",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
+    },
+    {
+      "company_name": "Shivai Digital Media",
+      "address": "Shivai Digital Media Opp. Bus Stand, Vishwakarma Society Near Vishweshwar Mandir Mithapur - 361347, Devbhoomi Dwarka",
+      "website": "https://www.shivaidigitalmedia.onlinel",
+      "contact": "Contact: 9725057379 Email: shivaidm@outlook.com",
+      "mentor": "Sahil Makvana (CTO & Founder)",
+      "internal_guide": "Prof. Megha Trivedi",
+      "projects": [
+        {
+          "s_no": 281,
+          "members": [
+            {
+              "name": "Akshita Kaushik",
+              "enrollment": "2205103120001",
+              "mobile": "9610046321",
+              "program": "IMCA, A"
+            },
+            {
+              "name": "Maulik Chhansiya",
+              "enrollment": "2205103120005",
+              "mobile": "7043081686",
+              "program": "IMCA, A"
+            }
+          ],
+          "project_title": "Consultancy Project",
+          "project_description": "pay-per-task micro-SaaS platform that allows users to complete specific business tasks without paying for unwanted features or long-term subscriptions.",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
+    },
+    {
+      "company_name": "Parul University",
+      "address": "Post Limda, Waghodia, Gujarat 391760",
+      "website": "www.paruluniversity.ac.in",
+      "contact": "9898315486",
+      "mentor": "Nirmit Shah Sir (Professor)",
+      "internal_guide": "Prof. Sweta Jethva",
+      "projects": [
+        {
+          "s_no": 282,
+          "members": [
+            {
+              "name": "Naman Dangi",
+              "enrollment": "2405102140003",
+              "mobile": "8735961484",
+              "program": "MSC-IT, G"
+            },
+            {
+              "name": "Anushka Rastogi",
+              "enrollment": "2405112140008",
+              "mobile": "94,521,394,529,044,300,000",
+              "program": "MCA, F"
+            }
+          ],
+          "project_title": "B.D. Jewellers",
+          "project_description": "The B.D. Jewellers Website is an ongoing online platform designed to showcase a wide range of jewellery products and collections to customers. The main purpose of the website is to provide an easy, attractive, and efficient way for customers to explore different jewellery items, learn about their details, and contact the store for inquiries or purchases. The website helps the business maintain its online presence while managing product information and customer interactions effectively.",
+          "front_end": "HTML, CSS, JavaScript",
+          "back_end": "Php, MySql"
+        }
+      ]
+    },
+    {
+      "company_name": "Spark to ideas",
+      "address": "Ahemdabad",
+      "website": "www.sprakstoideas.com",
+      "contact": "+91 77788 85892",
+      "mentor": "Priya Panchal (Project Manager)",
+      "internal_guide": "Prof.Shikha Bansal",
+      "projects": [
+        {
+          "s_no": 283,
+          "members": [
+            {
+              "name": "Dodiya Gautam Umeshbhai",
+              "enrollment": "2405112120044",
+              "mobile": "6356075494",
+              "program": "MCA, A"
+            },
+            {
+              "name": "Hadavani Fenil",
+              "enrollment": "2405112140032",
+              "mobile": "7435050967",
+              "program": "MCA, F"
+            }
+          ],
+          "project_title": "Online Library management system",
+          "project_description": "The Online Library Management System is a web-based application designed to automate, manage, and streamline daily library operations such as book issuing, returns, cataloging, and member management.",
+          "front_end": "HTML, CSS, java script",
+          "back_end": "Python (django)"
+        }
+      ]
+    },
+    {
+      "company_name": "",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Prof.Rinku Patil",
+      "projects": [
+        {
+          "s_no": 284,
+          "members": [
+            {
+              "name": "Yagnik malvaniya",
+              "enrollment": "2405112120099",
+              "mobile": "8140371170",
+              "program": "MCA, B"
+            }
+          ],
+          "project_title": "",
+          "project_description": "",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
+    },
+    {
+      "company_name": "Techmicra IT Solutions",
+      "address": "408, 4th Floor, Ashwamegh Elegance III, Nr. CN Vidhyalay, opp. SBI Zonal office, Ambawadi, Ahmedabad, Gujarat 380015",
+      "website": "https://www.techmicra.in/",
+      "contact": "9727835207",
+      "mentor": "Pallam mamotra (Service)",
+      "internal_guide": "Prof. Arun.U",
+      "projects": [
+        {
+          "s_no": 285,
+          "members": [
+            {
+              "name": "Rathod Pruthviraj",
+              "enrollment": "2405112110108",
+              "mobile": "7459485491",
+              "program": "MCA, I"
+            }
+          ],
+          "project_title": "Student management system",
+          "project_description": "A Student Management System is software used to store and manage student information like attendance, grades, and personal details. It helps schools and colleges save time, reduce paperwork, and improve efficiency.",
+          "front_end": "Html css j",
+          "back_end": "Mysql"
+        }
+      ]
+    },
+    {
+      "company_name": "",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Prof.Saswati Chatterjee",
+      "projects": [
+        {
+          "s_no": 286,
+          "members": [
+            {
+              "name": "Vraj Shrimali",
+              "enrollment": "2405112130032",
+              "mobile": "9898691797",
+              "program": "MCA, D"
+            },
+            {
+              "name": "Nupur Joshi",
+              "enrollment": "2405112130022",
+              "mobile": "95105 38916",
+              "program": "MCA, D"
+            }
+          ],
+          "project_title": "",
+          "project_description": "",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
+    },
+    {
+      "company_name": "biomarin",
+      "address": "whitefield main road, pattandur agarahara, karnataka bengalur",
+      "website": "https://www.biomarin.com/",
+      "contact": "+91 91 6073 648 2",
+      "mentor": "Ashitosh kale (HR)",
+      "internal_guide": "Prof. Faruk Abdulla",
+      "projects": [
+        {
+          "s_no": 287,
+          "members": [
+            {
+              "name": "Srumith singh",
+              "enrollment": "2405112130037",
+              "mobile": "6303840702",
+              "program": "MCA, E"
+            }
+          ],
+          "project_title": "Project Title Design and Development of Scalable Backend Services Using Python for Enterprise Applications",
+          "project_description": "The project involves working as a Backend Python Developer focusing on the design, development, and maintenance of scalable backend services for enterprise applications. Responsibilities include backend logic implementation, API development, data processing, and ensuring system reliability while adhering to organisational coding standards.",
+          "front_end": "Python",
+          "back_end": "Python, REST APIs, SQL Databases, Git, Linux Environment"
+        }
+      ]
+    },
+    {
+      "company_name": "Beetonz Infotech",
+      "address": "Surat",
+      "website": "https://www.beetonz.com",
+      "contact": "+91 96645 70327",
+      "mentor": "Sanket Rola, Saurabh Shah (Manager Director)",
+      "internal_guide": "Prof. Smarika Rai",
+      "projects": [
+        {
+          "s_no": 288,
+          "members": [
+            {
+              "name": "Self project",
+              "enrollment": "2405112070013",
+              "mobile": "9898696210",
+              "program": "MCA, E"
+            }
+          ],
+          "project_title": "Ai-Physique",
+          "project_description": "Transformation with AI",
+          "front_end": "Flutter UI",
+          "back_end": "Dart, background service, firebase"
+        }
+      ]
     }
+
 ]
 
 
