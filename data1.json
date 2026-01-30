@@ -5659,10 +5659,7 @@
           }
         ],
         "project_title": "Live Performance Monitoring System for Crusher Machine",
-        "project_description": "This project is an IoT-based real-time monitoring system for a crusher machine.
-It shows live data such as engine status, temperature, fuel usage, and production rate.
-A web dashboard is used to monitor machine performance remotely.
-The system helps improve efficiency and reduce downtime.",
+        "project_description": "This project is an IoT-based real-time monitoring system for a crusher machine. It shows live data such as engine status, temperature, fuel usage, and production rate.A web dashboard is used to monitor machine performance remotely.The system helps improve efficiency and reduce downtime.",
         "front_end": "",
         "back_end": ""
       }
