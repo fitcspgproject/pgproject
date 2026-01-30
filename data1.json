@@ -44,8 +44,8 @@
         ],
         "project_title": "Data Analytics & Visualization using python",
         "project_description": "",
-        "front_end": "DashBoard in Power BI",
-        "back_end": "NA"
+        "front_end": "PowerBI, python",
+        "back_end": "Databricks"
       }
     ]
   },
@@ -5658,8 +5658,11 @@
             "program": ""
           }
         ],
-        "project_title": "",
-        "project_description": "",
+        "project_title": "Live Performance Monitoring System for Crusher Machine",
+        "project_description": "This project is an IoT-based real-time monitoring system for a crusher machine.
+It shows live data such as engine status, temperature, fuel usage, and production rate.
+A web dashboard is used to monitor machine performance remotely.
+The system helps improve efficiency and reduce downtime.",
         "front_end": "",
         "back_end": ""
       }
