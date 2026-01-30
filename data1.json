@@ -1348,7 +1348,7 @@
           },
           {
             "name": "Seetansh Bhatnagar",
-            "enrollment": "2205102140025",
+            "enrollment": "2205103140025",
             "mobile": "9265036662",
             "program": "IMCA, A"
           }
@@ -6856,7 +6856,169 @@
           "back_end": "Node.js + Express + Mongodb"
         }
       ]
-    } 
+    },
+  {  
+      "company_name": "Soulcreativeaura",
+      "address": "Flat no. 1, neeraj library podar college Road, Nawalgarh",
+      "website": "Null",
+      "contact": "7877553482",
+      "mentor": "Rahul rathore (Manager)",
+      "internal_guide": "Prof. Vipul Gamit",
+      "projects": [
+        {
+          "s_no": 258,
+          "members": [
+            {
+              "name": "Vishal sharwa",
+              "enrollment": "2405112110135",
+              "mobile": "99314 44970",
+              "program": "MCA, I"
+            }
+          ],
+          "project_title": "Soulcreativeaura website",
+          "project_description": "It’s about the main website for an startup company",
+          "front_end": "Yes i assisted in front end",
+          "back_end": "I did added little assistance in backend"
+        }
+      ]
+    },
+    {
+      "company_name": "Jio Private Limited",
+      "address": "RCP, Ghansoli, Navi Mumbai, Maharashtra",
+      "website": "www.jio.com",
+      "contact": "-",
+      "mentor": "Mr. Puneesh Kumar",
+      "internal_guide": "Prof. Vipul Gamit",
+      "projects": [
+        {
+          "s_no": 259,
+          "members": [
+            {
+              "name": "Abhay Kothari",
+              "enrollment": "2405102130010",
+              "mobile": "9782242359",
+              "program": "MSC-IT, D"
+            }
+          ],
+          "project_title": "Data Analysis",
+          "project_description": "-",
+          "front_end": "-",
+          "back_end": "-"
+        }
+      ]
+    },
+    {
+      "company_name": "kerala police training academy",
+      "address": "ramavarmapuram, thrissur, kerala",
+      "website": "https://keralapolice.gov.in/",
+      "contact": "studentinternshipkeralapolice@gmail.com",
+      "mentor": "jayadevan rp (Student Internship head)",
+      "internal_guide": "Prof. Vipul Gamit",
+      "projects": [
+        {
+          "s_no": 260,
+          "members": [
+            {
+              "name": "Nidhin m s",
+              "enrollment": "240512070031",
+              "mobile": "9847425405",
+              "program": "MCA, E"
+            },
+            {
+              "name": "Anamika suresh",
+              "enrollment": "2405102140001",
+              "mobile": "9961655873",
+              "program": "MSC-IT, G"
+            }
+          ],
+          "project_title": "Real-Time Cyber Attack Prediction in Cloud Environments Using Machine Learning",
+          "project_description": "Real-Time Cyber Attack Prediction in Cloud Environments Using Machine Learning focuses on identifying and predicting cyber attacks as they occur in cloud-based systems. The system continuously monitors live network traffic, system logs, and user behavior to detect suspicious patterns using machine learning models. By analyzing features such as packet flow, access frequency, and resource usage, the model can predict potential attacks like DDoS, malware injection, brute-force login attempts, or data breaches in real time.",
+          "front_end": "-",
+          "back_end": "-"
+        }
+      ]
+    },
+    {
+      "company_name": "Techreale",
+      "address": "Valsad, Gujarat",
+      "website": "www.techreale.com",
+      "contact": "93273 02677",
+      "mentor": "Divya Patel (HR)",
+      "internal_guide": "Prof. Vipul Gamit",
+      "projects": [
+        {
+          "s_no": 261,
+          "members": [
+            {
+              "name": "MohmedHussain Ravla",
+              "enrollment": "2405112110112",
+              "mobile": "8780008206",
+              "program": "MCA, I"
+            },
+            {
+              "name": "Shifa Ajmeri",
+              "enrollment": "2405112110006",
+              "mobile": "97263 27389",
+              "program": "MCA, H"
+            }
+          ],
+          "project_title": "NA",
+          "project_description": "NA",
+          "front_end": "React",
+          "back_end": "Node"
+        }
+      ]
+    },
+    {
+      "company_name": "Accurate Engineers",
+      "address": "K 60, old roshan pura, najafgarh, new delhi, 110043",
+      "website": "https://accengineers.in/",
+      "contact": "-",
+      "mentor": "Mr. Sunil verma (Director)",
+      "internal_guide": "Prof. Mehulkumar Dalwadi",
+      "projects": [
+        {
+          "s_no": 262,
+          "members": [
+            {
+              "name": "Akshay yadav",
+              "enrollment": "2405112140105",
+              "mobile": "7042275848",
+              "program": "MCA, F"
+            }
+          ],
+          "project_title": "Healthcare manager",
+          "project_description": "A full web application for health care management system for appointment bookings and more Frontend react.js Backend node.js",
+          "front_end": "YES",
+          "back_end": "Yes"
+        }
+      ]
+    },
+    {
+      "company_name": "Technobits digital",
+      "address": "328, 3rd Floor, K-10 Atlantis, Tower B, Sarabhai Rd, opp. Honest Family Restaurant, Subhanpura, Vadodara, Gujarat 390023",
+      "website": "https://technobitsdigital.com/",
+      "contact": "9726589144",
+      "mentor": "Almash Patel (Full stack developer)",
+      "internal_guide": "Prof. Mehulkumar Dalwadi",
+      "projects": [
+        {
+          "s_no": 263,
+          "members": [
+            {
+              "name": "Anushka Bisht",
+              "enrollment": "2405112110013",
+              "mobile": "7042275848",
+              "program": "MCA, H"
+            }
+          ],
+          "project_title": "UI/Ux",
+          "project_description": "Have to make UI/UX OF LIVE PROJECT",
+          "front_end": "YES",
+          "back_end": "Yes"
+        }
+      ]
+    }
 ]
 
 
