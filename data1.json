@@ -7603,9 +7603,166 @@
           "back_end": "Dart, background service, firebase"
         }
       ]
+    },
+    {
+      "company_name": "NA",
+      "address": "NA",
+      "website": "NA",
+      "contact": "NA",
+      "mentor": "NA",
+      "internal_guide": "Prof. Dipti Sharma",
+      "projects": [
+        {
+          "s_no": 289,
+          "members": [
+            {
+              "name": "Muskan kalal",
+              "enrollment": "2405112110048",
+              "mobile": "9974527206",
+              "program": "MCA, H"
+            }
+          ],
+          "project_title": "Gaming website",
+          "project_description": "Gaming website , Interactive browser based games for children",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
+    },
+    {
+      "company_name": "Maxgen Technologies Pvt. Ltd.",
+      "address": "Abhijeet 3, 603, Netaji Rd, near Pantaloons, Mithakhali, Ellisbridge, Ahmedabad, Gujarat",
+      "website": "www.maxgentechnologies.com",
+      "contact": "9082145541",
+      "mentor": "Senif Badi (Mern Stack Developer)",
+      "internal_guide": "Prof. Sonali Kharade",
+      "projects": [
+        {
+          "s_no": 290,
+          "members": [
+            {
+              "name": "Solanki Adityasinh Rameshchandra",
+              "enrollment": "2405112110125",
+              "mobile": "8849157601",
+              "program": "MCA, I"
+            },
+            {
+              "name": "Khushali Brijeshkumar Talati",
+              "enrollment": "2405112110055",
+              "mobile": "8980336298",
+              "program": "MCA, H"
+            }
+          ],
+          "project_title": "Creator–Brand Collaboration Platform",
+          "project_description": "This project is a web-based platform that connects content creators with brands for collaboration and marketing campaigns.",
+          "front_end": "HTML, CSS, React.js",
+          "back_end": "Node.js, Express.js, MongoDB"
+        }
+      ]
+    },
+    {
+      "company_name": "Hexaware Technologies",
+      "address": "152, Millennium Business Park, Sector 3, 'A' Block, TTC Industrial Area, Mahape, Navi Mumbai, Maharashtra, India 400710",
+      "website": "https://hexaware.com/location/india/",
+      "contact": "https://hexaware.com/location/india/",
+      "mentor": "Babu Duraiswamy (Training Manager at Hexaware Technologies)",
+      "internal_guide": "Prof. Pritam",
+      "projects": [
+        {
+          "s_no": 291,
+          "members": [
+            {
+              "name": "Chandan Chhagan",
+              "enrollment": "2405112110019",
+              "mobile": "9173531133",
+              "program": "MCA, H"
+            }
+          ],
+          "project_title": "FinSight-AI",
+          "project_description": "Master your money with FinSight AI — a modern finance tracker built with Next.js. It provides authentication, a landing experience, and a robust Postgres data model (via Prisma) for users, accounts, transactions, and budgets. The UI uses Tailwind and shadcn components.",
+          "front_end": "Next.js",
+          "back_end": "Next.js"
+        }
+      ]
+    },
+    {
+      "company_name": "Elios management and consulting",
+      "address": "Jasola vihar, new delhi",
+      "website": "Www.elios.in",
+      "contact": "+91 78388 66830",
+      "mentor": "Safdar tauquir (Project lead)",
+      "internal_guide": "Dr. Ghanshyam Rathod",
+      "projects": [
+        {
+          "s_no": 292,
+          "members": [
+            {
+              "name": "Ehtesham arshi",
+              "enrollment": "2405112120046",
+              "mobile": "7543036420",
+              "program": "MCA, A"
+            }
+          ],
+          "project_title": "Skyme",
+          "project_description": "E commerce",
+          "front_end": "Html, css",
+          "back_end": "Javascript"
+        }
+      ]
+    },
+    {
+      "company_name": "Omnino Solutions Private Limited",
+      "address": "G-704, Ekta Bhoomi Gardens, Dattapada mumbai Maharashtra",
+      "website": "www.omninosolutions.com",
+      "contact": "9879608129",
+      "mentor": "Roshini patani (HR)",
+      "internal_guide": "Dr. Pravin Tomar",
+      "projects": [
+        {
+          "s_no": 293,
+          "members": [
+            {
+              "name": "Parmar Divya Maheshbhai",
+              "enrollment": "2405112110080",
+              "mobile": "9773036783",
+              "program": "MCA, I"
+            }
+          ],
+          "project_title": "Company project",
+          "project_description": "Quick Support Service",
+          "front_end": "Html",
+          "back_end": "Php"
+        }
+      ]
+    },
+    {
+      "company_name": "USP IT SOLUTION",
+      "address": "Office No-12, 2nd Floor, Arya Prism Complex, Chakan-Talegaon Road, Chakan, Pune, 410 501",
+      "website": "https://uspitsolution.com/",
+      "contact": "8446706400",
+      "mentor": "Ulhas P. (Senior Developer)",
+      "internal_guide": "Dr. Sumit Soni",
+      "projects": [
+        {
+          "s_no": 294,
+          "members": [
+            {
+              "name": "Patil Shital Shamkant",
+              "enrollment": "2405112130027",
+              "mobile": "9054384018",
+              "program": "MCA, E"
+            }
+          ],
+          "project_title": "TinyPaws",
+          "project_description": "Tiny Paws is a pet care and adoption support application designed to help users find, care for, and manage pets easily. It provides features like pet information, adoption details, health tips, and user-friendly navigation to enhance responsible pet ownership.",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
     }
+  ]
 
-]
+
 
 
 
