@@ -7759,7 +7759,836 @@
           "back_end": ""
         }
       ]
-    }
+    },
+  {
+       "company_name": "techmicra",
+      "address": "Ahemdabad",
+      "website": "www.techmicra.in",
+      "contact": "9427617574",
+      "mentor": "Pallav Mamtora (IT Solution & IT Services)",
+      "internal_guide": "Prof. Samant Kumar",
+      "projects": [
+        {
+          "s_no": 295,
+          "members": [
+            {
+              "name": "Chetan Nagar",
+              "enrollment": "2405112110024",
+              "mobile": "9893969460",
+              "program": "MCA, H"
+            }
+          ],
+          "project_title": "Adventure Tours & Travel",
+          "project_description": "Adventure Tours & Travel",
+          "front_end": "React. JS",
+          "back_end": "Node. JS & Express. JS"
+        }
+      ]
+    },
+    {
+      "company_name": "Brainybeam Info-Tech Pvt.Ltd.",
+      "address": "BrainyBeam Technologies Pvt. Ltd., Near, Old High Ct Rd, behind Of ICICI Bank, Ashram Road, Shreyas Colony, Navrangpura, Ahmedabad, Gujarat 380009",
+      "website": "https://www.brainybeam.com/",
+      "contact": "Sagar@brainybeam.com",
+      "mentor": "Sagar Jasani (CEO)",
+      "internal_guide": "Ms. Niharika Agarwal",
+      "projects": [
+        {
+          "s_no": 296,
+          "members": [
+            {
+              "name": "Harsh Bhogayata",
+              "enrollment": "2405112140017",
+              "mobile": "9313439465",
+              "program": "MCA, F"
+            }
+          ],
+          "project_title": "Vadodara Files",
+          "project_description": "A comprehensive community-driven web platform designed to streamline access to essential city services and historical data for Vadodara. Originally focused on flood archiving, the project has evolved to include the 'SewaSetu' initiative, centralizing public welfare resources and real-time information to enhance civic engagement and disaster preparedness.",
+          "front_end": "HTML5, CSS3, JavaScript (ES6+), Leaflet.js, Responsive UI/UX",
+          "back_end": "Firebase, Google Sheets API, Vercel, Git, GitHub"
+        }
+      ]
+    },
+    {
+      "company_name": "Jhex.inc",
+      "address": "Visnagar",
+      "website": "www.jhex.info",
+      "contact": "7990546823",
+      "mentor": "Shreeji soni (HR)",
+      "internal_guide": "Dr. Prof. P. Ramachandran",
+      "projects": [
+        {
+          "s_no": 297,
+          "members": [
+            {
+              "name": "Y Venkata krishna Reddy",
+              "enrollment": "2205103140024",
+              "mobile": "8328080835",
+              "program": "IMCA, A"
+            }
+          ],
+          "project_title": "Local tourism management system",
+          "project_description": "The Local Tourism Management System is a web-based application developed using PHP to promote local Tourist destinations, manage bookings, and provide travel-related information.",
+          "front_end": "Html 5, css3, javascript, bootstrap",
+          "back_end": "Php, MySQL, apache server"
+        }
+      ]
+    },
+    {
+      "company_name": "Ultron Technologies",
+      "address": "202, Radhaswami Swamipia, Above Poptos, VV Nagar, Gujarat 388120",
+      "website": "www.ultrontechnologies.in",
+      "contact": "+91 7990456948",
+      "mentor": "Sumit Chawla (Founder & CEO)",
+      "internal_guide": "PRof. Akanksha Singh",
+      "projects": [
+        {
+          "s_no": 298,
+          "members": [
+            {
+              "name": "Aniket Jethva",
+              "enrollment": "2405112130013",
+              "mobile": "9081004075",
+              "program": "MCA, D"
+            }
+          ],
+          "project_title": "Sales data analysis",
+          "project_description": "This project is a Data Science & Data Analytics project that analyzes sales data using Python. It focuses on data cleaning and preprocessing, exploring sales performance by product, region, customer segment, and time period, and identifying key trends, revenue patterns, and growth opportunities. Key business insights such as top-selling products, seasonal sales trends, and regional performance are visualized using Matplotlib and Seaborn to support data-driven decision-making.",
+          "front_end": "No",
+          "back_end": "Python, Pandas, NumPy, Matplotlib, Seaborn"
+        }
+      ]
+    },
+    {
+      "company_name": "",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Prof. Adarsh Ashok",
+      "projects": [
+        {
+          "s_no": 299,
+          "members": [
+            {
+              "name": "Neeraj Gupta",
+              "enrollment": "2405112120110",
+              "mobile": "7999271736",
+              "program": "MCA, B"
+            }
+          ],
+          "project_title": "HR Data Analysis",
+          "project_description": "Analyzed HR data using Python to identify employee trends and patterns, with data cleaning and visualization for better decision-making.",
+          "front_end": "",
+          "back_end": "Python, NumPy, Pandas, Matplotlib, Seaborn"
+        }
+      ]
+    },
+    {
+      "company_name": "",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Prof. Aesh Gada",
+      "projects": [
+        {
+          "s_no": 300,
+          "members": [
+            {
+              "name": "Mohammad Kardar",
+              "enrollment": "2405112120106",
+              "mobile": "9826718928",
+              "program": "MCA, B"
+            }
+          ],
+          "project_title": "Hotel Booking Platform",
+          "project_description": "Designed a Hotel Booking Platform UI using Figma that allows users to search, compare, and book hotels easily. The project focuses on user-friendly navigation, modern design principles, and an intuitive booking experience.",
+          "front_end": "Figma (UI/UX Design), User Interface Design, Wireframing, Prototyping",
+          "back_end": "Not applicable – This project focuses on UI/UX design and user flow planning only"
+        }
+      ]
+    },
+    {
+      "company_name": "Amdox technology",
+      "address": "Tech-37, Begur Hobli, Bengaluru, 560100",
+      "website": "https://www.amdox.in/",
+      "contact": "6362853627",
+      "mentor": "Sunil Kumar (Supervisor)",
+      "internal_guide": "Prof. Aniket Paul",
+      "projects": [
+        {
+          "s_no": 301,
+          "members": [
+            {
+              "name": "Vivek Kumar",
+              "enrollment": "2405112110136",
+              "mobile": "7645896788",
+              "program": "MCA, I"
+            },
+            {
+              "name": "Rajnish Kumar",
+              "enrollment": "2405112110104",
+              "mobile": "6205051083",
+              "program": "MCA, I"
+            }
+          ],
+          "project_title": "Chat-Application",
+          "project_description": "This project is a simple chat application where users can log in using their email and chat with other users. It allows users to send and receive messages in real time. The application is easy to use and helps in learning basic login and messaging concepts",
+          "front_end": "JavaScript / React",
+          "back_end": "Node.js, Express, Socket.io, MongoDB"
+        }
+      ]
+    },
+    {
+      "company_name": "Tech tuition system LLP",
+      "address": "Share Save Shop No 11, Star Plaza, Bypass, Kolki Rd, Vardhmannagar 2, Upleta, Gujarat 360490",
+      "website": "https://www.techtuitionsystem.com/",
+      "contact": "09099003103",
+      "mentor": "Vivek (HR)",
+      "internal_guide": "Prof. Anmol Singh",
+      "projects": [
+        {
+          "s_no": 302,
+          "members": [
+            {
+              "name": "Devanshi Lothe",
+              "enrollment": "2405112120037",
+              "mobile": "6351595599",
+              "program": "MCA, A"
+            }
+          ],
+          "project_title": "E-commerce website",
+          "project_description": "It will use for shopping and ordering various items.",
+          "front_end": "React",
+          "back_end": "Node"
+        }
+      ]
+    },
+    {
+      "company_name": "Moon byte",
+      "address": "Vihav Wealth square, 601/602, Gotri Rd, opp. Axis Bank, nr. Yash Complex, Sundaram Nagar, Gotri, Vadodara, Gujarat 390021",
+      "website": "https://moonbyte.in/",
+      "contact": "9725993204",
+      "mentor": "Manan Jadhav (Full stack developer)",
+      "internal_guide": "Prof. Ashutosh Solanki",
+      "projects": [
+        {
+          "s_no": 303,
+          "members": [
+            {
+              "name": "Divyang kharva",
+              "enrollment": "2405112110053",
+              "mobile": "9106392863",
+              "program": "MCA, H"
+            }
+          ],
+          "project_title": "E-COMMERCE WEBSITE",
+          "project_description": "This project is an e-commerce website designed to buy and sell products online. It allows users to browse products, view details, add items to a shopping cart, and place orders easily. The system also includes basic features like user registration, login, and order management. The main goal of this project is to understand how online shopping platforms work and to learn the basics of e-commerce systems.",
+          "front_end": "React",
+          "back_end": "Node"
+        }
+      ]
+    },
+    {
+      "company_name": "Techoma",
+      "address": "121, Fortune Tower, Dalal Street, Sayajiganj, Sayajiganj Vadodara Gujarat, India, 390020",
+      "website": "Techoma.io",
+      "contact": "9315494820",
+      "mentor": "Milind Patel (Team lead)",
+      "internal_guide": "Prof. Chaitali nayka",
+      "projects": [
+        {
+          "s_no": 304,
+          "members": [
+            {
+              "name": "Divy Parekh",
+              "enrollment": "2405102120005",
+              "mobile": "8128391533",
+              "program": "MSC-IT, C"
+            }
+          ],
+          "project_title": "People Pulse Website",
+          "project_description": "People Pulse is an attendance system used to record and manage employee attendance. It allows employees to mark their presence, and HR to track attendance records, generate reports, and analyze workforce time data.",
+          "front_end": "HTML CSS JAVASCRIPT",
+          "back_end": "PYTHON DJANGO"
+        }
+      ]
+    },
+    {
+      "company_name": "Global Cropconnect pvt. Ltd.",
+      "address": "Branch Office@ Greyanas Agro, FF, Ashwamegh Complex, SG Highway, Adalaj, Gandhinagar Branch, Gujarat",
+      "website": "www.greyanasagro.com",
+      "contact": "globalcropconnect2023@gmail.com",
+      "mentor": "Sandeep Gupta (Project Manager)",
+      "internal_guide": "Prof. Dipti Sharma",
+      "projects": [
+        {
+          "s_no": 305,
+          "members": [
+            {
+              "name": "Himanshu Bodkhe",
+              "enrollment": "2405112070014",
+              "mobile": "8806862830",
+              "program": "MCA, E"
+            }
+          ],
+          "project_title": "Sulochana Foods",
+          "project_description": "A full-stack MERN eCommerce website for an organic spice brand with product catalog, cart, secure Razorpay payments, and order tracking. Developed admin panel, authentication system, and MongoDB database to manage users, orders, and inventory efficiently.",
+          "front_end": "HTML, CSS, JavaScript, React.js",
+          "back_end": "Node.js, Express.js, MongoDB, Razorpay API, JWT Auth"
+        }
+      ]
+    },
+    {
+      "company_name": "AY technologies",
+      "address": "Lingampally, Hyderabad",
+      "website": "https://ay-technologies.com/",
+      "contact": "hello@ay-technologies.com",
+      "mentor": "Sri Madhuri V (Director)",
+      "internal_guide": "Prof. Himanshu Yadav",
+      "projects": [
+        {
+          "s_no": 306,
+          "members": [
+            {
+              "name": "Vardhinedi Chetan Phanindra",
+              "enrollment": "2205103120018",
+              "mobile": "9346443466",
+              "program": "IMCA, A"
+            }
+          ],
+          "project_title": "ATSure",
+          "project_description": "Application Tracking Systems and HR management platform to minimise the efforts of the Human Resources spending more time on managing the companies.",
+          "front_end": "React.js, TypeScript",
+          "back_end": "Springboot (Java)"
+        }
+      ]
+    },
+    {
+      "company_name": "Maharashtra Cyber",
+      "address": "Ghansoli, Navi Mumbai",
+      "website": "https://cybercrime.gov.in/Webform/crmcondi.aspx",
+      "contact": "9324766250",
+      "mentor": "Riya Singh (SOC)",
+      "internal_guide": "Prof. Honey Parmar",
+      "projects": [
+        {
+          "s_no": 307,
+          "members": [
+            {
+              "name": "Nidhi Bhalerao",
+              "enrollment": "2405112140013",
+              "mobile": "8692932044",
+              "program": "MCA, F"
+            }
+          ],
+          "project_title": "OSINT Investigation",
+          "project_description": "Developed a web-based cybersecurity OSINT tool that performs IP and domain investigation to identify potential security threats. The application analyzes geolocation data, network ownership, WHOIS records, open ports, and IP reputation to help detect malicious activity such as brute-force attacks, scanning attempts, and abuse history. Integrated threat intelligence APIs to generate risk-based insights and automated downloadable PDF security reports, making the tool suitable for SOC analysts, incident responders, and cybersecurity assessments.",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
+    },
+    {
+      "company_name": "OCTA NETWORKS",
+      "address": "Andheri",
+      "website": "Octanetworks.com",
+      "contact": "8976676689",
+      "mentor": "Joaquim (CEO)",
+      "internal_guide": "Prof. Jatin Morwal",
+      "projects": [
+        {
+          "s_no": 308,
+          "members": [
+            {
+              "name": "Sandeep Kumawat",
+              "enrollment": "2405112120087",
+              "mobile": "9967092159",
+              "program": "MCA, B"
+            }
+          ],
+          "project_title": "NFT Marketplace",
+          "project_description": "An NFT Marketplace is a digital platform where users can create (mint), buy, sell, and trade non-fungible tokens (NFTs). It leverages blockchain technology to ensure secure ownership, authenticity, and transparent transactions of digital assets like art, music, collectibles, and virtual goods. The project typically includes features such as crypto wallet integration, smart contracts, auctions or fixed-price sales, and creator royalties",
+          "front_end": "React",
+          "back_end": "Python/ Js / typescript"
+        }
+      ]
+    },
+    {
+      "company_name": "Telsica Solutions",
+      "address": "Nyati Empress, Viman Nagar Road, Next to Baker Gauges India Pvt. Ltd., Clover Park, Viman Nagar, Pune, Maharashtra, India",
+      "website": "https://telsica.in/",
+      "contact": "9021675547",
+      "mentor": "Tushar Gaurav (Project Head, Director)",
+      "internal_guide": "Prof. Khyati Kariya",
+      "projects": [
+        {
+          "s_no": 309,
+          "members": [
+            {
+              "name": "Tushar Gaurav",
+              "enrollment": "2405112130046",
+              "mobile": "9297782293",
+              "program": "MCA, E"
+            }
+          ],
+          "project_title": "Client KYC Data Analyst",
+          "project_description": "During my internship at Telsica Solutions, I worked on collecting, cleaning, and analyzing client KYC data. I helped identify basic trends and prepared simple reports using Excel and SQL while supporting the team in understanding data requirements.",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
+    },
+    {
+      "company_name": "Edu Genius Academy",
+      "address": "Kolhapur Maharashtra",
+      "website": "www.edugeniusacademy.com",
+      "contact": "9689711142",
+      "mentor": "Sarika Bhosale (Manager)",
+      "internal_guide": "Prof. Komal Madam",
+      "projects": [
+        {
+          "s_no": 310,
+          "members": [
+            {
+              "name": "Sankalp Vishnu Bhosale",
+              "enrollment": "2405112140018",
+              "mobile": "9552023321",
+              "program": "MCA, F"
+            }
+          ],
+          "project_title": "ReconMaster",
+          "project_description": "Reconnaissance framework",
+          "front_end": "HTML CSS JAVA SCRIPT",
+          "back_end": "Python Api"
+        }
+      ]
+    },
+    {
+      "company_name": "Bitinfotech",
+      "address": "B-205, Manubhai Tower, Opp. M. S. University, Sayajigunj, Vadodara",
+      "website": "https://bitinfotech.in/",
+      "contact": "9327219987",
+      "mentor": "Hitesh parmar (Senior Developer)",
+      "internal_guide": "Prof. Laxshman",
+      "projects": [
+        {
+          "s_no": 311,
+          "members": [
+            {
+              "name": "Prasu Sharma",
+              "enrollment": "2405112140076",
+              "mobile": "8103513119",
+              "program": "MCA, F"
+            }
+          ],
+          "project_title": "BLOG/CMS PLATFORM",
+          "project_description": "Blog CMS Platform is a web-based application that enables users to create, edit, and publish blog content easily. It provides admin and user roles for managing blogs, categories, comments, and secure user authentication efficiently.",
+          "front_end": "HTML, CSS, JavaScript",
+          "back_end": "PHP with laravel MySQL"
+        }
+      ]
+    },
+    {
+      "company_name": "Ramcom technologies",
+      "address": "Aarohi Galleria, South Bopal, Ahmedabad",
+      "website": "Home | Ramcom Technologies https://share.google/9qBJ4IZIKiaQVpmoe",
+      "contact": "9408950612",
+      "mentor": "Sunny Bafna (Senior software developer)",
+      "internal_guide": "Prof. Madhav J Kapadiya",
+      "projects": [
+        {
+          "s_no": 312,
+          "members": [
+            {
+              "name": "Modi dewam",
+              "enrollment": "2405102140018",
+              "mobile": "9662335003",
+              "program": "MSC-IT, G"
+            }
+          ],
+          "project_title": "Employee work management system",
+          "project_description": "The Employee Work Management System is a web-based application designed to manage employee tasks and work activities efficiently. It allows administrators to assign and monitor work, while employees can view tasks, update progress, and manage daily work records. The system helps improve productivity, organization, and transparency within an organization by reducing manual work and maintaining centralized records.",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
+    },
+    {
+      "company_name": "Concentrix service Ltd",
+      "address": "F-A-37, Gorwa Rd, BIDC Gorwa Estate, Gorwa, Vadodara, Gujarat 390003",
+      "website": "www.concentrix.com",
+      "contact": "",
+      "mentor": "Sahil vyas (Trainer)",
+      "internal_guide": "Prof. Payal Parekh",
+      "projects": [
+        {
+          "s_no": 313,
+          "members": [
+            {
+              "name": "Abhishek kumar pathak",
+              "enrollment": "240511240001",
+              "mobile": "74885243345",
+              "program": "MCA, F"
+            }
+          ],
+          "project_title": "Blog platform",
+          "project_description": "A blog platform is a digital publishing tool that allows individuals and businesses to create, manage, and share long-form articles online. In short, it serves as a personal or professional hub for storytelling and expertise, offering several key advantages over standard social media.",
+          "front_end": "Html, css, Javascript",
+          "back_end": "Php with laravel Mysql"
+        }
+      ]
+    },
+    {
+      "company_name": "sparks to ideas",
+      "address": "Akshat Tower, Bodakdev, Ahemdabad, Gujrat 380015, india",
+      "website": "https://www.sparkstoideas.com/",
+      "contact": "7778885892",
+      "mentor": "Darshit sir (Software Developer)",
+      "internal_guide": "Prof. Prachi Mehta",
+      "projects": [
+        {
+          "s_no": 314,
+          "members": [
+            {
+              "name": "Munshi hamid raza",
+              "enrollment": "2405112140054",
+              "mobile": "9328690385",
+              "program": "MCA, F"
+            }
+          ],
+          "project_title": "student information corner",
+          "project_description": "help to admin, student and faculty connection",
+          "front_end": "php, html, css",
+          "back_end": "xampp, mysql, apache"
+        }
+      ]
+    },
+    {
+      "company_name": "Internn Choice",
+      "address": "Pathardi Phata, Nashik",
+      "website": "https://internchoice.com/",
+      "contact": "9156646301",
+      "mentor": "Ajit Chaurasiya (Project Manager)",
+      "internal_guide": "Prof. Pratik Parmar",
+      "projects": [
+        {
+          "s_no": 315,
+          "members": [
+            {
+              "name": "Vivek Vikas Vispute",
+              "enrollment": "2405112120194",
+              "mobile": "9359786696",
+              "program": "MCA, C"
+            }
+          ],
+          "project_title": "Exam Portal",
+          "project_description": "In that Basically Working As exam taking portal which is designed for some aptitude test and some online exams from company side or college side",
+          "front_end": "HTML 5, CSS, JS, react js, vue js",
+          "back_end": "Node js + express js"
+        }
+      ]
+    },
+    {
+      "company_name": "Ecliptix solutions",
+      "address": "311 samnvay sequence near ambe school manjalpur vadodra",
+      "website": "https://ecliptixsolutions.com/",
+      "contact": "+91 98796 79565",
+      "mentor": "Parth Ram (CEO)",
+      "internal_guide": "Prof. Pratik Raj",
+      "projects": [
+        {
+          "s_no": 316,
+          "members": [
+            {
+              "name": "More Naimilkumar b",
+              "enrollment": "2405112140052",
+              "mobile": "9904639108",
+              "program": "MCA, F"
+            }
+          ],
+          "project_title": "Food Ordering App",
+          "project_description": "Android based food Ordering app that allows to users order the food items",
+          "front_end": "Xml",
+          "back_end": "Kotlin"
+        }
+      ]
+    },
+    {
+      "company_name": "YUVNEXUS DIGITAL PRIVATE LIMITED",
+      "address": "B-17, 2nd Floor, Above Royal Bakers, Glitz Circle, Ramnagar Road, Ajmer (Rajasthan) 305001",
+      "website": "yuvmedia.com",
+      "contact": "+91-8078671648",
+      "mentor": "Krishna Gopal",
+      "internal_guide": "Prof. Pritam",
+      "projects": [
+        {
+          "s_no": 317,
+          "members": [
+            {
+              "name": "Harshita Pancholi",
+              "enrollment": "2405112120064",
+              "mobile": "9001856267",
+              "program": "MCA, A"
+            }
+          ],
+          "project_title": "Online Shopping E-commerce Website",
+          "project_description": "An Online Shopping E-Commerce Website is a web-based platform that allows users to browse, select, and purchase products over the internet. It provides features such as product listings, search and filter options, user registration, shopping cart, secure payment methods, and order tracking. The system improves shopping convenience by enabling customers to shop anytime and from anywhere.",
+          "front_end": "HTML, CSS, BOOTSTRAP, JavaScript",
+          "back_end": "JDBC, Servlet, JSP, MySQL"
+        }
+      ]
+    },
+    {
+      "company_name": "Wearresist technology pvt ltd",
+      "address": "421-422 Por GIDC",
+      "website": "Www.Wearresist.com",
+      "contact": "9227445553",
+      "mentor": "Satish Singh (Assistant Commercial Manager)",
+      "internal_guide": "Prof. Priyanka Mod",
+      "projects": [
+        {
+          "s_no": 318,
+          "members": [
+            {
+              "name": "Divya kushwaha",
+              "enrollment": "2405112140043",
+              "mobile": "9033047432",
+              "program": "MCA, G"
+            }
+          ],
+          "project_title": "App on Store Management",
+          "project_description": "Stock management, Dispatch & Delivery.",
+          "front_end": "HTML, CSS, JAVASCRIPT",
+          "back_end": "PHP, MySQL"
+        }
+      ]
+    },
+    {
+      "company_name": "Codingcreators",
+      "address": "Hyderabad Telangana",
+      "website": "Codinggcreators.in",
+      "contact": "88978 14073",
+      "mentor": "Pawan Kalyan kopparapu (Front end, Backend)",
+      "internal_guide": "Prof. RamDeepak Yadagiri",
+      "projects": [
+        {
+          "s_no": 319,
+          "members": [
+            {
+              "name": "Anshuman Patidar",
+              "enrollment": "2405112130004",
+              "mobile": "+91 62622 10108",
+              "program": "MCA, D"
+            },
+            {
+              "name": "Atharv Sharma",
+              "enrollment": "2504112140010",
+              "mobile": "7746887113",
+              "program": "MCA, F"
+            },
+            {
+              "name": "Nikhil Agalcha",
+              "enrollment": "2405112140059",
+              "mobile": "7225047567",
+              "program": "MCA, F"
+            }
+          ],
+          "project_title": "Digital Shopping hub",
+          "project_description": "Digital Shopping Hub is a web-based e-commerce application designed to provide users with a convenient and secure online shopping experience. The system allows customers to browse products, view details, add items to a cart, and place orders through a user-friendly interface. It also includes an admin panel for managing products, categories, users, and orders efficiently.",
+          "front_end": "Html, css, js",
+          "back_end": "PHP, MySQL"
+        }
+      ]
+    },
+    {
+      "company_name": "Intellect design arena Ltd",
+      "address": "Plot No. 3/G3, SIPCOT IT Park, Siruseri, Chennai – 600 130, India",
+      "website": "https://www.intellectdesign.com/",
+      "contact": "soumyajeet.dey@intellectdesign.com",
+      "mentor": "Soumyajeet Dey (HR)",
+      "internal_guide": "Prof. Saikat Paramanik",
+      "projects": [
+        {
+          "s_no": 320,
+          "members": [
+            {
+              "name": "Manisha Bhardwaj",
+              "enrollment": "2405112110068",
+              "mobile": "+91 74174 36554",
+              "program": "MCA, H"
+            },
+            {
+              "name": "Purushotam Singh",
+              "enrollment": "2405112110098",
+              "mobile": "+91 62055 92068",
+              "program": "MCA, I"
+            },
+            {
+              "name": "Prajapati Ashishkumar",
+              "enrollment": "2405112110096",
+              "mobile": "9313696660",
+              "program": "MCA, I"
+            }
+          ],
+          "project_title": "Learning Management System(LMS)",
+          "project_description": "A Learning Management System (LMS) is a software application designed to manage, deliver, and monitor educational content and training programs through a digital platform",
+          "front_end": "Angular + TypeScript",
+          "back_end": "Java"
+        }
+      ]
+    },
+    {
+      "company_name": "TEJASKP AI Software",
+      "address": "Makarpura, vadodara",
+      "website": "www.tejaskpai.com",
+      "contact": "9104630598",
+      "mentor": "Tejas patel (Director, Project manager)",
+      "internal_guide": "Prof. Samant Kumar",
+      "projects": [
+        {
+          "s_no": 321,
+          "members": [
+            {
+              "name": "Devendra kale",
+              "enrollment": "2405112130015",
+              "mobile": "8530282103",
+              "program": "MCA, D"
+            },
+            {
+              "name": "Eliezer kanga",
+              "enrollment": "2405102130011",
+              "mobile": "9724128501",
+              "program": "MSC-IT, D"
+            }
+          ],
+          "project_title": "Hospital management system",
+          "project_description": "The Hospital Management System (HMS) is a comprehensive software solution designed to streamline and automate the operations of a hospital. The system ensures efficient management of patient records, doctor schedules, appointments, billing, pharmacy inventory, laboratory reports, and administrative tasks. It replaces manual processes with a digital platform that improves accuracy, reduces paperwork, and enhances the overall patient-care experience.",
+          "front_end": "Javafx",
+          "back_end": "Java, jdbc, mysql"
+        }
+      ]
+    },
+    {
+      "company_name": "TejasKP AI Software",
+      "address": "Makarpura GIDC vadodara",
+      "website": "intelsysncsol.com",
+      "contact": "+91 91046 30598",
+      "mentor": "Tejas patel (Manager)",
+      "internal_guide": "Prof. Saumil Trivedi",
+      "projects": [
+        {
+          "s_no": 322,
+          "members": [
+            {
+              "name": "Vicky Khambhatwala",
+              "enrollment": "2405112140041",
+              "mobile": "8866421921",
+              "program": "MCA, F"
+            },
+            {
+              "name": "Aayush hoshi",
+              "enrollment": "2405112130005",
+              "mobile": "+91 93133 52365",
+              "program": "MCA, D"
+            },
+            {
+              "name": "Darshan kaptan",
+              "enrollment": "2405112130016",
+              "mobile": "+91 88490 93111",
+              "program": "MCA, D"
+            }
+          ],
+          "project_title": "Online voting system",
+          "project_description": "An online voting system is a simple, efficient and secure solution for conducting elections digitally. By separating responsibilities like super Admin, admin and user panel. The system contains powerful management functionalities.",
+          "front_end": "ReactJs",
+          "back_end": "SpringBoot"
+        }
+      ]
+    },
+    {
+      "company_name": "BRAINY BEAM INFO TECH PVT .LTD",
+      "address": "7th Floor Premchand House, Near Old High Court Way Behind ICICI Bank, Ashram Road, Ahmedabad 380009",
+      "website": "https://brainybeaminfotech.com/",
+      "contact": "7433050202",
+      "mentor": "Sagar Jasani (Project Manager)",
+      "internal_guide": "Prof. Shivaniba Dilipsinh Bhadoriya",
+      "projects": [
+        {
+          "s_no": 323,
+          "members": [
+            {
+              "name": "CHETANA JANGIR",
+              "enrollment": "2405112120035",
+              "mobile": "9726726226",
+              "program": "MCA, A"
+            },
+            {
+              "name": "Barot Priyanshi Kamleshbhai",
+              "enrollment": "2405112070010",
+              "mobile": "9265542693",
+              "program": "MCA, E"
+            }
+          ],
+          "project_title": "Smart home Automation",
+          "project_description": "The Smart Home Automation System is designed to automate and control household appliances using modern technology such as the Internet of Things (IoT). This system allows users to control devices like lights, fans, air conditioners, and security systems remotely using a smartphone, computer, or voice commands. The main goal of this project is to improve convenience, energy efficiency, and home security. By integrating sensors, microcontrollers, and wireless communication, the system can monitor real-time conditions and perform actions automatically or based on user commands.",
+          "front_end": "Technologies Used: HTML – Structure of the web page, CSS – Styling, layout, and design, JavaScript – Interactive buttons, real-time updates, Bootstrap – Responsive and mobile-friendly design, Optional / Advanced: React.js – Dynamic single-page application, Flutter – Mobile app (Android & iOS), Android Studio (Java/Kotlin) – Android app interface. Front-End Functions: Appliance ON/OFF buttons, Real-time sensor data display, User login dashboard, Status indicators (light ON/OFF, temperature, motion)",
+          "back_end": "Technologies Used: Node.js – Server-side logic, Express.js – API creation, Python – Data processing & automation, PHP – Server scripting (optional). Database: MySQL – User and device data storage, MongoDB – Sensor data & logs, Firebase – Real-time database & authentication. IoT & Hardware Integration: Arduino / NodeMCU (ESP8266 / ESP32) – Microcontroller, MQTT Protocol – Real-time device communication, REST APIs – Front-end ↔ Back-end communication, Wi-Fi / Bluetooth – Connectivity"
+        }
+      ]
+    },
+    {
+      "company_name": "eye q dot net",
+      "address": "4th Floor, Kankanady Gate Building, Kankanady, Mangalore 575002",
+      "website": "www.eyeqdotnet.com",
+      "contact": "97405 09132",
+      "mentor": "Bhavana D Rao (HR)",
+      "internal_guide": "Prof. Tanmay Shah",
+      "projects": [
+        {
+          "s_no": 324,
+          "members": [
+            {
+              "name": "Nagati Upendar",
+              "enrollment": "2405102140020",
+              "mobile": "6301291491",
+              "program": "MSC-IT, I"
+            }
+          ],
+          "project_title": "Fake Website Detector",
+          "project_description": "The Fake Website Detector is a cybersecurity-based application designed to help users identify unsafe or fake websites before entering personal or financial information. The user simply enters a website URL, and the system analyzes it for common security indicators such as HTTPS/SSL availability, domain age, and suspicious patterns commonly used in phishing websites.",
+          "front_end": "Frontend — HTML, CSS, JavaScript",
+          "back_end": "Backend — Python, Flask, WHOIS, SSL/HTTPS checks"
+        }
+      ]
+    },
+    {
+      "company_name": "National Forensic Science's University",
+      "address": "Gandhinagar Gujarat",
+      "website": "https://www.nfsu.ac.in/",
+      "contact": "07923977106",
+      "mentor": "Dr. Pratik Patel (Associate professor)",
+      "internal_guide": "Prof.Rinkal Sarvaiya",
+      "projects": [
+        {
+          "s_no": 325,
+          "members": [
+            {
+              "name": "Vedant S Khaire",
+              "enrollment": "2405102140042",
+              "mobile": "8411879137",
+              "program": "MSC-IT, F"
+            }
+          ],
+          "project_title": "Sensca (Smart Engine for Scam Detection & Analysis)",
+          "project_description": "Sensca is an AI-powered scam detection and intelligence platform that analyzes messages and embedded links to identify phishing and smishing scams. It assigns a risk score, classifies scam types, safely analyzes suspicious websites in a sandboxed environment, generates digital evidence, and enables one-click reporting to cybercrime authorities. The system uses an autonomous AI agent to perform background analysis and provide user awareness with scam trends and insights.",
+          "front_end": "Flutter",
+          "back_end": "Python"
+        }
+      ]
+    } 
   ]
 
 
