@@ -8588,7 +8588,163 @@
           "back_end": "Python"
         }
       ]
-    } 
+    },
+     {
+      "company_name": "Citadel infotech",
+      "address": "Vadodara",
+      "website": "@Mahi.com",
+      "contact": "8320270884",
+      "mentor": "Keval sir (Web developer)",
+      "internal_guide": "Prof. Smarika Rai",
+      "projects": [
+        {
+          "s_no": 326,
+          "members": [
+            {
+              "name": "Kirtan kunvriya",
+              "enrollment": "2405112120088",
+              "mobile": "9726142754",
+              "program": "MCA, B"
+            }
+          ],
+          "project_title": "Hotel management",
+          "project_description": "I want make hotel management system",
+          "front_end": "HTML css js",
+          "back_end": "Php MySQL"
+        }
+      ]
+    },
+    {
+      "company_name": "Cognito",
+      "address": "10th Floor Commerce Center opp. Bbc tower sayajigunj",
+      "website": "Cognitoindia.com",
+      "contact": "8780943411",
+      "mentor": "Ganesh (It Manager)",
+      "internal_guide": "Prof. Uma Bhati",
+      "projects": [
+        {
+          "s_no": 327,
+          "members": [
+            {
+              "name": "Jayswal Ajay",
+              "enrollment": "2405112070021",
+              "mobile": "6351707918",
+              "program": "MCA, E"
+            }
+          ],
+          "project_title": "Web Application Development",
+          "project_description": "We are working for full booking module like Bookmyshow",
+          "front_end": ".net Mvc",
+          "back_end": ".net Mvc"
+        }
+      ]
+    },
+    {
+      "company_name": "Design My Holidays",
+      "address": "God Dodh, Vesu, Surat",
+      "website": "NA",
+      "contact": "8980790752",
+      "mentor": "Hatim Dhanerawala (Managing Partner)",
+      "internal_guide": "Prof.Chandankumar Singh",
+      "projects": [
+        {
+          "s_no": 328,
+          "members": [
+            {
+              "name": "Taha Dhanerawala",
+              "enrollment": "2405112110030",
+              "mobile": "8980888816",
+              "program": "MCA, H"
+            },
+            {
+              "name": "Sweni Patel",
+              "enrollment": "2405112110093",
+              "mobile": "9313169442",
+              "program": "MCA, I"
+            }
+          ],
+          "project_title": "Online Event Booking & Management Platform",
+          "project_description": "The Online Event Booking & Management Platform addresses these challenges by providing a scalable and user-friendly solution that automates event creation, registration, and tracking. By leveraging modern web technologies, the system ensures secure access, seamless booking, and efficient management of events.",
+          "front_end": "HTML, CSS, JavaScript, React JS, Vite, Express JS",
+          "back_end": "Node JS, MongoDB"
+        }
+      ]
+    },
+    {
+      "company_name": "SafeAeon",
+      "address": "Chandigarh",
+      "website": "Na",
+      "contact": "Na",
+      "mentor": "Na",
+      "internal_guide": "prof. Sahil Kumar",
+      "projects": [
+        {
+          "s_no": 329,
+          "members": [
+            {
+              "name": "Sourabh Sharma",
+              "enrollment": "2405102140040",
+              "mobile": "6230236047",
+              "program": "MSC-IT, I"
+            }
+          ],
+          "project_title": "Soc",
+          "project_description": "Cyber security",
+          "front_end": "No",
+          "back_end": "No"
+        }
+      ]
+    },
+    {
+      "company_name": "MyOnsiteHealthcare",
+      "address": "404, 4th Floor, Pancham High Street, myOnsite Healthcare Pvt. Ltd, Old Padra Rd, opp. Bankers Heart Institute, Vadodara, Gujarat 390007",
+      "website": "https://myonsitehealthcare.in/",
+      "contact": "+91  9898953901",
+      "mentor": "Mit Patel (AI/ML)",
+      "internal_guide": "Prof. Vishakha Bathwar",
+      "projects": [
+        {
+          "s_no": 330,
+          "members": [
+            {
+              "name": "Shreyal Yogeshkumar Patel",
+              "enrollment": "2405112120176",
+              "mobile": "8849728536",
+              "program": "MCA, C"
+            }
+          ],
+          "project_title": "Blood drawn testing",
+          "project_description": "software analysis in AI/ML development",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
+    },
+    {
+      "company_name": "JD Builders And Consultancy",
+      "address": "Sirohi, Rajasthan",
+      "website": "GroupOfJdIndustries.com",
+      "contact": "8058942242",
+      "mentor": "Jaswant Deora (Owner)",
+      "internal_guide": "prof. satyamani Gayatri",
+      "projects": [
+        {
+          "s_no": 331,
+          "members": [
+            {
+              "name": "Khushal Mali",
+              "enrollment": "2405112110054",
+              "mobile": "8955921898",
+              "program": "MCA, H"
+            }
+          ],
+          "project_title": "JD Builders And Consultancy",
+          "project_description": "JD Builders And Consultancy is a growing construction and consulting firm that provides reliable and cost-effective solutions in the field of civil construction and infrastructure development. The company is involved in residential, commercial, and small-scale industrial projects, focusing on quality construction, modern design, and customer satisfaction.",
+          "front_end": "React.Js",
+          "back_end": "Node.js, Express.js"
+        }
+      ]
+    }
   ]
 
 
