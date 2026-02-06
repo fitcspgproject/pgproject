@@ -8800,8 +8800,34 @@
           "back_end": "Java, Advanced Java (Servlet & JSP)"
         }
       ]
+    },
+  {
+       "company_name": "Jhex consulting LLp",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Prof. Vipul Gamit",
+      "projects": [
+        {
+          "s_no": 334,
+          "members": [
+            {
+              "name": "Lilyna Nameirakpam",
+              "enrollment": "2505112110062",
+              "mobile": "",
+              "program": "MCA"
+            }
+          ],
+          "project_title": "",
+          "project_description": "",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
     }
-  ]
+
+  
 
 
 
