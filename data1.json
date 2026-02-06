@@ -8744,8 +8744,65 @@
           "back_end": "Node.js, Express.js"
         }
       ]
+    },
+  {
+       "company_name": "Arch Development Foundation",
+      "address": "Gotri, Vadodara",
+      "website": "www.archfoundation.in",
+      "contact": "8238009635",
+      "mentor": "Sonal Chouhan (Manager)",
+      "internal_guide": "Prof. Nargani Sathibabu",
+      "projects": [
+        {
+          "s_no": 332,
+          "members": [
+            {
+              "name": "Abhishek Kumar",
+              "enrollment": "2405112120002",
+              "mobile": "9601453801",
+              "program": "MCA, A"
+            },
+            {
+              "name": "Aditya Raj",
+              "enrollment": "2405112120007",
+              "mobile": "9905402803",
+              "program": "MCA, A"
+            }
+          ],
+          "project_title": "PlagZap- AI powered Plagiarism & AI Detection tool",
+          "project_description": "PlagZap is an AI-powered plagiarism and content authenticity tool that detects copied and AI-generated text within seconds. It provides detailed similarity reports, percentage scores, and source highlights to ensure originality and build trust in digital content creation.",
+          "front_end": "React",
+          "back_end": "Node JS"
+        }
+      ]
+    },
+    {
+      "company_name": "Commando Security Force",
+      "address": "Atmiya Complex, TF-304, Maneja Crossing Rd, near SBI ATM, JD Nagar, Makarpura, Vadodara, Gujarat 390013",
+      "website": "http://www.commandosecurityforce.in/",
+      "contact": "+91 90992 81868",
+      "mentor": "Amardeep Kumar (CBDO - Chief Business Development Officer)",
+      "internal_guide": "Prof. Nargani Sathibabu",
+      "projects": [
+        {
+          "s_no": 333,
+          "members": [
+            {
+              "name": "Akhilesh Yadav",
+              "enrollment": "2405112070070",
+              "mobile": "9998894435",
+              "program": "MCA, E"
+            }
+          ],
+          "project_title": "Office time",
+          "project_description": "Office Time is an employee work tracking and attendance management system. The project is designed to monitor daily working hours, login–logout time, task completion status, and overall productivity of employees. It helps organizations track completed work, manage employee records, generate reports, and improve transparency between management and employees. The system ensures accurate time tracking and efficient workforce management.",
+          "front_end": "HTML, CSS, JavaScript",
+          "back_end": "Java, Advanced Java (Servlet & JSP)"
+        }
+      ]
     }
   ]
+
 
 
 
