@@ -358,16 +358,19 @@
             <section class="input-section">
                 <h2 class="section-title"><i class="fas fa-search"></i> Student Lookup</h2>
                 
-                <div class="input-group">
-                    <label for="enrollmentNo">Enter Enrollment Number</label>
-                    <input 
-                        type="text" 
-                        id="enrollmentNo" 
-                        class="enrollment-input" 
-                        placeholder="e.g., 2305101020021"
-                        maxlength="13"
-                    >
-                </div>
+            <!-- In the input section of the HTML file, update the input field -->
+<div class="input-group">
+    <label for="enrollmentNo">Enter Enrollment Number</label>
+    <input 
+        type="tel"  <!-- Changed from text to tel for better mobile keyboard -->
+        id="enrollmentNo" 
+        class="enrollment-input" 
+        placeholder="e.g., 2305-101-020-021"
+        inputmode="numeric"  <!-- Shows numeric keyboard on mobile -->
+        pattern="[0-9\-]*"   <!-- Allows digits and dashes -->
+        autocomplete="off"
+    >
+</div>
                 
                 <button id="lookupBtn" class="btn">
                     <i class="fas fa-id-card"></i> Get Student Details
@@ -375,7 +378,7 @@
                 
                 <div class="loading-spinner" id="loadingSpinner">
                     <div class="spinner"></div>
-                    <p>Fetching student data from mentor.json...</p>
+                    <p>Fetching student data ...</p>
                 </div>
                 
                 <div class="error-message" id="errorMessage">
@@ -436,6 +439,8 @@ document.addEventListener('contextmenu', function(e) {
   return false;
 });
 
+        // app.js - Handles fetching data from mentor.json and updating UI
+
 document.addEventListener('DOMContentLoaded', function() {
     // DOM Elements
     const enrollmentInput = document.getElementById('enrollmentNo');
@@ -486,7 +491,8 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Handle lookup button click
     lookupBtn.addEventListener('click', function() {
-        const enrollmentNo = enrollmentInput.value.trim().replace(/-/g, '');
+        // Remove all non-digit characters and dashes
+        const enrollmentNo = enrollmentInput.value.replace(/[^\d]/g, '');
         
         if (!enrollmentNo) {
             showError('Please enter an enrollment number.');
@@ -495,8 +501,14 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         
         // Validate enrollment number format (13 digits)
+        if (enrollmentNo.length !== 13) {
+            showError(`Please enter exactly 13 digits. You entered ${enrollmentNo.length} digits.`);
+            enrollmentInput.focus();
+            return;
+        }
+        
         if (!/^\d{13}$/.test(enrollmentNo)) {
-            showError('Please enter a valid 13-digit enrollment number.');
+            showError('Please enter a valid 13-digit enrollment number containing only digits.');
             enrollmentInput.focus();
             return;
         }
@@ -548,7 +560,7 @@ document.addEventListener('DOMContentLoaded', function() {
             
             if (student) {
                 // Update UI with student data
-                enrollmentDisplay.textContent = `Enrollment: ${student.enrollment_no}`;
+                enrollmentDisplay.textContent = `Enrollment: ${formatEnrollmentNumber(student.enrollment_no)}`;
                 studentName.textContent = student.student_name;
                 studentProgram.textContent = student.student_program;
                 studentMinor.textContent = student.minor;
@@ -563,7 +575,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 }
             } else {
                 // Show not found state
-                enrollmentDisplay.textContent = `Enrollment: ${enrollmentNo}`;
+                enrollmentDisplay.textContent = `Enrollment: ${formatEnrollmentNumber(enrollmentNo)}`;
                 studentName.textContent = "Student Not Found";
                 studentProgram.textContent = "No data available for this enrollment number";
                 studentMinor.textContent = "No data available";
@@ -572,7 +584,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 // Show result section with error
                 resultSection.classList.add('active');
                 
-                showError(`Student with enrollment number ${enrollmentNo} not found in the database.`);
+                showError(`Student with enrollment number ${formatEnrollmentNumber(enrollmentNo)} not found in the database.`);
             }
             
         } catch (error) {
@@ -581,6 +593,14 @@ document.addEventListener('DOMContentLoaded', function() {
         } finally {
             resetButton();
         }
+    }
+    
+    // Function to format enrollment number with dashes
+    function formatEnrollmentNumber(enrollmentNo) {
+        const digits = enrollmentNo.replace(/\D/g, '');
+        if (digits.length !== 13) return enrollmentNo;
+        
+        return `${digits.substring(0,4)}-${digits.substring(4,7)}-${digits.substring(7,10)}-${digits.substring(10,13)}`;
     }
     
     // Function to reset button state
@@ -595,10 +615,15 @@ document.addEventListener('DOMContentLoaded', function() {
         errorText.textContent = message;
         errorMessage.classList.add('active');
         
-        // Auto-hide error after 5 seconds
+        // Scroll to error message on mobile
+        if (window.innerWidth < 768) {
+            errorMessage.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        }
+        
+        // Auto-hide error after 8 seconds
         setTimeout(() => {
             clearError();
-        }, 5000);
+        }, 8000);
     }
     
     // Function to clear error message
@@ -618,6 +643,7 @@ document.addEventListener('DOMContentLoaded', function() {
     enrollmentInput.addEventListener('input', function() {
         let value = enrollmentInput.value.replace(/\D/g, '');
         
+        // Remove maxlength restriction for mobile compatibility
         // Format as 13-digit number with dashes: XXXX-XXX-XXX-XXXX
         if (value.length > 4) {
             value = value.substring(0,4) + '-' + value.substring(4);
@@ -629,11 +655,172 @@ document.addEventListener('DOMContentLoaded', function() {
             value = value.substring(0,12) + '-' + value.substring(12,16);
         }
         
-        enrollmentInput.value = value.substring(0, 16); // Limit to 13 digits + 3 dashes
+        // Allow up to 16 characters (13 digits + 3 dashes)
+        enrollmentInput.value = value.substring(0, 16);
+        
+        // Update character count display for user feedback
+        const digitCount = value.replace(/\D/g, '').length;
+        updateCharCount(digitCount);
     });
+    
+    // Function to update character count display
+    function updateCharCount(count) {
+        // Remove any existing char count display
+        let charCountElement = document.getElementById('charCount');
+        if (!charCountElement) {
+            charCountElement = document.createElement('div');
+            charCountElement.id = 'charCount';
+            charCountElement.style.cssText = `
+                font-size: 0.9rem;
+                color: #666;
+                margin-top: 5px;
+                text-align: right;
+            `;
+            enrollmentInput.parentNode.appendChild(charCountElement);
+        }
+        
+        // Update count display
+        charCountElement.textContent = `${count}/13 digits`;
+        charCountElement.style.color = count === 13 ? '#28a745' : (count > 13 ? '#dc3545' : '#666');
+        
+        // Show warning if not 13 digits
+        if (count > 0 && count !== 13) {
+            charCountElement.innerHTML += ` <span style="color:#ffc107;">(Need ${13 - count} more)</span>`;
+        }
+    }
     
     // Clear error when user starts typing
     enrollmentInput.addEventListener('input', clearError);
-});</script>
+    
+    // Add a clear button for mobile users
+    function addClearButton() {
+        const inputGroup = document.querySelector('.input-group');
+        const clearBtn = document.createElement('button');
+        clearBtn.type = 'button';
+        clearBtn.innerHTML = '<i class="fas fa-times"></i>';
+        clearBtn.title = 'Clear field';
+        clearBtn.style.cssText = `
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: transparent;
+            border: none;
+            color: #999;
+            font-size: 1rem;
+            cursor: pointer;
+            padding: 5px;
+            display: none;
+        `;
+        
+        // Style the input to accommodate the clear button
+        enrollmentInput.style.paddingRight = '40px';
+        enrollmentInput.parentNode.style.position = 'relative';
+        enrollmentInput.parentNode.appendChild(clearBtn);
+        
+        // Show/hide clear button based on input
+        enrollmentInput.addEventListener('input', function() {
+            clearBtn.style.display = this.value ? 'block' : 'none';
+        });
+        
+        // Clear input when button clicked
+        clearBtn.addEventListener('click', function() {
+            enrollmentInput.value = '';
+            enrollmentInput.focus();
+            clearBtn.style.display = 'none';
+            clearError();
+            
+            // Clear character count
+            const charCountElement = document.getElementById('charCount');
+            if (charCountElement) {
+                charCountElement.textContent = '';
+            }
+        });
+    }
+    
+    // Initialize clear button
+    addClearButton();
+    
+    // Add example enrollment numbers for easy testing on mobile
+    function addExampleButtons() {
+        const examplesContainer = document.createElement('div');
+        examplesContainer.style.cssText = `
+            margin-top: 15px;
+            padding: 10px;
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            border-left: 3px solid #0066cc;
+        `;
+        
+        const examplesTitle = document.createElement('div');
+        examplesTitle.textContent = 'Try these example enrollment numbers:';
+        examplesTitle.style.cssText = 'font-weight: 600; color: #333; margin-bottom: 8px; font-size: 0.95rem;';
+        
+        const examplesList = document.createElement('div');
+        examplesList.style.cssText = 'display: flex; flex-wrap: wrap; gap: 8px;';
+        
+        // Example enrollment numbers from mentor.json
+        const examples = ['2305101020021', '2305101020015', '2305101020030'];
+        
+        examples.forEach(enrollment => {
+            const exampleBtn = document.createElement('button');
+            exampleBtn.type = 'button';
+            exampleBtn.textContent = formatEnrollmentNumber(enrollment);
+            exampleBtn.style.cssText = `
+                background: #e9ecef;
+                border: 1px solid #ced4da;
+                border-radius: 4px;
+                padding: 6px 10px;
+                font-size: 0.85rem;
+                cursor: pointer;
+                color: #495057;
+                transition: all 0.2s;
+            `;
+            
+            exampleBtn.addEventListener('mouseenter', function() {
+                this.style.background = '#dae0e5';
+            });
+            
+            exampleBtn.addEventListener('mouseleave', function() {
+                this.style.background = '#e9ecef';
+            });
+            
+            exampleBtn.addEventListener('click', function() {
+                enrollmentInput.value = formatEnrollmentNumber(enrollment);
+                enrollmentInput.focus();
+                
+                // Update character count
+                updateCharCount(13);
+                
+                // Show clear button
+                const clearBtn = enrollmentInput.parentNode.querySelector('button');
+                if (clearBtn) clearBtn.style.display = 'block';
+                
+                // Auto-submit after a short delay on mobile
+                if (window.innerWidth < 768) {
+                    setTimeout(() => {
+                        lookupBtn.click();
+                    }, 300);
+                }
+            });
+            
+            examplesList.appendChild(exampleBtn);
+        });
+        
+        examplesContainer.appendChild(examplesTitle);
+        examplesContainer.appendChild(examplesList);
+        
+        // Insert after the input field
+        const instructions = document.querySelector('.instructions');
+        instructions.parentNode.insertBefore(examplesContainer, instructions);
+    }
+    
+    // Add example buttons on mobile
+    if (window.innerWidth < 768) {
+        addExampleButtons();
+    }
+});
+
+</script>
 </body>
 </html>
