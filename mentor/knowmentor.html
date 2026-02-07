@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parul University - Student Enrollment System</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f5f9ff;
+            color: #333;
+            line-height: 1.6;
+            min-height: 100vh;
+            background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            background: linear-gradient(to right, #004080, #0066cc);
+            color: white;
+            padding: 25px 0;
+            text-align: center;
+            border-radius: 0 0 15px 15px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        header::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 5px;
+            background: linear-gradient(to right, #ff9900, #ffcc00);
+        }
+        
+        .header-content {
+            position: relative;
+            z-index: 1;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 8px;
+            letter-spacing: 1px;
+        }
+        
+        .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            font-weight: 300;
+            margin-bottom: 5px;
+        }
+        
+        .department {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #ffcc00;
+            margin-top: 10px;
+        }
+        
+        .main-content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+        
+        .input-section {
+            flex: 1;
+            min-width: 300px;
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+        }
+        
+        .result-section {
+            flex: 1;
+            min-width: 300px;
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+            display: none;
+        }
+        
+        .result-section.active {
+            display: block;
+            animation: fadeIn 0.5s ease;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .section-title {
+            font-size: 1.6rem;
+            color: #004080;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #f0f0f0;
+            display: flex;
+            align-items: center;
+        }
+        
+        .section-title i {
+            margin-right: 10px;
+            color: #0066cc;
+        }
+        
+        .input-group {
+            margin-bottom: 25px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #333;
+        }
+        
+        .enrollment-input {
+            width: 100%;
+            padding: 15px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            transition: all 0.3s;
+        }
+        
+        .enrollment-input:focus {
+            border-color: #0066cc;
+            outline: none;
+            box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.2);
+        }
+        
+        .btn {
+            background: linear-gradient(to right, #004080, #0066cc);
+            color: white;
+            border: none;
+            padding: 15px 25px;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+        }
+        
+        .btn:hover {
+            background: linear-gradient(to right, #003366, #0052a3);
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 102, 204, 0.3);
+        }
+        
+        .btn i {
+            margin-right: 10px;
+        }
+        
+        .btn:disabled {
+            background: #cccccc;
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: none;
+        }
+        
+        .student-info {
+            margin-top: 20px;
+        }
+        
+        .info-row {
+            display: flex;
+            margin-bottom: 15px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        
+        .info-label {
+            flex: 0 0 180px;
+            font-weight: 600;
+            color: #555;
+        }
+        
+        .info-value {
+            flex: 1;
+            color: #333;
+        }
+        
+        .enrollment-display {
+            background: linear-gradient(to right, #004080, #0066cc);
+            color: white;
+            padding: 12px 20px;
+            border-radius: 8px;
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 25px;
+            text-align: center;
+            letter-spacing: 1px;
+        }
+        
+        .student-name {
+            font-size: 1.8rem;
+            color: #004080;
+            margin-bottom: 10px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+        
+        .no-data {
+            text-align: center;
+            padding: 40px 20px;
+            color: #666;
+        }
+        
+        .no-data i {
+            font-size: 3rem;
+            color: #ccc;
+            margin-bottom: 15px;
+        }
+        
+        .university-logo {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        
+        .logo-circle {
+            width: 100px;
+            height: 100px;
+            background: linear-gradient(to right, #004080, #0066cc);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 2.5rem;
+            font-weight: bold;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            color: #666;
+            font-size: 0.9rem;
+            border-top: 1px solid #ddd;
+        }
+        
+        .instructions {
+            background-color: #f0f7ff;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 20px;
+            font-size: 0.95rem;
+            color: #555;
+            border-left: 4px solid #0066cc;
+        }
+        
+        .error-message {
+            background-color: #ffe6e6;
+            color: #cc0000;
+            padding: 12px;
+            border-radius: 6px;
+            margin-top: 15px;
+            border-left: 4px solid #cc0000;
+            display: none;
+        }
+        
+        .error-message.active {
+            display: block;
+            animation: fadeIn 0.3s ease;
+        }
+        
+        .loading-spinner {
+            display: none;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .loading-spinner.active {
+            display: block;
+        }
+        
+        .spinner {
+            border: 4px solid rgba(0, 0, 0, 0.1);
+            border-radius: 50%;
+            border-top: 4px solid #0066cc;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 15px auto;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        @media (max-width: 768px) {
+            .main-content {
+                flex-direction: column;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .department {
+                font-size: 1.2rem;
+            }
+            
+            .info-row {
+                flex-direction: column;
+            }
+            
+            .info-label {
+                flex: 1;
+                margin-bottom: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-content">
+                <div class="university-logo">
+                    <div class="logo-circle">PU</div>
+                </div>
+                <h1>Parul University</h1>
+                <div class="subtitle">Faculty of Information Technology & Computer Science</div>
+                <div class="department">BCA/B.Sc/MCA/M.Sc./IMCA</div>
+            </div>
+        </header>
+        
+        <main class="main-content">
+            <section class="input-section">
+                <h2 class="section-title"><i class="fas fa-search"></i> Student Lookup</h2>
+                
+                <div class="input-group">
+                    <label for="enrollmentNo">Enter Enrollment Number</label>
+                    <input 
+                        type="text" 
+                        id="enrollmentNo" 
+                        class="enrollment-input" 
+                        placeholder="e.g., 2305101020021"
+                        maxlength="13"
+                    >
+                </div>
+                
+                <button id="lookupBtn" class="btn">
+                    <i class="fas fa-id-card"></i> Get Student Details
+                </button>
+                
+                <div class="loading-spinner" id="loadingSpinner">
+                    <div class="spinner"></div>
+                    <p>Fetching student data from mentor.json...</p>
+                </div>
+                
+                <div class="error-message" id="errorMessage">
+                    <i class="fas fa-exclamation-circle"></i> <span id="errorText"></span>
+                </div>
+                
+                <div class="instructions">
+                    <p><strong>Instructions:</strong> Enter your 13-digit enrollment number exactly as provided by the university. The system will retrieve your student details including program, minor, and mentor information from the mentor.json file.</p>
+                   
+                </div>
+            </section>
+            
+            <section id="resultSection" class="result-section">
+                <h2 class="section-title"><i class="fas fa-user-graduate"></i> Student Details</h2>
+                
+                <div class="enrollment-display" id="enrollmentDisplay">Enrollment Number</div>
+                
+                <div class="student-name" id="studentName">Student Name</div>
+                
+                <div class="student-info">
+                    <div class="info-row">
+                        <div class="info-label">Program:</div>
+                        <div class="info-value" id="studentProgram">Not available</div>
+                    </div>
+                    
+                    <div class="info-row">
+                        <div class="info-label">Minor:</div>
+                        <div class="info-value" id="studentMinor">Not available</div>
+                    </div>
+                    
+                    <div class="info-row">
+                        <div class="info-label">Mentor:</div>
+                        <div class="info-value" id="mentorName">Not available</div>
+                    </div>
+                </div>
+                
+                <div class="instructions">
+                    <p><strong>Note:</strong> If any information appears incorrect, please contact the Faculty of Information Technology & Computer Science administration office.</p>
+                </div>
+            </section>
+        </main>
+        
+        <footer>
+            <p>Parul University - Faculty of Information Technology & Computer Science</p>
+            <p>Vadodara, Gujarat, India | © 2026 All Rights Reserved</p>
+            <p>This system is for official university use only.</p>
+        </footer>
+    </div>
+
+    <script>document.addEventListener('contextmenu', function(e) {
+  e.preventDefault();
+});
+
+// Disable with alert message
+document.addEventListener('contextmenu', function(e) {
+  e.preventDefault();
+  alert('Right-click is disabled on this page!');
+  return false;
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+    // DOM Elements
+    const enrollmentInput = document.getElementById('enrollmentNo');
+    const lookupBtn = document.getElementById('lookupBtn');
+    const resultSection = document.getElementById('resultSection');
+    const enrollmentDisplay = document.getElementById('enrollmentDisplay');
+    const studentName = document.getElementById('studentName');
+    const studentProgram = document.getElementById('studentProgram');
+    const studentMinor = document.getElementById('studentMinor');
+    const mentorName = document.getElementById('mentorName');
+    const loadingSpinner = document.getElementById('loadingSpinner');
+    const errorMessage = document.getElementById('errorMessage');
+    const errorText = document.getElementById('errorText');
+    
+    // Variables
+    let mentorData = {};
+    
+    // Focus on enrollment input on page load
+    enrollmentInput.focus();
+    
+    // Load mentor.json data on page load
+    loadMentorData();
+    
+    // Function to load data from mentor.json
+    async function loadMentorData() {
+        try {
+            console.log('Loading mentor.json data...');
+            
+            // Fetch data from mentor.json
+            const response = await fetch('mentor.json');
+            
+            if (!response.ok) {
+                throw new Error(`Failed to load mentor.json: ${response.status} ${response.statusText}`);
+            }
+            
+            mentorData = await response.json();
+            console.log('Mentor data loaded successfully:', mentorData);
+            
+            // Enable the lookup button
+            lookupBtn.disabled = false;
+            
+        } catch (error) {
+            console.error('Error loading mentor.json:', error);
+            showError(`Unable to load student database: ${error.message}. Please try again later.`);
+            lookupBtn.disabled = true;
+        }
+    }
+    
+    // Handle lookup button click
+    lookupBtn.addEventListener('click', function() {
+        const enrollmentNo = enrollmentInput.value.trim().replace(/-/g, '');
+        
+        if (!enrollmentNo) {
+            showError('Please enter an enrollment number.');
+            enrollmentInput.focus();
+            return;
+        }
+        
+        // Validate enrollment number format (13 digits)
+        if (!/^\d{13}$/.test(enrollmentNo)) {
+            showError('Please enter a valid 13-digit enrollment number.');
+            enrollmentInput.focus();
+            return;
+        }
+        
+        // Clear previous error
+        clearError();
+        
+        // Show loading spinner
+        loadingSpinner.classList.add('active');
+        lookupBtn.disabled = true;
+        lookupBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Searching...';
+        
+        // Simulate slight delay for better UX
+        setTimeout(() => {
+            lookupStudent(enrollmentNo);
+        }, 500);
+    });
+    
+    // Function to look up student by enrollment number
+    function lookupStudent(enrollmentNo) {
+        try {
+            // Check if data is loaded
+            if (Object.keys(mentorData).length === 0) {
+                showError('Student database not loaded. Please refresh the page and try again.');
+                resetButton();
+                return;
+            }
+            
+            // Find student in data
+            // Assuming mentor.json structure: array of student objects
+            let student = null;
+            
+            // Check different possible structures
+            if (Array.isArray(mentorData)) {
+                // If mentor.json is an array
+                student = mentorData.find(s => s.enrollment_no === enrollmentNo);
+            } else if (mentorData[enrollmentNo]) {
+                // If mentor.json is an object with enrollment as keys
+                student = mentorData[enrollmentNo];
+            } else {
+                // If mentor.json is an object with nested structure
+                for (const key in mentorData) {
+                    if (mentorData[key] && mentorData[key].enrollment_no === enrollmentNo) {
+                        student = mentorData[key];
+                        break;
+                    }
+                }
+            }
+            
+            if (student) {
+                // Update UI with student data
+                enrollmentDisplay.textContent = `Enrollment: ${student.enrollment_no}`;
+                studentName.textContent = student.student_name;
+                studentProgram.textContent = student.student_program;
+                studentMinor.textContent = student.minor;
+                mentorName.textContent = student.mentor_name;
+                
+                // Show result section
+                resultSection.classList.add('active');
+                
+                // Scroll to result section on mobile
+                if (window.innerWidth < 768) {
+                    resultSection.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                }
+            } else {
+                // Show not found state
+                enrollmentDisplay.textContent = `Enrollment: ${enrollmentNo}`;
+                studentName.textContent = "Student Not Found";
+                studentProgram.textContent = "No data available for this enrollment number";
+                studentMinor.textContent = "No data available";
+                mentorName.textContent = "No data available";
+                
+                // Show result section with error
+                resultSection.classList.add('active');
+                
+                showError(`Student with enrollment number ${enrollmentNo} not found in the database.`);
+            }
+            
+        } catch (error) {
+            console.error('Error looking up student:', error);
+            showError(`An error occurred while searching: ${error.message}`);
+        } finally {
+            resetButton();
+        }
+    }
+    
+    // Function to reset button state
+    function resetButton() {
+        loadingSpinner.classList.remove('active');
+        lookupBtn.disabled = false;
+        lookupBtn.innerHTML = '<i class="fas fa-id-card"></i> Get Student Details';
+    }
+    
+    // Function to show error message
+    function showError(message) {
+        errorText.textContent = message;
+        errorMessage.classList.add('active');
+        
+        // Auto-hide error after 5 seconds
+        setTimeout(() => {
+            clearError();
+        }, 5000);
+    }
+    
+    // Function to clear error message
+    function clearError() {
+        errorMessage.classList.remove('active');
+        errorText.textContent = '';
+    }
+    
+    // Allow pressing Enter to trigger lookup
+    enrollmentInput.addEventListener('keypress', function(e) {
+        if (e.key === 'Enter') {
+            lookupBtn.click();
+        }
+    });
+    
+    // Format enrollment number as user types (add dashes for readability)
+    enrollmentInput.addEventListener('input', function() {
+        let value = enrollmentInput.value.replace(/\D/g, '');
+        
+        // Format as 13-digit number with dashes: XXXX-XXX-XXX-XXXX
+        if (value.length > 4) {
+            value = value.substring(0,4) + '-' + value.substring(4);
+        }
+        if (value.length > 8) {
+            value = value.substring(0,8) + '-' + value.substring(8);
+        }
+        if (value.length > 12) {
+            value = value.substring(0,12) + '-' + value.substring(12,16);
+        }
+        
+        enrollmentInput.value = value.substring(0, 16); // Limit to 13 digits + 3 dashes
+    });
+    
+    // Clear error when user starts typing
+    enrollmentInput.addEventListener('input', clearError);
+});</script>
+</body>
+</html>
