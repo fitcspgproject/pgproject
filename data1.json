@@ -8851,7 +8851,88 @@
           "back_end": ""
         }
       ]
+        },
+  {
+      "company_name": "Maincrafts technology",
+      "address": "Noida, Uttar Pradesh",
+      "website": "https://maincrafts.com/",
+      "contact": "+91 8920243013",
+      "mentor": "Gaurav tomar (Mentor)",
+      "internal_guide": "Prof. Faruk Abdulla",
+      "projects": [
+        {
+          "s_no": 336,
+          "members": [
+            {
+              "name": "Kaif ali ansari",
+              "enrollment": "2405112110047",
+              "mobile": "9106756419",
+              "program": "MCA, H"
+            },
+            {
+              "name": "Malik Alzaid Rizvan",
+              "enrollment": "2405112110066",
+              "mobile": "7016485927",
+              "program": "MCA, H"
+            }
+          ],
+          "project_title": "Travel Booking website",
+          "project_description": "We developed a website for travel booking",
+          "front_end": "Html, css, js",
+          "back_end": "Php"
         }
+      ]
+    },
+    {
+      "company_name": "ULTRON Technologies",
+      "address": "202 Ultron Technologies, Bazar Radhaswami, Above Poptos, Mota Bazar, VV Nagar",
+      "website": "www.Ultrontechnologies.in",
+      "contact": "7990456948",
+      "mentor": "Sumit Chawla, Bansi parmar",
+      "internal_guide": "Prof. Vivek Dave",
+      "projects": [
+        {
+          "s_no": 337,
+          "members": [
+            {
+              "name": "Mali Ronak Jayeshbhai",
+              "enrollment": "2405112120098",
+              "mobile": "7016527170",
+              "program": "MCA, B"
+            }
+          ],
+          "project_title": "Ice cream delight",
+          "project_description": "Ice Cream Delight is a luscious, creamy dessert that melts smoothly in your mouth, offering a perfect balance of sweetness and flavor. Each scoop is rich and velvety, crafted from fresh cream and premium ingredients. Whether it's classic vanilla with its comforting aroma, decadent chocolate swirled with fudge, or fruity bursts of strawberry, every bite is cool, refreshing, and indulgent. Topped with crunchy nuts, colorful sprinkles, or a drizzle of syrup, Ice Cream Delight is a timeless treat that brings joy with every spoonful. 🍨",
+          "front_end": "Html, javascript, css, react js",
+          "back_end": "Firebase"
+        }
+      ]
+    },
+    {
+      "company_name": "Baramati Export Pvt. Ltd.",
+      "address": "M.No.30, jalochi-MIDC Road, Pune-413102",
+      "website": "https://Baramatiexport.com",
+      "contact": "7397983438",
+      "mentor": "Sandesh Shah (Associate Manager, Manager)",
+      "internal_guide": "Dr. Pravin Tomar",
+      "projects": [
+        {
+          "s_no": 338,
+          "members": [
+            {
+              "name": "Priya Agarwal",
+              "enrollment": "2405112130029",
+              "mobile": "",
+              "program": "MCA, D"
+            }
+          ],
+          "project_title": "Import-Export Management and Analytics System",
+          "project_description": "Import-Export",
+          "front_end": "HTML, CSS, Javascript",
+          "back_end": "SQL, Python"
+        }
+      ]
+    } 
   ]
 
 
