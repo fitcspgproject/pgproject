@@ -8932,7 +8932,183 @@
           "back_end": "SQL, Python"
         }
       ]
-    } 
+    },
+
+    {
+      "company_name": "Semicolon Solution",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Prof. Hardik Parmar",
+      "projects": [
+        {
+          "s_no": 339,
+          "members": [
+            {
+              "name": "Anuj Anup Chauhan",
+              "enrollment": "2405112130007",
+              "mobile": "8396846487",
+              "program": "MCA 4 sem"
+            }
+          ],
+          "project_title": "",
+          "project_description": "",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
+    },
+    {
+      "company_name": "Semicolon Solution",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Prof.Jigar Bhavsar",
+      "projects": [
+        {
+          "s_no": 340,
+          "members": [
+            {
+              "name": "Swayam Raj Singh Dewda",
+              "enrollment": "2405112120188",
+              "mobile": "6261441635",
+              "program": "MCA 4 sem (AI)"
+            }
+          ],
+          "project_title": "",
+          "project_description": "",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
+    },
+    {
+      "company_name": "",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Prof. Sweta Jethva",
+      "projects": [
+        {
+          "s_no": 341,
+          "members": [
+            {
+              "name": "Raghav Gupta",
+              "enrollment": "2405112110100",
+              "mobile": "7073881058",
+              "program": "MCA 4"
+            },
+            {
+              "name": "Raja Kumar",
+              "enrollment": "2405112110103",
+              "mobile": "99314 44970",
+              "program": "MCA 4"
+            }
+          ],
+          "project_title": "",
+          "project_description": "",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
+    },
+    {
+      "company_name": "S.M SONI INFOSOFT",
+      "address": "RUDRA COMPLEX, FF/116, Waghodia Rd, opp. SAIBABA TEMPLE, Near Parivar Char Rasta, Vadodara, Gujarat 390019",
+      "website": "smsoniinfosoft.in",
+      "contact": "8128992581",
+      "mentor": "Satyesh Soni (Web Developer)",
+      "internal_guide": "Prof. Faruk Abdulla",
+      "projects": [
+        {
+          "s_no": 342,
+          "members": [
+            {
+              "name": "Trivedi Jimitkumar Hiteshkumar",
+              "enrollment": "2405112140038",
+              "mobile": "+91 70160 98855",
+              "program": "MCA, F"
+            },
+            {
+              "name": "Smitkumar Pravinchandra Bariya",
+              "enrollment": "2405112140087",
+              "mobile": "6353529528",
+              "program": "MCA, F"
+            },
+            {
+              "name": "Trupeshkumar manilal vaniya",
+              "enrollment": "2405112140104",
+              "mobile": "+91 87583 67059",
+              "program": "MCA, G"
+            }
+          ],
+          "project_title": "Fabulous Finds",
+          "project_description": "Fabulous Finds will provide a friendly environment to the gift keepers for delivering gifts at door step. Fabulous Finds provides delivering services to local gift keepers who can't afford the service. Fabulous Finds will help customer to search and booked gifts from anywhere. Fabulous Finds will help people to booked desired gift at their prefer time. Fabulous Finds helps customer to find different gifts according to category, price or subcategories. Fabulous Finds is one of the websites to improve the marketing of the gift keepers.",
+          "front_end": "Pyhtondjango",
+          "back_end": "Postgre"
+        }
+      ]
+    },
+    {
+      "company_name": "Unisouk",
+      "address": "UniSouk - Nexanode Technologies Pvt. Ltd. 601, Solaris Cube, Beside Rajoo India, Maharana Pratap Road, Vesu, Surat, Gujarat - 395007.",
+      "website": "www.unisouk.com",
+      "contact": "‪+91 93000 12798‬",
+      "mentor": "Asha Sonkar (HR)",
+      "internal_guide": "Prof. Nargani Sathibabu",
+      "projects": [
+        {
+          "s_no": 343,
+          "members": [
+            {
+              "name": "Tandel drashti hareshkumar",
+              "enrollment": "2405112119002",
+              "mobile": "7016048126",
+              "program": "MCA, I"
+            }
+          ],
+          "project_title": "Hotel room booking",
+          "project_description": "Online hotel booking system with advance payment option.",
+          "front_end": "MERN",
+          "back_end": "Mongo db"
+        }
+      ]
+    },
+    {
+      "company_name": "AMDOX TECHNOLOGIES",
+      "address": "Tech-37, Begur Hobli, Bengaluru",
+      "website": "https://www.amdox.in/",
+      "contact": "+916362853627",
+      "mentor": "Mr. SUNIL (DEVELOPER TEAM LEAD)",
+      "internal_guide": "Prof. Saumil Trivedi",
+      "projects": [
+        {
+          "s_no": 344,
+          "members": [
+            {
+              "name": "RAHUL KUMAR",
+              "enrollment": "2405112110101",
+              "mobile": "8229873615",
+              "program": "MCA, I"
+            },
+            {
+              "name": "MADHURI VIJAY CHAUHAN",
+              "enrollment": "2405112110022",
+              "mobile": "7991659276",
+              "program": "MCA, H"
+            }
+          ],
+          "project_title": "Shyak NGO",
+          "project_description": "Shyak NGO is a full-stack web application developed to support a non-profit organization in managing donations, volunteers, and community initiatives. It provides secure user authentication, online payment integration, and program management using Next.js, Node.js, Express, and MongoDB.",
+          "front_end": "Next.js 15 (React 19), Tailwind CSS 4, Framer Motion, Axios, Lucide React, React Icons",
+          "back_end": "Node.js, Express.js 5, MongoDB, Mongoose, JWT Authentication, Passport.js (Google OAuth), Bcrypt"
+        }
+      ]
+    }
+
   ]
 
 
