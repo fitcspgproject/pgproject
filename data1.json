@@ -9058,6 +9058,32 @@
           "back_end": "Node.js, Express.js 5, MongoDB, Mongoose, JWT Authentication, Passport.js (Google OAuth), Bcrypt"
         }
       ]
+    },
+{
+  
+      "company_name": "Lupin limited",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Prof. Sweta Jethva",
+      "projects": [
+        {
+          "s_no": 345,
+          "members": [
+            {
+              "name": "Singh Sneha janardhan",
+              "enrollment": "2405112130035",
+              "mobile": "9328729412",
+              "program": "Mca div D"
+            }
+          ],
+          "project_title": "computer system validation",
+          "project_description": "",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
     }
 
   ]
