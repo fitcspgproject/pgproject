@@ -8935,86 +8935,37 @@
     },
 
     {
-      "company_name": "Semicolon Solution",
-      "address": "",
-      "website": "",
-      "contact": "",
-      "mentor": "",
-      "internal_guide": "Prof. Hardik Parmar",
-      "projects": [
-        {
-          "s_no": 339,
-          "members": [
-            {
-              "name": "Anuj Anup Chauhan",
-              "enrollment": "2405112130007",
-              "mobile": "8396846487",
-              "program": "MCA 4 sem"
-            }
-          ],
-          "project_title": "",
-          "project_description": "",
-          "front_end": "",
-          "back_end": ""
-        }
-      ]
-    },
+  "company_name": "Semicolon Solution",
+  "address": "",
+  "website": "",
+  "contact": "",
+  "mentor": "",
+  "internal_guide": "Prof. Hardik Parmar",
+  "projects": [
     {
-      "company_name": "Semicolon Solution",
-      "address": "",
-      "website": "",
-      "contact": "",
-      "mentor": "",
-      "internal_guide": "Prof.Jigar Bhavsar",
-      "projects": [
+      "s_no": 339,
+      "members": [
         {
-          "s_no": 340,
-          "members": [
-            {
-              "name": "Swayam Raj Singh Dewda",
-              "enrollment": "2405112120188",
-              "mobile": "6261441635",
-              "program": "MCA 4 sem (AI)"
-            }
-          ],
-          "project_title": "",
-          "project_description": "",
-          "front_end": "",
-          "back_end": ""
-        }
-      ]
-    },
-    {
-      "company_name": "",
-      "address": "",
-      "website": "",
-      "contact": "",
-      "mentor": "",
-      "internal_guide": "Prof. Sweta Jethva",
-      "projects": [
+          "name": "Anuj Anup Chauhan",
+          "enrollment": "2405112130007",
+          "mobile": "8396846487",
+          "program": "MCA 4 sem"
+        },
         {
-          "s_no": 341,
-          "members": [
-            {
-              "name": "Raghav Gupta",
-              "enrollment": "2405112110100",
-              "mobile": "7073881058",
-              "program": "MCA 4"
-            },
-            {
-              "name": "Raja Kumar",
-              "enrollment": "2405112110103",
-              "mobile": "99314 44970",
-              "program": "MCA 4"
-            }
-          ],
-          "project_title": "",
-          "project_description": "",
-          "front_end": "",
-          "back_end": ""
+          "name": "Swayam Raj Singh Dewda",
+          "enrollment": "2405112120188",
+          "mobile": "6261441635",
+          "program": "MCA 4 sem (AI)"
         }
-      ]
-    },
+      ],
+      "project_title": "",
+      "project_description": "",
+      "front_end": "",
+      "back_end": ""
+    }
+  ]
+},
+    
     {
       "company_name": "S.M SONI INFOSOFT",
       "address": "RUDRA COMPLEX, FF/116, Waghodia Rd, opp. SAIBABA TEMPLE, Near Parivar Char Rasta, Vadodara, Gujarat 390019",
