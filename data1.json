@@ -9084,7 +9084,40 @@
           "back_end": ""
         }
       ]
+    },
+  {
+ 
+      "company_name": "Developer arena",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Prof. Adarsh Ashok",
+      "projects": [
+        {
+          "s_no": 346,
+          "members": [
+            {
+              "name": "Rohit vishwa",
+              "enrollment": "2405112120157",
+              "mobile": "",
+              "program": ""
+            },
+            {
+              "name": "Jayant Parihar",
+              "enrollment": "2405112120070",
+              "mobile": "",
+              "program": ""
+            }
+          ],
+          "project_title": "social media AI agent",
+          "project_description": "",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
     }
+ 
 
   ]
 
