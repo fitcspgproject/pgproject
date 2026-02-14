@@ -2717,37 +2717,7 @@
       }
     ]
   },
-  {
-    "company_name": "TejasKP AI Software",
-    "address": "Makarpura GIDC",
-    "website": "",
-    "contact": "",
-    "mentor": "NA",
-    "internal_guide": "Prof. sathwik Chebrolu",
-    "projects": [
-      {
-        "s_no": 100,
-        "members": [
-          {
-            "name": "Vicky Khambhatwala",
-            "enrollment": "2405112140041",
-            "mobile": "8866421921",
-            "program": "MCA, F"
-          },
-          {
-            "name": "Aayush joshi",
-            "enrollment": "2405112130005",
-            "mobile": "+91 93133 52365",
-            "program": "MCA"
-          }
-        ],
-        "project_title": "Online Voting System",
-        "project_description": "",
-        "front_end": "Html, css, bootstrap",
-        "back_end": "Java, Spring boot, jpa, supabase"
-      }
-    ]
-  },
+  
   {
     "company_name": "Baarez Technology Solutions",
     "address": "No. 202, Saha Offices (C), Souk Al Bahar, Downtown Dubai, UAE",
@@ -8477,7 +8447,7 @@
       "website": "intelsysncsol.com",
       "contact": "+91 91046 30598",
       "mentor": "Tejas patel (Manager)",
-      "internal_guide": "Prof. Saumil Trivedi",
+      "internal_guide": "Prof. sathwik Chebrolu",
       "projects": [
         {
           "s_no": 322,
