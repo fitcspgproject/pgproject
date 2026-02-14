@@ -6164,6 +6164,14 @@
               "enrollment": "2405112130044",
               "mobile": "6352674940",
               "program": "MCA, D"
+            },
+            {
+
+ "name": " Nikunjkumar Kishorkumar Parmar",
+              "enrollment": "2405112140060",
+              "mobile": "6354464615",
+              "program": "MCA, F"
+
             }
           ],
           "project_title": "Movie Ticket Booking",
@@ -9086,7 +9094,164 @@
           "back_end": ""
         }
       ]
+    },
+  {
+        "company_name": "Infotact Solution",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Prof. Saumil Trivedi",
+      "projects": [
+        {
+          "s_no": 347,
+          "members": [
+            {
+              "name": "Ashfak Halvadiya",
+              "enrollment": "2405112120060",
+              "mobile": "7043802592",
+              "program": "MCA-A"
+            }
+          ],
+          "project_title": "DATA Analytics",
+          "project_description": "",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
+    },
+    {
+      "company_name": "IT Souls",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Prof. Sonali Kharade",
+      "projects": [
+        {
+          "s_no": 348,
+          "members": [
+            {
+              "name": "Yukta Malvi",
+              "enrollment": "2305102140044",
+              "mobile": "",
+              "program": ""
+            }
+          ],
+          "project_title": "ERP System",
+          "project_description": "",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
+    },
+    {
+      "company_name": "BrainyBeam",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Prof.Jigar Bhavsar",
+      "projects": [
+        {
+          "s_no": 349,
+          "members": [
+            {
+              "name": "Shah Harshilkumar",
+              "enrollment": "2405102070004",
+              "mobile": "7874453551",
+              "program": "MCA,E"
+            }
+          ],
+          "project_title": "SwiftRide Tarun",
+          "project_description": "",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
+    },
+    {
+      "company_name": "AccountsBytes Private Limited",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Dr. Hina Chokshi",
+      "projects": [
+        {
+          "s_no": 350,
+          "members": [
+            {
+              "name": "Nirmit Joshi",
+              "enrollment": "2405102140012",
+              "mobile": "9099763215",
+              "program": "MCA,G"
+            }
+          ],
+          "project_title": "Firewall Security System Application",
+          "project_description": "",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
+    },
+    {
+      "company_name": "Digital Tripoly Studio",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Prof. Prachi Mehta",
+      "projects": [
+        {
+          "s_no": 351,
+          "members": [
+            {
+              "name": "Shaktisinh Jitsinh Rana",
+              "enrollment": "2405102130005",
+              "mobile": "9016018991",
+              "program": "M.Sc.,J"
+            }
+          ],
+          "project_title": "Bill Mart Company",
+          "project_description": "",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
+    },
+    {
+      "company_name": "Famezel",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Dr. Ghanshyam Rathod",
+      "projects": [
+        {
+          "s_no": 352,
+          "members": [
+            {
+              "name": "Amit Prajapati",
+              "enrollment": "2405112110095",
+              "mobile": "9016883028",
+              "program": "MCA,I"
+            },
+            {
+              "name": "Trushit Upadhyay",
+              "enrollment": "2405112110129",
+              "mobile": "9638295003",
+              "program": "MCA,I"
+            }
+          ],
+          "project_title": "PLAYORA",
+          "project_description": "The Playora Turf Booking System is a comprehensive, web-based application designed to digitize and streamline the process of booking sports turfs across different cities. Developed using ASP.NET WebForms with C#, MySQL, and Bootstrap, the system aims to provide a centralized, secure, and scalable solution that benefits three primary stakeholders – Administrators, Turf Owners and End Users (Players).",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
     }
+
  
 
   ]
