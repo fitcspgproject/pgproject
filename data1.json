@@ -1826,7 +1826,7 @@
             "program": "IMCA, A"
           }
         ],
-        "project_title": "Student performance prediction",
+        "project_title": "Coresync AI",
         "project_description": "",
         "front_end": "Streamlit",
         "back_end": "Python"
@@ -6971,7 +6971,7 @@
               "program": "MSC-IT, G"
             }
           ],
-          "project_title": "Smart Shopping with Negotiation and speed",
+          "project_title": "Three Factor Authentication System",
           "project_description": "A hybrid Mern based e-commerce platform enabling product comparison and live price negotiation between local and global sellers.",
           "front_end": "",
           "back_end": ""
