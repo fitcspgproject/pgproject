@@ -3990,8 +3990,8 @@
             "program": "MCA, G"
           }
         ],
-        "project_title": "Income expense",
-        "project_description": "To Maintain the Account",
+        "project_title": "Workforce Time & Project Productivity Management",
+        "project_description": "A modular, integration-ready workforce time and productivity management platform enabling reliable project-ased timesheet tracking in the short term, and supporting future expansion into attendance, leave, payroll, and enterprise workforce intelligence solutions",
         "front_end": "React.js",
         "back_end": "Asp.Net Wed API"
       }
@@ -4501,10 +4501,10 @@
             "program": "MCA, B"
           }
         ],
-        "project_title": "Recruit Management System",
-        "project_description": "Recruit management system for company where there will be jobs, users can apply and interview will be done in that portal.",
-        "front_end": "",
-        "back_end": ""
+        "project_title": "Hr Management System ",
+        "project_description": " Human Resource Management system is helpful for managing employees,travel expenses and jobs, games,etc.",
+        "front_end": "React",
+        "back_end": "JAVA"
       }
     ]
   },
