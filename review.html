@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project Milestone · Review schedule</title>
-    <!-- Font Awesome 6 (free) for clean icons -->
+    <title>Project Milestone · Review schedule + live counters</title>
+    <!-- Font Awesome 6 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         * {
@@ -18,163 +18,50 @@
             background: linear-gradient(145deg, #f0f4fa 0%, #e6ecf5 100%);
             min-height: 100vh;
             display: flex;
-            align-items: center;
+            align-items: flex-start;  /* changed from center to allow scroll at top */
             justify-content: center;
-            padding: 1.5rem;
+            padding: 2rem 1.5rem;
         }
 
-        /* main card – subtle elevation */
-        .card {
+        /* main card – no modal, just content */
+        .schedule-page {
             background: rgba(255,255,255,0.75);
             backdrop-filter: blur(4px);
             border-radius: 2.5rem;
             box-shadow: 0 25px 50px -12px rgba(0,0,0,0.25), inset 0 1px 2px rgba(255,255,255,0.8);
-            padding: 3rem 3rem;
-            max-width: 1100px;
+            padding: 2.5rem 2.5rem 2rem 2.5rem;
+            max-width: 1400px;
             width: 100%;
-            text-align: center;
             border: 1px solid rgba(255,255,255,0.6);
         }
 
-        .card h2 {
-            font-size: 2rem;
-            font-weight: 600;
+        .header-row {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 1.8rem;
+        }
+
+        .title-section h1 {
+            font-size: 2.3rem;
+            font-weight: 700;
             letter-spacing: -0.02em;
             color: #1e293b;
             display: flex;
             align-items: center;
-            justify-content: center;
-            gap: 0.75rem;
-            margin-bottom: 0.5rem;
-        }
-
-        .card h2 i {
-            color: #2563eb;
-            font-size: 2.2rem;
-        }
-
-        .subhead {
-            font-size: 1.1rem;
-            color: #334155;
-            background: #d9e2efb0;
-            display: inline-block;
-            padding: 0.5rem 1.8rem;
-            border-radius: 60px;
-            margin-bottom: 2.5rem;
-            font-weight: 450;
-            backdrop-filter: blur(2px);
-            border: 1px solid #ffffffaa;
-        }
-
-        /* primary CTA button */
-        .btn-primary {
-            background: #1e3a5f;
-            color: white;
-            border: none;
-            padding: 1.2rem 3.5rem;
-            font-size: 1.35rem;
-            font-weight: 600;
-            border-radius: 60px;
-            display: inline-flex;
-            align-items: center;
             gap: 1rem;
-            box-shadow: 0 20px 35px -8px #1e3a5f70, 0 4px 8px #0000001a;
-            cursor: pointer;
-            transition: all 0.2s ease;
-            border: 1px solid #ffffff50;
-            letter-spacing: 0.3px;
         }
 
-        .btn-primary i {
-            font-size: 1.6rem;
-            transition: transform 0.15s;
-        }
-
-        .btn-primary:hover {
-            background: #143049;
-            transform: scale(1.02);
-            box-shadow: 0 25px 40px -8px #0b1f33;
-        }
-
-        .btn-primary:hover i {
-            transform: translateX(4px);
-        }
-
-        .btn-primary:active {
-            transform: scale(0.98);
-        }
-
-        /* modal overlay – hidden by default */
-        .modal-overlay {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(10, 20, 35, 0.6);
-            backdrop-filter: blur(8px);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            visibility: hidden;
-            opacity: 0;
-            transition: opacity 0.25s ease, visibility 0.25s;
-            z-index: 1000;
-            padding: 1.5rem;
-        }
-
-        .modal-overlay.active {
-            visibility: visible;
-            opacity: 1;
-        }
-
-        /* modal content – professional white panel */
-        .modal-content {
-            background: #ffffff;
-            border-radius: 2rem;
-            max-width: 1280px;
-            width: 100%;
-            max-height: 85vh;
-            overflow-y: auto;
-            box-shadow: 0 40px 70px -10px #0b1a2e;
-            padding: 2.2rem 2.2rem 1.8rem 2.2rem;
-            border: 1px solid #eef4ff;
-            animation: modalFadeIn 0.3s cubic-bezier(0.15, 0.85, 0.35, 1.05);
-            scrollbar-width: thin;
-            scrollbar-color: #9aa9b9 #eef2f6;
-        }
-
-        .modal-content::-webkit-scrollbar {
-            width: 8px;
-        }
-        .modal-content::-webkit-scrollbar-track {
-            background: #eef2f6;
-            border-radius: 20px;
-            margin-block: 8px;
-        }
-        .modal-content::-webkit-scrollbar-thumb {
-            background: #9aa9b9;
-            border-radius: 20px;
-        }
-
-        @keyframes modalFadeIn {
-            0% { opacity: 0.7; transform: scale(0.96) translateY(-8px); }
-            100% { opacity: 1; transform: scale(1) translateY(0); }
-        }
-
-        /* modal header */
-        .modal-header {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            border-bottom: 2px solid #e9eef4;
-            padding-bottom: 1rem;
-            margin-bottom: 1.5rem;
+        .title-section h1 i {
+            color: #2563eb;
+            font-size: 2.5rem;
         }
 
         .university-badge {
             display: flex;
             flex-direction: column;
+            align-items: flex-end;
         }
 
         .university-badge h3 {
@@ -182,26 +69,26 @@
             font-weight: 700;
             color: #0b2b4a;
             letter-spacing: -0.3px;
-            line-height: 1.2;
         }
 
         .university-badge .dept {
             font-size: 1.1rem;
-            font-weight: 450;
-            color: #2c3e5c;
             background: #eaf0fa;
-            padding: 0.25rem 1rem;
+            padding: 0.3rem 1.5rem;
             border-radius: 40px;
-            display: inline-block;
-            margin-top: 5px;
             border: 1px solid #cddcf0;
+            color: #1e3a5f;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
         }
 
         .sem-info {
-            text-align: right;
             background: #f4f9ff;
-            padding: 0.6rem 1.5rem;
+            padding: 0.7rem 2rem;
             border-radius: 80px;
+            margin: 1.5rem 0 1rem;
+            display: inline-block;
         }
         .sem-info .sem {
             font-weight: 700;
@@ -213,21 +100,6 @@
             color: #2d4b71;
         }
 
-        .close-modal {
-            background: none;
-            border: none;
-            font-size: 2rem;
-            cursor: pointer;
-            color: #64748b;
-            transition: 0.15s;
-            line-height: 1;
-            margin-left: 1.2rem;
-        }
-        .close-modal:hover {
-            color: #0b1f33;
-            transform: scale(1.2);
-        }
-
         /* milestone table */
         .milestone-table {
             width: 100%;
@@ -236,6 +108,7 @@
             box-shadow: 0 2px 8px rgba(0,0,0,0.02);
             border-radius: 1.2rem;
             overflow: hidden;
+            margin: 1.2rem 0 0.8rem;
         }
 
         .milestone-table th {
@@ -243,7 +116,7 @@
             color: white;
             font-weight: 600;
             font-size: 0.95rem;
-            padding: 1rem 0.8rem;
+            padding: 1rem 0.6rem;
             text-align: center;
             border-right: 1px solid #31587a;
             white-space: nowrap;
@@ -254,8 +127,8 @@
 
         .milestone-table td {
             background: #ffffff;
-            padding: 1rem 0.9rem;
-            vertical-align: top;
+            padding: 1rem 0.8rem;
+            vertical-align: middle;
             border-bottom: 1px solid #dde3ed;
             color: #1f2c40;
             line-height: 1.45;
@@ -268,24 +141,31 @@
         .desc-cell {
             font-weight: 500;
             background-color: #fafdff;
-            width: 15%;
+            width: 14%;
         }
         .deliverable-cell {
             width: 30%;
             background-color: #fefefe;
         }
         .date-cell {
-            width: 11%;
+            width: 9%;
             text-align: center;
-            font-weight: 500;
+            font-weight: 600;
             background: #f5f9ff;
             white-space: nowrap;
         }
         .mode-cell {
-            width: 10%;
+            width: 8%;
             text-align: center;
             font-weight: 600;
             background: #f0f6ff;
+        }
+        .countdown-cell {
+            width: 12%;
+            text-align: center;
+            background: #f3f7fe;
+            font-weight: 500;
+            border-left: 2px dotted #b3c9e0;
         }
 
         .mode-online {
@@ -310,9 +190,10 @@
         .deliverable-list {
             padding-left: 1.2rem;
             margin: 0;
+            font-size: 0.9rem;
         }
         .deliverable-list li {
-            margin-bottom: 0.2rem;
+            margin-bottom: 0.1rem;
         }
 
         .note-box {
@@ -327,13 +208,10 @@
             flex-wrap: wrap;
             gap: 0.5rem 2rem;
         }
-        .note-box i {
-            color: #1e3a5f;
-            margin-right: 0.5rem;
-        }
         .note-item {
             display: flex;
             align-items: center;
+            gap: 6px;
         }
 
         hr {
@@ -350,243 +228,283 @@
             margin-top: 0.5rem;
         }
 
-        /* tiny responsive touch */
-        @media (max-width: 750px) {
-            .card { padding: 2rem 1rem; }
-            .modal-content { padding: 1.5rem; }
-            .milestone-table th, .milestone-table td { padding: 0.7rem 0.4rem; font-size: 0.8rem; }
+        /* countdown badges */
+        .days-left {
+            background: #d4e2fa;
+            color: #10355e;
+            padding: 0.3rem 0.8rem;
+            border-radius: 40px;
+            font-weight: 700;
+            font-size: 0.9rem;
+            display: inline-block;
+            white-space: nowrap;
+        }
+        .days-passed {
+            background: #f0edd4;
+            color: #7d6300;
+            padding: 0.3rem 0.8rem;
+            border-radius: 40px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            display: inline-block;
+            white-space: nowrap;
+        }
+        .review-over {
+            background: #f2dbd4;
+            color: #aa3a2b;
+            padding: 0.3rem 0.8rem;
+            border-radius: 40px;
+            font-weight: 700;
+            font-size: 0.9rem;
+            display: inline-block;
+            white-space: nowrap;
+        }
+        .today-badge {
+            background: #1e3a5f;
+            color: white;
+            padding: 0.3rem 0.8rem;
+            border-radius: 40px;
+            font-weight: 700;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 1050px) {
+            .schedule-page { padding: 1.5rem; }
+            .milestone-table th, .milestone-table td { padding: 0.6rem 0.3rem; font-size: 0.8rem; }
         }
     </style>
 </head>
 <body>
-    <div class="card">
-        <h2>
-            <i class="fas fa-calendar-check"></i> 
-            Project Milestone Controller
-        </h2>
-        <div class="subhead">
-            <i class="fas fa-map-pin" style="margin-right: 8px;"></i> 
-            FITCS · Department of MCA
+    <div class="schedule-page">
+        <!-- header with Parul identity (always visible) -->
+        <div class="header-row">
+            <div class="title-section">
+                <h1>
+                    <i class="fas fa-calendar-check"></i> 
+                    Project Milestone Controller
+                </h1>
+                <div class="subhead" style="margin-top: 0.2rem;">
+                    <i class="fas fa-map-pin" style="margin-right: 8px;"></i> 
+                    FITCS · Department of MCA
+                </div>
+            </div>
+            <div class="university-badge">
+                <h3>Parul University <span style="font-weight: 400; font-size: 1.2rem; color: #385d8a;">⏺</span></h3>
+                <div class="dept">
+                    <i class="fas fa-laptop-code"></i> FITCS, Department of MCA
+                </div>
+            </div>
         </div>
-        <!-- Professional "VIEW REVIEW SCHEDULE" button (exact wording) -->
-        <button class="btn-primary" id="openModalBtn">
-            <i class="fas fa-clipboard-list"></i> View Review Schedule
-            <i class="fas fa-arrow-right"></i>
-        </button>
-    </div>
 
-    <!-- MODAL overlay -->
-    <div class="modal-overlay" id="modalOverlay">
-        <div class="modal-content" id="modalContent">
-            <!-- modal header with Parul university identity -->
-            <div class="modal-header">
-                <div class="university-badge">
-                    <h3>Parul University <span style="font-weight: 400; font-size: 1.2rem; color: #385d8a;">⏺</span></h3>
-                    <div class="dept">
-                        <i class="fas fa-laptop-code"></i> FITCS, Department of MCA
-                    </div>
-                </div>
-                <div style="display: flex; align-items: center;">
-                    <div class="sem-info">
-                        <div class="sem">MCA/M.Sc. Semester-4 & IMCA-8</div>
-                        <div class="program">Project Milestone · 2026</div>
-                    </div>
-                    <button class="close-modal" id="closeModalBtn" aria-label="Close"><i class="fas fa-times"></i></button>
-                </div>
-            </div>
+        <!-- semester info -->
+        <div class="sem-info">
+            <span class="sem">MCA/M.Sc. Semester-4 & IMCA-8</span>
+            <span class="program"> · Project Milestone 2026</span>
+        </div>
 
-            <!-- main table exactly as requested, with enriched formatting -->
-            <table class="milestone-table">
-                <thead>
-                    <tr>
-                        <th>No.</th>
-                        <th>Description</th>
-                        <th>Deliverables</th>
-                        <th>Submission Date</th>
-                        <th>Mode of Reporting</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <!-- 1. Company Profile -->
-                    <tr>
-                        <td style="text-align: center; font-weight: 600;">1</td>
-                        <td class="desc-cell">Company Profile</td>
-                        <td class="deliverable-cell">
-                            <ul class="deliverable-list">
-                                <li>Company Registration Certificate</li>
-                                <li>Any additional relevant organizational documents</li>
-                            </ul>
-                        </td>
-                        <td class="date-cell">06/01/2026</td>
-                        <td class="mode-cell"><span class="mode-offline"><i class="fas fa-building"></i> Offline</span></td>
-                    </tr>
-                    <!-- 2. Project Profile -->
-                    <tr>
-                        <td style="text-align: center; font-weight: 600;">2</td>
-                        <td class="desc-cell">Project Profile</td>
-                        <td class="deliverable-cell">
-                            <ul class="deliverable-list" style="list-style-type: disc;">
-                                <li>Project Definition</li>
-                                <li>Project Description</li>
-                                <li>Existing System / Work Environment</li>
-                                <li>Problem Statements</li>
-                                <li>Need for New System</li>
-                                <li>Proposed System & Features</li>
-                                <li>Scope & Outcomes</li>
-                                <li>Tools & Technology used</li>
-                                <li>Project Plan (PERT Chart)</li>
-                                <li style="margin-top: 5px; font-weight: 500;">📄 A detailed and well-structured Word document</li>
-                                <li>📊 A professional PowerPoint presentation for project demonstration</li>
-                            </ul>
-                        </td>
-                        <td class="date-cell">30/01/2026</td>
-                        <td class="mode-cell"><span class="mode-online"><i class="fas fa-globe"></i> Online</span></td>
-                    </tr>
-                    <!-- 3. Requirement Analysis -->
-                    <tr>
-                        <td style="text-align: center; font-weight: 600;">3</td>
-                        <td class="desc-cell">Requirement Analysis</td>
-                        <td class="deliverable-cell">
-                            <ul class="deliverable-list">
-                                <li>Feasibility Study</li>
-                                <li>Users of the System</li>
-                                <li>System Modules</li>
-                                <li>Process Model</li>
-                                <li>Hardware & Software Requirements</li>
-                                <li>Use Cases</li>
-                                <li>Use Case Diagram</li>
-                            </ul>
-                            <p style="margin-top: 8px; background: #f3f7fd; padding: 6px 10px; border-radius: 12px; font-size: 0.9rem;"><i class="fas fa-pen-fancy"></i> <strong>Do not include theoretical definitions</strong> — context‑specific report, clear justifications.</p>
-                        </td>
-                        <td class="date-cell">14/02/2026</td>
-                        <td class="mode-cell"><span class="mode-offline"><i class="fas fa-building"></i> Offline</span></td>
-                    </tr>
-                    <!-- 4. Design -->
-                    <tr>
-                        <td style="text-align: center; font-weight: 600;">4</td>
-                        <td class="desc-cell">Design</td>
-                        <td class="deliverable-cell">
-                            <ul class="deliverable-list">
-                                <li>Use Case Scenarios</li>
-                                <li>UML / DFD Diagrams (Class, Sequence, Activity, Collaboration, Package, Deployment)</li>
-                                <li>DFD (Level 0, 1, 2)</li>
-                                <li>Data Dictionary</li>
-                                <li>ER Diagram</li>
-                            </ul>
-                            <p style="margin-top: 6px; background: #f3f7fd; padding: 5px 10px; border-radius: 12px;"><i class="fas fa-pencil-ruler"></i> Use professional design tools, industry notation.</p>
-                        </td>
-                        <td class="date-cell">—</td>
-                        <td class="mode-cell"><span class="mode-offline"><i class="fas fa-building"></i> Offline</span></td>
-                    </tr>
-                    <!-- 5. Implementation -->
-                    <tr>
-                        <td style="text-align: center; font-weight: 600;">5</td>
-                        <td class="desc-cell">Implementation</td>
-                        <td class="deliverable-cell">
-                            <ul class="deliverable-list">
-                                <li>Form / Screen Layouts</li>
-                                <li>Report Layouts</li>
-                                <li>Coding Convention & Code Snippets</li>
-                            </ul>
-                            <p style="margin-top: 6px;">✔ professional UI/UX, clean structured code, running modules</p>
-                        </td>
-                        <td class="date-cell">07/03/2026</td>
-                        <td class="mode-cell"><span class="mode-online"><i class="fas fa-globe"></i> Online</span></td>
-                    </tr>
-                    <!-- 6. Demonstration (Mid-Term) -->
-                    <tr>
-                        <td style="text-align: center; font-weight: 600;">6</td>
-                        <td class="desc-cell">Demonstration of Full Working Project (Mid-Term Review)</td>
-                        <td class="deliverable-cell">Full working presentation of all modules in running mode along with all previous phases.</td>
-                        <td class="date-cell">14/03/2026</td>
-                        <td class="mode-cell"><span class="mode-offline"><i class="fas fa-building"></i> Offline</span></td>
-                    </tr>
-                    <!-- 7. Testing -->
-                    <tr>
-                        <td style="text-align: center; font-weight: 600;">7</td>
-                        <td class="desc-cell">Testing</td>
-                        <td class="deliverable-cell">
-                            <ul class="deliverable-list">
-                                <li>Test Strategy & Test Cases</li>
-                                <li>System Testing / User Testing</li>
-                            </ul>
-                            <p style="margin-top: 6px;">🔍 Design based on own modules, include traceability</p>
-                        </td>
-                        <td class="date-cell">21/03/2026</td>
-                        <td class="mode-cell"><span class="mode-online"><i class="fas fa-globe"></i> Online</span></td>
-                    </tr>
-                    <!-- 8. Documentation, Demonstration & Thesis Submission -->
-                    <tr>
-                        <td style="text-align: center; font-weight: 600;">8</td>
-                        <td class="desc-cell">Documentation, Demonstration & Thesis Submission</td>
-                        <td class="deliverable-cell">Soft copies and all necessary documents must be verified by the Internal Guide.</td>
-                        <td class="date-cell">28/03/2026</td>
-                        <td class="mode-cell"><span class="mode-offline"><i class="fas fa-building"></i> Offline</span></td>
-                    </tr>
-                    <!-- 9. Final Submission -->
-                    <tr>
-                        <td style="text-align: center; font-weight: 600;">9</td>
-                        <td class="desc-cell">Final Submission</td>
-                        <td class="deliverable-cell">Complete project submission in final form along with thesis in hardcopy.</td>
-                        <td class="date-cell">02/04/2026</td>
-                        <td class="mode-cell"><span class="mode-offline"><i class="fas fa-building"></i> Offline</span></td>
-                    </tr>
-                </tbody>
-            </table>
+        <!-- MAIN TABLE with added countdown column -->
+        <table class="milestone-table">
+            <thead>
+                <tr>
+                    <th>No.</th>
+                    <th>Description</th>
+                    <th>Deliverables</th>
+                    <th>Submission Date</th>
+                    <th>Mode</th>
+                    <th>⏳ Days left / status</th>
+                </tr>
+            </thead>
+            <tbody id="milestone-body">
+                <!-- rows will be filled by JavaScript with dynamic countdown based on 2026 dates -->
+            </tbody>
+        </table>
 
-            <!-- important notes (exactly as provided) -->
-            <div class="note-box">
-                <div class="note-item"><i class="fas fa-exclamation-circle"></i> <strong>Online submission</strong> is allowed only for those students/groups that are outside Gujarat. However, if the mode is mentioned as Offline, physical presence is mandatory.</div>
-                <div class="note-item"><i class="fas fa-file-alt"></i> Necessary formats, instructions, and detailed schedules will be shared in advance.</div>
-            </div>
-            <hr>
-            <div class="footer-note">
-                <i class="fas fa-check-circle" style="color: #2266aa;"></i> MCA project milestones · 2026 · Parul University
-            </div>
+        <!-- important notes exactly as provided -->
+        <div class="note-box">
+            <div class="note-item"><i class="fas fa-exclamation-circle"></i> <strong>Online submission</strong> is allowed only for those students/groups that are outside Gujarat. However, if the mode is mentioned as Offline, physical presence is mandatory.</div>
+            <div class="note-item"><i class="fas fa-file-alt"></i> Necessary formats, instructions, and detailed schedules will be shared in advance.</div>
+        </div>
+        <hr>
+        <div class="footer-note">
+            <i class="fas fa-check-circle" style="color: #2266aa;"></i> MCA project milestones · 2026 · Parul University — live countdown integrated
         </div>
     </div>
 
     <script>
         (function() {
-            const overlay = document.getElementById('modalOverlay');
-            const openBtn = document.getElementById('openModalBtn');
-            const closeBtn = document.getElementById('closeModalBtn');
-            const modalContent = document.getElementById('modalContent'); // used for click stopPropagation
+            // ---------- milestone data (exactly as before, with dates) ----------
+            const milestones = [
+                {
+                    no: "1",
+                    desc: "Company Profile",
+                    deliverables: ["Company Registration Certificate", "Any additional relevant organizational documents"],
+                    dateStr: "2026-01-06", // 06/01/2026
+                    mode: "offline"
+                },
+                {
+                    no: "2",
+                    desc: "Project Profile",
+                    deliverables: [
+                        "Project Definition", "Project Description", "Existing System / Work Environment",
+                        "Problem Statements", "Need for New System", "Proposed System & Features",
+                        "Scope & Outcomes", "Tools & Technology used", "Project Plan (PERT Chart)",
+                        "📄 A detailed and well-structured Word document",
+                        "📊 A professional PowerPoint presentation"
+                    ],
+                    dateStr: "2026-01-30",
+                    mode: "online"
+                },
+                {
+                    no: "3",
+                    desc: "Requirement Analysis",
+                    deliverables: [
+                        "Feasibility Study", "Users of the System", "System Modules",
+                        "Process Model", "Hardware & Software Requirements", "Use Cases", "Use Case Diagram",
+                        "❗ Do not include theoretical definitions — context‑specific report, clear justifications."
+                    ],
+                    dateStr: "2026-02-14",
+                    mode: "offline"
+                },
+                {
+                    no: "4",
+                    desc: "Design",
+                    deliverables: [
+                        "Use Case Scenarios", "UML / DFD Diagrams (Class, Sequence, Activity, Collaboration, Package, Deployment)",
+                        "DFD (Level 0, 1, 2)", "Data Dictionary", "ER Diagram",
+                        "💡 Use professional design tools, industry notation."
+                    ],
+                     dateStr: "2026-02-14",
+                    mode: "offline"
+                },
+                {
+                    no: "5",
+                    desc: "Implementation",
+                    deliverables: [
+                        "Form / Screen Layouts", "Report Layouts",
+                        "Coding Convention & Code Snippets", "✔ professional UI/UX, clean structured code"
+                    ],
+                    dateStr: "2026-03-07",
+                    mode: "online"
+                },
+                {
+                    no: "6",
+                    desc: "Demonstration of Full Working Project (Mid-Term Review)",
+                    deliverables: ["Full working presentation of all modules in running mode along with all previous phases."],
+                    dateStr: "2026-03-14",
+                    mode: "offline"
+                },
+                {
+                    no: "7",
+                    desc: "Testing",
+                    deliverables: [
+                        "Test Strategy & Test Cases", "System Testing / User Testing",
+                        "🔍 Design based on own modules, include traceability"
+                    ],
+                    dateStr: "2026-03-21",
+                    mode: "online"
+                },
+                {
+                    no: "8",
+                    desc: "Documentation, Demonstration & Thesis Submission",
+                    deliverables: ["Soft copies and all necessary documents must be verified by the Internal Guide."],
+                    dateStr: "2026-03-28",
+                    mode: "offline"
+                },
+                {
+                    no: "9",
+                    desc: "Final Submission",
+                    deliverables: ["Complete project submission in final form along with thesis in hardcopy."],
+                    dateStr: "2026-04-02",
+                    mode: "offline"
+                }
+            ];
 
-            // open modal
-            openBtn.addEventListener('click', function(e) {
-                e.preventDefault();
-                overlay.classList.add('active');
-                document.body.style.overflow = 'hidden'; // prevent background scroll
-            });
-
-            // close modal function
-            function closeModal() {
-                overlay.classList.remove('active');
-                document.body.style.overflow = ''; // restore scroll
+            // helper to format date as DD/MM/YYYY for display
+            function formatDate(iso) {
+                if (!iso) return "—";
+                const [y, m, d] = iso.split('-');
+                return `${d}/${m}/${y}`;
             }
 
-            // close with X button
-            closeBtn.addEventListener('click', closeModal);
+            // compute days left / status relative to current date (considering 2026, but if we cross year, it's fine)
+            function getStatusLabel(dateISO) {
+                if (!dateISO) return { html: '<span class="days-left">No date set</span>' }; // milestone 4
 
-            // click outside modal content -> close (only overlay)
-            overlay.addEventListener('click', function(e) {
-                if (e.target === overlay) { // only if directly on overlay
-                    closeModal();
+                const today = new Date();
+                // remove time part for fair comparison
+                const todayDate = new Date(today.getFullYear(), today.getMonth(), today.getDate());
+                const target = new Date(dateISO + 'T00:00:00'); // parse as local midnight
+
+                // difference in days
+                const diffTime = target - todayDate;
+                const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+
+                // exact match (same day)
+                if (diffDays === 0) {
+                    return { html: '<span class="today-badge"><i class="fas fa-bell"></i> TODAY</span>' };
                 }
-            });
-
-            // optional ESC key close
-            document.addEventListener('keydown', function(e) {
-                if (e.key === 'Escape' && overlay.classList.contains('active')) {
-                    closeModal();
+                // passed (target before today)
+                if (diffDays < 0) {
+                    const passed = Math.abs(diffDays);
+                    if (passed === 1) return { html: '<span class="review-over"><i class="fas fa-calendar-times"></i> 1 day over</span>' };
+                    return { html: `<span class="review-over"><i class="fas fa-calendar-times"></i> ${passed} days over</span>` };
                 }
-            });
+                // future: days left
+                if (diffDays === 1) return { html: '<span class="days-left"><i class="fas fa-hourglass-half"></i> 1 day left</span>' };
+                return { html: `<span class="days-left"><i class="fas fa-hourglass-half"></i> ${diffDays} days left</span>` };
+            }
 
-            // avoid closing when clicking inside modal content
-            modalContent.addEventListener('click', function(e) {
-                e.stopPropagation();
-            });
+            // render table body
+            const tbody = document.getElementById('milestone-body');
+            function renderTable() {
+                let htmlString = '';
+                milestones.forEach(m => {
+                    const modeClass = (m.mode === 'online') ? 'mode-online' : 'mode-offline';
+                    const modeIcon = (m.mode === 'online') ? '<i class="fas fa-globe"></i> Online' : '<i class="fas fa-building"></i> Offline';
+                    
+                    // deliverable items as list
+                    let deliverableHtml = '<ul class="deliverable-list">';
+                    m.deliverables.forEach(item => {
+                        deliverableHtml += `<li>${item}</li>`;
+                    });
+                    deliverableHtml += '</ul>';
+
+                    const displayDate = formatDate(m.dateStr);
+                    const status = m.dateStr ? getStatusLabel(m.dateStr) : { html: '<span class="days-left">—</span>' };
+
+                    htmlString += `<tr>
+                        <td style="text-align: center; font-weight: 600;">${m.no}</td>
+                        <td class="desc-cell">${m.desc}</td>
+                        <td class="deliverable-cell">${deliverableHtml}</td>
+                        <td class="date-cell">${displayDate}</td>
+                        <td class="mode-cell"><span class="${modeClass}">${modeIcon}</span></td>
+                        <td class="countdown-cell">${status.html}</td>
+                    </tr>`;
+                });
+                tbody.innerHTML = htmlString;
+            }
+
+            renderTable();
+
+            // (optional) re-run every day to keep counters fresh – but static build still fine.
+            // we can add a simple interval to update at midnight? but for simplicity we just compute once.
+            // but to be fancy, update every 60000ms (1 minute) just for demonstration (real change only at date turnover)
+            // we can refresh the status cells without flicker.
+            function updateCounters() {
+                const rows = tbody.querySelectorAll('tr');
+                milestones.forEach((m, idx) => {
+                    if (rows[idx]) {
+                        const statusCell = rows[idx].querySelector('.countdown-cell');
+                        if (statusCell && m.dateStr) {
+                            const newStatus = getStatusLabel(m.dateStr);
+                            statusCell.innerHTML = newStatus.html;
+                        }
+                    }
+                });
+            }
+            // update once per hour to reflect new day (since days left changes at midnight)
+            setInterval(updateCounters, 3600000); // every hour
+            // also update every 10min for smoother edge if needed (still fine)
         })();
     </script>
 </body>
