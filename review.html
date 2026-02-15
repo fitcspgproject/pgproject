@@ -331,6 +331,16 @@
     </div>
 
     <script>
+        document.addEventListener('contextmenu', function(e) {
+  e.preventDefault();
+});
+
+// Disable with alert message
+document.addEventListener('contextmenu', function(e) {
+  e.preventDefault();
+  alert('Right-click is disabled on this page!');
+  return false;
+})
         (function() {
             // ---------- milestone data (exactly as before, with dates) ----------
             const milestones = [
