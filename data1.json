@@ -9250,6 +9250,113 @@
           "back_end": ""
         }
       ]
+    },
+  {
+ 
+      "company_name": "Bizbuddy",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Dr. Prof. P. Ramachandran",
+      "projects": [
+        {
+          "s_no": 353,
+          "members": [
+            {
+              "name": "Harshal Gilitwala",
+              "enrollment": "2405112120054",
+              "mobile": "9313997150",
+              "program": "MCA,AI"
+            },
+            {
+              "name": "Bhavik Tailor",
+              "enrollment": "2405112120028",
+              "mobile": "80009 42957",
+              "program": "MCA,AI"
+            }
+          ],
+          "project_title": "AI Chatbot for College Enquiry System",
+          "project_description": "",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
+    },
+    {
+      "company_name": "BRAINYBEAM",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Dr. Sumit Soni",
+      "projects": [
+        {
+          "s_no": 354,
+          "members": [
+            {
+              "name": "PATEL DEEP SANJIVBHAI",
+              "enrollment": "2405102130003",
+              "mobile": "9429014480",
+              "program": "MCA,J"
+            }
+          ],
+          "project_title": "ONE DESK (RECRUITMENT MANAGEMENT SYSTEM)",
+          "project_description": "",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
+    },
+    {
+      "company_name": "keyanna technology",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Prof. Manishkumar Joshi",
+      "projects": [
+        {
+          "s_no": 355,
+          "members": [
+            {
+              "name": "Yashika Rawat",
+              "enrollment": "2405112130041",
+              "mobile": "8209761386",
+              "program": "MCA,B"
+            }
+          ],
+          "project_title": "CPASS",
+          "project_description": "",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
+    },
+    {
+      "company_name": "Shree Softech",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Prof. Payal Parekh",
+      "projects": [
+        {
+          "s_no": 356,
+          "members": [
+            {
+              "name": "Chhaya Gorasiya",
+              "enrollment": "2405112120055",
+              "mobile": "7802039903",
+              "program": "MCA,AI"
+            }
+          ],
+          "project_title": "",
+          "project_description": "",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
     }
 
  
