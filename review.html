@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Milestone · Review schedule</title>
+    <!-- Font Awesome 6 (free) for clean icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(145deg, #f0f4fa 0%, #e6ecf5 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 1.5rem;
+        }
+
+        /* main card – subtle elevation */
+        .card {
+            background: rgba(255,255,255,0.75);
+            backdrop-filter: blur(4px);
+            border-radius: 2.5rem;
+            box-shadow: 0 25px 50px -12px rgba(0,0,0,0.25), inset 0 1px 2px rgba(255,255,255,0.8);
+            padding: 3rem 3rem;
+            max-width: 1100px;
+            width: 100%;
+            text-align: center;
+            border: 1px solid rgba(255,255,255,0.6);
+        }
+
+        .card h2 {
+            font-size: 2rem;
+            font-weight: 600;
+            letter-spacing: -0.02em;
+            color: #1e293b;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.75rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .card h2 i {
+            color: #2563eb;
+            font-size: 2.2rem;
+        }
+
+        .subhead {
+            font-size: 1.1rem;
+            color: #334155;
+            background: #d9e2efb0;
+            display: inline-block;
+            padding: 0.5rem 1.8rem;
+            border-radius: 60px;
+            margin-bottom: 2.5rem;
+            font-weight: 450;
+            backdrop-filter: blur(2px);
+            border: 1px solid #ffffffaa;
+        }
+
+        /* primary CTA button */
+        .btn-primary {
+            background: #1e3a5f;
+            color: white;
+            border: none;
+            padding: 1.2rem 3.5rem;
+            font-size: 1.35rem;
+            font-weight: 600;
+            border-radius: 60px;
+            display: inline-flex;
+            align-items: center;
+            gap: 1rem;
+            box-shadow: 0 20px 35px -8px #1e3a5f70, 0 4px 8px #0000001a;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            border: 1px solid #ffffff50;
+            letter-spacing: 0.3px;
+        }
+
+        .btn-primary i {
+            font-size: 1.6rem;
+            transition: transform 0.15s;
+        }
+
+        .btn-primary:hover {
+            background: #143049;
+            transform: scale(1.02);
+            box-shadow: 0 25px 40px -8px #0b1f33;
+        }
+
+        .btn-primary:hover i {
+            transform: translateX(4px);
+        }
+
+        .btn-primary:active {
+            transform: scale(0.98);
+        }
+
+        /* modal overlay – hidden by default */
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(10, 20, 35, 0.6);
+            backdrop-filter: blur(8px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            visibility: hidden;
+            opacity: 0;
+            transition: opacity 0.25s ease, visibility 0.25s;
+            z-index: 1000;
+            padding: 1.5rem;
+        }
+
+        .modal-overlay.active {
+            visibility: visible;
+            opacity: 1;
+        }
+
+        /* modal content – professional white panel */
+        .modal-content {
+            background: #ffffff;
+            border-radius: 2rem;
+            max-width: 1280px;
+            width: 100%;
+            max-height: 85vh;
+            overflow-y: auto;
+            box-shadow: 0 40px 70px -10px #0b1a2e;
+            padding: 2.2rem 2.2rem 1.8rem 2.2rem;
+            border: 1px solid #eef4ff;
+            animation: modalFadeIn 0.3s cubic-bezier(0.15, 0.85, 0.35, 1.05);
+            scrollbar-width: thin;
+            scrollbar-color: #9aa9b9 #eef2f6;
+        }
+
+        .modal-content::-webkit-scrollbar {
+            width: 8px;
+        }
+        .modal-content::-webkit-scrollbar-track {
+            background: #eef2f6;
+            border-radius: 20px;
+            margin-block: 8px;
+        }
+        .modal-content::-webkit-scrollbar-thumb {
+            background: #9aa9b9;
+            border-radius: 20px;
+        }
+
+        @keyframes modalFadeIn {
+            0% { opacity: 0.7; transform: scale(0.96) translateY(-8px); }
+            100% { opacity: 1; transform: scale(1) translateY(0); }
+        }
+
+        /* modal header */
+        .modal-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 2px solid #e9eef4;
+            padding-bottom: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .university-badge {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .university-badge h3 {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: #0b2b4a;
+            letter-spacing: -0.3px;
+            line-height: 1.2;
+        }
+
+        .university-badge .dept {
+            font-size: 1.1rem;
+            font-weight: 450;
+            color: #2c3e5c;
+            background: #eaf0fa;
+            padding: 0.25rem 1rem;
+            border-radius: 40px;
+            display: inline-block;
+            margin-top: 5px;
+            border: 1px solid #cddcf0;
+        }
+
+        .sem-info {
+            text-align: right;
+            background: #f4f9ff;
+            padding: 0.6rem 1.5rem;
+            border-radius: 80px;
+        }
+        .sem-info .sem {
+            font-weight: 700;
+            font-size: 1.2rem;
+            color: #1e3a5f;
+        }
+        .sem-info .program {
+            font-size: 0.95rem;
+            color: #2d4b71;
+        }
+
+        .close-modal {
+            background: none;
+            border: none;
+            font-size: 2rem;
+            cursor: pointer;
+            color: #64748b;
+            transition: 0.15s;
+            line-height: 1;
+            margin-left: 1.2rem;
+        }
+        .close-modal:hover {
+            color: #0b1f33;
+            transform: scale(1.2);
+        }
+
+        /* milestone table */
+        .milestone-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.95rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.02);
+            border-radius: 1.2rem;
+            overflow: hidden;
+        }
+
+        .milestone-table th {
+            background: #1f344d;
+            color: white;
+            font-weight: 600;
+            font-size: 0.95rem;
+            padding: 1rem 0.8rem;
+            text-align: center;
+            border-right: 1px solid #31587a;
+            white-space: nowrap;
+        }
+        .milestone-table th:last-child {
+            border-right: none;
+        }
+
+        .milestone-table td {
+            background: #ffffff;
+            padding: 1rem 0.9rem;
+            vertical-align: top;
+            border-bottom: 1px solid #dde3ed;
+            color: #1f2c40;
+            line-height: 1.45;
+        }
+
+        .milestone-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        .desc-cell {
+            font-weight: 500;
+            background-color: #fafdff;
+            width: 15%;
+        }
+        .deliverable-cell {
+            width: 30%;
+            background-color: #fefefe;
+        }
+        .date-cell {
+            width: 11%;
+            text-align: center;
+            font-weight: 500;
+            background: #f5f9ff;
+            white-space: nowrap;
+        }
+        .mode-cell {
+            width: 10%;
+            text-align: center;
+            font-weight: 600;
+            background: #f0f6ff;
+        }
+
+        .mode-online {
+            background: #e3f0ff;
+            color: #004e9e;
+            padding: 0.3rem 0.8rem;
+            border-radius: 40px;
+            font-size: 0.85rem;
+            display: inline-block;
+            font-weight: 600;
+        }
+        .mode-offline {
+            background: #1e2f47;
+            color: white;
+            padding: 0.3rem 0.8rem;
+            border-radius: 40px;
+            font-size: 0.85rem;
+            display: inline-block;
+            font-weight: 600;
+        }
+
+        .deliverable-list {
+            padding-left: 1.2rem;
+            margin: 0;
+        }
+        .deliverable-list li {
+            margin-bottom: 0.2rem;
+        }
+
+        .note-box {
+            background: #f2f6fb;
+            border-left: 5px solid #1e3a5f;
+            padding: 1.2rem 1.8rem;
+            border-radius: 1.5rem;
+            margin-top: 2rem;
+            font-size: 0.95rem;
+            color: #253c5c;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem 2rem;
+        }
+        .note-box i {
+            color: #1e3a5f;
+            margin-right: 0.5rem;
+        }
+        .note-item {
+            display: flex;
+            align-items: center;
+        }
+
+        hr {
+            border: none;
+            border-top: 1.5px dashed #a7c0db;
+            margin: 1.5rem 0 0.5rem;
+        }
+
+        .footer-note {
+            text-align: right;
+            font-style: italic;
+            color: #4e637f;
+            font-size: 0.9rem;
+            margin-top: 0.5rem;
+        }
+
+        /* tiny responsive touch */
+        @media (max-width: 750px) {
+            .card { padding: 2rem 1rem; }
+            .modal-content { padding: 1.5rem; }
+            .milestone-table th, .milestone-table td { padding: 0.7rem 0.4rem; font-size: 0.8rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2>
+            <i class="fas fa-calendar-check"></i> 
+            Project Milestone Controller
+        </h2>
+        <div class="subhead">
+            <i class="fas fa-map-pin" style="margin-right: 8px;"></i> 
+            FITCS · Department of MCA
+        </div>
+        <!-- Professional "VIEW REVIEW SCHEDULE" button (exact wording) -->
+        <button class="btn-primary" id="openModalBtn">
+            <i class="fas fa-clipboard-list"></i> View Review Schedule
+            <i class="fas fa-arrow-right"></i>
+        </button>
+    </div>
+
+    <!-- MODAL overlay -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal-content" id="modalContent">
+            <!-- modal header with Parul university identity -->
+            <div class="modal-header">
+                <div class="university-badge">
+                    <h3>Parul University <span style="font-weight: 400; font-size: 1.2rem; color: #385d8a;">⏺</span></h3>
+                    <div class="dept">
+                        <i class="fas fa-laptop-code"></i> FITCS, Department of MCA
+                    </div>
+                </div>
+                <div style="display: flex; align-items: center;">
+                    <div class="sem-info">
+                        <div class="sem">MCA/M.Sc. Semester-4 & IMCA-8</div>
+                        <div class="program">Project Milestone · 2026</div>
+                    </div>
+                    <button class="close-modal" id="closeModalBtn" aria-label="Close"><i class="fas fa-times"></i></button>
+                </div>
+            </div>
+
+            <!-- main table exactly as requested, with enriched formatting -->
+            <table class="milestone-table">
+                <thead>
+                    <tr>
+                        <th>No.</th>
+                        <th>Description</th>
+                        <th>Deliverables</th>
+                        <th>Submission Date</th>
+                        <th>Mode of Reporting</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- 1. Company Profile -->
+                    <tr>
+                        <td style="text-align: center; font-weight: 600;">1</td>
+                        <td class="desc-cell">Company Profile</td>
+                        <td class="deliverable-cell">
+                            <ul class="deliverable-list">
+                                <li>Company Registration Certificate</li>
+                                <li>Any additional relevant organizational documents</li>
+                            </ul>
+                        </td>
+                        <td class="date-cell">06/01/2026</td>
+                        <td class="mode-cell"><span class="mode-offline"><i class="fas fa-building"></i> Offline</span></td>
+                    </tr>
+                    <!-- 2. Project Profile -->
+                    <tr>
+                        <td style="text-align: center; font-weight: 600;">2</td>
+                        <td class="desc-cell">Project Profile</td>
+                        <td class="deliverable-cell">
+                            <ul class="deliverable-list" style="list-style-type: disc;">
+                                <li>Project Definition</li>
+                                <li>Project Description</li>
+                                <li>Existing System / Work Environment</li>
+                                <li>Problem Statements</li>
+                                <li>Need for New System</li>
+                                <li>Proposed System & Features</li>
+                                <li>Scope & Outcomes</li>
+                                <li>Tools & Technology used</li>
+                                <li>Project Plan (PERT Chart)</li>
+                                <li style="margin-top: 5px; font-weight: 500;">📄 A detailed and well-structured Word document</li>
+                                <li>📊 A professional PowerPoint presentation for project demonstration</li>
+                            </ul>
+                        </td>
+                        <td class="date-cell">30/01/2026</td>
+                        <td class="mode-cell"><span class="mode-online"><i class="fas fa-globe"></i> Online</span></td>
+                    </tr>
+                    <!-- 3. Requirement Analysis -->
+                    <tr>
+                        <td style="text-align: center; font-weight: 600;">3</td>
+                        <td class="desc-cell">Requirement Analysis</td>
+                        <td class="deliverable-cell">
+                            <ul class="deliverable-list">
+                                <li>Feasibility Study</li>
+                                <li>Users of the System</li>
+                                <li>System Modules</li>
+                                <li>Process Model</li>
+                                <li>Hardware & Software Requirements</li>
+                                <li>Use Cases</li>
+                                <li>Use Case Diagram</li>
+                            </ul>
+                            <p style="margin-top: 8px; background: #f3f7fd; padding: 6px 10px; border-radius: 12px; font-size: 0.9rem;"><i class="fas fa-pen-fancy"></i> <strong>Do not include theoretical definitions</strong> — context‑specific report, clear justifications.</p>
+                        </td>
+                        <td class="date-cell">14/02/2026</td>
+                        <td class="mode-cell"><span class="mode-offline"><i class="fas fa-building"></i> Offline</span></td>
+                    </tr>
+                    <!-- 4. Design -->
+                    <tr>
+                        <td style="text-align: center; font-weight: 600;">4</td>
+                        <td class="desc-cell">Design</td>
+                        <td class="deliverable-cell">
+                            <ul class="deliverable-list">
+                                <li>Use Case Scenarios</li>
+                                <li>UML / DFD Diagrams (Class, Sequence, Activity, Collaboration, Package, Deployment)</li>
+                                <li>DFD (Level 0, 1, 2)</li>
+                                <li>Data Dictionary</li>
+                                <li>ER Diagram</li>
+                            </ul>
+                            <p style="margin-top: 6px; background: #f3f7fd; padding: 5px 10px; border-radius: 12px;"><i class="fas fa-pencil-ruler"></i> Use professional design tools, industry notation.</p>
+                        </td>
+                        <td class="date-cell">—</td>
+                        <td class="mode-cell"><span class="mode-offline"><i class="fas fa-building"></i> Offline</span></td>
+                    </tr>
+                    <!-- 5. Implementation -->
+                    <tr>
+                        <td style="text-align: center; font-weight: 600;">5</td>
+                        <td class="desc-cell">Implementation</td>
+                        <td class="deliverable-cell">
+                            <ul class="deliverable-list">
+                                <li>Form / Screen Layouts</li>
+                                <li>Report Layouts</li>
+                                <li>Coding Convention & Code Snippets</li>
+                            </ul>
+                            <p style="margin-top: 6px;">✔ professional UI/UX, clean structured code, running modules</p>
+                        </td>
+                        <td class="date-cell">07/03/2026</td>
+                        <td class="mode-cell"><span class="mode-online"><i class="fas fa-globe"></i> Online</span></td>
+                    </tr>
+                    <!-- 6. Demonstration (Mid-Term) -->
+                    <tr>
+                        <td style="text-align: center; font-weight: 600;">6</td>
+                        <td class="desc-cell">Demonstration of Full Working Project (Mid-Term Review)</td>
+                        <td class="deliverable-cell">Full working presentation of all modules in running mode along with all previous phases.</td>
+                        <td class="date-cell">14/03/2026</td>
+                        <td class="mode-cell"><span class="mode-offline"><i class="fas fa-building"></i> Offline</span></td>
+                    </tr>
+                    <!-- 7. Testing -->
+                    <tr>
+                        <td style="text-align: center; font-weight: 600;">7</td>
+                        <td class="desc-cell">Testing</td>
+                        <td class="deliverable-cell">
+                            <ul class="deliverable-list">
+                                <li>Test Strategy & Test Cases</li>
+                                <li>System Testing / User Testing</li>
+                            </ul>
+                            <p style="margin-top: 6px;">🔍 Design based on own modules, include traceability</p>
+                        </td>
+                        <td class="date-cell">21/03/2026</td>
+                        <td class="mode-cell"><span class="mode-online"><i class="fas fa-globe"></i> Online</span></td>
+                    </tr>
+                    <!-- 8. Documentation, Demonstration & Thesis Submission -->
+                    <tr>
+                        <td style="text-align: center; font-weight: 600;">8</td>
+                        <td class="desc-cell">Documentation, Demonstration & Thesis Submission</td>
+                        <td class="deliverable-cell">Soft copies and all necessary documents must be verified by the Internal Guide.</td>
+                        <td class="date-cell">28/03/2026</td>
+                        <td class="mode-cell"><span class="mode-offline"><i class="fas fa-building"></i> Offline</span></td>
+                    </tr>
+                    <!-- 9. Final Submission -->
+                    <tr>
+                        <td style="text-align: center; font-weight: 600;">9</td>
+                        <td class="desc-cell">Final Submission</td>
+                        <td class="deliverable-cell">Complete project submission in final form along with thesis in hardcopy.</td>
+                        <td class="date-cell">02/04/2026</td>
+                        <td class="mode-cell"><span class="mode-offline"><i class="fas fa-building"></i> Offline</span></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- important notes (exactly as provided) -->
+            <div class="note-box">
+                <div class="note-item"><i class="fas fa-exclamation-circle"></i> <strong>Online submission</strong> is allowed only for those students/groups that are outside Gujarat. However, if the mode is mentioned as Offline, physical presence is mandatory.</div>
+                <div class="note-item"><i class="fas fa-file-alt"></i> Necessary formats, instructions, and detailed schedules will be shared in advance.</div>
+            </div>
+            <hr>
+            <div class="footer-note">
+                <i class="fas fa-check-circle" style="color: #2266aa;"></i> MCA project milestones · 2026 · Parul University
+            </div>
+        </div>
+    </div>
+
+    <script>
+        (function() {
+            const overlay = document.getElementById('modalOverlay');
+            const openBtn = document.getElementById('openModalBtn');
+            const closeBtn = document.getElementById('closeModalBtn');
+            const modalContent = document.getElementById('modalContent'); // used for click stopPropagation
+
+            // open modal
+            openBtn.addEventListener('click', function(e) {
+                e.preventDefault();
+                overlay.classList.add('active');
+                document.body.style.overflow = 'hidden'; // prevent background scroll
+            });
+
+            // close modal function
+            function closeModal() {
+                overlay.classList.remove('active');
+                document.body.style.overflow = ''; // restore scroll
+            }
+
+            // close with X button
+            closeBtn.addEventListener('click', closeModal);
+
+            // click outside modal content -> close (only overlay)
+            overlay.addEventListener('click', function(e) {
+                if (e.target === overlay) { // only if directly on overlay
+                    closeModal();
+                }
+            });
+
+            // optional ESC key close
+            document.addEventListener('keydown', function(e) {
+                if (e.key === 'Escape' && overlay.classList.contains('active')) {
+                    closeModal();
+                }
+            });
+
+            // avoid closing when clicking inside modal content
+            modalContent.addEventListener('click', function(e) {
+                e.stopPropagation();
+            });
+        })();
+    </script>
+</body>
+</html>
