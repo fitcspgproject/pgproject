@@ -9357,7 +9357,34 @@
           "back_end": ""
         }
       ]
+    },
+  {
+ 
+      "company_name": "Nij web",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Prof.Vijya Tulsani",
+      "projects": [
+        {
+          "s_no": 357,
+          "members": [
+            {
+              "name": "Patel Isha",
+              "enrollment": "2405112120125",
+              "mobile": "9773022980",
+              "program": "MCA"
+            }
+          ],
+          "project_title": "",
+          "project_description": "",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
     }
+
 
  
 
