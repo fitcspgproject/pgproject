@@ -2581,8 +2581,8 @@
         ],
         "project_title": "Root Cause Analysis",
         "project_description": "",
-        "front_end": "Python",
-        "back_end": "Python"
+        "front_end": "Reactjs",
+        "back_end": "groq api and using gen ai"
       }
     ]
   },
