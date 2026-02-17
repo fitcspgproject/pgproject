@@ -9383,7 +9383,34 @@
           "back_end": ""
         }
       ]
+    },
+  {
+  
+      "company_name": "OCTO advisory",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Dr. Raj Sinha",
+      "projects": [
+        {
+          "s_no": 358,
+          "members": [
+            {
+              "name": "Dhruvik P Fichadiya",
+              "enrollment": "2405112110033",
+              "mobile": "7802990251",
+              "program": "MCA , H"
+            }
+          ],
+          "project_title": "Internship Management System",
+          "project_description": "",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
     }
+
 
 
  
