@@ -4314,10 +4314,10 @@
             "program": "MCA, E"
           }
         ],
-        "project_title": "Working as a DATA ASSOCIATE",
-        "project_description": "-",
-        "front_end": "",
-        "back_end": ""
+        "project_title": "HAMSAFAR – The Travel Buddy",
+        "project_description": "Hamsafar – The Travel Buddy is a web-based application designed to enhance the travel experience by providing users with information about nearby attractions, travel stories, and trip planning features. The platform offers a personalized and content-driven approach to help travelers discover destinations and plan trips efficiently through a unified system.",
+        "front_end": "React.js, Next.js, Tailwind,CSS ,Type Script.",
+        "back_end": "Node.JS,MongoDB"
       }
     ]
   },
@@ -5030,10 +5030,10 @@
             "program": "MCA, D"
           }
         ],
-        "project_title": "Data Associate",
-        "project_description": "Data Entry & Processing: Inputting data from digital images (ads, product pages, etc.) into systems according to detailed instructions. Quality Control: Reviewing data entered by self and others to catch errors and omissions, ensuring high accuracy. Guideline Adherence: Learning and applying general and category-specific rules for data recording. Image Identification: Identifying relevant pages or products within computer-based images for data extraction. System Utilization: Effectively using proprietary data entry and processing software. Reporting Issues: Communicating data-related problems to supervisors promptly.",
-        "front_end": "",
-        "back_end": ""
+        "project_title": "HAMSAFAR – The Travel Buddy",
+        "project_description": "Hamsafar – The Travel Buddy is a web-based application designed to enhance the travel experience by providing users with information about nearby attractions, travel stories, and trip planning features. The platform offers a personalized and content-driven approach to help travelers discover destinations and plan trips efficiently through a unified system.",
+        "front_end": "React.js, Next.js, Tailwind,CSS ,Type Script.",
+        "back_end": "Node.JS,MongoDB"
       }
     ]
   },
@@ -5860,7 +5860,7 @@
     ]
   },
   {
-    "company_name": "",
+    "company_name": "NielsenIQ",
     "address": "",
     "website": "",
     "contact": "",
@@ -5883,10 +5883,10 @@
             "program": ""
           }
         ],
-        "project_title": "",
-        "project_description": "",
-        "front_end": "",
-        "back_end": ""
+        "project_title": "HAMSAFAR – The Travel Buddy",
+        "project_description": "Hamsafar – The Travel Buddy is a web-based application designed to enhance the travel experience by providing users with information about nearby attractions, travel stories, and trip planning features. The platform offers a personalized and content-driven approach to help travelers discover destinations and plan trips efficiently through a unified system.",
+        "front_end": "React.js, Next.js, Tailwind,CSS ,Type Script.",
+        "back_end": "Node.JS,MongoDB"
       }
     ]
   },
@@ -6681,7 +6681,7 @@
             {
               "name": "Lakshmi R Kannaujiya",
               "enrollment": "2405112130019",
-              "mobile": "8320166739",
+              "mobile": "8320739",
               "program": "MCA, D"
             },
             {
