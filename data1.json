@@ -8510,8 +8510,8 @@
               "program": "MCA, E"
             }
           ],
-          "project_title": "Smart home Automation",
-          "project_description": "The Smart Home Automation System is designed to automate and control household appliances using modern technology such as the Internet of Things (IoT). This system allows users to control devices like lights, fans, air conditioners, and security systems remotely using a smartphone, computer, or voice commands. The main goal of this project is to improve convenience, energy efficiency, and home security. By integrating sensors, microcontrollers, and wireless communication, the system can monitor real-time conditions and perform actions automatically or based on user commands.",
+          "project_title": "Life Server Blood Bank",
+          "project_description": "",
           "front_end": "Technologies Used: HTML – Structure of the web page, CSS – Styling, layout, and design, JavaScript – Interactive buttons, real-time updates, Bootstrap – Responsive and mobile-friendly design, Optional / Advanced: React.js – Dynamic single-page application, Flutter – Mobile app (Android & iOS), Android Studio (Java/Kotlin) – Android app interface. Front-End Functions: Appliance ON/OFF buttons, Real-time sensor data display, User login dashboard, Status indicators (light ON/OFF, temperature, motion)",
           "back_end": "Technologies Used: Node.js – Server-side logic, Express.js – API creation, Python – Data processing & automation, PHP – Server scripting (optional). Database: MySQL – User and device data storage, MongoDB – Sensor data & logs, Firebase – Real-time database & authentication. IoT & Hardware Integration: Arduino / NodeMCU (ESP8266 / ESP32) – Microcontroller, MQTT Protocol – Real-time device communication, REST APIs – Front-end ↔ Back-end communication, Wi-Fi / Bluetooth – Connectivity"
         }
