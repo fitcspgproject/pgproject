@@ -9409,7 +9409,71 @@
           "back_end": ""
         }
       ]
+    },
+  {
+  
+      "company_name": "congnizance",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Prof. Mini Bhola",
+      "projects": [
+        {
+          "s_no": 359,
+          "members": [
+            {
+              "name": "Snehil Joshi",
+              "enrollment": "2405112130036",
+              "mobile": "8764138802",
+              "program": "MCA"
+            }
+          ],
+          "project_title": "tourism travel management system",
+          "project_description": "",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
+    },
+    {
+      "company_name": "Slash Mark",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Prof. Mini Bhola",
+      "projects": [
+        {
+          "s_no": 360,
+          "members": [
+            {
+              "name": "Shubham Dilip Yadav",
+              "enrollment": "2405112110123",
+              "mobile": "",
+              "program": "MCA,I"
+            },
+            {
+              "name": "Prateek Kumar Singh",
+              "enrollment": "2405112110097",
+              "mobile": "",
+              "program": "MCA,I"
+            },
+            {
+              "name": "Suraj Munna Jaiswar",
+              "enrollment": "2405112110043",
+              "mobile": "",
+              "program": "MCA,I"
+            }
+          ],
+          "project_title": "Video Conference App",
+          "project_description": "",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
     }
+ 
 
 
 
