@@ -9472,8 +9472,134 @@
           "back_end": ""
         }
       ]
+    },
+  {
+
+      "company_name": "Infynite SoftTech",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Prof. Mini Bhola",
+      "projects": [
+        {
+          "s_no": 361,
+          "members": [
+            {
+              "name": "Momin mohammad Raza",
+              "enrollment": "2405112110071",
+              "mobile": "9723389731",
+              "program": "MCA,I"
+            }
+          ],
+          "project_title": "Hotel management system",
+          "project_description": "",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
+    },
+    {
+      "company_name": "LTIMINDTREE",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Prof.Rinku Patil",
+      "projects": [
+        {
+          "s_no": 362,
+          "members": [
+            {
+              "name": "Parth Dhairyashil Pawar",
+              "enrollment": "2405112070039",
+              "mobile": "9579695866",
+              "program": "MCA,E"
+            }
+          ],
+          "project_title": "Mobile store management",
+          "project_description": "",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
+    },
+    {
+      "company_name": "Kocher Tech",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Prof. Khyati Kariya",
+      "projects": [
+        {
+          "s_no": 363,
+          "members": [
+            {
+              "name": "Sharma Ravi",
+              "enrollment": "2405112120170",
+              "mobile": "9924916644",
+              "program": "MCA,AI"
+            }
+          ],
+          "project_title": "Easy park",
+          "project_description": "",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
+    },
+    {
+      "company_name": "SPORTS QUOTA",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Prof. Jatin Morwal",
+      "projects": [
+        {
+          "s_no": 364,
+          "members": [
+            {
+              "name": "GAUTAM SATYAM NARENDRA",
+              "enrollment": "2405112110039",
+              "mobile": "7096907539",
+              "program": "MCA,FSW"
+            }
+          ],
+          "project_title": "Cloth Selling E- Commerce Platform",
+          "project_description": "",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
+    },
+    {
+      "company_name": "Skillfied mentor",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Prof. Prachi Mehta",
+      "projects": [
+        {
+          "s_no": 365,
+          "members": [
+            {
+              "name": "Karmavijaysinh parmar",
+              "enrollment": "2405112070033",
+              "mobile": "8866461196",
+              "program": "MCA,C"
+            }
+          ],
+          "project_title": "data analytics",
+          "project_description": "",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
     }
- 
+
 
 
 
