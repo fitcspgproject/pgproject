@@ -9598,7 +9598,109 @@
           "back_end": ""
         }
       ]
+    },
+  {
+ 
+      "company_name": "",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Mr. Daniel Kwesi",
+      "projects": [
+        {
+          "s_no": 366,
+          "members": [
+            {
+              "name": "Dilolwa Fransisco Manuel",
+              "enrollment": "2405102110006",
+              "mobile": "8141139047",
+              "program": "M.Sc.IT"
+            }
+          ],
+          "project_title": "Intern Certify",
+          "project_description": "",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
+    },
+    {
+      "company_name": "",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Prof. Ahilpa Djidhj",
+      "projects": [
+        {
+          "s_no": 367,
+          "members": [
+            {
+              "name": "Takudzwa Mwonzora",
+              "enrollment": "2405102120012",
+              "mobile": "8141139047",
+              "program": "M.Sc.IT"
+            }
+          ],
+          "project_title": "Intern Certify",
+          "project_description": "",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
+    },
+    {
+      "company_name": "Edu-versity",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Prof. Tanmay Shah",
+      "projects": [
+        {
+          "s_no": 368,
+          "members": [
+            {
+              "name": "Rahul Dongre",
+              "enrollment": "2405112120148",
+              "mobile": "7666283648",
+              "program": "MCA,B"
+            }
+          ],
+          "project_title": "Ai Medical Voice Agent",
+          "project_description": "",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
+    },
+    {
+      "company_name": "Edu-versity",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Prof. Faruk Abdulla",
+      "projects": [
+        {
+          "s_no": 369,
+          "members": [
+            {
+              "name": "Arya chona",
+              "enrollment": "2405112070007",
+              "mobile": "8955613442",
+              "program": "MCA"
+            }
+          ],
+          "project_title": "We Learn",
+          "project_description": "",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
     }
+
 
 
 
