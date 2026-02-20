@@ -9699,6 +9699,57 @@
           "back_end": ""
         }
       ]
+    },
+ 
+    {
+      "company_name": "BIFM Learning Solution LLP",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Prof. Mini Bhola",
+      "projects": [
+        {
+          "s_no": 370,
+          "members": [
+            {
+              "name": "Rishi Singh",
+              "enrollment": "2405102110005",
+              "mobile": "6395448439",
+              "program": "MCA,I"
+            }
+          ],
+          "project_title": "E-Vidhya Learning Management System",
+          "project_description": "",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
+    },
+    {
+      "company_name": "Arch Foundation",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Prof. Mini Bhola",
+      "projects": [
+        {
+          "s_no": 371,
+          "members": [
+            {
+              "name": "Vandan Panchal",
+              "enrollment": "2405112070032",
+              "mobile": "8238858822",
+              "program": "MCA,E"
+            }
+          ],
+          "project_title": "Microsoft Ai Skilling",
+          "project_description": "",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
     }
 
 
