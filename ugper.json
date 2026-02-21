@@ -1,0 +1,5221 @@
+[
+  {
+    "Sr": 1,
+    "Enrollment_No": "2505101010001",
+    "Roll_No": 1,
+    "Student": "ABHAY SULYA",
+    "T_percent": 26.19,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 2,
+    "Enrollment_No": "2505101010002",
+    "Roll_No": 2,
+    "Student": "ADITYA KAUSHIK",
+    "T_percent": 80.25,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 3,
+    "Enrollment_No": "2505101010003",
+    "Roll_No": 3,
+    "Student": "ADITYA KUMAR",
+    "T_percent": 41.98,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 4,
+    "Enrollment_No": "2505101010004",
+    "Roll_No": 4,
+    "Student": "ADITYA KUMAR VISHWAKARMA",
+    "T_percent": 54.12,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 5,
+    "Enrollment_No": "2505101010005",
+    "Roll_No": 5,
+    "Student": "AGGARWAL SHAURYA SACHIN",
+    "T_percent": 54.12,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 6,
+    "Enrollment_No": "2505101010006",
+    "Roll_No": 6,
+    "Student": "AKSHAT KUMAR",
+    "T_percent": 48.15,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 7,
+    "Enrollment_No": "2505101010007",
+    "Roll_No": 7,
+    "Student": "ANANYA KUMARI",
+    "T_percent": 61.18,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 8,
+    "Enrollment_No": "2505101010008",
+    "Roll_No": 8,
+    "Student": "ANSHIKA RAHANGDALE",
+    "T_percent": 60,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 9,
+    "Enrollment_No": "2505101010009",
+    "Roll_No": 9,
+    "Student": "ARPIT SRIVASTAVA",
+    "T_percent": 70.59,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 10,
+    "Enrollment_No": "2505101010010",
+    "Roll_No": 10,
+    "Student": "AYUSH BABERWAL",
+    "T_percent": 83.53,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 11,
+    "Enrollment_No": "2505101010011",
+    "Roll_No": 11,
+    "Student": "AYUSH SHARMA",
+    "T_percent": 65.88,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 12,
+    "Enrollment_No": "2505101010012",
+    "Roll_No": 12,
+    "Student": "BABARIYA DENISH VIPULKUMAR",
+    "T_percent": 85.88,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 13,
+    "Enrollment_No": "2505101010013",
+    "Roll_No": 13,
+    "Student": "BANDHIYA VIJAY VARVABHAI",
+    "T_percent": 41.98,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 14,
+    "Enrollment_No": "2505101010014",
+    "Roll_No": 14,
+    "Student": "BHASKAR PANDEY",
+    "T_percent": 59.26,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 15,
+    "Enrollment_No": "2505101010015",
+    "Roll_No": 15,
+    "Student": "BHAVISHYA VERMA",
+    "T_percent": 0,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 16,
+    "Enrollment_No": "2505101010016",
+    "Roll_No": 16,
+    "Student": "BHAVYA KUMHAR",
+    "T_percent": 70.37,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 17,
+    "Enrollment_No": "2505101010017",
+    "Roll_No": 17,
+    "Student": "BHEDA NISHANK KALABHAI",
+    "T_percent": 65.88,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 18,
+    "Enrollment_No": "2505101010018",
+    "Roll_No": 18,
+    "Student": "BHUT JALKUMAR GIRISHBHAI",
+    "T_percent": 58.14,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 19,
+    "Enrollment_No": "2505101010019",
+    "Roll_No": 19,
+    "Student": "CHAUDHARI KRISHNA RAJESH",
+    "T_percent": 96.47,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 20,
+    "Enrollment_No": "2505101010020",
+    "Roll_No": 20,
+    "Student": "CHAUHAN OMSINH DINESHSINH",
+    "T_percent": 65.88,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 21,
+    "Enrollment_No": "2505101010021",
+    "Roll_No": 21,
+    "Student": "CHAUHAN YASH PRAVINSINH",
+    "T_percent": 84.71,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 22,
+    "Enrollment_No": "2505101010022",
+    "Roll_No": 22,
+    "Student": "CHITRANSH CHOUDHARY",
+    "T_percent": 22.22,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 23,
+    "Enrollment_No": "2505101010024",
+    "Roll_No": 24,
+    "Student": "DAHANWAR JASMIT SINGH NIRANJAN SINGH",
+    "T_percent": 8.43,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 24,
+    "Enrollment_No": "2505101010025",
+    "Roll_No": 5725,
+    "Student": "DAVE PINAK JIGNESH",
+    "T_percent": 36.14,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 25,
+    "Enrollment_No": "2505101010026",
+    "Roll_No": 26,
+    "Student": "GARVIT KALAL",
+    "T_percent": 56.79,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 26,
+    "Enrollment_No": "2505101010027",
+    "Roll_No": 27,
+    "Student": "GITALI SHUKLA",
+    "T_percent": 72.94,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 27,
+    "Enrollment_No": "2505101010028",
+    "Roll_No": 28,
+    "Student": "GUPTA NIKI CHANDRAKANT",
+    "T_percent": 61.63,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 28,
+    "Enrollment_No": "2505101010029",
+    "Roll_No": 29,
+    "Student": "HANDE KRUSHNA MAHENDRA",
+    "T_percent": 55.56,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 29,
+    "Enrollment_No": "2505101010030",
+    "Roll_No": 30,
+    "Student": "HARDIK JOSHI",
+    "T_percent": 83.95,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 30,
+    "Enrollment_No": "2505101010031",
+    "Roll_No": 31,
+    "Student": "HARIOM KUMAR",
+    "T_percent": 71.6,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 31,
+    "Enrollment_No": "2505101010032",
+    "Roll_No": 32,
+    "Student": "HARSH GUPTA",
+    "T_percent": 22.22,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 32,
+    "Enrollment_No": "2505101010033",
+    "Roll_No": 33,
+    "Student": "HARSHIKA BHADANI",
+    "T_percent": 48.24,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 33,
+    "Enrollment_No": "2505101010034",
+    "Roll_No": 34,
+    "Student": "HIMANSHU RAJ",
+    "T_percent": 42.35,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 34,
+    "Enrollment_No": "2505101010035",
+    "Roll_No": 35,
+    "Student": "JANI VRAJKUMAR BHARATKUMAR",
+    "T_percent": 71.76,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 35,
+    "Enrollment_No": "2505101010036",
+    "Roll_No": 36,
+    "Student": "JEET PATEL",
+    "T_percent": 49.38,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 36,
+    "Enrollment_No": "2505101010037",
+    "Roll_No": 37,
+    "Student": "JHA RAKHI SUBODH",
+    "T_percent": 88.24,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 37,
+    "Enrollment_No": "2505101010038",
+    "Roll_No": 38,
+    "Student": "JOSHI SHLOK PRAVIN",
+    "T_percent": 67.06,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 38,
+    "Enrollment_No": "2505101010039",
+    "Roll_No": 39,
+    "Student": "JOSHI VEER NARENDRA",
+    "T_percent": 13.58,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 39,
+    "Enrollment_No": "2505101010040",
+    "Roll_No": 40,
+    "Student": "JUJJUVARAPU TAGORE TEJA",
+    "T_percent": 0,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 40,
+    "Enrollment_No": "2505101010041",
+    "Roll_No": 41,
+    "Student": "KAJAL GAUTAM",
+    "T_percent": 72.94,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 41,
+    "Enrollment_No": "2505101010042",
+    "Roll_No": 42,
+    "Student": "KAYASTHA MEET SANJAY",
+    "T_percent": 33.33,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 42,
+    "Enrollment_No": "2505101010043",
+    "Roll_No": 43,
+    "Student": "KHAMBHTWALA MUNIRA MUSTUFA",
+    "T_percent": 65.12,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 43,
+    "Enrollment_No": "2505101010044",
+    "Roll_No": 44,
+    "Student": "KHRISTI RENISON LAJRAS",
+    "T_percent": 80.25,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 44,
+    "Enrollment_No": "2505101010045",
+    "Roll_No": 45,
+    "Student": "KHUSH UPADHYAY",
+    "T_percent": 0,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 45,
+    "Enrollment_No": "2505101010046",
+    "Roll_No": 46,
+    "Student": "KUMKUM PATEL",
+    "T_percent": 50.59,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 46,
+    "Enrollment_No": "2505101010047",
+    "Roll_No": 47,
+    "Student": "KUSHAGRA SRIVASTAVA",
+    "T_percent": 37.65,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 47,
+    "Enrollment_No": "2505101010048",
+    "Roll_No": 48,
+    "Student": "LAD KRISHNA VINODKUMAR",
+    "T_percent": 88.24,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 48,
+    "Enrollment_No": "2505101010049",
+    "Roll_No": 49,
+    "Student": "LUCKY KUMAR",
+    "T_percent": 56.63,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 49,
+    "Enrollment_No": "2505101010050",
+    "Roll_No": 50,
+    "Student": "LUCKY YADAV",
+    "T_percent": 64.71,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 50,
+    "Enrollment_No": "2505101010051",
+    "Roll_No": 51,
+    "Student": "M SAMEER AHAMAD",
+    "T_percent": 38.27,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 51,
+    "Enrollment_No": "2505101010052",
+    "Roll_No": 167,
+    "Student": "MANDALIYA MILIND SUNILBHAI",
+    "T_percent": 78.69,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 52,
+    "Enrollment_No": "2505101010053",
+    "Roll_No": 53,
+    "Student": "MANISH KUMAR MAHTO",
+    "T_percent": 91.76,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 53,
+    "Enrollment_No": "2505101010054",
+    "Roll_No": 54,
+    "Student": "MASOOM RAZA",
+    "T_percent": 43.53,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 54,
+    "Enrollment_No": "2505101010055",
+    "Roll_No": 55,
+    "Student": "MAYANK KUMAR AGARWAL",
+    "T_percent": 24.1,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 55,
+    "Enrollment_No": "2505101010056",
+    "Roll_No": 56,
+    "Student": "MAYANK SAINI",
+    "T_percent": 77.78,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 56,
+    "Enrollment_No": "2505101010057",
+    "Roll_No": 57,
+    "Student": "MAYANK SINGH",
+    "T_percent": 69.88,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 57,
+    "Enrollment_No": "2505101010058",
+    "Roll_No": 58,
+    "Student": "MISHRA ASHISH SANJAY",
+    "T_percent": 69.41,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 58,
+    "Enrollment_No": "2505101010059",
+    "Roll_No": 59,
+    "Student": "NAKUL PARMAR",
+    "T_percent": 69.41,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 59,
+    "Enrollment_No": "2505101010060",
+    "Roll_No": 60,
+    "Student": "NAKUM DANISHUSHEN RAFIKBHAI",
+    "T_percent": 0,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 60,
+    "Enrollment_No": "2505101010061",
+    "Roll_No": 251,
+    "Student": "PAARTH SHARMA",
+    "T_percent": 31.33,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 61,
+    "Enrollment_No": "2505101010062",
+    "Roll_No": 62,
+    "Student": "PALAK MISHRA",
+    "T_percent": 67.47,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 62,
+    "Enrollment_No": "2505101010063",
+    "Roll_No": 63,
+    "Student": "PANCHAL YUGKUMAR SANDIPKUMAR",
+    "T_percent": 62.35,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 63,
+    "Enrollment_No": "2505101010064",
+    "Roll_No": 64,
+    "Student": "PARMAR MAITRY PUNITKUMAR",
+    "T_percent": 48.19,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 64,
+    "Enrollment_No": "2505101010065",
+    "Roll_No": 65,
+    "Student": "PATANVADIYA OM MAHENDRABHAI",
+    "T_percent": 62.79,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 65,
+    "Enrollment_No": "2505101010066",
+    "Roll_No": 66,
+    "Student": "PATEL OM HITESHKUMAR",
+    "T_percent": 47.67,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 66,
+    "Enrollment_No": "2505101010067",
+    "Roll_No": 67,
+    "Student": "PATEL PIYUSH",
+    "T_percent": 33.33,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 67,
+    "Enrollment_No": "2505101010068",
+    "Roll_No": 68,
+    "Student": "PATEL SHREYA KAMALKUMAR",
+    "T_percent": 87.06,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 68,
+    "Enrollment_No": "2505101010069",
+    "Roll_No": 69,
+    "Student": "PATEL ZINAL VISHNUBHAI",
+    "T_percent": 95.18,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 69,
+    "Enrollment_No": "2505101010070",
+    "Roll_No": 70,
+    "Student": "PRAMANIK AKASH SUKAMAL",
+    "T_percent": 84.71,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 70,
+    "Enrollment_No": "2505101010071",
+    "Roll_No": 71,
+    "Student": "PRATYUSH SINGH MEHTA",
+    "T_percent": 47.06,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 71,
+    "Enrollment_No": "2505101010072",
+    "Roll_No": 72,
+    "Student": "PRIYANSH PORWAL",
+    "T_percent": 29.63,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 72,
+    "Enrollment_No": "2505101010073",
+    "Roll_No": 73,
+    "Student": "RAGHU RANJAN",
+    "T_percent": 82.35,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 73,
+    "Enrollment_No": "2505101010074",
+    "Roll_No": 74,
+    "Student": "RAHUL CHOUDHARY",
+    "T_percent": 89.41,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 74,
+    "Enrollment_No": "2505101010075",
+    "Roll_No": 75,
+    "Student": "RAHUL KUMAR",
+    "T_percent": 46.91,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 75,
+    "Enrollment_No": "2505101010076",
+    "Roll_No": 76,
+    "Student": "RAHUL PATIDAR",
+    "T_percent": 75.31,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 76,
+    "Enrollment_No": "2505101010077",
+    "Roll_No": 77,
+    "Student": "RAJVEER SINGH",
+    "T_percent": 72.94,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 77,
+    "Enrollment_No": "2505101010078",
+    "Roll_No": 78,
+    "Student": "RATHOD MIHIR HARESHBHAI",
+    "T_percent": 56.47,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 78,
+    "Enrollment_No": "2505101010079",
+    "Roll_No": 79,
+    "Student": "RISHI CHANDRAKUMAR PUROHIT",
+    "T_percent": 57.83,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 79,
+    "Enrollment_No": "2505101010080",
+    "Roll_No": 80,
+    "Student": "SAHIL KUMAR SHARMA",
+    "T_percent": 32.94,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 80,
+    "Enrollment_No": "2505101010081",
+    "Roll_No": 81,
+    "Student": "SANJANA KUMARI",
+    "T_percent": 58.82,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 81,
+    "Enrollment_No": "2505101010082",
+    "Roll_No": 82,
+    "Student": "SANJEEV KUMAR",
+    "T_percent": 37.04,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 82,
+    "Enrollment_No": "2505101010083",
+    "Roll_No": 83,
+    "Student": "SATYAM KUMAR",
+    "T_percent": 77.65,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 83,
+    "Enrollment_No": "2505101010084",
+    "Roll_No": 84,
+    "Student": "SATYAM KUMAR",
+    "T_percent": 78.82,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 84,
+    "Enrollment_No": "2505101010085",
+    "Roll_No": 85,
+    "Student": "SHIVAM GUPTA",
+    "T_percent": 0,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 85,
+    "Enrollment_No": "2505101010086",
+    "Roll_No": 86,
+    "Student": "SHIVAM KUMAR JHA",
+    "T_percent": 0,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 86,
+    "Enrollment_No": "2505101010087",
+    "Roll_No": 87,
+    "Student": "SHOURY JAIN",
+    "T_percent": 69.41,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 87,
+    "Enrollment_No": "2505101010088",
+    "Roll_No": 88,
+    "Student": "SHREYA JOSHI",
+    "T_percent": 70.59,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 88,
+    "Enrollment_No": "2505101010090",
+    "Roll_No": 90,
+    "Student": "SINDHAV MOHIT RAVJIBHAI",
+    "T_percent": 38.55,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 89,
+    "Enrollment_No": "2505101010091",
+    "Roll_No": 91,
+    "Student": "SINGH RIYA VIJAY",
+    "T_percent": 40,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 90,
+    "Enrollment_No": "2505101010092",
+    "Roll_No": 92,
+    "Student": "SOMESHWAR CHARAN",
+    "T_percent": 9.64,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 91,
+    "Enrollment_No": "2505101010093",
+    "Roll_No": 93,
+    "Student": "SONI ANSHKUMAR DHARMESHKUMAR",
+    "T_percent": 84.71,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 92,
+    "Enrollment_No": "2505101010094",
+    "Roll_No": 94,
+    "Student": "SOURAV KUMAR SINGH",
+    "T_percent": 44.58,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 93,
+    "Enrollment_No": "2505101010095",
+    "Roll_No": 95,
+    "Student": "TANISHA KUMARI",
+    "T_percent": 91.86,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 94,
+    "Enrollment_No": "2505101010096",
+    "Roll_No": 96,
+    "Student": "TANISHQ SINGH PANWAR",
+    "T_percent": 68.24,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 95,
+    "Enrollment_No": "2505101010097",
+    "Roll_No": 97,
+    "Student": "TAPAS PAREKH",
+    "T_percent": 21.69,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 96,
+    "Enrollment_No": "2505101010098",
+    "Roll_No": 98,
+    "Student": "TEJAS GURJAR",
+    "T_percent": 54.12,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 97,
+    "Enrollment_No": "2505101010099",
+    "Roll_No": 99,
+    "Student": "TUSHAR KALAL",
+    "T_percent": 65.88,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 98,
+    "Enrollment_No": "2505101010100",
+    "Roll_No": 100,
+    "Student": "VAIBHAV MISHRA",
+    "T_percent": 80,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 99,
+    "Enrollment_No": "2505101010101",
+    "Roll_No": 101,
+    "Student": "VINAY PATIDAR",
+    "T_percent": 0,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 100,
+    "Enrollment_No": "2505101010102",
+    "Roll_No": 102,
+    "Student": "VISHWAKARMA AJAY AVDESH",
+    "T_percent": 0,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 101,
+    "Enrollment_No": "2505101010103",
+    "Roll_No": 103,
+    "Student": "VYAS HEET HEMANT",
+    "T_percent": 28.24,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 102,
+    "Enrollment_No": "2505101010104",
+    "Roll_No": 104,
+    "Student": "YAWAR JAVID",
+    "T_percent": 22.09,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 103,
+    "Enrollment_No": "2505101010105",
+    "Roll_No": 105,
+    "Student": "DEEPAK SWAMI",
+    "T_percent": 85.88,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 104,
+    "Enrollment_No": "2505101010106",
+    "Roll_No": 106,
+    "Student": "GANDHI KRISHNA AKSHAYKUMAR",
+    "T_percent": 42.17,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 105,
+    "Enrollment_No": "2505101010107",
+    "Roll_No": 107,
+    "Student": "GULSHAN KUMAR",
+    "T_percent": 21.69,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 106,
+    "Enrollment_No": "2505101010108",
+    "Roll_No": 108,
+    "Student": "MD SAMERUDDIN",
+    "T_percent": 48.24,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 107,
+    "Enrollment_No": "2505101010109",
+    "Roll_No": 109,
+    "Student": "SARTHAK SHARMA",
+    "T_percent": 59.04,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 108,
+    "Enrollment_No": "2505101010110",
+    "Roll_No": 110,
+    "Student": "TANISHKA NITIN PARDESHI",
+    "T_percent": 55.29,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 109,
+    "Enrollment_No": "2505101010111",
+    "Roll_No": 111,
+    "Student": "VANSH KALAL",
+    "T_percent": 15.66,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 110,
+    "Enrollment_No": "2505101010112",
+    "Roll_No": 112,
+    "Student": "YUVRAJ HARESHBHAI VALA",
+    "T_percent": 38.55,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 111,
+    "Enrollment_No": "2505101010114",
+    "Roll_No": 114,
+    "Student": "ASHUTOSH ANAND",
+    "T_percent": 39.76,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 112,
+    "Enrollment_No": "2505101010115",
+    "Roll_No": 115,
+    "Student": "DIVEY SINGH",
+    "T_percent": 39.76,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 113,
+    "Enrollment_No": "2505101010116",
+    "Roll_No": 116,
+    "Student": "LALIT KUMAR",
+    "T_percent": 0,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 114,
+    "Enrollment_No": "2505101010117",
+    "Roll_No": 117,
+    "Student": "MORI RAJ VANRAJBHAI",
+    "T_percent": 0,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 115,
+    "Enrollment_No": "2505101010118",
+    "Roll_No": 118,
+    "Student": "NIKHIL KUMAR",
+    "T_percent": 12.05,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 116,
+    "Enrollment_No": "2505101010119",
+    "Roll_No": 119,
+    "Student": "NISHA KHAJURIA",
+    "T_percent": 78.31,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 117,
+    "Enrollment_No": "2505101010120",
+    "Roll_No": 120,
+    "Student": "RAKSHIT SHARMA",
+    "T_percent": 50.6,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 118,
+    "Enrollment_No": "2505101010121",
+    "Roll_No": 121,
+    "Student": "RUBBY MANGOTRA",
+    "T_percent": 49.4,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 119,
+    "Enrollment_No": "2505101010122",
+    "Roll_No": 122,
+    "Student": "SAKSHI KUMARI",
+    "T_percent": 66.28,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 120,
+    "Enrollment_No": "2505101010123",
+    "Roll_No": 123,
+    "Student": "SUHEL SHARMA",
+    "T_percent": 19.28,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 121,
+    "Enrollment_No": "2505101010124",
+    "Roll_No": 124,
+    "Student": "ADARSH TRIPATHI",
+    "T_percent": 84.71,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 122,
+    "Enrollment_No": "2505101010125",
+    "Roll_No": 125,
+    "Student": "ARBIND PATEL",
+    "T_percent": 53.01,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 123,
+    "Enrollment_No": "2505101010127",
+    "Roll_No": 127,
+    "Student": "CHANGA DAWA",
+    "T_percent": 74.12,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 124,
+    "Enrollment_No": "2505101010128",
+    "Roll_No": 128,
+    "Student": "KARMA LHENDUP",
+    "T_percent": 90.59,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 125,
+    "Enrollment_No": "2505101010129",
+    "Roll_No": 129,
+    "Student": "KARMA TENZIN",
+    "T_percent": 53.01,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 126,
+    "Enrollment_No": "2505101010130",
+    "Roll_No": 130,
+    "Student": "KINGA DENDUP",
+    "T_percent": 89.41,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 127,
+    "Enrollment_No": "2505101010131",
+    "Roll_No": 131,
+    "Student": "NANDA KUMARI GHALLEY",
+    "T_percent": 83.13,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 128,
+    "Enrollment_No": "2505101010132",
+    "Roll_No": 132,
+    "Student": "PRAJWOL MAHATOU",
+    "T_percent": 28.92,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 129,
+    "Enrollment_No": "2505101010133",
+    "Roll_No": 133,
+    "Student": "RAJAN SUBBA",
+    "T_percent": 85.88,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 130,
+    "Enrollment_No": "2505101010134",
+    "Roll_No": 134,
+    "Student": "RAYMOND NANA OSEI AGYEMANG",
+    "T_percent": 32.53,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 131,
+    "Enrollment_No": "2505101010135",
+    "Roll_No": 135,
+    "Student": "SANGAY DENDUP",
+    "T_percent": 83.53,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 132,
+    "Enrollment_No": "2505101010136",
+    "Roll_No": 136,
+    "Student": "SANGAY TSHERING",
+    "T_percent": 51.81,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 133,
+    "Enrollment_No": "2505101010137",
+    "Roll_No": 137,
+    "Student": "SHUDHANSHU SARRAF",
+    "T_percent": 50.6,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 134,
+    "Enrollment_No": "2505101010138",
+    "Roll_No": 138,
+    "Student": "SIDDHARTH DANGI",
+    "T_percent": 39.76,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 135,
+    "Enrollment_No": "2505101010139",
+    "Roll_No": 139,
+    "Student": "SWAROOP ALLAY",
+    "T_percent": 77.65,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 136,
+    "Enrollment_No": "2505101010140",
+    "Roll_No": 140,
+    "Student": "TANDIN GYELTSHEN",
+    "T_percent": 84.34,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 137,
+    "Enrollment_No": "2505101010141",
+    "Roll_No": 141,
+    "Student": "BAROT PAVAN PRAKASH",
+    "T_percent": 0,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 138,
+    "Enrollment_No": "2505101010142",
+    "Roll_No": 142,
+    "Student": "PARMAR NIL KANESHBHAI",
+    "T_percent": 56.63,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 139,
+    "Enrollment_No": "2505101010143",
+    "Roll_No": 143,
+    "Student": "VIJAY DAKSH",
+    "T_percent": 37.35,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 140,
+    "Enrollment_No": "2505101010145",
+    "Roll_No": 145,
+    "Student": "DAVIS DEOGRATIAS KIFMAN",
+    "T_percent": 42.35,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 141,
+    "Enrollment_No": "2505101010146",
+    "Roll_No": 146,
+    "Student": "MANAN",
+    "T_percent": 69.77,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 142,
+    "Enrollment_No": "2505101010147",
+    "Roll_No": 147,
+    "Student": "NGAWANG JIMBA TENZIN",
+    "T_percent": 60,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 143,
+    "Enrollment_No": "2505101010148",
+    "Roll_No": 148,
+    "Student": "RAJ",
+    "T_percent": 95.18,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 144,
+    "Enrollment_No": "2505101010149",
+    "Roll_No": 149,
+    "Student": "RAMANSHU PATIL",
+    "T_percent": 40.96,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 145,
+    "Enrollment_No": "2505101010150",
+    "Roll_No": 150,
+    "Student": "SABINA MOKTAN",
+    "T_percent": 98.82,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 146,
+    "Enrollment_No": "2505101010151",
+    "Roll_No": 151,
+    "Student": "SAHIL RAJA",
+    "T_percent": 84.34,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 147,
+    "Enrollment_No": "2505101010152",
+    "Roll_No": 152,
+    "Student": "SHUBHKAMNA SAINGER",
+    "T_percent": 57.65,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 148,
+    "Enrollment_No": "2505101010153",
+    "Roll_No": 153,
+    "Student": "SIDHARTH NELLIKKA",
+    "T_percent": 41.18,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 149,
+    "Enrollment_No": "2505101010154",
+    "Roll_No": 154,
+    "Student": "TSHERING DENDUP",
+    "T_percent": 67.47,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 150,
+    "Enrollment_No": "2505101010155",
+    "Roll_No": 155,
+    "Student": "VANGALA VISHNU VARDHAN REDDY",
+    "T_percent": 50.6,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 151,
+    "Enrollment_No": "2505101010156",
+    "Roll_No": 156,
+    "Student": "CHAVHAN BHAGYASHRI YOGESH",
+    "T_percent": 54.22,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 152,
+    "Enrollment_No": "2505101010157",
+    "Roll_No": 157,
+    "Student": "EUGINE MENA",
+    "T_percent": 0,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 153,
+    "Enrollment_No": "2505101010158",
+    "Roll_No": 158,
+    "Student": "KWAN-TEAU JULIO",
+    "T_percent": 33.73,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 154,
+    "Enrollment_No": "2505101010159",
+    "Roll_No": 159,
+    "Student": "LHENDUP DORJI",
+    "T_percent": 0,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 155,
+    "Enrollment_No": "2505101010160",
+    "Roll_No": 160,
+    "Student": "RAULJI MANSI",
+    "T_percent": 40.96,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 156,
+    "Enrollment_No": "2505101010161",
+    "Roll_No": 161,
+    "Student": "SHIVANI HARSHADBHAI PATEL",
+    "T_percent": 69.41,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 157,
+    "Enrollment_No": "2505101010162",
+    "Roll_No": 162,
+    "Student": "UDDHAV SHARMA",
+    "T_percent": 12.05,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 158,
+    "Enrollment_No": "2505101010163",
+    "Roll_No": 163,
+    "Student": "WANDZILE WANZUMUZI DLAMINI",
+    "T_percent": 19.28,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 159,
+    "Enrollment_No": "2505101010164",
+    "Roll_No": 164,
+    "Student": "ABDUL SARUNI MOLLEL",
+    "T_percent": 0,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 160,
+    "Enrollment_No": "2505101010165",
+    "Roll_No": 165,
+    "Student": "BHAVYA GILL",
+    "T_percent": 25.58,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 161,
+    "Enrollment_No": "2505101010166",
+    "Roll_No": 166,
+    "Student": "DJOMO NANKAP DIVAN STEVE",
+    "T_percent": 0,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 162,
+    "Enrollment_No": "2505101010167",
+    "Roll_No": 167,
+    "Student": "RAAJ PATEL",
+    "T_percent": 2.41,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 163,
+    "Enrollment_No": "2505101010168",
+    "Roll_No": 168,
+    "Student": "SIJAN SHAH",
+    "T_percent": 43.53,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 164,
+    "Enrollment_No": "2505101010169",
+    "Roll_No": 169,
+    "Student": "UBARAJ SINGH",
+    "T_percent": 0,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 165,
+    "Enrollment_No": "2505101010170",
+    "Roll_No": 170,
+    "Student": "HARSH VARDHAN DHABHAI",
+    "T_percent": 24.1,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 166,
+    "Enrollment_No": "2505101010171",
+    "Roll_No": 171,
+    "Student": "KARAN KUMAR SINGH",
+    "T_percent": 78.82,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 167,
+    "Enrollment_No": "2505101010172",
+    "Roll_No": 172,
+    "Student": "KUNAL SINGH",
+    "T_percent": 65.88,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 168,
+    "Enrollment_No": "2505101010173",
+    "Roll_No": 173,
+    "Student": "PARMAR HITENBHAI HARESHBHAI",
+    "T_percent": 46.99,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 169,
+    "Enrollment_No": "2505101010174",
+    "Roll_No": 174,
+    "Student": "SAMARIYA YUVRAJ HARISHBHAI",
+    "T_percent": 48.19,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 170,
+    "Enrollment_No": "2505101010175",
+    "Roll_No": 175,
+    "Student": "SOLANKI JAINIL RAJNIKANT",
+    "T_percent": 37.35,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 171,
+    "Enrollment_No": "2505101010176",
+    "Roll_No": 176,
+    "Student": "PATHAN AHMED RAZA MOHD AYYUB",
+    "T_percent": 0,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 172,
+    "Enrollment_No": "2505101010177",
+    "Roll_No": 177,
+    "Student": "PULIPATI SAIKIRAN",
+    "T_percent": 59.52,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 173,
+    "Enrollment_No": "2505101010179",
+    "Roll_No": 179,
+    "Student": "SUMIT",
+    "T_percent": 33.73,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 174,
+    "Enrollment_No": "2505101010180",
+    "Roll_No": 180,
+    "Student": "UDIT LAL",
+    "T_percent": 0,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 175,
+    "Enrollment_No": "2505101010181",
+    "Roll_No": 181,
+    "Student": "PRINCE KUMAR",
+    "T_percent": 45.78,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 176,
+    "Enrollment_No": "2505101010182",
+    "Roll_No": 182,
+    "Student": "AMAN LUTENGANO NHONDYA",
+    "T_percent": 0,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 177,
+    "Enrollment_No": "2505101010183",
+    "Roll_No": 183,
+    "Student": "BHUKYA RAM GOPI NAIK",
+    "T_percent": 0,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 178,
+    "Enrollment_No": "2505101010184",
+    "Roll_No": 88,
+    "Student": "PRASHANT SHAHI",
+    "T_percent": 77.42,
+    "Course": "BCA"
+  },
+  {
+    "Sr": 179,
+    "Enrollment_No": "2505101010185",
+    "Roll_No": 185,
+    "Student": "AYUSH KUMAR YADAV",
+    "T_percent": 96.72,
+    "Course": "BCA"
+  },
+  
+  {
+    "Sr": 1,
+    "Enrollment_No": "2505101270001",
+    "Roll_No": 1,
+    "Student": "AALBIN ANU",
+    "T_percent": 59.04,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 2,
+    "Enrollment_No": "2505101270002",
+    "Roll_No": 2,
+    "Student": "ABHIRAJ",
+    "T_percent": 61.18,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 3,
+    "Enrollment_No": "2505101270003",
+    "Roll_No": 3,
+    "Student": "ABHISHEK A",
+    "T_percent": 67.06,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 4,
+    "Enrollment_No": "2505101270004",
+    "Roll_No": 617,
+    "Student": "ADESARA AYUSH NAYANBHAI",
+    "T_percent": 2.38,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 5,
+    "Enrollment_No": "2505101270005",
+    "Roll_No": 5,
+    "Student": "ADITHYAN A NAIR",
+    "T_percent": 85.88,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 6,
+    "Enrollment_No": "2505101270006",
+    "Roll_No": 6,
+    "Student": "ADITYA BHATT",
+    "T_percent": 63.53,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 7,
+    "Enrollment_No": "2505101270007",
+    "Roll_No": 7,
+    "Student": "AMBEKAR ADITI SACHIN",
+    "T_percent": 90.59,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 8,
+    "Enrollment_No": "2505101270008",
+    "Roll_No": 8,
+    "Student": "AMIR HAMZA",
+    "T_percent": 0,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 9,
+    "Enrollment_No": "2505101270009",
+    "Roll_No": 9,
+    "Student": "ANKIT KUMAR",
+    "T_percent": 61.18,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 10,
+    "Enrollment_No": "2505101270010",
+    "Roll_No": 10,
+    "Student": "ANNIKA MEHTA",
+    "T_percent": 79.52,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 11,
+    "Enrollment_No": "2505101270011",
+    "Roll_No": 11,
+    "Student": "ANNU YADAV",
+    "T_percent": 10.39,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 12,
+    "Enrollment_No": "2505101270012",
+    "Roll_No": 12,
+    "Student": "ANSH SHARMA",
+    "T_percent": 85.88,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 13,
+    "Enrollment_No": "2505101270013",
+    "Roll_No": 13,
+    "Student": "ANUSHKA SINGH",
+    "T_percent": 14.46,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 14,
+    "Enrollment_No": "2505101270014",
+    "Roll_No": 14,
+    "Student": "ARPAN VERMA",
+    "T_percent": 77.65,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 15,
+    "Enrollment_No": "2505101270015",
+    "Roll_No": 15,
+    "Student": "ASHISH",
+    "T_percent": 62.35,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 16,
+    "Enrollment_No": "2505101270016",
+    "Roll_No": 16,
+    "Student": "ASHUTOSH SINGH",
+    "T_percent": 58.82,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 17,
+    "Enrollment_No": "2505101270017",
+    "Roll_No": 17,
+    "Student": "ASWANTH K",
+    "T_percent": 58.82,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 18,
+    "Enrollment_No": "2505101270018",
+    "Roll_No": 18,
+    "Student": "AVINASH RABI PANDEY",
+    "T_percent": 100,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 19,
+    "Enrollment_No": "2505101270019",
+    "Roll_No": 19,
+    "Student": "BADWAIK RAHUL SUDHIR",
+    "T_percent": 62.79,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 20,
+    "Enrollment_No": "2505101270020",
+    "Roll_No": 20,
+    "Student": "BARIYA PRAGYABEN MAHESHBHAI",
+    "T_percent": 72.94,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 21,
+    "Enrollment_No": "2505101270021",
+    "Roll_No": 21,
+    "Student": "BARODIA NEEL JATIN",
+    "T_percent": 61.18,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 22,
+    "Enrollment_No": "2505101270022",
+    "Roll_No": 22,
+    "Student": "BHAVYAA MOGRA",
+    "T_percent": 51.81,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 23,
+    "Enrollment_No": "2505101270023",
+    "Roll_No": 23,
+    "Student": "BHOI KRUSES DINESHBHAI",
+    "T_percent": 81.4,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 24,
+    "Enrollment_No": "2505101270024",
+    "Roll_No": 24,
+    "Student": "BIMLESH KUMAR SHARMA",
+    "T_percent": 68.24,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 25,
+    "Enrollment_No": "2505101270025",
+    "Roll_No": 25,
+    "Student": "BRIJRAJ SINGH RAWAT",
+    "T_percent": 36.47,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 26,
+    "Enrollment_No": "2505101270026",
+    "Roll_No": 26,
+    "Student": "BUDHWANI ADITYA TULSIDAS",
+    "T_percent": 26.51,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 27,
+    "Enrollment_No": "2505101270027",
+    "Roll_No": 27,
+    "Student": "CHANGANI NEHAL HARESHBHAI",
+    "T_percent": 0,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 28,
+    "Enrollment_No": "2505101270028",
+    "Roll_No": 28,
+    "Student": "CHAUHAN AAYSHABIBI SAKILBHAI",
+    "T_percent": 60,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 29,
+    "Enrollment_No": "2505101270029",
+    "Roll_No": 29,
+    "Student": "CHAUHAN HARSH DHARMESHBHAI",
+    "T_percent": 85.88,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 30,
+    "Enrollment_No": "2505101270030",
+    "Roll_No": 30,
+    "Student": "CHAUHAN JAYMIKSINH JAYESHKUMAR",
+    "T_percent": 67.06,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 31,
+    "Enrollment_No": "2505101270031",
+    "Roll_No": 31,
+    "Student": "CHAUHAN KRISHNA CHETANKUMAR",
+    "T_percent": 77.11,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 32,
+    "Enrollment_No": "2505101270032",
+    "Roll_No": 32,
+    "Student": "CHAUHAN NEEL CHANDRAKANT",
+    "T_percent": 79.76,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 33,
+    "Enrollment_No": "2505101270033",
+    "Roll_No": 33,
+    "Student": "CHAVDA PALAK KISHANSINH",
+    "T_percent": 88.24,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 34,
+    "Enrollment_No": "2505101270034",
+    "Roll_No": 34,
+    "Student": "CHAVDA RAJVIRSINH SURENDRASINH",
+    "T_percent": 0,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 35,
+    "Enrollment_No": "2505101270035",
+    "Roll_No": 35,
+    "Student": "CHHABHAIYA NIKULKUMAR MOTIBHAI",
+    "T_percent": 98.82,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 36,
+    "Enrollment_No": "2505101270036",
+    "Roll_No": 36,
+    "Student": "CHHATROLA VAIDEHI DIPAK",
+    "T_percent": 22.89,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 37,
+    "Enrollment_No": "2505101270037",
+    "Roll_No": 37,
+    "Student": "CHIRANJU RAJ SINGH CHOUHAN",
+    "T_percent": 65.06,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 38,
+    "Enrollment_No": "2505101270038",
+    "Roll_No": 38,
+    "Student": "CHISTI KONAIN PARVEZAHMED",
+    "T_percent": 68.24,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 39,
+    "Enrollment_No": "2505101270039",
+    "Roll_No": 39,
+    "Student": "CHUNARA SHUBH ANANDBHAI",
+    "T_percent": 82.35,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 40,
+    "Enrollment_No": "2505101270040",
+    "Roll_No": 40,
+    "Student": "DAKSH DHOLARIYA",
+    "T_percent": 2.38,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 41,
+    "Enrollment_No": "2505101270041",
+    "Roll_No": 41,
+    "Student": "DANDAMUDI RAM DHANUSH",
+    "T_percent": 48.19,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 42,
+    "Enrollment_No": "2505101270042",
+    "Roll_No": 42,
+    "Student": "DESHMUKH ADITI DILIP",
+    "T_percent": 34.57,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 43,
+    "Enrollment_No": "2505101270043",
+    "Roll_No": 43,
+    "Student": "DEVANSH KHATRI",
+    "T_percent": 57.83,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 44,
+    "Enrollment_No": "2505101270045",
+    "Roll_No": 45,
+    "Student": "DISHA NAGAR",
+    "T_percent": 46.99,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 45,
+    "Enrollment_No": "2505101270046",
+    "Roll_No": 46,
+    "Student": "DIVYANSHU KETAN SOLANKY",
+    "T_percent": 68.24,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 46,
+    "Enrollment_No": "2505101270047",
+    "Roll_No": 47,
+    "Student": "DURVESH MUSTAKIM SABBIRBHAI",
+    "T_percent": 90.59,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 47,
+    "Enrollment_No": "2505101270048",
+    "Roll_No": 48,
+    "Student": "GOHIL DHRUV DEVSHIBHAI",
+    "T_percent": 55.81,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 48,
+    "Enrollment_No": "2505101270049",
+    "Roll_No": 49,
+    "Student": "HARSH BHUVA",
+    "T_percent": 2.38,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 49,
+    "Enrollment_No": "2505101270050",
+    "Roll_No": 50,
+    "Student": "HARSHITA KUMARI",
+    "T_percent": 67.06,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 50,
+    "Enrollment_No": "2505101270051",
+    "Roll_No": 51,
+    "Student": "HIMANSHU",
+    "T_percent": 58.82,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 51,
+    "Enrollment_No": "2505101270052",
+    "Roll_No": 52,
+    "Student": "HIMANSHU SAXENA",
+    "T_percent": 15.29,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 52,
+    "Enrollment_No": "2505101270053",
+    "Roll_No": 53,
+    "Student": "HIMANSHU SINGH",
+    "T_percent": 75.29,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 53,
+    "Enrollment_No": "2505101270054",
+    "Roll_No": 54,
+    "Student": "HIMESH PATIDAR",
+    "T_percent": 72.09,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 54,
+    "Enrollment_No": "2505101270055",
+    "Roll_No": 55,
+    "Student": "JADHAV PARTH SANDESH",
+    "T_percent": 0,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 55,
+    "Enrollment_No": "2505101270056",
+    "Roll_No": 56,
+    "Student": "JAIN KIRTI AJAY",
+    "T_percent": 67.47,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 56,
+    "Enrollment_No": "2505101270057",
+    "Roll_No": 57,
+    "Student": "JAISWAR VISHAL YOGESH KUMAR",
+    "T_percent": 49.4,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 57,
+    "Enrollment_No": "2505101270058",
+    "Roll_No": 58,
+    "Student": "JOUEL WILSON ABRAHAM",
+    "T_percent": 88.24,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 58,
+    "Enrollment_No": "2505101270059",
+    "Roll_No": 59,
+    "Student": "KADAM AVISHKAR SACHIN",
+    "T_percent": 61.45,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 59,
+    "Enrollment_No": "2505101270060",
+    "Roll_No": 60,
+    "Student": "KALP MEHTA",
+    "T_percent": 31.33,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 60,
+    "Enrollment_No": "2505101270061",
+    "Roll_No": 322,
+    "Student": "KANANI PRINS DAMJIBHAI",
+    "T_percent": 88.61,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 61,
+    "Enrollment_No": "2505101270062",
+    "Roll_No": 599,
+    "Student": "KANERIYA NISHANT SHAILESHBHAI",
+    "T_percent": 53.25,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 62,
+    "Enrollment_No": "2505101270063",
+    "Roll_No": 670,
+    "Student": "KARTIK UPADHYAY",
+    "T_percent": 48.05,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 63,
+    "Enrollment_No": "2505101270064",
+    "Roll_No": 64,
+    "Student": "KAUSHIK KUMAR",
+    "T_percent": 56.79,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 64,
+    "Enrollment_No": "2505101270065",
+    "Roll_No": 65,
+    "Student": "KAVYA SEVAK",
+    "T_percent": 80.25,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 65,
+    "Enrollment_No": "2505101270066",
+    "Roll_No": 901,
+    "Student": "KHAN NAIM NOORULLAH",
+    "T_percent": 51.9,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 66,
+    "Enrollment_No": "2505101270067",
+    "Roll_No": 67,
+    "Student": "KHIMSURIYA MAHESHVARI ARVINDBHAI",
+    "T_percent": 61.63,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 67,
+    "Enrollment_No": "2505101270068",
+    "Roll_No": 190,
+    "Student": "KIKANI NISHIL SHAILESHBHAI",
+    "T_percent": 62.03,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 68,
+    "Enrollment_No": "2505101270069",
+    "Roll_No": 688,
+    "Student": "KRISH SONI",
+    "T_percent": 44.16,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 69,
+    "Enrollment_No": "2505101270070",
+    "Roll_No": 70,
+    "Student": "KUBAVAT PAL KETANKUMAR",
+    "T_percent": 57.14,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 70,
+    "Enrollment_No": "2505101270071",
+    "Roll_No": 526,
+    "Student": "KUSHWAHA ABHAY JOGINDER",
+    "T_percent": 0,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 71,
+    "Enrollment_No": "2505101270072",
+    "Roll_No": 72,
+    "Student": "LIMBASIYA DARSHAN JAMANBHAI",
+    "T_percent": 91.57,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 72,
+    "Enrollment_No": "2505101270073",
+    "Roll_No": 345,
+    "Student": "LUBHAVNA YADAV",
+    "T_percent": 65.82,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 73,
+    "Enrollment_No": "2505101270074",
+    "Roll_No": 74,
+    "Student": "LUHAR AMAN",
+    "T_percent": 0,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 74,
+    "Enrollment_No": "2505101270075",
+    "Roll_No": 75,
+    "Student": "MAAZ KHAN",
+    "T_percent": 19.75,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 75,
+    "Enrollment_No": "2505101270076",
+    "Roll_No": 76,
+    "Student": "MAHESH PATIDAR",
+    "T_percent": 65.06,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 76,
+    "Enrollment_No": "2505101270077",
+    "Roll_No": 77,
+    "Student": "MALI SAHIL ASHOKBHAI",
+    "T_percent": 69.14,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 77,
+    "Enrollment_No": "2505101270078",
+    "Roll_No": 205,
+    "Student": "MANE SIDDHI SACHIN",
+    "T_percent": 67.09,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 78,
+    "Enrollment_No": "2505101270079",
+    "Roll_No": 404,
+    "Student": "MANN DARJI",
+    "T_percent": 49.35,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 79,
+    "Enrollment_No": "2505101270080",
+    "Roll_No": 80,
+    "Student": "MANSURI SARFARAZBHAI MEHBOOB",
+    "T_percent": 86.05,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 80,
+    "Enrollment_No": "2505101270081",
+    "Roll_No": 81,
+    "Student": "MATROJA DHRUVRAJSINH PRAVINSINH",
+    "T_percent": 55.42,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 81,
+    "Enrollment_No": "2505101270082",
+    "Roll_No": 82,
+    "Student": "MAYANK SINGH",
+    "T_percent": 78.31,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 82,
+    "Enrollment_No": "2505101270083",
+    "Roll_No": 83,
+    "Student": "MHATRE TANAY BHUSHAN",
+    "T_percent": 65.06,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 83,
+    "Enrollment_No": "2505101270084",
+    "Roll_No": 84,
+    "Student": "MISHRA TRUSHANT SHRAVAN",
+    "T_percent": 81.93,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 84,
+    "Enrollment_No": "2505101270085",
+    "Roll_No": 85,
+    "Student": "MUKESH KUMAR",
+    "T_percent": 50.62,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 85,
+    "Enrollment_No": "2505101270086",
+    "Roll_No": 316,
+    "Student": "NAKUM REHAN SAMEER",
+    "T_percent": 91.14,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 86,
+    "Enrollment_No": "2505101270087",
+    "Roll_No": 87,
+    "Student": "NARIGARA MEET DILIP",
+    "T_percent": 33.33,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 87,
+    "Enrollment_No": "2505101270088",
+    "Roll_No": 88,
+    "Student": "NAVNEET JOSHI",
+    "T_percent": 58.14,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 88,
+    "Enrollment_No": "2505101270089",
+    "Roll_No": 89,
+    "Student": "NAYAN SONI",
+    "T_percent": 53.09,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 89,
+    "Enrollment_No": "2505101270090",
+    "Roll_No": 90,
+    "Student": "NIDHIN KRISHNA K",
+    "T_percent": 24.69,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 90,
+    "Enrollment_No": "2505101270091",
+    "Roll_No": 91,
+    "Student": "NIKHIL YADAV",
+    "T_percent": 61.63,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 91,
+    "Enrollment_No": "2505101270092",
+    "Roll_No": 92,
+    "Student": "NITESH YADAV",
+    "T_percent": 48.15,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 92,
+    "Enrollment_No": "2505101270093",
+    "Roll_No": 26,
+    "Student": "NUPUR CHOUDHARY",
+    "T_percent": 92.41,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 93,
+    "Enrollment_No": "2505101270094",
+    "Roll_No": 94,
+    "Student": "OWESH ALI",
+    "T_percent": 46.91,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 94,
+    "Enrollment_No": "2505101270095",
+    "Roll_No": 95,
+    "Student": "PANCHAL EKLAVY ASHOKLAL",
+    "T_percent": 0,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 95,
+    "Enrollment_No": "2505101270096",
+    "Roll_No": 60,
+    "Student": "PANDEY ROHIT BRIJKISHOR",
+    "T_percent": 67.09,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 96,
+    "Enrollment_No": "2505101270097",
+    "Roll_No": 97,
+    "Student": "PANDEY SURAJ PAVAN",
+    "T_percent": 43.21,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 97,
+    "Enrollment_No": "2505101270098",
+    "Roll_No": 511,
+    "Student": "PANKHANIYA SAMARTH HIRENBHAI",
+    "T_percent": 0,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 98,
+    "Enrollment_No": "2505101270099",
+    "Roll_No": 99,
+    "Student": "PANWAR GAURAVSINGH SUNDERSINGH",
+    "T_percent": 83.72,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 99,
+    "Enrollment_No": "2505101270100",
+    "Roll_No": 100,
+    "Student": "PARMAR DEV JAGDISHBHAI",
+    "T_percent": 53.09,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 100,
+    "Enrollment_No": "2505101270101",
+    "Roll_No": 101,
+    "Student": "PARMAR OMSINH AJAYSINH",
+    "T_percent": 66.67,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 101,
+    "Enrollment_No": "2505101270102",
+    "Roll_No": 102,
+    "Student": "PARTH PARMAR",
+    "T_percent": 27.16,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 102,
+    "Enrollment_No": "2505101270103",
+    "Roll_No": 103,
+    "Student": "PARTH SENGOT",
+    "T_percent": 45.78,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 103,
+    "Enrollment_No": "2505101270104",
+    "Roll_No": 376,
+    "Student": "PATANWADIYA DAKSHKUMAR RANJITBHAI",
+    "T_percent": 41.56,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 104,
+    "Enrollment_No": "2505101270105",
+    "Roll_No": 105,
+    "Student": "PATEL ARYA NARAYANBHAI",
+    "T_percent": 32.53,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 105,
+    "Enrollment_No": "2505101270106",
+    "Roll_No": 989,
+    "Student": "PATEL DARSHANKUMAR MAYURBHAI",
+    "T_percent": 67.09,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 106,
+    "Enrollment_No": "2505101270107",
+    "Roll_No": 107,
+    "Student": "PATEL DAXKUMAR ANILBHAI",
+    "T_percent": 32.47,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 107,
+    "Enrollment_No": "2505101270108",
+    "Roll_No": 397,
+    "Student": "PATEL DHIR KETAN",
+    "T_percent": 38.96,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 108,
+    "Enrollment_No": "2505101270109",
+    "Roll_No": 109,
+    "Student": "PATEL HONEY KEMLESHKUMAR",
+    "T_percent": 70.37,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 109,
+    "Enrollment_No": "2505101270110",
+    "Roll_No": 110,
+    "Student": "PATEL JAY SANJAYBHAI",
+    "T_percent": 73.49,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 110,
+    "Enrollment_No": "2505101270111",
+    "Roll_No": 836,
+    "Student": "PATEL KHUSHIBEN NIRALKUMAR",
+    "T_percent": 36.71,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 111,
+    "Enrollment_No": "2505101270112",
+    "Roll_No": 112,
+    "Student": "PATEL LAKSH TEJASCHANDRA",
+    "T_percent": 87.95,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 112,
+    "Enrollment_No": "2505101270113",
+    "Roll_No": 113,
+    "Student": "PATEL MAHAMMADZED SIDDIK VALI",
+    "T_percent": 68.67,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 113,
+    "Enrollment_No": "2505101270114",
+    "Roll_No": 114,
+    "Student": "PATEL ROHANSHU RAJESHKUMAR",
+    "T_percent": 95.35,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 114,
+    "Enrollment_No": "2505101270116",
+    "Roll_No": 147,
+    "Student": "PATEL SHREYAS RANJAN",
+    "T_percent": 73.42,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 115,
+    "Enrollment_No": "2505101270117",
+    "Roll_No": 176,
+    "Student": "PATEL SHRUTI PARESHBHAI",
+    "T_percent": 81.01,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 116,
+    "Enrollment_No": "2505101270118",
+    "Roll_No": 118,
+    "Student": "PATEL SUNANDKUMAR SHAILESHBHAI",
+    "T_percent": 82.56,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 117,
+    "Enrollment_No": "2505101270119",
+    "Roll_No": 181,
+    "Student": "PATHAN AAFIYA KHAN MAJID KHAN",
+    "T_percent": 88.61,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 118,
+    "Enrollment_No": "2505101270120",
+    "Roll_No": 120,
+    "Student": "PATIL MEET DINESHBHAI",
+    "T_percent": 0,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 119,
+    "Enrollment_No": "2505101270121",
+    "Roll_No": 320,
+    "Student": "PATIL NAYAN SAMADHAN",
+    "T_percent": 73.42,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 120,
+    "Enrollment_No": "2505101270122",
+    "Roll_No": 122,
+    "Student": "PATIL NIKHIL ARUNBHAI",
+    "T_percent": 56.79,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 121,
+    "Enrollment_No": "2505101270123",
+    "Roll_No": 123,
+    "Student": "PINDORIYA VATSAL PREMJI",
+    "T_percent": 75.9,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 122,
+    "Enrollment_No": "2505101270124",
+    "Roll_No": 124,
+    "Student": "PIPARIYA HET JAYESHBHAI",
+    "T_percent": 91.57,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 123,
+    "Enrollment_No": "2505101270125",
+    "Roll_No": 125,
+    "Student": "PITHAL MINAL AJAY",
+    "T_percent": 41.98,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 124,
+    "Enrollment_No": "2505101270126",
+    "Roll_No": 126,
+    "Student": "PIYUSH KUMAR",
+    "T_percent": 81.93,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 125,
+    "Enrollment_No": "2505101270127",
+    "Roll_No": 127,
+    "Student": "PRAJAPATI MAHEK JAGDISHCHANDRA",
+    "T_percent": 65.06,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 126,
+    "Enrollment_No": "2505101270128",
+    "Roll_No": 366,
+    "Student": "PRANAV BAGHEL",
+    "T_percent": 32.47,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 127,
+    "Enrollment_No": "2505101270129",
+    "Roll_No": 129,
+    "Student": "PREETIKA SINGH",
+    "T_percent": 49.38,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 128,
+    "Enrollment_No": "2505101270130",
+    "Roll_No": 130,
+    "Student": "PRINCE NAGAR",
+    "T_percent": 23.46,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 129,
+    "Enrollment_No": "2505101270131",
+    "Roll_No": 46,
+    "Student": "PRITAM KUMAR MANJHI",
+    "T_percent": 50.65,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 130,
+    "Enrollment_No": "2505101270132",
+    "Roll_No": 132,
+    "Student": "PRIYANSHI GUPTA",
+    "T_percent": 39.76,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 131,
+    "Enrollment_No": "2505101270133",
+    "Roll_No": 133,
+    "Student": "PRIYANSHU SRIVASTAVA",
+    "T_percent": 69.88,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 132,
+    "Enrollment_No": "2505101270134",
+    "Roll_No": 134,
+    "Student": "R AMBARISH",
+    "T_percent": 60.49,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 133,
+    "Enrollment_No": "2505101270135",
+    "Roll_No": 22,
+    "Student": "RAHUL",
+    "T_percent": 0,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 134,
+    "Enrollment_No": "2505101270136",
+    "Roll_No": 136,
+    "Student": "RAHUL BABU",
+    "T_percent": 98.84,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 135,
+    "Enrollment_No": "2505101270137",
+    "Roll_No": 137,
+    "Student": "RAHUL KUMAR DANTANI",
+    "T_percent": 70.93,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 136,
+    "Enrollment_No": "2505101270138",
+    "Roll_No": 29,
+    "Student": "RAHUL MALI",
+    "T_percent": 33.77,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 137,
+    "Enrollment_No": "2505101270139",
+    "Roll_No": 139,
+    "Student": "RANJAN CHAMPATI",
+    "T_percent": 40.96,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 138,
+    "Enrollment_No": "2505101270140",
+    "Roll_No": 140,
+    "Student": "RATHOD KIRTANKUMAR HEMANTSINH",
+    "T_percent": 84.34,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 139,
+    "Enrollment_No": "2505101270141",
+    "Roll_No": 744,
+    "Student": "RATHVA SANGITABEN GANESHBHAI",
+    "T_percent": 45.45,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 140,
+    "Enrollment_No": "2505101270142",
+    "Roll_No": 142,
+    "Student": "RAVAL HETAVIBEN VIJAYBHAI",
+    "T_percent": 53.01,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 141,
+    "Enrollment_No": "2505101270143",
+    "Roll_No": 143,
+    "Student": "RAVAL KRISH JITENDRAKUMAR",
+    "T_percent": 9.88,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 142,
+    "Enrollment_No": "2505101270144",
+    "Roll_No": 144,
+    "Student": "RAVI OJHA",
+    "T_percent": 46.99,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 143,
+    "Enrollment_No": "2505101270145",
+    "Roll_No": 28,
+    "Student": "RAWAT DIVYANSHU SURAJSINGH",
+    "T_percent": 87.34,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 144,
+    "Enrollment_No": "2505101270146",
+    "Roll_No": 146,
+    "Student": "RIDHI BEN",
+    "T_percent": 79.52,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 145,
+    "Enrollment_No": "2505101270147",
+    "Roll_No": 147,
+    "Student": "RIKITA PRADHAN",
+    "T_percent": 40.74,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 146,
+    "Enrollment_No": "2505101270148",
+    "Roll_No": 247,
+    "Student": "RISHABH BHARGAV",
+    "T_percent": 65.82,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 147,
+    "Enrollment_No": "2505101270149",
+    "Roll_No": 149,
+    "Student": "RISHIKA DHAKAD",
+    "T_percent": 56.63,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 148,
+    "Enrollment_No": "2505101270150",
+    "Roll_No": 150,
+    "Student": "RISHITA GUPTA",
+    "T_percent": 32.1,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 149,
+    "Enrollment_No": "2505101270151",
+    "Roll_No": 151,
+    "Student": "RITIKA DEBNATH",
+    "T_percent": 40.7,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 150,
+    "Enrollment_No": "2505101270152",
+    "Roll_No": 745,
+    "Student": "RITOO DULANI",
+    "T_percent": 44.16,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 151,
+    "Enrollment_No": "2505101270153",
+    "Roll_No": 480,
+    "Student": "SAH DIPANSHU SANJAY",
+    "T_percent": 64.56,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 152,
+    "Enrollment_No": "2505101270154",
+    "Roll_No": 752,
+    "Student": "SAINI JESHLINKAUR TARLOCHANSINGH",
+    "T_percent": 62.03,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 153,
+    "Enrollment_No": "2505101270155",
+    "Roll_No": 155,
+    "Student": "SAMEER GAURAV",
+    "T_percent": 90.36,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 154,
+    "Enrollment_No": "2505101270156",
+    "Roll_No": 595,
+    "Student": "SAUMYA SINGH",
+    "T_percent": 46.84,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 155,
+    "Enrollment_No": "2505101270157",
+    "Roll_No": 157,
+    "Student": "SAW AMIT VINOD",
+    "T_percent": 22.89,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 156,
+    "Enrollment_No": "2505101270158",
+    "Roll_No": 158,
+    "Student": "SHAH HET JIGNESH",
+    "T_percent": 11.11,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 157,
+    "Enrollment_No": "2505101270159",
+    "Roll_No": 159,
+    "Student": "SHAH KAVYA BHUPENDREABHAI",
+    "T_percent": 85.54,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 158,
+    "Enrollment_No": "2505101270160",
+    "Roll_No": 910,
+    "Student": "SHAH RUDRA VIRENDRA",
+    "T_percent": 78.48,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 159,
+    "Enrollment_No": "2505101270161",
+    "Roll_No": 25,
+    "Student": "SHAH VAISHALI HARISH",
+    "T_percent": 38.96,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 160,
+    "Enrollment_No": "2505101270162",
+    "Roll_No": 162,
+    "Student": "SHAIKH ABDULREHMAN SAKIRALI",
+    "T_percent": 48.15,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 161,
+    "Enrollment_No": "2505101270164",
+    "Roll_No": 164,
+    "Student": "SHATAKSHI MISHRA",
+    "T_percent": 63.86,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 162,
+    "Enrollment_No": "2505101270165",
+    "Roll_No": 809,
+    "Student": "SHUKLA SUMIT PRAMOD",
+    "T_percent": 97.47,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 163,
+    "Enrollment_No": "2505101270166",
+    "Roll_No": 32,
+    "Student": "SHUVO ROY",
+    "T_percent": 55.7,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 164,
+    "Enrollment_No": "2505101270167",
+    "Roll_No": 220,
+    "Student": "SIDDHARTHA NANDY",
+    "T_percent": 58.23,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 165,
+    "Enrollment_No": "2505101270168",
+    "Roll_No": 168,
+    "Student": "SOLANKI DIVYANG SHAILESHBHAI",
+    "T_percent": 0,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 166,
+    "Enrollment_No": "2505101270169",
+    "Roll_No": 169,
+    "Student": "SOMA PRAMANIK",
+    "T_percent": 62.96,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 167,
+    "Enrollment_No": "2505101270170",
+    "Roll_No": 170,
+    "Student": "SREEHARI S S",
+    "T_percent": 41.98,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 168,
+    "Enrollment_No": "2505101270171",
+    "Roll_No": 572,
+    "Student": "SUBROTO ROY SHOVO",
+    "T_percent": 75.95,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 169,
+    "Enrollment_No": "2505101270172",
+    "Roll_No": 172,
+    "Student": "SUJAL KUMAWAT",
+    "T_percent": 62.96,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 170,
+    "Enrollment_No": "2505101270173",
+    "Roll_No": 33,
+    "Student": "SUJOY KUMAR PAUL",
+    "T_percent": 50.63,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 171,
+    "Enrollment_No": "2505101270174",
+    "Roll_No": 174,
+    "Student": "SUPEKAR PIYUSH RAVINDRA",
+    "T_percent": 48.19,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 172,
+    "Enrollment_No": "2505101270175",
+    "Roll_No": 175,
+    "Student": "SUSHANT SHAHIL",
+    "T_percent": 0,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 173,
+    "Enrollment_No": "2505101270176",
+    "Roll_No": 176,
+    "Student": "SUTHAR JAYDEEP KANUBHAI",
+    "T_percent": 56.79,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 174,
+    "Enrollment_No": "2505101270177",
+    "Roll_No": 691,
+    "Student": "SUTHAR NIDHI HASHMUKHBHAI",
+    "T_percent": 70.89,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 175,
+    "Enrollment_No": "2505101270178",
+    "Roll_No": 869,
+    "Student": "TABROOZ ALAM",
+    "T_percent": 41.77,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 176,
+    "Enrollment_No": "2505101270179",
+    "Roll_No": 179,
+    "Student": "TAMAJIT MODAK",
+    "T_percent": 60.47,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 177,
+    "Enrollment_No": "2505101270180",
+    "Roll_No": 180,
+    "Student": "TEJAS JADHAV",
+    "T_percent": 43.21,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 178,
+    "Enrollment_No": "2505101270181",
+    "Roll_No": 36,
+    "Student": "TH TRISA SINGHA",
+    "T_percent": 65.82,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 179,
+    "Enrollment_No": "2505101270182",
+    "Roll_No": 603,
+    "Student": "THADESHWAR PARTH KAMLESHBHAI",
+    "T_percent": 81.13,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 180,
+    "Enrollment_No": "2505101270183",
+    "Roll_No": 204,
+    "Student": "TRIPATHI SHASHANK RAKESH",
+    "T_percent": 24.68,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 181,
+    "Enrollment_No": "2505101270184",
+    "Roll_No": 184,
+    "Student": "TRIPATHI SHIVAM MAHARAJMANI",
+    "T_percent": 55.56,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 182,
+    "Enrollment_No": "2505101270185",
+    "Roll_No": 185,
+    "Student": "VACHAN KUMAR",
+    "T_percent": 69.88,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 183,
+    "Enrollment_No": "2505101270186",
+    "Roll_No": 186,
+    "Student": "VAIBHAV P TIWARI",
+    "T_percent": 48.19,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 184,
+    "Enrollment_No": "2505101270187",
+    "Roll_No": 192,
+    "Student": "VASAVA NIYATI MUKESHKUMAR",
+    "T_percent": 82.28,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 185,
+    "Enrollment_No": "2505101270188",
+    "Roll_No": 188,
+    "Student": "VIJAYRAJ SINGH CHOUHAN",
+    "T_percent": 46.99,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 186,
+    "Enrollment_No": "2505101270189",
+    "Roll_No": 341,
+    "Student": "VINOD KUMAR",
+    "T_percent": 88.61,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 187,
+    "Enrollment_No": "2505101270190",
+    "Roll_No": 143,
+    "Student": "YADAV KSHITIJ PRAMODKUMAR",
+    "T_percent": 51.9,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 188,
+    "Enrollment_No": "2505101270191",
+    "Roll_No": 191,
+    "Student": "YASH THETE",
+    "T_percent": 0,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 189,
+    "Enrollment_No": "2505101270192",
+    "Roll_No": 334,
+    "Student": "YASHRAJ PATEL",
+    "T_percent": 60.76,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 190,
+    "Enrollment_No": "2505101270193",
+    "Roll_No": 193,
+    "Student": "YOWAN HARSH GOBIN",
+    "T_percent": 9.88,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 191,
+    "Enrollment_No": "2505101270194",
+    "Roll_No": 194,
+    "Student": "AMAN KUMAR",
+    "T_percent": 34.88,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 192,
+    "Enrollment_No": "2505101270195",
+    "Roll_No": 184,
+    "Student": "CHAUDHARI UNNATI VINODBHAI",
+    "T_percent": 60.76,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 193,
+    "Enrollment_No": "2505101270196",
+    "Roll_No": 196,
+    "Student": "DANISH KHURAIJAM",
+    "T_percent": 61.45,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 194,
+    "Enrollment_No": "2505101270197",
+    "Roll_No": 197,
+    "Student": "DHARMIK PATEL KALPESHBHAI",
+    "T_percent": 34.57,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 195,
+    "Enrollment_No": "2505101270198",
+    "Roll_No": 198,
+    "Student": "DHIVARE PRABUDDHA SHARAD",
+    "T_percent": 0,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 196,
+    "Enrollment_No": "2505101270199",
+    "Roll_No": 199,
+    "Student": "GOLAWALA MAJEDABANU MO.MIYA",
+    "T_percent": 55.42,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 197,
+    "Enrollment_No": "2505101270200",
+    "Roll_No": 200,
+    "Student": "JAYESH PATIDAR",
+    "T_percent": 65.43,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 198,
+    "Enrollment_No": "2505101270201",
+    "Roll_No": 983,
+    "Student": "KANISHKA TAPARIA",
+    "T_percent": 51.9,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 199,
+    "Enrollment_No": "2505101270202",
+    "Roll_No": 202,
+    "Student": "KUSHWAHA VIVEK ABDESH",
+    "T_percent": 61.73,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 200,
+    "Enrollment_No": "2505101270203",
+    "Roll_No": 203,
+    "Student": "LAMABAM GOUTAMBA SINGH",
+    "T_percent": 61.45,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 201,
+    "Enrollment_No": "2505101270204",
+    "Roll_No": 204,
+    "Student": "MALVI PRANAY PRABHULAL",
+    "T_percent": 49.4,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 202,
+    "Enrollment_No": "2505101270205",
+    "Roll_No": 21,
+    "Student": "MANISH KUMAR",
+    "T_percent": 56.96,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 203,
+    "Enrollment_No": "2505101270206",
+    "Roll_No": 704,
+    "Student": "PANDYA KRISH BHAVESHBHAI",
+    "T_percent": 38.96,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 204,
+    "Enrollment_No": "2505101270207",
+    "Roll_No": 318,
+    "Student": "PANKAJ VISHWAKARMA",
+    "T_percent": 83.72,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 205,
+    "Enrollment_No": "2505101270208",
+    "Roll_No": 208,
+    "Student": "PARI KALPESH SIDDPARA",
+    "T_percent": 38.37,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 206,
+    "Enrollment_No": "2505101270209",
+    "Roll_No": 209,
+    "Student": "PULOKALI ACHUMI",
+    "T_percent": 43.37,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 207,
+    "Enrollment_No": "2505101270210",
+    "Roll_No": 210,
+    "Student": "RISHABH BHAVNANI",
+    "T_percent": 65.06,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 208,
+    "Enrollment_No": "2505101270211",
+    "Roll_No": 307,
+    "Student": "SHERASIYA NIKHIL PRAMODBHAI",
+    "T_percent": 78.48,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 209,
+    "Enrollment_No": "2505101270212",
+    "Roll_No": 212,
+    "Student": "SING RAJ PRADEEPKUMAR",
+    "T_percent": 28.4,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 210,
+    "Enrollment_No": "2505101270213",
+    "Roll_No": 213,
+    "Student": "SORAISAM GESTRIO MEITEI",
+    "T_percent": 42.17,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 211,
+    "Enrollment_No": "2505101270214",
+    "Roll_No": 350,
+    "Student": "VIYAS TANVIBEN ASHVINBHAI",
+    "T_percent": 81.01,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 212,
+    "Enrollment_No": "2505101270215",
+    "Roll_No": 215,
+    "Student": "VYAS PREET SANJAYKUMAR",
+    "T_percent": 32.53,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 213,
+    "Enrollment_No": "2505101270216",
+    "Roll_No": 216,
+    "Student": "WASIM",
+    "T_percent": 61.73,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 214,
+    "Enrollment_No": "2505101270217",
+    "Roll_No": 217,
+    "Student": "AKHIL MANHAS",
+    "T_percent": 43.21,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 215,
+    "Enrollment_No": "2505101270218",
+    "Roll_No": 218,
+    "Student": "ANKIT KUMAR",
+    "T_percent": 61.25,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 216,
+    "Enrollment_No": "2505101270219",
+    "Roll_No": 219,
+    "Student": "CHHATRALIA PARIDHI SANJAYBHAI",
+    "T_percent": 34.94,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 217,
+    "Enrollment_No": "2505101270220",
+    "Roll_No": 220,
+    "Student": "HIR SHAH",
+    "T_percent": 17.5,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 218,
+    "Enrollment_No": "2505101270221",
+    "Roll_No": 221,
+    "Student": "KHOKHARIYA HET KUMAR",
+    "T_percent": 40,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 219,
+    "Enrollment_No": "2505101270222",
+    "Roll_No": 22,
+    "Student": "KISHLAY SHARMA",
+    "T_percent": 26.83,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 220,
+    "Enrollment_No": "2505101270223",
+    "Roll_No": 223,
+    "Student": "KULDEEP KARWASARA",
+    "T_percent": 26.25,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 221,
+    "Enrollment_No": "2505101270224",
+    "Roll_No": 224,
+    "Student": "SHAHU MAYANK RAKESHBHAI",
+    "T_percent": 53.49,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 222,
+    "Enrollment_No": "2505101270225",
+    "Roll_No": 225,
+    "Student": "SHAIKH AYAN NAIMNAVAJ",
+    "T_percent": 35.37,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 223,
+    "Enrollment_No": "2505101270226",
+    "Roll_No": 226,
+    "Student": "SHETTY ROSHAN RAGHU",
+    "T_percent": 39.02,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 224,
+    "Enrollment_No": "2505101270227",
+    "Roll_No": 797,
+    "Student": "BELIM MOHAYAN MAYUDDIN",
+    "T_percent": 0,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 225,
+    "Enrollment_No": "2505101270228",
+    "Roll_No": 228,
+    "Student": "BHAVSAR SMIT HIRENBHAI",
+    "T_percent": 0,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 226,
+    "Enrollment_No": "2505101270229",
+    "Roll_No": 229,
+    "Student": "BRIAN ZISHIRI",
+    "T_percent": 97.56,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 227,
+    "Enrollment_No": "2505101270231",
+    "Roll_No": 231,
+    "Student": "JEALOUS CHIKUNI",
+    "T_percent": 0,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 228,
+    "Enrollment_No": "2505101270232",
+    "Roll_No": 232,
+    "Student": "KHUSHAL SINGH PANWAR",
+    "T_percent": 28.75,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 229,
+    "Enrollment_No": "2505101270233",
+    "Roll_No": 437,
+    "Student": "LESLIE MKWENA",
+    "T_percent": 1.3,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 230,
+    "Enrollment_No": "2505101270234",
+    "Roll_No": 234,
+    "Student": "MANAS SHUKLA",
+    "T_percent": 89.02,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 231,
+    "Enrollment_No": "2505101270235",
+    "Roll_No": 872,
+    "Student": "PANDYA JEETKUMAR RAKESHBHAI",
+    "T_percent": 60.76,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 232,
+    "Enrollment_No": "2505101270236",
+    "Roll_No": 185,
+    "Student": "PARTE SHRADDHA DHARMESHBHAI",
+    "T_percent": 46.84,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 233,
+    "Enrollment_No": "2505101270237",
+    "Roll_No": 237,
+    "Student": "PATEL NAITRI PANKAJBHAI",
+    "T_percent": 68.83,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 234,
+    "Enrollment_No": "2505101270238",
+    "Roll_No": 238,
+    "Student": "SERAFIM FERNANDO AUGUSTO",
+    "T_percent": 92.68,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 235,
+    "Enrollment_No": "2505101270239",
+    "Roll_No": 50,
+    "Student": "PARMAR HARSHKUMAR PANKAJBHAI",
+    "T_percent": 48.05,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 236,
+    "Enrollment_No": "2505101270240",
+    "Roll_No": 921,
+    "Student": "BAISHALI BHAKTA",
+    "T_percent": 74.68,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 237,
+    "Enrollment_No": "2505101270241",
+    "Roll_No": 808,
+    "Student": "KABBO KARMOKAR",
+    "T_percent": 0,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 238,
+    "Enrollment_No": "2505101270242",
+    "Roll_No": 898,
+    "Student": "NANDIPATI ROHIT KRISHNA KARTHIK",
+    "T_percent": 62.03,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 239,
+    "Enrollment_No": "2505101270243",
+    "Roll_No": 243,
+    "Student": "PANCHAM SINGH",
+    "T_percent": 0,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 240,
+    "Enrollment_No": "2505101270244",
+    "Roll_No": 244,
+    "Student": "PRATHAMESH MORE",
+    "T_percent": 0,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 241,
+    "Enrollment_No": "2505101270245",
+    "Roll_No": 245,
+    "Student": "RAKESH LABANA",
+    "T_percent": 70.93,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 242,
+    "Enrollment_No": "2505101270246",
+    "Roll_No": 14,
+    "Student": "TANDIN WANGMO",
+    "T_percent": 67.53,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 243,
+    "Enrollment_No": "2505101270247",
+    "Roll_No": 247,
+    "Student": "UGYEN CHOEDA",
+    "T_percent": 56.25,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 244,
+    "Enrollment_No": "2505101270248",
+    "Roll_No": 400,
+    "Student": "RAJPUROHIT ISHABEN SHAMBHUSINGH",
+    "T_percent": 18.18,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 245,
+    "Enrollment_No": "2505101270249",
+    "Roll_No": 249,
+    "Student": "SUBHAM KUMAR",
+    "T_percent": 29.76,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 246,
+    "Enrollment_No": "2505101270250",
+    "Roll_No": 250,
+    "Student": "ATUL PANCHAL",
+    "T_percent": 20,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 247,
+    "Enrollment_No": "2505101270251",
+    "Roll_No": 251,
+    "Student": "BIPASHA ROY",
+    "T_percent": 64.56,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 248,
+    "Enrollment_No": "2505101270252",
+    "Roll_No": 252,
+    "Student": "JADAV SHUBHAM MANOJBHAI",
+    "T_percent": 0,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 249,
+    "Enrollment_No": "2505101270253",
+    "Roll_No": 821,
+    "Student": "JALBEY NELSON",
+    "T_percent": 65.82,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 250,
+    "Enrollment_No": "2505101270254",
+    "Roll_No": 532,
+    "Student": "KOTHARI HASAN MURTAZA",
+    "T_percent": 77.22,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 251,
+    "Enrollment_No": "2505101270255",
+    "Roll_No": 255,
+    "Student": "KUMAR KESHAV",
+    "T_percent": 45.35,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 252,
+    "Enrollment_No": "2505101270256",
+    "Roll_No": 4,
+    "Student": "MERCIE-GRACE ALPHONSE",
+    "T_percent": 0,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 253,
+    "Enrollment_No": "2505101270257",
+    "Roll_No": 257,
+    "Student": "PRAVUDATA MOHAPATRA",
+    "T_percent": 73.17,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 254,
+    "Enrollment_No": "2505101270258",
+    "Roll_No": 258,
+    "Student": "PRINCE CHAUHAN",
+    "T_percent": 26.25,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 255,
+    "Enrollment_No": "2505101270259",
+    "Roll_No": 259,
+    "Student": "RISHABH SINGH",
+    "T_percent": 17.5,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 256,
+    "Enrollment_No": "2505101270260",
+    "Roll_No": 260,
+    "Student": "SAYOOJ SATHIAN T",
+    "T_percent": 59.76,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 257,
+    "Enrollment_No": "2505101270261",
+    "Roll_No": 261,
+    "Student": "SHIVAM PANCHOLI",
+    "T_percent": 12.5,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 258,
+    "Enrollment_No": "2505101270262",
+    "Roll_No": 262,
+    "Student": "SUBROTO ROY",
+    "T_percent": 18.29,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 259,
+    "Enrollment_No": "2505101270263",
+    "Roll_No": 1023,
+    "Student": "TANDIN SONAM DORJI",
+    "T_percent": 31.65,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 260,
+    "Enrollment_No": "2505101270264",
+    "Roll_No": 264,
+    "Student": "TINA MARIYAM JACOB",
+    "T_percent": 18.75,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 261,
+    "Enrollment_No": "2505101270266",
+    "Roll_No": 266,
+    "Student": "ADITYA SINGH TEWATIA",
+    "T_percent": 20.73,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 262,
+    "Enrollment_No": "2505101270267",
+    "Roll_No": 671,
+    "Student": "KUPAKWASHE PANASHE NYAMBODZA",
+    "T_percent": 0,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 263,
+    "Enrollment_No": "2505101270268",
+    "Roll_No": 268,
+    "Student": "LINDOKUHLE WENZOKUHLE KUNENE",
+    "T_percent": 43.9,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 264,
+    "Enrollment_No": "2505101270269",
+    "Roll_No": 54,
+    "Student": "MD AZRUDIN",
+    "T_percent": 35.06,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 265,
+    "Enrollment_No": "2505101270270",
+    "Roll_No": 270,
+    "Student": "MUFARO NOAH ZHAKATA",
+    "T_percent": 17.5,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 266,
+    "Enrollment_No": "2505101270271",
+    "Roll_No": 153,
+    "Student": "RATHOD ANTRA VIJAYKUMAR",
+    "T_percent": 48.1,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 267,
+    "Enrollment_No": "2505101270272",
+    "Roll_No": 272,
+    "Student": "SHAMURAILATPAM BISHAN SHARMA",
+    "T_percent": 40.7,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 268,
+    "Enrollment_No": "2505101270273",
+    "Roll_No": 273,
+    "Student": "SHOIBAM NEHA DEVI",
+    "T_percent": 93.9,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 269,
+    "Enrollment_No": "2505101270274",
+    "Roll_No": 274,
+    "Student": "TANIA ISLAM",
+    "T_percent": 0,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 270,
+    "Enrollment_No": "2505101270275",
+    "Roll_No": 275,
+    "Student": "TRIVEDI TRUSTI DIPAKKUMAR",
+    "T_percent": 58.54,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 271,
+    "Enrollment_No": "2505101270276",
+    "Roll_No": 276,
+    "Student": "AGRAWAL HITANSHA HANUMAN",
+    "T_percent": 0,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 272,
+    "Enrollment_No": "2505101270277",
+    "Roll_No": 277,
+    "Student": "AGRAWAL KRITANSHA HANUMAN",
+    "T_percent": 0,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 273,
+    "Enrollment_No": "2505101270278",
+    "Roll_No": 278,
+    "Student": "CHAVDA HEENABEN BHARATBHAI",
+    "T_percent": 0,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 274,
+    "Enrollment_No": "2505101270280",
+    "Roll_No": 332,
+    "Student": "MANVEER SINGH RATHORE",
+    "T_percent": 0,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 275,
+    "Enrollment_No": "2505101270281",
+    "Roll_No": 281,
+    "Student": "PARMAR KRISHKUMAR UPENDRAKUMAR",
+    "T_percent": 11.25,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 276,
+    "Enrollment_No": "2505101270283",
+    "Roll_No": 283,
+    "Student": "RUTHWANSHWA POHTI",
+    "T_percent": 46.34,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 277,
+    "Enrollment_No": "2505101270284",
+    "Roll_No": 284,
+    "Student": "VANKAR JAGRUTIBEN ASHOKBHAI",
+    "T_percent": 51.16,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 278,
+    "Enrollment_No": "2505101270285",
+    "Roll_No": 285,
+    "Student": "VANKAR MANSIBEN MAHESHBHAI",
+    "T_percent": 51.16,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 279,
+    "Enrollment_No": "2505101270286",
+    "Roll_No": 313,
+    "Student": "PATEL ARTH RAKESHBHAI",
+    "T_percent": 0,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 280,
+    "Enrollment_No": "2505101270287",
+    "Roll_No": 287,
+    "Student": "BHAGYARAJ KALING SINGH MAURYA",
+    "T_percent": 88.37,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 281,
+    "Enrollment_No": "2505101270289",
+    "Roll_No": 289,
+    "Student": "HRITIK KUMAR HALWAI",
+    "T_percent": 43.75,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 282,
+    "Enrollment_No": "2505101270290",
+    "Roll_No": 290,
+    "Student": "GITESH BELWAL",
+    "T_percent": 61.25,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 283,
+    "Enrollment_No": "2505101270291",
+    "Roll_No": 291,
+    "Student": "RAUSHAN RAY YADAV",
+    "T_percent": 87.01,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 284,
+    "Enrollment_No": "2505101270292",
+    "Roll_No": 292,
+    "Student": "PATRICK TINOTENDA NDORO",
+    "T_percent": 0,
+    "Course": "BCA{HONS}"
+  },
+  {
+    "Sr": 285,
+    "Enrollment_No": "2505101270293",
+    "Roll_No": 293,
+    "Student": "ANDERSON HETABE",
+    "T_percent": 50.94,
+    "Course": "BCA{HONS}"
+  },
+
+  {
+    "Sr": 1,
+    "Enrollment_No": "2505101020001",
+    "Roll_No": 1,
+    "Student": "ADIL DHUKKA",
+    "T_percent": 98.82,
+    "Course": "BSC"
+  },
+  {
+    "Sr": 2,
+    "Enrollment_No": "2505101020002",
+    "Roll_No": 2,
+    "Student": "BARIA DAXKUMAR KALPESHBHAI",
+    "T_percent": 65.48,
+    "Course": "BSC"
+  },
+  {
+    "Sr": 3,
+    "Enrollment_No": "2505101020003",
+    "Roll_No": 3,
+    "Student": "BARIA MAHI MRUDUL",
+    "T_percent": 56.79,
+    "Course": "BSC"
+  },
+  {
+    "Sr": 4,
+    "Enrollment_No": "2505101020004",
+    "Roll_No": 4,
+    "Student": "BAVALIYA AJRA MAZIDBHAI",
+    "T_percent": 98.82,
+    "Course": "BSC"
+  },
+  {
+    "Sr": 5,
+    "Enrollment_No": "2505101020006",
+    "Roll_No": 6,
+    "Student": "CHAVDA KAVYA GOPALBHAI",
+    "T_percent": 38.1,
+    "Course": "BSC"
+  },
+  {
+    "Sr": 6,
+    "Enrollment_No": "2505101020007",
+    "Roll_No": 7,
+    "Student": "FARMAKAR KRISH NAVINCHANDRA",
+    "T_percent": 77.78,
+    "Course": "BSC"
+  },
+  {
+    "Sr": 7,
+    "Enrollment_No": "2505101020008",
+    "Roll_No": 8,
+    "Student": "GARV DALAL",
+    "T_percent": 54.76,
+    "Course": "BSC"
+  },
+  {
+    "Sr": 8,
+    "Enrollment_No": "2505101020009",
+    "Roll_No": 9,
+    "Student": "MALEK MEHRIN MOHAMMAD SAHIR",
+    "T_percent": 66.67,
+    "Course": "BSC"
+  },
+  {
+    "Sr": 9,
+    "Enrollment_No": "2505101020010",
+    "Roll_No": 10,
+    "Student": "NIHARIKA UPENDRA",
+    "T_percent": 97.62,
+    "Course": "BSC"
+  },
+  {
+    "Sr": 10,
+    "Enrollment_No": "2505101020011",
+    "Roll_No": 11,
+    "Student": "PATEL RAJ CHIRAGBHAI",
+    "T_percent": 0,
+    "Course": "BSC"
+  },
+  {
+    "Sr": 11,
+    "Enrollment_No": "2505101020012",
+    "Roll_No": 12,
+    "Student": "PATEL RUDRA NILESH",
+    "T_percent": 42.35,
+    "Course": "BSC"
+  },
+  {
+    "Sr": 12,
+    "Enrollment_No": "2505101020014",
+    "Roll_No": 14,
+    "Student": "PATIL DEVAYANI HEMANT",
+    "T_percent": 60.49,
+    "Course": "BSC"
+  },
+  {
+    "Sr": 13,
+    "Enrollment_No": "2505101020015",
+    "Roll_No": 421,
+    "Student": "PRANAY UPADHYAY",
+    "T_percent": 83.53,
+    "Course": "BSC"
+  },
+  {
+    "Sr": 14,
+    "Enrollment_No": "2505101020016",
+    "Roll_No": 16,
+    "Student": "PREET KUMAR KALAL",
+    "T_percent": 37.8,
+    "Course": "BSC"
+  },
+  {
+    "Sr": 15,
+    "Enrollment_No": "2505101020017",
+    "Roll_No": 17,
+    "Student": "PURANI AUM SANDIPKUMAR",
+    "T_percent": 58.82,
+    "Course": "BSC"
+  },
+  {
+    "Sr": 16,
+    "Enrollment_No": "2505101020018",
+    "Roll_No": 18,
+    "Student": "RAIKUNDLIA UNNATI JAIPRAKASH",
+    "T_percent": 95.24,
+    "Course": "BSC"
+  },
+  {
+    "Sr": 17,
+    "Enrollment_No": "2505101020019",
+    "Roll_No": 19,
+    "Student": "RATHWA JAYDEVKUMAR NARVATBHAI",
+    "T_percent": 24.71,
+    "Course": "BSC"
+  },
+  {
+    "Sr": 18,
+    "Enrollment_No": "2505101020020",
+    "Roll_No": 20,
+    "Student": "TANMAY GUPTA",
+    "T_percent": 90.59,
+    "Course": "BSC"
+  },
+  {
+    "Sr": 19,
+    "Enrollment_No": "2505101020021",
+    "Roll_No": 21,
+    "Student": "TRISHUL HARSHADBHAI PATEL",
+    "T_percent": 64.71,
+    "Course": "BSC"
+  },
+  {
+    "Sr": 20,
+    "Enrollment_No": "2505101020022",
+    "Roll_No": 22,
+    "Student": "TURAG BHOPALE",
+    "T_percent": 43.21,
+    "Course": "BSC"
+  },
+  {
+    "Sr": 21,
+    "Enrollment_No": "2505101020023",
+    "Roll_No": 23,
+    "Student": "WILBARD AMWELE",
+    "T_percent": 48.81,
+    "Course": "BSC"
+  },
+  {
+    "Sr": 22,
+    "Enrollment_No": "2505101020024",
+    "Roll_No": 24,
+    "Student": "SHUBHAM PANCHAL",
+    "T_percent": 29.41,
+    "Course": "BSC"
+  },
+  {
+    "Sr": 23,
+    "Enrollment_No": "2505101020025",
+    "Roll_No": 25,
+    "Student": "ADRIAN ANDERSON",
+    "T_percent": 0,
+    "Course": "BSC"
+  },
+  {
+    "Sr": 24,
+    "Enrollment_No": "2505101020026",
+    "Roll_No": 26,
+    "Student": "BIND POOJA ANIL",
+    "T_percent": 92.86,
+    "Course": "BSC"
+  },
+  {
+    "Sr": 25,
+    "Enrollment_No": "2505101020027",
+    "Roll_No": 27,
+    "Student": "FERROWINGA MARONG",
+    "T_percent": 67.07,
+    "Course": "BSC"
+  },
+  {
+    "Sr": 26,
+    "Enrollment_No": "2505101020029",
+    "Roll_No": 106,
+    "Student": "PAMMA DEEPTEE",
+    "T_percent": 93.98,
+    "Course": "BSC"
+  },
+  {
+    "Sr": 27,
+    "Enrollment_No": "2505101020030",
+    "Roll_No": 30,
+    "Student": "SHEIZ NUNO SEMA",
+    "T_percent": 98.81,
+    "Course": "BSC"
+  },
+  {
+    "Sr": 28,
+    "Enrollment_No": "2505101020031",
+    "Roll_No": 660,
+    "Student": "TSAKANI JANUARIO MAZIVE MACOU",
+    "T_percent": 38.16,
+    "Course": "BSC"
+  },
+  {
+    "Sr": 29,
+    "Enrollment_No": "2505101020032",
+    "Roll_No": 32,
+    "Student": "WAI PHYO AUNG",
+    "T_percent": 77.65,
+    "Course": "BSC"
+  },
+  {
+    "Sr": 30,
+    "Enrollment_No": "2505101020033",
+    "Roll_No": 33,
+    "Student": "DHOLIYA BAUDHIK KAMLESHBHAI",
+    "T_percent": 67.9,
+    "Course": "BSC"
+  },
+  {
+    "Sr": 31,
+    "Enrollment_No": "2505101020034",
+    "Roll_No": 34,
+    "Student": "KALWAT MD AMAN HAROON",
+    "T_percent": 0,
+    "Course": "BSC"
+  },
+  {
+    "Sr": 32,
+    "Enrollment_No": "2505101020035",
+    "Roll_No": 35,
+    "Student": "VARIYA DIVYESH MUKESHBHAI",
+    "T_percent": 29.27,
+    "Course": "BSC"
+  },
+  {
+    "Sr": 33,
+    "Enrollment_No": "2505101020036",
+    "Roll_No": 36,
+    "Student": "ROHIT VARA",
+    "T_percent": 75.31,
+    "Course": "BSC"
+  },
+  {
+    "Sr": 34,
+    "Enrollment_No": "2505101020037",
+    "Roll_No": 37,
+    "Student": "BASKAR BHUJEL",
+    "T_percent": 73.17,
+    "Course": "BSC"
+  },
+  {
+    "Sr": 35,
+    "Enrollment_No": "2505101020038",
+    "Roll_No": 38,
+    "Student": "JIGME WANGDI",
+    "T_percent": 53.66,
+    "Course": "BSC"
+  },
+  {
+    "Sr": 36,
+    "Enrollment_No": "2505101020039",
+    "Roll_No": 39,
+    "Student": "MOAGI MAEMO",
+    "T_percent": 0,
+    "Course": "BSC"
+  },
+  {
+    "Sr": 37,
+    "Enrollment_No": "2505101020040",
+    "Roll_No": 40,
+    "Student": "RAHUL SARDAR",
+    "T_percent": 0,
+    "Course": "BSC"
+  },
+  {
+    "Sr": 38,
+    "Enrollment_No": "2505101020041",
+    "Roll_No": 41,
+    "Student": "YE LIN KHANT",
+    "T_percent": 63.53,
+    "Course": "BSC"
+  },
+  {
+    "Sr": 39,
+    "Enrollment_No": "2505101020042",
+    "Roll_No": 42,
+    "Student": "BAKUTRA MADHAV KIRANBHAI",
+    "T_percent": 67.06,
+    "Course": "BSC"
+  },
+  {
+    "Sr": 40,
+    "Enrollment_No": "2505101020043",
+    "Roll_No": 43,
+    "Student": "GOSAI JAIMINGIRI PRAKASHGIRI",
+    "T_percent": 44.71,
+    "Course": "BSC"
+  },
+  {
+    "Sr": 41,
+    "Enrollment_No": "2505101020044",
+    "Roll_No": 44,
+    "Student": "PALANI PARTHKUMAR PRAHLADBHAI",
+    "T_percent": 33.33,
+    "Course": "BSC"
+  },
+  {
+    "Sr": 42,
+    "Enrollment_No": "2505101020045",
+    "Roll_No": 45,
+    "Student": "THAKOR PARTH ARJUNBHAI",
+    "T_percent": 84.52,
+    "Course": "BSC"
+  },
+  {
+    "Sr": 43,
+    "Enrollment_No": "2505101020046",
+    "Roll_No": 46,
+    "Student": "DAISY AZELIA FERNANDO CHICALA",
+    "T_percent": 36.59,
+    "Course": "BSC"
+  },
+  {
+    "Sr": 44,
+    "Enrollment_No": "2505101020047",
+    "Roll_No": 47,
+    "Student": "DORJI GYELTSHEN TAMANG",
+    "T_percent": 0,
+    "Course": "BSC"
+  },
+  {
+    "Sr": 45,
+    "Enrollment_No": "2505101020048",
+    "Roll_No": 48,
+    "Student": "HARSH VIPUL KATELIYA",
+    "T_percent": 78.82,
+    "Course": "BSC"
+  },
+  {
+    "Sr": 46,
+    "Enrollment_No": "2505101020049",
+    "Roll_No": 49,
+    "Student": "ILA DIWI",
+    "T_percent": 0,
+    "Course": "BSC"
+  },
+  {
+    "Sr": 47,
+    "Enrollment_No": "2505101020050",
+    "Roll_No": 50,
+    "Student": "LIVET MUTANGA",
+    "T_percent": 50,
+    "Course": "BSC"
+  },
+  {
+    "Sr": 48,
+    "Enrollment_No": "2505101020051",
+    "Roll_No": 51,
+    "Student": "MUHAMAD ZIDANE ISMAIL",
+    "T_percent": 90.59,
+    "Course": "BSC"
+  },
+  {
+    "Sr": 49,
+    "Enrollment_No": "2505101020052",
+    "Roll_No": 52,
+    "Student": "SAMIR NUNO SEMA",
+    "T_percent": 86.9,
+    "Course": "BSC"
+  },
+  {
+    "Sr": 50,
+    "Enrollment_No": "2505101020053",
+    "Roll_No": 53,
+    "Student": "AVINASH KUMAR",
+    "T_percent": 43.9,
+    "Course": "BSC"
+  },
+  {
+    "Sr": 51,
+    "Enrollment_No": "2505101020054",
+    "Roll_No": 54,
+    "Student": "BRIAN PAUL BAKUSAGILA",
+    "T_percent": 19.75,
+    "Course": "BSC"
+  },
+  {
+    "Sr": 52,
+    "Enrollment_No": "2505101020055",
+    "Roll_No": 55,
+    "Student": "PRASHANT KUMAR LOHANI",
+    "T_percent": 28.57,
+    "Course": "BSC"
+  },
+  {
+    "Sr": 53,
+    "Enrollment_No": "2505101020056",
+    "Roll_No": 56,
+    "Student": "KRISH GUPTA",
+    "T_percent": 29.27,
+    "Course": "BSC"
+  },
+  {
+    "Sr": 54,
+    "Enrollment_No": "2505101020057",
+    "Roll_No": 57,
+    "Student": "KRISHNA GIRI",
+    "T_percent": 60.98,
+    "Course": "BSC"
+  },
+  {
+    "Sr": 55,
+    "Enrollment_No": "2505101020058",
+    "Roll_No": 58,
+    "Student": "SUBORNA RANI",
+    "T_percent": 94.05,
+    "Course": "BSC"
+  },
+  {
+    "Sr": 56,
+    "Enrollment_No": "2505101020059",
+    "Roll_No": 59,
+    "Student": "SWAPNIL SEN",
+    "T_percent": 23.81,
+    "Course": "BSC"
+  },
+  {
+    "Sr": 57,
+    "Enrollment_No": "2505101020060",
+    "Roll_No": 60,
+    "Student": "ASHISH SHARMA",
+    "T_percent": 75.29,
+    "Course": "BSC"
+  },
+  {
+    "Sr": 58,
+    "Enrollment_No": "2505101020061",
+    "Roll_No": 61,
+    "Student": "ABOUCH JACOB JENARO",
+    "T_percent": 0,
+    "Course": "BSC"
+  },
+  {
+    "Sr": 59,
+    "Enrollment_No": "2505101020062",
+    "Roll_No": 62,
+    "Student": "SIMRAN SHAH",
+    "T_percent": 89.29,
+    "Course": "BSC"
+  },
+  {
+    "Sr": 60,
+    "Enrollment_No": "2505101020063",
+    "Roll_No": 63,
+    "Student": "MIN KHANT KO",
+    "T_percent": 62.96,
+    "Course": "BSC"
+  },
+  {
+    "Sr": 61,
+    "Enrollment_No": "2505101020064",
+    "Roll_No": 64,
+    "Student": "MUSHIMIRE MUGISHA DIVINE",
+    "T_percent": 97.56,
+    "Course": "BSC"
+  },
+  {
+    "Sr": 62,
+    "Enrollment_No": "2505101020065",
+    "Roll_No": 65,
+    "Student": "BUPE KULULANGA",
+    "T_percent": 43.24,
+    "Course": "BSC"
+  },
+  {
+    "Sr": 63,
+    "Enrollment_No": "2505101020066",
+    "Roll_No": 66,
+    "Student": "ANSH VISHWAKARMA",
+    "T_percent": 38.46,
+    "Course": "BSC"
+  },
+
+  {
+    "Sr": 1,
+    "Enrollment_No": "2505101200001",
+    "Roll_No": 1,
+    "Student": "ADREESH BANERJEE",
+    "T_percent": 10.39,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 2,
+    "Enrollment_No": "2505101200002",
+    "Roll_No": 2,
+    "Student": "AKANSHA LAL",
+    "T_percent": 35.06,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 3,
+    "Enrollment_No": "2505101200003",
+    "Roll_No": 3,
+    "Student": "ALIWALA KRUTARTH VIMAL",
+    "T_percent": 80.77,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 4,
+    "Enrollment_No": "2505101200005",
+    "Roll_No": 5,
+    "Student": "ARYAN NAKIBAHEMAD QURESHI",
+    "T_percent": 98.72,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 5,
+    "Enrollment_No": "2505101200006",
+    "Roll_No": 6,
+    "Student": "ATOS DHRUV PRAKASHBHAI",
+    "T_percent": 73.08,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 6,
+    "Enrollment_No": "2505101200007",
+    "Roll_No": 7,
+    "Student": "AYUSH APPU JAIN",
+    "T_percent": 51.22,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 7,
+    "Enrollment_No": "2505101200008",
+    "Roll_No": 8,
+    "Student": "BARIA NILAYKUMAR VASUDEVBHAI",
+    "T_percent": 69.23,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 8,
+    "Enrollment_No": "2505101200009",
+    "Roll_No": 9,
+    "Student": "BHATT PRATHAM YOGESHBHAI",
+    "T_percent": 92.31,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 9,
+    "Enrollment_No": "2505101200010",
+    "Roll_No": 10,
+    "Student": "CHHOTALA AADITYAKUMAR HAMIRBHAI",
+    "T_percent": 95.24,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 10,
+    "Enrollment_No": "2505101200011",
+    "Roll_No": 11,
+    "Student": "CHHOTALA KIRTIKBHAI HIMMATBHAI",
+    "T_percent": 71.43,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 11,
+    "Enrollment_No": "2505101200012",
+    "Roll_No": 12,
+    "Student": "CHOUDHARY DINESH CHHAGANLAL",
+    "T_percent": 8.14,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 12,
+    "Enrollment_No": "2505101200013",
+    "Roll_No": 13,
+    "Student": "DEVDA JAIMEEN HITESHKUMAR",
+    "T_percent": 65.38,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 13,
+    "Enrollment_No": "2505101200014",
+    "Roll_No": 14,
+    "Student": "DUDHWALA TAHA IQBALBHAI",
+    "T_percent": 94.87,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 14,
+    "Enrollment_No": "2505101200015",
+    "Roll_No": 15,
+    "Student": "GANANSHU SUTHAR",
+    "T_percent": 43.9,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 15,
+    "Enrollment_No": "2505101200016",
+    "Roll_No": 16,
+    "Student": "GITE RUSHIKESH BHOJRAJ",
+    "T_percent": 58.54,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 16,
+    "Enrollment_No": "2505101200017",
+    "Roll_No": 17,
+    "Student": "GUPTA MADHU RAJENDRA",
+    "T_percent": 58.54,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 17,
+    "Enrollment_No": "2505101200018",
+    "Roll_No": 18,
+    "Student": "JOBANPUTRA MAHI ASHISHBHAI",
+    "T_percent": 73.08,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 18,
+    "Enrollment_No": "2505101200019",
+    "Roll_No": 19,
+    "Student": "JOSHUA EUGINE",
+    "T_percent": 63.1,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 19,
+    "Enrollment_No": "2505101200020",
+    "Roll_No": 20,
+    "Student": "KAUSHIK SUTHAR",
+    "T_percent": 95.24,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 20,
+    "Enrollment_No": "2505101200021",
+    "Roll_No": 21,
+    "Student": "KHARPADE PRATHAM PANDURANG",
+    "T_percent": 30.77,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 21,
+    "Enrollment_No": "2505101200022",
+    "Roll_No": 22,
+    "Student": "KULDEEP SINGH RAJPUT",
+    "T_percent": 53.85,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 22,
+    "Enrollment_No": "2505101200023",
+    "Roll_No": 23,
+    "Student": "LADANI DEV SANJAYBHAI",
+    "T_percent": 59.74,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 23,
+    "Enrollment_No": "2505101200024",
+    "Roll_No": 24,
+    "Student": "MALI SMIT MANISHKUMAR",
+    "T_percent": 76.62,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 24,
+    "Enrollment_No": "2505101200025",
+    "Roll_No": 25,
+    "Student": "MARATHE NILESH MAHENDRA",
+    "T_percent": 76.74,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 25,
+    "Enrollment_No": "2505101200026",
+    "Roll_No": 26,
+    "Student": "MAYANKRAJ JHA",
+    "T_percent": 55.13,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 26,
+    "Enrollment_No": "2505101200027",
+    "Roll_No": 27,
+    "Student": "MEMON NOMAN ABDULRAZAK",
+    "T_percent": 54.55,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 27,
+    "Enrollment_No": "2505101200028",
+    "Roll_No": 28,
+    "Student": "NEEL ACHARYA",
+    "T_percent": 55.13,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 28,
+    "Enrollment_No": "2505101200029",
+    "Roll_No": 29,
+    "Student": "NISHA MANDAL",
+    "T_percent": 82.05,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 29,
+    "Enrollment_No": "2505101200030",
+    "Roll_No": 30,
+    "Student": "PALLEWATTAGE DASANYA NETHKINI",
+    "T_percent": 85.9,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 30,
+    "Enrollment_No": "2505101200031",
+    "Roll_No": 31,
+    "Student": "PANDIT SHINEE ARPAN",
+    "T_percent": 82.43,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 31,
+    "Enrollment_No": "2505101200032",
+    "Roll_No": 32,
+    "Student": "PARMAR KULDIPSINH PRAKASHKUMAR",
+    "T_percent": 44.16,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 32,
+    "Enrollment_No": "2505101200033",
+    "Roll_No": 33,
+    "Student": "PARMAR RONAK KALPESHBHAI",
+    "T_percent": 98.81,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 33,
+    "Enrollment_No": "2505101200034",
+    "Roll_No": 34,
+    "Student": "PATEL JAIMINKUMAR GANPATSINH",
+    "T_percent": 73.08,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 34,
+    "Enrollment_No": "2505101200035",
+    "Roll_No": 35,
+    "Student": "PATEL KINJAL AVINASH",
+    "T_percent": 6.41,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 35,
+    "Enrollment_No": "2505101200036",
+    "Roll_No": 36,
+    "Student": "PATEL PARTHKUMAR",
+    "T_percent": 24.68,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 36,
+    "Enrollment_No": "2505101200037",
+    "Roll_No": 37,
+    "Student": "PATEL TEJASKUMAR RAMANBHAI",
+    "T_percent": 57.14,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 37,
+    "Enrollment_No": "2505101200038",
+    "Roll_No": 38,
+    "Student": "PRUTHVIRAJ VIJAYSINGH GIRASE",
+    "T_percent": 66.23,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 38,
+    "Enrollment_No": "2505101200039",
+    "Roll_No": 39,
+    "Student": "RABARI PRIYA SHAILESHBHAI",
+    "T_percent": 54.55,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 39,
+    "Enrollment_No": "2505101200040",
+    "Roll_No": 40,
+    "Student": "RATHOD ANMOLBHAI BHAVESHBHAI",
+    "T_percent": 41.56,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 40,
+    "Enrollment_No": "2505101200041",
+    "Roll_No": 41,
+    "Student": "RIMJHEEM KUMARI",
+    "T_percent": 0,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 41,
+    "Enrollment_No": "2505101200042",
+    "Roll_No": 42,
+    "Student": "SAINATH SURYAVANSHI",
+    "T_percent": 0,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 42,
+    "Enrollment_No": "2505101200043",
+    "Roll_No": 43,
+    "Student": "SAKINA SULTANALI SORANGWALA",
+    "T_percent": 28.57,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 43,
+    "Enrollment_No": "2505101200044",
+    "Roll_No": 44,
+    "Student": "SHAH KAVYA JATINBHAI",
+    "T_percent": 73.81,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 44,
+    "Enrollment_No": "2505101200045",
+    "Roll_No": 45,
+    "Student": "SHARMA DRISHTI RANJEETKUMAR",
+    "T_percent": 74.03,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 45,
+    "Enrollment_No": "2505101200046",
+    "Roll_No": 46,
+    "Student": "SHARMA GITANSH BABLU",
+    "T_percent": 25.33,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 46,
+    "Enrollment_No": "2505101200047",
+    "Roll_No": 47,
+    "Student": "SHARMA ISHAAN SUDHIRKUMAR",
+    "T_percent": 31.4,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 47,
+    "Enrollment_No": "2505101200048",
+    "Roll_No": 48,
+    "Student": "SHREYA MISHRA",
+    "T_percent": 16.67,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 48,
+    "Enrollment_No": "2505101200049",
+    "Roll_No": 49,
+    "Student": "SHREYA RAJENDRASINH SOLANKI",
+    "T_percent": 94.87,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 49,
+    "Enrollment_No": "2505101200050",
+    "Roll_No": 50,
+    "Student": "SINGADIYA DHVANISH JAYESHBHAI",
+    "T_percent": 69.23,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 50,
+    "Enrollment_No": "2505101200051",
+    "Roll_No": 51,
+    "Student": "SOLANKI KRISHA MOHANBHAI",
+    "T_percent": 41.46,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 51,
+    "Enrollment_No": "2505101200052",
+    "Roll_No": 52,
+    "Student": "SONI YASH PRAVEENBHAI",
+    "T_percent": 54.88,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 52,
+    "Enrollment_No": "2505101200053",
+    "Roll_No": 53,
+    "Student": "SUBHAM SHUKLA",
+    "T_percent": 0,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 53,
+    "Enrollment_No": "2505101200054",
+    "Roll_No": 54,
+    "Student": "SUNDARAM MISHRA",
+    "T_percent": 0,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 54,
+    "Enrollment_No": "2505101200055",
+    "Roll_No": 55,
+    "Student": "SWAPNIL TIWARI",
+    "T_percent": 43.59,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 55,
+    "Enrollment_No": "2505101200056",
+    "Roll_No": 56,
+    "Student": "TAJAK MOHAMMED KALIM FIROZKHAN",
+    "T_percent": 96.15,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 56,
+    "Enrollment_No": "2505101200057",
+    "Roll_No": 57,
+    "Student": "TARAKSH JOSHI",
+    "T_percent": 58.54,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 57,
+    "Enrollment_No": "2505101200058",
+    "Roll_No": 58,
+    "Student": "VADHAVANA MAYAN HARESHBHAI",
+    "T_percent": 64.94,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 58,
+    "Enrollment_No": "2505101200059",
+    "Roll_No": 59,
+    "Student": "VAGHASIYA MEET RAJUBHAI",
+    "T_percent": 63.64,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 59,
+    "Enrollment_No": "2505101200060",
+    "Roll_No": 60,
+    "Student": "VASAVA PRIYABEN JAYANTIBHAI",
+    "T_percent": 47.56,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 60,
+    "Enrollment_No": "2505101200061",
+    "Roll_No": 61,
+    "Student": "VASKA ATIK MOHAMMED ISMAIL",
+    "T_percent": 0,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 61,
+    "Enrollment_No": "2505101200062",
+    "Roll_No": 61,
+    "Student": "VEKARIYA HARSH ASHOKBHAI",
+    "T_percent": 55.95,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 62,
+    "Enrollment_No": "2505101200063",
+    "Roll_No": 63,
+    "Student": "BHOI YUG SHITALKUMAR",
+    "T_percent": 23.38,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 63,
+    "Enrollment_No": "2505101200064",
+    "Roll_No": 64,
+    "Student": "CHAUDHARI MEETKUMAR VINODKUMAR",
+    "T_percent": 82.05,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 64,
+    "Enrollment_No": "2505101200065",
+    "Roll_No": 65,
+    "Student": "FAIRY MEHULKUMAR KAPADIA",
+    "T_percent": 74.03,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 65,
+    "Enrollment_No": "2505101200066",
+    "Roll_No": 66,
+    "Student": "KOUSHAL CHHIPA",
+    "T_percent": 65.38,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 66,
+    "Enrollment_No": "2505101200067",
+    "Roll_No": 67,
+    "Student": "PATEL KAVYA CHETANBHAI",
+    "T_percent": 74.03,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 67,
+    "Enrollment_No": "2505101200068",
+    "Roll_No": 68,
+    "Student": "PATEL PRIYANSHKUMAR JITENDRABHAI",
+    "T_percent": 0,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 68,
+    "Enrollment_No": "2505101200069",
+    "Roll_No": 69,
+    "Student": "KANGAD ABHAY",
+    "T_percent": 61.54,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 69,
+    "Enrollment_No": "2505101200070",
+    "Roll_No": 70,
+    "Student": "THAKOR MOHIT RAKESHBHAI",
+    "T_percent": 23.38,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 70,
+    "Enrollment_No": "2505101200071",
+    "Roll_No": 71,
+    "Student": "HOSEA EPART",
+    "T_percent": 97.62,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 71,
+    "Enrollment_No": "2505101200072",
+    "Roll_No": 72,
+    "Student": "JAYMILL HITESH CHOHAN",
+    "T_percent": 0,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 72,
+    "Enrollment_No": "2505101200073",
+    "Roll_No": 73,
+    "Student": "KHANT KYAW SWAR",
+    "T_percent": 96.15,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 73,
+    "Enrollment_No": "2505101200074",
+    "Roll_No": 74,
+    "Student": "KUDZAISHE BRIAN MOYO",
+    "T_percent": 86.9,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 74,
+    "Enrollment_No": "2505101200075",
+    "Roll_No": 75,
+    "Student": "MAMIHASINA MOHAMMAD ALTAAF",
+    "T_percent": 63.64,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 75,
+    "Enrollment_No": "2505101200076",
+    "Roll_No": 76,
+    "Student": "MYAT HPONE PYAE OO",
+    "T_percent": 0,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 76,
+    "Enrollment_No": "2505101200077",
+    "Roll_No": 77,
+    "Student": "PATEL KINJALBEN S",
+    "T_percent": 77.38,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 77,
+    "Enrollment_No": "2505101200078",
+    "Roll_No": 78,
+    "Student": "RASOANANDRASANA HERPHINE HAZRAT",
+    "T_percent": 40.26,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 78,
+    "Enrollment_No": "2505101200079",
+    "Roll_No": 79,
+    "Student": "WAI YAN KO",
+    "T_percent": 56.41,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 79,
+    "Enrollment_No": "2505101200080",
+    "Roll_No": 80,
+    "Student": "ANISH PRAJAPAT",
+    "T_percent": 73.81,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 80,
+    "Enrollment_No": "2505101200081",
+    "Roll_No": 81,
+    "Student": "PANCHAL SWAYAM KULDEEP",
+    "T_percent": 0,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 81,
+    "Enrollment_No": "2505101200082",
+    "Roll_No": 82,
+    "Student": "ADITYA SHARMA",
+    "T_percent": 19.51,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 82,
+    "Enrollment_No": "2505101200083",
+    "Roll_No": 83,
+    "Student": "RITIK MEHRA",
+    "T_percent": 15.85,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 83,
+    "Enrollment_No": "2505101200084",
+    "Roll_No": 84,
+    "Student": "ABIR MAJUMDER ADAR",
+    "T_percent": 75.64,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 84,
+    "Enrollment_No": "2505101200085",
+    "Roll_No": 85,
+    "Student": "CHAUDHARY HITEN DALJIBHAI",
+    "T_percent": 88.46,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 85,
+    "Enrollment_No": "2505101200086",
+    "Roll_No": 86,
+    "Student": "ELLEN TANYARADZWA SHIKU",
+    "T_percent": 0,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 86,
+    "Enrollment_No": "2505101200087",
+    "Roll_No": 87,
+    "Student": "HTOO PYAE PAING OO",
+    "T_percent": 62.82,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 87,
+    "Enrollment_No": "2505101200088",
+    "Roll_No": 88,
+    "Student": "KATLEGO TLALE",
+    "T_percent": 0,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 88,
+    "Enrollment_No": "2505101200089",
+    "Roll_No": 89,
+    "Student": "KINZANG WANGCHUK",
+    "T_percent": 71.43,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 89,
+    "Enrollment_No": "2505101200090",
+    "Roll_No": 90,
+    "Student": "MACHHI VRUNDA JAYESHKUMAR",
+    "T_percent": 36.36,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 90,
+    "Enrollment_No": "2505101200091",
+    "Roll_No": 91,
+    "Student": "MURTHAD MOHAMMED ALI",
+    "T_percent": 47.56,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 91,
+    "Enrollment_No": "2505101200092",
+    "Roll_No": 92,
+    "Student": "PATEL DHRUV SHANKARLAL",
+    "T_percent": 27.38,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 92,
+    "Enrollment_No": "2505101200093",
+    "Roll_No": 93,
+    "Student": "PRAJAPATI ISHANT ALKESHBHAI",
+    "T_percent": 0,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 93,
+    "Enrollment_No": "2505101200094",
+    "Roll_No": 94,
+    "Student": "PRAJAPATI NIKHIL DILIPBHAI",
+    "T_percent": 0,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 94,
+    "Enrollment_No": "2505101200095",
+    "Roll_No": 958,
+    "Student": "THANG SIAN KHAI",
+    "T_percent": 62.35,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 95,
+    "Enrollment_No": "2505101200096",
+    "Roll_No": 96,
+    "Student": "TSHERING WANGDI",
+    "T_percent": 21.79,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 96,
+    "Enrollment_No": "2505101200097",
+    "Roll_No": 97,
+    "Student": "YE LAY",
+    "T_percent": 67.95,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 97,
+    "Enrollment_No": "2505101200098",
+    "Roll_No": 98,
+    "Student": "KRISHNALI YOGESH PATIL",
+    "T_percent": 79.49,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 98,
+    "Enrollment_No": "2505101200099",
+    "Roll_No": 99,
+    "Student": "RITIK PATIDAR",
+    "T_percent": 14.29,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 99,
+    "Enrollment_No": "2505101200100",
+    "Roll_No": 100,
+    "Student": "YASHVI PANCHAL",
+    "T_percent": 47.44,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 100,
+    "Enrollment_No": "2505101200101",
+    "Roll_No": 101,
+    "Student": "AKSHAR OHM",
+    "T_percent": 79.76,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 101,
+    "Enrollment_No": "2505101200102",
+    "Roll_No": 102,
+    "Student": "CHAVADA PALAK NARESHBHAI",
+    "T_percent": 41.56,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 102,
+    "Enrollment_No": "2505101200103",
+    "Roll_No": 103,
+    "Student": "DHRUVI HARESHBHAI SAKARIYA",
+    "T_percent": 47.44,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 103,
+    "Enrollment_No": "2505101200104",
+    "Roll_No": 104,
+    "Student": "MD. MEHEDI HASSAN",
+    "T_percent": 0,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 104,
+    "Enrollment_No": "2505101200106",
+    "Roll_No": 106,
+    "Student": "RITIK TIWARI",
+    "T_percent": 15.38,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 105,
+    "Enrollment_No": "2505101200107",
+    "Roll_No": 107,
+    "Student": "TAMARA SIBONGILE NDHLOVU",
+    "T_percent": 57.32,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 106,
+    "Enrollment_No": "2505101200108",
+    "Roll_No": 108,
+    "Student": "TURAY JOSEPH OSMAN S.",
+    "T_percent": 8.14,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 107,
+    "Enrollment_No": "2505101200109",
+    "Roll_No": 109,
+    "Student": "KHUSHI DAFDA",
+    "T_percent": 46.75,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 108,
+    "Enrollment_No": "2505101200110",
+    "Roll_No": 110,
+    "Student": "NAGPURE KARAN MUKESHBHAI",
+    "T_percent": 71.43,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 109,
+    "Enrollment_No": "2505101200111",
+    "Roll_No": 111,
+    "Student": "PATEL MOXIL GIRISHKUMAR",
+    "T_percent": 49.35,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 110,
+    "Enrollment_No": "2505101200112",
+    "Roll_No": 112,
+    "Student": "THAKOR DIVY DAYSINH",
+    "T_percent": 0,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 111,
+    "Enrollment_No": "2505101200113",
+    "Roll_No": 113,
+    "Student": "ANGEL SINGH",
+    "T_percent": 65.85,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 112,
+    "Enrollment_No": "2505101200114",
+    "Roll_No": 114,
+    "Student": "ARENDULA AKASH",
+    "T_percent": 0,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 113,
+    "Enrollment_No": "2505101200115",
+    "Roll_No": 115,
+    "Student": "BHARVADIYA KETAN GOVINDBHAI",
+    "T_percent": 58.97,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 114,
+    "Enrollment_No": "2505101200116",
+    "Roll_No": 116,
+    "Student": "DENG GABRIEL MAJOK",
+    "T_percent": 0,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 115,
+    "Enrollment_No": "2505101200117",
+    "Roll_No": 117,
+    "Student": "EBASSA OLOMO YVAN SAMUEL",
+    "T_percent": 3.85,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 116,
+    "Enrollment_No": "2505101200118",
+    "Roll_No": 118,
+    "Student": "MACHHI DHARABEN MAHESHBHAI",
+    "T_percent": 25.97,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 117,
+    "Enrollment_No": "2505101200120",
+    "Roll_No": 120,
+    "Student": "NOHATAH KALONGONDA",
+    "T_percent": 48.78,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 118,
+    "Enrollment_No": "2505101200121",
+    "Roll_No": 121,
+    "Student": "PYAE SWAM HTET",
+    "T_percent": 70.24,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 119,
+    "Enrollment_No": "2505101200122",
+    "Roll_No": 122,
+    "Student": "SUHANA SHEIKH",
+    "T_percent": 42.86,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 120,
+    "Enrollment_No": "2505101200123",
+    "Roll_No": 123,
+    "Student": "SHAH KRISHNA HARISHKUMAR",
+    "T_percent": 56.41,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 121,
+    "Enrollment_No": "2505101200124",
+    "Roll_No": 124,
+    "Student": "SAW NAY TOE",
+    "T_percent": 82.14,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 122,
+    "Enrollment_No": "2505101200125",
+    "Roll_No": 125,
+    "Student": "GHAKPO BRIGHT",
+    "T_percent": 36.59,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 123,
+    "Enrollment_No": "2505101200126",
+    "Roll_No": 126,
+    "Student": "MIN ZARLI HTAW",
+    "T_percent": 0,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 124,
+    "Enrollment_No": "2505101200127",
+    "Roll_No": 127,
+    "Student": "SINTHI SAHA",
+    "T_percent": 76.47,
+    "Course": "BSc{HONS}"
+  },
+  {
+    "Sr": 125,
+    "Enrollment_No": "2505101200128",
+    "Roll_No": 128,
+    "Student": "CHANDANKUMAR SITARAM",
+    "T_percent": 94.74,
+    "Course": "BSc{HONS}"
+  }
+]
