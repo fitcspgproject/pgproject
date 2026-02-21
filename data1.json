@@ -9757,7 +9757,158 @@
           "back_end": ""
         }
       ]
+    },
+  {
+        "company_name": "Creative Web Infotech",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Prof. Aniket Paul",
+      "projects": [
+        {
+          "s_no": 372,
+          "members": [
+            {
+              "name": "Patel Nikesh Ramanbhai",
+              "enrollment": "2405112120130",
+              "mobile": "9510421980",
+              "program": "MCA,AI"
+            }
+          ],
+          "project_title": "Employee Management System",
+          "project_description": "",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
+    },
+    {
+      "company_name": "Extendrum Infotech",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Prof. Arun.U",
+      "projects": [
+        {
+          "s_no": 373,
+          "members": [
+            {
+              "name": "Ilyas Sarfaraj Bhai Kureshi",
+              "enrollment": "2405112130010",
+              "mobile": "8799406221",
+              "program": "MCA,D"
+            }
+          ],
+          "project_title": "Construction materials delivery system",
+          "project_description": "",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
+    },
+    {
+      "company_name": "Codepraise infotech.",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Prof. Mehulkumar Dalwadi",
+      "projects": [
+        {
+          "s_no": 374,
+          "members": [
+            {
+              "name": "Ninave Lakhan Harish",
+              "enrollment": "2405112120112",
+              "mobile": "8320726804",
+              "program": ""
+            }
+          ],
+          "project_title": "Job portal",
+          "project_description": "",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
+    },
+    {
+      "company_name": "InfoMover technologies",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Prof. Nirmit Shah",
+      "projects": [
+        {
+          "s_no": 375,
+          "members": [
+            {
+              "name": "Zoyakhan Imtiaz Pathan",
+              "enrollment": "2405112130042",
+              "mobile": "7016771797",
+              "program": "MCA,D"
+            }
+          ],
+          "project_title": "Data analyst",
+          "project_description": "",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
+    },
+    {
+      "company_name": "IDX",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Prof. RamDeepak Yadagiri",
+      "projects": [
+        {
+          "s_no": 376,
+          "members": [
+            {
+              "name": "Chauhan Mohit Prakashbhai",
+              "enrollment": "2405112110023",
+              "mobile": "9913817030",
+              "program": "MCA,H"
+            }
+          ],
+          "project_title": "Brickly ( Property Listing & Brokerage Website )",
+          "project_description": "",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
+    },
+    {
+      "company_name": "hire intel india",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Prof.Rinkal Sarvaiya",
+      "projects": [
+        {
+          "s_no": 377,
+          "members": [
+            {
+              "name": "Yashwardhan Singh",
+              "enrollment": "2405112110124",
+              "mobile": "8855817033",
+              "program": ""
+            }
+          ],
+          "project_title": "",
+          "project_description": "",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
     }
+
 
 
 
