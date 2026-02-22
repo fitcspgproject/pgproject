@@ -9907,6 +9907,82 @@
           "back_end": ""
         }
       ]
+    },
+  {
+
+      "company_name": "S.S System",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Prof.Saswati Chatterjee",
+      "projects": [
+        {
+          "s_no": 378,
+          "members": [
+            {
+              "name": "Dhruven Sanjaykumar Patel",
+              "enrollment": "2405112120122",
+              "mobile": "9316280317",
+              "program": "MCA,B"
+            }
+          ],
+          "project_title": "Quiz Compition Software",
+          "project_description": "",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
+    },
+    {
+      "company_name": "Four Turrests",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Prof. Vaishali Shah",
+      "projects": [
+        {
+          "s_no": 379,
+          "members": [
+            {
+              "name": "Patel Kirteekumar Dharmendrabhai",
+              "enrollment": "2405112120078",
+              "mobile": "6359784877",
+              "program": "MCA,B"
+            }
+          ],
+          "project_title": "Tech-Enabled Shipment \"Milestone\" Tracker",
+          "project_description": "",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
+    },
+    {
+      "company_name": "Mindlink Research Academy pvt Ltd",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Prof. Priyanka Mod",
+      "projects": [
+        {
+          "s_no": 380,
+          "members": [
+            {
+              "name": "Jai Khush Tak",
+              "enrollment": "2405112120068",
+              "mobile": "6378958680",
+              "program": "MCA,J"
+            }
+          ],
+          "project_title": "AI career coach",
+          "project_description": "",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
     }
 
 
