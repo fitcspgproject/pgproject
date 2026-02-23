@@ -9983,6 +9983,32 @@
           "back_end": ""
         }
       ]
+    },
+  {
+ 
+      "company_name": "PINNACLE INFOTECH",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Prof. Shikha Bansal",
+      "projects": [
+        {
+          "s_no": 381,
+          "members": [
+            {
+              "name": "Mayur Gorakhanath Yadav",
+              "enrollment": "2405112140098",
+              "mobile": "9892494815",
+              "program": "MCA,F"
+            }
+          ],
+          "project_title": "Phishing URL Detection Tool",
+          "project_description": "",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
     }
 
 
