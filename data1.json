@@ -7442,6 +7442,12 @@
               "enrollment": "2405112140032",
               "mobile": "7435050967",
               "program": "MCA, F"
+            },
+              {
+              "name": "Yagnik malvaniya",
+              "enrollment": "2405112120099",
+              "mobile": "8140371170",
+              "program": "MCA, B"
             }
           ],
           "project_title": "Online Library management system",
@@ -7451,31 +7457,7 @@
         }
       ]
     },
-    {
-      "company_name": "",
-      "address": "",
-      "website": "",
-      "contact": "",
-      "mentor": "",
-      "internal_guide": "Prof.Rinku Patil",
-      "projects": [
-        {
-          "s_no": 284,
-          "members": [
-            {
-              "name": "Yagnik malvaniya",
-              "enrollment": "2405112120099",
-              "mobile": "8140371170",
-              "program": "MCA, B"
-            }
-          ],
-          "project_title": "",
-          "project_description": "",
-          "front_end": "",
-          "back_end": ""
-        }
-      ]
-    },
+    
     {
       "company_name": "Techmicra IT Solutions",
       "address": "408, 4th Floor, Ashwamegh Elegance III, Nr. CN Vidhyalay, opp. SBI Zonal office, Ambawadi, Ahmedabad, Gujarat 380015",
@@ -10004,6 +9986,82 @@
             }
           ],
           "project_title": "Phishing URL Detection Tool",
+          "project_description": "",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
+    },
+  {
+  
+      "company_name": "Xeleventia technologies",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Prof.Rinku Patil",
+      "projects": [
+        {
+          "s_no": 382,
+          "members": [
+            {
+              "name": "Ahuja Hemangshi",
+              "enrollment": "2405112120009",
+              "mobile": "8128370080",
+              "program": "MCA,A"
+            }
+          ],
+          "project_title": "jalsa snacks",
+          "project_description": "",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
+    },
+    {
+      "company_name": "Mindtech Consultancy",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Prof.Divakar Keshri",
+      "projects": [
+        {
+          "s_no": 383,
+          "members": [
+            {
+              "name": "Vipul Tarur",
+              "enrollment": "2405112130038",
+              "mobile": "7435884484",
+              "program": "MCA,J"
+            }
+          ],
+          "project_title": "QR Code Generator",
+          "project_description": "",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
+    },
+    {
+      "company_name": "Yogreet Global LLP",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Prof.Divakar Keshri",
+      "projects": [
+        {
+          "s_no": 384,
+          "members": [
+            {
+              "name": "Rajput Harsh Yogeshkumar",
+              "enrollment": "2405112120149",
+              "mobile": "9106811680",
+              "program": "MCA,B"
+            }
+          ],
+          "project_title": "sosana business review & response system",
           "project_description": "",
           "front_end": "",
           "back_end": ""
