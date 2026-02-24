@@ -10067,6 +10067,37 @@
           "back_end": ""
         }
       ]
+    },
+  {
+        "company_name": "Venom Technologies",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Prof. Honey Parmar",
+      "projects": [
+        {
+          "s_no": 385,
+          "members": [
+            {
+              "name": "Bharucha Janvi",
+              "enrollment": "2405112120024",
+              "mobile": "8866670189",
+              "program": "MCA,A"
+            },
+            {
+              "name": "Patel Nirali",
+              "enrollment": "2405112120131",
+              "mobile": "9737885740",
+              "program": "MCA,B"
+            }
+          ],
+          "project_title": "Blood-Bank Management System",
+          "project_description": "",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
     }
 
 
