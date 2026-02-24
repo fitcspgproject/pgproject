@@ -10098,6 +10098,57 @@
           "back_end": ""
         }
       ]
+    },
+  {
+  
+      "company_name": "Zalima Technologies",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Prof. Pratik Raj",
+      "projects": [
+        {
+          "s_no": 386,
+          "members": [
+            {
+              "name": "SHILEDAR ASHISH MACHCHHINDRA",
+              "enrollment": "2405102130008",
+              "mobile": "9106765250",
+              "program": "MCA,D"
+            }
+          ],
+          "project_title": "Retail Customer Segmentation using RFM Analysis in Power BI (Consumer 360)",
+          "project_description": "",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
+    },
+    {
+      "company_name": "Smartflow 360",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Prof. Pratik Parmar",
+      "projects": [
+        {
+          "s_no": 387,
+          "members": [
+            {
+              "name": "Gautam Rameshbhai Baldaniya",
+              "enrollment": "2405112140012",
+              "mobile": "8780789081",
+              "program": "MCA,F"
+            }
+          ],
+          "project_title": "",
+          "project_description": "",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
     }
 
 
