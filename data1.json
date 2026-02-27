@@ -10155,6 +10155,32 @@
           "back_end": ""
         }
       ]
+    },
+  {
+ 
+      "company_name": "Bluestock Fintech",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Prof. Aesh Gada",
+      "projects": [
+        {
+          "s_no": 388,
+          "members": [
+            {
+              "name": "Bijendra Kumar Mishra",
+              "enrollment": "2405112120031",
+              "mobile": "9325784771",
+              "program": "MCA,A"
+            }
+          ],
+          "project_title": "Stock Market Analysis",
+          "project_description": "",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
     }
 
 
