@@ -10181,7 +10181,34 @@
           "back_end": ""
         }
       ]
+    },
+  {
+  
+      "company_name": "BrainyBeam",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Prof. Himanshu Yadav",
+      "projects": [
+        {
+          "s_no": 389,
+          "members": [
+            {
+              "name": "Niraj Vishwakarma",
+              "enrollment": "2405112120193",
+              "mobile": "9104983369",
+              "program": "MCA, C"
+            }
+          ],
+          "project_title": "AI Chatbot",
+          "project_description": "",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
     }
+
 
 
 
