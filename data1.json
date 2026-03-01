@@ -10207,7 +10207,46 @@
           "back_end": ""
         }
       ]
+    },
+  {
+ 
+      "company_name": "",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Prof. sathwik Chebrolu",
+      "projects": [
+        {
+          "s_no": 390,
+          "members": [
+            {
+              "name": "Aswani Bokka",
+              "enrollment": "2405112120032",
+              "mobile": "",
+              "program": "MCA,A"
+            },
+            {
+              "name": "Seershika Naga",
+              "enrollment": "2405112120048",
+              "mobile": "",
+              "program": "MCA,A"
+            },
+            {
+              "name": "Yamini Jain",
+              "enrollment": "2405112120069",
+              "mobile": "",
+              "program": "MCA,A"
+            }
+          ],
+          "project_title": "ForeverApparel",
+          "project_description": "",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
     }
+
 
 
 
