@@ -10245,7 +10245,34 @@
           "back_end": ""
         }
       ]
+    },
+  {
+ 
+      "company_name": "Immverse Ai",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Prof. Chaitali nayka",
+      "projects": [
+        {
+          "s_no": 391,
+          "members": [
+            {
+              "name": "Kartikey Kushwaha",
+              "enrollment": "2405112120090",
+              "mobile": "",
+              "program": "MCA,B"
+            }
+          ],
+          "project_title": "Multilingual Sanskrit Document Question Answering System using RAG",
+          "project_description": "",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
     }
+ 
 
 
 
