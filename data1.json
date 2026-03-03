@@ -10271,7 +10271,34 @@
           "back_end": ""
         }
       ]
+    },
+  {
+ 
+      "company_name": "CODVEDA",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Prof.Chandankumar Singh",
+      "projects": [
+        {
+          "s_no": 392,
+          "members": [
+            {
+              "name": "Gaurav Kumar",
+              "enrollment": "2405112120049",
+              "mobile": "7209011742",
+              "program": "MCA,A"
+            }
+          ],
+          "project_title": "STOCK MARKET ANALYSIS",
+          "project_description": "",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
     }
+
  
 
 
