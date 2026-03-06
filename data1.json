@@ -10297,7 +10297,34 @@
           "back_end": ""
         }
       ]
+    },
+  {
+ 
+      "company_name": "Absolute Web",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Prof. Saikat Paramanik",
+      "projects": [
+        {
+          "s_no": 402,
+          "members": [
+            {
+              "name": "Pawar Devanshu Manishbhai",
+              "enrollment": "2405112110094",
+              "mobile": "6354217089",
+              "program": ""
+            }
+          ],
+          "project_title": "Gold App",
+          "project_description": "",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
     }
+
 
  
 
