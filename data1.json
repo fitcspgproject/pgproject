@@ -10323,7 +10323,1382 @@
           "back_end": ""
         }
       ]
+    },
+  {
+  
+      "company_name": "Acciojob",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Acciojob",
+      "projects": [
+        {
+          "s_no": 403,
+          "members": [
+            {
+              "name": "Rishita Rai",
+              "enrollment": "2405112140080",
+              "mobile": "8696495102",
+              "program": "MCA, A"
+            }
+          ],
+          "project_title": "Handicraft Artisans website",
+          "project_description": "It's an E-commerce website",
+          "front_end": "Html, css , js",
+          "back_end": "MERN"
+        }
+      ]
+    },
+    {
+      "company_name": "Acciojob",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Acciojob",
+      "projects": [
+        {
+          "s_no": 404,
+          "members": [
+            {
+              "name": "Praful Parmar",
+              "enrollment": "2405102110004",
+              "mobile": "7229800187",
+              "program": "MSC-IT, I"
+            }
+          ],
+          "project_title": "NextMove-AI RESUME ANALYZER AND CAREER PLATFORM",
+          "project_description": "The AI Resume Analyzer and Career Platform is a smart web-based application designed to help job seekers improve their resumes and make informed career decisions using artificial intelligence. The platform analyzes resumes, identifies strengths and weaknesses, and provides personalized suggestions to enhance employability. It also acts as a complete career-support system by offering job recommendations, skill-gap analysis, and career guidance.",
+          "front_end": "React js and tailwind css",
+          "back_end": "Nodejs express js mongodb"
+        }
+      ]
+    },
+    {
+      "company_name": "Acciojob",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Acciojob",
+      "projects": [
+        {
+          "s_no": 405,
+          "members": [
+            {
+              "name": "VINZUDA KISHAN BALUBHAI",
+              "enrollment": "2405112140097",
+              "mobile": "7043567813",
+              "program": "MCA, G"
+            },
+            {
+              "name": "SONDARVA BIPIN LALJIBHAI",
+              "enrollment": "2405112140091",
+              "mobile": "+91 93160 43369",
+              "program": "MCA, G"
+            },
+            {
+              "name": "DADHANIYA VASU M.",
+              "enrollment": "2405112140025",
+              "mobile": "+91 95102 31526",
+              "program": "MCA, F"
+            }
+          ],
+          "project_title": "AI-Powerd Resume Intelligence Jon Matching Platform",
+          "project_description": "AI-Powered Resume Intelligence Job Matching Platform is a web-based recruitment system developed using Python and Flask. The platform allows users to upload resumes, which are analyzed using NLP techniques to extract skills, education, and experience details. It matches resumes with job descriptions using similarity algorithms and provides personalized job recommendations with match scores. The system also generates an ATS compatibility score and suggests improvements such as missing keywords and skill gaps. It includes both user and admin modules for managing resumes and job listings. The responsive interface ensures a smooth and user-friendly experience across devices.",
+          "front_end": "Jinja2, HTML5, CSS3",
+          "back_end": "Python, Flask, MySQL, Transformers, PyPDF2"
+        }
+      ]
+    },
+    {
+      "company_name": "Acciojob",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Acciojob",
+      "projects": [
+        {
+          "s_no": 406,
+          "members": [
+            {
+              "name": "Arvind Sitaram Padyachi",
+              "enrollment": "2405112140062",
+              "mobile": "7303855170",
+              "program": "MCA, F"
+            },
+            {
+              "name": "Rushil Chandegra",
+              "enrollment": "2405112140099",
+              "mobile": "8306238760",
+              "program": "MCA, G"
+            }
+          ],
+          "project_title": "Placement Portal&ATS Score",
+          "project_description": "The Placement Portal with Applicant Tracking System (ATS) is designed to overcome these challenges by providing a fully automated, web-based placement management solution. The system is developed using a Python-based backend and a React.js frontend, following a modern API-driven client–server architecture. The React frontend provides an interactive and responsive user interface for both students and placement administrators. Students can register, create and update their profiles, upload resumes, apply for job opportunities, and track their application status in real time. All user interactions are handled through secure API calls to the Python backend, ensuring proper validation and data consistency. The Placement Admin manages all placement-related operations through a dedicated admin dashboard. This includes creating and managing job postings, defining eligibility criteria, viewing student applications, executing ATS-based screening, shortlisting candidates, and generating placement reports. By centralizing all recruitment activities under admin control, the system eliminates dependency on external recruiters and ensures a streamlined workflow.",
+          "front_end": "React.js, HTML5, Tailwind CSS, JavaScript",
+          "back_end": "Python, REST APIs, PostgreSQL"
+        }
+      ]
+    },
+    {
+      "company_name": "Acciojob",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Acciojob",
+      "projects": [
+        {
+          "s_no": 407,
+          "members": [
+            {
+              "name": "Kajal Dubey",
+              "enrollment": "2205103140007",
+              "mobile": "",
+              "program": "IMCA, A"
+            }
+          ],
+          "project_title": "AI-Powered Fitness Tracking System",
+          "project_description": "The \"AI-Powered Fitness Tracking System using Micro services Architecture\" is designed to provide a scalable, secure, and intelligent platform for managing fitness activities and generating personalized health recommendations. The system streamlines fitness tracking processes by allowing users to register, log daily activities, and receive AI-driven suggestions based on their performance data.",
+          "front_end": "React",
+          "back_end": "SpringBoot"
+        }
+      ]
+    },
+    {
+      "company_name": "Acciojob",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Acciojob",
+      "projects": [
+        {
+          "s_no": 408,
+          "members": [
+            {
+              "name": "Sushil Kumar",
+              "enrollment": "2405112120186",
+              "mobile": "8521959500",
+              "program": "MCA, C"
+            },
+            {
+              "name": "Aakash Singh",
+              "enrollment": "2405112120179",
+              "mobile": "9662003441",
+              "program": "MCA, C"
+            },
+            {
+              "name": "Vivek Chaurasiya",
+              "enrollment": "2405112120195",
+              "mobile": "6386606207",
+              "program": "MCA, C"
+            }
+          ],
+          "project_title": "Velocity mart",
+          "project_description": "An Ecommerce website",
+          "front_end": "React.js",
+          "back_end": "Node.js, Express.js & MongoDb"
+        }
+      ]
+    },
+    {
+      "company_name": "Acciojob",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Acciojob",
+      "projects": [
+        {
+          "s_no": 409,
+          "members": [
+            {
+              "name": "R S SUBHAM MOHANTY",
+              "enrollment": "2405112120146",
+              "mobile": "6370385285",
+              "program": "MCA, B"
+            },
+            {
+              "name": "DIBYASHA SAHU",
+              "enrollment": "2405112120043",
+              "mobile": "7014716683",
+              "program": "MCA, A"
+            }
+          ],
+          "project_title": "AI Faculty Support System",
+          "project_description": "AI Faculty Support System is a comprehensive digital assistant designed specifically for educators. While standard AI tools are general, this system is context-aware, meaning it only works with the specific data provided by the teacher.",
+          "front_end": "Streamlit, Custom CSS, JavaScript, FPDF",
+          "back_end": "Python, Google Gemini 1.5 Pro API, RAG-lite, SQLite3, SHA-256 Encryption, PyPDF, gTTS"
+        }
+      ]
+    },
+    {
+      "company_name": "Acciojob",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Acciojob",
+      "projects": [
+        {
+          "s_no": 410,
+          "members": [
+            {
+              "name": "Vanshika Prakashbhai Kahar",
+              "enrollment": "2405112110046",
+              "mobile": "7048512812",
+              "program": "MCA, A"
+            },
+            {
+              "name": "Drashti Mukeshkumar Gandhi",
+              "enrollment": "2405112110036",
+              "mobile": "8469207033",
+              "program": "MCA, A"
+            }
+          ],
+          "project_title": "E - Commerce Online shopping Management System",
+          "project_description": "This project aims to develop a responsive and dynamic online shopping platform using React for frontend, Node.js and Express.js for backend APIs, and MongoDB for database management. The system will follow RESTful architecture and implement secure authentication mechanisms.",
+          "front_end": "React.js",
+          "back_end": "Node.js, Express.js"
+        }
+      ]
+    },
+    {
+      "company_name": "Acciojob",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Acciojob",
+      "projects": [
+        {
+          "s_no": 411,
+          "members": [
+            {
+              "name": "Bariya Vishwas Kishorkumar",
+              "enrollment": "2405112110015",
+              "mobile": "8160499709",
+              "program": "MCA, H"
+            },
+            {
+              "name": "Chundadiya Harsh Devendra",
+              "enrollment": "2405112110026",
+              "mobile": "7862828112",
+              "program": "MCA, H"
+            }
+          ],
+          "project_title": "Restaurant Management System",
+          "project_description": "Restaurant management software automates and streamlines various operational tasks, such as order taking, table management, inventory tracking, and employee scheduling.",
+          "front_end": "Vite + React",
+          "back_end": "Node + Express js"
+        }
+      ]
+    },
+    {
+      "company_name": "Acciojob",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Acciojob",
+      "projects": [
+        {
+          "s_no": 412,
+          "members": [
+            {
+              "name": "Abhishek Kumar",
+              "enrollment": "2405112120003",
+              "mobile": "7782046254",
+              "program": "MCA, A"
+            },
+            {
+              "name": "Saurabh Kumar",
+              "enrollment": "2405112120164",
+              "mobile": "9525062385",
+              "program": "MCA, C"
+            },
+            {
+              "name": "Laxman Kumar Chaudhary",
+              "enrollment": "2405112120092",
+              "mobile": "9142066989",
+              "program": "MCA, B"
+            }
+          ],
+          "project_title": "HireHub - Ai powered Recruitment Plateform",
+          "project_description": "This system provides a complete recruitment solution. Users can create their accounts, upload resumes, and apply for jobs. Companies can review applications and select suitable candidates.",
+          "front_end": "React.js, Tailwind CSS, HTML, CSS, JavaScript",
+          "back_end": "Node.js, Express.js, mongo db"
+        }
+      ]
+    },
+    {
+      "company_name": "Acciojob",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Acciojob",
+      "projects": [
+        {
+          "s_no": 413,
+          "members": [
+            {
+              "name": "Gautam Kumar",
+              "enrollment": "2405112110038",
+              "mobile": "9123202975",
+              "program": "MCA, H"
+            },
+            {
+              "name": "Neeraj Kumar",
+              "enrollment": "2405112110075",
+              "mobile": "6204139945",
+              "program": "MCA, H"
+            },
+            {
+              "name": "Rabish Kumar",
+              "enrollment": "2405112070045",
+              "mobile": "7542043236",
+              "program": "MCA, E"
+            }
+          ],
+          "project_title": "E-Commerce Web Application",
+          "project_description": "This project is a full-stack E-Commerce Web Application developed using the MERN stack, which includes MongoDB, Express.js, React.js, and Node.js. The application provides a complete online shopping platform where users can browse products, register/login, add items to the cart, and place orders securely. The frontend is built using React.js to create a responsive and interactive user interface, while the backend is developed with Node.js and Express.js to handle APIs, authentication, and business logic. MongoDB is used as the database to store user details, product information, and order records. The system also includes an Admin Panel where administrators can manage products, categories, users, and orders. Additional features include JWT-based authentication, cart management, order tracking, and secure payment integration. This project demonstrates full-stack development skills, RESTful API integration, database management, authentication, and responsive UI design.",
+          "front_end": "React.js and Tailwind CSS",
+          "back_end": "Node.js, Express.js, MongoDB, JWT (JSON Web Token)"
+        }
+      ]
+    },
+    {
+      "company_name": "Acciojob",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Acciojob",
+      "projects": [
+        {
+          "s_no": 414,
+          "members": [
+            {
+              "name": "Harshvardhan Tailor",
+              "enrollment": "2405112130009",
+              "mobile": "7878272372",
+              "program": "MCA, D"
+            },
+            {
+              "name": "Abhishek kumar Dweevedi",
+              "enrollment": "2405112070001",
+              "mobile": "9696678894",
+              "program": "MCA, E"
+            },
+            {
+              "name": "Ankit Anand",
+              "enrollment": "2405112130002",
+              "mobile": "8102200668",
+              "program": "MCA, D"
+            }
+          ],
+          "project_title": "Atelier vogue",
+          "project_description": "E-commerce website",
+          "front_end": "React",
+          "back_end": "Node js"
+        }
+      ]
+    },
+    {
+      "company_name": "Acciojob",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Acciojob",
+      "projects": [
+        {
+          "s_no": 415,
+          "members": [
+            {
+              "name": "Danish Shamshee",
+              "enrollment": "2405112070016",
+              "mobile": "9430856365",
+              "program": "MCA, E"
+            }
+          ],
+          "project_title": "NearLy",
+          "project_description": "Developing a service platform connecting customers with nearby workers (Electricians, Plumbers, A/C Technicians, Carpenters, etc) using Geospatial querying within a 5KM radius.",
+          "front_end": "Next.js, shadcn, Tailwind, Zustand, Zod, React-Hook-Form, Socket.io-client",
+          "back_end": "Next.js, NextAuth.js, Socket.io, MongoDB, Bcrypt.js, Resend"
+        }
+      ]
+    },
+    {
+      "company_name": "Acciojob",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Acciojob",
+      "projects": [
+        {
+          "s_no": 416,
+          "members": [
+            {
+              "name": "Aman Raushan",
+              "enrollment": "2405112070003",
+              "mobile": "7209046392",
+              "program": "MCA, E"
+            },
+            {
+              "name": "Pinku Kumar",
+              "enrollment": "2405112070040",
+              "mobile": "",
+              "program": "MCA, E"
+            }
+          ],
+          "project_title": "E- Commerce Web application",
+          "project_description": "This project develops a full-stack e-commerce platform using the MERN stack (MongoDB, Express.js, React, Node.js), enabling users to browse products, manage shopping carts, and complete secure purchases while admins handle inventory and orders and so on.",
+          "front_end": "React.js",
+          "back_end": "Node.js/express.js for server side logic and mongoDB for data storage."
+        }
+      ]
+    },
+    {
+      "company_name": "Acciojob",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Acciojob",
+      "projects": [
+        {
+          "s_no": 417,
+          "members": [
+            {
+              "name": "Aditya Prakash",
+              "enrollment": "2405112110004",
+              "mobile": "8252703303",
+              "program": "MCA, H"
+            },
+            {
+              "name": "Aditya Kumar",
+              "enrollment": "2405112110003",
+              "mobile": "8544158003",
+              "program": "MCA, H"
+            }
+          ],
+          "project_title": "Stay Search",
+          "project_description": "Stay Search is a unified platform designed to simplify accommodation discovery by bringing together lodges, PGs, and hotels under one roof. It enables users to explore, compare, and book diverse stay options seamlessly, ensuring convenience and transparency.",
+          "front_end": "ReactJs",
+          "back_end": "Java(Spring Boot)"
+        }
+      ]
+    },
+    {
+      "company_name": "Acciojob",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Acciojob",
+      "projects": [
+        {
+          "s_no": 418,
+          "members": [
+            {
+              "name": "Ajay kumar Tripathi",
+              "enrollment": "2405112120010",
+              "mobile": "9771516580",
+              "program": "MCA, A"
+            }
+          ],
+          "project_title": "My shop",
+          "project_description": "Online shopping website",
+          "front_end": "React.js, html, css, js",
+          "back_end": "Na"
+        }
+      ]
+    },
+    {
+      "company_name": "Acciojob",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Acciojob",
+      "projects": [
+        {
+          "s_no": 419,
+          "members": [
+            {
+              "name": "Aditya Kumar Singh",
+              "enrollment": "2405112120006",
+              "mobile": "8969521661",
+              "program": "MCA, A"
+            }
+          ],
+          "project_title": "Intelligent Multi-Vendor E-Commerce System",
+          "project_description": "It is a web-based intelligent multi-vendor e-commerce system that provides a centralized online marketplace for multiple sellers and customers. The platform allows vendors to manage products while customers can browse, add to cart, and place orders securely. It aims to improve online business efficiency and deliver a smooth and user-friendly shopping experience.",
+          "front_end": "HTML, CSS, JS",
+          "back_end": "HTML, CSS"
+        }
+      ]
+    },
+    {
+      "company_name": "Acciojob",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Acciojob",
+      "projects": [
+        {
+          "s_no": 420,
+          "members": [
+            {
+              "name": "Shubham Balkesh Kashyap",
+              "enrollment": "2405112110050",
+              "mobile": "9326430335",
+              "program": "MCA, H"
+            },
+            {
+              "name": "Deepjyoti Kumari",
+              "enrollment": "2405112110029",
+              "mobile": "95084 22511",
+              "program": "MCA, H"
+            }
+          ],
+          "project_title": "E- Commerce Web Application",
+          "project_description": "Project is based on MERN technologies",
+          "front_end": "React js",
+          "back_end": "Node js"
+        }
+      ]
+    },
+    {
+      "company_name": "Acciojob",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Acciojob",
+      "projects": [
+        {
+          "s_no": 421,
+          "members": [
+            {
+              "name": "Shubham kumar",
+              "enrollment": "2405112120177",
+              "mobile": "9693847074",
+              "program": "MCA, C"
+            },
+            {
+              "name": "Kush kumar",
+              "enrollment": "2405112120089",
+              "mobile": "+91 87096 92411",
+              "program": "MCA, A"
+            },
+            {
+              "name": "Krishna kumar",
+              "enrollment": "2405112120086",
+              "mobile": "+91 81024 30619",
+              "program": "MCA, A"
+            }
+          ],
+          "project_title": "Smart Ecommerce",
+          "project_description": "This is a ecommerce project ,in which we develop a full ecommerce website using MERN Stack ,here the best thing is that we implement a image scanning search system that helps our customer search without typing any single line in search bar",
+          "front_end": "React",
+          "back_end": "Node.js, Express and MongoDB"
+        }
+      ]
+    },
+    {
+      "company_name": "Acciojob",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Acciojob",
+      "projects": [
+        {
+          "s_no": 422,
+          "members": [
+            {
+              "name": "Pragya Singh",
+              "enrollment": "2205103120008",
+              "mobile": "9904939120",
+              "program": "IMCA, A"
+            }
+          ],
+          "project_title": "Pragya Singh",
+          "project_description": "AI Exam Notes Generator is a web-based application that automatically generates structured, exam-oriented notes using Artificial Intelligence. The system allows users to log in securely using Google authentication, enter a topic, and receive summarized notes with key concepts and revision points. It includes a credit-based usage system and secure payment integration for premium features. The project is built using the MERN stack (MongoDB, Express.js, React.js, Node.js) with AI integration for smart content generation. It aims to reduce manual note-making effort and improve exam preparation efficiency.",
+          "front_end": "React.js (Vite) Tailwind CSS Redux Toolkit Axios React Router",
+          "back_end": "Node.js Express.js MongoDB Mongoose JWT (Authentication) Firebase Authentication (Google OAuth) Gemini API (AI Integration) Stripe (Payment Integration)"
+        }
+      ]
+    },
+    {
+      "company_name": "Acciojob",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Acciojob",
+      "projects": [
+        {
+          "s_no": 423,
+          "members": [
+            {
+              "name": "Bavaliya hardik jayshukhbhai",
+              "enrollment": "205112110017",
+              "mobile": "8780905401",
+              "program": "MCA, H"
+            }
+          ],
+          "project_title": "Task management system",
+          "project_description": "Task management system functionality: user can create update delate task and admin can also update the task status.",
+          "front_end": "React shadcn",
+          "back_end": "Java spring boot mysql"
+        }
+      ]
+    },
+    {
+      "company_name": "Acciojob",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Acciojob",
+      "projects": [
+        {
+          "s_no": 424,
+          "members": [
+            {
+              "name": "Malvik Parekh",
+              "enrollment": "2205103140018",
+              "mobile": "9825967515",
+              "program": "IMCA, A"
+            }
+          ],
+          "project_title": "AI based Astrology web application",
+          "project_description": "The project is an Al-Based Astrology and Life Guidance Web Application developed using the MERN stack. It allows users to enter astrological information and receive personalized insights generated through the OpenAI API. Unlike traditional horoscope platforms that provide static predictions, this system uses Al to create dynamic and customized guidance for different life domains.",
+          "front_end": "Built using React.js, HTML, CSS, and JavaScript to create the user interface and collect user inputs.",
+          "back_end": "Developed using Node.js and Express.js to handle APIs, authentication, AI integration, and database communication with MongoDB Atlas"
+        }
+      ]
+    },
+    {
+      "company_name": "Acciojob",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Acciojob",
+      "projects": [
+        {
+          "s_no": 425,
+          "members": [
+            {
+              "name": "Akash Kumar",
+              "enrollment": "2405112110007",
+              "mobile": "8797627574",
+              "program": "MCA, H"
+            },
+            {
+              "name": "Danish Khan",
+              "enrollment": "2405112110052",
+              "mobile": "94276 77758",
+              "program": "MCA, H"
+            },
+            {
+              "name": "Kundan kumar",
+              "enrollment": "2405112110059",
+              "mobile": "95238 97967",
+              "program": "MCA, H"
+            }
+          ],
+          "project_title": "E-Commerce",
+          "project_description": "This E-Commerce project is a web-based online shopping system where users can register, browse products, add items to the cart, and place orders securely. It also includes an admin panel to manage products, users, and orders efficiently.",
+          "front_end": "React js",
+          "back_end": "Node js"
+        }
+      ]
+    },
+    {
+      "company_name": "Acciojob",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Acciojob",
+      "projects": [
+        {
+          "s_no": 426,
+          "members": [
+            {
+              "name": "Sharma riya mayur",
+              "enrollment": "2405112140085",
+              "mobile": "9904373148",
+              "program": "MCA, A"
+            }
+          ],
+          "project_title": "SkillAI: AI-Based Skill Gap Analysis and Learning Path System",
+          "project_description": "An AI-driven web application that analyzes a user's existing skills and compares them with the skills required for specific job roles. The system identifies skill gaps and provides personalized learning paths and recommendations to help students and fresh graduates improve their skills and become job-ready.",
+          "front_end": "HTML5, CSS3, JavaScript, Django Templates",
+          "back_end": "Python, Django Framework"
+        }
+      ]
+    },
+    {
+      "company_name": "Acciojob",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Acciojob",
+      "projects": [
+        {
+          "s_no": 427,
+          "members": [
+            {
+              "name": "PRAJAPATI SHIVAM BRIJRAJ",
+              "enrollment": "2405112140075",
+              "mobile": "8469428342",
+              "program": "MCA, A"
+            }
+          ],
+          "project_title": "MedQueue-AI",
+          "project_description": "Hospital Outpatient Department (OPD) queues in India are largely unmanaged and inefficient, leading to long waiting times, overcrowding, and poor patient experience. In most hospitals, patients wait between 2 to 5 hours without any real-time information about doctor availability or queue status. The absence of digital token systems in nearly 80% of hospitals forces elderly patients and those with medical difficulties to stand in long lines, while doctors struggle to manage peak patient loads. Additionally, emergency cases are often not prioritized effectively due to the lack of a structured queue management system. This project proposes a smart, digital OPD Queue Management Platform that provides real-time queue visibility, digital token generation, priority handling for elderly and emergency patients, and efficient doctor-side queue control. The platform aims to reduce waiting time, improve hospital workflow, and enhance patient satisfaction by introducing transparency, automation, and scalability into the OPD process. Ultimately, the system seeks to serve as a universal solution for real-time OPD queue monitoring across hospitals in India, improving access to timely healthcare for millions.",
+          "front_end": "HTML + Tailwind CSS JavaScript HTMX",
+          "back_end": "Django (Python) Django REST Framework (DRF) for APIs Database MySQL, MongoDB"
+        }
+      ]
+    },
+    {
+      "company_name": "Acciojob",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Acciojob",
+      "projects": [
+        {
+          "s_no": 428,
+          "members": [
+            {
+              "name": "Aditya Singh",
+              "enrollment": "2405112120005",
+              "mobile": "9173400522",
+              "program": "MCA, A"
+            },
+            {
+              "name": "Akanksha Gupta",
+              "enrollment": "2405112120011",
+              "mobile": "7398131044",
+              "program": "MCA, A"
+            },
+            {
+              "name": "Astha kumari",
+              "enrollment": "2405112120020",
+              "mobile": "9153144160",
+              "program": "MCA, A"
+            }
+          ],
+          "project_title": "Aditya AI",
+          "project_description": "Educational hollistic Ai for students",
+          "front_end": "Html, Css, javascript, React js",
+          "back_end": "Postgres, N8N, DOCKER, Cloudfare"
+        }
+      ]
+    },
+    {
+      "company_name": "Acciojob",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Acciojob",
+      "projects": [
+        {
+          "s_no": 429,
+          "members": [
+            {
+              "name": "Suraj pal",
+              "enrollment": "2405112130024",
+              "mobile": "9022879880",
+              "program": "MCA, D"
+            }
+          ],
+          "project_title": "Madicine ordering application",
+          "project_description": "The \"Online Medicine Order Application\" is defined as a 24/7 digital platform that bridge's the gap between local licensed pharmacies and the general public, facilitating the safe, fast, and legal procurement of pharmaceutical products. The system focuses on: Eliminating geographical barriers to healthcare. Digitizing the prescription-to-delivery workflow. Ensuring authentic medicine supply via verified stores.",
+          "front_end": "HTML CSS",
+          "back_end": "PHP/PYTHON"
+        }
+      ]
+    },
+    {
+      "company_name": "Acciojob",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Acciojob",
+      "projects": [
+        {
+          "s_no": 430,
+          "members": [
+            {
+              "name": "Parth Patel",
+              "enrollment": "2405102120006",
+              "mobile": "9099658438",
+              "program": "MSC-IT, C"
+            }
+          ],
+          "project_title": "Crop Disease Detection System",
+          "project_description": "Crop Disease Detection System is an AI-based application that identifies plant diseases from crop leaf images using deep learning (CNN). It helps farmers detect diseases early and take proper action to improve crop health and increase yield.",
+          "front_end": "HTML, CSS, JavaScript",
+          "back_end": "Python, Flask/FastAPI"
+        }
+      ]
+    },
+    {
+      "company_name": "Acciojob",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Acciojob",
+      "projects": [
+        {
+          "s_no": 431,
+          "members": [
+            {
+              "name": "Ananya Singh",
+              "enrollment": "2405112120015",
+              "mobile": "8429194655",
+              "program": "MCA, A"
+            },
+            {
+              "name": "Ananya Singh",
+              "enrollment": "",
+              "mobile": "",
+              "program": "MCA, A"
+            }
+          ],
+          "project_title": "Dairy Product",
+          "project_description": "Ecommerce Website",
+          "front_end": "HTML, CSS, JS",
+          "back_end": ""
+        }
+      ]
+    },
+    {
+      "company_name": "Acciojob",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Acciojob",
+      "projects": [
+        {
+          "s_no": 432,
+          "members": [
+            {
+              "name": "Harshadkumar Makwana",
+              "enrollment": "2405112110064",
+              "mobile": "6353913425",
+              "program": "MCA, A"
+            },
+            {
+              "name": "Sagar Akhiya",
+              "enrollment": "2405112120013",
+              "mobile": "9638465111",
+              "program": "MCA, A"
+            }
+          ],
+          "project_title": "TradeNova – Stock Trading Platform",
+          "project_description": "TradeNova is a web-based stock trading platform that allows users to buy and sell stocks in a simple and user-friendly environment. The platform provides features such as user registration, secure login, stock dashboard, portfolio management, and order history. Users can view available stocks, place buy or sell orders, and track their investments through an interactive dashboard. This project demonstrates full-stack development using modern web technologies.",
+          "front_end": "React.js, HTML, CSS, Bootstrap",
+          "back_end": "Node.js, Express.js, MongoDB"
+        }
+      ]
+    },
+    {
+      "company_name": "Acciojob",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "Acciojob",
+      "projects": [
+        {
+          "s_no": 433,
+          "members": [
+            {
+              "name": "Shushank kumar",
+              "enrollment": "2405112070056",
+              "mobile": "8340563738",
+              "program": "MCA, E"
+            },
+            {
+              "name": "Saurabh Kumar",
+              "enrollment": "2405112070050",
+              "mobile": "9113199674",
+              "program": "MCA, E"
+            },
+            {
+              "name": "Sudhanshu Ranjan",
+              "enrollment": "2405112070059",
+              "mobile": "",
+              "program": "MCA, E"
+            }
+          ],
+          "project_title": "ShopSphere",
+          "project_description": "E-commerce web based application",
+          "front_end": "Html, Css, Js, Tailwind, React.js",
+          "back_end": "Node.js, Express.js, MongoDB, jwt"
+        }
+      ]
+    },
+  {
+  
+      "company_name": "Consultancy Project",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "",
+      "projects": [
+        {
+          "s_no": 393,
+          "members": [
+            {
+              "name": "Diya Mehta",
+              "enrollment": "2205103110004",
+              "mobile": "",
+              "program": "IMCA"
+            },
+            {
+              "name": "Kartik singh",
+              "enrollment": "2205103140014",
+              "mobile": "",
+              "program": "IMCA"
+            },
+            {
+              "name": "Ishika Solanki",
+              "enrollment": "2205103120007",
+              "mobile": "",
+              "program": "IMCA"
+            },
+            {
+              "name": "Ishika Shah",
+              "enrollment": "2205103050003",
+              "mobile": "",
+              "program": "IMCA"
+            },
+            {
+              "name": "Kunalsing Rajput",
+              "enrollment": "2205103120027",
+              "mobile": "",
+              "program": "IMCA"
+            },
+            {
+              "name": "Swayam Rajora",
+              "enrollment": "2205103130003",
+              "mobile": "",
+              "program": "IMCA"
+            },
+            {
+              "name": "Harshal Ashok Ghuge",
+              "enrollment": "2205103110005",
+              "mobile": "",
+              "program": "IMCA"
+            }
+          ],
+          "project_title": "Mahalaxmi Jwellers",
+          "project_description": "",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
+    },
+    {
+      "company_name": "Consultancy Project",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "",
+      "projects": [
+        {
+          "s_no": 394,
+          "members": [
+            {
+              "name": "Saksham Dave",
+              "enrollment": "2205103140013",
+              "mobile": "",
+              "program": "IMCA"
+            },
+            {
+              "name": "DEVESH SINGH CHOUHAN",
+              "enrollment": "2205103140004",
+              "mobile": "",
+              "program": "IMCA"
+            },
+            {
+              "name": "Kailash Patel",
+              "enrollment": "2205103140006",
+              "mobile": "",
+              "program": "IMCA"
+            },
+            {
+              "name": "Harsh Vardhan Singh Gehlot",
+              "enrollment": "2205103140005",
+              "mobile": "",
+              "program": "IMCA"
+            },
+            {
+              "name": "Bhujal Vasita",
+              "enrollment": "2205103140002",
+              "mobile": "",
+              "program": "IMCA"
+            }
+          ],
+          "project_title": "MewarNath",
+          "project_description": "",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
+    },
+    {
+      "company_name": "Consultancy Project",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "",
+      "projects": [
+        {
+          "s_no": 395,
+          "members": [
+            {
+              "name": "Vineet murjani",
+              "enrollment": "2205103120020",
+              "mobile": "",
+              "program": "IMCA"
+            },
+            {
+              "name": "Ronit Patidar",
+              "enrollment": "2205103110009",
+              "mobile": "",
+              "program": "IMCA"
+            },
+            {
+              "name": "Het Patel",
+              "enrollment": "2405102140033",
+              "mobile": "",
+              "program": "IMCA"
+            },
+            {
+              "name": "Prince Makani",
+              "enrollment": "2205103140009",
+              "mobile": "",
+              "program": "IMCA"
+            },
+            {
+              "name": "Varun Shrimal",
+              "enrollment": "2205103140021",
+              "mobile": "",
+              "program": "IMCA"
+            }
+          ],
+          "project_title": "Quick bite food delivery",
+          "project_description": "",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
+    },
+    {
+      "company_name": "Consultancy Project",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "",
+      "projects": [
+        {
+          "s_no": 396,
+          "members": [
+            {
+              "name": "Prabhat rathod",
+              "enrollment": "2205103120010",
+              "mobile": "",
+              "program": "IMCA"
+            },
+            {
+              "name": "Patel Janki",
+              "enrollment": "2205103110015",
+              "mobile": "",
+              "program": "IMCA"
+            }
+          ],
+          "project_title": "TechBuild",
+          "project_description": "",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
+    },
+    {
+      "company_name": "Consultancy Project",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "",
+      "projects": [
+        {
+          "s_no": 397,
+          "members": [
+            {
+              "name": "BHOOTDA DIVYA DASHARATHBHAI",
+              "enrollment": "2205103120003",
+              "mobile": "",
+              "program": "IMCA"
+            }
+          ],
+          "project_title": "Furnivision",
+          "project_description": "",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
+    },
+    {
+      "company_name": "Consultancy Project",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "",
+      "projects": [
+        {
+          "s_no": 398,
+          "members": [
+            {
+              "name": "Anil patidar",
+              "enrollment": "2405112110010",
+              "mobile": "",
+              "program": "MCA"
+            },
+            {
+              "name": "Manavsinh Mahida",
+              "enrollment": "2405112110063",
+              "mobile": "",
+              "program": "MCA"
+            },
+            {
+              "name": "SHAH SHUBHAM RAMESHBHAI",
+              "enrollment": "2405112110118",
+              "mobile": "",
+              "program": "MCA"
+            },
+            {
+              "name": "DHRUV RATHOD",
+              "enrollment": "2405112110031",
+              "mobile": "",
+              "program": "MCA"
+            },
+            {
+              "name": "PAREKH JAY ALPESHKUMAR",
+              "enrollment": "2405112110079",
+              "mobile": "",
+              "program": "MCA"
+            },
+            {
+              "name": "AYUSHI TIWARI",
+              "enrollment": "2405112110014",
+              "mobile": "",
+              "program": "MCA"
+            }
+          ],
+          "project_title": "Prerna NGO",
+          "project_description": "",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
+    },
+    {
+      "company_name": "Consultancy Project",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "",
+      "projects": [
+        {
+          "s_no": 399,
+          "members": [
+            {
+              "name": "Priya Sunilkumar Patel",
+              "enrollment": "2405112110091",
+              "mobile": "",
+              "program": "MCA"
+            },
+            {
+              "name": "Jaivin Malaviya",
+              "enrollment": "24051121110065",
+              "mobile": "",
+              "program": "MCA"
+            },
+            {
+              "name": "Paghadar Shyam Chetanbhai",
+              "enrollment": "2405112110078",
+              "mobile": "",
+              "program": "MCA"
+            },
+            {
+              "name": "Deep Jadav",
+              "enrollment": "2405112110028",
+              "mobile": "",
+              "program": "MCA"
+            },
+            {
+              "name": "Honey Varachhiya",
+              "enrollment": "2405112110130",
+              "mobile": "",
+              "program": "MCA"
+            },
+            {
+              "name": "Yash sudani",
+              "enrollment": "2405112110126",
+              "mobile": "",
+              "program": "MCA"
+            },
+            {
+              "name": "Varachhiya yogini Devendrasinh",
+              "enrollment": "2405112110131",
+              "mobile": "",
+              "program": "MCA"
+            }
+          ],
+          "project_title": "RealMe Mobile",
+          "project_description": "",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
+    },
+    {
+      "company_name": "Consultancy Project",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "",
+      "projects": [
+        {
+          "s_no": 400,
+          "members": [
+            {
+              "name": "Naman Dangi",
+              "enrollment": "2405102140003",
+              "mobile": "",
+              "program": "M.Sc."
+            },
+            {
+              "name": "ANUSHKA RASTOGI",
+              "enrollment": "2405112140008",
+              "mobile": "",
+              "program": "M.Sc."
+            },
+            {
+              "name": "Parmar Divya Maheshbhai",
+              "enrollment": "2405112110080",
+              "mobile": "",
+              "program": "M.Sc."
+            },
+            {
+              "name": "JAISHA C SUNIL NAIR",
+              "enrollment": "2405102140010",
+              "mobile": "",
+              "program": "M.Sc."
+            }
+          ],
+          "project_title": "B.D. Jwellers",
+          "project_description": "",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
+    },
+    {
+      "company_name": "Consultancy Project",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "",
+      "projects": [
+        {
+          "s_no": 401,
+          "members": [
+            {
+              "name": "Himani Rajpurohit",
+              "enrollment": "2405102140033",
+              "mobile": "",
+              "program": "M.Sc."
+            },
+            {
+              "name": "Patel Yesha",
+              "enrollment": "2405102140043",
+              "mobile": "",
+              "program": "M.Sc."
+            },
+            {
+              "name": "GORASIA DARSHITA DINESH",
+              "enrollment": "2405102140007",
+              "mobile": "",
+              "program": "M.Sc."
+            },
+            {
+              "name": "PANCHAL JIGAR PRAKASH",
+              "enrollment": "2405102140023",
+              "mobile": "",
+              "program": "M.Sc."
+            },
+            {
+              "name": "KETKI PRAKASH TAMBEKAR",
+              "enrollment": "2405102140014",
+              "mobile": "",
+              "program": "M.Sc."
+            },
+            {
+              "name": "vivek paghi",
+              "enrollment": "2405102070003",
+              "mobile": "",
+              "program": "M.Sc."
+            },
+            {
+              "name": "Dhriti Patel",
+              "enrollment": "2405102140025",
+              "mobile": "",
+              "program": "M.Sc."
+            }
+          ],
+          "project_title": "Purohit Panchvati",
+          "project_description": "",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
     }
+
 
 
  
