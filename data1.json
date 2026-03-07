@@ -11703,6 +11703,32 @@
           "back_end": ""
         }
       ]
+    },
+  {
+ 
+      "company_name": "",
+      "address": "",
+      "website": "",
+      "contact": "",
+      "mentor": "",
+      "internal_guide": "prof. satyamani Gayatri",
+      "projects": [
+        {
+          "s_no": 434,
+          "members": [
+            {
+              "name": "Devbrat Shukla",
+              "enrollment": "2.40511E+12",
+              "mobile": "",
+              "program": "MCA,A"
+            }
+          ],
+          "project_title": "Clipzy AI",
+          "project_description": "",
+          "front_end": "",
+          "back_end": ""
+        }
+      ]
     }
 
 
