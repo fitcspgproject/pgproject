@@ -1,0 +1,5654 @@
+[
+    {
+        "S.N.": 1,
+        "Name": "Shradha Shinde",
+        "enrollment": "2405102070005",
+        "Internal Guide": "PRof. Akanksha Singh",
+        "Review-1": 0,
+        "Review-2": 42,
+        "Review-3": "AB"
+    },
+    {
+        "S.N.": 2,
+        "Name": "Rahul Ranjan",
+        "enrollment": "240511211012",
+        "Internal Guide": "Prof. Ashutosh Solanki",
+        "Review-1": 37,
+        "Review-2": 0,
+        "Review-3": "AB"
+    },
+    {
+        "S.N.": 3,
+        "Name": "Abhishek kumar pathak",
+        "enrollment": "240511240001",
+        "Internal Guide": "Prof. Payal Parekh",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 4,
+        "Name": "Nidhin m s",
+        "enrollment": "2405112070031",
+        "Internal Guide": "Prof. Vipul Gamit",
+        "Review-1": 31,
+        "Review-2": 30,
+        "Review-3": "AB"
+    },
+    {
+        "S.N.": 5,
+        "Name": "Nishanth Bhaskar",
+        "enrollment": "2205103050001",
+        "Internal Guide": "Prof. Pratik Parmar",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 6,
+        "Name": "Rajesh Chaudhari",
+        "enrollment": "2205103050002",
+        "Internal Guide": "Prof.Sohil Parmar",
+        "Review-1": 45,
+        "Review-2": 44,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 7,
+        "Name": "Rajnish Patel",
+        "enrollment": "2205103050004",
+        "Internal Guide": "Prof. Tanmay Shah",
+        "Review-1": 46,
+        "Review-2": 48,
+        "Review-3": 94
+    },
+    {
+        "S.N.": 8,
+        "Name": "Prathamesh Pawar",
+        "enrollment": "2205103070001",
+        "Internal Guide": "Prof. Prachi Mehta",
+        "Review-1": 42,
+        "Review-2": 37,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 9,
+        "Name": "RODDA PAVAN KUMAR",
+        "enrollment": "2205103070002",
+        "Internal Guide": "Prof. Pratik Raj",
+        "Review-1": 41,
+        "Review-2": 37,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 10,
+        "Name": "Gunjana Choudhary",
+        "enrollment": "2205103070004",
+        "Internal Guide": "Prof. Aniket Paul",
+        "Review-1": 44,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 11,
+        "Name": "B BHARATH KUMAR REDDY",
+        "enrollment": "2205103110002",
+        "Internal Guide": "Prof. Vipul Gamit",
+        "Review-1": 43,
+        "Review-2": 43,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 12,
+        "Name": "Kollimarla Rishwanth",
+        "enrollment": "2205103110007",
+        "Internal Guide": "Prof. Khyati Kariya",
+        "Review-1": 39,
+        "Review-2": 39,
+        "Review-3": "AB"
+    },
+    {
+        "S.N.": 13,
+        "Name": "Mule Vinay Kumar Reddy",
+        "enrollment": "2205103110008",
+        "Internal Guide": "Prof. Khyati Kariya",
+        "Review-1": 41,
+        "Review-2": 41,
+        "Review-3": "AB"
+    },
+    {
+        "S.N.": 14,
+        "Name": "Shaik Mohammad Gouse",
+        "enrollment": "2205103110010",
+        "Internal Guide": "Dr.Raj Sinha",
+        "Review-1": 0,
+        "Review-2": 43,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 15,
+        "Name": "Soni Shreya Bakulbhai",
+        "enrollment": "2205103110011",
+        "Internal Guide": "Prof. Manishkumar Joshi",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 16,
+        "Name": "Thavva Amarnath Reddy",
+        "enrollment": "2205103110012",
+        "Internal Guide": "Prof. Priyanka Mod",
+        "Review-1": 38,
+        "Review-2": 38,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 17,
+        "Name": "Yaragarla Lokesh",
+        "enrollment": "2205103110013",
+        "Internal Guide": "Prof. Pratik Parmar",
+        "Review-1": 39,
+        "Review-2": 38,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 18,
+        "Name": "Maulik Chhansiya",
+        "enrollment": "2205103120005",
+        "Internal Guide": "Prof. Megha Trivedi",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 19,
+        "Name": "Dubakula Ramya",
+        "enrollment": "2205103120006",
+        "Internal Guide": "Prof. Uma Bhati",
+        "Review-1": 41,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 20,
+        "Name": "Pratibha agrawal",
+        "enrollment": "2205103120009",
+        "Internal Guide": "Prof. Vipul Gamit",
+        "Review-1": 32,
+        "Review-2": 29,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 21,
+        "Name": "Rutu Sanghani",
+        "enrollment": "2205103120011",
+        "Internal Guide": "Prof. Smarika Rai",
+        "Review-1": 44,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 22,
+        "Name": "Saniya Ahmad",
+        "enrollment": "2205103120012",
+        "Internal Guide": "Prof. Payal Parekh",
+        "Review-1": 34,
+        "Review-2": 35,
+        "Review-3": 75
+    },
+    {
+        "S.N.": 23,
+        "Name": "Pruthvirajsingh Sisodiya",
+        "enrollment": "2205103120014",
+        "Internal Guide": "Dr. Raj Sinha",
+        "Review-1": 35,
+        "Review-2": 32,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 24,
+        "Name": "Hitanshi tandel",
+        "enrollment": "2205103120015",
+        "Internal Guide": "Prof. Aesh Gada",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 25,
+        "Name": "Uday Kamdi",
+        "enrollment": "2205103120016",
+        "Internal Guide": "Dr. Hina Chokshi",
+        "Review-1": 0,
+        "Review-2": 42,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 26,
+        "Name": "Utkarsha Desale",
+        "enrollment": "2205103120017",
+        "Internal Guide": "Prof. Vishakha Bathwar",
+        "Review-1": 37,
+        "Review-2": 41,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 27,
+        "Name": "Vardhinedi Chetan Phanindra",
+        "enrollment": "2205103120018",
+        "Internal Guide": "Prof. Himanshu Yadav",
+        "Review-1": 42,
+        "Review-2": 45,
+        "Review-3": 84
+    },
+    {
+        "S.N.": 28,
+        "Name": "Rashika Vidyarthi",
+        "enrollment": "2205103120019",
+        "Internal Guide": "Prof.Chandankumar Singh",
+        "Review-1": 43,
+        "Review-2": 42,
+        "Review-3": 90
+    },
+    {
+        "S.N.": 29,
+        "Name": "Abhishek airan",
+        "enrollment": "2205103120022",
+        "Internal Guide": "Prof. Madhav J Kapadiya",
+        "Review-1": 45,
+        "Review-2": 0,
+        "Review-3": 71
+    },
+    {
+        "S.N.": 30,
+        "Name": "Om Bhatt",
+        "enrollment": "2205103120023",
+        "Internal Guide": "Prof. Uma Bhati",
+        "Review-1": 0,
+        "Review-2": 44,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 31,
+        "Name": "Rajput Dhruv Devendrabhai",
+        "enrollment": "2205103120026",
+        "Internal Guide": "Prof.Rinkal Sarvaiya",
+        "Review-1": 39,
+        "Review-2": 37,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 32,
+        "Name": "Kunalsingh Rajput",
+        "enrollment": "2205103120027",
+        "Internal Guide": "Dr. Hina Chokshi",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 33,
+        "Name": "Somil Shekhar",
+        "enrollment": "2205103120028",
+        "Internal Guide": "Prof.Chandankumar Singh",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 70
+    },
+    {
+        "S.N.": 34,
+        "Name": "Darshana vyas",
+        "enrollment": "2205103130001",
+        "Internal Guide": "Prof.Sohil Parmar",
+        "Review-1": 47,
+        "Review-2": 46,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 35,
+        "Name": "Joythi Raghu Vamsi",
+        "enrollment": "2205103130002",
+        "Internal Guide": "Prof. Khyati Kariya",
+        "Review-1": 41,
+        "Review-2": 41,
+        "Review-3": "AB"
+    },
+    {
+        "S.N.": 36,
+        "Name": "Adinath M Nair",
+        "enrollment": "2205103140001",
+        "Internal Guide": "Prof. Pratik Parmar",
+        "Review-1": 38,
+        "Review-2": 41,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 37,
+        "Name": "Bhanu Prakash chiravuri",
+        "enrollment": "2205103140003",
+        "Internal Guide": "Prof. Smarika Rai",
+        "Review-1": 45,
+        "Review-2": 44,
+        "Review-3": 87
+    },
+    {
+        "S.N.": 38,
+        "Name": "Parikshit Singh",
+        "enrollment": "2205103140008",
+        "Internal Guide": "Prof. Pravin Singh",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 39,
+        "Name": "Palak Kojani",
+        "enrollment": "2205103140008",
+        "Internal Guide": "Prof. Pravin Singh",
+        "Review-1": 42,
+        "Review-2": 45,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 40,
+        "Name": "Mohit Agarwalla",
+        "enrollment": "2205103140010",
+        "Internal Guide": "Prof.Shikha Bansal",
+        "Review-1": 44,
+        "Review-2": 43,
+        "Review-3": 74
+    },
+    {
+        "S.N.": 41,
+        "Name": "Rishabdev Panchal",
+        "enrollment": "2205103140012",
+        "Internal Guide": "Prof. Hardik Parmar",
+        "Review-1": 47,
+        "Review-2": 49,
+        "Review-3": 96
+    },
+    {
+        "S.N.": 42,
+        "Name": "Gollapalli Karthikeya",
+        "enrollment": "2205103140015",
+        "Internal Guide": "Prof. Priyanka Mod",
+        "Review-1": 38,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 43,
+        "Name": "Sachin Kumar",
+        "enrollment": "2205103140022",
+        "Internal Guide": "Prof. Pratik Parmar",
+        "Review-1": 44,
+        "Review-2": 41,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 44,
+        "Name": "Ganta Dimple sree",
+        "enrollment": "2205103140023",
+        "Internal Guide": "prof. Sahil Kumars",
+        "Review-1": 44,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 45,
+        "Name": "Y Venkata krishna Reddy",
+        "enrollment": "2205103140024",
+        "Internal Guide": "Dr. Prof. P. Ramachandran",
+        "Review-1": 36,
+        "Review-2": 44,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 46,
+        "Name": "Seetansh Bhatnagar",
+        "enrollment": "2205103140025",
+        "Internal Guide": "Prof.Chandankumar Singh",
+        "Review-1": 43,
+        "Review-2": 42,
+        "Review-3": 90
+    },
+    {
+        "S.N.": 47,
+        "Name": "Yukta Malvi",
+        "enrollment": "2305102140044",
+        "Internal Guide": "Prof. Sonali Kharade",
+        "Review-1": "AB",
+        "Review-2": "AB",
+        "Review-3": 75
+    },
+    {
+        "S.N.": 48,
+        "Name": "Keyur gosai",
+        "enrollment": "2305112110130",
+        "Internal Guide": "Prof. Saikat Paramanik",
+        "Review-1": 43,
+        "Review-2": 42,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 49,
+        "Name": "Dhruv patel",
+        "enrollment": "2305112110133",
+        "Internal Guide": "Dr.Hina Chokshi",
+        "Review-1": 0,
+        "Review-2": 22,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 50,
+        "Name": "JANAK MUKESHBHAI AJUDIYA",
+        "enrollment": "2405102070001",
+        "Internal Guide": "Prof.Shikha Bansal",
+        "Review-1": 39,
+        "Review-2": 39,
+        "Review-3": 86
+    },
+    {
+        "S.N.": 51,
+        "Name": "Manav Gajera",
+        "enrollment": "2405102070002",
+        "Internal Guide": "Prof.Saswati Chatterjee",
+        "Review-1": 39,
+        "Review-2": 0,
+        "Review-3": 73
+    },
+    {
+        "S.N.": 52,
+        "Name": "Shah Harshilkumar",
+        "enrollment": "2405102070004",
+        "Internal Guide": "Prof.Jigar Bhavsar",
+        "Review-1": "AB",
+        "Review-2": "AB",
+        "Review-3": 75
+    },
+    {
+        "S.N.": 53,
+        "Name": "Sahil Kankotiya",
+        "enrollment": "2405102110001",
+        "Internal Guide": "Prof. Akshar Muley",
+        "Review-1": 34,
+        "Review-2": 45,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 54,
+        "Name": "Devangi Pethani",
+        "enrollment": "2405102110002",
+        "Internal Guide": "Prof. Saumil Trivedi",
+        "Review-1": 43,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 55,
+        "Name": "Mansi Pethani",
+        "enrollment": "2405102110003",
+        "Internal Guide": "Prof. Saumil Trivedi",
+        "Review-1": 41,
+        "Review-2": 37,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 56,
+        "Name": "Dilolwa Fransisco Manuel",
+        "enrollment": "2405102110006",
+        "Internal Guide": "Mr. Daniel Kwesi",
+        "Review-1": "AB",
+        "Review-2": "AB",
+        "Review-3": 0
+    },
+    {
+        "S.N.": 57,
+        "Name": "Ghul Vasu",
+        "enrollment": "2405102120001",
+        "Internal Guide": "Prof. RamDeepak Yadagiri",
+        "Review-1": 43,
+        "Review-2": 29,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 58,
+        "Name": "Jadeja Mouryrajsinh",
+        "enrollment": "2405102120002",
+        "Internal Guide": "Prof. Jatin Morwal",
+        "Review-1": 41,
+        "Review-2": 0,
+        "Review-3": 78
+    },
+    {
+        "S.N.": 59,
+        "Name": "Isha Jan",
+        "enrollment": "2405102120003",
+        "Internal Guide": "Prof. Ahilpa Djidhj",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 60,
+        "Name": "Divy Parekh",
+        "enrollment": "2405102120005",
+        "Internal Guide": "Prof. Chaitali nayka",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 61,
+        "Name": "Vidhi Patel",
+        "enrollment": "2405102120007",
+        "Internal Guide": "Prof. Hardik Parmar",
+        "Review-1": 45,
+        "Review-2": 0,
+        "Review-3": 91
+    },
+    {
+        "S.N.": 62,
+        "Name": "Priyesh Bhalala",
+        "enrollment": "2405102120008",
+        "Internal Guide": "Prof. Saumil Trivedi",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 63,
+        "Name": "Shah Bansari Rajiv",
+        "enrollment": "2405102120009",
+        "Internal Guide": "Dr. Raj Sinha",
+        "Review-1": 36,
+        "Review-2": 42,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 64,
+        "Name": "Chaitanyadev Zala",
+        "enrollment": "2405102120010",
+        "Internal Guide": "Prof. Jatin Morwal",
+        "Review-1": 41,
+        "Review-2": 0,
+        "Review-3": 78
+    },
+    {
+        "S.N.": 65,
+        "Name": "Takudzwa Mwonzora",
+        "enrollment": "2405102120012",
+        "Internal Guide": "Prof. Ahilpa Djidhj",
+        "Review-1": "AB",
+        "Review-2": "AB",
+        "Review-3": 0
+    },
+    {
+        "S.N.": 66,
+        "Name": "Tanishq Gavande",
+        "enrollment": "2405102130001",
+        "Internal Guide": "Prof.Jigar Bhavsar",
+        "Review-1": 43,
+        "Review-2": 0,
+        "Review-3": 75
+    },
+    {
+        "S.N.": 67,
+        "Name": "Anjali P Mathukiya",
+        "enrollment": "2405102130002",
+        "Internal Guide": "prof. satyamani Gayatri",
+        "Review-1": 0,
+        "Review-2": 35,
+        "Review-3": 50
+    },
+    {
+        "S.N.": 68,
+        "Name": "PATEL DEEP SANJIVBHAI",
+        "enrollment": "2405102130003",
+        "Internal Guide": "Dr. Sumit Soni",
+        "Review-1": "AB",
+        "Review-2": "AB",
+        "Review-3": 0
+    },
+    {
+        "S.N.": 69,
+        "Name": "Shaktisinh Jitsinh Rana",
+        "enrollment": "2405102130005",
+        "Internal Guide": "Prof. Prachi Mehta",
+        "Review-1": "AB",
+        "Review-2": "AB",
+        "Review-3": 65
+    },
+    {
+        "S.N.": 70,
+        "Name": "rao amritanshu",
+        "enrollment": "2405102130006",
+        "Internal Guide": "Prof. Sweta Jethva",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 71,
+        "Name": "SHILEDAR ASHISH MACHCHHINDRA",
+        "enrollment": "2405102130008",
+        "Internal Guide": "Prof. Pratik Raj",
+        "Review-1": "AB",
+        "Review-2": "AB",
+        "Review-3": 0
+    },
+    {
+        "S.N.": 72,
+        "Name": "Jemisha Vadodariya",
+        "enrollment": "2405102130009",
+        "Internal Guide": "Prof. Komal Madam",
+        "Review-1": 43,
+        "Review-2": 32,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 73,
+        "Name": "Abhay Kothari",
+        "enrollment": "2405102130010",
+        "Internal Guide": "Prof. Vipul Gamit",
+        "Review-1": 40,
+        "Review-2": 36,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 74,
+        "Name": "Eliezer kanga",
+        "enrollment": "2405102130011",
+        "Internal Guide": "Prof. Samant Kumar",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 75,
+        "Name": "Anamika Suresh",
+        "enrollment": "2405102140001",
+        "Internal Guide": "Prof. Vipul Gamit",
+        "Review-1": 31,
+        "Review-2": 30,
+        "Review-3": "AB"
+    },
+    {
+        "S.N.": 76,
+        "Name": "Dennis Chacko",
+        "enrollment": "2405102140005",
+        "Internal Guide": "prof. Sahil Kumar",
+        "Review-1": 44,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 77,
+        "Name": "Dheeraj M Rajpurohit",
+        "enrollment": "2405102140006",
+        "Internal Guide": "Dr. Abhishek Mehta",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 78,
+        "Name": "Sanjana Goswami",
+        "enrollment": "2405102140008",
+        "Internal Guide": "Prof.Sohil Parmar",
+        "Review-1": 46,
+        "Review-2": 44,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 79,
+        "Name": "Nirmit Joshi",
+        "enrollment": "2405102140012",
+        "Internal Guide": "Dr. Hina Chokshi",
+        "Review-1": "AB",
+        "Review-2": "AB",
+        "Review-3": 0
+    },
+    {
+        "S.N.": 80,
+        "Name": "Milan Kalathiya",
+        "enrollment": "2405102140013",
+        "Internal Guide": "Prof. Saumil Trivedi",
+        "Review-1": 41,
+        "Review-2": 35,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 81,
+        "Name": "Nilas khandel",
+        "enrollment": "2405102140015",
+        "Internal Guide": "Prof. Jatin Morwal",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 60
+    },
+    {
+        "S.N.": 82,
+        "Name": "Lalit Mangeshkar",
+        "enrollment": "2405102140016",
+        "Internal Guide": "prof. satyamani Gayatri",
+        "Review-1": 37,
+        "Review-2": 36,
+        "Review-3": 74
+    },
+    {
+        "S.N.": 83,
+        "Name": "Sangharsha marathe",
+        "enrollment": "2405102140017",
+        "Internal Guide": "Prof. Komal Madam",
+        "Review-1": 0,
+        "Review-2": 10,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 84,
+        "Name": "Modi dewam",
+        "enrollment": "2405102140018",
+        "Internal Guide": "Prof. Madhav J Kapadiya",
+        "Review-1": 47,
+        "Review-2": 44,
+        "Review-3": 80
+    },
+    {
+        "S.N.": 85,
+        "Name": "Garima Damor",
+        "enrollment": "2405102140019",
+        "Internal Guide": "Prof.Sohil Parmar",
+        "Review-1": 47,
+        "Review-2": 46,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 86,
+        "Name": "Nagati Upendar",
+        "enrollment": "2405102140020",
+        "Internal Guide": "Prof. Tanmay Shah",
+        "Review-1": 29,
+        "Review-2": 0,
+        "Review-3": 65
+    },
+    {
+        "S.N.": 87,
+        "Name": "Nandana Unni",
+        "enrollment": "2405102140021",
+        "Internal Guide": "PRof. Akanksha Singh",
+        "Review-1": 39,
+        "Review-2": 47,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 88,
+        "Name": "Paghadar Param",
+        "enrollment": "2405102140022",
+        "Internal Guide": "Prof. Nirmit Shah",
+        "Review-1": 0,
+        "Review-2": 39,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 89,
+        "Name": "Parmar Priyanshusinh",
+        "enrollment": "2405102140024",
+        "Internal Guide": "Prof.Sohil Parmar",
+        "Review-1": 45,
+        "Review-2": 42,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 90,
+        "Name": "Patel Jeel Jitendrabhai",
+        "enrollment": "2405102140026",
+        "Internal Guide": "Prof. Uma Bhati",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 91,
+        "Name": "Laykumar Patel",
+        "enrollment": "2405102140027",
+        "Internal Guide": "prof. Sahil Kumar",
+        "Review-1": 43,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 92,
+        "Name": "Sakshi Patil",
+        "enrollment": "2405102140029",
+        "Internal Guide": "Prof. Vaishali Shah",
+        "Review-1": 40,
+        "Review-2": 36,
+        "Review-3": 89
+    },
+    {
+        "S.N.": 93,
+        "Name": "P. Nikhila Sree",
+        "enrollment": "2405102140030",
+        "Internal Guide": "Prof. sathwik Chebrolu",
+        "Review-1": 45,
+        "Review-2": 45,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 94,
+        "Name": "Patel Pratham Jayeshbhai",
+        "enrollment": "2405102140031",
+        "Internal Guide": "Prof. Uma Bhati",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 95,
+        "Name": "Priyanshu Chirag Vayada",
+        "enrollment": "2405102140032",
+        "Internal Guide": "Prof. Vishakha Bathwar",
+        "Review-1": 37,
+        "Review-2": 43,
+        "Review-3": 86
+    },
+    {
+        "S.N.": 96,
+        "Name": "Sakshi Sankhe",
+        "enrollment": "2405102140034",
+        "Internal Guide": "prof. satyamani Gayatri",
+        "Review-1": 37,
+        "Review-2": 37,
+        "Review-3": 74
+    },
+    {
+        "S.N.": 97,
+        "Name": "Sarth Patel",
+        "enrollment": "2405102140035",
+        "Internal Guide": "Prof. Jatin Morwal",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 60
+    },
+    {
+        "S.N.": 98,
+        "Name": "Sejal Jaiswal",
+        "enrollment": "2405102140036",
+        "Internal Guide": "Prof. Jatin Morwal",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 60
+    },
+    {
+        "S.N.": 99,
+        "Name": "Het shah",
+        "enrollment": "2405102140037",
+        "Internal Guide": "Prof. Laxshman",
+        "Review-1": 48,
+        "Review-2": 47,
+        "Review-3": 96
+    },
+    {
+        "S.N.": 100,
+        "Name": "Rutva Sorathiya",
+        "enrollment": "2405102140039",
+        "Internal Guide": "Prof. Preeti Sharma",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 101,
+        "Name": "Sourabh Sharma",
+        "enrollment": "2405102140040",
+        "Internal Guide": "prof. Sahil Kumar",
+        "Review-1": 43,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 102,
+        "Name": "Hitkumar Sanjaybhai sutariya",
+        "enrollment": "2405102140041",
+        "Internal Guide": "Prof. Faruk Abdulla",
+        "Review-1": 41,
+        "Review-2": 47,
+        "Review-3": 85
+    },
+    {
+        "S.N.": 103,
+        "Name": "Vedant S Khaire",
+        "enrollment": "2405102140042",
+        "Internal Guide": "Prof.Rinkal Sarvaiya",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 104,
+        "Name": "Krupesh Patel",
+        "enrollment": "2405112120129",
+        "Internal Guide": "Prof. Faruk Abdulla",
+        "Review-1": 42,
+        "Review-2": "AB",
+        "Review-3": 0
+    },
+    {
+        "S.N.": 105,
+        "Name": "Sunny Kumar",
+        "enrollment": "2405112120185",
+        "Internal Guide": "Prof. Himanshu Yadav",
+        "Review-1": 42,
+        "Review-2": 45,
+        "Review-3": 78
+    },
+    {
+        "S.N.": 106,
+        "Name": "Adesh Pandey",
+        "enrollment": "2405112070002",
+        "Internal Guide": "Prof. RamDeepak Yadagiri",
+        "Review-1": 45,
+        "Review-2": 38,
+        "Review-3": 80
+    },
+    {
+        "S.N.": 107,
+        "Name": "Amit Yadav",
+        "enrollment": "2405112070004",
+        "Internal Guide": "Prof. Laxshman",
+        "Review-1": 49,
+        "Review-2": 48,
+        "Review-3": 97
+    },
+    {
+        "S.N.": 108,
+        "Name": "Arya Chona",
+        "enrollment": "2405112070007",
+        "Internal Guide": "Prof. Faruk Abdulla",
+        "Review-1": 46,
+        "Review-2": 46,
+        "Review-3": 87
+    },
+    {
+        "S.N.": 109,
+        "Name": "Aryan panchal",
+        "enrollment": "2405112070008",
+        "Internal Guide": "Prof. Pritam",
+        "Review-1": 45,
+        "Review-2": 40,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 110,
+        "Name": "Ashwar Mamta Rajendrabhai",
+        "enrollment": "2405112070009",
+        "Internal Guide": "Prof. Nirmit Shah",
+        "Review-1": 0,
+        "Review-2": 37,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 111,
+        "Name": "Barot Priyanshi Kamleshbhai",
+        "enrollment": "2405112070010",
+        "Internal Guide": "Prof. Shivaniba Dilipsinh Bhadoriya",
+        "Review-1": 0,
+        "Review-2": 15,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 112,
+        "Name": "Rohan Dnyaneshwar Bhalkar",
+        "enrollment": "2405112070011",
+        "Internal Guide": "Prof. Vaishali Shah",
+        "Review-1": 43,
+        "Review-2": 34,
+        "Review-3": 69
+    },
+    {
+        "S.N.": 113,
+        "Name": "Achint Bhavsar",
+        "enrollment": "2405112070012",
+        "Internal Guide": "Prof. Payal Parekh",
+        "Review-1": 37,
+        "Review-2": 35,
+        "Review-3": 77
+    },
+    {
+        "S.N.": 114,
+        "Name": "Self project",
+        "enrollment": "2405112070013",
+        "Internal Guide": "Prof. Megha Trivedi",
+        "Review-1": 0,
+        "Review-2": 40,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 115,
+        "Name": "Himanshu Bodkhe",
+        "enrollment": "2405112070014",
+        "Internal Guide": "Prof. Dipti Sharma",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 116,
+        "Name": "Neel Buddhdev",
+        "enrollment": "2405112070015",
+        "Internal Guide": "Dr. Sumit Soni",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 117,
+        "Name": "Dhruv Solanki",
+        "enrollment": "2405112070017",
+        "Internal Guide": "Prof. Payal Parekh",
+        "Review-1": 37,
+        "Review-2": 35,
+        "Review-3": 77
+    },
+    {
+        "S.N.": 118,
+        "Name": "Gokani Raj Manishkumar",
+        "enrollment": "2405112070018",
+        "Internal Guide": "Prof. Sonali Kharade",
+        "Review-1": 44,
+        "Review-2": 41,
+        "Review-3": 91
+    },
+    {
+        "S.N.": 119,
+        "Name": "Harsh Singh",
+        "enrollment": "2405112070019",
+        "Internal Guide": "Prof. RamDeepak Yadagiri",
+        "Review-1": 45,
+        "Review-2": 45,
+        "Review-3": 80
+    },
+    {
+        "S.N.": 120,
+        "Name": "Hitesh",
+        "enrollment": "2405112070020",
+        "Internal Guide": "Prof.Sohil Parmar",
+        "Review-1": 45,
+        "Review-2": 40,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 121,
+        "Name": "Jayswal Ajay",
+        "enrollment": "2405112070021",
+        "Internal Guide": "Prof. Uma Bhati",
+        "Review-1": 0,
+        "Review-2": 38,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 122,
+        "Name": "Nikunj Lohe",
+        "enrollment": "2405112070023",
+        "Internal Guide": "Prof.Rinku Patil",
+        "Review-1": 37,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 123,
+        "Name": "Mahammad Mahaboobi",
+        "enrollment": "2405112070024",
+        "Internal Guide": "Prof. Anmol Singh",
+        "Review-1": 42,
+        "Review-2": 46,
+        "Review-3": 85
+    },
+    {
+        "S.N.": 124,
+        "Name": "Dhruv Mali",
+        "enrollment": "2405112070025",
+        "Internal Guide": "Prof. Vaishali Shah",
+        "Review-1": 44,
+        "Review-2": 40,
+        "Review-3": 85
+    },
+    {
+        "S.N.": 125,
+        "Name": "Manan Chawhan",
+        "enrollment": "2405112070026",
+        "Internal Guide": "Dr. Sumit Soni",
+        "Review-1": 31,
+        "Review-2": 33,
+        "Review-3": 78
+    },
+    {
+        "S.N.": 126,
+        "Name": "Manish Raj",
+        "enrollment": "2405112070027",
+        "Internal Guide": "Prof. Pravin Singh",
+        "Review-1": 43,
+        "Review-2": 46,
+        "Review-3": 81
+    },
+    {
+        "S.N.": 127,
+        "Name": "Mukesh kumar",
+        "enrollment": "2405112070028",
+        "Internal Guide": "Prof. Pratik Raj",
+        "Review-1": 40,
+        "Review-2": 37,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 128,
+        "Name": "Nakshatra Bapat",
+        "enrollment": "2405112070029",
+        "Internal Guide": "Dr. Sumit Soni",
+        "Review-1": 31,
+        "Review-2": 33,
+        "Review-3": 78
+    },
+    {
+        "S.N.": 129,
+        "Name": "Archana Nayak",
+        "enrollment": "2405112070030",
+        "Internal Guide": "Ms. Niharika Agarwal",
+        "Review-1": 45,
+        "Review-2": 43,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 130,
+        "Name": "Vandan Panchal",
+        "enrollment": "2405112070032",
+        "Internal Guide": "Prof. Mini Bhola",
+        "Review-1": "AB",
+        "Review-2": "AB",
+        "Review-3": 77
+    },
+    {
+        "S.N.": 131,
+        "Name": "Karmavijaysinh parmar",
+        "enrollment": "2405112070033",
+        "Internal Guide": "Prof. Prachi Mehta",
+        "Review-1": "AB",
+        "Review-2": "AB",
+        "Review-3": 0
+    },
+    {
+        "S.N.": 132,
+        "Name": "patel chirag",
+        "enrollment": "2405112070034",
+        "Internal Guide": "Prof. Shivaniba Dilipsinh Bhadoriya",
+        "Review-1": 0,
+        "Review-2": 15,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 133,
+        "Name": "Faezah Patel",
+        "enrollment": "2405112070035",
+        "Internal Guide": "Prof. Chaitali nayka",
+        "Review-1": 37,
+        "Review-2": 35,
+        "Review-3": 91
+    },
+    {
+        "S.N.": 134,
+        "Name": "Patel Jay",
+        "enrollment": "2405112070036",
+        "Internal Guide": "Prof. Anmol Singh",
+        "Review-1": 43,
+        "Review-2": 46,
+        "Review-3": 83
+    },
+    {
+        "S.N.": 135,
+        "Name": "Patel jaykumar j",
+        "enrollment": "2405112070037",
+        "Internal Guide": "Prof. Pritam",
+        "Review-1": 45,
+        "Review-2": 40,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 136,
+        "Name": "Patel Palak Dipakbhai",
+        "enrollment": "2405112070038",
+        "Internal Guide": "Prof. Priyanka Mod",
+        "Review-1": 0,
+        "Review-2": 39,
+        "Review-3": 90
+    },
+    {
+        "S.N.": 137,
+        "Name": "Parth Dhairyashil Pawar",
+        "enrollment": "2405112070039",
+        "Internal Guide": "Prof.Rinku Patil",
+        "Review-1": "AB",
+        "Review-2": "AB",
+        "Review-3": 0
+    },
+    {
+        "S.N.": 138,
+        "Name": "Prajapati yatinkumar kantibhai",
+        "enrollment": "2405112070041",
+        "Internal Guide": "Prof. Pritam",
+        "Review-1": 45,
+        "Review-2": 40,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 139,
+        "Name": "Gorav yadav",
+        "enrollment": "2405112070043",
+        "Internal Guide": "Dr.Pravin Tomar",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 140,
+        "Name": "Tasmeen Quraishi",
+        "enrollment": "2405112070044",
+        "Internal Guide": "Prof. Pravin Singh",
+        "Review-1": 42,
+        "Review-2": 45,
+        "Review-3": 78
+    },
+    {
+        "S.N.": 141,
+        "Name": "MUKESH SAHANI",
+        "enrollment": "2405112070047",
+        "Internal Guide": "Prof. Dipti Sharma",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 142,
+        "Name": "Sahil Dayer",
+        "enrollment": "2405112070048",
+        "Internal Guide": "Prof. Dipti Sharma",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 143,
+        "Name": "Bheam",
+        "enrollment": "2405112070049",
+        "Internal Guide": "Prof. Jatin Morwal",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 144,
+        "Name": "Dhruv Dilipkumar Shah",
+        "enrollment": "2405112070051",
+        "Internal Guide": "Prof.Shikha Bansal",
+        "Review-1": 48,
+        "Review-2": 48,
+        "Review-3": 92
+    },
+    {
+        "S.N.": 145,
+        "Name": "Kashyap Shah",
+        "enrollment": "2405112070052",
+        "Internal Guide": "Prof. Priyanka Mod",
+        "Review-1": 0,
+        "Review-2": 38,
+        "Review-3": 85
+    },
+    {
+        "S.N.": 146,
+        "Name": "Rushabh Shah",
+        "enrollment": "2405112070053",
+        "Internal Guide": "Prof. Priyanka Mod",
+        "Review-1": 0,
+        "Review-2": 38,
+        "Review-3": 85
+    },
+    {
+        "S.N.": 147,
+        "Name": "Piyush Sharma",
+        "enrollment": "2405112070054",
+        "Internal Guide": "Prof. Aesh Gada",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 148,
+        "Name": "Mohib Ali",
+        "enrollment": "2405112070057",
+        "Internal Guide": "Prof. Arun.U",
+        "Review-1": 38,
+        "Review-2": 42,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 149,
+        "Name": "Sumit Kumar Kushwaha",
+        "enrollment": "2405112070060",
+        "Internal Guide": "Prof. Aniket Paul",
+        "Review-1": 45,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 150,
+        "Name": "Ujjwal Meshram",
+        "enrollment": "2405112070061",
+        "Internal Guide": "Dr. Ghanshyam Rathod",
+        "Review-1": 45,
+        "Review-2": 0,
+        "Review-3": 76
+    },
+    {
+        "S.N.": 151,
+        "Name": "Dhruvit Vegad",
+        "enrollment": "2405112070062",
+        "Internal Guide": "Prof. Arun.U",
+        "Review-1": 0,
+        "Review-2": 41,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 152,
+        "Name": "Vishal Kumar",
+        "enrollment": "2405112070063",
+        "Internal Guide": "Prof.Vijya Tulsani",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 67
+    },
+    {
+        "S.N.": 153,
+        "Name": "Vishwakarma Ankit",
+        "enrollment": "2405112070064",
+        "Internal Guide": "Prof. Aesh Gada",
+        "Review-1": 0,
+        "Review-2": 45,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 154,
+        "Name": "Vraj Umeshkumar Patel",
+        "enrollment": "2405112070065",
+        "Internal Guide": "Prof. Sonali Kharade",
+        "Review-1": 45,
+        "Review-2": 41,
+        "Review-3": 91
+    },
+    {
+        "S.N.": 155,
+        "Name": "Jenish",
+        "enrollment": "2405112070066",
+        "Internal Guide": "Prof. Madhav J Kapadiya",
+        "Review-1": 45,
+        "Review-2": 0,
+        "Review-3": 72
+    },
+    {
+        "S.N.": 156,
+        "Name": "Rahin Pathan",
+        "enrollment": "2405112070067",
+        "Internal Guide": "Prof. Pratik Parmar",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 157,
+        "Name": "Pranav Saraswat",
+        "enrollment": "2405112070068",
+        "Internal Guide": "Prof. Saikat Paramanik",
+        "Review-1": 45,
+        "Review-2": 42,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 158,
+        "Name": "Shlok Patel",
+        "enrollment": "2405112070069",
+        "Internal Guide": "Prof. Priyanka Mod",
+        "Review-1": 0,
+        "Review-2": 39,
+        "Review-3": 90
+    },
+    {
+        "S.N.": 159,
+        "Name": "Akhilesh Yadav",
+        "enrollment": "2405112070070",
+        "Internal Guide": "Prof. Nargani Sathibabu",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 70
+    },
+    {
+        "S.N.": 160,
+        "Name": "Abhishek Kumar Pal",
+        "enrollment": "2405112110001",
+        "Internal Guide": "Prof.Rinkal Sarvaiya",
+        "Review-1": 44,
+        "Review-2": 45,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 161,
+        "Name": "Aditya Raj",
+        "enrollment": "2405112110005",
+        "Internal Guide": "Prof. Vivek Dave",
+        "Review-1": 44,
+        "Review-2": 0,
+        "Review-3": 83
+    },
+    {
+        "S.N.": 162,
+        "Name": "Shifa Ajmeri",
+        "enrollment": "2405112110006",
+        "Internal Guide": "Prof. Vipul Gamit",
+        "Review-1": 35,
+        "Review-2": 28,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 163,
+        "Name": "Amarjeet Sharma",
+        "enrollment": "2405112110008",
+        "Internal Guide": "Prof. Preeti Sharma",
+        "Review-1": 45,
+        "Review-2": 45,
+        "Review-3": 91
+    },
+    {
+        "S.N.": 164,
+        "Name": "Ankit Raj",
+        "enrollment": "2405112110011",
+        "Internal Guide": "Prof. Aniket Paul",
+        "Review-1": 43,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 165,
+        "Name": "ANSARI SAMSADAHMED SAMSHERALI",
+        "enrollment": "2405112110012",
+        "Internal Guide": "Prof. Ashutosh Solanki",
+        "Review-1": 0,
+        "Review-2": 40,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 166,
+        "Name": "Rahul Ranjan",
+        "enrollment": "2405112110012",
+        "Internal Guide": "Prof. Ashutosh Solanki",
+        "Review-1": "AB",
+        "Review-2": "AB",
+        "Review-3": 60
+    },
+    {
+        "S.N.": 167,
+        "Name": "Anushka Bisht",
+        "enrollment": "2405112110013",
+        "Internal Guide": "Prof. Mehulkumar Dalwadi",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 168,
+        "Name": "Tanay Bateriwala",
+        "enrollment": "2405112110016",
+        "Internal Guide": "Prof. Chaitali nayka",
+        "Review-1": 45,
+        "Review-2": 46,
+        "Review-3": 91
+    },
+    {
+        "S.N.": 169,
+        "Name": "Chandan Chhagan",
+        "enrollment": "2405112110019",
+        "Internal Guide": "Prof. Pritam",
+        "Review-1": 50,
+        "Review-2": 48,
+        "Review-3": 98
+    },
+    {
+        "S.N.": 170,
+        "Name": "CHAUDHARY HITESHKUMAR RAVTABHAI",
+        "enrollment": "2405112110020",
+        "Internal Guide": "Prof. Dipti Sharma",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 171,
+        "Name": "MADHURI VIJAY CHAUHAN",
+        "enrollment": "2405112110022",
+        "Internal Guide": "Prof. Saumil Trivedi",
+        "Review-1": "AB",
+        "Review-2": 25,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 172,
+        "Name": "Chauhan Mohit Prakashbhai",
+        "enrollment": "2405112110023",
+        "Internal Guide": "Prof. RamDeepak Yadagiri",
+        "Review-1": "AB",
+        "Review-2": "AB",
+        "Review-3": 60
+    },
+    {
+        "S.N.": 173,
+        "Name": "Chetan Nagar",
+        "enrollment": "2405112110024",
+        "Internal Guide": "Prof. Samant Kumar",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 174,
+        "Name": "Dabgar Jay MaheshKumar",
+        "enrollment": "2405112110027",
+        "Internal Guide": "Prof. Ashutosh Solanki",
+        "Review-1": 40,
+        "Review-2": 32,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 175,
+        "Name": "Taha Dhanerawala",
+        "enrollment": "2405112110030",
+        "Internal Guide": "Prof.Chandankumar Singh",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 176,
+        "Name": "Dhruvi Pareshbhai Patel",
+        "enrollment": "2405112110032",
+        "Internal Guide": "Prof.Vijya Tulsani",
+        "Review-1": 0,
+        "Review-2": 45,
+        "Review-3": 85
+    },
+    {
+        "S.N.": 177,
+        "Name": "Dhruvik P Fichadiya",
+        "enrollment": "2405112110033",
+        "Internal Guide": "Dr. Raj Sinha",
+        "Review-1": "AB",
+        "Review-2": "AB",
+        "Review-3": 0
+    },
+    {
+        "S.N.": 178,
+        "Name": "Dhundha Sahistabanu Samirbhai",
+        "enrollment": "2405112110034",
+        "Internal Guide": "Prof. Honey Parmar",
+        "Review-1": 41,
+        "Review-2": 0,
+        "Review-3": 85
+    },
+    {
+        "S.N.": 179,
+        "Name": "Pratham Gandhi",
+        "enrollment": "2405112110037",
+        "Internal Guide": "Dr. Prof. P. Ramachandran",
+        "Review-1": 40,
+        "Review-2": 43,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 180,
+        "Name": "GAUTAM SATYAM NARENDRA",
+        "enrollment": "2405112110039",
+        "Internal Guide": "Prof. Jatin Morwal",
+        "Review-1": "AB",
+        "Review-2": "AB",
+        "Review-3": 66
+    },
+    {
+        "S.N.": 181,
+        "Name": "Hritik kumar",
+        "enrollment": "2405112110042",
+        "Internal Guide": "Prof.Chandankumar Singh",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 70
+    },
+    {
+        "S.N.": 182,
+        "Name": "Suraj Munna Jaiswar",
+        "enrollment": "2405112110043",
+        "Internal Guide": "Prof. Mini Bhola",
+        "Review-1": "AB",
+        "Review-2": "AB",
+        "Review-3": 79
+    },
+    {
+        "S.N.": 183,
+        "Name": "Jarugula Bhanu Prasad",
+        "enrollment": "2405112110044",
+        "Internal Guide": "Prof.Saswati Chatterjee",
+        "Review-1": 39,
+        "Review-2": 35,
+        "Review-3": 83
+    },
+    {
+        "S.N.": 184,
+        "Name": "Manan Joshi",
+        "enrollment": "2405112110045",
+        "Internal Guide": "Dr.Abhishek Mehta",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 185,
+        "Name": "Kaif ali ansari",
+        "enrollment": "2405112110047",
+        "Internal Guide": "Prof. Faruk Abdulla",
+        "Review-1": "AB",
+        "Review-2": 45,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 186,
+        "Name": "Muskan kalal",
+        "enrollment": "2405112110048",
+        "Internal Guide": "Prof. Dipti Sharma",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 187,
+        "Name": "Kanjiya Diya Vimal",
+        "enrollment": "2405112110049",
+        "Internal Guide": "Prof. Honey Parmar",
+        "Review-1": 40,
+        "Review-2": 38,
+        "Review-3": 85
+    },
+    {
+        "S.N.": 188,
+        "Name": "Kathrotiya Mausami Nareshbhai",
+        "enrollment": "2405112110051",
+        "Internal Guide": "Prof. Honey Parmar",
+        "Review-1": 41,
+        "Review-2": 38,
+        "Review-3": 85
+    },
+    {
+        "S.N.": 189,
+        "Name": "Divyang kharva",
+        "enrollment": "2405112110053",
+        "Internal Guide": "Prof. Ashutosh Solanki",
+        "Review-1": 0,
+        "Review-2": 35,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 190,
+        "Name": "Khushal Mali",
+        "enrollment": "2405112110054",
+        "Internal Guide": "prof. satyamani Gayatri",
+        "Review-1": 0,
+        "Review-2": 33,
+        "Review-3": 70
+    },
+    {
+        "S.N.": 191,
+        "Name": "Khushali Brijeshkumar Talati",
+        "enrollment": "2405112110055",
+        "Internal Guide": "Prof. Sonali Kharade",
+        "Review-1": 45,
+        "Review-2": 38,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 192,
+        "Name": "Kshitiz bordiya",
+        "enrollment": "2405112110057",
+        "Internal Guide": "Prof. Adarsh Ashok",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 65
+    },
+    {
+        "S.N.": 193,
+        "Name": "Kunal Kumar",
+        "enrollment": "2405112110058",
+        "Internal Guide": "Dr. Abhishek Mehta",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 194,
+        "Name": "Anushka Kushwaha",
+        "enrollment": "2405112110060",
+        "Internal Guide": "Prof. Pritam",
+        "Review-1": 45,
+        "Review-2": 46,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 195,
+        "Name": "Lalit Kumar goyal",
+        "enrollment": "2405112110061",
+        "Internal Guide": "prof. Sahil Kumar",
+        "Review-1": 43,
+        "Review-2": 39,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 196,
+        "Name": "Lilyna Nameirakpam",
+        "enrollment": "2405112110062",
+        "Internal Guide": "Prof. Vipul Gamit",
+        "Review-1": 32,
+        "Review-2": 27,
+        "Review-3": "AB"
+    },
+    {
+        "S.N.": 197,
+        "Name": "Malik Alzaid Rizvan",
+        "enrollment": "2405112110066",
+        "Internal Guide": "Prof. Faruk Abdulla",
+        "Review-1": "AB",
+        "Review-2": 45,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 198,
+        "Name": "Manisha Bhardwaj",
+        "enrollment": "2405112110068",
+        "Internal Guide": "Prof. Saikat Paramanik",
+        "Review-1": 29,
+        "Review-2": "AB",
+        "Review-3": "AB"
+    },
+    {
+        "S.N.": 199,
+        "Name": "Md Nafeesh",
+        "enrollment": "2405112110069",
+        "Internal Guide": "prof. Sahil Kumar",
+        "Review-1": 44,
+        "Review-2": 38,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 200,
+        "Name": "Mohd Adnan Khan",
+        "enrollment": "2405112110070",
+        "Internal Guide": "Prof. Faruk Abdulla",
+        "Review-1": 41,
+        "Review-2": 45,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 201,
+        "Name": "Momin mohammad Raza",
+        "enrollment": "2405112110071",
+        "Internal Guide": "Prof. Mini Bhola",
+        "Review-1": "AB",
+        "Review-2": "AB",
+        "Review-3": 87
+    },
+    {
+        "S.N.": 202,
+        "Name": "Maaz Motorwala",
+        "enrollment": "2405112110072",
+        "Internal Guide": "Prof. Honey Parmar",
+        "Review-1": 40,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 203,
+        "Name": "Amit Nayak",
+        "enrollment": "2405112110074",
+        "Internal Guide": "Prof. Laxshman",
+        "Review-1": 42,
+        "Review-2": 45,
+        "Review-3": 97
+    },
+    {
+        "S.N.": 204,
+        "Name": "Nishchay Gandhi",
+        "enrollment": "2405112110077",
+        "Internal Guide": "Prof.Rinkal Sarvaiya",
+        "Review-1": 44,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 205,
+        "Name": "Mayuri Prabhulal Parmar",
+        "enrollment": "2405112110081",
+        "Internal Guide": "Prof. Hardik Parmar",
+        "Review-1": 45,
+        "Review-2": 0,
+        "Review-3": 91
+    },
+    {
+        "S.N.": 206,
+        "Name": "Parmar Yash Bharatbhai",
+        "enrollment": "2405112110082",
+        "Internal Guide": "Dr. Sumit Soni",
+        "Review-1": 0,
+        "Review-2": 26,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 207,
+        "Name": "Patel Chiragkumar",
+        "enrollment": "2405112110083",
+        "Internal Guide": "Prof. Jatin Morwal",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 208,
+        "Name": "Diya Patel",
+        "enrollment": "2405112110084",
+        "Internal Guide": "Prof. Sonali Kharade",
+        "Review-1": 45,
+        "Review-2": 49,
+        "Review-3": 86
+    },
+    {
+        "S.N.": 209,
+        "Name": "Patel Hetalben Pankajkumar",
+        "enrollment": "2405112110086",
+        "Internal Guide": "Prof.Vijya Tulsani",
+        "Review-1": 0,
+        "Review-2": 35,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 210,
+        "Name": "Patel Jayesh Niranjanbhai",
+        "enrollment": "2405112110087",
+        "Internal Guide": "Prof. Ashutosh Solanki",
+        "Review-1": 40,
+        "Review-2": 36,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 211,
+        "Name": "Jay Patel",
+        "enrollment": "2405112110088",
+        "Internal Guide": "Prof. RamDeepak Yadagiri",
+        "Review-1": 44,
+        "Review-2": 35,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 212,
+        "Name": "KRUNAL PATEL",
+        "enrollment": "2405112110089",
+        "Internal Guide": "Prof. Dipti Sharma",
+        "Review-1": 0,
+        "Review-2": 40,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 213,
+        "Name": "Meet Patel",
+        "enrollment": "2405112110090",
+        "Internal Guide": "Prof.Rinkal Sarvaiya",
+        "Review-1": 44,
+        "Review-2": 45,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 214,
+        "Name": "Patel Sahil Mehmud",
+        "enrollment": "2405112110092",
+        "Internal Guide": "Prof. Hardik Parmar",
+        "Review-1": 45,
+        "Review-2": 46,
+        "Review-3": 91
+    },
+    {
+        "S.N.": 215,
+        "Name": "Sweni Patel",
+        "enrollment": "2405112110093",
+        "Internal Guide": "Prof.Chandankumar Singh",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 216,
+        "Name": "Pawar Devanshu Manishbhai",
+        "enrollment": "2405112110094",
+        "Internal Guide": "Prof. Saikat Paramanik",
+        "Review-1": "AB",
+        "Review-2": "AB",
+        "Review-3": 0
+    },
+    {
+        "S.N.": 217,
+        "Name": "Amit Prajapati",
+        "enrollment": "2405112110095",
+        "Internal Guide": "Dr. Ghanshyam Rathod",
+        "Review-1": "AB",
+        "Review-2": "AB",
+        "Review-3": 0
+    },
+    {
+        "S.N.": 218,
+        "Name": "Prajapati Ashishkumar",
+        "enrollment": "2405112110096",
+        "Internal Guide": "Prof. Saikat Paramanik",
+        "Review-1": 0,
+        "Review-2": 39,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 219,
+        "Name": "Prateek Kumar Singh",
+        "enrollment": "2405112110097",
+        "Internal Guide": "Prof. Mini Bhola",
+        "Review-1": "AB",
+        "Review-2": "AB",
+        "Review-3": 79
+    },
+    {
+        "S.N.": 220,
+        "Name": "Purushotam Singh",
+        "enrollment": "2405112110098",
+        "Internal Guide": "Prof. Saikat Paramanik",
+        "Review-1": 0,
+        "Review-2": 39,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 221,
+        "Name": "Karan devshibhai Rabari",
+        "enrollment": "2405112110099",
+        "Internal Guide": "Prof. Ashutosh Solanki",
+        "Review-1": 41,
+        "Review-2": 42,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 222,
+        "Name": "Raghav Gupta",
+        "enrollment": "2405112110100",
+        "Internal Guide": "Prof. Vivek Dave",
+        "Review-1": 38,
+        "Review-2": 0,
+        "Review-3": 85
+    },
+    {
+        "S.N.": 223,
+        "Name": "RAHUL KUMAR",
+        "enrollment": "2405112110101",
+        "Internal Guide": "Prof. Saumil Trivedi",
+        "Review-1": "AB",
+        "Review-2": 25,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 224,
+        "Name": "Raja Kumar",
+        "enrollment": "2405112110103",
+        "Internal Guide": "Prof. Vivek Dave",
+        "Review-1": 38,
+        "Review-2": 32,
+        "Review-3": 85
+    },
+    {
+        "S.N.": 225,
+        "Name": "Rajnish Kumar",
+        "enrollment": "2405112110104",
+        "Internal Guide": "Prof. Aniket Paul",
+        "Review-1": 38,
+        "Review-2": 46,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 226,
+        "Name": "Abhishek Rajpurohit",
+        "enrollment": "2405112110105",
+        "Internal Guide": "Prof. Preeti Sharma",
+        "Review-1": "AB",
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 227,
+        "Name": "Krisha Rami",
+        "enrollment": "2405112110106",
+        "Internal Guide": "Prof. Preeti Sharma",
+        "Review-1": 46,
+        "Review-2": 45,
+        "Review-3": 89
+    },
+    {
+        "S.N.": 228,
+        "Name": "Dhrupal Rathod",
+        "enrollment": "2405112110107",
+        "Internal Guide": "Prof. Payal Parekh",
+        "Review-1": 38,
+        "Review-2": 0,
+        "Review-3": 71
+    },
+    {
+        "S.N.": 229,
+        "Name": "Rathod Pruthviraj",
+        "enrollment": "2405112110108",
+        "Internal Guide": "Prof. Arun.U",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 230,
+        "Name": "Rathod Rohit Mukeshbhai",
+        "enrollment": "2405112110109",
+        "Internal Guide": "Prof. Pratik Raj",
+        "Review-1": 44,
+        "Review-2": 47,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 231,
+        "Name": "Ratnesh Singh",
+        "enrollment": "2405112110110",
+        "Internal Guide": "Prof. Prachi Mehta",
+        "Review-1": 44,
+        "Review-2": 36,
+        "Review-3": 85
+    },
+    {
+        "S.N.": 232,
+        "Name": "MohmedHussain Ravla",
+        "enrollment": "2405112110112",
+        "Internal Guide": "Prof. Vipul Gamit",
+        "Review-1": 35,
+        "Review-2": 29,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 233,
+        "Name": "Mayur Rohit",
+        "enrollment": "2405112110113",
+        "Internal Guide": "Prof. RamDeepak Yadagiri",
+        "Review-1": 45,
+        "Review-2": 38,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 234,
+        "Name": "Fenil Rokad",
+        "enrollment": "2405112110114",
+        "Internal Guide": "Prof. Saumil Trivedi",
+        "Review-1": 0,
+        "Review-2": 25,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 235,
+        "Name": "Sachin Singh",
+        "enrollment": "2405112110115",
+        "Internal Guide": "Dr. Prof. P. Ramachandran",
+        "Review-1": 37,
+        "Review-2": "AB",
+        "Review-3": 0
+    },
+    {
+        "S.N.": 236,
+        "Name": "Saptesh savant",
+        "enrollment": "2405112110116",
+        "Internal Guide": "Prof. Nirmit Shah",
+        "Review-1": 0,
+        "Review-2": 38,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 237,
+        "Name": "Dhruv Shah",
+        "enrollment": "2405112110117",
+        "Internal Guide": "Dr. Prof. P. Ramachandran",
+        "Review-1": 37,
+        "Review-2": 38,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 238,
+        "Name": "Kartik Sharma",
+        "enrollment": "2405112110119",
+        "Internal Guide": "Dr. Prof. P. Ramachandran",
+        "Review-1": 37,
+        "Review-2": 38,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 239,
+        "Name": "Khushbutara Shekh",
+        "enrollment": "2405112110120",
+        "Internal Guide": "Prof. Prachi Mehta",
+        "Review-1": 43,
+        "Review-2": 33,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 240,
+        "Name": "Shivam Sheth",
+        "enrollment": "2405112110121",
+        "Internal Guide": "Prof. Sonali Kharade",
+        "Review-1": 45,
+        "Review-2": 48,
+        "Review-3": 91
+    },
+    {
+        "S.N.": 241,
+        "Name": "Shruti Umakantbhai Patel",
+        "enrollment": "2405112110122",
+        "Internal Guide": "Prof.Vijya Tulsani",
+        "Review-1": 0,
+        "Review-2": 45,
+        "Review-3": 85
+    },
+    {
+        "S.N.": 242,
+        "Name": "Shubham Dilip Yadav",
+        "enrollment": "2405112110123",
+        "Internal Guide": "Prof. Mini Bhola",
+        "Review-1": "AB",
+        "Review-2": "AB",
+        "Review-3": 79
+    },
+    {
+        "S.N.": 243,
+        "Name": "Yashwardhan Singh",
+        "enrollment": "2405112110124",
+        "Internal Guide": "Prof.Rinkal Sarvaiya",
+        "Review-1": "AB",
+        "Review-2": "AB",
+        "Review-3": 0
+    },
+    {
+        "S.N.": 244,
+        "Name": "Solanki Adityasinh Rameshchandra",
+        "enrollment": "2405112110125",
+        "Internal Guide": "Prof. Sonali Kharade",
+        "Review-1": 45,
+        "Review-2": 38,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 245,
+        "Name": "Trushit Upadhyay",
+        "enrollment": "2405112110129",
+        "Internal Guide": "Dr. Ghanshyam Rathod",
+        "Review-1": "AB",
+        "Review-2": "AB",
+        "Review-3": 0
+    },
+    {
+        "S.N.": 246,
+        "Name": "Vedant Trivedi",
+        "enrollment": "2405112110132",
+        "Internal Guide": "Ms. Niharika Agarwal",
+        "Review-1": 0,
+        "Review-2": 48,
+        "Review-3": 98
+    },
+    {
+        "S.N.": 247,
+        "Name": "Dipanshi Verma",
+        "enrollment": "2405112110133",
+        "Internal Guide": "Prof. Aniket Paul",
+        "Review-1": 43,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 248,
+        "Name": "Vikas Jamariya",
+        "enrollment": "2405112110134",
+        "Internal Guide": "Prof. Manishkumar Joshi",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 249,
+        "Name": "Vishal sharwa",
+        "enrollment": "2405112110135",
+        "Internal Guide": "Prof. Vipul Gamit",
+        "Review-1": 32,
+        "Review-2": 28,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 250,
+        "Name": "Vivek Kumar",
+        "enrollment": "2405112110136",
+        "Internal Guide": "Prof. Aniket Paul",
+        "Review-1": 38,
+        "Review-2": 46,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 251,
+        "Name": "Sachin Ramjanam Yadav",
+        "enrollment": "2405112110137",
+        "Internal Guide": "Prof. Ashutosh Solanki",
+        "Review-1": 38,
+        "Review-2": 0,
+        "Review-3": 50
+    },
+    {
+        "S.N.": 252,
+        "Name": "Maidini Gupta",
+        "enrollment": "2405112119001",
+        "Internal Guide": "Prof. Ronak Mehta",
+        "Review-1": 38,
+        "Review-2": 41,
+        "Review-3": 85
+    },
+    {
+        "S.N.": 253,
+        "Name": "Tandel drashti hareshkumar",
+        "enrollment": "2405112119002",
+        "Internal Guide": "Prof. Nargani Sathibabu",
+        "Review-1": "AB",
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 254,
+        "Name": "Abhinandan shah",
+        "enrollment": "2405112120001",
+        "Internal Guide": "Prof. Shivaniba Dilipsinh Bhadoriya",
+        "Review-1": 0,
+        "Review-2": 40,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 255,
+        "Name": "Abhishek Kumar",
+        "enrollment": "2405112120002",
+        "Internal Guide": "Prof. Nargani Sathibabu",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 95
+    },
+    {
+        "S.N.": 256,
+        "Name": "Aditya Raj",
+        "enrollment": "2405112120007",
+        "Internal Guide": "Prof. Nargani Sathibabu",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 95
+    },
+    {
+        "S.N.": 257,
+        "Name": "Omkar Rajendra Ahire",
+        "enrollment": "2405112120008",
+        "Internal Guide": "Prof. Akshar Muley",
+        "Review-1": 34,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 258,
+        "Name": "Ahuja Hemangshi",
+        "enrollment": "2405112120009",
+        "Internal Guide": "Prof.Rinku Patil",
+        "Review-1": "AB",
+        "Review-2": "AB",
+        "Review-3": 0
+    },
+    {
+        "S.N.": 259,
+        "Name": "Anand Patil",
+        "enrollment": "2405112120014",
+        "Internal Guide": "Prof. Samant Kumar",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 260,
+        "Name": "Anchal Maheshwari",
+        "enrollment": "2405112120016",
+        "Internal Guide": "Prof. Manishkumar Joshi",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 96
+    },
+    {
+        "S.N.": 261,
+        "Name": "Arpan shishangiya",
+        "enrollment": "2405112120018",
+        "Internal Guide": "Dr. Hina Chokshi",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 262,
+        "Name": "Balkrishna santosh jadhav",
+        "enrollment": "2405112120022",
+        "Internal Guide": "Prof. Hardik Parmar",
+        "Review-1": 42,
+        "Review-2": 0,
+        "Review-3": 91
+    },
+    {
+        "S.N.": 263,
+        "Name": "Vivek Vipulbhai Bharakhada",
+        "enrollment": "2405112120023",
+        "Internal Guide": "Dr. Prof. P. Ramachandran",
+        "Review-1": 37,
+        "Review-2": 42,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 264,
+        "Name": "Bharucha Janvi",
+        "enrollment": "2405112120024",
+        "Internal Guide": "Prof. Honey Parmar",
+        "Review-1": "AB",
+        "Review-2": "AB",
+        "Review-3": 85
+    },
+    {
+        "S.N.": 265,
+        "Name": "Bhatt chandani jayprakash",
+        "enrollment": "2405112120025",
+        "Internal Guide": "Prof. Chaitali nayka",
+        "Review-1": 42,
+        "Review-2": 39,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 266,
+        "Name": "Esha Bhatt",
+        "enrollment": "2405112120027",
+        "Internal Guide": "Dr. Ghanshyam Rathod",
+        "Review-1": 44,
+        "Review-2": 0,
+        "Review-3": 80
+    },
+    {
+        "S.N.": 267,
+        "Name": "Bhavik Tailor",
+        "enrollment": "2405112120028",
+        "Internal Guide": "Dr. Prof. P. Ramachandran",
+        "Review-1": "AB",
+        "Review-2": "AB",
+        "Review-3": 0
+    },
+    {
+        "S.N.": 268,
+        "Name": "Hetvi Bhavsar",
+        "enrollment": "2405112120029",
+        "Internal Guide": "Prof. Honey Parmar",
+        "Review-1": 39,
+        "Review-2": 35,
+        "Review-3": 85
+    },
+    {
+        "S.N.": 269,
+        "Name": "Bhuva prince",
+        "enrollment": "2405112120030",
+        "Internal Guide": "prof. Sahil Kumar",
+        "Review-1": 44,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 270,
+        "Name": "Bijendra Kumar Mishra",
+        "enrollment": "2405112120031",
+        "Internal Guide": "Prof. Aesh Gada",
+        "Review-1": "AB",
+        "Review-2": "AB",
+        "Review-3": 0
+    },
+    {
+        "S.N.": 271,
+        "Name": "Aswani Bokka",
+        "enrollment": "2405112120032",
+        "Internal Guide": "Prof. sathwik Chebrolu",
+        "Review-1": "AB",
+        "Review-2": "AB",
+        "Review-3": 0
+    },
+    {
+        "S.N.": 272,
+        "Name": "Vivek Deepkishore Chauhan",
+        "enrollment": "2405112120034",
+        "Internal Guide": "Prof. Ronak Mehta",
+        "Review-1": 39,
+        "Review-2": 34,
+        "Review-3": 80
+    },
+    {
+        "S.N.": 273,
+        "Name": "CHETANA JANGIR",
+        "enrollment": "2405112120035",
+        "Internal Guide": "Prof. Shivaniba Dilipsinh Bhadoriya",
+        "Review-1": 0,
+        "Review-2": 15,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 274,
+        "Name": "Chitra Ameta",
+        "enrollment": "2405112120036",
+        "Internal Guide": "Prof. sathwik Chebrolu",
+        "Review-1": 45,
+        "Review-2": 45,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 275,
+        "Name": "Devanshi Lothe",
+        "enrollment": "2405112120037",
+        "Internal Guide": "Prof. Anmol Singh",
+        "Review-1": 37,
+        "Review-2": 37,
+        "Review-3": 80
+    },
+    {
+        "S.N.": 276,
+        "Name": "Devbrat Shukla",
+        "enrollment": "2405112120038",
+        "Internal Guide": "prof. satyamani Gayatri",
+        "Review-1": "AB",
+        "Review-2": "AB",
+        "Review-3": 80
+    },
+    {
+        "S.N.": 277,
+        "Name": "Dhameliya Khushi",
+        "enrollment": "2405112120040",
+        "Internal Guide": "Prof. Vaishali Shah",
+        "Review-1": 35,
+        "Review-2": 0,
+        "Review-3": 68
+    },
+    {
+        "S.N.": 278,
+        "Name": "Dholariya Meet",
+        "enrollment": "2405112120041",
+        "Internal Guide": "Prof. Akshar Muley",
+        "Review-1": 34,
+        "Review-2": 45,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 279,
+        "Name": "Dhruvi Chetankumar",
+        "enrollment": "2405112120042",
+        "Internal Guide": "Prof. Mehulkumar Dalwadi",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 280,
+        "Name": "Dodiya Gautam Umeshbhai",
+        "enrollment": "2405112120044",
+        "Internal Guide": "Prof.Shikha Bansal",
+        "Review-1": 0,
+        "Review-2": 32,
+        "Review-3": 82
+    },
+    {
+        "S.N.": 281,
+        "Name": "Dolly Bhati",
+        "enrollment": "2405112120045",
+        "Internal Guide": "Prof.Rinku Patil",
+        "Review-1": 37,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 282,
+        "Name": "Ehtesham arshi",
+        "enrollment": "2405112120046",
+        "Internal Guide": "Dr. Ghanshyam Rathod",
+        "Review-1": 42,
+        "Review-2": 40,
+        "Review-3": 81
+    },
+    {
+        "S.N.": 283,
+        "Name": "faikaf Ahmad",
+        "enrollment": "2405112120047",
+        "Internal Guide": "Prof.Rinkal Sarvaiya",
+        "Review-1": 0,
+        "Review-2": 48,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 284,
+        "Name": "Seershika Naga",
+        "enrollment": "2405112120048",
+        "Internal Guide": "Prof. sathwik Chebrolu",
+        "Review-1": "AB",
+        "Review-2": "AB",
+        "Review-3": 0
+    },
+    {
+        "S.N.": 285,
+        "Name": "Gaurav Kumar",
+        "enrollment": "2405112120049",
+        "Internal Guide": "Prof.Chandankumar Singh",
+        "Review-1": "AB",
+        "Review-2": "AB",
+        "Review-3": 0
+    },
+    {
+        "S.N.": 286,
+        "Name": "Manashri Gavali",
+        "enrollment": "2405112120050",
+        "Internal Guide": "Prof. Preeti Sharma",
+        "Review-1": 46,
+        "Review-2": 46,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 287,
+        "Name": "Gelani Mohit",
+        "enrollment": "2405112120051",
+        "Internal Guide": "Prof. Akshar Muley",
+        "Review-1": 34,
+        "Review-2": 33,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 288,
+        "Name": "Drashti Gevariya",
+        "enrollment": "2405112120052",
+        "Internal Guide": "Dr. Raj Sinha",
+        "Review-1": 0,
+        "Review-2": 43,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 289,
+        "Name": "Vijay Ghodadra",
+        "enrollment": "2405112120053",
+        "Internal Guide": "Prof. RamDeepak Yadagiri",
+        "Review-1": 44,
+        "Review-2": 38,
+        "Review-3": 75
+    },
+    {
+        "S.N.": 290,
+        "Name": "Harshal Gilitwala",
+        "enrollment": "2405112120054",
+        "Internal Guide": "Dr. Prof. P. Ramachandran",
+        "Review-1": "AB",
+        "Review-2": "AB",
+        "Review-3": 0
+    },
+    {
+        "S.N.": 291,
+        "Name": "Chhaya Gorasiya",
+        "enrollment": "2405112120055",
+        "Internal Guide": "Prof. Payal Parekh",
+        "Review-1": "AB",
+        "Review-2": "AB",
+        "Review-3": 73
+    },
+    {
+        "S.N.": 292,
+        "Name": "Goswami Manavgiri",
+        "enrollment": "2405112120056",
+        "Internal Guide": "Prof. Pratik Parmar",
+        "Review-1": 41,
+        "Review-2": 38,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 293,
+        "Name": "GOTI DHARMI ANILBHAI",
+        "enrollment": "2405112120057",
+        "Internal Guide": "Prof. Himanshu Yadav",
+        "Review-1": 42,
+        "Review-2": 46,
+        "Review-3": 82
+    },
+    {
+        "S.N.": 294,
+        "Name": "Dhruv Gupta",
+        "enrollment": "2405112120058",
+        "Internal Guide": "Prof. Manishkumar Joshi",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 96
+    },
+    {
+        "S.N.": 295,
+        "Name": "Ashfak Halvadiya",
+        "enrollment": "2405112120060",
+        "Internal Guide": "Prof. Saumil Trivedi",
+        "Review-1": "AB",
+        "Review-2": "AB",
+        "Review-3": 0
+    },
+    {
+        "S.N.": 296,
+        "Name": "Rathod Hardik",
+        "enrollment": "2405112120061",
+        "Internal Guide": "Prof. Uma Bhati",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 297,
+        "Name": "Harsh Kumar Shah",
+        "enrollment": "2405112120062",
+        "Internal Guide": "Dr. Abhishek Mehta",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 298,
+        "Name": "Harshita Pancholi",
+        "enrollment": "2405112120064",
+        "Internal Guide": "Prof. Pritam",
+        "Review-1": 45,
+        "Review-2": 42,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 299,
+        "Name": "Isha Anand",
+        "enrollment": "2405112120065",
+        "Internal Guide": "Prof. Himanshu Yadav",
+        "Review-1": 42,
+        "Review-2": 45,
+        "Review-3": 78
+    },
+    {
+        "S.N.": 300,
+        "Name": "Ishan Dubey",
+        "enrollment": "2405112120066",
+        "Internal Guide": "Prof. Pratik Parmar",
+        "Review-1": 41,
+        "Review-2": 38,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 301,
+        "Name": "Vrutik Dharmendra Jagad",
+        "enrollment": "2405112120067",
+        "Internal Guide": "Prof. Akshar Muley",
+        "Review-1": 34,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 302,
+        "Name": "Jai Khush Tak",
+        "enrollment": "2405112120068",
+        "Internal Guide": "Prof. Priyanka Mod",
+        "Review-1": "AB",
+        "Review-2": "AB",
+        "Review-3": 0
+    },
+    {
+        "S.N.": 303,
+        "Name": "Yamini Jain",
+        "enrollment": "2405112120069",
+        "Internal Guide": "Prof. sathwik Chebrolu",
+        "Review-1": "AB",
+        "Review-2": "AB",
+        "Review-3": 0
+    },
+    {
+        "S.N.": 304,
+        "Name": "Jayant Parihar",
+        "enrollment": "2405112120070",
+        "Internal Guide": "Prof. Adarsh Ashok",
+        "Review-1": "AB",
+        "Review-2": 46,
+        "Review-3": 97
+    },
+    {
+        "S.N.": 305,
+        "Name": "Pooja Joshi",
+        "enrollment": "2405112120072",
+        "Internal Guide": "Prof. Vivek Dave",
+        "Review-1": 45,
+        "Review-2": 0,
+        "Review-3": 82
+    },
+    {
+        "S.N.": 306,
+        "Name": "Karan Kacha",
+        "enrollment": "2405112120073",
+        "Internal Guide": "Prof. Himanshu Yadav",
+        "Review-1": 42,
+        "Review-2": 46,
+        "Review-3": 78
+    },
+    {
+        "S.N.": 307,
+        "Name": "Saili kadam",
+        "enrollment": "2405112120074",
+        "Internal Guide": "Dr. Ghanshyam Rathod",
+        "Review-1": 45,
+        "Review-2": 45,
+        "Review-3": 80
+    },
+    {
+        "S.N.": 308,
+        "Name": "KAKADIYA DEEPKUMAR PRAVINBHAI",
+        "enrollment": "2405112120075",
+        "Internal Guide": "Dr. Ghanshyam Rathod",
+        "Review-1": 45,
+        "Review-2": 0,
+        "Review-3": 85
+    },
+    {
+        "S.N.": 309,
+        "Name": "Parth Mahesh Kale",
+        "enrollment": "2405112120076",
+        "Internal Guide": "Prof. Akshar Muley",
+        "Review-1": 34,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 310,
+        "Name": "KAPADIYA VRAJESHKUMAR GOPALBHAI",
+        "enrollment": "2405112120077",
+        "Internal Guide": "Dr. Ghanshyam Rathod",
+        "Review-1": 41,
+        "Review-2": 48,
+        "Review-3": 85
+    },
+    {
+        "S.N.": 311,
+        "Name": "Patel Kirteekumar Dharmendrabhai",
+        "enrollment": "2405112120078",
+        "Internal Guide": "Prof. Vaishali Shah",
+        "Review-1": "AB",
+        "Review-2": "AB",
+        "Review-3": 0
+    },
+    {
+        "S.N.": 312,
+        "Name": "Jeel Khant",
+        "enrollment": "2405112120079",
+        "Internal Guide": "Dr. Raj Sinha",
+        "Review-1": 0,
+        "Review-2": 42,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 313,
+        "Name": "Harsh Kharje",
+        "enrollment": "2405112120080",
+        "Internal Guide": "Prof. sathwik Chebrolu",
+        "Review-1": 45,
+        "Review-2": 45,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 314,
+        "Name": "Rohit kumar Gorakh kharkar",
+        "enrollment": "2405112120081",
+        "Internal Guide": "Prof.Sohil Parmar",
+        "Review-1": 45,
+        "Review-2": 42,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 315,
+        "Name": "Kota Saikiran Anand",
+        "enrollment": "2405112120083",
+        "Internal Guide": "Dr.Pravin Tomar",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 316,
+        "Name": "KOTADIYA HIMANSHU KISHORBHAI",
+        "enrollment": "2405112120084",
+        "Internal Guide": "Dr. Ghanshyam Rathod",
+        "Review-1": 41,
+        "Review-2": 48,
+        "Review-3": 85
+    },
+    {
+        "S.N.": 317,
+        "Name": "Koushiki",
+        "enrollment": "2405112120085",
+        "Internal Guide": "Prof. Adarsh Ashok",
+        "Review-1": 42,
+        "Review-2": 44,
+        "Review-3": 71
+    },
+    {
+        "S.N.": 318,
+        "Name": "Sandeep Kumawat",
+        "enrollment": "2405112120087",
+        "Internal Guide": "Prof. Jatin Morwal",
+        "Review-1": 0,
+        "Review-2": 45,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 319,
+        "Name": "Kirtan kunvriya",
+        "enrollment": "2405112120088",
+        "Internal Guide": "Prof. Smarika Rai",
+        "Review-1": 0,
+        "Review-2": 42,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 320,
+        "Name": "Kartikey Kushwaha",
+        "enrollment": "2405112120090",
+        "Internal Guide": "Prof. Chaitali nayka",
+        "Review-1": "AB",
+        "Review-2": "AB",
+        "Review-3": 0
+    },
+    {
+        "S.N.": 321,
+        "Name": "Tirth Ladani",
+        "enrollment": "2405112120091",
+        "Internal Guide": "Prof. Khyati Kariya",
+        "Review-1": 42,
+        "Review-2": 42,
+        "Review-3": "AB"
+    },
+    {
+        "S.N.": 322,
+        "Name": "Yashdeep Maheriya",
+        "enrollment": "2405112120093",
+        "Internal Guide": "Prof. Anmol Singh",
+        "Review-1": 41,
+        "Review-2": 43,
+        "Review-3": 87
+    },
+    {
+        "S.N.": 323,
+        "Name": "Mahima Parihar",
+        "enrollment": "2405112120094",
+        "Internal Guide": "Dr. Abhishek Mehta",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 324,
+        "Name": "Makwana Dhruv",
+        "enrollment": "2405112120095",
+        "Internal Guide": "Prof.Rinku Patil",
+        "Review-1": 41,
+        "Review-2": 45,
+        "Review-3": 83
+    },
+    {
+        "S.N.": 325,
+        "Name": "Makwana Riya",
+        "enrollment": "2405112120096",
+        "Internal Guide": "Prof. Vivek Dave",
+        "Review-1": 37,
+        "Review-2": 43,
+        "Review-3": 86
+    },
+    {
+        "S.N.": 326,
+        "Name": "Mali Ronak Jayeshbhai",
+        "enrollment": "2405112120098",
+        "Internal Guide": "Prof. Vivek Dave",
+        "Review-1": "AB",
+        "Review-2": 42,
+        "Review-3": 85
+    },
+    {
+        "S.N.": 327,
+        "Name": "Yagnik malvaniya",
+        "enrollment": "2405112120099",
+        "Internal Guide": "Prof.Shikha Bansal",
+        "Review-1": 37,
+        "Review-2": "AB",
+        "Review-3": 81
+    },
+    {
+        "S.N.": 328,
+        "Name": "Keyur Mathukiya",
+        "enrollment": "2405112120102",
+        "Internal Guide": "Prof. RamDeepak Yadagiri",
+        "Review-1": 42,
+        "Review-2": 38,
+        "Review-3": 75
+    },
+    {
+        "S.N.": 329,
+        "Name": "Prashant Mehta",
+        "enrollment": "2405112120103",
+        "Internal Guide": "Ms. Niharika Agarwal",
+        "Review-1": 0,
+        "Review-2": 39,
+        "Review-3": 89
+    },
+    {
+        "S.N.": 330,
+        "Name": "Mesaniya Paras",
+        "enrollment": "2405112120104",
+        "Internal Guide": "Prof. Adarsh Ashok",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 71
+    },
+    {
+        "S.N.": 331,
+        "Name": "MISHRA PANKAJKUMAR SHREE RAVINDRANATH",
+        "enrollment": "2405112120105",
+        "Internal Guide": "Mr. Daniel Kwesi",
+        "Review-1": 44,
+        "Review-2": 42,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 332,
+        "Name": "Mohammad Kardar",
+        "enrollment": "2405112120106",
+        "Internal Guide": "Prof. Aesh Gada",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 333,
+        "Name": "Daniel",
+        "enrollment": "2405112120108",
+        "Internal Guide": "Prof. Tanmay Shah",
+        "Review-1": 29,
+        "Review-2": 0,
+        "Review-3": 50
+    },
+    {
+        "S.N.": 334,
+        "Name": "Neeraj Gupta",
+        "enrollment": "2405112120110",
+        "Internal Guide": "Prof. Adarsh Ashok",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 63
+    },
+    {
+        "S.N.": 335,
+        "Name": "Nilam Bharti",
+        "enrollment": "2405112120111",
+        "Internal Guide": "Prof. Dipti Sharma",
+        "Review-1": 40,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 336,
+        "Name": "Ninave Lakhan Harish",
+        "enrollment": "2405112120112",
+        "Internal Guide": "Prof. Mehulkumar Dalwadi",
+        "Review-1": "AB",
+        "Review-2": "AB",
+        "Review-3": 0
+    },
+    {
+        "S.N.": 337,
+        "Name": "Parmar jyosna",
+        "enrollment": "2405112120115",
+        "Internal Guide": "Prof. Hardik Parmar",
+        "Review-1": 42,
+        "Review-2": 0,
+        "Review-3": 96
+    },
+    {
+        "S.N.": 338,
+        "Name": "Parmar kinjal",
+        "enrollment": "2405112120116",
+        "Internal Guide": "Prof. Hardik Parmar",
+        "Review-1": 42,
+        "Review-2": 46,
+        "Review-3": 96
+    },
+    {
+        "S.N.": 339,
+        "Name": "PATEL AryanKumar Narendrabhai",
+        "enrollment": "2405112120118",
+        "Internal Guide": "Prof. Saikat Paramanik",
+        "Review-1": 0,
+        "Review-2": 42,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 340,
+        "Name": "Bhavy Patel",
+        "enrollment": "2405112120119",
+        "Internal Guide": "Prof. Faruk Abdulla",
+        "Review-1": 40,
+        "Review-2": 44,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 341,
+        "Name": "Patel Darshan Manubhai",
+        "enrollment": "2405112120120",
+        "Internal Guide": "Prof. Vishakha Bathwar",
+        "Review-1": 0,
+        "Review-2": 41,
+        "Review-3": 78
+    },
+    {
+        "S.N.": 342,
+        "Name": "Dev Patel",
+        "enrollment": "2405112120121",
+        "Internal Guide": "Prof. Honey Parmar",
+        "Review-1": 39,
+        "Review-2": 35,
+        "Review-3": 85
+    },
+    {
+        "S.N.": 343,
+        "Name": "Dhruven Sanjaykumar Patel",
+        "enrollment": "2405112120122",
+        "Internal Guide": "Prof.Saswati Chatterjee",
+        "Review-1": "AB",
+        "Review-2": "AB",
+        "Review-3": 83
+    },
+    {
+        "S.N.": 344,
+        "Name": "Dhruv Patel",
+        "enrollment": "2405112120123",
+        "Internal Guide": "Prof. Faruk Abdulla",
+        "Review-1": 40,
+        "Review-2": 44,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 345,
+        "Name": "Dhruv Patel",
+        "enrollment": "2405112120124",
+        "Internal Guide": "Prof. Ronak Mehta",
+        "Review-1": 39,
+        "Review-2": 34,
+        "Review-3": 80
+    },
+    {
+        "S.N.": 346,
+        "Name": "Patel Isha",
+        "enrollment": "2405112120125",
+        "Internal Guide": "Prof.Vijya Tulsani",
+        "Review-1": "AB",
+        "Review-2": "AB",
+        "Review-3": 55
+    },
+    {
+        "S.N.": 347,
+        "Name": "Patel Kartik",
+        "enrollment": "2405112120126",
+        "Internal Guide": "Prof.Rinku Patil",
+        "Review-1": 41,
+        "Review-2": 45,
+        "Review-3": 83
+    },
+    {
+        "S.N.": 348,
+        "Name": "Khush Patel",
+        "enrollment": "2405112120128",
+        "Internal Guide": "Prof. Adarsh Ashok",
+        "Review-1": 40,
+        "Review-2": 38,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 349,
+        "Name": "Krupesh Patel",
+        "enrollment": "2405112120129",
+        "Internal Guide": "Prof. Faruk Abdulla",
+        "Review-1": "AB",
+        "Review-2": 44,
+        "Review-3": "AB"
+    },
+    {
+        "S.N.": 350,
+        "Name": "Patel Nikesh Ramanbhai",
+        "enrollment": "2405112120130",
+        "Internal Guide": "Prof. Aniket Paul",
+        "Review-1": "AB",
+        "Review-2": "AB",
+        "Review-3": 0
+    },
+    {
+        "S.N.": 351,
+        "Name": "Patel Nirali",
+        "enrollment": "2405112120131",
+        "Internal Guide": "Prof. Honey Parmar",
+        "Review-1": "AB",
+        "Review-2": "AB",
+        "Review-3": 85
+    },
+    {
+        "S.N.": 352,
+        "Name": "Ronak Amitbhai Patel",
+        "enrollment": "2405112120132",
+        "Internal Guide": "Prof.Manish Joshi",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 353,
+        "Name": "Patel Tusharkumar Dineshbhai",
+        "enrollment": "2405112120133",
+        "Internal Guide": "Prof. Khyati Kariya",
+        "Review-1": 42,
+        "Review-2": 42,
+        "Review-3": "AB"
+    },
+    {
+        "S.N.": 354,
+        "Name": "Patel vanshika hitendrakumar",
+        "enrollment": "2405112120134",
+        "Internal Guide": "Prof. Hardik Parmar",
+        "Review-1": 42,
+        "Review-2": 0,
+        "Review-3": 96
+    },
+    {
+        "S.N.": 355,
+        "Name": "Aayush Pathak",
+        "enrollment": "2405112120135",
+        "Internal Guide": "Prof. Himanshu Yadav",
+        "Review-1": 40,
+        "Review-2": 44,
+        "Review-3": 80
+    },
+    {
+        "S.N.": 356,
+        "Name": "Prapti Pathak",
+        "enrollment": "2405112120136",
+        "Internal Guide": "Dr. Ghanshyam Rathod",
+        "Review-1": 44,
+        "Review-2": 45,
+        "Review-3": 80
+    },
+    {
+        "S.N.": 357,
+        "Name": "AKSHIT BHARATBHAI PIPROTAR",
+        "enrollment": "2405112120139",
+        "Internal Guide": "Prof. Himanshu Yadav",
+        "Review-1": 42,
+        "Review-2": 46,
+        "Review-3": 82
+    },
+    {
+        "S.N.": 358,
+        "Name": "Krupesh Dharmendrabhai Prajapati",
+        "enrollment": "2405112120140",
+        "Internal Guide": "Dr. Prof. P. Ramachandran",
+        "Review-1": 37,
+        "Review-2": 42,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 359,
+        "Name": "Pranjal Pandey",
+        "enrollment": "2405112120143",
+        "Internal Guide": "Prof. Mehulkumar Dalwadi",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 360,
+        "Name": "Prince Kumar",
+        "enrollment": "2405112120143",
+        "Internal Guide": "Prof. Mehulkumar Dalwadi",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 361,
+        "Name": "Prince Makwana",
+        "enrollment": "2405112120144",
+        "Internal Guide": "Prof. Anmol Singh",
+        "Review-1": 41,
+        "Review-2": 43,
+        "Review-3": 87
+    },
+    {
+        "S.N.": 362,
+        "Name": "Puppala komal",
+        "enrollment": "2405112120145",
+        "Internal Guide": "Prof. Tanmay Shah",
+        "Review-1": 45,
+        "Review-2": 40,
+        "Review-3": 85
+    },
+    {
+        "S.N.": 363,
+        "Name": "Raghav Lakhotiya",
+        "enrollment": "2405112120147",
+        "Internal Guide": "Prof. Mehulkumar Dalwadi",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 364,
+        "Name": "Rahul Dongre",
+        "enrollment": "2405112120148",
+        "Internal Guide": "Prof. Tanmay Shah",
+        "Review-1": "AB",
+        "Review-2": "AB",
+        "Review-3": 90
+    },
+    {
+        "S.N.": 365,
+        "Name": "Rajput Harsh Yogeshkumar",
+        "enrollment": "2405112120149",
+        "Internal Guide": "Prof.Divakar Keshri",
+        "Review-1": "AB",
+        "Review-2": "AB",
+        "Review-3": 80
+    },
+    {
+        "S.N.": 366,
+        "Name": "Krutik Rakholiya",
+        "enrollment": "2405112120150",
+        "Internal Guide": "Prof. Saikat Paramanik",
+        "Review-1": 0,
+        "Review-2": 39,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 367,
+        "Name": "Ram Rambhai Vikrambhai",
+        "enrollment": "2405112120151",
+        "Internal Guide": "Dr. Raj Sinha",
+        "Review-1": 39,
+        "Review-2": 43,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 368,
+        "Name": "Kush",
+        "enrollment": "2405112120152",
+        "Internal Guide": "Prof. Sonali Kharade",
+        "Review-1": 47,
+        "Review-2": 35,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 369,
+        "Name": "RATHWA KRISHNAKUMAR YOGESHBHAI",
+        "enrollment": "2405112120153",
+        "Internal Guide": "Dr.Ghanshyam Rathod",
+        "Review-1": 46,
+        "Review-2": 46,
+        "Review-3": 88
+    },
+    {
+        "S.N.": 370,
+        "Name": "Vikash Ray",
+        "enrollment": "2405112120154",
+        "Internal Guide": "Prof. Komal Madam",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 371,
+        "Name": "Rohit vishwa",
+        "enrollment": "2405112120157",
+        "Internal Guide": "Prof. Adarsh Ashok",
+        "Review-1": "AB",
+        "Review-2": 46,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 372,
+        "Name": "Roshma Raj",
+        "enrollment": "2405112120158",
+        "Internal Guide": "Prof.Rinku Patil",
+        "Review-1": 39,
+        "Review-2": 0,
+        "Review-3": 85
+    },
+    {
+        "S.N.": 373,
+        "Name": "Sabarna Jana",
+        "enrollment": "2405112120159",
+        "Internal Guide": "Prof. Saikat Paramanik",
+        "Review-1": 46,
+        "Review-2": 42,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 374,
+        "Name": "Sakshi Laxmandas Harjani",
+        "enrollment": "2405112120160",
+        "Internal Guide": "Dr. Abhishek Mehta",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 375,
+        "Name": "Siddharth Deepak Saxena",
+        "enrollment": "2405112120165",
+        "Internal Guide": "Prof. Vivek Dave",
+        "Review-1": 42,
+        "Review-2": 39,
+        "Review-3": 82
+    },
+    {
+        "S.N.": 376,
+        "Name": "Shaik Suhail",
+        "enrollment": "2405112120166",
+        "Internal Guide": "Prof.Rinkal Sarvaiya",
+        "Review-1": 0,
+        "Review-2": 48,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 377,
+        "Name": "Sharma Ravi",
+        "enrollment": "2405112120170",
+        "Internal Guide": "Prof. Khyati Kariya",
+        "Review-1": "AB",
+        "Review-2": "AB",
+        "Review-3": "AB"
+    },
+    {
+        "S.N.": 378,
+        "Name": "Shaswat Kumar Nanda",
+        "enrollment": "2405112120172",
+        "Internal Guide": "Prof. Saikat Paramanik",
+        "Review-1": 46,
+        "Review-2": 42,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 379,
+        "Name": "Samarth Shertate",
+        "enrollment": "2405112120173",
+        "Internal Guide": "Prof. Akshar Muley",
+        "Review-1": 34,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 380,
+        "Name": "Shivam Kumar",
+        "enrollment": "2405112120174",
+        "Internal Guide": "Prof. Khyati Kariya",
+        "Review-1": 42,
+        "Review-2": 42,
+        "Review-3": "AB"
+    },
+    {
+        "S.N.": 381,
+        "Name": "Shivani Shinde",
+        "enrollment": "2405112120175",
+        "Internal Guide": "Prof. Laxshman",
+        "Review-1": 45,
+        "Review-2": 48,
+        "Review-3": 91
+    },
+    {
+        "S.N.": 382,
+        "Name": "Shreyal Yogeshkumar Patel",
+        "enrollment": "2405112120176",
+        "Internal Guide": "Prof. Vishakha Bathwar",
+        "Review-1": 0,
+        "Review-2": 39,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 383,
+        "Name": "SWAMY SINGAMPALLI",
+        "enrollment": "2405112120178",
+        "Internal Guide": "Prof.Saswati Chatterjee",
+        "Review-1": 38,
+        "Review-2": 33,
+        "Review-3": 84
+    },
+    {
+        "S.N.": 384,
+        "Name": "Nilesh Singh",
+        "enrollment": "2405112120180",
+        "Internal Guide": "Prof. Pratik Raj",
+        "Review-1": 41,
+        "Review-2": 41,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 385,
+        "Name": "Siyodiya yash mahendrakumar",
+        "enrollment": "2405112120182",
+        "Internal Guide": "Prof. Saikat Paramanik",
+        "Review-1": 0,
+        "Review-2": 42,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 386,
+        "Name": "Parth Soni",
+        "enrollment": "2405112120183",
+        "Internal Guide": "Prof. Anmol Singh",
+        "Review-1": 44,
+        "Review-2": 43,
+        "Review-3": 85
+    },
+    {
+        "S.N.": 387,
+        "Name": "SUNDARA JYOTHI KRISHNA NAGARJUNA",
+        "enrollment": "2405112120184",
+        "Internal Guide": "Prof.Saswati Chatterjee",
+        "Review-1": 35,
+        "Review-2": 33,
+        "Review-3": 84
+    },
+    {
+        "S.N.": 388,
+        "Name": "Swati Kumari",
+        "enrollment": "2405112120187",
+        "Internal Guide": "Prof. Pratik Raj",
+        "Review-1": 44,
+        "Review-2": 41,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 389,
+        "Name": "Swayam Raj Singh Dewda",
+        "enrollment": "2405112120188",
+        "Internal Guide": "Prof. Hardik Parmar",
+        "Review-1": 45,
+        "Review-2": 45,
+        "Review-3": 96
+    },
+    {
+        "S.N.": 390,
+        "Name": "Talagadavevi Vinay sai",
+        "enrollment": "2405112120189",
+        "Internal Guide": "Prof.Saswati Chatterjee",
+        "Review-1": 39,
+        "Review-2": 0,
+        "Review-3": 83
+    },
+    {
+        "S.N.": 391,
+        "Name": "THUMBAR RONAK BHAGVANJIBHAI",
+        "enrollment": "2405112120190",
+        "Internal Guide": "Prof. Anmol Singh",
+        "Review-1": 41,
+        "Review-2": 43,
+        "Review-3": 87
+    },
+    {
+        "S.N.": 392,
+        "Name": "Yash vaghasiya",
+        "enrollment": "2405112120192",
+        "Internal Guide": "Prof. Shivaniba Dilipsinh Bhadoriya",
+        "Review-1": 0,
+        "Review-2": 15,
+        "Review-3": "AB"
+    },
+    {
+        "S.N.": 393,
+        "Name": "Avantika bibhu",
+        "enrollment": "2405112140011",
+        "Internal Guide": "Prof. Shivaniba Dilipsinh Bhadoriya",
+        "Review-1": "AB",
+        "Review-2": "AB",
+        "Review-3": 0
+    },
+    {
+        "S.N.": 394,
+        "Name": "Niraj Vishwakarma",
+        "enrollment": "2405112120193",
+        "Internal Guide": "Prof. Mehulkumar Dalwadi",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 395,
+        "Name": "Vivek Vikas Vispute",
+        "enrollment": "2405112120194",
+        "Internal Guide": "Prof. Pratik Parmar",
+        "Review-1": 0,
+        "Review-2": 42,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 396,
+        "Name": "Vraj Patel",
+        "enrollment": "2405112120196",
+        "Internal Guide": "Prof. Anmol Singh",
+        "Review-1": 44,
+        "Review-2": 43,
+        "Review-3": 85
+    },
+    {
+        "S.N.": 397,
+        "Name": "Tushar Yadav",
+        "enrollment": "2405112120198",
+        "Internal Guide": "Prof.Vijya Tulsani",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 25
+    },
+    {
+        "S.N.": 398,
+        "Name": "Yashashwi Das Manikpuri",
+        "enrollment": "2405112120199",
+        "Internal Guide": "Prof. sathwik Chebrolu",
+        "Review-1": 43,
+        "Review-2": 40,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 399,
+        "Name": "Anshuman Patidar",
+        "enrollment": "2405112130004",
+        "Internal Guide": "Prof. RamDeepak Yadagiri",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 70
+    },
+    {
+        "S.N.": 400,
+        "Name": "Aayush joshi",
+        "enrollment": "2405112130005",
+        "Internal Guide": "Prof. sathwik Chebrolu",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": "AB"
+    },
+    {
+        "S.N.": 401,
+        "Name": "Rabiya Ali",
+        "enrollment": "2405112130006",
+        "Internal Guide": "Prof.Jigar Bhavsar",
+        "Review-1": 43,
+        "Review-2": 44,
+        "Review-3": 84
+    },
+    {
+        "S.N.": 402,
+        "Name": "Anuj Anup Chauhan",
+        "enrollment": "2405112130007",
+        "Internal Guide": "Prof. Hardik Parmar",
+        "Review-1": 45,
+        "Review-2": 45,
+        "Review-3": 96
+    },
+    {
+        "S.N.": 403,
+        "Name": "Devesh Dubale",
+        "enrollment": "2405112130008",
+        "Internal Guide": "Prof. Chaitali nayka",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 80
+    },
+    {
+        "S.N.": 404,
+        "Name": "Ilyas Sarfaraj Bhai Kureshi",
+        "enrollment": "2405112130010",
+        "Internal Guide": "Prof. Arun.U",
+        "Review-1": "AB",
+        "Review-2": "AB",
+        "Review-3": 0
+    },
+    {
+        "S.N.": 405,
+        "Name": "Abhishekh Jaiswal",
+        "enrollment": "2405112130011",
+        "Internal Guide": "Prof. Arun.U",
+        "Review-1": 0,
+        "Review-2": 30,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 406,
+        "Name": "Aniket Jethva",
+        "enrollment": "2405112130013",
+        "Internal Guide": "Prof. Akanksha Singh",
+        "Review-1": 0,
+        "Review-2": 36,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 407,
+        "Name": "Jyotiranjan Moahanty",
+        "enrollment": "2405112130014",
+        "Internal Guide": "Prof. Aniket Paul",
+        "Review-1": 44,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 408,
+        "Name": "Devendra kale",
+        "enrollment": "2405112130015",
+        "Internal Guide": "Prof. Samant Kumar",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 409,
+        "Name": "Darshan kaptan",
+        "enrollment": "2405112130016",
+        "Internal Guide": "Prof. sathwik Chebrolu",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 410,
+        "Name": "Ayaan khan",
+        "enrollment": "2405112130018",
+        "Internal Guide": "Prof.Saswati Chatterjee",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 82
+    },
+    {
+        "S.N.": 411,
+        "Name": "Lakshmi R Kannaujiya",
+        "enrollment": "2405112130019",
+        "Internal Guide": "Prof. sathwik Chebrolu",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 412,
+        "Name": "Mansi Purbiya Gadri",
+        "enrollment": "2405112130020",
+        "Internal Guide": "Prof. Aniket Paul",
+        "Review-1": 45,
+        "Review-2": 47,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 413,
+        "Name": "Naitik Doshi",
+        "enrollment": "2405112130021",
+        "Internal Guide": "Prof.Jigar Bhavsar",
+        "Review-1": 43,
+        "Review-2": 41,
+        "Review-3": 82
+    },
+    {
+        "S.N.": 414,
+        "Name": "Nupur Joshi",
+        "enrollment": "2405112130022",
+        "Internal Guide": "Prof.Saswati Chatterjee",
+        "Review-1": 33,
+        "Review-2": 31,
+        "Review-3": 84
+    },
+    {
+        "S.N.": 415,
+        "Name": "Aman Padariya",
+        "enrollment": "2405112130023",
+        "Internal Guide": "PRof. Akanksha Singh",
+        "Review-1": 0,
+        "Review-2": 42,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 416,
+        "Name": "Pandey Amiteshkumar Sanjeev",
+        "enrollment": "2405112130025",
+        "Internal Guide": "Prof. Arun.U",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 417,
+        "Name": "Siddhi Pandya",
+        "enrollment": "2405112130026",
+        "Internal Guide": "Ms. Niharika Agarwal",
+        "Review-1": 44,
+        "Review-2": 43,
+        "Review-3": 86
+    },
+    {
+        "S.N.": 418,
+        "Name": "Patil Shital Shamkant",
+        "enrollment": "2405112130027",
+        "Internal Guide": "Dr. Sumit Soni",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 419,
+        "Name": "Priya Agarwal",
+        "enrollment": "2405112130029",
+        "Internal Guide": "Dr. Pravin Tomar",
+        "Review-1": "AB",
+        "Review-2": 45,
+        "Review-3": 89
+    },
+    {
+        "S.N.": 420,
+        "Name": "Ritika Asnani",
+        "enrollment": "2405112130030",
+        "Internal Guide": "Prof. RamDeepak Yadagiri",
+        "Review-1": 44,
+        "Review-2": 37,
+        "Review-3": 80
+    },
+    {
+        "S.N.": 421,
+        "Name": "Anjani shah",
+        "enrollment": "2405112130031",
+        "Internal Guide": "Prof. Laxshman",
+        "Review-1": 48,
+        "Review-2": 47,
+        "Review-3": 96
+    },
+    {
+        "S.N.": 422,
+        "Name": "Vraj Shrimali",
+        "enrollment": "2405112130032",
+        "Internal Guide": "Prof.Saswati Chatterjee",
+        "Review-1": 30,
+        "Review-2": 33,
+        "Review-3": 84
+    },
+    {
+        "S.N.": 423,
+        "Name": "Shruti Makwana",
+        "enrollment": "2405112130033",
+        "Internal Guide": "Prof. Ashutosh Solanki",
+        "Review-1": 42,
+        "Review-2": 35,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 424,
+        "Name": "Singh Sneha janardhan",
+        "enrollment": "2405112130035",
+        "Internal Guide": "Prof. Sweta Jethva",
+        "Review-1": "AB",
+        "Review-2": "AB",
+        "Review-3": 0
+    },
+    {
+        "S.N.": 425,
+        "Name": "Snehil Joshi",
+        "enrollment": "2405112130036",
+        "Internal Guide": "Prof. Mini Bhola",
+        "Review-1": "AB",
+        "Review-2": "AB",
+        "Review-3": 85
+    },
+    {
+        "S.N.": 426,
+        "Name": "Srumith singh",
+        "enrollment": "2405112130037",
+        "Internal Guide": "Prof. Faruk Abdulla",
+        "Review-1": 39,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 427,
+        "Name": "Vipul Tarur",
+        "enrollment": "2405112130038",
+        "Internal Guide": "Prof.Divakar Keshri",
+        "Review-1": "AB",
+        "Review-2": "AB",
+        "Review-3": 0
+    },
+    {
+        "S.N.": 428,
+        "Name": "Harshit Uppal",
+        "enrollment": "2405112130039",
+        "Internal Guide": "Prof.Vijya Tulsani",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 25
+    },
+    {
+        "S.N.": 429,
+        "Name": "Vivek Prajapati",
+        "enrollment": "2405112130040",
+        "Internal Guide": "Dr. Hina Chokshi",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 430,
+        "Name": "Yashika Rawat",
+        "enrollment": "2405112130041",
+        "Internal Guide": "Prof. Manishkumar Joshi",
+        "Review-1": "AB",
+        "Review-2": "AB",
+        "Review-3": 0
+    },
+    {
+        "S.N.": 431,
+        "Name": "Zoyakhan Imtiaz Pathan",
+        "enrollment": "2405112130042",
+        "Internal Guide": "Prof. Nirmit Shah",
+        "Review-1": "AB",
+        "Review-2": "AB",
+        "Review-3": 0
+    },
+    {
+        "S.N.": 432,
+        "Name": "Patel Harshkumar Nareshbhai",
+        "enrollment": "2405112130044",
+        "Internal Guide": "Prof. Manishkumar Joshi",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 89
+    },
+    {
+        "S.N.": 433,
+        "Name": "Patel Kishan Mahendra bhai",
+        "enrollment": "2405112130045",
+        "Internal Guide": "Prof. Vishakha Bathwar",
+        "Review-1": 0,
+        "Review-2": 41,
+        "Review-3": 78
+    },
+    {
+        "S.N.": 434,
+        "Name": "Tushar Gaurav",
+        "enrollment": "2405112130046",
+        "Internal Guide": "Prof. Khyati Kariya",
+        "Review-1": 48,
+        "Review-2": 48,
+        "Review-3": "AB"
+    },
+    {
+        "S.N.": 435,
+        "Name": "Aditya Nair",
+        "enrollment": "2405112130047",
+        "Internal Guide": "Prof.Jigar Bhavsar",
+        "Review-1": 43,
+        "Review-2": 44,
+        "Review-3": 84
+    },
+    {
+        "S.N.": 436,
+        "Name": "Shivananthajothi K",
+        "enrollment": "2405112130049",
+        "Internal Guide": "Prof. Pritam",
+        "Review-1": 48,
+        "Review-2": 48,
+        "Review-3": 97
+    },
+    {
+        "S.N.": 437,
+        "Name": "Adarsh gokhe",
+        "enrollment": "2405112140002",
+        "Internal Guide": "Prof. Ashutosh Solanki",
+        "Review-1": 0,
+        "Review-2": 30,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 438,
+        "Name": "Ajay",
+        "enrollment": "2405112140003",
+        "Internal Guide": "Prof. Ashutosh Solanki",
+        "Review-1": 0,
+        "Review-2": 39,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 439,
+        "Name": "Ajudiya Ayushi Mukeshbhai",
+        "enrollment": "2405112140004",
+        "Internal Guide": "Dr. Sumit Soni",
+        "Review-1": 0,
+        "Review-2": 30,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 440,
+        "Name": "Aniket maheshwari",
+        "enrollment": "2405112140005",
+        "Internal Guide": "Prof. Sweta Jethva",
+        "Review-1": 43,
+        "Review-2": 44,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 441,
+        "Name": "Anjali Dargi",
+        "enrollment": "2405112140006",
+        "Internal Guide": "Prof.Jigar Bhavsar",
+        "Review-1": 47,
+        "Review-2": "AB",
+        "Review-3": 81
+    },
+    {
+        "S.N.": 442,
+        "Name": "Anjani kumar",
+        "enrollment": "2405112140007",
+        "Internal Guide": "Prof. Saumil Trivedi",
+        "Review-1": 0,
+        "Review-2": 35,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 443,
+        "Name": "Arvind Singh",
+        "enrollment": "2405112140009",
+        "Internal Guide": "Prof. Nirmit Shah",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 444,
+        "Name": "Avantika bibhu",
+        "enrollment": "2405112140011",
+        "Internal Guide": "Prof. Shivaniba Dilipsinh Bhadoriya",
+        "Review-1": 0,
+        "Review-2": 15,
+        "Review-3": "AB"
+    },
+    {
+        "S.N.": 445,
+        "Name": "Gautam Rameshbhai Baldaniya",
+        "enrollment": "2405112140012",
+        "Internal Guide": "Prof. Pratik Parmar",
+        "Review-1": "AB",
+        "Review-2": "AB",
+        "Review-3": 0
+    },
+    {
+        "S.N.": 446,
+        "Name": "Nidhi Bhalerao",
+        "enrollment": "2405112140013",
+        "Internal Guide": "Prof. Honey Parmar",
+        "Review-1": 40,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 447,
+        "Name": "Utsav Bhanderi",
+        "enrollment": "2405112140014",
+        "Internal Guide": "Prof. Samant Kumar",
+        "Review-1": 0,
+        "Review-2": 39,
+        "Review-3": 80
+    },
+    {
+        "S.N.": 448,
+        "Name": "Nirmal bhatt",
+        "enrollment": "2405112140015",
+        "Internal Guide": "Prof. Sweta Jethva",
+        "Review-1": 42,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 449,
+        "Name": "Bhavesh Prajapati",
+        "enrollment": "2405112140016",
+        "Internal Guide": "Prof. Chaitali nayka",
+        "Review-1": 38,
+        "Review-2": 36,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 450,
+        "Name": "Harsh Bhogayata",
+        "enrollment": "2405112140017",
+        "Internal Guide": "Ms. Niharika Agarwal",
+        "Review-1": 0,
+        "Review-2": 42,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 451,
+        "Name": "Sankalp Vishnu Bhosale",
+        "enrollment": "2405112140018",
+        "Internal Guide": "Prof. Komal Madam",
+        "Review-1": 48,
+        "Review-2": 0,
+        "Review-3": 73
+    },
+    {
+        "S.N.": 452,
+        "Name": "Aaditya singh bisht",
+        "enrollment": "2405112140019",
+        "Internal Guide": "Prof. Sweta Jethva",
+        "Review-1": 44,
+        "Review-2": 43,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 453,
+        "Name": "Brajesh Kumar",
+        "enrollment": "2405112140020",
+        "Internal Guide": "Ms. Niharika Agarwal",
+        "Review-1": "AB",
+        "Review-2": "AB",
+        "Review-3": 0
+    },
+    {
+        "S.N.": 454,
+        "Name": "Buhecha Priyanshu Jiteshbhai",
+        "enrollment": "2405112140021",
+        "Internal Guide": "Prof. Arun.U",
+        "Review-1": 0,
+        "Review-2": 38,
+        "Review-3": 88
+    },
+    {
+        "S.N.": 455,
+        "Name": "Chanpaneri Shivamkumar",
+        "enrollment": "2405112140022",
+        "Internal Guide": "Prof.Shikha Bansal",
+        "Review-1": 33,
+        "Review-2": 33,
+        "Review-3": 85
+    },
+    {
+        "S.N.": 456,
+        "Name": "HARSH CHHASATIYA",
+        "enrollment": "2405112140023",
+        "Internal Guide": "Prof. Samant Kumar",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 78
+    },
+    {
+        "S.N.": 457,
+        "Name": "Dhrushal Dangariya",
+        "enrollment": "2405112140026",
+        "Internal Guide": "Prof. Samant Kumar",
+        "Review-1": 0,
+        "Review-2": 39,
+        "Review-3": 75
+    },
+    {
+        "S.N.": 458,
+        "Name": "Deepika kumawat",
+        "enrollment": "2405112140027",
+        "Internal Guide": "Prof. Ashutosh Solanki",
+        "Review-1": 0,
+        "Review-2": 36,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 459,
+        "Name": "Dishika Kumari",
+        "enrollment": "2405112140029",
+        "Internal Guide": "Prof. sathwik Chebrolu",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 460,
+        "Name": "Vivek Gautam",
+        "enrollment": "2405112140030",
+        "Internal Guide": "Ms. Niharika Agarwal",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 461,
+        "Name": "Vaishnavi Umesh Godse",
+        "enrollment": "2405112140031",
+        "Internal Guide": "Prof. Prachi Mehta",
+        "Review-1": 44,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 462,
+        "Name": "Hadavani Fenil",
+        "enrollment": "2405112140032",
+        "Internal Guide": "Prof.Shikha Bansal",
+        "Review-1": 0,
+        "Review-2": 32,
+        "Review-3": 85
+    },
+    {
+        "S.N.": 463,
+        "Name": "Hardik Kasliwal",
+        "enrollment": "2405112140033",
+        "Internal Guide": "Prof. Smarika Rai",
+        "Review-1": 49,
+        "Review-2": 0,
+        "Review-3": 94
+    },
+    {
+        "S.N.": 464,
+        "Name": "Jinal s Jadav",
+        "enrollment": "2405112140035",
+        "Internal Guide": "Prof.Rinkal Sarvaiya",
+        "Review-1": 45,
+        "Review-2": 42,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 465,
+        "Name": "JanamJay Sinha",
+        "enrollment": "2405112140036",
+        "Internal Guide": "Prof. Tanmay Shah",
+        "Review-1": 46,
+        "Review-2": 0,
+        "Review-3": 89
+    },
+    {
+        "S.N.": 466,
+        "Name": "Jijo Johnson",
+        "enrollment": "2405112140037",
+        "Internal Guide": "Prof. Sweta Jethva",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 467,
+        "Name": "Trivedi Jimitkumar Hiteshkumar",
+        "enrollment": "2405112140038",
+        "Internal Guide": "Prof. Faruk Abdulla",
+        "Review-1": 43,
+        "Review-2": 42,
+        "Review-3": 85
+    },
+    {
+        "S.N.": 468,
+        "Name": "Kayasth Ansh",
+        "enrollment": "2405112140040",
+        "Internal Guide": "Prof.Rinku Patil",
+        "Review-1": 41,
+        "Review-2": 45,
+        "Review-3": 83
+    },
+    {
+        "S.N.": 469,
+        "Name": "Vicky Khambhatwala",
+        "enrollment": "2405112140041",
+        "Internal Guide": "Prof. sathwik Chebrolu",
+        "Review-1": 41,
+        "Review-2": 42,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 470,
+        "Name": "Kinariwala Mohit Jiteshbhai",
+        "enrollment": "2405112140042",
+        "Internal Guide": "Prof.Vijya Tulsani",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 471,
+        "Name": "Divya kushwaha",
+        "enrollment": "2405112140043",
+        "Internal Guide": "Prof. Priyanka Mod",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 472,
+        "Name": "Harsh Lad",
+        "enrollment": "2405112140045",
+        "Internal Guide": "Prof.Chandankumar Singh",
+        "Review-1": 0,
+        "Review-2": 34,
+        "Review-3": 75
+    },
+    {
+        "S.N.": 473,
+        "Name": "Madhav Kumar",
+        "enrollment": "2405112140047",
+        "Internal Guide": "Prof. Vaishali Shah",
+        "Review-1": 43,
+        "Review-2": 34,
+        "Review-3": 69
+    },
+    {
+        "S.N.": 474,
+        "Name": "MAKWANA DARPAN KUMAR MANSANG BHAI",
+        "enrollment": "2405112140048",
+        "Internal Guide": "Prof. Sweta Jethva",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 475,
+        "Name": "MAKWANA PRADIP KUMAR ARVIND BHAI",
+        "enrollment": "2405112140049",
+        "Internal Guide": "Prof. Sweta Jethva",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 476,
+        "Name": "Megh Patil",
+        "enrollment": "2405112140051",
+        "Internal Guide": "Prof. Preeti Sharma",
+        "Review-1": 46,
+        "Review-2": 45,
+        "Review-3": 89
+    },
+    {
+        "S.N.": 477,
+        "Name": "More Naimilkumar b",
+        "enrollment": "2405112140052",
+        "Internal Guide": "Prof. Pratik Raj",
+        "Review-1": 37,
+        "Review-2": 38,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 478,
+        "Name": "Mrityunjay saini",
+        "enrollment": "2405112140053",
+        "Internal Guide": "prof. satyamani Gayatri",
+        "Review-1": 32,
+        "Review-2": 35,
+        "Review-3": 74
+    },
+    {
+        "S.N.": 479,
+        "Name": "Munshi hamid raza",
+        "enrollment": "2405112140054",
+        "Internal Guide": "Prof. Prachi Mehta",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 480,
+        "Name": "Nikesh Raj Gopal",
+        "enrollment": "2405112140058",
+        "Internal Guide": "Prof. Laxshman",
+        "Review-1": 47,
+        "Review-2": 49,
+        "Review-3": 97
+    },
+    {
+        "S.N.": 481,
+        "Name": "Nikhil Agalcha",
+        "enrollment": "2405112140059",
+        "Internal Guide": "Prof. RamDeepak Yadagiri",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 70
+    },
+    {
+        "S.N.": 482,
+        "Name": "Nikunj parmar",
+        "enrollment": "2405112140060",
+        "Internal Guide": "Prof. Manishkumar Joshi",
+        "Review-1": "AB",
+        "Review-2": 37,
+        "Review-3": 88
+    },
+    {
+        "S.N.": 483,
+        "Name": "BERLIN OOMMEN BIJU",
+        "enrollment": "2405112140061",
+        "Internal Guide": "Prof. Madhav J Kapadiya",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 484,
+        "Name": "Parekh Kuldeep Vineshbhai",
+        "enrollment": "2405112140063",
+        "Internal Guide": "Prof.Jigar Bhavsar",
+        "Review-1": 44,
+        "Review-2": 44,
+        "Review-3": 77
+    },
+    {
+        "S.N.": 485,
+        "Name": "Yash Parmar",
+        "enrollment": "2405112140064",
+        "Internal Guide": "Prof. Preeti Sharma",
+        "Review-1": 44,
+        "Review-2": 45,
+        "Review-3": 89
+    },
+    {
+        "S.N.": 486,
+        "Name": "Patel Bhuminkumar",
+        "enrollment": "2405112140065",
+        "Internal Guide": "Prof.Shikha Bansal",
+        "Review-1": 34,
+        "Review-2": 34,
+        "Review-3": 84
+    },
+    {
+        "S.N.": 487,
+        "Name": "Patel Dishaben Jigneshkumar",
+        "enrollment": "2405112140066",
+        "Internal Guide": "Prof.Jigar Bhavsar",
+        "Review-1": 48,
+        "Review-2": "AB",
+        "Review-3": 79
+    },
+    {
+        "S.N.": 488,
+        "Name": "Patel Divyaben Jigneshkumar",
+        "enrollment": "2405112140067",
+        "Internal Guide": "Prof.Jigar Bhavsar",
+        "Review-1": 47,
+        "Review-2": 25,
+        "Review-3": 82
+    },
+    {
+        "S.N.": 489,
+        "Name": "Patel Foram Jigneshkumar",
+        "enrollment": "2405112140068",
+        "Internal Guide": "Prof.Jigar Bhavsar",
+        "Review-1": 44,
+        "Review-2": 45,
+        "Review-3": 77
+    },
+    {
+        "S.N.": 490,
+        "Name": "Patel Manav Kamlesh",
+        "enrollment": "2405112140069",
+        "Internal Guide": "Prof.Jigar Bhavsar",
+        "Review-1": 44,
+        "Review-2": 45,
+        "Review-3": 78
+    },
+    {
+        "S.N.": 491,
+        "Name": "Patel Vanshkumar Dilipbhai",
+        "enrollment": "2405112140070",
+        "Internal Guide": "Prof. Arun.U",
+        "Review-1": 0,
+        "Review-2": 38,
+        "Review-3": 87
+    },
+    {
+        "S.N.": 492,
+        "Name": "Pillai Vinish VijayKumar",
+        "enrollment": "2405112140073",
+        "Internal Guide": "Prof. Komal Madam",
+        "Review-1": 47,
+        "Review-2": 47,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 493,
+        "Name": "Prasu Sharma",
+        "enrollment": "2405112140076",
+        "Internal Guide": "Prof. Laxshman",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 494,
+        "Name": "VASAVA PRATIK KUMAR DINESHBHAI",
+        "enrollment": "2405112140077",
+        "Internal Guide": "Prof. Sweta Jethva",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 495,
+        "Name": "Raj Mali",
+        "enrollment": "2405112140078",
+        "Internal Guide": "prof. satyamani Gayatri",
+        "Review-1": 38,
+        "Review-2": 35,
+        "Review-3": 92
+    },
+    {
+        "S.N.": 496,
+        "Name": "Rajesh Chaudhary",
+        "enrollment": "2405112140079",
+        "Internal Guide": "Prof. Madhav J Kapadiya",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 497,
+        "Name": "Thakkar Riya Kanakkumar",
+        "enrollment": "2405112140081",
+        "Internal Guide": "Dr. Prof. P. Ramachandran",
+        "Review-1": 41,
+        "Review-2": 41,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 498,
+        "Name": "Saptarshi Dhameliya",
+        "enrollment": "2405112140083",
+        "Internal Guide": "prof. satyamani Gayatri",
+        "Review-1": 32,
+        "Review-2": 32,
+        "Review-3": 69
+    },
+    {
+        "S.N.": 499,
+        "Name": "Shah Mahek Bhavik",
+        "enrollment": "2405112140084",
+        "Internal Guide": "Prof. Saumil Trivedi",
+        "Review-1": 0,
+        "Review-2": 41,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 500,
+        "Name": "Shubham Prusty",
+        "enrollment": "2405112140086",
+        "Internal Guide": "Prof. Priyanka Mod",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 501,
+        "Name": "Smitkumar Pravinchandra Bariya",
+        "enrollment": "2405112140087",
+        "Internal Guide": "Prof. Faruk Abdulla",
+        "Review-1": 40,
+        "Review-2": 41,
+        "Review-3": 85
+    },
+    {
+        "S.N.": 502,
+        "Name": "Solanki Rachana",
+        "enrollment": "2405112140088",
+        "Internal Guide": "Prof. Nirmit Shah",
+        "Review-1": 0,
+        "Review-2": 37,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 503,
+        "Name": "Sonakshi priya",
+        "enrollment": "2405112140089",
+        "Internal Guide": "Prof. Nirmit Shah",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 504,
+        "Name": "Sonavane Nilesh Ratilal",
+        "enrollment": "2405112140090",
+        "Internal Guide": "Prof. Vaishali Shah",
+        "Review-1": 40,
+        "Review-2": 38,
+        "Review-3": 84
+    },
+    {
+        "S.N.": 505,
+        "Name": "Tushar parmar",
+        "enrollment": "2405112140092",
+        "Internal Guide": "Prof. Faruk Abdulla",
+        "Review-1": 41,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 506,
+        "Name": "Vedant Dinkar Bhonsle",
+        "enrollment": "2405112140094",
+        "Internal Guide": "prof. Sahil Kumar",
+        "Review-1": 43,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 507,
+        "Name": "Velaga Sowmya",
+        "enrollment": "2405112140095",
+        "Internal Guide": "PRof. Akanksha Singh",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 508,
+        "Name": "Raj Vidhi",
+        "enrollment": "2405112140096",
+        "Internal Guide": "Prof. Vivek Dave",
+        "Review-1": 37,
+        "Review-2": 43,
+        "Review-3": 86
+    },
+    {
+        "S.N.": 509,
+        "Name": "Mayur Gorakhanath Yadav",
+        "enrollment": "2405112140098",
+        "Internal Guide": "Prof. Shikha Bansal",
+        "Review-1": "AB",
+        "Review-2": "AB",
+        "Review-3": 79
+    },
+    {
+        "S.N.": 510,
+        "Name": "Sukhadia Pujan Sanjaykumar",
+        "enrollment": "2405112140100",
+        "Internal Guide": "PRof. Akanksha Singh",
+        "Review-1": 0,
+        "Review-2": 47,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 511,
+        "Name": "Jignashaben Rameshbhai Bhil",
+        "enrollment": "2405112140101",
+        "Internal Guide": "Prof. Sweta Jethva",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 512,
+        "Name": "Sanjot Jayesh Kantilal",
+        "enrollment": "2405112140103",
+        "Internal Guide": "Prof. Madhav J Kapadiya",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 513,
+        "Name": "Trupeshkumar manilal vaniya",
+        "enrollment": "2405112140104",
+        "Internal Guide": "Prof. Faruk Abdulla",
+        "Review-1": 38,
+        "Review-2": 40,
+        "Review-3": 85
+    },
+    {
+        "S.N.": 514,
+        "Name": "Akshay yadav",
+        "enrollment": "2405112140105",
+        "Internal Guide": "Prof. Mehulkumar Dalwadi",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 515,
+        "Name": "Sweta Tushar Parikh",
+        "enrollment": "2405112140106",
+        "Internal Guide": "Prof. Shivaniba Dilipsinh Bhadoriya",
+        "Review-1": 0,
+        "Review-2": 40,
+        "Review-3": 65
+    },
+    {
+        "S.N.": 516,
+        "Name": "Prajapati Mitesh",
+        "enrollment": "2405112140108",
+        "Internal Guide": "Prof.Shikha Bansal",
+        "Review-1": 37,
+        "Review-2": 39,
+        "Review-3": 85
+    },
+    {
+        "S.N.": 517,
+        "Name": "Navnit kumar maurya",
+        "enrollment": "2406112130057",
+        "Internal Guide": "prof. satyamani Gayatri",
+        "Review-1": 32,
+        "Review-2": 34,
+        "Review-3": 74
+    },
+    {
+        "S.N.": 518,
+        "Name": "Atharv Sharma",
+        "enrollment": "2504112140010",
+        "Internal Guide": "Prof. RamDeepak Yadagiri",
+        "Review-1": 0,
+        "Review-2": 0,
+        "Review-3": 70
+    },
+    {
+        "S.N.": 519,
+        "Name": "Lilyna Nameirakpam",
+        "enrollment": "2505112110062",
+        "Internal Guide": "Prof. Vipul Gamit",
+        "Review-1": "AB",
+        "Review-2": "AB",
+        "Review-3": 0
+    },
+    {
+        "S.N.": 520,
+        "Name": "Akash Chandra Sarraf",
+        "enrollment": "2405112120012",
+        "Internal Guide": "Prof. Komal Madam",
+        "Review-1": 47,
+        "Review-2": 35,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 521,
+        "Name": "Rohit Dinesh Pawar",
+        "enrollment": "2405112140072",
+        "Internal Guide": "Prof. Shivaniba Dilipsinh Bhadoriya",
+        "Review-1": 0,
+        "Review-2": 15,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 522,
+        "Name": "Diya Mehta",
+        "enrollment": "2205103110004",
+        "Internal Guide": "Consultancy",
+        "Review-1": 45,
+        "Review-2": 48,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 523,
+        "Name": "Saksham Dave",
+        "enrollment": "2205103140013",
+        "Internal Guide": "Consultancy",
+        "Review-1": 44,
+        "Review-2": 46,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 524,
+        "Name": "Ishika Solanki",
+        "enrollment": "2205103120007",
+        "Internal Guide": "Consultancy",
+        "Review-1": 45,
+        "Review-2": 48,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 525,
+        "Name": "Ishika Shah",
+        "enrollment": "2205103050003",
+        "Internal Guide": "Consultancy",
+        "Review-1": 45,
+        "Review-2": 48,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 526,
+        "Name": "Vineet murjani",
+        "enrollment": "2205103120020",
+        "Internal Guide": "Consultancy",
+        "Review-1": 44,
+        "Review-2": 48,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 527,
+        "Name": "Swayam Rajora",
+        "enrollment": "2205103130003",
+        "Internal Guide": "Consultancy",
+        "Review-1": 45,
+        "Review-2": 48,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 528,
+        "Name": "Harsh Vardhan Singh Gehlot",
+        "enrollment": "2205103140005",
+        "Internal Guide": "Consultancy",
+        "Review-1": 45,
+        "Review-2": 48,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 529,
+        "Name": "Het Patel",
+        "enrollment": "2405102140033",
+        "Internal Guide": "Consultancy",
+        "Review-1": 49,
+        "Review-2": 49,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 530,
+        "Name": "Kartik singh",
+        "enrollment": "2205103140014",
+        "Internal Guide": "Consultancy",
+        "Review-1": 45,
+        "Review-2": 48,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 531,
+        "Name": "Varun Shrimal",
+        "enrollment": "2205103140021",
+        "Internal Guide": "Consultancy",
+        "Review-1": 45,
+        "Review-2": 46,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 532,
+        "Name": "Kunalsing Rajput",
+        "enrollment": "2205103120027",
+        "Internal Guide": "Consultancy",
+        "Review-1": 43,
+        "Review-2": 45,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 533,
+        "Name": "Anil patidar",
+        "enrollment": "2405112110010",
+        "Internal Guide": "Consultancy",
+        "Review-1": 45,
+        "Review-2": 46,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 534,
+        "Name": "Prince Makani",
+        "enrollment": "2205103140009",
+        "Internal Guide": "Consultancy",
+        "Review-1": 45,
+        "Review-2": 48,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 535,
+        "Name": "Harshal Ashok Ghuge",
+        "enrollment": "2205103110005",
+        "Internal Guide": "Consultancy",
+        "Review-1": 43,
+        "Review-2": 45,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 536,
+        "Name": "Naman Dangi",
+        "enrollment": "2405102140003",
+        "Internal Guide": "Consultancy",
+        "Review-1": 45,
+        "Review-2": 48,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 537,
+        "Name": "ANUSHKA RASTOGI",
+        "enrollment": "2405112140008",
+        "Internal Guide": "Consultancy",
+        "Review-1": 46,
+        "Review-2": 48,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 538,
+        "Name": "Kailash Patel",
+        "enrollment": "2205103140006",
+        "Internal Guide": "Consultancy",
+        "Review-1": 45,
+        "Review-2": 46,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 539,
+        "Name": "Ronit Patidar",
+        "enrollment": "2205103110009",
+        "Internal Guide": "Consultancy",
+        "Review-1": 45,
+        "Review-2": 46,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 540,
+        "Name": "Patel Yesha",
+        "enrollment": "2405102140043",
+        "Internal Guide": "Consultancy",
+        "Review-1": 46,
+        "Review-2": 44,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 541,
+        "Name": "Dhriti Patel",
+        "enrollment": "2401502140025",
+        "Internal Guide": "Consultancy",
+        "Review-1": 45,
+        "Review-2": 46,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 542,
+        "Name": "Priya Sunilkumar Patel",
+        "enrollment": "2405112110091",
+        "Internal Guide": "Consultancy",
+        "Review-1": 47,
+        "Review-2": 48,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 543,
+        "Name": "DEVESH SINGH CHOUHAN",
+        "enrollment": "2205103140004",
+        "Internal Guide": "Consultancy",
+        "Review-1": 45,
+        "Review-2": 46,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 544,
+        "Name": "Bhujal Vasita",
+        "enrollment": "2205103140002",
+        "Internal Guide": "Consultancy",
+        "Review-1": 44,
+        "Review-2": 46,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 545,
+        "Name": "Manavsinh Mahida",
+        "enrollment": "2405112110063",
+        "Internal Guide": "Consultancy",
+        "Review-1": 45,
+        "Review-2": 45,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 546,
+        "Name": "Akshita Kaushik",
+        "enrollment": "2205103120001",
+        "Internal Guide": "Consultancy",
+        "Review-1": 46,
+        "Review-2": 46,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 547,
+        "Name": "Parmar Divya Maheshbhai",
+        "enrollment": "2405112110080",
+        "Internal Guide": "Consultancy",
+        "Review-1": 46,
+        "Review-2": 46,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 548,
+        "Name": "Prabhat rathod",
+        "enrollment": "2205103120010",
+        "Internal Guide": "Consultancy",
+        "Review-1": 45,
+        "Review-2": 45,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 549,
+        "Name": "Yash sudani",
+        "enrollment": "2405112110126",
+        "Internal Guide": "Consultancy",
+        "Review-1": 45,
+        "Review-2": 45,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 550,
+        "Name": "Patel Janki",
+        "enrollment": "2205103110015",
+        "Internal Guide": "Consultancy",
+        "Review-1": 47,
+        "Review-2": 46,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 551,
+        "Name": "Paghadar Shyam Chetanbhai",
+        "enrollment": "2405112110078",
+        "Internal Guide": "Consultancy",
+        "Review-1": 48,
+        "Review-2": 46,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 552,
+        "Name": "Honey Varachhiya",
+        "enrollment": "2405112110130",
+        "Internal Guide": "Consultancy",
+        "Review-1": 47,
+        "Review-2": 46,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 553,
+        "Name": "Varachhiya yogini Devendrasinh",
+        "enrollment": "2405112110131",
+        "Internal Guide": "Consultancy",
+        "Review-1": 46,
+        "Review-2": 46,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 554,
+        "Name": "BHOOTDA DIVYA DASHARATHBHAI",
+        "enrollment": "2205103120003",
+        "Internal Guide": "Consultancy",
+        "Review-1": 45,
+        "Review-2": 44,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 555,
+        "Name": "GORASIA DARSHITA DINESH",
+        "enrollment": "2405102140007",
+        "Internal Guide": "Consultancy",
+        "Review-1": 45,
+        "Review-2": 45,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 556,
+        "Name": "JAISHA C SUNIL NAIR",
+        "enrollment": "2405102140010",
+        "Internal Guide": "Consultancy",
+        "Review-1": 46,
+        "Review-2": 46,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 557,
+        "Name": "KETKI PRAKASH TAMBEKAR",
+        "enrollment": "2405102140014",
+        "Internal Guide": "Consultancy",
+        "Review-1": 47,
+        "Review-2": 46,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 558,
+        "Name": "PANCHAL JIGAR PRAKASH",
+        "enrollment": "2405102140023",
+        "Internal Guide": "Consultancy",
+        "Review-1": 45,
+        "Review-2": 45,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 559,
+        "Name": "AYUSHI TIWARI",
+        "enrollment": "2405112110014",
+        "Internal Guide": "Consultancy",
+        "Review-1": 40,
+        "Review-2": 40,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 560,
+        "Name": "DHRUV RATHOD",
+        "enrollment": "2405112110031",
+        "Internal Guide": "Consultancy",
+        "Review-1": 42,
+        "Review-2": 42,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 561,
+        "Name": "PAREKH JAY ALPESHKUMAR",
+        "enrollment": "2405112110079",
+        "Internal Guide": "Consultancy",
+        "Review-1": 42,
+        "Review-2": 42,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 562,
+        "Name": "SHAH SHUBHAM RAMESHBHAI",
+        "enrollment": "2405112110118",
+        "Internal Guide": "Consultancy",
+        "Review-1": 43,
+        "Review-2": 42,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 563,
+        "Name": "AMAN RAUSHAN",
+        "enrollment": "2405112070003",
+        "Internal Guide": "Acciojob",
+        "Review-1": 43,
+        "Review-2": 47,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 564,
+        "Name": "PINKU KUMAR",
+        "enrollment": "2405112070040",
+        "Internal Guide": "Acciojob",
+        "Review-1": 37,
+        "Review-2": 37,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 565,
+        "Name": "KUNDAN KUMAR",
+        "enrollment": "2405112110059",
+        "Internal Guide": "Acciojob",
+        "Review-1": 38,
+        "Review-2": 40,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 566,
+        "Name": "AKASH KUMAR",
+        "enrollment": "2405112110007",
+        "Internal Guide": "Acciojob",
+        "Review-1": 38,
+        "Review-2": 40,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 567,
+        "Name": "KHAN DANISH JAVEDAHMED",
+        "enrollment": "2405112110052",
+        "Internal Guide": "Acciojob",
+        "Review-1": 38,
+        "Review-2": 40,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 568,
+        "Name": "SUDHANSHU RANJAN",
+        "enrollment": "2405112070059",
+        "Internal Guide": "Acciojob",
+        "Review-1": 33,
+        "Review-2": 35,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 569,
+        "Name": "SHUSHANK KUMAR",
+        "enrollment": "2405112070056",
+        "Internal Guide": "Acciojob",
+        "Review-1": 43,
+        "Review-2": 35,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 570,
+        "Name": "SAURABH KUMAR",
+        "enrollment": "2405112070050",
+        "Internal Guide": "Acciojob",
+        "Review-1": 28,
+        "Review-2": 35,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 571,
+        "Name": "SAMPDA GANGURDE",
+        "enrollment": "2405112120162",
+        "Internal Guide": "Acciojob",
+        "Review-1": 45,
+        "Review-2": 43,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 572,
+        "Name": "MS AAYUSHI SAINI",
+        "enrollment": "2405112120107",
+        "Internal Guide": "Acciojob",
+        "Review-1": 41,
+        "Review-2": 43,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 573,
+        "Name": "Rishi Singh",
+        "enrollment": "2405102110005",
+        "Internal Guide": "Acciojob",
+        "Review-1": 25,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 574,
+        "Name": "Amit Shrivastav",
+        "enrollment": "2405112110009",
+        "Internal Guide": "Acciojob",
+        "Review-1": 30,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 575,
+        "Name": "VIVEK CHAURASIA",
+        "enrollment": "2405112120195",
+        "Internal Guide": "Acciojob",
+        "Review-1": 37,
+        "Review-2": 33,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 576,
+        "Name": "SUSHIL KUMAR",
+        "enrollment": "2405112120186",
+        "Internal Guide": "Acciojob",
+        "Review-1": 37,
+        "Review-2": 33,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 577,
+        "Name": "Aakash Singh",
+        "enrollment": "2405112120179",
+        "Internal Guide": "Acciojob",
+        "Review-1": 37,
+        "Review-2": 33,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 578,
+        "Name": "HARSHVARDHAN TAILOR",
+        "enrollment": "2405112130009",
+        "Internal Guide": "Acciojob",
+        "Review-1": 40,
+        "Review-2": 43,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 579,
+        "Name": "Abhishek Kumar Trivdei",
+        "enrollment": "2405112070001",
+        "Internal Guide": "Acciojob",
+        "Review-1": 37,
+        "Review-2": 41,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 580,
+        "Name": "Ankit Anand",
+        "enrollment": "2405112130002",
+        "Internal Guide": "Acciojob",
+        "Review-1": 37,
+        "Review-2": 43,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 581,
+        "Name": "KRISHNA KUMAR",
+        "enrollment": "2405112120086",
+        "Internal Guide": "Acciojob",
+        "Review-1": 37,
+        "Review-2": 38,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 582,
+        "Name": "Shubham Kumar",
+        "enrollment": "2405112120177",
+        "Internal Guide": "Acciojob",
+        "Review-1": 37,
+        "Review-2": 38,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 583,
+        "Name": "KUSH KUMAR",
+        "enrollment": "2405112120089",
+        "Internal Guide": "Acciojob",
+        "Review-1": 37,
+        "Review-2": 38,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 584,
+        "Name": "GAUTAM KUMAR",
+        "enrollment": "2405112110038",
+        "Internal Guide": "Acciojob",
+        "Review-1": 41,
+        "Review-2": 40,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 585,
+        "Name": "RABISH KUMAR",
+        "enrollment": "2405112070045",
+        "Internal Guide": "Acciojob",
+        "Review-1": 41,
+        "Review-2": 40,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 586,
+        "Name": "NEERAJ KUMAR",
+        "enrollment": "2405112110075",
+        "Internal Guide": "Acciojob",
+        "Review-1": 41,
+        "Review-2": 40,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 587,
+        "Name": "GANDHI DRASHTI MUKESHKUMAR",
+        "enrollment": "2405112110036",
+        "Internal Guide": "Acciojob",
+        "Review-1": 28,
+        "Review-2": 29,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 588,
+        "Name": "KAHAR VANSHIKA PRAKASHBHAI",
+        "enrollment": "2405112110046",
+        "Internal Guide": "Acciojob",
+        "Review-1": 28,
+        "Review-2": 29,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 589,
+        "Name": "KASHYAP SHUBHAM BALKESH",
+        "enrollment": "2405112110050",
+        "Internal Guide": "Acciojob",
+        "Review-1": 41,
+        "Review-2": 38,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 590,
+        "Name": "DEEPJYOTI KUMARI",
+        "enrollment": "2405112110029",
+        "Internal Guide": "Acciojob",
+        "Review-1": 41,
+        "Review-2": 41,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 591,
+        "Name": "PATEL ANKIT AMARAT",
+        "enrollment": "2405112120117",
+        "Internal Guide": "Acciojob",
+        "Review-1": 38,
+        "Review-2": 37,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 592,
+        "Name": "AGARWAL HARSH MAHESH",
+        "enrollment": "2205103110001",
+        "Internal Guide": "Acciojob",
+        "Review-1": 48,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 593,
+        "Name": "KAPADIA KRISHA SANDIP",
+        "enrollment": "2205103110006",
+        "Internal Guide": "Acciojob",
+        "Review-1": 30,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 594,
+        "Name": "DANISH SHAMSHEE",
+        "enrollment": "2405112070016",
+        "Internal Guide": "Acciojob",
+        "Review-1": 45,
+        "Review-2": 50,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 595,
+        "Name": "SHARMA RIYA MAYURBHAI",
+        "enrollment": "2405112140085",
+        "Internal Guide": "Acciojob",
+        "Review-1": 34,
+        "Review-2": 44,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 596,
+        "Name": "Sameem Ansari",
+        "enrollment": "2405112129161",
+        "Internal Guide": "Acciojob",
+        "Review-1": 30,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 597,
+        "Name": "PAREKH MALVIK GHANSHYAMBHAI",
+        "enrollment": "2205103140018",
+        "Internal Guide": "Acciojob",
+        "Review-1": 30,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 598,
+        "Name": "ADITYA KUMAR",
+        "enrollment": "2405112110003",
+        "Internal Guide": "Acciojob",
+        "Review-1": 37,
+        "Review-2": 44,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 599,
+        "Name": "ADITYA PRAKASH",
+        "enrollment": "2405112110004",
+        "Internal Guide": "Acciojob",
+        "Review-1": 37,
+        "Review-2": 44,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 600,
+        "Name": "CHANDEGRA RUSHIL HEMATBHAI",
+        "enrollment": "2405112140099",
+        "Internal Guide": "Acciojob",
+        "Review-1": 42,
+        "Review-2": 43,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 601,
+        "Name": "PADYACHI ARVIND SITARAM",
+        "enrollment": "2405112140062",
+        "Internal Guide": "Acciojob",
+        "Review-1": 42,
+        "Review-2": 43,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 602,
+        "Name": "KAJAL DUBEY",
+        "enrollment": "2205103140007",
+        "Internal Guide": "Acciojob",
+        "Review-1": 44,
+        "Review-2": 40,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 603,
+        "Name": "CHUNDADIYA HARSH DEVENDRA",
+        "enrollment": "2405112110026",
+        "Internal Guide": "Acciojob",
+        "Review-1": 42,
+        "Review-2": 45,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 604,
+        "Name": "BARIYA VISHWAS KISHORKUMAR",
+        "enrollment": "2405112110015",
+        "Internal Guide": "Acciojob",
+        "Review-1": 42,
+        "Review-2": 45,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 605,
+        "Name": "BAVALIYA HARDIK JAYSHUKHBHAI",
+        "enrollment": "2405112110017",
+        "Internal Guide": "Acciojob",
+        "Review-1": 43,
+        "Review-2": 44,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 606,
+        "Name": "SAURABH KUMAR",
+        "enrollment": "2405112120164",
+        "Internal Guide": "Acciojob",
+        "Review-1": 36,
+        "Review-2": 40,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 607,
+        "Name": "LAXMAN KUMAR CHAUDHARY",
+        "enrollment": "2405112120092",
+        "Internal Guide": "Acciojob",
+        "Review-1": 36,
+        "Review-2": 40,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 608,
+        "Name": "Abhishek Kumar",
+        "enrollment": "2405112120003",
+        "Internal Guide": "Acciojob",
+        "Review-1": 36,
+        "Review-2": 40,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 609,
+        "Name": "Chudasama Vijay BhalaBhai",
+        "enrollment": "2405112110025",
+        "Internal Guide": "Acciojob",
+        "Review-1": 44,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 610,
+        "Name": "Chauhan Adhya Ashokbhai",
+        "enrollment": "2405112110021",
+        "Internal Guide": "Acciojob",
+        "Review-1": 44,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 611,
+        "Name": "DIBYASHA SAHU",
+        "enrollment": "2405112120043",
+        "Internal Guide": "Acciojob",
+        "Review-1": 50,
+        "Review-2": 50,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 612,
+        "Name": "R S SUBHAM MOHANTY",
+        "enrollment": "2405112120146",
+        "Internal Guide": "Acciojob",
+        "Review-1": 50,
+        "Review-2": 50,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 613,
+        "Name": "VINZUDA KISHAN BALUBHAI",
+        "enrollment": "2405112140097",
+        "Internal Guide": "Acciojob",
+        "Review-1": 40,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 614,
+        "Name": "DADHANIYA VASUKUMAR MANSUKHBHAI",
+        "enrollment": "2405112140025",
+        "Internal Guide": "Acciojob",
+        "Review-1": 30,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 615,
+        "Name": "Sondarva Bipin Laljibhai",
+        "enrollment": "2405112140091",
+        "Internal Guide": "Acciojob",
+        "Review-1": 30,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 616,
+        "Name": "ROHIT PARTHBHAI BHARATBHAI",
+        "enrollment": "2405112120156",
+        "Internal Guide": "Acciojob",
+        "Review-1": 21,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 617,
+        "Name": "PRAGYA SINGH",
+        "enrollment": "2205103120008",
+        "Internal Guide": "Acciojob",
+        "Review-1": 44,
+        "Review-2": 36,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 618,
+        "Name": "ASTHA KUMARI",
+        "enrollment": "2405112120020",
+        "Internal Guide": "Acciojob",
+        "Review-1": 50,
+        "Review-2": 50,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 619,
+        "Name": "AKANKSHA GUPTA",
+        "enrollment": "2405112120011",
+        "Internal Guide": "Acciojob",
+        "Review-1": 50,
+        "Review-2": 50,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 620,
+        "Name": "Aditya Singh",
+        "enrollment": "2405112120005",
+        "Internal Guide": "Acciojob",
+        "Review-1": 50,
+        "Review-2": 50,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 621,
+        "Name": "PRAJAPATI SHIVAM BRIJRAJ",
+        "enrollment": "2405112140075",
+        "Internal Guide": "Acciojob",
+        "Review-1": 44,
+        "Review-2": 47,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 622,
+        "Name": "Aniket Yadav",
+        "enrollment": "2405112130001",
+        "Internal Guide": "Acciojob",
+        "Review-1": 37,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 623,
+        "Name": "Makwana Urvashi Kamleshbhai",
+        "enrollment": "2405112120097",
+        "Internal Guide": "Acciojob",
+        "Review-1": 39,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 624,
+        "Name": "MAKWANA HARSHADKUMAR RAMESHBHAI",
+        "enrollment": "2405112110064",
+        "Internal Guide": "Acciojob",
+        "Review-1": 40,
+        "Review-2": 0,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 625,
+        "Name": "Praful Parmar",
+        "enrollment": "2405102110004",
+        "Internal Guide": "Acciojob",
+        "Review-1": 41,
+        "Review-2": 35,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 626,
+        "Name": "RISHITA RAI",
+        "enrollment": "2405112140080",
+        "Internal Guide": "Acciojob",
+        "Review-1": 39,
+        "Review-2": 41,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 627,
+        "Name": "Parth Patel",
+        "enrollment": "2405102120006",
+        "Internal Guide": "Acciojob",
+        "Review-1": 45,
+        "Review-2": 44,
+        "Review-3": 0
+    },
+    {
+        "S.N.": 628,
+        "Name": "Suraj Pal",
+        "enrollment": "2405112130024",
+        "Internal Guide": "Acciojob",
+        "Review-1": 34,
+        "Review-2": 32,
+        "Review-3": 0
+    }
+]
