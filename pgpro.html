@@ -1,0 +1,1067 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.5, user-scalable=yes">
+    <title>Parul Guide · Group Compass + CEC Marks</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        }
+
+        body {
+            background: radial-gradient(circle at 20% 30%, #e9eaff, #d4daf7);
+            min-height: 100vh;
+            padding: 24px 16px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1300px;
+            background: rgba(255,255,255,0.85);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-radius: 32px;
+            box-shadow: 0 20px 40px -12px rgba(18, 22, 65, 0.18);
+            border: 1px solid rgba(255,255,255,0.5);
+            overflow: hidden;
+            transition: all 0.2s;
+        }
+
+        /* header – crisp, compact */
+        .header {
+            background: linear-gradient(145deg, #1f2a6b, #252e7a);
+            color: white;
+            padding: 24px 32px 20px;
+            position: relative;
+        }
+
+        .header-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 12px;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .university-info {
+            line-height: 1.2;
+        }
+
+        .university-name {
+            font-size: 1.35rem;
+            font-weight: 600;
+            letter-spacing: -0.01em;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .university-name::before {
+            content: "🎓";
+            font-size: 1.4rem;
+        }
+
+        .department-name {
+            font-size: 0.85rem;
+            font-weight: 400;
+            opacity: 0.8;
+            margin-top: 2px;
+        }
+
+        .stats-container {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .stat-item {
+            background: rgba(255,255,255,0.12);
+            backdrop-filter: blur(8px);
+            padding: 8px 20px;
+            border-radius: 100px;
+            border: 0.5px solid rgba(255,255,255,0.3);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            transition: all 0.2s;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.04);
+        }
+
+        .stat-value {
+            font-size: 1.7rem;
+            font-weight: 700;
+            line-height: 1;
+            background: linear-gradient(135deg, #fff, #ffe9a0);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .stat-label {
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 600;
+            opacity: 0.85;
+        }
+
+        .header h1 {
+            font-size: 1.9rem;
+            font-weight: 700;
+            margin: 10px 0 4px;
+            letter-spacing: -0.02em;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .header p {
+            font-size: 0.9rem;
+            opacity: 0.85;
+            margin-bottom: 16px;
+            font-weight: 400;
+        }
+
+        .modal-btn, .marks-btn {
+            background: white;
+            color: #1f2a6b;
+            border: none;
+            padding: 8px 24px;
+            border-radius: 40px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+            transition: 0.18s;
+            border: 1px solid rgba(255,255,255,0.5);
+            cursor: pointer;
+        }
+        .marks-btn {
+            background: #f4e9ff;
+            color: #2d1b4e;
+            border: 1px solid #d0b9f0;
+            margin-left: 12px;
+        }
+        .modal-btn:hover { background: #f9f9ff; transform: scale(0.98); }
+        .marks-btn:hover { background: #e5d4ff; transform: scale(0.98); }
+
+        /* marks button in header */
+        .view-marks-btn {
+            background: #ffd966;
+            color: #1f2a6b;
+            border: none;
+            padding: 10px 24px;
+            border-radius: 40px;
+            font-weight: 700;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: 0.18s;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-top: 10px;
+            border: 1px solid rgba(255,255,255,0.3);
+        }
+        .view-marks-btn:hover {
+            background: #ffe082;
+            transform: scale(1.02);
+            box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+        }
+
+        /* ---------- compact modal (guides + CEC marks) ---------- */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(20, 25, 50, 0.6);
+            backdrop-filter: blur(5px);
+            z-index: 999;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal-content {
+            background: white;
+            width: 90%;
+            max-width: 1100px;
+            max-height: 80vh;
+            border-radius: 28px;
+            box-shadow: 0 30px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+            animation: modalSlide 0.25s ease;
+        }
+
+        @keyframes modalSlide {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .modal-header {
+            background: linear-gradient(145deg, #1f2a6b, #19215a);
+            color: white;
+            padding: 18px 28px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .modal-header h2 {
+            font-size: 1.4rem;
+            font-weight: 600;
+            letter-spacing: -0.01em;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .modal-header span {
+            background: #ffd966;
+            color: #1f2a6b;
+            padding: 4px 12px;
+            border-radius: 50px;
+            font-size: 0.85rem;
+            font-weight: 700;
+        }
+
+        .close-modal {
+            background: none;
+            border: none;
+            color: white;
+            font-size: 32px;
+            cursor: pointer;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            transition: 0.15s;
+        }
+        .close-modal:hover { background: rgba(255,255,255,0.2); }
+
+        .modal-body {
+            padding: 16px 20px;
+            overflow-y: auto;
+            max-height: calc(80vh - 80px);
+            background: #f5f7fd;
+        }
+
+        /* guide items inside modal */
+        .guide-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+            gap: 10px;
+        }
+
+        .guide-item {
+            background: white;
+            border-radius: 16px;
+            padding: 14px 16px;
+            display: flex;
+            flex-direction: column;
+            border: 1px solid #e7ebf5;
+            transition: all 0.15s;
+            cursor: pointer;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.02);
+        }
+
+        .guide-item:hover {
+            border-color: #3b4b9e;
+            background: #f3f5ff;
+            transform: translateY(-2px);
+            box-shadow: 0 10px 18px -8px rgba(39, 55, 140, 0.2);
+        }
+
+        .guide-header-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 6px;
+        }
+
+        .guide-name-modal {
+            font-weight: 700;
+            color: #121a44;
+            font-size: 0.98rem;
+        }
+
+        .guide-group-count {
+            background: #232f6e;
+            color: white;
+            border-radius: 40px;
+            padding: 3px 10px;
+            font-size: 0.7rem;
+            font-weight: 600;
+        }
+
+        .guide-students-info {
+            font-size: 0.8rem;
+            color: #3c4570;
+            display: flex;
+            justify-content: space-between;
+            border-top: 1px dashed #ced6e5;
+            padding-top: 8px;
+            margin-top: 4px;
+        }
+
+        /* marks table inside marks modal */
+        .marks-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.85rem;
+            border-radius: 16px;
+            border-style: hidden;
+            box-shadow: 0 0 0 1px #dde3f0;
+            background: white;
+        }
+        .marks-table th {
+            background: #e9eefc;
+            padding: 12px 8px;
+            font-weight: 600;
+            color: #101b44;
+            text-align: left;
+        }
+        .marks-table td {
+            padding: 10px 8px;
+            border-bottom: 1px solid #eef2f9;
+        }
+        .marks-table tbody tr:hover {
+            background: #f5f9ff;
+        }
+        .total-marks-badge {
+            font-weight: 700;
+            background: #1f2a6b;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 30px;
+            font-size: 0.8rem;
+            display: inline-block;
+        }
+        .warning-chip {
+            color: #b85c00;
+            font-style: italic;
+        }
+
+        /* search section */
+        .search-section {
+            padding: 20px 28px;
+            background: #ffffffd9;
+            backdrop-filter: blur(8px);
+            border-bottom: 1px solid #eef2f9;
+        }
+
+        .search-box {
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        .search-label {
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: #0d1942;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .input-group {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+            background: white;
+            border-radius: 60px;
+            padding: 4px;
+            border: 1.5px solid #e3e9f5;
+            transition: 0.15s;
+        }
+        .input-group:focus-within {
+            border-color: #3f51b5;
+            box-shadow: 0 0 0 3px rgba(57, 73, 171, 0.08);
+        }
+        #guideName {
+            flex: 1;
+            padding: 12px 18px;
+            border: none;
+            border-radius: 60px;
+            font-size: 0.95rem;
+            background: transparent;
+            outline: none;
+        }
+        #searchBtn {
+            background: linear-gradient(145deg, #1f2a6b, #121b4b);
+            color: white;
+            border: none;
+            padding: 10px 28px;
+            border-radius: 60px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            cursor: pointer;
+            transition: 0.18s;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            white-space: nowrap;
+        }
+        #searchBtn:hover { background: #2a3a8c; transform: scale(0.96); }
+
+        /* results section */
+        .results-section { padding: 0; background: white; }
+        .empty-state, .no-results { text-align: center; padding: 50px 24px; color: #3a4468; }
+        .empty-icon { font-size: 3.2rem; opacity: 0.5; margin-bottom: 12px; }
+        .results-container { padding: 0; display: none; }
+
+        .guide-header {
+            background: linear-gradient(105deg, #f2f5ff, #ffffff);
+            padding: 16px 28px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid #eef2f9;
+        }
+        .guide-name { font-size: 1.5rem; font-weight: 700; color: #101941; }
+        .guide-meta {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            background: #e9edfc;
+            padding: 6px 18px;
+            border-radius: 60px;
+            color: #172155;
+            font-weight: 500;
+        }
+        .student-count {
+            background: #1f2a6b;
+            color: white;
+            padding: 3px 14px;
+            border-radius: 60px;
+            font-size: 0.85rem;
+            font-weight: 700;
+        }
+        .students-container { padding: 12px 20px 24px; max-height: 480px; overflow-y: auto; }
+        .student-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.78rem;
+            border-radius: 16px;
+            box-shadow: 0 0 0 1px #e2e8f0;
+        }
+        .student-table th {
+            background: #f1f4fe;
+            padding: 10px 8px;
+            font-weight: 600;
+            color: #1c2551;
+            font-size: 0.68rem;
+            text-align: left;
+        }
+        .student-table td { padding: 9px 8px; border-bottom: 1px solid #edf1fa; }
+        .group-badge {
+            background: #e0e6fc;
+            color: #19245e;
+            font-weight: 700;
+            padding: 3px 8px;
+            border-radius: 30px;
+            font-size: 0.7rem;
+            display: inline-block;
+        }
+        .compact-total-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background: #ffffff;
+            padding: 4px 14px;
+            border-radius: 60px;
+            color: #19215a;
+            font-size: 0.8rem;
+            font-weight: 600;
+            border: 1px solid #ced9f0;
+        }
+        .loading-spinner {
+            width: 32px; height: 32px;
+            border: 3px solid #e2e8f0;
+            border-top-color: #1f2a6b;
+            border-radius: 50%;
+            animation: spin 0.7s infinite;
+            margin: 0 auto 12px;
+        }
+        @keyframes spin { to { transform: rotate(360deg); } }
+        
+        /* toggle debug button (hidden by default) */
+        .toggle-debug {
+            background: #6c757d;
+            color: white;
+            border: none;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            cursor: pointer;
+            margin: 10px 28px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <div class="header-top">
+            <div class="university-info">
+                <div class="university-name">Parul University</div>
+                <div class="department-name">MCA · Internal Guides</div>
+            </div>
+            <div style="display: flex; gap:10px; flex-wrap: wrap;">
+                <a href="https://fitcspgproject.github.io/pgproject/review.html" 
+                   style="display:inline-block; padding:10px 18px; font-size:14px; font-weight:600; color:#ffffff; background-color:#2c3e50; text-decoration:none; border-radius:6px;">
+                   View Review Schedule
+                </a>
+                <div class="stat-item" id="totalGuidesStat">
+                    <div class="stat-value">0</div><div class="stat-label">GUIDES</div>
+                </div>
+                <div class="stat-item" id="totalStudentsStat">
+                    <div class="stat-value">0</div><div class="stat-label">STUDENTS</div>
+                </div>
+            </div>
+        </div>
+        <h1>📋 Group Compass + CEC</h1>
+        <p>Internal guide · groups & review marks</p>
+        <div style="display:flex; gap:12px; flex-wrap:wrap;">
+            <button class="modal-btn" id="viewGuidesBtn">📖 Browse all guides & groups</button>
+        </div>
+    </div>
+
+    <!-- Debug Console (hidden by default) -->
+    <div class="debug-console" id="debugConsole" style="display:none;">
+        <div id="debugLog"></div>
+    </div>
+
+    <!-- File Status Indicator (simplified) -->
+    <div class="file-status" id="fileStatus">
+        <div class="status-item">
+            <span class="status-dot" id="reviewStatus"></span>
+            <span id="reviewCount"></span>
+        </div>
+    </div>
+
+    <!-- MODAL: all guides compact -->
+    <div class="modal" id="guidesModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>🗂️ Internal guides <span id="totalGuidesCount">0</span></h2>
+                <button class="close-modal" id="closeModal">✕</button>
+            </div>
+            <div class="modal-body" id="modalBody">
+                <div class="loading" id="modalLoading"><div class="loading-spinner"></div><p>Fetching guides...</p></div>
+                <div class="guide-stats" id="guideStats"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL: CEC marks for selected guide -->
+    <div class="modal" id="marksModal">
+        <div class="modal-content" style="max-width: 1100px;">
+            <div class="modal-header">
+                <h2>📊 CEC Review Marks · <span id="marksGuideNameSpan"></span></h2>
+                <button class="close-modal" id="closeMarksModal">✕</button>
+            </div>
+            <div class="modal-body" id="marksModalBody">
+                <div class="loading" id="marksLoading"><div class="loading-spinner"></div><p>Loading marks...</p></div>
+                <div id="marksContent" style="display:none;">
+                    <div style="margin-bottom: 15px; padding: 10px; background: #e9eefc; border-radius: 8px;">
+                        <strong>📋 Students under this guide: <span id="totalStudentsForMarks">0</span></strong> | 
+                        <strong>✅ Found reviews: <span id="foundReviewsCount">0</span></strong>
+                    </div>
+                    <table class="marks-table" id="marksTable">
+                        <thead><tr>
+                            <th>Name</th>
+                            <th>Enrollment</th>
+                            <th>Review-1</th>
+                            <th>Review-2</th>
+                            <th>Review-3</th>
+                            <th>Total (out of 200)</th>
+                        </tr></thead>
+                        <tbody id="marksTableBody"></tbody>
+                    </table>
+                    <p style="font-size:0.75rem; margin-top:12px; color:#666;">*AB / missing = 0 marks | Maximum 200 (R1+R2+R3)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="search-section">
+        <div class="search-box">
+            <label class="search-label">🔎 Guide name</label>
+            <div class="input-group">
+                <input type="text" id="guideName" placeholder="e.g., Prof. Vivek Dave, Dr. Hina Chokshi" autocomplete="off">
+                <button id="searchBtn">🔍 Search</button>
+            </div>
+            <div class="suggestions" id="suggestions">⚡ Loading available guides...</div>
+        </div>
+    </div>
+
+    <!-- loading / error -->
+    <div class="loading" id="globalLoading"><div class="loading-spinner"></div><p>Loading directory...</p></div>
+    <div class="error-message" id="errorMessage" style="display:none; padding:30px; text-align:center; color:#721c24; background:#f8d7da;"></div>
+
+    <div class="results-section">
+        <div class="empty-state" id="emptyState">
+            <div class="empty-icon">🔍✨</div>
+            <h3>Find internal guide</h3>
+            <p>Enter name above to see all students</p>
+        </div>
+        <div class="no-results" id="noResults" style="display:none;">
+            <div class="empty-icon">🧑‍🏫</div>
+            <h3>No matching guide</h3>
+        </div>
+
+        <div class="results-container" id="resultsContainer">
+            <div class="guide-header">
+                <div style="display: flex; align-items: center; gap: 12px; flex-wrap: wrap;">
+                    <h2 class="guide-name" id="guideNameDisplay"></h2>
+                    <span class="compact-total-badge" id="groupCountBadge">📁 0 groups</span>
+                </div>
+                <div class="guide-meta">
+                    <span>👥 total students</span>
+                    <span class="student-count" id="studentCount">0</span>
+                </div>
+            </div>
+            
+            <!-- View Marks Button -->
+            <div style="padding: 15px 28px; background: #f8faff; border-bottom: 1px solid #eef2f9;">
+                <button class="view-marks-btn" id="viewMarksForGuideBtn">
+                    📊 View CEC Marks for All Students Under This Guide
+                </button>
+                <p style="font-size:0.8rem; margin-top:8px; color:#666;">
+                    Click to fetch review marks for all <span id="studentCount2">0</span> students from review.json
+                </p>
+            </div>
+            
+            <div class="students-container" id="studentsContainer">
+                <table class="student-table" id="studentTable">
+                    <thead><tr>
+                        <th>Group#</th>
+                        <th>Name</th>
+                        <th>Enrollment</th>
+                        <th>Contact</th>
+                        <th>Program</th>
+                        <th>Project</th>
+                        <th>Company</th>
+                    </tr></thead>
+                    <tbody id="studentTableBody"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    (function() {
+        // disable right click (optional - uncomment if needed)
+        document.addEventListener('contextmenu', e => e.preventDefault());
+
+        // ---------- GLOBAL DATA ----------
+        let guideData = null;
+        let allGuides = [];
+        let guideStats = {};
+        let totalStudents = 0;
+        let reviewData = [];
+        let reviewsLoaded = false;
+        let currentGuideName = '';
+        let currentGuideStats = null;
+
+        // Helper function to get enrollment from review record (handles different field names)
+        function getReviewEnrollment(record) {
+            return record.Enrollment || record.enrollment || record.ENROLLMENT;
+        }
+
+        // Helper function to normalize enrollment as string for comparison
+        function normalizeEnrollment(value) {
+            if (value == null) return '';
+            return String(value).trim();
+        }
+
+        // Matching function - compares enrollments as strings
+        function findMatchingReview(enrollment) {
+            if (enrollment == null) return null;
+
+            const enrollStr = normalizeEnrollment(enrollment);
+            if (enrollStr === '') return null;
+
+            return reviewData.find(r => {
+                const reviewEnroll = getReviewEnrollment(r);
+                if (reviewEnroll == null) return false;
+                return enrollStr === normalizeEnrollment(reviewEnroll);
+            }) || null;
+        }
+
+        // Get all matching reviews for current guide
+        function getMatchingReviewsForCurrentGuide() {
+            if (!currentGuideStats || !currentGuideStats.students) return [];
+            
+            const matches = [];
+            const matchedEnrollments = new Set();
+            
+            currentGuideStats.students.forEach(student => {
+                if (student && student.enrollment) {
+                    const enrollment = student.enrollment;
+                    const match = findMatchingReview(enrollment);
+                    
+                    if (match) {
+                        const enrollKey = normalizeEnrollment(enrollment);
+                        if (!matchedEnrollments.has(enrollKey)) {
+                            matches.push(match);
+                            matchedEnrollments.add(enrollKey);
+                        }
+                    }
+                }
+            });
+            
+            return matches;
+        }
+
+        // Update file status indicators
+        function updateFileStatus() {
+            const reviewDot = document.getElementById('reviewStatus');
+            const reviewCount = document.getElementById('reviewCount');
+            
+            reviewDot.className = 'status-dot ' + (reviewData.length > 0 ? 'green' : 'red');
+            reviewCount.textContent = reviewData.length > 0 ? `📊 ${reviewData.length} review records` : '📊 No review data';
+        }
+
+        // ---------- LOAD BOTH JSON ----------
+        async function loadAllData() {
+            const loadingEl = document.getElementById('globalLoading');
+            const errorEl = document.getElementById('errorMessage');
+            
+            try {
+                loadingEl.style.display = 'block';
+                errorEl.style.display = 'none';
+                
+                document.getElementById('emptyState').style.display = 'block';
+                document.getElementById('resultsContainer').style.display = 'none';
+                document.getElementById('noResults').style.display = 'none';
+
+                // Try to load data1.json
+                try {
+                    const resp1 = await fetch('data1.json');
+                    if (!resp1.ok) throw new Error(`HTTP ${resp1.status}`);
+                    const text1 = await resp1.text();
+                    guideData = JSON.parse(text1);
+                } catch (e) {
+                    loadingEl.style.display = 'none';
+                    errorEl.style.display = 'block';
+                    errorEl.innerHTML = `❌ Error loading data1.json: ${e.message}`;
+                    return;
+                }
+
+                // Try to load review.json
+                try {
+                    const resp2 = await fetch('review.json');
+                    if (!resp2.ok) throw new Error(`HTTP ${resp2.status}`);
+                    const text2 = await resp2.text();
+                    reviewData = JSON.parse(text2);
+                    reviewsLoaded = true;
+                } catch (e) {
+                    loadingEl.style.display = 'none';
+                    errorEl.style.display = 'block';
+                    errorEl.innerHTML = `❌ Error loading review.json: ${e.message}`;
+                    return;
+                }
+
+                // Process the data
+                processGuideData(guideData);
+                setupSearchSuggestions();
+                updateHeaderStats();
+                updateFileStatus();
+
+                loadingEl.style.display = 'none';
+                
+            } catch (error) {
+                console.error('Fatal error:', error);
+                loadingEl.style.display = 'none';
+                errorEl.style.display = 'block';
+                errorEl.innerHTML = `❌ Fatal error: ${error.message}`;
+            }
+        }
+
+        function processGuideData(data) {
+            guideStats = {};
+            totalStudents = 0;
+            
+            if (!data || !Array.isArray(data)) {
+                console.error('Invalid guide data');
+                return;
+            }
+            
+            data.forEach((group) => {
+                if (group && group.internal_guide) {
+                    const guideName = group.internal_guide.trim();
+                    if (!guideStats[guideName]) {
+                        guideStats[guideName] = { groups: 0, totalStudents: 0, students: [] };
+                    }
+                    guideStats[guideName].groups += 1;
+
+                    if (group.projects && Array.isArray(group.projects)) {
+                        group.projects.forEach(project => {
+                            if (project && project.members && Array.isArray(project.members)) {
+                                project.members.forEach(student => {
+                                    guideStats[guideName].students.push({
+                                        ...student,
+                                        s_no: project.s_no || '—',
+                                        project_title: project.project_title || '—',
+                                        company: group.company_name || '—',
+                                        group_no: project.s_no || '—'
+                                    });
+                                });
+                            }
+                        });
+                    }
+
+                    guideStats[guideName].totalStudents = guideStats[guideName].students.length;
+                    totalStudents += guideStats[guideName].students.length;
+                }
+            });
+            
+            allGuides = Object.keys(guideStats).sort();
+            
+            // Update suggestions text
+            const suggestionsEl = document.getElementById('suggestions');
+            if (allGuides.length > 0) {
+                suggestionsEl.innerHTML = `⚡ ${allGuides.slice(0, 3).join(' · ')} ${allGuides.length > 3 ? '· and ' + (allGuides.length - 3) + ' more' : ''}`;
+            } else {
+                suggestionsEl.innerHTML = '⚡ No guides found';
+            }
+        }
+
+        function updateHeaderStats() {
+            document.querySelector('#totalGuidesStat .stat-value').textContent = allGuides.length;
+            document.querySelector('#totalStudentsStat .stat-value').textContent = totalStudents;
+            document.getElementById('totalGuidesCount').textContent = allGuides.length;
+        }
+
+        function setupSearchSuggestions() {
+            const input = document.getElementById('guideName');
+            const oldDatalist = document.getElementById('guideSuggestions');
+            if (oldDatalist) oldDatalist.remove();
+            
+            const datalist = document.createElement('datalist');
+            datalist.id = 'guideSuggestions';
+            allGuides.forEach(g => {
+                const opt = document.createElement('option');
+                opt.value = g;
+                datalist.appendChild(opt);
+            });
+            document.body.appendChild(datalist);
+            input.setAttribute('list', 'guideSuggestions');
+        }
+
+        // ---------- MODAL : all guides ----------
+        function showGuidesModal() {
+            const modal = document.getElementById('guidesModal');
+            const modalLoading = document.getElementById('modalLoading');
+            const guideStatsContainer = document.getElementById('guideStats');
+            const totalGuidesCount = document.getElementById('totalGuidesCount');
+
+            modal.style.display = 'flex';
+            modalLoading.style.display = 'block';
+            guideStatsContainer.innerHTML = '';
+            totalGuidesCount.textContent = allGuides.length;
+
+            setTimeout(() => {
+                allGuides.forEach(guideName => {
+                    const stats = guideStats[guideName];
+                    if (!stats) return;
+                    
+                    const guideItem = document.createElement('div');
+                    guideItem.className = 'guide-item';
+                    guideItem.innerHTML = `
+                        <div class="guide-header-info">
+                            <div class="guide-name-modal">${guideName}</div>
+                            <div class="guide-group-count">${stats.groups} group${stats.groups !== 1 ? 's' : ''}</div>
+                        </div>
+                        <div class="guide-students-info">
+                            <span>👥 ${stats.totalStudents} student${stats.totalStudents !== 1 ? 's' : ''}</span>
+                            <span style="background:#e9ecf5; padding:2px 8px; border-radius:20px;">⚡ click</span>
+                        </div>
+                    `;
+                    guideItem.addEventListener('click', () => {
+                        document.getElementById('guideName').value = guideName;
+                        modal.style.display = 'none';
+                        searchGuide();
+                    });
+                    guideStatsContainer.appendChild(guideItem);
+                });
+                modalLoading.style.display = 'none';
+            }, 150);
+        }
+
+        // ---------- SEARCH GUIDE AND DISPLAY ALL STUDENTS ----------
+        function searchGuide() {
+            const searchTerm = document.getElementById('guideName').value.trim();
+            currentGuideName = searchTerm;
+            
+            const emptyState = document.getElementById('emptyState');
+            const noResults = document.getElementById('noResults');
+            const resultsContainer = document.getElementById('resultsContainer');
+
+            if (!searchTerm) {
+                emptyState.style.display = 'block'; 
+                noResults.style.display = 'none'; 
+                resultsContainer.style.display = 'none'; 
+                return;
+            }
+            
+            if (!guideStats[searchTerm]) {
+                emptyState.style.display = 'none'; 
+                noResults.style.display = 'block'; 
+                resultsContainer.style.display = 'none'; 
+                return;
+            }
+            
+            currentGuideStats = guideStats[searchTerm];
+            
+            displayGuideDetails(searchTerm, currentGuideStats);
+            
+            emptyState.style.display = 'none'; 
+            noResults.style.display = 'none'; 
+            resultsContainer.style.display = 'block';
+            
+            document.getElementById('studentCount2').textContent = currentGuideStats.totalStudents;
+        }
+
+        function displayGuideDetails(guideName, stats) {
+            document.getElementById('guideNameDisplay').textContent = guideName;
+            document.getElementById('studentCount').textContent = stats.totalStudents;
+            document.getElementById('studentCount2').textContent = stats.totalStudents;
+            
+            const groupBadge = document.getElementById('groupCountBadge');
+            groupBadge.innerHTML = `📁 ${stats.groups} group${stats.groups !== 1 ? 's' : ''}`;
+
+            const tbody = document.getElementById('studentTableBody');
+            tbody.innerHTML = '';
+            
+            if (!stats.students || stats.students.length === 0) {
+                tbody.innerHTML = '<tr><td colspan="7" style="text-align:center; padding:30px;">No students found</td></tr>';
+                return;
+            }
+            
+            const allStudents = [...stats.students].sort((a,b) => String(a.s_no||'').localeCompare(String(b.s_no||''), undefined, {numeric:true}));
+
+            allStudents.forEach(student => {
+                const row = document.createElement('tr');
+                const groupNumber = student.s_no || '—';
+                const name = student.name || '—';
+                const enrollment = student.enrollment || '—';
+                const mobile = student.mobile || '—';
+                const email = student.enrollment ? `${student.enrollment}@paruluniversity.ac.in` : '—';
+                const program = student.program || '—';
+                const project = student.project_title || '—';
+                const company = student.company || '—';
+                row.innerHTML = `<td><span class="group-badge">#${groupNumber}</span></td>
+                    <td class="student-name">${name}</td>
+                    <td style="font-size:0.7rem;">${enrollment}</td>
+                    <td style="font-size:0.7rem;">${mobile}<br><small>${email}</small></td>
+                    <td>${program}</td>
+                    <td style="max-width:140px; overflow:hidden; text-overflow:ellipsis;" title="${project}">${project}</td>
+                    <td style="font-size:0.7rem;">${company}</td>`;
+                tbody.appendChild(row);
+            });
+        }
+
+        // ---------- VIEW CEC MARKS FOR CURRENT GUIDE'S STUDENTS ----------
+        function viewMarksForCurrentGuide() {
+            if (!currentGuideName || !currentGuideStats) {
+                alert('Please search and select an internal guide first.');
+                return;
+            }
+
+            const modal = document.getElementById('marksModal');
+            const marksLoading = document.getElementById('marksLoading');
+            const marksContent = document.getElementById('marksContent');
+            const tbody = document.getElementById('marksTableBody');
+            const guideSpan = document.getElementById('marksGuideNameSpan');
+            const totalStudentsSpan = document.getElementById('totalStudentsForMarks');
+            const foundReviewsSpan = document.getElementById('foundReviewsCount');
+
+            guideSpan.textContent = currentGuideName;
+            totalStudentsSpan.textContent = currentGuideStats.totalStudents;
+            
+            modal.style.display = 'flex';
+            marksLoading.style.display = 'block';
+            marksContent.style.display = 'none';
+            tbody.innerHTML = '';
+
+            const matchingReviews = getMatchingReviewsForCurrentGuide();
+            foundReviewsSpan.textContent = matchingReviews.length;
+
+            setTimeout(() => {
+                marksLoading.style.display = 'none';
+                
+                if (matchingReviews.length === 0) {
+                    tbody.innerHTML = '<tr><td colspan="6" style="text-align:center; padding:30px;">No review entries found for these students</td></tr>';
+                } else {
+                    matchingReviews.sort((a,b) => (a.Name || '').localeCompare(b.Name || ''));
+                    
+                    matchingReviews.forEach((rev) => {
+                        const r1 = rev['Review-1'];
+                        const r2 = rev['Review-2'];
+                        const r3 = rev['Review-3'];
+                        
+                        const safeNum = (val) => {
+                            if (val === 'AB' || val === 'ab' || val === null || val === undefined || val === '') return 0;
+                            const num = Number(val);
+                            return isNaN(num) ? 0 : num;
+                        };
+                        
+                        const r1val = safeNum(r1);
+                        const r2val = safeNum(r2);
+                        const r3val = safeNum(r3);
+                        const total = r1val + r2val + r3val;
+
+                        const row = document.createElement('tr');
+                        row.innerHTML = `
+                            <td><strong>${rev.Name || '—'}</strong></td>
+                            <td>${rev.Enrollment || rev.enrollment || '—'}</td>
+                            <td>${r1val} ${r1 === 'AB' ? '<span class="warning-chip">(AB)</span>' : ''}</td>
+                            <td>${r2val} ${r2 === 'AB' ? '<span class="warning-chip">(AB)</span>' : ''}</td>
+                            <td>${r3 === null ? '0' : r3val} ${r3 === 'AB' ? '<span class="warning-chip">(AB)</span>' : ''}</td>
+                            <td><span class="total-marks-badge">${total}/200</span></td>`;
+                        tbody.appendChild(row);
+                    });
+                }
+                marksContent.style.display = 'block';
+            }, 200);
+        }
+
+        // close modals
+        document.getElementById('closeModal').addEventListener('click', ()=>document.getElementById('guidesModal').style.display='none');
+        document.getElementById('closeMarksModal').addEventListener('click', ()=>document.getElementById('marksModal').style.display='none');
+        
+        window.addEventListener('click', (e) => {
+            if (e.target === document.getElementById('guidesModal')) document.getElementById('guidesModal').style.display='none';
+            if (e.target === document.getElementById('marksModal')) document.getElementById('marksModal').style.display='none';
+        });
+
+        // event listeners
+        document.getElementById('searchBtn').addEventListener('click', searchGuide);
+        document.getElementById('guideName').addEventListener('keypress', (e) => { if(e.key === 'Enter') searchGuide(); });
+        document.getElementById('viewGuidesBtn').addEventListener('click', showGuidesModal);
+        document.getElementById('viewMarksForGuideBtn').addEventListener('click', viewMarksForCurrentGuide);
+
+        // init
+        window.addEventListener('DOMContentLoaded', loadAllData);
+    })();
+</script>
+
+</body>
+</html>
