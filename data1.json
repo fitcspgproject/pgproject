@@ -11729,7 +11729,33 @@
           "back_end": ""
         }
       ]
+    },
+  
+  {
+  "company_name": "Acciojob",
+  "address": "",
+  "website": "",
+  "contact": "",
+  "mentor": "",
+  "internal_guide": "Acciojob",
+  "projects": [
+    {
+      "s_no": 435,
+      "members": [
+        {
+          "name": "PATEL ANKIT AMARAT",
+          "enrollment": "2405112120117",
+          "mobile": "8155872020",
+          "program": "MCA, B"
+        }
+      ],
+      "project_title": "Wanderlust – Travel Destination Listing and Booking System",
+      "project_description": "Wanderlust is a travel listing and booking web application that allows users to explore destinations, book trips, and share reviews while property owners manage their listings. It is built using MongoDB, Express.js, Node.js, HTML, CSS, and JavaScript.",
+      "front_end": "Html, css, js",
+      "back_end": "Js, node.js, express.js, mongodb"
     }
+  ]
+}
 
 
 
