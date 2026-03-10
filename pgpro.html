@@ -644,8 +644,8 @@
                     <span class="compact-total-badge" id="groupCountBadge">📁 0 groups</span>
                 </div>
                 <div class="guide-meta">
-                    <span>👥 total students</span>
-                    <span class="student-count" id="studentCount">0</span>
+                   
+                  <span class="student-count" id="studentCount" hidden>0</span>
                 </div>
             </div>
             
@@ -679,6 +679,8 @@
 
 <script>
     (function() {
+
+        document.addEventListener('contextmenu', e => e.preventDefault());
         // ---------- GLOBAL DATA ----------
         let guideData = null;
         let allGuides = [];
