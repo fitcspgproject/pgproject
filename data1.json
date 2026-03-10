@@ -11755,7 +11755,113 @@
       "back_end": "Js, node.js, express.js, mongodb"
     }
   ]
-}
+},
+  {
+    "company_name": "HEALTH PRIME",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "",
+    "internal_guide": "Prof. Hardik Parmar",
+    "projects": [
+      {
+        "s_no": 436,
+        "members": [
+          {
+            "name": "seeram Harshavardhini",
+            "enrollment": "2205103140020",
+            "mobile": "8074275579",
+            "program": "IMCA,A"
+          }
+        ],
+        "project_title": "Denial Management and AR Follow-Up in the Healthcare Revenue Cycle",
+        "project_description": "",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
+  },
+  {
+    "company_name": "Markup Infosystem",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "",
+    "internal_guide": "Prof. Tanmay Shah",
+    "projects": [
+      {
+        "s_no": 437,
+        "members": [
+          {
+            "name": "Suyash Sanjay Nalawade",
+            "enrollment": "2405112140055",
+            "mobile": "9022187991",
+            "program": "MCA,F"
+          },
+          {
+            "name": "Udaykumar Dipak Kamble",
+            "enrollment": "2405112140039",
+            "mobile": "70572 46984",
+            "program": "MCA,F"
+          }
+        ],
+        "project_title": "Smart Online Learning Management System",
+        "project_description": "",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
+  },
+  {
+    "company_name": "Accrete infosolution",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "",
+    "internal_guide": "Dr. Pravin Tomar",
+    "projects": [
+      {
+        "s_no": 438,
+        "members": [
+          {
+            "name": "Isha Sharma",
+            "enrollment": "2405112120169",
+            "mobile": "",
+            "program": "MCA,AI"
+          }
+        ],
+        "project_title": "Distribution Management System",
+        "project_description": "",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
+  },
+  {
+    "company_name": "unified mentor",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "",
+    "internal_guide": "Prof. Mehulkumar Dalwadi",
+    "projects": [
+      {
+        "s_no": 439,
+        "members": [
+          {
+            "name": "Shubham Raj",
+            "enrollment": "2405112070055",
+            "mobile": "",
+            "program": "MCA,E"
+          }
+        ],
+        "project_title": "Car Rental Full Stack Web Application",
+        "project_description": "",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
+  }
 
 
 
