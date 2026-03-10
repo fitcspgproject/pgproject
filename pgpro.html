@@ -498,18 +498,29 @@
         }
         @keyframes spin { to { transform: rotate(360deg); } }
         
-        /* toggle debug button (hidden by default) */
-        .toggle-debug {
-            background: #6c757d;
-            color: white;
-            border: none;
-            padding: 5px 15px;
-            border-radius: 20px;
-            font-size: 0.8rem;
-            cursor: pointer;
+        .file-status {
+            display: flex;
+            gap: 15px;
             margin: 10px 28px;
-            display: none;
+            padding: 10px;
+            background: #f0f3ff;
+            border-radius: 10px;
+            font-size: 0.8rem;
+            flex-wrap: wrap;
         }
+        .status-item {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        .status-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            display: inline-block;
+        }
+        .status-dot.green { background: #28a745; }
+        .status-dot.red { background: #dc3545; }
     </style>
 </head>
 <body>
@@ -531,6 +542,9 @@
                 <div class="stat-item" id="totalStudentsStat">
                     <div class="stat-value">0</div><div class="stat-label">STUDENTS</div>
                 </div>
+                <div class="stat-item" id="totalReviewsStat">
+                    <div class="stat-value">0</div><div class="stat-label">REVIEWS</div>
+                </div>
             </div>
         </div>
         <h1>📋 Group Compass + CEC</h1>
@@ -540,13 +554,12 @@
         </div>
     </div>
 
-    <!-- Debug Console (hidden by default) -->
-    <div class="debug-console" id="debugConsole" style="display:none;">
-        <div id="debugLog"></div>
-    </div>
-
     <!-- File Status Indicator (simplified) -->
     <div class="file-status" id="fileStatus">
+        <div class="status-item">
+            <span class="status-dot" id="data1Status"></span>
+            <span id="data1Count"></span>
+        </div>
         <div class="status-item">
             <span class="status-dot" id="reviewStatus"></span>
             <span id="reviewCount"></span>
@@ -666,9 +679,6 @@
 
 <script>
     (function() {
-        // disable right click (optional - uncomment if needed)
-        document.addEventListener('contextmenu', e => e.preventDefault());
-
         // ---------- GLOBAL DATA ----------
         let guideData = null;
         let allGuides = [];
@@ -678,8 +688,9 @@
         let reviewsLoaded = false;
         let currentGuideName = '';
         let currentGuideStats = null;
+        let totalUniqueStudents = 0;
 
-        // Helper function to get enrollment from review record (handles different field names)
+        // Helper function to get enrollment from review record
         function getReviewEnrollment(record) {
             return record.Enrollment || record.enrollment || record.ENROLLMENT;
         }
@@ -693,10 +704,8 @@
         // Matching function - compares enrollments as strings
         function findMatchingReview(enrollment) {
             if (enrollment == null) return null;
-
             const enrollStr = normalizeEnrollment(enrollment);
             if (enrollStr === '') return null;
-
             return reviewData.find(r => {
                 const reviewEnroll = getReviewEnrollment(r);
                 if (reviewEnroll == null) return false;
@@ -729,12 +738,40 @@
             return matches;
         }
 
+        // Get unique student count from data1.json
+        function getUniqueStudentCount(data) {
+            const uniqueEnrollments = new Set();
+            
+            if (!data || !Array.isArray(data)) return 0;
+            
+            data.forEach(group => {
+                if (group.projects && Array.isArray(group.projects)) {
+                    group.projects.forEach(project => {
+                        if (project.members && Array.isArray(project.members)) {
+                            project.members.forEach(student => {
+                                if (student.enrollment) {
+                                    uniqueEnrollments.add(normalizeEnrollment(student.enrollment));
+                                }
+                            });
+                        }
+                    });
+                }
+            });
+            
+            return uniqueEnrollments.size;
+        }
+
         // Update file status indicators
         function updateFileStatus() {
+            const data1Dot = document.getElementById('data1Status');
             const reviewDot = document.getElementById('reviewStatus');
+            const data1Count = document.getElementById('data1Count');
             const reviewCount = document.getElementById('reviewCount');
             
+            data1Dot.className = 'status-dot ' + (guideData ? 'green' : 'red');
             reviewDot.className = 'status-dot ' + (reviewData.length > 0 ? 'green' : 'red');
+            
+            data1Count.textContent = guideData ? `📁 ${guideData.length} groups` : '📁 No group data';
             reviewCount.textContent = reviewData.length > 0 ? `📊 ${reviewData.length} review records` : '📊 No review data';
         }
 
@@ -779,6 +816,7 @@
                 }
 
                 // Process the data
+                totalUniqueStudents = getUniqueStudentCount(guideData);
                 processGuideData(guideData);
                 setupSearchSuggestions();
                 updateHeaderStats();
@@ -845,7 +883,8 @@
 
         function updateHeaderStats() {
             document.querySelector('#totalGuidesStat .stat-value').textContent = allGuides.length;
-            document.querySelector('#totalStudentsStat .stat-value').textContent = totalStudents;
+            document.querySelector('#totalStudentsStat .stat-value').textContent = totalUniqueStudents;
+            document.querySelector('#totalReviewsStat .stat-value').textContent = reviewData.length;
             document.getElementById('totalGuidesCount').textContent = allGuides.length;
         }
 
