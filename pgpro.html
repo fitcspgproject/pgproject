@@ -498,29 +498,18 @@
         }
         @keyframes spin { to { transform: rotate(360deg); } }
         
-        .file-status {
-            display: flex;
-            gap: 15px;
-            margin: 10px 28px;
-            padding: 10px;
-            background: #f0f3ff;
-            border-radius: 10px;
+        /* toggle debug button (hidden by default) */
+        .toggle-debug {
+            background: #6c757d;
+            color: white;
+            border: none;
+            padding: 5px 15px;
+            border-radius: 20px;
             font-size: 0.8rem;
-            flex-wrap: wrap;
+            cursor: pointer;
+            margin: 10px 28px;
+            display: none;
         }
-        .status-item {
-            display: flex;
-            align-items: center;
-            gap: 5px;
-        }
-        .status-dot {
-            width: 10px;
-            height: 10px;
-            border-radius: 50%;
-            display: inline-block;
-        }
-        .status-dot.green { background: #28a745; }
-        .status-dot.red { background: #dc3545; }
     </style>
 </head>
 <body>
@@ -539,11 +528,8 @@
                 <div class="stat-item" id="totalGuidesStat">
                     <div class="stat-value">0</div><div class="stat-label">GUIDES</div>
                 </div>
-                <div class="stat-item" id="totalStudentsStat" style="display:none;">
+                <div class="stat-item" id="totalStudentsStat">
                     <div class="stat-value">0</div><div class="stat-label">STUDENTS</div>
-                </div>
-                <div class="stat-item" id="totalReviewsStat">
-                    <div class="stat-value">0</div><div class="stat-label">REVIEWS</div>
                 </div>
             </div>
         </div>
@@ -554,12 +540,13 @@
         </div>
     </div>
 
+    <!-- Debug Console (hidden by default) -->
+    <div class="debug-console" id="debugConsole" style="display:none;">
+        <div id="debugLog"></div>
+    </div>
+
     <!-- File Status Indicator (simplified) -->
     <div class="file-status" id="fileStatus">
-        <div class="status-item">
-            <span class="status-dot" id="data1Status"></span>
-            <span id="data1Count"></span>
-        </div>
         <div class="status-item">
             <span class="status-dot" id="reviewStatus"></span>
             <span id="reviewCount"></span>
@@ -644,8 +631,8 @@
                     <span class="compact-total-badge" id="groupCountBadge">📁 0 groups</span>
                 </div>
                 <div class="guide-meta">
-                   
-                  <span class="student-count" id="studentCount" >0</span>
+                    <span>👥 total students</span>
+                    <span class="student-count" id="studentCount">0</span>
                 </div>
             </div>
             
@@ -662,7 +649,7 @@
             <div class="students-container" id="studentsContainer">
                 <table class="student-table" id="studentTable">
                     <thead><tr>
-                        <th>Group#</th>
+                       
                         <th>Name</th>
                         <th>Enrollment</th>
                         <th>Contact</th>
@@ -679,8 +666,9 @@
 
 <script>
     (function() {
+        // disable right click (optional - uncomment if needed)
+        //document.addEventListener('contextmenu', e => e.preventDefault());
 
-        document.addEventListener('contextmenu', e => e.preventDefault());
         // ---------- GLOBAL DATA ----------
         let guideData = null;
         let allGuides = [];
@@ -690,9 +678,8 @@
         let reviewsLoaded = false;
         let currentGuideName = '';
         let currentGuideStats = null;
-        let totalUniqueStudents = 0;
 
-        // Helper function to get enrollment from review record
+        // Helper function to get enrollment from review record (handles different field names)
         function getReviewEnrollment(record) {
             return record.Enrollment || record.enrollment || record.ENROLLMENT;
         }
@@ -706,8 +693,10 @@
         // Matching function - compares enrollments as strings
         function findMatchingReview(enrollment) {
             if (enrollment == null) return null;
+
             const enrollStr = normalizeEnrollment(enrollment);
             if (enrollStr === '') return null;
+
             return reviewData.find(r => {
                 const reviewEnroll = getReviewEnrollment(r);
                 if (reviewEnroll == null) return false;
@@ -740,40 +729,12 @@
             return matches;
         }
 
-        // Get unique student count from data1.json
-        function getUniqueStudentCount(data) {
-            const uniqueEnrollments = new Set();
-            
-            if (!data || !Array.isArray(data)) return 0;
-            
-            data.forEach(group => {
-                if (group.projects && Array.isArray(group.projects)) {
-                    group.projects.forEach(project => {
-                        if (project.members && Array.isArray(project.members)) {
-                            project.members.forEach(student => {
-                                if (student.enrollment) {
-                                    uniqueEnrollments.add(normalizeEnrollment(student.enrollment));
-                                }
-                            });
-                        }
-                    });
-                }
-            });
-            
-            return uniqueEnrollments.size;
-        }
-
         // Update file status indicators
         function updateFileStatus() {
-            const data1Dot = document.getElementById('data1Status');
             const reviewDot = document.getElementById('reviewStatus');
-            const data1Count = document.getElementById('data1Count');
             const reviewCount = document.getElementById('reviewCount');
             
-            data1Dot.className = 'status-dot ' + (guideData ? 'green' : 'red');
             reviewDot.className = 'status-dot ' + (reviewData.length > 0 ? 'green' : 'red');
-            
-            data1Count.textContent = guideData ? `📁 ${guideData.length} groups` : '📁 No group data';
             reviewCount.textContent = reviewData.length > 0 ? `📊 ${reviewData.length} review records` : '📊 No review data';
         }
 
@@ -818,7 +779,6 @@
                 }
 
                 // Process the data
-                totalUniqueStudents = getUniqueStudentCount(guideData);
                 processGuideData(guideData);
                 setupSearchSuggestions();
                 updateHeaderStats();
@@ -885,8 +845,7 @@
 
         function updateHeaderStats() {
             document.querySelector('#totalGuidesStat .stat-value').textContent = allGuides.length;
-            document.querySelector('#totalStudentsStat .stat-value').textContent = totalUniqueStudents;
-            document.querySelector('#totalReviewsStat .stat-value').textContent = reviewData.length;
+            document.querySelector('#totalStudentsStat .stat-value').textContent = totalStudents;
             document.getElementById('totalGuidesCount').textContent = allGuides.length;
         }
 
@@ -1020,69 +979,69 @@
         }
 
         // ---------- VIEW CEC MARKS FOR CURRENT GUIDE'S STUDENTS ----------
-        function viewMarksForCurrentGuide() {
-            if (!currentGuideName || !currentGuideStats) {
-                alert('Please search and select an internal guide first.');
-                return;
-            }
+       async function viewMarksForCurrentGuide() {
 
-            const modal = document.getElementById('marksModal');
-            const marksLoading = document.getElementById('marksLoading');
-            const marksContent = document.getElementById('marksContent');
-            const tbody = document.getElementById('marksTableBody');
-            const guideSpan = document.getElementById('marksGuideNameSpan');
-            const totalStudentsSpan = document.getElementById('totalStudentsForMarks');
-            const foundReviewsSpan = document.getElementById('foundReviewsCount');
+    if (!currentGuideStats || !currentGuideStats.students) {
+        alert("No students found for this guide.");
+        return;
+    }
 
-            guideSpan.textContent = currentGuideName;
-            totalStudentsSpan.textContent = currentGuideStats.totalStudents;
-            
-            modal.style.display = 'flex';
-            marksLoading.style.display = 'block';
-            marksContent.style.display = 'none';
-            tbody.innerHTML = '';
+    const modal = document.getElementById('marksModal');
+    const marksLoading = document.getElementById('marksLoading');
+    const marksContent = document.getElementById('marksContent');
+    const tbody = document.getElementById('marksTableBody');
 
-            const matchingReviews = getMatchingReviewsForCurrentGuide();
-            foundReviewsSpan.textContent = matchingReviews.length;
+    const guideSpan = document.getElementById('marksGuideNameSpan');
+    const totalStudentsSpan = document.getElementById('totalStudentsForMarks');
+    const foundReviewsSpan = document.getElementById('foundReviewsCount');
 
-            setTimeout(() => {
-                marksLoading.style.display = 'none';
-                
-                if (matchingReviews.length === 0) {
-                    tbody.innerHTML = '<tr><td colspan="6" style="text-align:center; padding:30px;">No review entries found for these students</td></tr>';
-                } else {
-                    matchingReviews.sort((a,b) => (a.Name || '').localeCompare(b.Name || ''));
-                    
-                    matchingReviews.forEach((rev) => {
-                        const r1 = rev['Review-1'];
-                        const r2 = rev['Review-2'];
-                        const r3 = rev['Review-3'];
-                        
-                        const safeNum = (val) => {
-                            if (val === 'AB' || val === 'ab' || val === null || val === undefined || val === '') return 0;
-                            const num = Number(val);
-                            return isNaN(num) ? 0 : num;
-                        };
-                        
-                        const r1val = safeNum(r1);
-                        const r2val = safeNum(r2);
-                        const r3val = safeNum(r3);
-                        const total = r1val + r2val + r3val;
+    guideSpan.textContent = currentGuideName;
 
-                        const row = document.createElement('tr');
-                        row.innerHTML = `
-                            <td><strong>${rev.Name || '—'}</strong></td>
-                            <td>${rev.Enrollment || rev.enrollment || '—'}</td>
-                            <td>${r1val} ${r1 === 'AB' ? '<span class="warning-chip">(AB)</span>' : ''}</td>
-                            <td>${r2val} ${r2 === 'AB' ? '<span class="warning-chip">(AB)</span>' : ''}</td>
-                            <td>${r3 === null ? '0' : r3val} ${r3 === 'AB' ? '<span class="warning-chip">(AB)</span>' : ''}</td>
-                            <td><span class="total-marks-badge">${total}/200</span></td>`;
-                        tbody.appendChild(row);
-                    });
-                }
-                marksContent.style.display = 'block';
-            }, 200);
-        }
+    modal.style.display = "flex";
+    marksLoading.style.display = "block";
+    marksContent.style.display = "none";
+    tbody.innerHTML = "";
+
+    // ✅ get only enrollments of this guide
+    const enrollments = currentGuideStats.students
+        .map(s => String(s.enrollment).trim())
+        .filter(e => e);
+
+    totalStudentsSpan.textContent = enrollments.length;
+
+    // convert to string
+    const enrollParam = enrollments.join(",");
+
+    const baseURL = "https://script.google.com/macros/s/AKfycbyZI0RvWUxe_jYWuvaZjNLZ5AIr9RF6Lu4SJT0FaCxqd-38VoR6ybubXaTYXU3cjk8y/exec";
+
+const url = `${baseURL}?enrollments=${encodeURIComponent(enrollParam)}`;
+
+    const res = await fetch(url);
+    const data = await res.json();
+
+    foundReviewsSpan.textContent = data.length;
+
+    marksLoading.style.display = "none";
+
+    data.forEach(r => {
+
+        const row = document.createElement("tr");
+
+        row.innerHTML = `
+         <td><strong>${r.name}</strong></td>
+            <td>${r.enrollment}</td>
+            <td>${r.review1} ${r.review1_label || ""}</td>
+            <td>${r.review2} ${r.review2_label || ""}</td>
+            <td>${r.review3} ${r.review3_label || ""}</td>
+            <td><span class="total-marks-badge">${r.total}/200</span></td>
+        `;
+
+        tbody.appendChild(row);
+
+    });
+
+    marksContent.style.display = "block";
+}
 
         // close modals
         document.getElementById('closeModal').addEventListener('click', ()=>document.getElementById('guidesModal').style.display='none');
