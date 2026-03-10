@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parul University - FITCS Final Project Details</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 15px;
+        }
+
+        .container {
+            max-width: 1600px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+            overflow: hidden;
+        }
+
+        /* Header Section - Compact */
+        .header {
+            background: linear-gradient(135deg, #2c3e50 0%, #1a252f 100%);
+            color: white;
+            padding: 20px 30px;
+            text-align: center;
+            border-bottom: 4px solid #f1c40f;
+        }
+
+        .university-name {
+            font-size: 2em;
+            font-weight: 700;
+            letter-spacing: 1px;
+            margin-bottom: 5px;
+        }
+
+        .institute-name {
+            font-size: 1.3em;
+            color: #f1c40f;
+            margin-bottom: 8px;
+            font-weight: 300;
+        }
+
+        .project-title {
+            font-size: 1.4em;
+            background: rgba(255,255,255,0.1);
+            display: inline-block;
+            padding: 6px 25px;
+            border-radius: 40px;
+            margin-top: 5px;
+        }
+
+        /* Stats Cards - More Compact Grid */
+        .stats-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 12px;
+            padding: 20px 25px;
+            background: #f8f9fa;
+        }
+
+        .stat-card {
+            background: white;
+            padding: 15px 18px;
+            border-radius: 12px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+            cursor: pointer;
+            transition: all 0.2s ease;
+            border: 2px solid transparent;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+            border-color: #667eea;
+        }
+
+        .stat-card.active {
+            border-color: #28a745;
+            background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+        }
+
+        .stat-card h3 {
+            font-size: 0.95em;
+            color: #666;
+            margin-bottom: 8px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            padding-right: 25px;
+        }
+
+        .stat-card .count {
+            font-size: 2em;
+            font-weight: 700;
+            color: #2c3e50;
+            margin-bottom: 5px;
+            line-height: 1.2;
+        }
+
+        .stat-card .percentage {
+            color: #28a745;
+            font-weight: 600;
+            font-size: 0.95em;
+        }
+
+        .stat-icon {
+            font-size: 2em;
+            color: #667eea;
+            opacity: 0.2;
+            position: absolute;
+            bottom: 8px;
+            right: 10px;
+        }
+
+        .total-card {
+            background: linear-gradient(135deg, #2c3e50 0%, #1a252f 100%);
+            color: white;
+        }
+
+        .total-card .count, .total-card h3 {
+            color: white;
+        }
+
+        .total-card .stat-icon {
+            color: #f1c40f;
+            opacity: 0.4;
+        }
+
+        /* Filter Section - Compact */
+        .filter-section {
+            padding: 15px 25px;
+            background: white;
+            border-bottom: 1px solid #eee;
+        }
+
+        .search-box {
+            width: 100%;
+            padding: 12px 18px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 0.95em;
+            transition: all 0.3s ease;
+        }
+
+        .search-box:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+
+        /* Table Section - Optimized */
+        .table-container {
+            padding: 0 25px 20px 25px;
+            overflow-x: auto;
+        }
+
+        .active-filter-badge {
+            display: inline-block;
+            padding: 5px 16px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 20px;
+            margin-bottom: 12px;
+            font-weight: 500;
+            font-size: 0.9em;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+            font-size: 0.9em;
+        }
+
+        thead {
+            background: linear-gradient(135deg, #2c3e50 0%, #1a252f 100%);
+            color: white;
+        }
+
+        th {
+            padding: 12px 12px;
+            text-align: left;
+            font-weight: 600;
+            font-size: 0.85em;
+            text-transform: uppercase;
+            letter-spacing: 0.3px;
+        }
+
+        td {
+            padding: 10px 12px;
+            border-bottom: 1px solid #eee;
+        }
+
+        tbody tr {
+            transition: all 0.2s ease;
+        }
+
+        tbody tr:hover {
+            background-color: #f8f9ff;
+        }
+
+        .type-badge {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 16px;
+            font-size: 0.8em;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.3px;
+            white-space: nowrap;
+        }
+
+        .type-not-submitted { background: #ff6b6b; color: white; }
+        .type-udp { background: #4ecdc4; color: white; }
+        .type-idp { background: #45b7d1; color: white; }
+        .type-consultancy { background: #f7b731; color: white; }
+        .type-internship { background: #a8e6cf; color: #2c3e50; }
+        .type-internship-udp { background: #ff9ff3; color: #2c3e50; }
+        .type-consultancy-internship { background: #feca57; color: #2c3e50; }
+
+        /* Loading Spinner - Compact */
+        .loading {
+            text-align: center;
+            padding: 30px;
+        }
+
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #667eea;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 15px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* No Data */
+        .no-data {
+            text-align: center;
+            padding: 30px;
+            color: #666;
+            font-size: 1.1em;
+        }
+
+        /* Table row count indicator */
+        .row-count {
+            text-align: right;
+            margin-top: 10px;
+            font-size: 0.85em;
+            color: #666;
+            font-weight: 500;
+        }
+
+        /* Responsive Design - Optimized */
+        @media (max-width: 1200px) {
+            .stats-container {
+                grid-template-columns: repeat(4, 1fr);
+            }
+        }
+
+        @media (max-width: 992px) {
+            .stats-container {
+                grid-template-columns: repeat(3, 1fr);
+            }
+            
+            .header {
+                padding: 18px 20px;
+            }
+            
+            .university-name {
+                font-size: 1.8em;
+            }
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            
+            .header {
+                padding: 15px;
+            }
+            
+            .university-name {
+                font-size: 1.6em;
+            }
+            
+            .institute-name {
+                font-size: 1.1em;
+            }
+            
+            .project-title {
+                font-size: 1.2em;
+                padding: 5px 18px;
+            }
+            
+            .stats-container {
+                grid-template-columns: repeat(2, 1fr);
+                padding: 15px;
+                gap: 10px;
+            }
+            
+            .stat-card {
+                padding: 12px;
+            }
+            
+            .stat-card h3 {
+                font-size: 0.85em;
+            }
+            
+            .stat-card .count {
+                font-size: 1.6em;
+            }
+            
+            .filter-section {
+                padding: 12px 15px;
+            }
+            
+            .table-container {
+                padding: 0 15px 15px 15px;
+            }
+            
+            th, td {
+                padding: 8px 10px;
+                font-size: 0.85em;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .stats-container {
+                grid-template-columns: 1fr;
+            }
+            
+            .stat-card h3 {
+                white-space: normal;
+            }
+            
+            th, td {
+                display: block;
+                width: 100%;
+            }
+            
+            thead {
+                display: none;
+            }
+            
+            td {
+                text-align: right;
+                padding-left: 45%;
+                position: relative;
+                min-height: 40px;
+            }
+            
+            td:before {
+                content: attr(data-label);
+                position: absolute;
+                left: 12px;
+                width: 40%;
+                padding-right: 10px;
+                text-align: left;
+                font-weight: 600;
+                color: #2c3e50;
+                font-size: 0.85em;
+            }
+            
+            .type-badge {
+                font-size: 0.75em;
+                padding: 3px 8px;
+            }
+        }
+
+        /* Custom scrollbar for better fit */
+        ::-webkit-scrollbar {
+            width: 6px;
+            height: 6px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+            border-radius: 10px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #667eea;
+            border-radius: 10px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #764ba2;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <div class="university-name">PARUL UNIVERSITY</div>
+            <div class="institute-name">Faculty of IT & Computer Science (FITCS)</div>
+            <div class="project-title">BCA / B.Sc. / IMCA Final Year Project Details</div>
+        </div>
+
+        <!-- Stats Cards -->
+        <div class="stats-container" id="statsContainer">
+            <div class="stat-card total-card" onclick="filterByType('all')">
+                <h3>Total Projects <span class="stat-icon">📊</span></h3>
+                <div class="count" id="totalCount">0</div>
+                <div class="percentage">100%</div>
+            </div>
+        </div>
+
+        <!-- Filter Section -->
+        <div class="filter-section">
+            <input type="text" class="search-box" id="searchInput" placeholder="Search by Student Name, Enrollment No., or Specialization..." onkeyup="filterTable()">
+        </div>
+
+        <!-- Active Filter Badge and Row Count -->
+        <div class="table-container">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; flex-wrap: wrap; gap: 10px;">
+                <div class="active-filter-badge" id="activeFilter">Showing: All Projects</div>
+                <div class="row-count" id="rowCount">Loading...</div>
+            </div>
+
+            <!-- Table -->
+            <table id="studentTable">
+                <thead>
+                    <tr>
+                        <th>S.No.</th>
+                        <th>Enrollment No.</th>
+                        <th>Student Name</th>
+                        <th>Specialization</th>
+                        <th>Semester</th>
+                        <th>Type</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody">
+                    <tr class="loading">
+                        <td colspan="6">
+                            <div class="spinner"></div>
+                            Loading data...
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script>
+       document.addEventListener('contextmenu', e => e.preventDefault());
+        // Global variables
+        let allData = [];
+        let currentFilter = 'all';
+        let currentSearch = '';
+
+        // Load JSON data
+        async function loadData() {
+            try {
+                const response = await fetch('ugprodata.json');
+                allData = await response.json();
+                
+                // Update statistics
+                updateStatistics();
+                
+                // Display all data initially
+                displayData(allData);
+                
+            } catch (error) {
+                console.error('Error loading data:', error);
+                document.getElementById('tableBody').innerHTML = `
+                    <tr>
+                        <td colspan="6" style="text-align: center; padding: 40px; color: #ff6b6b;">
+                            <div style="font-size: 2em; margin-bottom: 10px;">⚠️</div>
+                            Error loading data. Please make sure 'ugprodata.json' file exists.
+                        </td>
+                    </tr>
+                `;
+                document.getElementById('rowCount').textContent = 'Error loading data';
+            }
+        }
+
+        // Update statistics cards
+        function updateStatistics() {
+            const statsContainer = document.getElementById('statsContainer');
+            const totalCount = allData.length;
+            
+            // Define types to track
+            const types = [
+                'Not Submitted',
+                'Internship+UDP',
+                'UDP',
+                'IDP',
+                'Consultancy',
+                'Internship+AB',
+                'Consultancy +Internship',
+                'Internship'
+            ];
+            
+            // Calculate counts
+            const typeCounts = {};
+            types.forEach(type => {
+                typeCounts[type] = allData.filter(student => student.Type === type).length;
+            });
+            
+            // Clear existing cards (except total card)
+            while (statsContainer.children.length > 1) {
+                statsContainer.removeChild(statsContainer.lastChild);
+            }
+            
+            // Update total count
+            document.getElementById('totalCount').textContent = totalCount;
+            
+            // Add type cards
+            types.forEach(type => {
+                const count = typeCounts[type] || 0;
+                const percentage = totalCount > 0 ? ((count / totalCount) * 100).toFixed(1) : '0.0';
+                
+                const card = document.createElement('div');
+                card.className = 'stat-card';
+                card.setAttribute('onclick', `filterByType('${type.replace(/'/g, "\\'")}')`);
+                card.setAttribute('data-type', type);
+                card.innerHTML = `
+                    <h3 title="${type}">${type}</h3>
+                    <div class="count">${count}</div>
+                    <div class="percentage">${percentage}%</div>
+                    <div class="stat-icon">📋</div>
+                `;
+                
+                statsContainer.appendChild(card);
+            });
+        }
+
+        // Filter by type
+        function filterByType(type) {
+            currentFilter = type;
+            
+            // Update active state on cards
+            document.querySelectorAll('.stat-card').forEach(card => {
+                card.classList.remove('active');
+                if ((type === 'all' && card.classList.contains('total-card')) || 
+                    card.getAttribute('data-type') === type) {
+                    card.classList.add('active');
+                }
+            });
+            
+            // Update active filter badge
+            const filterBadge = document.getElementById('activeFilter');
+            filterBadge.textContent = type === 'all' ? 'Showing: All Projects' : `Showing: ${type}`;
+            
+            // Filter and display data
+            filterTable();
+        }
+
+        // Filter table based on type and search
+        function filterTable() {
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+            currentSearch = searchTerm;
+            
+            let filteredData = allData;
+            
+            // Apply type filter
+            if (currentFilter !== 'all') {
+                filteredData = filteredData.filter(student => student.Type === currentFilter);
+            }
+            
+            // Apply search filter
+            if (searchTerm) {
+                filteredData = filteredData.filter(student => 
+                    student['Student Name'].toLowerCase().includes(searchTerm) ||
+                    student['Enrollment No.'].toLowerCase().includes(searchTerm) ||
+                    student['Specialization'].toLowerCase().includes(searchTerm) ||
+                    student['Type'].toLowerCase().includes(searchTerm)
+                );
+            }
+            
+            // Display filtered data
+            displayData(filteredData);
+        }
+
+        // Display data in table
+        function displayData(data) {
+            const tableBody = document.getElementById('tableBody');
+            const rowCountSpan = document.getElementById('rowCount');
+            
+            // Update row count
+            rowCountSpan.textContent = `Showing ${data.length} of ${allData.length} records`;
+            
+            if (data.length === 0) {
+                tableBody.innerHTML = `
+                    <tr>
+                        <td colspan="6" class="no-data">
+                            <div style="font-size: 2em; margin-bottom: 10px;">🔍</div>
+                            No records found
+                        </td>
+                    </tr>
+                `;
+                return;
+            }
+            
+            let html = '';
+            data.forEach((student, index) => {
+                // Determine badge class based on type
+                let badgeClass = 'type-badge ';
+                const type = student.Type;
+                
+                if (type.includes('Not Submitted')) badgeClass += 'type-not-submitted';
+                else if (type.includes('Internship+UDP')) badgeClass += 'type-internship-udp';
+                else if (type === 'UDP') badgeClass += 'type-udp';
+                else if (type === 'IDP') badgeClass += 'type-idp';
+                else if (type === 'Consultancy') badgeClass += 'type-consultancy';
+                else if (type.includes('Internship+AB')) badgeClass += 'type-internship';
+                else if (type.includes('Consultancy +Internship')) badgeClass += 'type-consultancy-internship';
+                else if (type === 'Internship') badgeClass += 'type-internship';
+                else badgeClass += 'type-udp';
+                
+                html += `
+                    <tr>
+                        <td data-label="S.No.">${student['S.No.']}</td>
+                        <td data-label="Enrollment No.">${student['Enrollment No.']}</td>
+                        <td data-label="Student Name">${student['Student Name']}</td>
+                        <td data-label="Specialization">${student['Specialization']}</td>
+                        <td data-label="Semester">${student['Semester']}</td>
+                        <td data-label="Type"><span class="${badgeClass}">${student['Type']}</span></td>
+                    </tr>
+                `;
+            });
+            
+            tableBody.innerHTML = html;
+        }
+
+ 
+        window.onload = loadData;
+    </script>
+</body>
+</html>
