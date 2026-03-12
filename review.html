@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project Milestone · Review schedule + live counters</title>
+    <title>Project Milestone · Final viva (top) + submission specs</title>
     <!-- Font Awesome 6 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
@@ -18,12 +18,11 @@
             background: linear-gradient(145deg, #f0f4fa 0%, #e6ecf5 100%);
             min-height: 100vh;
             display: flex;
-            align-items: flex-start;  /* changed from center to allow scroll at top */
+            align-items: flex-start;
             justify-content: center;
             padding: 2rem 1.5rem;
         }
 
-        /* main card – no modal, just content */
         .schedule-page {
             background: rgba(255,255,255,0.75);
             backdrop-filter: blur(4px);
@@ -100,7 +99,6 @@
             color: #2d4b71;
         }
 
-        /* milestone table */
         .milestone-table {
             width: 100%;
             border-collapse: collapse;
@@ -134,8 +132,38 @@
             line-height: 1.45;
         }
 
-        .milestone-table tr:last-child td {
-            border-bottom: none;
+        /* special style for milestone 10 (first row) */
+        .milestone-table tbody tr:first-child {
+            background-color: #fef7e9;
+            border-left: 6px solid #c2491e;
+            border-radius: 0 0 0 8px;
+            font-weight: 500;
+            box-shadow: inset 0 2px 6px rgba(240, 115, 40, 0.1);
+        }
+        .milestone-table tbody tr:first-child td {
+            background-color: #fff7e6;         /* warm highlight */
+            border-bottom: 2px solid #f3cba1;
+            color: #3a2c1b;
+        }
+        /* bold + larger text only for description & deliverable cells in row 1 */
+        .milestone-table tbody tr:first-child .desc-cell {
+            font-weight: 800;
+            font-size: 1.04rem;
+            color: #a13e0b;
+        }
+        .milestone-table tbody tr:first-child .deliverable-cell {
+            font-weight: 550;
+        }
+        .milestone-table tbody tr:first-child .date-cell {
+            font-weight: 800;
+            color: #b1420b;
+        }
+        .milestone-table tbody tr:first-child .countdown-cell span {
+            background: #d93e0b;
+            color: white;
+            font-weight: 800;
+            box-shadow: 0 2px 6px rgba(190, 70, 20, 0.4);
+            border: 1px solid #ffbc7a;
         }
 
         .desc-cell {
@@ -157,7 +185,6 @@
         .mode-cell {
             width: 8%;
             text-align: center;
-            font-weight: 600;
             background: #f0f6ff;
         }
         .countdown-cell {
@@ -214,6 +241,59 @@
             gap: 6px;
         }
 
+        /* submission requirements card */
+        .submission-box {
+            background: #1d2b3f;
+            border-radius: 1.8rem;
+            padding: 1.8rem 2.2rem;
+            margin: 1.8rem 0 1rem;
+            color: #f0f6ff;
+            box-shadow: 0 14px 20px -8px rgba(0,20,50,0.5);
+            border: 1px solid #597ea5;
+        }
+        .submission-box h3 {
+            font-size: 1.7rem;
+            font-weight: 700;
+            letter-spacing: -0.3px;
+            color: #ffd59e;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            border-bottom: 2px solid #56749e;
+            padding-bottom: 0.5rem;
+        }
+        .submission-box ul {
+            list-style-type: none;
+            margin-top: 0.3rem;
+        }
+        .submission-box li {
+            margin-bottom: 0.7rem;
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            font-size: 1rem;
+        }
+        .submission-box li i {
+            color: #ffb05c;
+            font-size: 1.2rem;
+            min-width: 1.6rem;
+            text-align: center;
+            padding-top: 0.1rem;
+        }
+        .submission-box .cd-details {
+            background: #253b55;
+            padding: 1rem 1.5rem;
+            border-radius: 1.2rem;
+            margin-top: 1rem;
+            border-left: 6px solid #f9a95a;
+        }
+        .cd-details p {
+            margin: 0.3rem 0;
+            display: flex;
+            gap: 8px;
+        }
+
         hr {
             border: none;
             border-top: 1.5px dashed #a7c0db;
@@ -228,7 +308,6 @@
             margin-top: 0.5rem;
         }
 
-        /* countdown badges */
         .days-left {
             background: #d4e2fa;
             color: #10355e;
@@ -267,6 +346,15 @@
             font-weight: 700;
             font-size: 0.9rem;
         }
+        .viva-pending-badge {
+            background: #e8d9b0;
+            color: #4b3b16;
+            padding: 0.3rem 0.8rem;
+            border-radius: 40px;
+            font-weight: 700;
+            font-size: 0.9rem;
+            white-space: nowrap;
+        }
 
         @media (max-width: 1050px) {
             .schedule-page { padding: 1.5rem; }
@@ -276,7 +364,7 @@
 </head>
 <body>
     <div class="schedule-page">
-        <!-- header with Parul identity (always visible) -->
+        <!-- header with Parul identity -->
         <div class="header-row">
             <div class="title-section">
                 <h1>
@@ -302,7 +390,7 @@
             <span class="program"> · Project Milestone 2026</span>
         </div>
 
-        <!-- MAIN TABLE with added countdown column -->
+        <!-- MAIN TABLE – milestone 10 is now moved to the top (index 0) -->
         <table class="milestone-table">
             <thead>
                 <tr>
@@ -315,42 +403,69 @@
                 </tr>
             </thead>
             <tbody id="milestone-body">
-                <!-- rows will be filled by JavaScript with dynamic countdown based on 2026 dates -->
+                <!-- dynamic rows: milestone 10 will appear first, styled differently via CSS first-child -->
             </tbody>
         </table>
 
-        <!-- important notes exactly as provided -->
+        <!-- new submission requirements card (exactly as provided) -->
+        <div class="submission-box">
+            <h3><i class="fas fa-pen-fancy"></i> Project Thesis Submission</h3>
+            <ul>
+                <li><i class="fas fa-hard-bound"></i> One hardbound copy per group must be submitted to the department.</li>
+                <li><i class="fas fa-copy"></i> Students may prepare additional hardbound copies for their own future reference. If they are working in a group, any member can create their own copy.</li>
+                <li><i class="fas fa-compact-disc"></i> A CD/DVD must be attached to the last page of the thesis using proper tape.</li>
+            </ul>
+            <div class="cd-details">
+                <p><i class="fas fa-disc-drive"></i> <strong>CD/DVD must contain all project-related soft copies:</strong></p>
+                <p style="margin-left: 2rem;">• Project Presentation</p>
+                <p style="margin-left: 2rem;">• Project Documentation</p>
+                <p style="margin-left: 2rem;">• Project Directory</p>
+                <p style="margin-top: 0.7rem;"><i class="fas fa-label"></i> <strong>On the CD/DVD, clearly write the following details:</strong></p>
+                <p style="margin-left: 2rem;">- Names of all group members<br>- Enrollment numbers of all group members<br>- Course and Division<br>- Project Title</p>
+                <p style="margin-top: 0.5rem;"><i class="fas fa-calendar-alt"></i> Exam Session: April 2026</p>
+            </div>
+        </div>
+
+        <!-- important notes (existing) + viva line integrated -->
         <div class="note-box">
             <div class="note-item"><i class="fas fa-exclamation-circle"></i> <strong>Online submission</strong> is allowed only for those students/groups that are outside Gujarat. However, if the mode is mentioned as Offline, physical presence is mandatory.</div>
             <div class="note-item"><i class="fas fa-file-alt"></i> Necessary formats, instructions, and detailed schedules will be shared in advance.</div>
+            <div class="note-item"><i class="fas fa-microphone-alt"></i> <strong>Viva voce (External):</strong> 04 April 2026 · Venue & reporting time to be announced soon.</div>
         </div>
         <hr>
         <div class="footer-note">
-            <i class="fas fa-check-circle" style="color: #2266aa;"></i> MCA project milestones · 2026 · Parul University — live countdown integrated
+            <i class="fas fa-check-circle" style="color: #2266aa;"></i> MCA project milestones · 2026 · Parul University — final viva at top + thesis specs
         </div>
     </div>
 
     <script>
         document.addEventListener('contextmenu', function(e) {
-  e.preventDefault();
-});
-
-// Disable with alert message
-document.addEventListener('contextmenu', function(e) {
-  e.preventDefault();
-  alert('Right-click is disabled on this page!');
-  return false;
-})
+            e.preventDefault();
+            alert('Right-click is disabled on this page!');
+            return false;
+        });
     </script>
     <script>
         (function() {
-            // ---------- milestone data (exactly as before, with dates) ----------
+            // ---------- milestone data: milestone 10 (external viva) is now first, then 1..9 ----------
             const milestones = [
+                // 10 first (special, will be bold/colored via first-child)
+                {
+                    no: "10",
+                    desc: "University External Practical Viva Examination",
+                    deliverables: [
+                        "Final viva voce with external examiner.",
+                        "Venue and reporting time will be shared soon."
+                    ],
+                    dateStr: "2026-04-04",
+                    mode: "offline"
+                },
+                // then original 1..9 in order
                 {
                     no: "1",
                     desc: "Company Profile",
                     deliverables: ["Company Registration Certificate", "Any additional relevant organizational documents"],
-                    dateStr: "2026-01-06", // 06/01/2026
+                    dateStr: "2026-01-06",
                     mode: "offline"
                 },
                 {
@@ -438,30 +553,25 @@ document.addEventListener('contextmenu', function(e) {
                 return `${d}/${m}/${y}`;
             }
 
-            // compute days left / status relative to current date (considering 2026, but if we cross year, it's fine)
+            // compute days left / status relative to current date
             function getStatusLabel(dateISO) {
-                if (!dateISO) return { html: '<span class="days-left">No date set</span>' }; // milestone 4
+                if (!dateISO) return { html: '<span class="days-left">—</span>' };
 
                 const today = new Date();
-                // remove time part for fair comparison
                 const todayDate = new Date(today.getFullYear(), today.getMonth(), today.getDate());
-                const target = new Date(dateISO + 'T00:00:00'); // parse as local midnight
+                const target = new Date(dateISO + 'T00:00:00');
 
-                // difference in days
                 const diffTime = target - todayDate;
                 const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
 
-                // exact match (same day)
                 if (diffDays === 0) {
                     return { html: '<span class="today-badge"><i class="fas fa-bell"></i> TODAY</span>' };
                 }
-                // passed (target before today)
                 if (diffDays < 0) {
                     const passed = Math.abs(diffDays);
                     if (passed === 1) return { html: '<span class="review-over"><i class="fas fa-calendar-times"></i> 1 day over</span>' };
                     return { html: `<span class="review-over"><i class="fas fa-calendar-times"></i> ${passed} days over</span>` };
                 }
-                // future: days left
                 if (diffDays === 1) return { html: '<span class="days-left"><i class="fas fa-hourglass-half"></i> 1 day left</span>' };
                 return { html: `<span class="days-left"><i class="fas fa-hourglass-half"></i> ${diffDays} days left</span>` };
             }
@@ -474,7 +584,6 @@ document.addEventListener('contextmenu', function(e) {
                     const modeClass = (m.mode === 'online') ? 'mode-online' : 'mode-offline';
                     const modeIcon = (m.mode === 'online') ? '<i class="fas fa-globe"></i> Online' : '<i class="fas fa-building"></i> Offline';
                     
-                    // deliverable items as list
                     let deliverableHtml = '<ul class="deliverable-list">';
                     m.deliverables.forEach(item => {
                         deliverableHtml += `<li>${item}</li>`;
@@ -498,10 +607,7 @@ document.addEventListener('contextmenu', function(e) {
 
             renderTable();
 
-            // (optional) re-run every day to keep counters fresh – but static build still fine.
-            // we can add a simple interval to update at midnight? but for simplicity we just compute once.
-            // but to be fancy, update every 60000ms (1 minute) just for demonstration (real change only at date turnover)
-            // we can refresh the status cells without flicker.
+            // update counters every hour to reflect day changes
             function updateCounters() {
                 const rows = tbody.querySelectorAll('tr');
                 milestones.forEach((m, idx) => {
@@ -514,9 +620,7 @@ document.addEventListener('contextmenu', function(e) {
                     }
                 });
             }
-            // update once per hour to reflect new day (since days left changes at midnight)
             setInterval(updateCounters, 3600000); // every hour
-            // also update every 10min for smoother edge if needed (still fine)
         })();
     </script>
 </body>
