@@ -11886,7 +11886,34 @@
         "back_end": ""
       }
     ]
+  },
+  
+  {
+    "company_name": "",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "",
+    "internal_guide": "Prof. Honey Parmar",
+    "projects": [
+      {
+        "s_no": 441,
+        "members": [
+          {
+            "name": "Jaiswal amita Vijaykumar",
+            "enrollment": "2405112120071",
+            "mobile": "93286 25172",
+            "program": "MCA"
+          }
+        ],
+        "project_title": "Coffee shop management website",
+        "project_description": "",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
   }
+
 
 
 
