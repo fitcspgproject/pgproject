@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project Milestone · Final viva (top) + submission specs</title>
+    <title>Project Milestone · thesis modal on marquee</title>
     <!-- Font Awesome 6 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
@@ -99,6 +99,124 @@
             color: #2d4b71;
         }
 
+        /* ----- marquee style (clickable) ----- */
+        .thesis-marquee {
+            background: #1d2b3f;
+            border-radius: 60px;
+            padding: 0.8rem 1.8rem;
+            margin: 1rem 0 1.8rem 0;
+            border: 2px solid #f3b37c;
+            box-shadow: 0 6px 12px rgba(0,20,40,0.3);
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .thesis-marquee:hover {
+            background: #203a55;
+            border-color: #ffbc7a;
+            transform: scale(1.01);
+            box-shadow: 0 10px 20px rgba(180, 100, 20, 0.3);
+        }
+        .thesis-marquee marquee {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #ffdfaa;
+            letter-spacing: 0.3px;
+        }
+        .thesis-marquee i {
+            color: #ffb96a;
+            margin: 0 10px;
+        }
+
+        /* ----- modal overlay ----- */
+        .modal-overlay {
+            display: none;
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background-color: rgba(0,0,0,0.5);
+            backdrop-filter: blur(3px);
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+        }
+        .modal-card {
+            background: #fefaf2;
+            width: 90%;
+            max-width: 800px;
+            max-height: 85vh;
+            overflow-y: auto;
+            border-radius: 2.5rem;
+            padding: 2.2rem 2.5rem;
+            box-shadow: 0 30px 60px rgba(0, 10, 30, 0.7);
+            border: 2px solid #d6965a;
+            position: relative;
+        }
+        .modal-card h3 {
+            font-size: 2rem;
+            color: #1d2b3f;
+            border-bottom: 3px solid #d6965a;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.8rem;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        .modal-card h3 i {
+            color: #b4570e;
+        }
+        .close-modal {
+            position: absolute;
+            top: 1.2rem; right: 1.5rem;
+            font-size: 2rem;
+            cursor: pointer;
+            background: #f0e0cd;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #3a2c1b;
+            font-weight: 700;
+            transition: 0.2s;
+            border: none;
+        }
+        .close-modal:hover {
+            background: #d18748;
+            color: white;
+            transform: scale(1.1);
+        }
+        .modal-content {
+            color: #1f2a3c;
+        }
+        .modal-content ul {
+            list-style: none;
+        }
+        .modal-content li {
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: flex-start;
+            gap: 15px;
+            font-size: 1.05rem;
+        }
+        .modal-content li i {
+            color: #c9621e;
+            font-size: 1.3rem;
+            min-width: 2rem;
+            text-align: center;
+        }
+        .cd-block {
+            background: #e8e2d4;
+            padding: 1.2rem 1.8rem;
+            border-radius: 1.5rem;
+            margin-top: 1.5rem;
+            border-left: 8px solid #b4570e;
+        }
+        .cd-block p {
+            margin: 0.4rem 0;
+            display: flex;
+            gap: 10px;
+        }
+
         .milestone-table {
             width: 100%;
             border-collapse: collapse;
@@ -141,11 +259,10 @@
             box-shadow: inset 0 2px 6px rgba(240, 115, 40, 0.1);
         }
         .milestone-table tbody tr:first-child td {
-            background-color: #fff7e6;         /* warm highlight */
+            background-color: #fff7e6;
             border-bottom: 2px solid #f3cba1;
             color: #3a2c1b;
         }
-        /* bold + larger text only for description & deliverable cells in row 1 */
         .milestone-table tbody tr:first-child .desc-cell {
             font-weight: 800;
             font-size: 1.04rem;
@@ -241,59 +358,6 @@
             gap: 6px;
         }
 
-        /* submission requirements card */
-        .submission-box {
-            background: #1d2b3f;
-            border-radius: 1.8rem;
-            padding: 1.8rem 2.2rem;
-            margin: 1.8rem 0 1rem;
-            color: #f0f6ff;
-            box-shadow: 0 14px 20px -8px rgba(0,20,50,0.5);
-            border: 1px solid #597ea5;
-        }
-        .submission-box h3 {
-            font-size: 1.7rem;
-            font-weight: 700;
-            letter-spacing: -0.3px;
-            color: #ffd59e;
-            margin-bottom: 1rem;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            border-bottom: 2px solid #56749e;
-            padding-bottom: 0.5rem;
-        }
-        .submission-box ul {
-            list-style-type: none;
-            margin-top: 0.3rem;
-        }
-        .submission-box li {
-            margin-bottom: 0.7rem;
-            display: flex;
-            align-items: flex-start;
-            gap: 12px;
-            font-size: 1rem;
-        }
-        .submission-box li i {
-            color: #ffb05c;
-            font-size: 1.2rem;
-            min-width: 1.6rem;
-            text-align: center;
-            padding-top: 0.1rem;
-        }
-        .submission-box .cd-details {
-            background: #253b55;
-            padding: 1rem 1.5rem;
-            border-radius: 1.2rem;
-            margin-top: 1rem;
-            border-left: 6px solid #f9a95a;
-        }
-        .cd-details p {
-            margin: 0.3rem 0;
-            display: flex;
-            gap: 8px;
-        }
-
         hr {
             border: none;
             border-top: 1.5px dashed #a7c0db;
@@ -318,16 +382,6 @@
             display: inline-block;
             white-space: nowrap;
         }
-        .days-passed {
-            background: #f0edd4;
-            color: #7d6300;
-            padding: 0.3rem 0.8rem;
-            border-radius: 40px;
-            font-weight: 600;
-            font-size: 0.9rem;
-            display: inline-block;
-            white-space: nowrap;
-        }
         .review-over {
             background: #f2dbd4;
             color: #aa3a2b;
@@ -346,15 +400,6 @@
             font-weight: 700;
             font-size: 0.9rem;
         }
-        .viva-pending-badge {
-            background: #e8d9b0;
-            color: #4b3b16;
-            padding: 0.3rem 0.8rem;
-            border-radius: 40px;
-            font-weight: 700;
-            font-size: 0.9rem;
-            white-space: nowrap;
-        }
 
         @media (max-width: 1050px) {
             .schedule-page { padding: 1.5rem; }
@@ -364,7 +409,7 @@
 </head>
 <body>
     <div class="schedule-page">
-        <!-- header with Parul identity -->
+        <!-- header -->
         <div class="header-row">
             <div class="title-section">
                 <h1>
@@ -390,7 +435,14 @@
             <span class="program"> · Project Milestone 2026</span>
         </div>
 
-        <!-- MAIN TABLE – milestone 10 is now moved to the top (index 0) -->
+        <!-- MARQUEE (clickable) – placed just above table, bottom box removed -->
+        <div class="thesis-marquee" id="thesisMarquee">
+            <marquee behavior="scroll" direction="left" scrollamount="6" onmouseover="this.stop();" onmouseout="this.start();">
+                <i class="fas fa-graduation-cap"></i> 📚 Click here for Project Thesis Submission instructions – hardbound, CD/DVD details, exam session April 2026  <i class="fas fa-chevron-circle-right"></i>
+            </marquee>
+        </div>
+
+        <!-- main table (milestone 10 at top) -->
         <table class="milestone-table">
             <thead>
                 <tr>
@@ -402,31 +454,10 @@
                     <th>⏳ Days left / status</th>
                 </tr>
             </thead>
-            <tbody id="milestone-body">
-                <!-- dynamic rows: milestone 10 will appear first, styled differently via CSS first-child -->
-            </tbody>
+            <tbody id="milestone-body"></tbody>
         </table>
 
-        <!-- new submission requirements card (exactly as provided) -->
-        <div class="submission-box">
-            <h3><i class="fas fa-pen-fancy"></i> Project Thesis Submission</h3>
-            <ul>
-                <li><i class="fas fa-hard-bound"></i> One hardbound copy per group must be submitted to the department.</li>
-                <li><i class="fas fa-copy"></i> Students may prepare additional hardbound copies for their own future reference. If they are working in a group, any member can create their own copy.</li>
-                <li><i class="fas fa-compact-disc"></i> A CD/DVD must be attached to the last page of the thesis using proper tape.</li>
-            </ul>
-            <div class="cd-details">
-                <p><i class="fas fa-disc-drive"></i> <strong>CD/DVD must contain all project-related soft copies:</strong></p>
-                <p style="margin-left: 2rem;">• Project Presentation</p>
-                <p style="margin-left: 2rem;">• Project Documentation</p>
-                <p style="margin-left: 2rem;">• Project Directory</p>
-                <p style="margin-top: 0.7rem;"><i class="fas fa-label"></i> <strong>On the CD/DVD, clearly write the following details:</strong></p>
-                <p style="margin-left: 2rem;">- Names of all group members<br>- Enrollment numbers of all group members<br>- Course and Division<br>- Project Title</p>
-                <p style="margin-top: 0.5rem;"><i class="fas fa-calendar-alt"></i> Exam Session: April 2026</p>
-            </div>
-        </div>
-
-        <!-- important notes (existing) + viva line integrated -->
+        <!-- note box (no submission block here) -->
         <div class="note-box">
             <div class="note-item"><i class="fas fa-exclamation-circle"></i> <strong>Online submission</strong> is allowed only for those students/groups that are outside Gujarat. However, if the mode is mentioned as Offline, physical presence is mandatory.</div>
             <div class="note-item"><i class="fas fa-file-alt"></i> Necessary formats, instructions, and detailed schedules will be shared in advance.</div>
@@ -434,7 +465,31 @@
         </div>
         <hr>
         <div class="footer-note">
-            <i class="fas fa-check-circle" style="color: #2266aa;"></i> MCA project milestones · 2026 · Parul University — final viva at top + thesis specs
+            <i class="fas fa-check-circle" style="color: #2266aa;"></i> MCA project milestones · 2026 · Parul University — click marquee for thesis details
+        </div>
+    </div>
+
+    <!-- MODAL for thesis submission (hidden by default) -->
+    <div class="modal-overlay" id="thesisModal">
+        <div class="modal-card">
+            <div class="close-modal" id="closeModalBtn">&times;</div>
+            <h3><i class="fas fa-pen-fancy"></i> Project Thesis Submission</h3>
+            <div class="modal-content">
+                <ul>
+                    <li><i class="fas fa-hard-bound"></i> One hardbound copy per group must be submitted to the department.</li>
+                    <li><i class="fas fa-copy"></i> Students may prepare additional hardbound copies for their own future reference. If they are working in a group, any member can create their own copy.</li>
+                    <li><i class="fas fa-compact-disc"></i> A CD/DVD must be attached to the last page of the thesis using proper tape.</li>
+                </ul>
+                <div class="cd-block">
+                    <p><i class="fas fa-disc-drive"></i> <strong>CD/DVD must contain all project-related soft copies:</strong></p>
+                    <p style="margin-left: 2rem;">• Project Presentation</p>
+                    <p style="margin-left: 2rem;">• Project Documentation</p>
+                    <p style="margin-left: 2rem;">• Project Directory</p>
+                    <p style="margin-top: 0.7rem;"><i class="fas fa-label"></i> <strong>On the CD/DVD, clearly write the following details:</strong></p>
+                    <p style="margin-left: 2rem;">- Names of all group members<br>- Enrollment numbers of all group members<br>- Course and Division<br>- Project Title</p>
+                    <p style="margin-top: 0.5rem;"><i class="fas fa-calendar-alt"></i> Exam Session: April 2026</p>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -447,180 +502,70 @@
     </script>
     <script>
         (function() {
-            // ---------- milestone data: milestone 10 (external viva) is now first, then 1..9 ----------
+            // milestone data (10 first, then 1..9)
             const milestones = [
-                // 10 first (special, will be bold/colored via first-child)
                 {
                     no: "10",
                     desc: "University External Practical Viva Examination",
-                    deliverables: [
-                        "Final viva voce with external examiner.",
-                        "Venue and reporting time will be shared soon."
-                    ],
+                    deliverables: ["Final viva voce with external examiner.","Venue and reporting time will be shared soon."],
                     dateStr: "2026-04-04",
                     mode: "offline"
                 },
-                // then original 1..9 in order
-                {
-                    no: "1",
-                    desc: "Company Profile",
-                    deliverables: ["Company Registration Certificate", "Any additional relevant organizational documents"],
-                    dateStr: "2026-01-06",
-                    mode: "offline"
-                },
-                {
-                    no: "2",
-                    desc: "Project Profile",
-                    deliverables: [
-                        "Project Definition", "Project Description", "Existing System / Work Environment",
-                        "Problem Statements", "Need for New System", "Proposed System & Features",
-                        "Scope & Outcomes", "Tools & Technology used", "Project Plan (PERT Chart)",
-                        "📄 A detailed and well-structured Word document",
-                        "📊 A professional PowerPoint presentation"
-                    ],
-                    dateStr: "2026-01-30",
-                    mode: "online"
-                },
-                {
-                    no: "3",
-                    desc: "Requirement Analysis",
-                    deliverables: [
-                        "Feasibility Study", "Users of the System", "System Modules",
-                        "Process Model", "Hardware & Software Requirements", "Use Cases", "Use Case Diagram",
-                        "❗ Do not include theoretical definitions — context‑specific report, clear justifications."
-                    ],
-                    dateStr: "2026-02-14",
-                    mode: "offline"
-                },
-                {
-                    no: "4",
-                    desc: "Design",
-                    deliverables: [
-                        "Use Case Scenarios", "UML / DFD Diagrams (Class, Sequence, Activity, Collaboration, Package, Deployment)",
-                        "DFD (Level 0, 1, 2)", "Data Dictionary", "ER Diagram",
-                        "💡 Use professional design tools, industry notation."
-                    ],
-                     dateStr: "2026-02-14",
-                    mode: "offline"
-                },
-                {
-                    no: "5",
-                    desc: "Implementation",
-                    deliverables: [
-                        "Form / Screen Layouts", "Report Layouts",
-                        "Coding Convention & Code Snippets", "✔ professional UI/UX, clean structured code"
-                    ],
-                    dateStr: "2026-03-07",
-                    mode: "online"
-                },
-                {
-                    no: "6",
-                    desc: "Demonstration of Full Working Project (Mid-Term Review)",
-                    deliverables: ["Full working presentation of all modules in running mode along with all previous phases."],
-                    dateStr: "2026-03-14",
-                    mode: "offline"
-                },
-                {
-                    no: "7",
-                    desc: "Testing",
-                    deliverables: [
-                        "Test Strategy & Test Cases", "System Testing / User Testing",
-                        "🔍 Design based on own modules, include traceability"
-                    ],
-                    dateStr: "2026-03-21",
-                    mode: "online"
-                },
-                {
-                    no: "8",
-                    desc: "Documentation, Demonstration & Thesis Submission",
-                    deliverables: ["Soft copies and all necessary documents must be verified by the Internal Guide."],
-                    dateStr: "2026-03-28",
-                    mode: "offline"
-                },
-                {
-                    no: "9",
-                    desc: "Final Submission",
-                    deliverables: ["Complete project submission in final form along with thesis in hardcopy."],
-                    dateStr: "2026-04-02",
-                    mode: "offline"
-                }
+                { no: "1", desc: "Company Profile", deliverables: ["Company Registration Certificate","Any additional relevant organizational documents"], dateStr: "2026-01-06", mode: "offline" },
+                { no: "2", desc: "Project Profile", deliverables: ["Project Definition","Project Description","Existing System / Work Environment","Problem Statements","Need for New System","Proposed System & Features","Scope & Outcomes","Tools & Technology used","Project Plan (PERT Chart)","📄 A detailed and well-structured Word document","📊 A professional PowerPoint presentation"], dateStr: "2026-01-30", mode: "online" },
+                { no: "3", desc: "Requirement Analysis", deliverables: ["Feasibility Study","Users of the System","System Modules","Process Model","Hardware & Software Requirements","Use Cases","Use Case Diagram","❗ Do not include theoretical definitions — context‑specific report, clear justifications."], dateStr: "2026-02-14", mode: "offline" },
+                { no: "4", desc: "Design", deliverables: ["Use Case Scenarios","UML / DFD Diagrams (Class, Sequence, Activity, Collaboration, Package, Deployment)","DFD (Level 0, 1, 2)","Data Dictionary","ER Diagram","💡 Use professional design tools, industry notation."], dateStr: "2026-02-14", mode: "offline" },
+                { no: "5", desc: "Implementation", deliverables: ["Form / Screen Layouts","Report Layouts","Coding Convention & Code Snippets","✔ professional UI/UX, clean structured code"], dateStr: "2026-03-07", mode: "online" },
+                { no: "6", desc: "Demonstration of Full Working Project (Mid-Term Review)", deliverables: ["Full working presentation of all modules in running mode along with all previous phases."], dateStr: "2026-03-14", mode: "offline" },
+                { no: "7", desc: "Testing", deliverables: ["Test Strategy & Test Cases","System Testing / User Testing","🔍 Design based on own modules, include traceability"], dateStr: "2026-03-21", mode: "online" },
+                { no: "8", desc: "Documentation, Demonstration & Thesis Submission", deliverables: ["Soft copies and all necessary documents must be verified by the Internal Guide."], dateStr: "2026-03-28", mode: "offline" },
+                { no: "9", desc: "Final Submission", deliverables: ["Complete project submission in final form along with thesis in hardcopy."], dateStr: "2026-04-02", mode: "offline" }
             ];
 
-            // helper to format date as DD/MM/YYYY for display
-            function formatDate(iso) {
-                if (!iso) return "—";
-                const [y, m, d] = iso.split('-');
-                return `${d}/${m}/${y}`;
-            }
-
-            // compute days left / status relative to current date
+            function formatDate(iso) { if (!iso) return "—"; const [y,m,d]=iso.split('-'); return `${d}/${m}/${y}`; }
             function getStatusLabel(dateISO) {
-                if (!dateISO) return { html: '<span class="days-left">—</span>' };
-
-                const today = new Date();
-                const todayDate = new Date(today.getFullYear(), today.getMonth(), today.getDate());
-                const target = new Date(dateISO + 'T00:00:00');
-
-                const diffTime = target - todayDate;
-                const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
-
-                if (diffDays === 0) {
-                    return { html: '<span class="today-badge"><i class="fas fa-bell"></i> TODAY</span>' };
-                }
-                if (diffDays < 0) {
-                    const passed = Math.abs(diffDays);
-                    if (passed === 1) return { html: '<span class="review-over"><i class="fas fa-calendar-times"></i> 1 day over</span>' };
-                    return { html: `<span class="review-over"><i class="fas fa-calendar-times"></i> ${passed} days over</span>` };
-                }
-                if (diffDays === 1) return { html: '<span class="days-left"><i class="fas fa-hourglass-half"></i> 1 day left</span>' };
-                return { html: `<span class="days-left"><i class="fas fa-hourglass-half"></i> ${diffDays} days left</span>` };
+                if (!dateISO) return { html:'<span class="days-left">—</span>' };
+                const today=new Date(); const todayDate=new Date(today.getFullYear(),today.getMonth(),today.getDate());
+                const target=new Date(dateISO+'T00:00:00');
+                const diffTime=target-todayDate; const diffDays=Math.ceil(diffTime/(1000*60*60*24));
+                if(diffDays===0) return { html:'<span class="today-badge"><i class="fas fa-bell"></i> TODAY</span>' };
+                if(diffDays<0) { const passed=Math.abs(diffDays); if(passed===1) return { html:'<span class="review-over"><i class="fas fa-calendar-times"></i> 1 day over</span>' }; return { html:`<span class="review-over"><i class="fas fa-calendar-times"></i> ${passed} days over</span>` };}
+                if(diffDays===1) return { html:'<span class="days-left"><i class="fas fa-hourglass-half"></i> 1 day left</span>' };
+                return { html:`<span class="days-left"><i class="fas fa-hourglass-half"></i> ${diffDays} days left</span>` };
             }
 
-            // render table body
-            const tbody = document.getElementById('milestone-body');
-            function renderTable() {
-                let htmlString = '';
-                milestones.forEach(m => {
-                    const modeClass = (m.mode === 'online') ? 'mode-online' : 'mode-offline';
-                    const modeIcon = (m.mode === 'online') ? '<i class="fas fa-globe"></i> Online' : '<i class="fas fa-building"></i> Offline';
-                    
-                    let deliverableHtml = '<ul class="deliverable-list">';
-                    m.deliverables.forEach(item => {
-                        deliverableHtml += `<li>${item}</li>`;
-                    });
-                    deliverableHtml += '</ul>';
-
-                    const displayDate = formatDate(m.dateStr);
-                    const status = m.dateStr ? getStatusLabel(m.dateStr) : { html: '<span class="days-left">—</span>' };
-
-                    htmlString += `<tr>
-                        <td style="text-align: center; font-weight: 600;">${m.no}</td>
-                        <td class="desc-cell">${m.desc}</td>
-                        <td class="deliverable-cell">${deliverableHtml}</td>
-                        <td class="date-cell">${displayDate}</td>
-                        <td class="mode-cell"><span class="${modeClass}">${modeIcon}</span></td>
-                        <td class="countdown-cell">${status.html}</td>
-                    </tr>`;
+            const tbody=document.getElementById('milestone-body');
+            function renderTable(){
+                let html='';
+                milestones.forEach(m=>{
+                    const modeClass=(m.mode==='online')?'mode-online':'mode-offline';
+                    const modeIcon=(m.mode==='online')?'<i class="fas fa-globe"></i> Online':'<i class="fas fa-building"></i> Offline';
+                    let deliv='<ul class="deliverable-list">';
+                    m.deliverables.forEach(d=> deliv+=`<li>${d}</li>`);
+                    deliv+='</ul>';
+                    const dispDate=formatDate(m.dateStr);
+                    const status=m.dateStr?getStatusLabel(m.dateStr):{html:'<span class="days-left">—</span>'};
+                    html+=`<tr><td style="text-align:center;font-weight:600;">${m.no}</td><td class="desc-cell">${m.desc}</td><td class="deliverable-cell">${deliv}</td><td class="date-cell">${dispDate}</td><td class="mode-cell"><span class="${modeClass}">${modeIcon}</span></td><td class="countdown-cell">${status.html}</td></tr>`;
                 });
-                tbody.innerHTML = htmlString;
+                tbody.innerHTML=html;
             }
-
             renderTable();
+            setInterval(()=>{
+                const rows=tbody.querySelectorAll('tr');
+                milestones.forEach((m,idx)=>{ if(rows[idx]){ const cell=rows[idx].querySelector('.countdown-cell'); if(cell&&m.dateStr) cell.innerHTML=getStatusLabel(m.dateStr).html; } });
+            },3600000);
 
-            // update counters every hour to reflect day changes
-            function updateCounters() {
-                const rows = tbody.querySelectorAll('tr');
-                milestones.forEach((m, idx) => {
-                    if (rows[idx]) {
-                        const statusCell = rows[idx].querySelector('.countdown-cell');
-                        if (statusCell && m.dateStr) {
-                            const newStatus = getStatusLabel(m.dateStr);
-                            statusCell.innerHTML = newStatus.html;
-                        }
-                    }
-                });
-            }
-            setInterval(updateCounters, 3600000); // every hour
+            // modal logic
+            const marquee=document.getElementById('thesisMarquee');
+            const modal=document.getElementById('thesisModal');
+            const closeBtn=document.getElementById('closeModalBtn');
+
+            function openModal() { modal.style.display='flex'; }
+            function closeModal() { modal.style.display='none'; }
+
+            marquee.addEventListener('click', openModal);
+            closeBtn.addEventListener('click', closeModal);
+            window.addEventListener('click', (e)=>{ if(e.target===modal) closeModal(); });
         })();
     </script>
 </body>
