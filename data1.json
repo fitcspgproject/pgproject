@@ -11861,7 +11861,34 @@
         "back_end": ""
       }
     ]
+  },
+  [
+  {
+    "company_name": "sinelogix",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "",
+    "internal_guide": "Prof.Rinkal Sarvaiya",
+    "projects": [
+      {
+        "s_no": "",
+        "members": [
+          {
+            "name": "pirjada mohammad faizan",
+            "enrollment": "2305102140024",
+            "mobile": "9173364670",
+            "program": "MCA"
+          }
+        ],
+        "project_title": "Momento",
+        "project_description": "",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
   }
+]
 
 
 
