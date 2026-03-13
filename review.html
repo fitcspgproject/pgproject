@@ -502,12 +502,12 @@
     </script>
     <script>
         (function() {
-            // milestone data (10 first, then 1..9)
+            // milestone data (10 first, then 1..9) — updated 6,7,8,9 according to user input
             const milestones = [
                 {
                     no: "10",
                     desc: "University External Practical Viva Examination",
-                    deliverables: ["Final viva voce with external examiner.","Venue and reporting time will be shared soon."],
+                    deliverables: ["Final viva voce with external examiner.", "Venue and reporting time will be shared soon."],
                     dateStr: "2026-04-04",
                     mode: "offline"
                 },
@@ -516,10 +516,14 @@
                 { no: "3", desc: "Requirement Analysis", deliverables: ["Feasibility Study","Users of the System","System Modules","Process Model","Hardware & Software Requirements","Use Cases","Use Case Diagram","❗ Do not include theoretical definitions — context‑specific report, clear justifications."], dateStr: "2026-02-14", mode: "offline" },
                 { no: "4", desc: "Design", deliverables: ["Use Case Scenarios","UML / DFD Diagrams (Class, Sequence, Activity, Collaboration, Package, Deployment)","DFD (Level 0, 1, 2)","Data Dictionary","ER Diagram","💡 Use professional design tools, industry notation."], dateStr: "2026-02-14", mode: "offline" },
                 { no: "5", desc: "Implementation", deliverables: ["Form / Screen Layouts","Report Layouts","Coding Convention & Code Snippets","✔ professional UI/UX, clean structured code"], dateStr: "2026-03-07", mode: "online" },
-                { no: "6", desc: "Demonstration of Full Working Project (Mid-Term Review)", deliverables: ["Full working presentation of all modules in running mode along with all previous phases."], dateStr: "2026-03-14", mode: "offline" },
-                { no: "7", desc: "Testing", deliverables: ["Test Strategy & Test Cases","System Testing / User Testing","🔍 Design based on own modules, include traceability"], dateStr: "2026-03-21", mode: "online" },
-                { no: "8", desc: "Documentation, Demonstration & Thesis Submission", deliverables: ["Soft copies and all necessary documents must be verified by the Internal Guide."], dateStr: "2026-03-28", mode: "offline" },
-                { no: "9", desc: "Final Submission", deliverables: ["Complete project submission in final form along with thesis in hardcopy."], dateStr: "2026-04-02", mode: "offline" }
+                // --- updated milestone 6 (mid-term review + soft copy verification)
+                { no: "6", desc: "Demonstration of Full Working Project (Mid-Term Review)", deliverables: ["Full working presentation of all modules in running mode along with all previous phases.","Verification and approval of the soft copy of the project thesis."], dateStr: "2026-03-14", mode: "offline" },
+                // --- updated milestone 7 (final verified doc + testing)
+                { no: "7", desc: "Final verified documentation & Testing", deliverables: ["• Test Strategy & Test Cases","• System Testing / User Testing","Prepare Test Strategy and Test Cases. Perform System Testing / User Testing. Design and document relevant test cases based on your system modules.","Incorporate the suggestions provided during the review and submit the final documentation in soft copy."], dateStr: "2026-03-21", mode: "online" },
+                // --- updated milestone 8 (hardbound thesis submission)
+                { no: "8", desc: "Hardbound Thesis Submission", deliverables: ["Submit the hardbound thesis as per the given instructions to the Internal Guide."], dateStr: "2026-03-28", mode: "offline" },
+                // --- milestone 9 (final external viva clarification; description kept as per instruction: "9 the final external viva examiantion")
+                { no: "9", desc: "Final External Viva Examination", deliverables: ["Complete project submission in final form along with thesis in hardcopy.","Viva to be conducted by external examiner."], dateStr: "2026-04-02", mode: "offline" }
             ];
 
             function formatDate(iso) { if (!iso) return "—"; const [y,m,d]=iso.split('-'); return `${d}/${m}/${y}`; }
