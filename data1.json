@@ -6944,56 +6944,8 @@
         }
       ]
     },
-    {
-      "company_name": "",
-      "address": "",
-      "website": "",
-      "contact": "",
-      "mentor": "",
-      "internal_guide": "Prof.Sohil Parmar",
-      "projects": [
-        {
-          "s_no": 269,
-          "members": [
-            {
-              "name": "Swayam Rajora",
-              "enrollment": "2205103130003",
-              "mobile": "9907504766",
-              "program": "IMCA, A"
-            }
-          ],
-          "project_title": "RatnaBazar- Online Jwellery Store",
-          "project_description": "Na",
-          "front_end": "Na",
-          "back_end": "Na"
-        }
-      ]
-    },
-    {
-      "company_name": "",
-      "address": "",
-      "website": "",
-      "contact": "",
-      "mentor": "",
-      "internal_guide": "Prof.Sohil Parmar",
-      "projects": [
-        {
-          "s_no": 270,
-          "members": [
-            {
-              "name": "ISHIKA SOLANKI",
-              "enrollment": "2205103120007",
-              "mobile": "8253034822",
-              "program": "IMCA, A"
-            }
-          ],
-          "project_title": "Online Sales Portal",
-          "project_description": "Consultancy project",
-          "front_end": "Na",
-          "back_end": "Na"
-        }
-      ]
-    },
+    
+   
     {
       "company_name": "",
       "address": "",
