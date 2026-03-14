@@ -3351,7 +3351,7 @@
         "s_no": 126,
         "members": [
           {
-            "name": "Bheam",
+            "name": "Sanapathi Hemasundar",
             "enrollment": "2405112070049",
             "mobile": "9948441166",
             "program": "MCA, E"
@@ -3482,7 +3482,7 @@
             "program": "MCA I"
           }
         ],
-        "project_title": "BMI Calculator and Weight Management Application",
+        "project_title": "Body mass index",
         "project_description": "The inspiration for this idea comes from our personal journey. Having struggled with obesity for most of our life, we found ourselves constantly scouring various sources online to track our daily food intake - from calorie counts to protein content and beyond. We envisioned creating an application that streamlines this process by allowing users to input their basic information such as height, weight, etc. The Web app would then calculate their BMI and provide insights into their weight status, whether they're considered obese, underweight, or within a healthy range.",
         "front_end": "On progress",
         "back_end": "On progress"
@@ -4843,7 +4843,7 @@
             "program": "MCA, A"
           }
         ],
-        "project_title": "Job Listing Portal",
+        "project_title": "Talent X Lay",
         "project_description": "Our Job Listing Portal is a dynamic web application designed to connect job seekers with potential employers efficiently. It features a clean and intuitive interface where users can easily search for job openings across various industries. Employers can create detailed job listings, specifying qualifications, responsibilities, and company information. Job seekers can create profiles, upload resumes, and apply for jobs directly through the portal. The portal offers advanced search filters, including job type, location, and salary range, to help users find the perfect match. With real-time notifications, both employers and applicants stay updated on application statuses. Secure user authentication ensures data privacy and protection. The portal also includes a dashboard for users to manage their job postings and applications seamlessly.",
         "front_end": "React.JS",
         "back_end": "Node.JS, Express.JS"
@@ -6362,31 +6362,7 @@
         }
       ]
     },
-    {
-      "company_name": "Intellect Design Arena Ltd",
-      "address": "Chennai",
-      "website": "https://www.intellectdesign.com",
-      "contact": "8240617725",
-      "mentor": "Soumyajeet Dey (HR)",
-      "internal_guide": "Prof. Tanmay Shah",
-      "projects": [
-        {
-          "s_no": 245,
-          "members": [
-            {
-              "name": "Manisha Bhardwaj",
-              "enrollment": "2405112110068",
-              "mobile": "9327812411",
-              "program": "MCA, H"
-            }
-          ],
-          "project_title": "Bank Management System",
-          "project_description": "A Bank Management System is a Java-based software application designed to manage and automate the day-to-day operations of a bank. It provides a secure, reliable, and user-friendly platform to handle customer data, accounts, transactions, and banking services efficiently. The system is typically developed using Core Java, OOP concepts, JDBC, and a relational database (like MySQL) to store and retrieve data.",
-          "front_end": "Java, Swing, Awt",
-          "back_end": "MySQL"
-        }
-      ]
-    },
+   
    {
       "company_name": "Tejaskp AI Software",
       "address": "Makarpura, Vadodara",
@@ -7507,7 +7483,7 @@
               "program": "MCA, D"
             }
           ],
-          "project_title": "",
+          "project_title": "Food Café Billing System",
           "project_description": "",
           "front_end": "",
           "back_end": ""
@@ -7713,7 +7689,7 @@
               "program": "MCA, E"
             }
           ],
-          "project_title": "TinyPaws",
+          "project_title": "Pet Heaven",
           "project_description": "Tiny Paws is a pet care and adoption support application designed to help users find, care for, and manage pets easily. It provides features like pet information, adoption details, health tips, and user-friendly navigation to enhance responsible pet ownership.",
           "front_end": "",
           "back_end": ""
@@ -8400,7 +8376,7 @@
               "program": "MCA, I"
             }
           ],
-          "project_title": "Learning Management System(LMS)",
+          "project_title": "Business Impact Report Automation",
           "project_description": "A Learning Management System (LMS) is a software application designed to manage, deliver, and monitor educational content and training programs through a digital platform",
           "front_end": "Angular + TypeScript",
           "back_end": "Java"
@@ -9889,7 +9865,7 @@
               "program": ""
             }
           ],
-          "project_title": "",
+          "project_title": "E-Learning System",
           "project_description": "",
           "front_end": "",
           "back_end": ""
@@ -10149,7 +10125,7 @@
               "program": "MCA,F"
             }
           ],
-          "project_title": "",
+          "project_title": "NA",
           "project_description": "",
           "front_end": "",
           "back_end": ""
@@ -11469,9 +11445,15 @@
               "enrollment": "2205103120003",
               "mobile": "",
               "program": "IMCA"
+            },
+             {
+              "name": "Richa Limbachiya",
+              "enrollment": "2205103120025",
+              "mobile": "",
+              "program": "IMCA"
             }
           ],
-          "project_title": "Furnivision",
+          "project_title": "Nano tech IT Solutions",
           "project_description": "",
           "front_end": "",
           "back_end": ""
@@ -11685,7 +11667,7 @@
               "program": "M.Sc."
             },
             {
-              "name": "vivek paghi",
+              "name": "Vivek Pagi",
               "enrollment": "2405102070003",
               "mobile": "",
               "program": "M.Sc."
