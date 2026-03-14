@@ -1254,31 +1254,7 @@
       }
     ]
   },
-  {
-    "company_name": "Hacker4Help",
-    "address": "Tulip Vatika, Anand Lambhvel",
-    "website": "",
-    "contact": "",
-    "mentor": "NA",
-    "internal_guide": "Prof. Vishakha Bathwar",
-    "projects": [
-      {
-        "s_no": 45,
-        "members": [
-          {
-            "name": "Laykumar Patel",
-            "enrollment": "2405102140027",
-            "mobile": "9327112912",
-            "program": "MSC-IT, G"
-          }
-        ],
-        "project_title": "Cyber Forensics",
-        "project_description": "",
-        "front_end": "Html, css, js, bootstrap, tailwind",
-        "back_end": "Php, python, n8n"
-      }
-    ]
-  },
+ 
   {
     "company_name": "Flying hathi",
     "address": "Laxmi niwas, Devipada, Borivali East, Mumbai 400066",
@@ -6086,31 +6062,7 @@
       }
     ]
   },
-  {
-        "company_name": "Edu Genius Academy",
-      "address": "Kolhapur, Maharashtra",
-      "website": "www.edugeniusacademykop.com",
-      "contact": "9689711142",
-      "mentor": "Sarika Bhosale (Manager)",
-      "internal_guide": "Prof. Smarika Rai",
-      "projects": [
-        {
-          "s_no": 235,
-          "members": [
-            {
-              "name": "Sankalp Bhosale",
-              "enrollment": "2405112140018",
-              "mobile": "9552023321",
-              "program": "MCA, F"
-            }
-          ],
-          "project_title": "ReconMaster",
-          "project_description": "Reconicence fremwork that support multiple tools",
-          "front_end": "HTML, CSS, JAVA SCRIPT",
-          "back_end": "Python, Sqlight"
-        }
-      ]
-    },
+  
     {
       "company_name": "Blue Dwarf Technology Private Limited",
       "address": "1st floor, Blue Dwarf Technology Private Limited, Studio Complex, near Shanku Party Plot, Gota, Ahmedabad, Gujarat 382481",
@@ -7143,31 +7095,7 @@
         }
       ]
     },
-    {
-      "company_name": "Oasis Infobyte",
-      "address": "Jaipur, Rajasthan, India",
-      "website": "https://oasisinfobyte.com/",
-      "contact": "admin@oasisinfobyte.com",
-      "mentor": "Team Oasis Infobyte (Project Mentor)",
-      "internal_guide": "Prof. Mehulkumar Dalwadi",
-      "projects": [
-        {
-          "s_no": 275,
-          "members": [
-            {
-              "name": "Niraj Vishwakarma",
-              "enrollment": "2405112120193",
-              "mobile": "9104983369",
-              "program": "MCA, C"
-            }
-          ],
-          "project_title": "Design and Development of an AI-Based Smart Resume Screening Web Application",
-          "project_description": "This project involves the design and development of an AI-based smart resume screening web application. The system analyzes resumes using basic AI and NLP techniques to match candidate skills with job requirements and automatically rank applicants. It helps reduce manual effort in recruitment and improves efficiency. The application is developed using web technologies with a Python-based back end.",
-          "front_end": "HTML, CSS, JS",
-          "back_end": "PYTHON"
-        }
-      ]
-    },
+   
     {
       "company_name": "Webmyne Systems pvt. ltd.",
       "address": "Ivory Terrace, 702, RC Dutt rd. Vadodara 390007",
@@ -7348,37 +7276,7 @@
         }
       ]
     },
-    {
-      "company_name": "Parul University",
-      "address": "Post Limda, Waghodia, Gujarat 391760",
-      "website": "www.paruluniversity.ac.in",
-      "contact": "9898315486",
-      "mentor": "Nirmit Shah Sir (Professor)",
-      "internal_guide": "Prof. Megha Trivedi",
-      "projects": [
-        {
-          "s_no": 282,
-          "members": [
-            {
-              "name": "Naman Dangi",
-              "enrollment": "2405102140003",
-              "mobile": "8735961484",
-              "program": "MSC-IT, G"
-            },
-            {
-              "name": "Anushka Rastogi",
-              "enrollment": "2405112140008",
-              "mobile": "94,521,394,529,044,300,000",
-              "program": "MCA, F"
-            }
-          ],
-          "project_title": "B.D. Jewellers",
-          "project_description": "The B.D. Jewellers Website is an ongoing online platform designed to showcase a wide range of jewellery products and collections to customers. The main purpose of the website is to provide an easy, attractive, and efficient way for customers to explore different jewellery items, learn about their details, and contact the store for inquiries or purchases. The website helps the business maintain its online presence while managing product information and customer interactions effectively.",
-          "front_end": "HTML, CSS, JavaScript",
-          "back_end": "Php, MySql"
-        }
-      ]
-    },
+    
     {
       "company_name": "Spark to ideas",
       "address": "Ahemdabad",
@@ -7629,31 +7527,7 @@
         }
       ]
     },
-    {
-      "company_name": "Omnino Solutions Private Limited",
-      "address": "G-704, Ekta Bhoomi Gardens, Dattapada mumbai Maharashtra",
-      "website": "www.omninosolutions.com",
-      "contact": "9879608129",
-      "mentor": "Roshini patani (HR)",
-      "internal_guide": "Dr. Pravin Tomar",
-      "projects": [
-        {
-          "s_no": 293,
-          "members": [
-            {
-              "name": "Parmar Divya Maheshbhai",
-              "enrollment": "2405112110080",
-              "mobile": "9773036783",
-              "program": "MCA, I"
-            }
-          ],
-          "project_title": "Company project",
-          "project_description": "Quick Support Service",
-          "front_end": "Html",
-          "back_end": "Php"
-        }
-      ]
-    },
+    ,
     {
       "company_name": "USP IT SOLUTION",
       "address": "Office No-12, 2nd Floor, Arya Prism Complex, Chakan-Talegaon Road, Chakan, Pune, 410 501",
