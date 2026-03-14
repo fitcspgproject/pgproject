@@ -1253,8 +1253,7 @@
         "back_end": "Excel, Power Query, DAX"
       }
     ]
-  },
- 
+  }, 
   {
     "company_name": "Flying hathi",
     "address": "Laxmi niwas, Devipada, Borivali East, Mumbai 400066",
@@ -7527,7 +7526,7 @@
         }
       ]
     },
-    ,
+    
     {
       "company_name": "USP IT SOLUTION",
       "address": "Office No-12, 2nd Floor, Arya Prism Complex, Chakan-Talegaon Road, Chakan, Pune, 410 501",
