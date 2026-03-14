@@ -6456,7 +6456,7 @@
       "website": "https://infolanzetech.in/",
       "contact": "7016160435",
       "mentor": "Darshil Patel (Owner)",
-      "internal_guide": "prof. satyamani Gayatri",
+      "internal_guide": "Dr.Pravin Tomar",
       "projects": [
         {
           "s_no": 249,
@@ -6466,9 +6466,16 @@
               "enrollment": "2405102130002",
               "mobile": "9328191037",
               "program": "MSC-IT, D"
+            },
+              {
+              "name": "Isha Jan",
+              "enrollment": "2405102120003",
+               "mobile": "7862959911",
+              "program": "MSC-IT, C"
             }
+            
           ],
-          "project_title": "No project allocated yet",
+          "project_title": "Super -30",
           "project_description": "No project allocated yet",
           "front_end": "",
           "back_end": ""
@@ -6618,31 +6625,7 @@
         }
       ]
     },
-    {
-      "company_name": "Kalakrut",
-      "address": "637, RK World Tower, Sheetal Park, 150 FT Ring Road, Rajkot.",
-      "website": "www.kalakrut.com",
-      "contact": "9979764301",
-      "mentor": "Pratik Akabari (CTO & MARKETING HEAD)",
-      "internal_guide": "Prof. Ahikpa Etienne",
-      "projects": [
-        {
-          "s_no": 255,
-          "members": [
-            {
-              "name": "Isha Jan",
-              "enrollment": "2405102120003",
-              "mobile": "7862959911",
-              "program": "MSC-IT, C"
-            }
-          ],
-          "project_title": "No project allocated yet",
-          "project_description": "No project allocated yet",
-          "front_end": "",
-          "back_end": ""
-        }
-      ]
-    },
+   
   {  
       "company_name": "Neptune Infotech",
       "address": "Polaris mall, 134, Vesu Canal Rd, opp. Bhaiya Nagar, Radhika Park Society, Punagam, Surat",
