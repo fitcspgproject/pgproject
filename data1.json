@@ -11702,7 +11702,176 @@
         "back_end": ""
       }
     ]
+  },[
+  {
+    "company_name": "Arch Foundantion",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "",
+    "internal_guide": "Prof. Vipul Gamit",
+    "projects": [
+      {
+        "s_no": 442,
+        "members": [
+          {
+            "name": "Cho Cho Khaing",
+            "enrollment": "2405102070006",
+            "mobile": "8141147858",
+            "program": "M.Sc.IT"
+          }
+        ],
+        "project_title": "AI Trainer Assistant Management System",
+        "project_description": "",
+        "front_end": "HTML,CSS, JavaScript",
+        "back_end": "Python"
+      }
+    ]
+  },
+  {
+    "company_name": "Acciojob",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "",
+    "internal_guide": "Acciojob",
+    "projects": [
+      {
+        "s_no": 443,
+        "members": [
+          {
+            "name": "Bavaliya Hardik jayshukhbhai",
+            "enrollment": "2405112110017",
+            "mobile": "",
+            "program": "MCA,H"
+          }
+        ],
+        "project_title": "Task management system",
+        "project_description": "",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
+  },
+  {
+    "company_name": "Acciojob",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "",
+    "internal_guide": "Acciojob",
+    "projects": [
+      {
+        "s_no": 444,
+        "members": [
+          {
+            "name": "Chauhan Adhya Ashokbhai",
+            "enrollment": "2405112110021",
+            "mobile": "",
+            "program": "MCA"
+          },
+          {
+            "name": "Chudasama Vijay Bhalabhai",
+            "enrollment": "2405112110025",
+            "mobile": "",
+            "program": "MCA"
+          }
+        ],
+        "project_title": "MRMS",
+        "project_description": "",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
+  },
+  {
+    "company_name": "Acciojob",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "",
+    "internal_guide": "Acciojob",
+    "projects": [
+      {
+        "s_no": 445,
+        "members": [
+          {
+            "name": "Krisha Kapadia",
+            "enrollment": "2205103110006",
+            "mobile": "",
+            "program": "IMCA,A"
+          },
+          {
+            "name": "Harsh Agarwal",
+            "enrollment": "2205103110001",
+            "mobile": "",
+            "program": "IMCA,A"
+          }
+        ],
+        "project_title": "Solar Panel Detection System",
+        "project_description": "",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
+  },
+  {
+    "company_name": "Acciojob",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "",
+    "internal_guide": "Acciojob",
+    "projects": [
+      {
+        "s_no": 446,
+        "members": [
+          {
+            "name": "Sampda Gangurde",
+            "enrollment": "2405112120162",
+            "mobile": "",
+            "program": "MCA,C"
+          },
+          {
+            "name": "Aayushi Saini",
+            "enrollment": "2405112120107",
+            "mobile": "",
+            "program": "MCA,C"
+          }
+        ],
+        "project_title": "MoodyMart (E-commerce)",
+        "project_description": "",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
+  },
+  {
+    "company_name": "Acciojob",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "",
+    "internal_guide": "Acciojob",
+    "projects": [
+      {
+        "s_no": 447,
+        "members": [
+          {
+            "name": "Sameem Ansari",
+            "enrollment": "2405112120161",
+            "mobile": "",
+            "program": "MCA,C"
+          }
+        ],
+        "project_title": "Insurance Claim Management System",
+        "project_description": "",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
   }
+]
 
 
 
