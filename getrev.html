@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student Review · loader + excel export</title>
+<meta charset="UTF-8">
+<style>
+body{
+font-family:Arial, sans-serif;
+background:#f5f7fa;
+padding:30px;
+margin:0;
+}
+.container{
+max-width:1220px;
+margin:auto;
+}
+h2{
+text-align:center;
+color:#154734;
+margin-top:0;
+}
+.filter-row{
+display:flex;
+flex-wrap:wrap;
+align-items:center;
+justify-content:center;
+gap:12px;
+margin-bottom:25px;
+background:white;
+padding:15px 20px;
+border-radius:40px;
+box-shadow:0 4px 10px rgba(0,40,20,0.06);
+position:relative;
+}
+.filter-item{
+display:flex;
+align-items:center;
+gap:6px;
+background:#f0f3f6;
+padding:5px 12px;
+border-radius:30px;
+}
+.filter-item label{
+font-weight:600;
+color:#1e3b2c;
+font-size:14px;
+}
+select, .autocomplete-input{
+padding:8px 16px;
+font-size:15px;
+border-radius:30px;
+border:1px solid #cbd5e0;
+background:white;
+min-width:180px;
+outline:none;
+transition:0.15s;
+}
+select:focus, .autocomplete-input:focus{
+border-color:#1e4a3b;
+box-shadow:0 0 0 2px rgba(30,74,59,0.2);
+}
+button{
+padding:8px 22px;
+border:none;
+background:#1e4a3b;
+color:white;
+border-radius:30px;
+cursor:pointer;
+font-weight:600;
+font-size:14px;
+transition:0.15s;
+box-shadow:0 2px 4px rgba(0,20,10,0.1);
+display:inline-flex;
+align-items:center;
+justify-content:center;
+gap:6px;
+}
+button:hover{
+background:#12352a;
+transform:scale(1.02);
+}
+button:disabled{
+opacity:0.6;
+cursor:not-allowed;
+transform:none;
+}
+/* loader overlay */
+.loader-overlay{
+position:fixed;
+top:0; left:0; width:100%; height:100%;
+background:rgba(255,255,255,0.75);
+backdrop-filter:blur(2px);
+display:flex;
+align-items:center;
+justify-content:center;
+z-index:999;
+flex-direction:column;
+font-weight:600;
+color:#154734;
+}
+.spinner{
+width:50px;
+height:50px;
+border:6px solid #e1ecf0;
+border-top:6px solid #154734;
+border-radius:50%;
+animation:spin 0.9s ease-in-out infinite;
+margin-bottom:15px;
+}
+@keyframes spin{
+0%{transform:rotate(0deg);}
+100%{transform:rotate(360deg);}
+}
+.table-wrapper{
+overflow-x:auto;
+background:white;
+border-radius:18px;
+box-shadow:0 10px 25px rgba(0,30,15,0.1);
+position:relative;
+}
+table{
+width:100%;
+border-collapse:collapse;
+background:white;
+min-width:1000px;
+}
+th{
+background:#154734;
+color:white;
+padding:14px 8px;
+font-weight:500;
+font-size:15px;
+white-space:nowrap;
+}
+td{
+padding:12px 6px;
+border-bottom:1px solid #e2e8f0;
+text-align:center;
+background-color:white;
+}
+tr:hover td{
+background:#f2f9f4;
+}
+.sno-cell{
+font-weight:600;
+color:#1e3b4a;
+background-color:#f8fafc;
+}
+.zero-mark{
+background:#ffebe6 !important;
+font-weight:600;
+color:#b91c1c;
+position:relative;
+}
+.zero-mark::after{
+content:" ⚠️";
+font-size:13px;
+opacity:0.9;
+}
+/* autocomplete */
+.autocomplete{
+position:relative;
+display:inline-block;
+}
+.autocomplete-items{
+position:absolute;
+background:white;
+border:1px solid #d4dce4;
+border-radius:16px;
+top:100%;
+left:0;
+right:0;
+z-index:99;
+box-shadow:0 8px 20px rgba(0,20,10,0.12);
+max-height:220px;
+overflow-y:auto;
+margin-top:6px;
+}
+.autocomplete-items div{
+padding:10px 18px;
+cursor:pointer;
+border-bottom:1px solid #edf2f7;
+font-size:14px;
+}
+.autocomplete-items div:hover{
+background:#e2f0e9;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<h2>📋 Student Review · loader + excel export</h2>
+
+<div class="filter-row">
+  <!-- faculty search with autocomplete -->
+  <div class="filter-item">
+    <label>👤 Faculty:</label>
+    <div class="autocomplete" style="width:220px;">
+      <input type="text" id="facultySearchInput" class="autocomplete-input" placeholder="type guide name..." autocomplete="off">
+      <div id="autocompleteList" class="autocomplete-items"></div>
+    </div>
+  </div>
+
+  <!-- guide dropdown -->
+  <div class="filter-item">
+    <label>📌 Guide:</label>
+    <select id="guideFilter">
+      <option value="all">All Guides</option>
+    </select>
+  </div>
+
+  <!-- zero marks filter -->
+  <div class="filter-item">
+    <label>🔍 zero marks:</label>
+    <select id="zeroReviewFilter">
+      <option value="all">All students</option>
+      <option value="review1">Review‑1 = 0</option>
+      <option value="review2">Review‑2 = 0</option>
+      <option value="review3">Review‑3 = 0</option>
+      <option value="review4">Review‑4 = 0</option>
+      <option value="any">Any review = 0</option>
+    </select>
+  </div>
+
+  <button onclick="applyCombinedFilters()" id="filterBtn">🔍 Apply filters</button>
+  <button onclick="resetFilters()" id="resetBtn">⟲ Reset</button>
+  <button onclick="loadData()" id="refreshBtn">↻ Refresh</button>
+  <!-- NEW DOWNLOAD EXCEL BUTTON -->
+  <button onclick="downloadExcel()" id="excelBtn" style="background:#2b5797;">⬇ Excel</button>
+</div>
+
+<div class="table-wrapper">
+<table>
+<thead>
+<tr>
+  <th>S.No.</th>
+  <th>Name</th>
+  <th>Enrollment</th>
+  <th>Internal Guide</th>
+  <th>Review‑1</th>
+  <th>Review‑2</th>
+  <th>Review‑3</th>
+  <th>Review‑4</th>
+  <th>Total</th>
+</tr>
+</thead>
+<tbody id="tableBody"></tbody>
+</table>
+</div>
+
+</div> <!-- container -->
+
+<!-- loader overlay (hidden by default) -->
+<div id="loaderOverlay" class="loader-overlay" style="display:none;">
+  <div class="spinner"></div>
+  <div>Loading ...</div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+<script>
+let allData = [];
+let currentDisplayData = []; // keep track of last rendered (filtered) data for excel export
+
+// loader control
+function showLoader() {
+  document.getElementById('loaderOverlay').style.display = 'flex';
+}
+function hideLoader() {
+  document.getElementById('loaderOverlay').style.display = 'none';
+}
+
+// wrap async calls with loader
+async function withLoader(asyncFn) {
+  showLoader();
+  try {
+    await asyncFn();
+  } catch (e) {
+    console.error(e);
+  } finally {
+    hideLoader();
+  }
+}
+
+// ---------- load & init ----------
+async function loadData(){
+  await withLoader(async () => {
+    const url = "https://script.google.com/macros/s/AKfycbxw6_iCTJNIplyXGyiace2H7Y2RQ_SFifnbE8y01qK5jIkE7yDoRLAnLJXqUHk3jcA6Hw/exec";
+    try {
+      const res = await fetch(url);
+      const data = await res.json();
+      allData = data;
+    } catch (e) {
+      console.warn("using demo data (fetch failed)");
+      allData = [
+        {name:"Aarav Mehta", enrollment:"E24001", internal_guide:"Dr. Sharma", review1:"18", review2:"0", review3:"22", review4:"19", total:"59"},
+        {name:"Ishita Roy", enrollment:"E24012", internal_guide:"Dr. Verma", review1:"0", review2:"24", review3:"21", review4:"23", total:"68"},
+        {name:"Reyansh Kapoor", enrollment:"E24023", internal_guide:"Dr. Nair", review1:"20", review2:"19", review3:"0", review4:"22", total:"61"},
+        {name:"Myra Singh", enrollment:"E24034", internal_guide:"Dr. Sharma", review1:"25", review2:"27", review3:"26", review4:"28", total:"106"},
+        {name:"Kabir Das", enrollment:"E24045", internal_guide:"Dr. Verma", review1:"14", review2:"15", review3:"0", review4:"0", total:"29"},
+        {name:"Sneha Pillai", enrollment:"E24056", internal_guide:"Dr. Iyer", review1:"0", review2:"0", review3:"19", review4:"20", total:"39"},
+        {name:"Vihaan Khanna", enrollment:"E24067", internal_guide:"Dr. Nair", review1:"22", review2:"23", review3:"24", review4:"0", total:"69"},
+        {name:"Ananya Das", enrollment:"E24078", internal_guide:"Dr. Iyer", review1:"0", review2:"0", review3:"0", review4:"0", total:"0"},
+        {name:"Aditya Raj", enrollment:"E24089", internal_guide:"Dr. Sharma", review1:"30", review2:"29", review3:"28", review4:"30", total:"117"},
+      ];
+    }
+    populateGuideFilter();
+    renderTable(allData);
+    setupAutocomplete();
+  });
+}
+
+function populateGuideFilter(){
+  const guideSelect = document.getElementById("guideFilter");
+  const guides = [...new Set(allData.map(x => x.internal_guide).filter(g => g && g.trim()!=""))];
+  guideSelect.innerHTML = '<option value="all">All Guides</option>';
+  guides.forEach(g => {
+    guideSelect.innerHTML += `<option value="${g.replace(/"/g, '&quot;')}">${g}</option>`;
+  });
+}
+
+// ---------- autocomplete ----------
+function setupAutocomplete() {
+  const input = document.getElementById("facultySearchInput");
+  const autocompleteList = document.getElementById("autocompleteList");
+  
+  input.addEventListener("input", function() {
+    const val = this.value.toLowerCase();
+    autocompleteList.innerHTML = "";
+    if (!val || val.length < 1) return;
+    const allGuides = [...new Set(allData.map(r => r.internal_guide).filter(g => g))];
+    const matches = allGuides.filter(g => g.toLowerCase().includes(val));
+    matches.forEach(guide => {
+      const div = document.createElement("div");
+      div.innerHTML = guide;
+      div.addEventListener("click", function() {
+        input.value = guide;
+        autocompleteList.innerHTML = "";
+        applyCombinedFilters();   // trigger filter after selection
+      });
+      autocompleteList.appendChild(div);
+    });
+  });
+
+  document.addEventListener("click", function(e) {
+    if (e.target !== input) autocompleteList.innerHTML = "";
+  });
+}
+
+// ---------- combined filter ----------
+function applyCombinedFilters() {
+  withLoader(async () => {
+    const guideDropdown = document.getElementById("guideFilter").value;
+    const zeroFilter = document.getElementById("zeroReviewFilter").value;
+    const facultyInputField = document.getElementById("facultySearchInput");
+    let facultyExact = facultyInputField.value.trim();
+
+    let filtered = allData;
+
+    if (guideDropdown !== "all") {
+      filtered = filtered.filter(row => row.internal_guide === guideDropdown);
+    }
+
+    if (facultyExact !== "") {
+      filtered = filtered.filter(row => row.internal_guide && row.internal_guide.toLowerCase() === facultyExact.toLowerCase());
+    }
+
+    if (zeroFilter !== "all") {
+      filtered = filtered.filter(row => {
+        const r1 = Number(row.review1);
+        const r2 = Number(row.review2);
+        const r3 = Number(row.review3);
+        const r4 = Number(row.review4);
+        if (zeroFilter === "review1") return r1 === 0;
+        if (zeroFilter === "review2") return r2 === 0;
+        if (zeroFilter === "review3") return r3 === 0;
+        if (zeroFilter === "review4") return r4 === 0;
+        if (zeroFilter === "any") return (r1 === 0 || r2 === 0 || r3 === 0 || r4 === 0);
+        return true;
+      });
+    }
+
+    renderTable(filtered);
+  });
+}
+
+function resetFilters() {
+  withLoader(async () => {
+    document.getElementById("guideFilter").value = "all";
+    document.getElementById("zeroReviewFilter").value = "all";
+    document.getElementById("facultySearchInput").value = "";
+    renderTable(allData);
+  });
+}
+
+// make old filter button also use combined (already)
+function applyFilter() { applyCombinedFilters(); }
+
+// ---------- render table (and store current data) ----------
+function renderTable(data){
+  currentDisplayData = data;  // store for excel export
+  const tbody = document.getElementById("tableBody");
+  let html = "";
+  data.forEach((row, index) => {
+    const name = row.name || '-';
+    const enroll = row.enrollment || '-';
+    const guide = row.internal_guide || '-';
+    const r1 = row.review1 ?? '0';
+    const r2 = row.review2 ?? '0';
+    const r3 = row.review3 ?? '0';
+    const r4 = row.review4 ?? '0';
+    const total = row.total ?? '0';
+
+    const r1class = Number(r1) === 0 ? 'zero-mark' : '';
+    const r2class = Number(r2) === 0 ? 'zero-mark' : '';
+    const r3class = Number(r3) === 0 ? 'zero-mark' : '';
+    const r4class = Number(r4) === 0 ? 'zero-mark' : '';
+
+    const sno = index + 1;
+
+    html += `
+<tr>
+  <td class="sno-cell"><b>${sno}</b></td>
+  <td>${name}</td>
+  <td>${enroll}</td>
+  <td>${guide}</td>
+  <td class="${r1class}">${r1}</td>
+  <td class="${r2class}">${r2}</td>
+  <td class="${r3class}">${r3}</td>
+  <td class="${r4class}">${r4}</td>
+  <td><b>${total}</b></td>
+</tr>
+    `;
+  });
+  if (data.length === 0) {
+    html = `<tr><td colspan="9" style="padding:35px; text-align:center; color:#666;">✖ No students match the selected filters</td></tr>`;
+  }
+  tbody.innerHTML = html;
+}
+
+// ---------- EXCEL EXPORT (using currentDisplayData) ----------
+function downloadExcel() {
+  withLoader(async () => {
+    // Prepare data array for sheet
+    const excelRows = [];
+    // Header row (matching table columns)
+    excelRows.push(['S.No.', 'Name', 'Enrollment', 'Internal Guide', 'Review-1', 'Review-2', 'Review-3', 'Review-4', 'Total']);
+
+    currentDisplayData.forEach((row, idx) => {
+      excelRows.push([
+        (idx + 1).toString(),
+        row.name || '-',
+        row.enrollment || '-',
+        row.internal_guide || '-',
+        row.review1 ?? '0',
+        row.review2 ?? '0',
+        row.review3 ?? '0',
+        row.review4 ?? '0',
+        row.total ?? '0'
+      ]);
+    });
+
+    // Create worksheet and workbook
+    const wb = XLSX.utils.book_new();
+    const ws = XLSX.utils.aoa_to_sheet(excelRows);
+    XLSX.utils.book_append_sheet(wb, ws, "Reviews");
+    // Trigger download
+    XLSX.writeFile(wb, "student_review_dashboard.xlsx");
+  });
+}
+
+// loader also appears for download (quick), but we can also keep it.
+// To make download feel smooth we keep loader.
+
+window.onload = loadData;
+
+</script>
+</body>
+</html>
