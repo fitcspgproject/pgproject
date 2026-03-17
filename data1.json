@@ -11840,7 +11840,266 @@
         "back_end": ""
       }
     ]
+  },
+
+  
+  {
+    "company_name": "Tam Media Research",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "",
+    "internal_guide": "Prof.Harshith Kashetti",
+    "projects": [
+      {
+        "s_no": 448,
+        "members": [
+          {
+            "name": "Ankit Mishra",
+            "enrollment": "2405112130003",
+            "mobile": "",
+            "program": "MCA,D"
+          },
+          {
+            "name": "Atul Singh",
+            "enrollment": "2405112130034",
+            "mobile": "",
+            "program": "MCA,D"
+          }
+        ],
+        "project_title": "The Book Work",
+        "project_description": "",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
+  },
+  {
+    "company_name": "Simplify India",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "",
+    "internal_guide": "Prof.Harshith Kashetti",
+    "projects": [
+      {
+        "s_no": 449,
+        "members": [
+          {
+            "name": "Haider Baig",
+            "enrollment": "2405112120059",
+            "mobile": "",
+            "program": "MCA,A"
+          }
+        ],
+        "project_title": "Kibonde Fuels",
+        "project_description": "",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
+  },
+  {
+    "company_name": "Codeing Creators",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "",
+    "internal_guide": "Prof.Harshith Kashetti",
+    "projects": [
+      {
+        "s_no": 450,
+        "members": [
+          {
+            "name": "Sahil Shingala",
+            "enrollment": "2405112140082",
+            "mobile": "",
+            "program": "MCA,F"
+          }
+        ],
+        "project_title": "Chemical Admin System",
+        "project_description": "",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
+  },
+  {
+    "company_name": "Uniqtech Solutions",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "",
+    "internal_guide": "Prof.Harshith Kashetti",
+    "projects": [
+      {
+        "s_no": 451,
+        "members": [
+          {
+            "name": "Dev Marjania",
+            "enrollment": "2405112120101",
+            "mobile": "",
+            "program": "MCA,B"
+          }
+        ],
+        "project_title": "HRMS",
+        "project_description": "",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
+  },
+  {
+    "company_name": "Elevance Skills",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "",
+    "internal_guide": "Prof.Harshith Kashetti",
+    "projects": [
+      {
+        "s_no": 452,
+        "members": [
+          {
+            "name": "Rajveer Lachhwani",
+            "enrollment": "2405112140044",
+            "mobile": "",
+            "program": "MCA,J"
+          }
+        ],
+        "project_title": "Zero Trust Authentication",
+        "project_description": "",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
+  },
+  {
+    "company_name": "Brainy Beam",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "",
+    "internal_guide": "Prof.Harsh Kumav",
+    "projects": [
+      {
+        "s_no": 453,
+        "members": [
+          {
+            "name": "Piyush Agarwal",
+            "enrollment": "2405112140074",
+            "mobile": "",
+            "program": "MCA,F"
+          }
+        ],
+        "project_title": "Table Reservation",
+        "project_description": "",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
+  },
+  {
+    "company_name": "Intellect Design Avena",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "",
+    "internal_guide": "Prof.Harsh Kumav",
+    "projects": [
+      {
+        "s_no": 454,
+        "members": [
+          {
+            "name": "G Bhanu Burat",
+            "enrollment": "2405112110040",
+            "mobile": "",
+            "program": "MCA,H"
+          }
+        ],
+        "project_title": "Parichay Form System",
+        "project_description": "",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
+  },
+  {
+    "company_name": "HM Expert Tech Solution",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "",
+    "internal_guide": "Prof.Harsh Kumav",
+    "projects": [
+      {
+        "s_no": 455,
+        "members": [
+          {
+            "name": "Kartik Panchal",
+            "enrollment": "2405112120113",
+            "mobile": "",
+            "program": "MCA,B"
+          }
+        ],
+        "project_title": "Task management system",
+        "project_description": "",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
+  },
+  {
+    "company_name": "",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "",
+    "internal_guide": "Prof.Harsh Kumav",
+    "projects": [
+      {
+        "s_no": 456,
+        "members": [
+          {
+            "name": "Rani pathak",
+            "enrollment": "2405112120137",
+            "mobile": "",
+            "program": ""
+          }
+        ],
+        "project_title": "",
+        "project_description": "",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
+  },
+  {
+    "company_name": "Acciojob",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "",
+    "internal_guide": "Acciojob",
+    "projects": [
+      {
+        "s_no": 457,
+        "members": [
+          {
+            "name": "Rohit Parthbhai Bharatbhai",
+            "enrollment": "2405112120156",
+            "mobile": "",
+            "program": "MCA (AI)"
+          }
+        ],
+        "project_title": "CI/CD Pipeline for Containerized",
+        "project_description": "",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
   }
+
 ]
 
 
