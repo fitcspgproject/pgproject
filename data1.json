@@ -6179,7 +6179,13 @@
               "enrollment": "2405112120066",
               "mobile": "7668007364",
               "program": "MCA, A"
-            }
+            },
+             {
+            "name": "Jaiswal amita Vijaykumar",
+            "enrollment": "2405112120071",
+            "mobile": "93286 25172",
+            "program": "MCA"
+          }
           ],
           "project_title": "Doctor Appointment System using Django and MySQL",
           "project_description": "The Doctor Appointment System is a web-based application developed using Django and MySQL that helps patients book medical appointments online. The system allows patients to register, search doctors, and schedule appointments, while doctors can manage their availability and view patient appointments. The admin manages users, doctors, appointments, and system data. This project improves efficiency, reduces manual work, and provides a secure and user-friendly healthcare appointment solution.",
@@ -11648,31 +11654,7 @@
     ]
   },
   
-  {
-    "company_name": "",
-    "address": "",
-    "website": "",
-    "contact": "",
-    "mentor": "",
-    "internal_guide": "Prof. Faruk Abdulla",
-    "projects": [
-      {
-        "s_no": 441,
-        "members": [
-          {
-            "name": "Jaiswal amita Vijaykumar",
-            "enrollment": "2405112120071",
-            "mobile": "93286 25172",
-            "program": "MCA"
-          }
-        ],
-        "project_title": "Coffee shop management website",
-        "project_description": "",
-        "front_end": "",
-        "back_end": ""
-      }
-    ]
-  },
+  
   {
     "company_name": "Arch Foundantion",
     "address": "",
