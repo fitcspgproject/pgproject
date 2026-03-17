@@ -10723,31 +10723,7 @@
         }
       ]
     },
-    {
-      "company_name": "Acciojob",
-      "address": "",
-      "website": "",
-      "contact": "",
-      "mentor": "",
-      "internal_guide": "Acciojob",
-      "projects": [
-        {
-          "s_no": 423,
-          "members": [
-            {
-              "name": "Bavaliya hardik jayshukhbhai",
-              "enrollment": "205112110017",
-              "mobile": "8780905401",
-              "program": "MCA, H"
-            }
-          ],
-          "project_title": "Task management system",
-          "project_description": "Task management system functionality: user can create update delate task and admin can also update the task status.",
-          "front_end": "React shadcn",
-          "back_end": "Java spring boot mysql"
-        }
-      ]
-    },
+    
     {
       "company_name": "Acciojob",
       "address": "",
