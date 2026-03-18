@@ -1933,31 +1933,7 @@
       }
     ]
   },
-  {
-    "company_name": "AY technologies",
-    "address": "Lingampally, Hyderabad",
-    "website": "",
-    "contact": "",
-    "mentor": "NA",
-    "internal_guide": "Prof. Aesh Gada",
-    "projects": [
-      {
-        "s_no": 72,
-        "members": [
-          {
-            "name": "Vardhinedi Chetan Phanindra",
-            "enrollment": "2205103120018",
-            "mobile": "9346443466",
-            "program": "IMCA, A"
-          }
-        ],
-        "project_title": "ISL",
-        "project_description": "",
-        "front_end": "Angular",
-        "back_end": "Sprinboot"
-      }
-    ]
-  },
+  
   {
     "company_name": "Entrext",
     "address": "Rajasthan",
