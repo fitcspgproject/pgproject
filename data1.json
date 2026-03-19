@@ -6920,33 +6920,7 @@
         }
       ]
     },
-    
-   
-    {
-      "company_name": "",
-      "address": "",
-      "website": "",
-      "contact": "",
-      "mentor": "",
-      "internal_guide": "Prof. Nirmit Shah",
-      "projects": [
-        {
-          "s_no": 271,
-          "members": [
-            {
-              "name": "Diya Anil Mehta",
-              "enrollment": "2205103110004",
-              "mobile": "7041323213",
-              "program": "IMCA, A"
-            }
-          ],
-          "project_title": "Consultancy Project",
-          "project_description": "Jewellery Website - A mordern jewellery shopping website .",
-          "front_end": "",
-          "back_end": ""
-        }
-      ]
-    },
+      
     
     {
       "company_name": "Baarez Technology Solutions",
