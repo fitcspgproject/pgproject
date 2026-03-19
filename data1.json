@@ -12084,7 +12084,40 @@
         "back_end": ""
       }
     ]
+  },
+  
+  {
+    "company_name": "Acciojob",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "",
+    "internal_guide": "Acciojob",
+    "projects": [
+      {
+        "s_no": 461,
+        "members": [
+          {
+            "name": "Wangkheirakpam Bolin Meitei",
+            "enrollment": "2405112120197",
+            "mobile": "",
+            "program": ""
+          },
+          {
+            "name": "Shandham Lanchenba Meitei",
+            "enrollment": "2405112120167",
+            "mobile": "",
+            "program": ""
+          }
+        ],
+        "project_title": "VegVisionS",
+        "project_description": "",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
   }
+
 
 
 
