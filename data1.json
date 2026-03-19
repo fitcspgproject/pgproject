@@ -6947,31 +6947,7 @@
         }
       ]
     },
-    {
-      "company_name": "",
-      "address": "",
-      "website": "",
-      "contact": "",
-      "mentor": "",
-      "internal_guide": "Dr. Hina Chokshi",
-      "projects": [
-        {
-          "s_no": 272,
-          "members": [
-            {
-              "name": "Kunalsingh Rajput",
-              "enrollment": "2205103120027",
-              "mobile": "9316470230",
-              "program": "IMCA, A"
-            }
-          ],
-          "project_title": "Consultancy project",
-          "project_description": "NA",
-          "front_end": "",
-          "back_end": ""
-        }
-      ]
-    },
+    
     {
       "company_name": "Baarez Technology Solutions",
       "address": "Office No.202, Saha Offices © Souk Al Bahar, Downtown Dubai.",
