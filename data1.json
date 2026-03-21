@@ -12148,7 +12148,34 @@
         "back_end": ""
       }
     ]
+  },
+  
+  {
+    "company_name": "Acciojob",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "",
+    "internal_guide": "Acciojob",
+    "projects": [
+      {
+        "s_no": 463,
+        "members": [
+          {
+            "name": "Aryan Sharma",
+            "enrollment": "2405112120019",
+            "mobile": "",
+            "program": "MCA,A"
+          }
+        ],
+        "project_title": "Facepulse-Transforming Attendance system through intelligent face recognition and automation",
+        "project_description": "",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
   }
+
 
 
 
