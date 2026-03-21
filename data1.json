@@ -12116,7 +12116,40 @@
         "back_end": ""
       }
     ]
+  },
+  
+  {
+    "company_name": "Adoptnet Tech",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "",
+    "internal_guide": "Prof. Laxshman",
+    "projects": [
+      {
+        "s_no": 462,
+        "members": [
+          {
+            "name": "MADHAV MUKESHBHAI SONI",
+            "enrollment": "2405102140038",
+            "mobile": "",
+            "program": "M.Sc,G"
+          },
+          {
+            "name": "Prem Manojkumar Darji",
+            "enrollment": "2405102140004",
+            "mobile": "",
+            "program": ""
+          }
+        ],
+        "project_title": "",
+        "project_description": "",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
   }
+
 
 
 
