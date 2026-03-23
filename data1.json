@@ -12174,7 +12174,34 @@
         "back_end": ""
       }
     ]
+  },
+  
+  {
+    "company_name": "Brainy Beam Technologies pvt. Ltd",
+    "address": "",
+    "website": "",
+    "contact": "",
+    "mentor": "",
+    "internal_guide": "Prof.Adarsh Ashok",
+    "projects": [
+      {
+        "s_no": 464,
+        "members": [
+          {
+            "name": "Mythyly Dudhatra",
+            "enrollment": "2405112110073",
+            "mobile": "",
+            "program": "MCA"
+          }
+        ],
+        "project_title": "Academia",
+        "project_description": "",
+        "front_end": "",
+        "back_end": ""
+      }
+    ]
   }
+
 
 
 
