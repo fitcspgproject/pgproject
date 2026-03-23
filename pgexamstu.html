@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <title>PG Viva · group with room</title>
+    <!-- minimal, clean, no horizontal scroll, shows room number per project -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background: #f4f8fc;
+            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            padding: 1rem;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .container {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* header – compact, exam date fixed */
+        .uni-header {
+            text-align: center;
+            margin-bottom: 1.2rem;
+        }
+        .uni-header h1 {
+            font-size: 1.7rem;
+            font-weight: 600;
+            color: #0c3146;
+            letter-spacing: -0.3px;
+            border-bottom: 2px solid #b9d0e1;
+            display: inline-block;
+            padding-bottom: 0.2rem;
+        }
+        .dept {
+            font-size: 1rem;
+            color: #1e4e72;
+            margin-top: 0.2rem;
+            font-weight: 450;
+        }
+        .exam-badge {
+            background: #dbeaf5;
+            padding: 0.35rem 1rem;
+            border-radius: 30px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            color: #0b3e5e;
+            display: inline-block;
+            margin-top: 0.5rem;
+        }
+
+        /* search row */
+        .search-row {
+            background: white;
+            border-radius: 60px;
+            padding: 0.2rem;
+            display: flex;
+            align-items: center;
+            gap: 0.3rem;
+            border: 1px solid #c7ddec;
+            box-shadow: 0 2px 6px rgba(0,35,60,0.05);
+            margin-bottom: 1.2rem;
+        }
+        .input-icon {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            gap: 0.3rem;
+            padding-left: 1rem;
+            color: #4f7ca3;
+        }
+        .input-icon i {
+            font-size: 1rem;
+            color: #3d6d96;
+        }
+        .input-icon input {
+            width: 100%;
+            border: none;
+            padding: 0.9rem 0.5rem 0.9rem 0;
+            font-size: 1rem;
+            background: transparent;
+            outline: none;
+        }
+        .search-btn {
+            background: #1c5680;
+            border: none;
+            border-radius: 60px;
+            padding: 0.7rem 1.2rem;
+            color: white;
+            font-weight: 600;
+            font-size: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            cursor: pointer;
+            white-space: nowrap;
+            margin-right: 0.2rem;
+            box-shadow: 0 2px 4px rgba(23,85,130,0.4);
+        }
+        .search-btn:active {
+            background: #0e3e60;
+        }
+
+        /* message area */
+        .message {
+            background: #e6f0fa;
+            border-radius: 50px;
+            padding: 0.8rem 1.2rem;
+            margin: 0.8rem 0 1rem;
+            font-size: 0.95rem;
+            color: #1b4d72;
+            border-left: 4px solid #2673a5;
+            word-break: break-word;
+        }
+        .message.error {
+            background: #ffecee;
+            color: #a53c53;
+            border-left-color: #c4526f;
+        }
+
+        /* result card – room number added */
+        .result-card {
+            background: white;
+            border-radius: 28px;
+            padding: 1.4rem 1.2rem;
+            box-shadow: 0 8px 16px rgba(0,30,45,0.06);
+            border: 1px solid #d3e3f2;
+            width: 100%;
+            overflow-x: hidden;
+        }
+        .hidden {
+            display: none !important;
+        }
+
+        /* group header – now includes room */
+        .group-header {
+            background: #e3effb;
+            border-radius: 40px;
+            padding: 0.6rem 1.2rem;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            gap: 0.5rem 0.8rem;
+            margin-bottom: 1.2rem;
+        }
+        .group-id-block {
+            background: #d1e4f7;
+            border-radius: 40px;
+            padding: 0.3rem 1rem;
+            font-weight: 700;
+            font-size: 1.1rem;
+            color: #0b3b5c;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .time-block {
+            background: #d1e4f7;
+            border-radius: 40px;
+            padding: 0.3rem 1rem;
+            font-weight: 500;
+            font-size: 0.95rem;
+            color: #0b3b5c;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+        }
+        /* NEW: room pill */
+        .room-block {
+            background: #c9e1c9;
+            border-radius: 40px;
+            padding: 0.3rem 1rem;
+            font-weight: 600;
+            font-size: 0.95rem;
+            color: #135b2b;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        /* project panel */
+        .project-panel {
+            background: #f0f8ff;
+            border-radius: 24px;
+            padding: 1.2rem;
+            margin-bottom: 1.2rem;
+        }
+        .project-label {
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: #38698b;
+            margin-bottom: 0.4rem;
+            font-weight: 500;
+        }
+        .project-title {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: #032b40;
+            line-height: 1.4;
+            word-break: break-word;
+        }
+
+        /* members */
+        .members-head {
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: #1d5a82;
+            margin-bottom: 0.7rem;
+        }
+        .member-simple {
+            background: #f5faff;
+            border-radius: 60px;
+            padding: 0.6rem 1rem;
+            border: 1px solid #c6daec;
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+            margin-bottom: 0.5rem;
+        }
+        .member-icon-small {
+            background: #cde2f7;
+            border-radius: 50%;
+            width: 36px;
+            height: 36px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #1b5782;
+        }
+        .member-name {
+            font-weight: 600;
+            font-size: 1rem;
+            color: #05273b;
+        }
+        .member-enroll {
+            font-size: 0.8rem;
+            color: #1b5782;
+            background: #e1effa;
+            padding: 0.2rem 0.7rem;
+            border-radius: 40px;
+            display: inline-block;
+            margin-top: 0.15rem;
+        }
+
+        .footnote {
+            text-align: center;
+            color: #6d8fad;
+            font-size: 0.75rem;
+            margin-top: 1rem;
+        }
+        hr {
+            border: none;
+            border-top: 1px solid #cee2f2;
+            margin: 0.7rem 0;
+        }
+        /* ensure no x-scroll ever */
+        img, svg, table, div { max-width: 100%; }
+        .container, .result-card, .search-row { width: 100%; }
+    </style>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+<div class="container">
+    <!-- header with exam date 04.04.2026 -->
+    <div class="uni-header">
+        <h1>PARUL UNIVERSITY</h1>
+        <div class="dept">FITCS · MCA / M.Sc. / IMCA</div>
+        <div class="exam-badge"><i class="far fa-calendar-alt"></i> FINAL VIVA · 04.04.2026</div>
+    </div>
+
+    <!-- search row -->
+    <div class="search-row">
+        <div class="input-icon">
+            <i class="fas fa-id-card"></i>
+            <input type="text" id="enrollInput" placeholder="Enrollment number" autocomplete="off">
+        </div>
+        <button class="search-btn" id="searchBtn"><i class="fas fa-magnifying-glass"></i> Find</button>
+    </div>
+
+    <!-- message area -->
+    <!--div id="messageArea" class="message"><i class="fas fa-circle-info"></i> Enter enrollment to see group + room</div-->
+
+    <!-- result card with room number display -->
+    <div id="resultCard" class="result-card hidden">
+        <!-- group header now includes room block -->
+        <div class="group-header">
+            <span class="group-id-block">Group ID:<i class="fas fa-users"></i> <span id="displayGroupId">—</span></span>
+            <span class="time-block">Reporting Time:<i class="far fa-clock"></i> <span id="displayReporting">—</span></span>
+            <!-- ROOM NUMBER displayed here, just like external faculty -->
+            <span class="room-block">Venue:<i class="fas fa-door-open"></i>  <span id="displayRoom">—</span></span>
+        </div>
+
+        <!-- project area -->
+        <div class="project-panel">
+            <div class="project-label"><i class="fas fa-diagram-project"></i> PROJECT</div>
+            <div class="project-title" id="displayProjectTitle">—</div>
+        </div>
+
+        <!-- members -->
+        <div class="members-head"><i class="fas fa-user-friends"></i> TEAM MEMBERS</div>
+        <div id="membersContainer"></div>
+        <hr>
+        <div class="footnote">group lookup · 04.04.2026 · room per examiner</div>
+    </div>
+</div>
+
+<script>
+    (function() {
+        // ----- ROOM MAPPING (exact same list as external faculty) -----
+     const roomMapping = new Map([
+        ["HARDIK ISHWARBHAI PATEL", "Bhagat Singh 301"],
+        ["RONESHKUMAR GANGAVANI", "Bhagat Singh 301"],
+        ["KAUSHAL GIRISHKUMAR GOR", "Bhagat Singh 302"],
+        ["NAVTEJ PRAHLADBHAI BHATT", "Bhagat Singh 302"],
+        ["Akilhusein Zulfikar Surti", "Bhagat Singh 303"],
+        ["Dr.Arpan Raval", "Bhagat Singh 304"],
+        ["Ms.Lisa Shah", "Bhagat Singh 305"],
+        ["Kinjal Acharya", "Bhagat Singh 306"],
+        ["PATEL JIGNESH TULSIDAS", "Bhagat Singh 307"],
+        ["Mr.Anupam Mund", "Bhagat Singh 308"],
+        ["Prashant Shah", "Bhagat Singh 309"],
+        ["PRAVINKUMAR RAMESHBHAI PATEL", "Bhagat Singh 601"],
+        ["Kaniya Agrawal", "Bhagat Singh 602"],
+        ["Thakkar Meet Bharatbhai", "Bhagat Singh 603"],
+        ["Vishal Makwana", "Bhagat Singh 604"],
+        ["Jalpa Harshit Desai", "Bhagat Singh 605"],
+        ["Smruti Sharma", "Bhagat Singh 606"],
+        ["Divya Agrawal", "Bhagat Singh 607"],
+        ["Dr.Raj Sinha", "New Building(Front of Subhash Chandra Bose Building) 210"],
+		  ["Dr.Ramchandran", "New Building(Front of Subhash Chandra Bose Building) 209"]
+    ]);
+
+        // data & elements
+        let examData = [];
+        const enrollInput = document.getElementById('enrollInput');
+        const searchBtn = document.getElementById('searchBtn');
+        const messageDiv = document.getElementById('messageArea');
+        const resultCard = document.getElementById('resultCard');
+        const displayGroupId = document.getElementById('displayGroupId');
+        const displayReporting = document.getElementById('displayReporting');
+        const displayProjectTitle = document.getElementById('displayProjectTitle');
+        const displayRoom = document.getElementById('displayRoom');   // new room span
+        const membersContainer = document.getElementById('membersContainer');
+
+        // helper: set message
+        function setMessage(text, isError = false) {
+            messageDiv.className = isError ? 'message error' : 'message';
+            messageDiv.innerHTML = isError ? `<i class="fas fa-circle-exclamation"></i> ${text}` : `<i class="fas fa-circle-info"></i> ${text}`;
+        }
+
+        // hide result card
+        function hideResult() {
+            resultCard.classList.add('hidden');
+        }
+
+        // get room for examiner (case‑insensitive fallback)
+        function getRoomForExaminer(examinerName) {
+            if (!examinerName) return '—';
+            if (roomMapping.has(examinerName)) return roomMapping.get(examinerName);
+            const lowerName = examinerName.toLowerCase();
+            for (let [key, value] of roomMapping.entries()) {
+                if (key.toLowerCase() === lowerName) return value;
+            }
+            return '—';
+        }
+
+        // show group (including room from external examiner field)
+        function showGroup(group) {
+            displayGroupId.innerText = group['Group ID'] || '—';
+            displayReporting.innerText = group['Reporting Time'] || '—';
+            displayProjectTitle.innerText = group['Project_Title'] || '—';
+
+            // --- get room number using the external examiner name ---
+            const examiner = group['External Examiner'];
+            const room = getRoomForExaminer(examiner);
+            displayRoom.innerText = room;
+
+            // build member list – simple inline blocks, no overflow
+            membersContainer.innerHTML = '';
+            if (group.Members && Array.isArray(group.Members) && group.Members.length > 0) {
+                group.Members.forEach(m => {
+                    const memberDiv = document.createElement('div');
+                    memberDiv.className = 'member-simple';
+                    memberDiv.innerHTML = `
+                        <div class="member-icon-small"><i class="fas fa-user-graduate"></i></div>
+                        <div>
+                            <div class="member-name">${escapeHtml(m.Name) || '—'}</div>
+                            <span class="member-enroll">${escapeHtml(m.Enrollment) || '—'}</span>
+                        </div>
+                    `;
+                    membersContainer.appendChild(memberDiv);
+                });
+            } else {
+                membersContainer.innerHTML = '<div class="member-simple">No member data</div>';
+            }
+
+            resultCard.classList.remove('hidden');
+           // setMessage(`✅ Group ${group['Group ID']} · Room ${room}`);
+        }
+
+        // minimal escape
+        function escapeHtml(str) {
+            if (!str) return str;
+            return String(str).replace(/[&<>"]/g, function(m) {
+                if (m === '&') return '&amp;';
+                if (m === '<') return '&lt;';
+                if (m === '>') return '&gt;';
+                if (m === '"') return '&quot;';
+                return m;
+            });
+        }
+
+        // search by enrollment number
+        function searchByEnrollment(enroll) {
+            const trimmed = enroll ? enroll.trim() : '';
+            if (trimmed === '') {
+                setMessage('Please enter enrollment number.', false);
+                hideResult();
+                return;
+            }
+
+            // look for any group containing the exact enrollment string
+            let foundGroup = null;
+            for (let group of examData) {
+                if (group.Members && Array.isArray(group.Members)) {
+                    const match = group.Members.some(m => String(m.Enrollment).trim() === trimmed);
+                    if (match) {
+                        foundGroup = group;
+                        break;
+                    }
+                }
+            }
+
+            if (foundGroup) {
+                showGroup(foundGroup);
+            } else {
+                hideResult();
+                setMessage(`❌ No record for enrollment "${trimmed}"`, true);
+            }
+        }
+
+        // load pgexam1.json
+        function loadData() {
+            fetch('pgexam1.json')
+                .then(r => {
+                    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+                    return r.json();
+                })
+                .then(data => {
+                    if (Array.isArray(data)) {
+                        examData = data;
+                       // setMessage(`📁 ${data.length} groups ready`, false);
+                    } else {
+                        throw new Error('invalid format');
+                    }
+                })
+                .catch(err => {
+                    console.warn(err);
+                    setMessage('Could not load pgexam1.json', true);
+                    examData = [];
+                });
+        }
+
+        loadData();
+
+        // listeners
+        searchBtn.addEventListener('click', () => searchByEnrollment(enrollInput.value));
+        enrollInput.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') {
+                e.preventDefault();
+                searchByEnrollment(enrollInput.value);
+            }
+        });
+
+        // start hidden
+        hideResult();
+    })();
+</script>
+</body>
+</html>

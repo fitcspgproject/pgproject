@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.5, user-scalable=yes">
+    <title>External examiner · rooms assigned · PDF Export</title>
+    <!-- Font Awesome & Inter font -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { background: #f0f5fb; font-family: 'Inter', sans-serif; padding: 2rem 1rem; min-height: 100vh; display: flex; flex-direction: column; align-items: center; }
+        .dashboard { max-width: 1400px; width: 100%; }
+        .uni-header { text-align: center; margin-bottom: 2rem; }
+        .uni-header h1 { font-size: 2rem; font-weight: 700; color: #093456; letter-spacing: -0.02em; border-bottom: 3px solid #b3cde0; display: inline-block; padding-bottom: 0.3rem; }
+        .uni-header .dept { font-size: 1.2rem; color: #1e4f75; margin-top: 0.4rem; font-weight: 500; }
+        .uni-header .exam-session { background: #e2edf9; padding: 0.4rem 1.8rem; border-radius: 40px; display: inline-block; margin-top: 0.8rem; font-weight: 600; color: #104a73; box-shadow: 0 2px 6px rgba(0,40,70,0.08); }
+        .selector-card { background: white; border-radius: 30px; padding: 1.5rem 2rem; box-shadow: 0 10px 25px rgba(0, 30, 60, 0.06); margin-bottom: 2rem; border: 1px solid #d9e5f2; }
+        .search-row { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 1.5rem; justify-content: space-between; }
+        .examiner-input-group { flex: 3 1 300px; }
+        .examiner-input-group label { display: block; font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.4px; color: #1b5583; margin-bottom: 0.4rem; }
+        .custom-input-wrapper { background: #f6faff; border-radius: 60px; border: 1px solid #c1d8ec; padding: 0.1rem 0.1rem 0.1rem 1.5rem; display: flex; align-items: center; gap: 0.3rem; transition: 0.15s; }
+        .custom-input-wrapper:focus-within { border-color: #1f6f9f; box-shadow: 0 0 0 3px rgba(23,112,172,0.15); }
+        .custom-input-wrapper i { color: #3973a5; font-size: 1.1rem; }
+        .custom-input-wrapper input { width: 100%; border: none; background: transparent; padding: 1rem 0.5rem 1rem 0.2rem; font-size: 1rem; font-weight: 500; color: #0a314b; outline: none; }
+        .custom-input-wrapper input::placeholder { color: #9bb7d4; font-weight: 400; }
+        .action-badge-group { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; margin-top: 1rem; gap: 1rem; }
+        .stats-badge { background: #e7f0fa; border-radius: 60px; padding: 0.8rem 1.8rem; display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; }
+        .stat-item { display: flex; align-items: center; gap: 0.5rem; font-weight: 600; color: #1a4e7a; }
+        .stat-item i { font-size: 1.2rem; color: #226699; }
+        .suggestions-panel { background: white; border-radius: 24px; box-shadow: 0 8px 20px rgba(0,30,50,0.15); margin-top: 0.6rem; max-height: 240px; overflow-y: auto; border: 1px solid #bed5ef; display: none; z-index: 10; position: relative; }
+        .suggestions-panel.show { display: block; }
+        .suggestion-item { padding: 0.8rem 1.4rem; cursor: pointer; border-bottom: 1px solid #e7f0fa; display: flex; align-items: center; gap: 0.8rem; }
+        .suggestion-item:hover { background: #e0edfd; }
+        .filter-row { display: flex; justify-content: space-between; align-items: center; margin: 1rem 0 1.5rem 0; background: white; padding: 0.9rem 1.8rem; border-radius: 60px; border: 1px solid #cde0f0; flex-wrap: wrap; gap: 1rem; }
+        .filter-buttons { display: flex; gap: 0.6rem; flex-wrap: wrap; }
+        .filter-btn { background: white; border: 1px solid #bbd3ea; border-radius: 40px; padding: 0.5rem 1.3rem; font-weight: 500; color: #1e4f73; cursor: pointer; display: flex; align-items: center; gap: 0.4rem; }
+        .filter-btn.active { background: #1f5c8b; border-color: #1f5c8b; color: white; }
+        .total-projects { background: #1e4770; color: white; padding: 0.4rem 1.4rem; border-radius: 40px; font-weight: 600; font-size: 1.1rem; display: flex; align-items: center; gap: 0.6rem; }
+        .table-wrapper { width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 1rem 0 1.5rem 0; border-radius: 26px; background: white; box-shadow: 0 10px 22px rgba(0, 25, 45, 0.06); border: 1px solid #daeaf9; }
+        .exam-table { width: 100%; border-collapse: collapse; min-width: 1200px; font-size: 0.9rem; }
+        .exam-table th { background: #1e3b5a; color: white; font-weight: 600; padding: 1rem 0.8rem; text-align: left; white-space: nowrap; border: 1px solid #2e5a7a; }
+        .exam-table td { padding: 0.8rem; border-bottom: 1px solid #dde9f5; border-right: 1px solid #e0eaf3; vertical-align: middle; background-color: white; }
+        .exam-table tr.conducted-row td { background-color: #eaf1f9; }
+        .group-badge { background: #ddeeff; border-radius: 40px; padding: 0.2rem 1rem; font-weight: 700; display: inline-block; color: #103c5c; font-size: 0.85rem; }
+        .student-name-cell { font-size: 0.9rem; padding: 0.5rem 0; }
+        .student-name-cell i { color: #30658b; width: 20px; }
+        .enroll-number { color: #2e577a; font-size: 0.8rem; font-family: monospace; }
+        .conducted-checkbox-table { display: flex; justify-content: center; align-items: center; gap: 0.4rem; }
+        .conducted-checkbox-table input[type="checkbox"] { width: 18px; height: 18px; accent-color: #1f5c8b; cursor: pointer; }
+        .no-projects-table { padding: 3rem; text-align: center; color: #32658c; }
+        .footer-note { text-align: center; margin-top: 1.8rem; color: #6683a1; }
+        .reset-conducted { background: white; border: 1px solid #c0d4ea; border-radius: 40px; padding: 0.4rem 1.2rem; font-size: 0.9rem; color: #30658b; cursor: pointer; display: inline-flex; align-items: center; gap: 0.4rem; margin-left: 1rem; }
+        .room-chip { background: #deecf7; border-radius: 24px; padding: 0.3rem 1rem; font-weight: 600; color: #023b61; display: inline-flex; align-items: center; gap: 0.4rem; font-size: 0.85rem; }
+        .building-room-pill { background: #d9e9fa; border-radius: 60px; padding: 0.4rem 1.6rem; display: inline-flex; align-items: center; gap: 0.6rem; font-weight: 600; color: #014682; border: 1px solid #b5cfec; }
+        .building-room-pill i { color: #1a5f8b; font-size: 1.1rem; }
+        .pdf-download-btn { background: #dc2626; border: none; border-radius: 60px; padding: 0.7rem 2rem; font-weight: 600; color: white; cursor: pointer; display: inline-flex; align-items: center; gap: 0.8rem; font-size: 1rem; transition: 0.15s; box-shadow: 0 3px 8px rgba(0,0,0,0.05); }
+        .pdf-download-btn:hover { background: #b91c1c; transform: scale(1.01); }
+        .pdf-download-btn i { font-size: 1.2rem; }
+        .merged-cell { background-color: #fefefe; vertical-align: middle; }
+        .group-header-cell { border-left: 2px solid #c0d4e8; border-right: 2px solid #c0d4e8; }
+    </style>
+</head>
+<body>
+<div class="dashboard">
+    <div class="uni-header">
+        <h1>PARUL UNIVERSITY</h1>
+        <div class="dept">FACULTY OF IT & COMPUTER SCIENCE</div>
+        <div class="exam-session"><i class="fas fa-clipboard-list"></i> MCA / MScIT SEM-4 ESE MAJOR PROJECT VIVA EVALUATION SCORE SHEET SUMMER 2025-26</div>
+    </div>
+
+    <div class="selector-card">
+        <div class="search-row">
+            <div class="examiner-input-group">
+                <label><i class="fas fa-user-tie"></i> TYPE EXTERNAL EXAMINER NAME</label>
+                <div class="custom-input-wrapper">
+                    <i class="fas fa-search"></i>
+                    <input type="text" id="examinerSearchInput" placeholder="e.g. Smruti Sharma, HARDIK ISHWARBHAI PATEL ..." autocomplete="off">
+                </div>
+                <div id="suggestionsPanel" class="suggestions-panel"></div>
+            </div>
+            <button id="downloadPdfBtn" class="pdf-download-btn"><i class="fas fa-file-pdf"></i> Download Score Sheet (PDF)</button>
+        </div>
+        <div class="action-badge-group">
+            <div class="stats-badge" id="examinerStats">
+                <span class="stat-item"><i class="fas fa-layer-group"></i> Total Groups: <span id="totalAssigned">0</span></span>
+                <span class="stat-item"><i class="fas fa-users"></i> Total Students: <span id="totalStudents">0</span></span>
+                <span class="stat-item"><i class="fas fa-clock"></i> 9:00 AM · <span id="count9am">0</span></span>
+                <span class="stat-item"><i class="fas fa-clock"></i> 12:30 PM · <span id="count12pm">0</span></span>
+                <span class="reset-conducted" id="resetConductedBtn"><i class="fas fa-undo-alt"></i> Reset conducted</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="filter-row">
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all" id="filterAll"><i class="fas fa-globe"></i> All Groups</button>
+            <button class="filter-btn" data-filter="9.00 AM" id="filter9am"><i class="fas fa-sun"></i> 9:00 AM</button>
+            <button class="filter-btn" data-filter="12.30 PM" id="filter12pm"><i class="fas fa-moon"></i> 12:30 PM</button>
+        </div>
+        <div class="building-room-pill" id="buildingRoomDisplay">
+            <i class="fas fa-building"></i> Room: <span id="roomNumberSpan">—</span>
+        </div>
+        <div class="total-projects" id="projectsCountDisplay"><i class="fas fa-check-circle"></i> <span id="shownCount"></span> students shown</div>
+    </div>
+
+    <div class="table-wrapper" id="tableWrapper">
+        <table class="exam-table" id="examTable">
+            <thead>
+                <tr>
+                    <th style="width: 5%;">Sr. No</th>
+                    <th style="width: 8%;">Group ID</th>
+                    <th style="width: 30%;">Student Name (Enrollment No)</th>
+                    <th style="width: 8%;">Reporting Time</th>
+                    <th style="width: 25%;">Project Title</th>
+                    <th style="width: 10%;">Room No.</th>
+                    <th style="width: 8%;">Conducted</th>
+                   
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+                <tr><td colspan="8" class="no-projects-table"><i class="fas fa-spinner fa-pulse"></i> Loading examiner data...</td></tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="footer-note"><i class="fas fa-check-double"></i> Each student has individual row with group details merged | Mark each student as conducted individually</div>
+</div>
+
+<script>
+   const examinerDetails = new Map([
+    ["HARDIK ISHWARBHAI PATEL", { room: "Bhagat Singh 301", panel: 1 }],
+    ["RONESHKUMAR GANGAVANI", { room: "Bhagat Singh 301", panel: 2 }],
+    ["KAUSHAL GIRISHKUMAR GOR", { room: "Bhagat Singh 302", panel: 3 }],
+    ["NAVTEJ PRAHLADBHAI BHATT", { room: "Bhagat Singh 302", panel: 4 }],
+    ["Akilhusein Zulfikar Surti", { room: "Bhagat Singh 303", panel: 5 }],
+    ["Dr.Arpan Raval", { room: "Bhagat Singh 304", panel: 6 }],
+    ["Ms.Lisa Shah", { room: "Bhagat Singh 305", panel: 7 }],
+    ["Kinjal Acharya", { room: "Bhagat Singh 306", panel: 8 }],
+    ["PATEL JIGNESH TULSIDAS", { room: "Bhagat Singh 307", panel: 9 }],
+    ["Mr.Anupam Mund", { room: "Bhagat Singh 308", panel: 10 }],
+    ["Prashant Shah", { room: "Bhagat Singh 309", panel: 11 }],
+    ["PRAVINKUMAR RAMESHBHAI PATEL", { room: "Bhagat Singh 601", panel: 12 }],
+    ["Kaniya Agrawal", { room: "Bhagat Singh 602", panel: 13 }],
+    ["Thakkar Meet Bharatbhai", { room: "Bhagat Singh 603", panel: 14 }],
+    ["Vishal Makwana", { room: "Bhagat Singh 604", panel: 15 }],
+    ["Jalpa Harshit Desai", { room: "Bhagat Singh 605", panel: 16 }],
+    ["Smruti Sharma", { room: "Bhagat Singh 606", panel: 17 }],
+    ["Divya Agrawal", { room: "Bhagat Singh 607", panel: 18 }],
+    ["Dr.Raj Sinha", { room: "New Building(Front of Subhash Chandra Bose Building) 210", panel: 19 }],
+    ["Dr.Ramchandran", { room: "New Building(Front of Subhash Chandra Bose Building) 209", panel: 20 }]
+]);
+
+    let fullData = [];
+    let examinerList = [];
+    let currentExaminerId = null;
+    let currentFilter = 'all';
+    let conductedSet = new Set();
+    const STORAGE_KEY = 'parul_examiner_conducted_students';
+
+    function loadConductedSet() {
+        try { const stored = localStorage.getItem(STORAGE_KEY); conductedSet = new Set(stored ? JSON.parse(stored) : []); } catch (e) { conductedSet = new Set(); }
+    }
+    function saveConductedSet() { try { localStorage.setItem(STORAGE_KEY, JSON.stringify(Array.from(conductedSet))); } catch (e) {} }
+    function getConductedKey(examinerId, groupId, studentEnroll) { return `${examinerId}:${groupId}:${studentEnroll}`; }
+
+  function getExaminerDetails(examinerName) {
+    if (!examinerName) return { room: '—', panel: '—' };
+    if (examinerDetails.has(examinerName)) return examinerDetails.get(examinerName);
+    const lowerName = examinerName.toLowerCase();
+    for (let [key, value] of examinerDetails.entries()) {
+        if (key.toLowerCase() === lowerName) return value;
+    }
+    return { room: '—', panel: '—' };
+}
+
+function getRoomForExaminer(examinerName) {
+    return getExaminerDetails(examinerName).room;
+}
+
+function getPanelForExaminer(examinerName) {
+    return getExaminerDetails(examinerName).panel;
+}
+
+    // Group by Group ID and expand each student as separate row
+    function expandStudentsByGroup(groups) {
+        const grouped = new Map();
+        groups.forEach(g => {
+            const groupId = g['Group ID'];
+            if (!grouped.has(groupId)) {
+                grouped.set(groupId, {
+                    groupId: groupId,
+                    reportingTime: g['Reporting Time'],
+                    projectTitle: g['Project_Title'],
+                    students: []
+                });
+            }
+            const members = g['Members'] || [];
+            members.forEach(m => {
+                grouped.get(groupId).students.push({
+                    name: m['Name'] || '—',
+                    enrollment: m['Enrollment'] || ''
+                });
+            });
+        });
+        
+        // Convert to array of student rows with group info
+        const studentRows = [];
+        for (let group of grouped.values()) {
+            group.students.forEach((student, idx) => {
+                studentRows.push({
+                    groupId: group.groupId,
+                    reportingTime: group.reportingTime,
+                    projectTitle: group.projectTitle,
+                    studentName: student.name,
+                    studentEnroll: student.enrollment,
+                    isFirstInGroup: idx === 0,
+                    studentCount: group.students.length
+                });
+            });
+        }
+        return studentRows;
+    }
+
+    function renderTable() {
+        if (!currentExaminerId) {
+            document.getElementById('tableBody').innerHTML = '<tr><td colspan="8" class="no-projects-table"><i class="fas fa-hand-pointer"></i> Type and select an external examiner.</td></tr>';
+            document.getElementById('shownCount').textContent = '0';
+            document.getElementById('totalStudents').textContent = '0';
+            return;
+        }
+        
+        let groups = fullData.filter(g => String(g['External Examiner']) === String(currentExaminerId));
+        if (currentFilter !== 'all') groups = groups.filter(g => g['Reporting Time'] === currentFilter);
+        
+        const studentRows = expandStudentsByGroup(groups);
+        const roomNumber = getRoomForExaminer(currentExaminerId);
+        
+        let rows = '';
+        let serialNo = 1;
+        let totalStudents = 0;
+        
+        for (let i = 0; i < studentRows.length; i++) {
+            const row = studentRows[i];
+            totalStudents++;
+            const key = getConductedKey(currentExaminerId, row.groupId, row.studentEnroll);
+            const isConducted = conductedSet.has(key);
+            const rowClass = isConducted ? 'conducted-row' : '';
+            
+            // Check if next row has same groupId to determine rowspan
+            let rowspan = 1;
+            if (row.isFirstInGroup) {
+                rowspan = row.studentCount;
+            }
+            
+            rows += `<tr class="${rowClass}" data-group="${row.groupId}" data-enroll="${row.studentEnroll}">`;
+            
+            // Sr. No - always shown
+            rows += `<td style="text-align: center; vertical-align: middle;">${serialNo++}</td>`;
+            
+            // Group ID - merged for all students in same group
+            if (row.isFirstInGroup) {
+                rows += `<td rowspan="${rowspan}" style="vertical-align: middle; text-align: center; background-color: #fafeff;"><span class="group-badge"><i class="fas fa-tag"></i> ${row.groupId}</span></td>`;
+            }
+            
+            // Student Name
+            rows += `<td style="vertical-align: middle;"><div class="student-name-cell"><i class="fas fa-user-graduate"></i> ${row.studentName}<br><span class="enroll-number"><i class="fas fa-id-card"></i> ${row.studentEnroll}</span></div></td>`;
+            
+            // Reporting Time - merged for all students in same group
+            if (row.isFirstInGroup) {
+                rows += `<td rowspan="${rowspan}" style="vertical-align: middle; text-align: center;"><i class="far fa-clock" style="color:#30658b;"></i> ${row.reportingTime}</td>`;
+                rows += `<td rowspan="${rowspan}" style="vertical-align: middle; font-weight: 500;">${row.projectTitle}</td>`;
+                rows += `<td rowspan="${rowspan}" style="vertical-align: middle; text-align: center;"><span class="room-chip"><i class="fas fa-door-open"></i> ${roomNumber}</span></td>`;
+            }
+            
+            // Conducted checkbox - individual per student
+            rows += `<td style="vertical-align: middle; text-align: center;">
+                        <div class="conducted-checkbox-table">
+                            <input type="checkbox" class="conducted-chk-table" data-key="${key}" data-group="${row.groupId}" data-enroll="${row.studentEnroll}" ${isConducted ? 'checked' : ''}>
+                            <span style="font-size:0.75rem;">conducted</span>
+                        </div>
+                     </td>`;
+            
+           
+            
+            rows += `</tr>`;
+        }
+        
+        document.getElementById('tableBody').innerHTML = rows || '<tr><td colspan="8" class="no-projects-table">No groups found for this examiner.</td></tr>';
+        document.getElementById('shownCount').textContent = totalStudents;
+        document.getElementById('totalAssigned').textContent = studentRows.length > 0 ? [...new Set(studentRows.map(r => r.groupId))].length : 0;
+        document.getElementById('totalStudents').textContent = totalStudents;
+        document.getElementById('count9am').textContent = fullData.filter(g => String(g['External Examiner']) === String(currentExaminerId) && g['Reporting Time'] === '9.00 AM').length;
+        document.getElementById('count12pm').textContent = fullData.filter(g => String(g['External Examiner']) === String(currentExaminerId) && g['Reporting Time'] === '12.30 PM').length;
+        document.getElementById('roomNumberSpan').textContent = roomNumber;
+        
+        document.querySelectorAll('.conducted-chk-table').forEach(chk => {
+            chk.addEventListener('change', (e) => {
+                const key = chk.getAttribute('data-key');
+                const row = chk.closest('tr');
+                if (chk.checked) { conductedSet.add(key); row.classList.add('conducted-row'); } 
+                else { conductedSet.delete(key); row.classList.remove('conducted-row'); }
+                saveConductedSet();
+            });
+        });
+    }
+
+    function buildExaminerList(data) {
+        const set = new Set();
+        data.forEach(g => { const ex = g['External Examiner']; if (ex && String(ex).trim()) set.add(String(ex).trim()); });
+        return Array.from(set).sort();
+    }
+
+    // PDF Generation with proper merged rows for groups and individual student rows
+    function generatePDF() {
+        if (!currentExaminerId) {
+            alert("Please select an external examiner first.");
+            return;
+        }
+        
+        let groups = fullData.filter(g => String(g['External Examiner']) === String(currentExaminerId));
+        if (groups.length === 0) {
+            alert("No groups assigned to this examiner.");
+            return;
+        }
+        
+        const studentRows = expandStudentsByGroup(groups);
+        const examinerName = currentExaminerId;
+        const roomFull = getRoomForExaminer(examinerName);
+        const venue = roomFull !== '—' ? ` ${roomFull}` : 'Bhagat Singh - Not Assigned';
+        const currentDate = "04/04/2026";
+        
+        let tableRows = '';
+        let serialNo = 1;
+        
+        for (let i = 0; i < studentRows.length; i++) {
+            const row = studentRows[i];
+            const isFirstInGroup = row.isFirstInGroup;
+            const rowspan = row.studentCount;
+            
+            tableRows += `<tr>`;
+            tableRows += `<td style="border: 1px solid #000; padding: 8px 6px; text-align: center; vertical-align: middle;">${serialNo++}</td>`;
+            
+            if (isFirstInGroup) {
+                tableRows += `<td rowspan="${rowspan}" style="border: 1px solid #000; padding: 8px 6px; text-align: center; vertical-align: middle; background-color: #f9f9f9;"><strong>${row.groupId}</strong></td>`;
+            }
+            
+            tableRows += `<td style="border: 1px solid #000; padding: 8px 6px; vertical-align: middle;">${row.studentName}<br><span style="font-size: 10px; color: #555;">${row.studentEnroll}</span></td>`;
+            
+            if (isFirstInGroup) {
+                tableRows += `<td rowspan="${rowspan}" style="border: 1px solid #000; padding: 8px 6px; text-align: center; vertical-align: middle;">${row.reportingTime}</td>`;
+                tableRows += `<td rowspan="${rowspan}" style="border: 1px solid #000; padding: 8px 6px; vertical-align: middle;">${row.projectTitle}</td>`;
+                //tableRows += `<td rowspan="${rowspan}" style="border: 1px solid #000; padding: 8px 6px; text-align: center; vertical-align: middle;">${roomFull}</td>`;
+            }
+            
+            tableRows += `<td style="border: 1px solid #000; padding: 8px 6px; text-align: center; vertical-align: middle;"> </td>`;
+            tableRows += `<td style="border: 1px solid #000; padding: 8px 6px; text-align: center; vertical-align: middle;"> </td>`;
+            tableRows += `<td style="border: 1px solid #000; padding: 8px 6px; text-align: center; vertical-align: middle;"> </td>`;
+            tableRows += `<td style="border: 1px solid #000; padding: 8px 6px; text-align: center; vertical-align: middle;"> </td>`;
+            tableRows += `<td style="border: 1px solid #000; padding: 8px 6px; text-align: center; vertical-align: middle;"> </td>`;
+            tableRows += `</tr>`;
+        }
+        
+        const fullHtml = `
+            <!DOCTYPE html>
+            <html>
+            <head>
+                <meta charset="UTF-8">
+                <title>Viva Score Sheet - ${examinerName}</title>
+                <style>
+                    * { margin: 0; padding: 0; box-sizing: border-box; }
+                    body { font-family: 'Inter', 'Segoe UI', Arial, sans-serif; padding: 0.4in; background: white; }
+                    .header { text-align: center; margin-bottom: 20px; }
+                    .header h1 { color: #093456; font-size: 22px; margin-bottom: 5px; }
+                    .header h3 { color: #1e4f75; font-size: 16px; margin-bottom: 5px; }
+                    .header p { background: #eef4fc; display: inline-block; padding: 5px 18px; border-radius: 40px; font-weight: 600; color: #104a73; font-size: 12px; margin-top: 5px; }
+                    .info-table { width: 100%; border-collapse: collapse; margin-bottom: 20px; border: 1px solid #aaa; }
+                    .info-table td { border: 1px solid #aaa; padding: 8px; vertical-align: top; font-size: 12px; }
+                    .info-table td:first-child { font-weight: 600; width: 150px; background: #f8fafc; }
+                    .marks-table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+                    .marks-table th { background: #1e3b5a; color: white; padding: 10px 6px; border: 1px solid #000; font-weight: 600; font-size: 10px; }
+                    .marks-table td { border: 1px solid #000; padding: 8px 6px; font-size: 11px; }
+                    .sign-section { margin-top: 35px; display: flex; justify-content: flex-end; }
+                    .sign-box { text-align: right; border-top: 1px dashed #2c5a7a; padding-top: 8px; width: 280px; }
+                    .footer-note { margin-top: 20px; text-align: center; font-size: 9px; color: #6683a1; }
+                    @media print { body { padding: 0.2in; } }
+                </style>
+            </head>
+            <body>
+                <div class="header">
+                    <h1>PARUL UNIVERSITY</h1>
+                    <h3>FACULTY OF IT & COMPUTER SCIENCE</h3>
+                    <p>MCA / MScIT SEM-4 ESE MAJOR PROJECT VIVA EVALUATION SCORE SHEET SUMMER 2025-26</p>
+                </div>
+                
+                <table class="info-table">
+                    <tr><td>Reviewer/Examiner Name:</td><td><strong>${examinerName}</strong></td><td>Panel No:</td><td><strong>${getPanelForExaminer(examinerName)}</strong></td></tr>
+                    <tr><td>Venue of Viva:</td><td><strong>${venue}</strong></td><td>Date:</td><td><strong>${currentDate}</strong></td></tr>
+                </table>
+                
+                <table class="marks-table">
+                    <thead>
+                        <tr>
+                            <th style="width: 5%; color: black; font-weight: bold;"><b>Sr. No</b></th>
+                            <th style="width: 8%; color: black; font-weight: bold;">Group ID</th>
+                            <th style="width: 22%; color: black; font-weight: bold;">Student Name (Enrollment No)</th>
+                            <th style="width: 8%; color: black; font-weight: bold;">Reporting Time</th>
+                            <th style="width: 20%; color: black; font-weight: bold;">Project Title</th>
+                         
+                            <th style="width: 7%; color: black; font-weight: bold;">Analysis & Design (75)</th>
+                            <th style="width: 7%; color: black; font-weight: bold;">Implementation (75)</th>
+                            <th style="width: 6%; color: black; font-weight: bold;">Documentation (50)</th>
+                            <th style="width: 6%; color: black; font-weight: bold;">Viva-Voce (100)</th>
+                            <th style="width: 5%; color: black; font-weight: bold;">Total (300)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        ${tableRows}
+                    </tbody>
+                </table>
+                
+                <div class="sign-section">
+                    <div class="sign-box">
+                        <strong>Sign of Reviewer/Examiner:</strong> ____________________
+                    </div>
+                </div>
+                <div class="footer-note">
+                    Generated on ${new Date().toLocaleString()} | Each student assessed individually
+                </div>
+            </body>
+            </html>
+        `;
+        
+        const printWindow = window.open('', '_blank');
+        printWindow.document.write(fullHtml);
+        printWindow.document.close();
+        printWindow.focus();
+        
+        printWindow.onload = function() {
+            setTimeout(() => { printWindow.print(); }, 500);
+        };
+    }
+    
+    // Event Listeners
+    document.getElementById('downloadPdfBtn').addEventListener('click', generatePDF);
+    document.getElementById('filterAll').addEventListener('click', () => { currentFilter = 'all'; renderTable(); });
+    document.getElementById('filter9am').addEventListener('click', () => { currentFilter = '9.00 AM'; renderTable(); });
+    document.getElementById('filter12pm').addEventListener('click', () => { currentFilter = '12.30 PM'; renderTable(); });
+    document.getElementById('resetConductedBtn').addEventListener('click', () => {
+        if (!currentExaminerId) return;
+        const prefix = currentExaminerId + ':';
+        const toDelete = [];
+        conductedSet.forEach(key => { if (key.startsWith(prefix)) toDelete.push(key); });
+        toDelete.forEach(key => conductedSet.delete(key));
+        saveConductedSet();
+        renderTable();
+    });
+    
+    // Search and suggestions
+    const searchInput = document.getElementById('examinerSearchInput');
+    const suggestionsPanel = document.getElementById('suggestionsPanel');
+    
+    function updateSuggestions(searchTerm) {
+        const term = searchTerm.toLowerCase().trim();
+        if (!term || !examinerList.length) { suggestionsPanel.classList.remove('show'); return; }
+        const matches = examinerList.filter(ex => String(ex).toLowerCase().includes(term));
+        if (matches.length === 0) { suggestionsPanel.classList.remove('show'); return; }
+        let html = '';
+        matches.forEach(ex => {
+            html += `<div class="suggestion-item" data-examiner="${ex.replace(/"/g, '&quot;')}"><i class="fas fa-user-graduate"></i><span>${ex}</span></div>`;
+        });
+        suggestionsPanel.innerHTML = html;
+        suggestionsPanel.classList.add('show');
+        document.querySelectorAll('.suggestion-item').forEach(item => {
+            item.addEventListener('click', () => {
+                currentExaminerId = item.getAttribute('data-examiner');
+                searchInput.value = currentExaminerId;
+                suggestionsPanel.classList.remove('show');
+                renderTable();
+            });
+        });
+    }
+    
+    searchInput.addEventListener('input', (e) => {
+        const val = e.target.value;
+        if (!val.trim()) {
+            currentExaminerId = null;
+            renderTable();
+            suggestionsPanel.classList.remove('show');
+        } else {
+            updateSuggestions(val);
+        }
+    });
+    
+    document.addEventListener('click', (e) => {
+        if (!searchInput.contains(e.target) && !suggestionsPanel.contains(e.target)) {
+            suggestionsPanel.classList.remove('show');
+        }
+    });
+    
+    // Load data
+    fetch('pgexam1.json')
+        .then(response => response.json())
+        .then(data => {
+            fullData = data;
+            examinerList = buildExaminerList(fullData);
+            loadConductedSet();
+            renderTable();
+        })
+        .catch(err => {
+            console.error(err);
+            document.getElementById('tableBody').innerHTML = '⼀<td colspan="8" class="no-projects-table" style="color:#b13e5c;"><i class="fas fa-exclamation-triangle"></i> Failed to load pgexam1.json. Make sure the file exists.⼀⼀';
+        });
+</script>
+</body>
+</html>

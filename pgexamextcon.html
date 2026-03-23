@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.5, user-scalable=yes">
+    <title>External Examiners Summary - Parul University</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #f0f7ff 0%, #e8f0fa 100%);
+            font-family: 'Inter', sans-serif;
+            padding: 2rem;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        
+        .header h1 {
+            color: #093456;
+            font-size: 2rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            margin-bottom: 0.5rem;
+        }
+        
+        .header h2 {
+            color: #1e4f75;
+            font-size: 1.2rem;
+            font-weight: 500;
+            margin-bottom: 0.5rem;
+        }
+        
+        .header .session {
+            background: #e2edf9;
+            padding: 0.5rem 2rem;
+            border-radius: 40px;
+            display: inline-block;
+            font-weight: 600;
+            color: #104a73;
+            font-size: 0.9rem;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+        
+        .stat-card {
+            background: white;
+            border-radius: 20px;
+            padding: 1.2rem;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+            border: 1px solid #d9e5f2;
+        }
+        
+        .stat-card i {
+            font-size: 2rem;
+            color: #1f5c8b;
+            margin-bottom: 0.5rem;
+        }
+        
+        .stat-card .number {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #093456;
+        }
+        
+        .stat-card .label {
+            color: #6683a1;
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+        
+        .table-wrapper {
+            background: white;
+            border-radius: 24px;
+            overflow-x: auto;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+            border: 1px solid #daeaf9;
+        }
+        
+        .examiner-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.9rem;
+            min-width: 1000px;
+        }
+        
+        .examiner-table th {
+            background: #1e3b5a;
+            color: white;
+            font-weight: 600;
+            padding: 1rem 1rem;
+            text-align: left;
+            white-space: nowrap;
+        }
+        
+        .examiner-table td {
+            padding: 1rem 1rem;
+            border-bottom: 1px solid #e9f0f5;
+            vertical-align: middle;
+        }
+        
+        .examiner-table tr:hover {
+            background: #f8fbfe;
+        }
+        
+        .room-badge {
+            background: #deecf7;
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            color: #023b61;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
+        }
+        
+        .panel-badge {
+            background: #1f5c8b;
+            color: white;
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            text-align: center;
+            display: inline-block;
+            min-width: 50px;
+        }
+        
+        .group-range {
+            font-weight: 600;
+            color: #1e4f75;
+            background: #eef3fc;
+            padding: 0.2rem 0.6rem;
+            border-radius: 12px;
+            display: inline-block;
+            font-size: 0.85rem;
+        }
+        
+        .mobile-number {
+            font-family: monospace;
+            font-size: 0.9rem;
+            color: #2c5a7a;
+            font-weight: 500;
+        }
+        
+        .footer {
+            margin-top: 2rem;
+            text-align: center;
+            color: #6683a1;
+            font-size: 0.85rem;
+        }
+        
+        .print-btn {
+            background: #1f5c8b;
+            border: none;
+            border-radius: 40px;
+            padding: 0.7rem 1.5rem;
+            color: white;
+            font-weight: 600;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+            font-size: 0.9rem;
+            transition: all 0.2s;
+        }
+        
+        .print-btn:hover {
+            background: #0e4166;
+            transform: scale(1.02);
+        }
+        
+        .loading-spinner {
+            text-align: center;
+            padding: 3rem;
+            color: #6683a1;
+        }
+        
+        .loading-spinner i {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            display: block;
+        }
+        
+        @media print {
+            body {
+                background: white;
+                padding: 0.5rem;
+            }
+            .print-btn {
+                display: none;
+            }
+            .stats-grid {
+                break-inside: avoid;
+            }
+            .examiner-table tr {
+                break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h1><i class="fas fa-chalkboard-user"></i> PARUL UNIVERSITY</h1>
+        <h2>FACULTY OF IT & COMPUTER SCIENCE</h2>
+        <div class="session">
+            <i class="fas fa-calendar-alt"></i> MCA / MScIT SEM-4 ESE MAJOR PROJECT VIVA SUMMER 2025-26
+        </div>
+    </div>
+    
+    <div style="text-align: right; margin-bottom: 1rem;">
+        <button class="print-btn" onclick="window.print()">
+            <i class="fas fa-print"></i> Print / Save as PDF
+        </button>
+    </div>
+    
+    <div class="stats-grid" id="statsGrid">
+        <div class="stat-card">
+            <i class="fas fa-spinner fa-pulse"></i>
+            <div class="number">--</div>
+            <div class="label">Loading...</div>
+        </div>
+    </div>
+    
+    <div class="table-wrapper">
+        <table class="examiner-table" id="examinerTable">
+            <thead>
+                <tr>
+                    <th>Sr. No</th>
+                    <th>Name of External Examiner</th>
+                    <th>Mobile Number</th>
+                    <th>Room Number</th>
+                    <th>Panel No</th>
+                    <th>Group ID From</th>
+                    <th>Group ID To</th>
+                    <th>Total Groups</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+                <tr>
+                    <td colspan="8" class="loading-spinner">
+                        <i class="fas fa-spinner fa-pulse fa-2x"></i>
+                        Loading examiner data from pgexam1.json...
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    <div class="footer">
+        <i class="fas fa-info-circle"></i> Group assignments  | Generated on <span id="dateSpan"></span>
+    </div>
+</div>
+
+<script>
+    // Examiner details with mobile numbers and rooms
+    const examiners = [
+        { sr: 1, name: "HARDIK ISHWARBHAI PATEL", room: "Bhagat Singh 301", mobile: "7405755416", panel: 1 },
+        { sr: 2, name: "RONESHKUMAR GANGAVANI", room: "Bhagat Singh 301", mobile: "8799025538", panel: 2 },
+        { sr: 3, name: "KAUSHAL GIRISHKUMAR GOR", room: "Bhagat Singh 302", mobile: "9824569119", panel: 3 },
+        { sr: 4, name: "NAVTEJ PRAHLADBHAI BHATT", room: "Bhagat Singh 302", mobile: "9723723000", panel: 4 },
+        { sr: 5, name: "Akilhusein Zulfikar Surti", room: "Bhagat Singh 303", mobile: "9725775994", panel: 5 },
+        { sr: 6, name: "Dr.Arpan Raval", room: "Bhagat Singh 304", mobile: "9825151390", panel: 6 },
+        { sr: 7, name: "Ms.Lisa Shah", room: "Bhagat Singh 305", mobile: "9409332255", panel: 7 },
+        { sr: 8, name: "Kinjal Acharya", room: "Bhagat Singh 306", mobile: "8849560651", panel: 8 },
+        { sr: 9, name: "PATEL JIGNESH TULSIDAS", room: "Bhagat Singh 307", mobile: "9879632892", panel: 9 },
+        { sr: 10, name: "Mr.Anupam Mund", room: "Bhagat Singh 308", mobile: "7978648010", panel: 10 },
+        { sr: 11, name: "Prashant Shah", room: "Bhagat Singh 309", mobile: "7878232929", panel: 11 },
+        { sr: 12, name: "PRAVINKUMAR RAMESHBHAI PATEL", room: "Bhagat Singh 601", mobile: "9265506775", panel: 12 },
+        { sr: 13, name: "Kaniya Agrawal", room: "Bhagat Singh 602", mobile: "7600920007", panel: 13 },
+        { sr: 14, name: "Thakkar Meet Bharatbhai", room: "Bhagat Singh 603", mobile: "8401321900", panel: 14 },
+        { sr: 15, name: "Vishal Makwana", room: "Bhagat Singh 604", mobile: "8401584017", panel: 15 },
+        { sr: 16, name: "Jalpa Harshit Desai", room: "Bhagat Singh 605", mobile: "9898639553", panel: 16 },
+        { sr: 17, name: "Smruti Sharma", room: "Bhagat Singh 606", mobile: "6372305724", panel: 17 },
+        { sr: 18, name: "Divya Agrawal", room: "Bhagat Singh 607", mobile: "8866116696", panel: 18 },
+        { sr: 19, name: "Dr.Raj Sinha", room: "New Building(Front of Subhash Chandra Bose Building) 210", mobile: "Not Available", panel: 19 },
+        { sr: 20, name: "Dr.Ramchandran", room: "New Building(Front of Subhash Chandra Bose Building) 209", mobile: "Not Available", panel: 20 }
+    ];
+    
+    // Function to fetch actual group data from pgexam1.json
+    async function fetchGroupData() {
+        try {
+            const response = await fetch('pgexam1.json');
+            if (!response.ok) {
+                throw new Error(`HTTP ${response.status} - Could not load pgexam1.json`);
+            }
+            const data = await response.json();
+            return data;
+        } catch (error) {
+            console.error('Error fetching pgexam1.json:', error);
+            return null;
+        }
+    }
+    
+    // Process group assignments by examiner from actual data
+    function processGroupAssignments(data) {
+        const assignments = new Map();
+        
+        // Initialize all examiners with empty arrays
+        examiners.forEach(examiner => {
+            assignments.set(examiner.name, []);
+        });
+        
+        if (data && Array.isArray(data)) {
+            data.forEach(item => {
+                const examiner = item['External Examiner'];
+                const groupId = item['Group ID'];
+                if (examiner && groupId && assignments.has(examiner)) {
+                    assignments.get(examiner).push(groupId);
+                }
+            });
+        }
+        
+        return assignments;
+    }
+    
+    // Sort and get group range from list of group IDs
+    function getGroupRange(groupIds) {
+        if (!groupIds || groupIds.length === 0) {
+            return { from: '—', to: '—', count: 0, allGroups: [] };
+        }
+        
+        // Convert to numbers for proper sorting
+        const numbers = groupIds.map(id => {
+            const num = parseInt(id);
+            return isNaN(num) ? id : num;
+        }).sort((a, b) => {
+            if (typeof a === 'number' && typeof b === 'number') return a - b;
+            if (typeof a === 'number') return -1;
+            if (typeof b === 'number') return 1;
+            return String(a).localeCompare(String(b));
+        });
+        
+        const first = numbers[0];
+        const last = numbers[numbers.length - 1];
+        
+        return {
+            from: first,
+            to: last,
+            count: groupIds.length,
+            allGroups: numbers
+        };
+    }
+    
+    // Render the table with actual data
+    function renderTable(groupAssignmentsMap) {
+        const tbody = document.getElementById('tableBody');
+        let html = '';
+        let totalGroupsAcrossAll = 0;
+        
+        examiners.forEach(examiner => {
+            const groups = groupAssignmentsMap.get(examiner.name) || [];
+            const range = getGroupRange(groups);
+            totalGroupsAcrossAll += range.count;
+            
+            // Format group range display
+            let fromDisplay = range.from !== '—' ? range.from : '—';
+            let toDisplay = range.to !== '—' ? range.to : '—';
+            
+            // If only one group, show only that group
+            if (range.count === 1) {
+                fromDisplay = range.from;
+                toDisplay = range.from;
+            }
+            
+            html += `
+                <tr>
+                    <td style="text-align: center; font-weight: 600;">${examiner.sr}</td>
+                    <td style="font-weight: 500;">
+                        <i class="fas fa-user-tie" style="color: #1f5c8b; margin-right: 8px;"></i>
+                        ${examiner.name}
+                    </td>
+                    <td>
+                        <span class="mobile-number">
+                            <i class="fas fa-phone-alt" style="color: #4a7c59; font-size: 0.8rem;"></i>
+                            ${examiner.mobile}
+                        </span>
+                    </td>
+                    <td>
+                        <span class="room-badge">
+                            <i class="fas fa-door-open"></i> ${examiner.room}
+                        </span>
+                    </td>
+                    <td style="text-align: center;">
+                        <span class="panel-badge">
+                            <i class="fas fa-chalkboard"></i> ${examiner.panel}
+                        </span>
+                    </td>
+                    <td style="text-align: center;">
+                        <span class="group-range">
+                            ${fromDisplay}
+                        </span>
+                    </td>
+                    <td style="text-align: center;">
+                        <span class="group-range">
+                            ${toDisplay}
+                        </span>
+                    </td>
+                    <td style="text-align: center; font-weight: 600; color: #1f5c8b;">
+                        ${range.count}
+                    </td>
+                </tr>
+            `;
+        });
+        
+        tbody.innerHTML = html;
+        
+        // Update stats
+        const totalExaminers = examiners.length;
+        const totalPanels = 20;
+        const totalRooms = [...new Set(examiners.map(e => e.room))].length;
+        
+        document.getElementById('statsGrid').innerHTML = `
+            <div class="stat-card">
+                <i class="fas fa-chalkboard-user"></i>
+                <div class="number">${totalExaminers}</div>
+                <div class="label">External Examiners</div>
+            </div>
+            <div class="stat-card">
+                <i class="fas fa-chalkboard"></i>
+                <div class="number">${totalPanels}</div>
+                <div class="label">Evaluation Panels</div>
+            </div>
+            <div class="stat-card">
+                <i class="fas fa-door-open"></i>
+                <div class="number">${totalRooms}</div>
+                <div class="label">Rooms</div>
+            </div>
+            <div class="stat-card">
+                <i class="fas fa-users"></i>
+                <div class="number">${totalGroupsAcrossAll}</div>
+                <div class="label">Groups Assigned</div>
+            </div>
+        `;
+    }
+    
+    // Display error if JSON file not found
+    function displayError(message) {
+        const tbody = document.getElementById('tableBody');
+        tbody.innerHTML = `
+            <tr>
+                <td colspan="8" style="text-align: center; padding: 3rem; color: #b13e5c;">
+                    <i class="fas fa-exclamation-triangle" style="font-size: 2rem; margin-bottom: 1rem; display: block;"></i>
+                    ${message}<br>
+                    <small style="color: #6683a1;">Make sure pgexam1.json is in the same folder as this HTML file.</small>
+                </td>
+            </tr>
+        `;
+        
+        document.getElementById('statsGrid').innerHTML = `
+            <div class="stat-card">
+                <i class="fas fa-exclamation-triangle"></i>
+                <div class="number">0</div>
+                <div class="label">Data Load Failed</div>
+            </div>
+        `;
+    }
+    
+    // Load and display data
+    async function loadData() {
+        try {
+            const groupData = await fetchGroupData();
+            
+            if (!groupData || !Array.isArray(groupData)) {
+                displayError('Failed to load pgexam1.json. Please check if the file exists and is valid.');
+                return;
+            }
+            
+            const assignments = processGroupAssignments(groupData);
+            renderTable(assignments);
+            
+            // Set current date
+            document.getElementById('dateSpan').textContent = new Date().toLocaleDateString('en-GB', {
+                day: 'numeric',
+                month: 'long',
+                year: 'numeric'
+            });
+        } catch (error) {
+            console.error('Error loading data:', error);
+            displayError('Error loading pgexam1.json. Please check the console for details.');
+        }
+    }
+    
+    // Initialize
+    loadData();
+</script>
+</body>
+</html>
