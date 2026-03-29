@@ -278,6 +278,8 @@
 </div>
 
 <script>
+	 disable right click (optional - uncomment if needed)
+        document.addEventListener('contextmenu', e => e.preventDefault());
     // Examiner details with mobile numbers and rooms
     const examiners = [
         { sr: 1, name: "HARDIK ISHWARBHAI PATEL", room: "Bhagat Singh 301", mobile: "7405755416", panel: 1 },
@@ -300,7 +302,7 @@
         { sr: 18, name: "Divya Agrawal", room: "Bhagat Singh 607", mobile: "8866116696", panel: 18 },
         { sr: 19, name: "Dr.Raj Sinha", room: "New Building(Front of Subhash Chandra Bose Building) 210", mobile: "Not Available", panel: 19 },
         { sr: 20, name: "Dr.Ramchandran", room: "New Building(Front of Subhash Chandra Bose Building) 209", mobile: "Not Available", panel: 20 },
-		{ sr: 21, name: "Dr.Saswati Chatterjee", room: "New Building(Front of Subhash Chandra Bose Building) 211", mobile: "Not Available", panel: 21 }
+		{ sr: 21, name: "Dr. Ratnesh Namdeo", room: "New Building(Front of Subhash Chandra Bose Building) 211", mobile: "Not Available", panel: 21 }
     ];
     
     // Function to fetch actual group data from pgexam1.json
