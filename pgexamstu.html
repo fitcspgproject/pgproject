@@ -316,6 +316,9 @@
 </div>
 
 <script>
+	document.addEventListener('contextmenu', function(e) {
+  e.preventDefault();
+});
     (function() {
         // ----- ROOM MAPPING (exact same list as external faculty) -----
      const roomMapping = new Map([
