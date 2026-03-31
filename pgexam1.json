@@ -1874,16 +1874,26 @@
     {
       "Name": "Puppala komal",
       "Enrollment": "2405112120145"
-    },
-    {
-      "Name": "Daniel",
-      "Enrollment": "2405112120108"
     }
   ],
   "Project_Title": "Pharmacy management system",
   "Reporting Time": "12.30 PM",
   "External Examiner": "Ms.Lisa Shah"
 },{
+  "Group ID": "158",
+  "Members": [
+    {
+      "Name": "N. Daniel Manohar Joy",
+      "Enrollment": "2405112120108"
+    }
+  ],
+  "Project_Title": "Student Database Management System ",
+  "Reporting Time": "12.30 PM",
+  "External Examiner": "Ms.Lisa Shah"
+}
+	
+	
+	,{
   "Group ID": "159",
   "Members": [
     {
