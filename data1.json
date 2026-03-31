@@ -11858,31 +11858,7 @@
       }
     ]
   },
-  {
-    "company_name": "Elevance Skills",
-    "address": "",
-    "website": "",
-    "contact": "",
-    "mentor": "",
-    "internal_guide": "Prof.Harshith Kashetti",
-    "projects": [
-      {
-        "s_no": 452,
-        "members": [
-          {
-            "name": "Rajveer Lachhwani",
-            "enrollment": "2405112140044",
-            "mobile": "",
-            "program": "MCA,J"
-          }
-        ],
-        "project_title": "Zero Trust Authentication",
-        "project_description": "",
-        "front_end": "",
-        "back_end": ""
-      }
-    ]
-  },
+  
   {
     "company_name": "Brainy Beam",
     "address": "",
